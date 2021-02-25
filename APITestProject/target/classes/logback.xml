@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="fileAppender" class="ch.qos.logback.core.FileAppender">
+        <file>logs/Logs.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d [%thread] %-5level  %logger{35}\(%line\) - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+     <encoder>
+            <pattern>%d [%thread] %-5level  %logger{35}\(%line\) - %msg%n</pattern>
+        </encoder>
+    </appender>
+    
+    <timestamp key="myTimestamp" datePattern="ddMMyyyy'_'HHmmss"/>
+    
+  <appender name="SIFT" class="ch.qos.logback.classic.sift.SiftingAppender">
+    <!-- in the absence of the class attribute, it is assumed that the
+         desired discriminator type is
+         ch.qos.logback.classic.sift.MDCBasedDiscriminator -->
+     <discriminator>
+      <key>file_name</key>
+      <defaultValue>unknown</defaultValue>
+      </discriminator>
+    <sift>
+      <appender name="FILE-${file_name}" class="ch.qos.logback.core.FileAppender">
+        <file>logs/${file_name}/${file_name}_${myTimestamp}.log</file>
+        <append>false</append>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+          <pattern>%d [%thread] %-5level  %logger{35}\(%line\) - %msg%n</pattern>
+        </layout>
+      </appender>
+    </sift>
+  </appender>
+       <root level="INFO">
+        <appender-ref ref="SIFT" />
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>

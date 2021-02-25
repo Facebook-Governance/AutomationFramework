@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ReqResAPISuite" class="navigator-link">
+              <span class="suite-name border-passed">ReqResAPISuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ReqResAPISuite" class="navigator-link ">
+                    <span>C:\Users\rshrivastav\eclipse-workspace\APITestProject\Reqres_TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ReqResAPISuite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ReqResAPISuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ReqResAPISuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ReqResAPISuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ReqResAPISuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ReqResAPISuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ReqResAPISuite" class="hide-methods passed suite-ReqResAPISuite"> (hide)</a> <!-- hide-methods passed suite-ReqResAPISuite -->
+                      <a href="#" panel-name="suite-ReqResAPISuite" class="show-methods passed suite-ReqResAPISuite"> (show)</a> <!-- show-methods passed suite-ReqResAPISuite -->
+                    </span>
+                    <div class="method-list-content passed suite-ReqResAPISuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.CreateUser.CreateUser" class="method navigator-link" hash-for-method="createUserSuccessfully">createUserSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.CreateUser.CreateUser" class="method navigator-link" hash-for-method="createUserUnSuccessfully_BodyNotProvided">createUserUnSuccessfully_BodyNotProvided</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.DeleteUser.DeleteUser" class="method navigator-link" hash-for-method="deleteUser1">deleteUser1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.DeleteUser.DeleteUser" class="method navigator-link" hash-for-method="deleteUser2">deleteUser2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.ListUsers.ListUsers" class="method navigator-link" hash-for-method="listAllUsersInformaitonPageOne">listAllUsersInformaitonPageOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.ListUsers.ListUsers" class="method navigator-link" hash-for-method="listAllUsersInformaitonPageTwo">listAllUsersInformaitonPageTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.ListUsers.ListUsers" class="method navigator-link" hash-for-method="listSingleUserInformation">listSingleUserInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.RegisterUser.RegisterUser" class="method navigator-link" hash-for-method="registerUserSuccessfully">registerUserSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.RegisterUser.RegisterUser" class="method navigator-link" hash-for-method="registerUserUnSuccessfully_EmailNotProvided">registerUserUnSuccessfully_EmailNotProvided</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.RegisterUser.RegisterUser" class="method navigator-link" hash-for-method="registerUserUnSuccessfully_PasswordNotProvided">registerUserUnSuccessfully_PasswordNotProvided</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.RegisterUser.RegisterUser" class="method navigator-link" hash-for-method="registerUserUnSuccessfully_WrongBody">registerUserUnSuccessfully_WrongBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.Update.UpdateUser" class="method navigator-link" hash-for-method="updateOnlyJobInUserInfo">updateOnlyJobInUserInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.Update.UpdateUser" class="method navigator-link" hash-for-method="updateUser">updateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.Update.UpdateUser" class="method navigator-link" hash-for-method="updateUserAndValidateUdpatedTime">updateUserAndValidateUdpatedTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ReqResAPISuite" title="com.Update.UpdateUser" class="method navigator-link" hash-for-method="updateUserNegativeUseCase">updateUserNegativeUseCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ReqResAPISuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ReqResAPISuite" class="panel ReqResAPISuite">
+          <div class="suite-ReqResAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.CreateUser.CreateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserSuccessfully">
+                  </a> <!-- createUserSuccessfully -->
+                  <span class="method-name">createUserSuccessfully</span>
+                  <em>
+(Verify Create User Flow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserUnSuccessfully_BodyNotProvided">
+                  </a> <!-- createUserUnSuccessfully_BodyNotProvided -->
+                  <span class="method-name">createUserUnSuccessfully_BodyNotProvided</span>
+                  <em>
+(Verify Un-successful create user flow when correct body is not provided)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqResAPISuite-class-passed -->
+          <div class="suite-ReqResAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Update.UpdateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateOnlyJobInUserInfo">
+                  </a> <!-- updateOnlyJobInUserInfo -->
+                  <span class="method-name">updateOnlyJobInUserInfo</span>
+                  <em>
+(Verify update user with only job update)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUser">
+                  </a> <!-- updateUser -->
+                  <span class="method-name">updateUser</span>
+                  <em>
+(Verify Create User Flow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUserAndValidateUdpatedTime">
+                  </a> <!-- updateUserAndValidateUdpatedTime -->
+                  <span class="method-name">updateUserAndValidateUdpatedTime</span>
+                  <em>
+(Verify Create User Flow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUserNegativeUseCase">
+                  </a> <!-- updateUserNegativeUseCase -->
+                  <span class="method-name">updateUserNegativeUseCase</span>
+                  <em>
+(Verify negative use case when body of the API is wrong)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqResAPISuite-class-passed -->
+          <div class="suite-ReqResAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ListUsers.ListUsers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="listAllUsersInformaitonPageOne">
+                  </a> <!-- listAllUsersInformaitonPageOne -->
+                  <span class="method-name">listAllUsersInformaitonPageOne</span>
+                  <em>
+(Verify get information about Single List all users for different Pages, :: here Page 1)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listAllUsersInformaitonPageTwo">
+                  </a> <!-- listAllUsersInformaitonPageTwo -->
+                  <span class="method-name">listAllUsersInformaitonPageTwo</span>
+                  <em>
+(Verify get information about Single List all users for different Pages, :: here Page 1)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listSingleUserInformation">
+                  </a> <!-- listSingleUserInformation -->
+                  <span class="method-name">listSingleUserInformation</span>
+                  <em>
+(Verify get information about Single List User)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqResAPISuite-class-passed -->
+          <div class="suite-ReqResAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DeleteUser.DeleteUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser1">
+                  </a> <!-- deleteUser1 -->
+                  <span class="method-name">deleteUser1</span>
+                  <em>
+(Verify Delete User Flow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser2">
+                  </a> <!-- deleteUser2 -->
+                  <span class="method-name">deleteUser2</span>
+                  <em>
+(Verify Delete User Flow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqResAPISuite-class-passed -->
+          <div class="suite-ReqResAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.RegisterUser.RegisterUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUserSuccessfully">
+                  </a> <!-- registerUserSuccessfully -->
+                  <span class="method-name">registerUserSuccessfully</span>
+                  <em>
+(Verify successful User Registration)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUserUnSuccessfully_EmailNotProvided">
+                  </a> <!-- registerUserUnSuccessfully_EmailNotProvided -->
+                  <span class="method-name">registerUserUnSuccessfully_EmailNotProvided</span>
+                  <em>
+(Verify Un-successful User Registration when email is not provided)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUserUnSuccessfully_PasswordNotProvided">
+                  </a> <!-- registerUserUnSuccessfully_PasswordNotProvided -->
+                  <span class="method-name">registerUserUnSuccessfully_PasswordNotProvided</span>
+                  <em>
+(Verify Un-successful User Registration when password is not provided)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUserUnSuccessfully_WrongBody">
+                  </a> <!-- registerUserUnSuccessfully_WrongBody -->
+                  <span class="method-name">registerUserUnSuccessfully_WrongBody</span>
+                  <em>
+(Verify User Registration when wrong body is provided)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ReqResAPISuite-class-passed -->
+        </div> <!-- panel ReqResAPISuite -->
+        <div panel-name="test-xml-ReqResAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rshrivastav\eclipse-workspace\APITestProject\Reqres_TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ReqResAPISuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;Environment&quot; value=&quot;reqres&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.listeners.ReportGenerator&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Register User&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.RegisterUser.RegisterUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Register User --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Create User&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.CreateUser.CreateUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create User --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;List User&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ListUsers.ListUsers&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- List User --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Update User&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Update.UpdateUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Update User --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Delete User&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.DeleteUser.DeleteUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Delete User --&gt;
+&lt;/suite&gt; &lt;!-- ReqResAPISuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ReqResAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ReqResAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Register User (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create User (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">List User (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Update User (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Delete User (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ReqResAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ReqResAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ReqResAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ReqResAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ReqResAPISuite');
+function tableData_ReqResAPISuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'registerUserSuccessfully')
+data.setCell(0, 2, 'com.RegisterUser.RegisterUser')
+data.setCell(0, 3, 1250);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'registerUserUnSuccessfully_PasswordNotProvided')
+data.setCell(1, 2, 'com.RegisterUser.RegisterUser')
+data.setCell(1, 3, 810);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'registerUserUnSuccessfully_EmailNotProvided')
+data.setCell(2, 2, 'com.RegisterUser.RegisterUser')
+data.setCell(2, 3, 407);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'listSingleUserInformation')
+data.setCell(3, 2, 'com.ListUsers.ListUsers')
+data.setCell(3, 3, 403);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createUserSuccessfully')
+data.setCell(4, 2, 'com.CreateUser.CreateUser')
+data.setCell(4, 3, 392);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'listAllUsersInformaitonPageTwo')
+data.setCell(5, 2, 'com.ListUsers.ListUsers')
+data.setCell(5, 3, 391);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'registerUserUnSuccessfully_WrongBody')
+data.setCell(6, 2, 'com.RegisterUser.RegisterUser')
+data.setCell(6, 3, 387);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'updateUser')
+data.setCell(7, 2, 'com.Update.UpdateUser')
+data.setCell(7, 3, 385);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'listAllUsersInformaitonPageOne')
+data.setCell(8, 2, 'com.ListUsers.ListUsers')
+data.setCell(8, 3, 382);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'updateUserAndValidateUdpatedTime')
+data.setCell(9, 2, 'com.Update.UpdateUser')
+data.setCell(9, 3, 371);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'deleteUser1')
+data.setCell(10, 2, 'com.DeleteUser.DeleteUser')
+data.setCell(10, 3, 362);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'deleteUser2')
+data.setCell(11, 2, 'com.DeleteUser.DeleteUser')
+data.setCell(11, 3, 360);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'updateOnlyJobInUserInfo')
+data.setCell(12, 2, 'com.Update.UpdateUser')
+data.setCell(12, 3, 358);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'updateUserNegativeUseCase')
+data.setCell(13, 2, 'com.Update.UpdateUser')
+data.setCell(13, 3, 341);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'createUserUnSuccessfully_BodyNotProvided')
+data.setCell(14, 2, 'com.CreateUser.CreateUser')
+data.setCell(14, 3, 209);
+window.suiteTableData['ReqResAPISuite']= { tableData: data, tableDiv: 'times-div-ReqResAPISuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-ReqResAPISuite">
+              </div> <!-- times-div-ReqResAPISuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ReqResAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ReqResAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ReqResAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ReqResAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DeleteUser.DeleteUser</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite(reqres)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.RegisterUser.RegisterUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">111 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">registerUserSuccessfully</span>
+                <span class="method-start">912 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerUserUnSuccessfully_PasswordNotProvided</span>
+                <span class="method-start">2540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerUserUnSuccessfully_EmailNotProvided</span>
+                <span class="method-start">3476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerUserUnSuccessfully_WrongBody</span>
+                <span class="method-start">3977 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CreateUser.CreateUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">4473 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">createUserSuccessfully</span>
+                <span class="method-start">4474 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUserUnSuccessfully_BodyNotProvided</span>
+                <span class="method-start">4967 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ListUsers.ListUsers</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">5280 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">listSingleUserInformation</span>
+                <span class="method-start">5281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">listAllUsersInformaitonPageOne</span>
+                <span class="method-start">5907 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">listAllUsersInformaitonPageTwo</span>
+                <span class="method-start">6430 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Update.UpdateUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">6957 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">updateUser</span>
+                <span class="method-start">6958 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateUserAndValidateUdpatedTime</span>
+                <span class="method-start">7490 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateUserNegativeUseCase</span>
+                <span class="method-start">7981 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateOnlyJobInUserInfo</span>
+                <span class="method-start">8444 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DeleteUser.DeleteUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">8970 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">deleteUser1</span>
+                <span class="method-start">8971 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUser2</span>
+                <span class="method-start">9576 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

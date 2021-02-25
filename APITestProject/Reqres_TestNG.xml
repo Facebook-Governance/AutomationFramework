@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ReqResAPISuite">
+<listeners>
+		<listener class-name="com.listeners.ReportGenerator" />
+	</listeners>
+	<parameter name="Environment" value="reqres" />
+
+	<test thread-count="5" name="Register User">
+		<classes>
+			<class name="com.RegisterUser.RegisterUser" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Create User">
+		<classes>
+			<class name="com.CreateUser.CreateUser" />
+		</classes>
+	</test>
+	<test thread-count="5" name="List User">
+		<classes>
+			<class name="com.ListUsers.ListUsers" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Update User">
+		<classes>
+			<class name="com.Update.UpdateUser" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Delete User">
+		<classes>
+			<class name="com.DeleteUser.DeleteUser" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">ReqResAPISuite</th></tr>
+<tr><td><a href="#t0">Register User</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">4,407</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Create User</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">796</td><td></td><td></td></tr>
+<tr><td><a href="#t2">List User</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">1,668</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Update User</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">2,003</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Delete User</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">1,172</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">15</th><th class="num">0</th><th class="num">0</th><th class="num">10,046</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ReqResAPISuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Register User &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.RegisterUser.RegisterUser</td><td><a href="#m0">registerUserSuccessfully</a></td><td rowspan="1">1614245172714</td><td rowspan="1">1250</td></tr><tr class="passedeven"><td><a href="#m1">registerUserUnSuccessfully_EmailNotProvided</a></td><td rowspan="1">1614245175278</td><td rowspan="1">407</td></tr><tr class="passedeven"><td><a href="#m2">registerUserUnSuccessfully_PasswordNotProvided</a></td><td rowspan="1">1614245174342</td><td rowspan="1">810</td></tr><tr class="passedeven"><td><a href="#m3">registerUserUnSuccessfully_WrongBody</a></td><td rowspan="1">1614245175779</td><td rowspan="1">387</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Create User &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.CreateUser.CreateUser</td><td><a href="#m4">createUserSuccessfully</a></td><td rowspan="1">1614245176276</td><td rowspan="1">392</td></tr><tr class="passedeven"><td><a href="#m5">createUserUnSuccessfully_BodyNotProvided</a></td><td rowspan="1">1614245176769</td><td rowspan="1">209</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">List User &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.ListUsers.ListUsers</td><td><a href="#m6">listAllUsersInformaitonPageOne</a></td><td rowspan="1">1614245177709</td><td rowspan="1">382</td></tr><tr class="passedeven"><td><a href="#m7">listAllUsersInformaitonPageTwo</a></td><td rowspan="1">1614245178232</td><td rowspan="1">391</td></tr><tr class="passedeven"><td><a href="#m8">listSingleUserInformation</a></td><td rowspan="1">1614245177083</td><td rowspan="1">403</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Update User &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.Update.UpdateUser</td><td><a href="#m9">updateOnlyJobInUserInfo</a></td><td rowspan="1">1614245180246</td><td rowspan="1">358</td></tr><tr class="passedeven"><td><a href="#m10">updateUser</a></td><td rowspan="1">1614245178760</td><td rowspan="1">385</td></tr><tr class="passedeven"><td><a href="#m11">updateUserAndValidateUdpatedTime</a></td><td rowspan="1">1614245179292</td><td rowspan="1">371</td></tr><tr class="passedeven"><td><a href="#m12">updateUserNegativeUseCase</a></td><td rowspan="1">1614245179783</td><td rowspan="1">341</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Delete User &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.DeleteUser.DeleteUser</td><td><a href="#m13">deleteUser1</a></td><td rowspan="1">1614245180773</td><td rowspan="1">362</td></tr><tr class="passedeven"><td><a href="#m14">deleteUser2</a></td><td rowspan="1">1614245181378</td><td rowspan="1">360</td></tr></tbody>
+</table>
+<h2>Register User</h2><h3 id="m0">com.RegisterUser.RegisterUser#registerUserSuccessfully</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.RegisterUser.RegisterUser#registerUserUnSuccessfully_EmailNotProvided</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.RegisterUser.RegisterUser#registerUserUnSuccessfully_PasswordNotProvided</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.RegisterUser.RegisterUser#registerUserUnSuccessfully_WrongBody</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Create User</h2><h3 id="m4">com.CreateUser.CreateUser#createUserSuccessfully</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.CreateUser.CreateUser#createUserUnSuccessfully_BodyNotProvided</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>List User</h2><h3 id="m6">com.ListUsers.ListUsers#listAllUsersInformaitonPageOne</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.ListUsers.ListUsers#listAllUsersInformaitonPageTwo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.ListUsers.ListUsers#listSingleUserInformation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Update User</h2><h3 id="m9">com.Update.UpdateUser#updateOnlyJobInUserInfo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.Update.UpdateUser#updateUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.Update.UpdateUser#updateUserAndValidateUdpatedTime</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.Update.UpdateUser#updateUserNegativeUseCase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Delete User</h2><h3 id="m13">com.DeleteUser.DeleteUser#deleteUser1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.DeleteUser.DeleteUser#deleteUser2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

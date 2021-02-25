@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestFramework">
+	<listeners>
+		<listener class-name="com.org.listeners.ReportGenerator" />
+	</listeners>
+	<parameter name="Environment" value="fasal" />
+	<parameter name="Browser" value="Chrome" />
+
+	<test thread-count="5" name="Selenium Automation">
+		<classes>
+			<class name="com.org.WebAppAutomation.PurchaseProduct" />
+		</classes>
+	</test>
+</suite>

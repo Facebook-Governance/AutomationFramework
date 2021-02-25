@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-25T09:26:11Z" name="ReqResAPISuite" finished-at="2021-02-25T09:26:21Z" duration-ms="10115">
+    <groups>
+    </groups>
+    <test started-at="2021-02-25T09:26:11Z" name="Register User" finished-at="2021-02-25T09:26:16Z" duration-ms="4407">
+      <class name="com.RegisterUser.RegisterUser">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.RegisterUser.RegisterUser@3899782c]" started-at="2021-02-25T09:26:11Z" name="beforeTest" finished-at="2021-02-25T09:26:12Z" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="registerUserSuccessfully()[pri:0, instance:com.RegisterUser.RegisterUser@3899782c]" started-at="2021-02-25T09:26:12Z" name="registerUserSuccessfully" description="Verify successful User Registration" finished-at="2021-02-25T09:26:13Z" duration-ms="1250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserSuccessfully -->
+        <test-method signature="registerUserUnSuccessfully_PasswordNotProvided()[pri:1, instance:com.RegisterUser.RegisterUser@3899782c]" started-at="2021-02-25T09:26:14Z" name="registerUserUnSuccessfully_PasswordNotProvided" description="Verify Un-successful User Registration when password is not provided" finished-at="2021-02-25T09:26:15Z" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserUnSuccessfully_PasswordNotProvided -->
+        <test-method signature="registerUserUnSuccessfully_EmailNotProvided()[pri:2, instance:com.RegisterUser.RegisterUser@3899782c]" started-at="2021-02-25T09:26:15Z" name="registerUserUnSuccessfully_EmailNotProvided" description="Verify Un-successful User Registration when email is not provided" finished-at="2021-02-25T09:26:15Z" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserUnSuccessfully_EmailNotProvided -->
+        <test-method signature="registerUserUnSuccessfully_WrongBody()[pri:3, instance:com.RegisterUser.RegisterUser@3899782c]" started-at="2021-02-25T09:26:15Z" name="registerUserUnSuccessfully_WrongBody" description="Verify User Registration when wrong body is provided" finished-at="2021-02-25T09:26:16Z" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserUnSuccessfully_WrongBody -->
+      </class> <!-- com.RegisterUser.RegisterUser -->
+    </test> <!-- Register User -->
+    <test started-at="2021-02-25T09:26:16Z" name="Create User" finished-at="2021-02-25T09:26:17Z" duration-ms="796">
+      <class name="com.CreateUser.CreateUser">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.CreateUser.CreateUser@7fb95505]" started-at="2021-02-25T09:26:16Z" name="beforeTest" finished-at="2021-02-25T09:26:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="createUserSuccessfully()[pri:0, instance:com.CreateUser.CreateUser@7fb95505]" started-at="2021-02-25T09:26:16Z" name="createUserSuccessfully" description="Verify Create User Flow" finished-at="2021-02-25T09:26:16Z" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserSuccessfully -->
+        <test-method signature="createUserUnSuccessfully_BodyNotProvided()[pri:1, instance:com.CreateUser.CreateUser@7fb95505]" started-at="2021-02-25T09:26:16Z" name="createUserUnSuccessfully_BodyNotProvided" description="Verify Un-successful create user flow when correct body is not provided" finished-at="2021-02-25T09:26:16Z" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserUnSuccessfully_BodyNotProvided -->
+      </class> <!-- com.CreateUser.CreateUser -->
+    </test> <!-- Create User -->
+    <test started-at="2021-02-25T09:26:17Z" name="List User" finished-at="2021-02-25T09:26:18Z" duration-ms="1668">
+      <class name="com.ListUsers.ListUsers">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.ListUsers.ListUsers@49964d75]" started-at="2021-02-25T09:26:17Z" name="beforeTest" finished-at="2021-02-25T09:26:17Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="listSingleUserInformation()[pri:0, instance:com.ListUsers.ListUsers@49964d75]" started-at="2021-02-25T09:26:17Z" name="listSingleUserInformation" description="Verify get information about Single List User" finished-at="2021-02-25T09:26:17Z" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listSingleUserInformation -->
+        <test-method signature="listAllUsersInformaitonPageOne()[pri:1, instance:com.ListUsers.ListUsers@49964d75]" started-at="2021-02-25T09:26:17Z" name="listAllUsersInformaitonPageOne" description="Verify get information about Single List all users for different Pages, :: here Page 1" finished-at="2021-02-25T09:26:18Z" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listAllUsersInformaitonPageOne -->
+        <test-method signature="listAllUsersInformaitonPageTwo()[pri:2, instance:com.ListUsers.ListUsers@49964d75]" started-at="2021-02-25T09:26:18Z" name="listAllUsersInformaitonPageTwo" description="Verify get information about Single List all users for different Pages, :: here Page 1" finished-at="2021-02-25T09:26:18Z" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listAllUsersInformaitonPageTwo -->
+      </class> <!-- com.ListUsers.ListUsers -->
+    </test> <!-- List User -->
+    <test started-at="2021-02-25T09:26:18Z" name="Update User" finished-at="2021-02-25T09:26:20Z" duration-ms="2003">
+      <class name="com.Update.UpdateUser">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.Update.UpdateUser@53f6fd09]" started-at="2021-02-25T09:26:18Z" name="beforeTest" finished-at="2021-02-25T09:26:18Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="updateUser()[pri:0, instance:com.Update.UpdateUser@53f6fd09]" started-at="2021-02-25T09:26:18Z" name="updateUser" description="Verify Create User Flow" finished-at="2021-02-25T09:26:19Z" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="updateUserAndValidateUdpatedTime()[pri:1, instance:com.Update.UpdateUser@53f6fd09]" started-at="2021-02-25T09:26:19Z" name="updateUserAndValidateUdpatedTime" description="Verify Create User Flow" finished-at="2021-02-25T09:26:19Z" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserAndValidateUdpatedTime -->
+        <test-method signature="updateUserNegativeUseCase()[pri:2, instance:com.Update.UpdateUser@53f6fd09]" started-at="2021-02-25T09:26:19Z" name="updateUserNegativeUseCase" description="Verify negative use case when body of the API is wrong" finished-at="2021-02-25T09:26:20Z" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserNegativeUseCase -->
+        <test-method signature="updateOnlyJobInUserInfo()[pri:3, instance:com.Update.UpdateUser@53f6fd09]" started-at="2021-02-25T09:26:20Z" name="updateOnlyJobInUserInfo" description="Verify update user with only job update" finished-at="2021-02-25T09:26:20Z" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateOnlyJobInUserInfo -->
+      </class> <!-- com.Update.UpdateUser -->
+    </test> <!-- Update User -->
+    <test started-at="2021-02-25T09:26:20Z" name="Delete User" finished-at="2021-02-25T09:26:21Z" duration-ms="1172">
+      <class name="com.DeleteUser.DeleteUser">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:com.DeleteUser.DeleteUser@6f63b475]" started-at="2021-02-25T09:26:11Z" name="beforeSuite" finished-at="2021-02-25T09:26:11Z" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[reqres]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.DeleteUser.DeleteUser@6f63b475]" started-at="2021-02-25T09:26:20Z" name="beforeTest" finished-at="2021-02-25T09:26:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="deleteUser1()[pri:0, instance:com.DeleteUser.DeleteUser@6f63b475]" started-at="2021-02-25T09:26:20Z" name="deleteUser1" description="Verify Delete User Flow" finished-at="2021-02-25T09:26:21Z" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser1 -->
+        <test-method signature="deleteUser2()[pri:1, instance:com.DeleteUser.DeleteUser@6f63b475]" started-at="2021-02-25T09:26:21Z" name="deleteUser2" description="Verify Delete User Flow" finished-at="2021-02-25T09:26:21Z" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser2 -->
+      </class> <!-- com.DeleteUser.DeleteUser -->
+    </test> <!-- Delete User -->
+  </suite> <!-- ReqResAPISuite -->
+</testng-results>
