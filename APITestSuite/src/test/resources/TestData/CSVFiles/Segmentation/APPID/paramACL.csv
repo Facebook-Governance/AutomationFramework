@@ -1,0 +1,7 @@
+tcId,tcName,acl_KEY1,acl_KEY12,enabled,checkpoint
+AT-104084,verify the API by passing valid param_acl,5342,0,TRUE,COB_SEG
+AT-104085,verify the API by passing valid param_acl,5344,0,TRUE,COB_APP
+AT-104086,verify the API by passing valid param_acl,5206,0,TRUE,COB
+AT-104089,verify the API by passing valid param_acl,5209,0,TRUE,default
+AT-104087,verify the API by passing valid param_acl,5207,0,TRUE,CH_APP
+AT-104088,verify the API by passing valid param_acl,5208,0,TRUE,CHANNEL

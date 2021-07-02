@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>testtEbillAuto.site16441.6</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.6</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>HOLDINGS</name>
+							<container>insurance,investment</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<cacheRequest-multiple>
+		<cacheRequest order="1">
+			<containers>
+				<container>
+					<sumInfoId>20549</sumInfoId>
+					<datasetAttributes>
+						<datasetAttribute>6</datasetAttribute>
+					</datasetAttributes>
+				</container>
+				<container>
+					<sumInfoId>20562</sumInfoId>
+					<datasetAttributes>
+						<datasetAttribute>6</datasetAttribute>
+					</datasetAttributes>
+				</container>
+			</containers>
+		</cacheRequest>
+		</cacheRequest-multiple>
+	</request>
+	<response>
+		<siteRefreshStats-multiple>
+		<siteRefreshStats order="1">
+			<datasetDetails>[{"container":"stocks","dataset":[{"datasetId":1,"attributeIds":[6,13]}]},{"container":"insurance","dataset":[{"datasetId":1,"attributeIds":[6,13]}]}]
+			</datasetDetails>
+			<memSiteAccExtnJson>[{"datasetId":1,"refreshStatus":7,"errorCode":0,"attribDetails":[{"attributeId":6,"refreshStatus":7,"errorCode":0},{"attributeId":13,"refreshStatus":7,"errorCode":0}]}]
+			</memSiteAccExtnJson>
+		</siteRefreshStats>
+		</siteRefreshStats-multiple>
+	</response>
+</entity>

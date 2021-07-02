@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-146950,"Validate AggregateMortgageAccount , Validate InsightName",,AggregateMortgageAccount,AggregateMortgageAccount,,,,,,,,,,,,200,TRUE
+AT-146951,"Validate AggregateMortgageAccount , Validate Supporting container",,AggregateMortgageAccount,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-146952,"Validate AggregateMortgageAccount , Validate TriggerType",REFRESH,AggregateMortgageAccount,,,,,,,,,,,,,200,TRUE
+AT-146953,"Validate AggregateMortgageAccount , Validate applicableEntity",,AggregateMortgageAccount,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-146954,"Validate AggregateMortgageAccount , Validate number of levels and levelObject",,AggregateMortgageAccount,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-146955,"Validate AggregateMortgageAccount , Validate isSubscribed=false",,AggregateMortgageAccount,,,,,,,,FALSE,,,,,200,TRUE
+AT-146957,"Validate AggregateMortgageAccount , Validate insightKeys",,AggregateMortgageAccount,,,,Account,,,,,,,,,200,TRUE
+AT-146958,"Validate AggregateMortgageAccount , Validate description",,AggregateMortgageAccount,,,,,Generates an insight when a mortgage payment is identified but no corresponding mortgage account was found for the user,,,,,,,,200,TRUE
+AT-146959,"Validate AggregateMortgageAccount , Validate title",,AggregateMortgageAccount,,Aggregate mortgage account,,,,,,,,,,,200,TRUE
+AT-146960,"Validate AggregateMortgageAccount , Validate ruleExpression",,AggregateMortgageAccount,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-146961,"Validate AggregateMortgageAccount , verify entityParameter and configMeta are same",,AggregateMortgageAccount,,,,,,,,,,,,TRUE,200,TRUE

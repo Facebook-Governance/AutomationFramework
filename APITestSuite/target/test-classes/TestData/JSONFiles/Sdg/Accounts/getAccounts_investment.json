@@ -1,0 +1,121 @@
+{
+  "account": [
+    {
+      "includeInNetWorth": true,
+      "accountName": "YSL acc 3",
+      "accountType": "401K",
+      "isManual": false,
+      "displayedName": "DAG",
+      "accountNumber": "xxxxxx52",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "lastUpdated": "${json-unit.ignore}",
+      "isAsset": true,
+      "createdDate": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "providerId": "16441",
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "investment",
+      "id": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "YSL acc 2",
+      "accountType": "401K",
+      "isManual": false,
+      "displayedName": "DAG",
+      "accountNumber": "xxxxxx51",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "lastUpdated": "${json-unit.ignore}",
+      "isAsset": true,
+      "createdDate": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "providerId": "16441",
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "investment",
+      "id": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "YSL acc 1",
+      "accountType": "401K",
+      "isManual": false,
+      "displayedName": "DAG",
+      "accountNumber": "xxxxxx50",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "lastUpdated": "${json-unit.ignore}",
+      "isAsset": true,
+      "createdDate": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "providerId": "16441",
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "investment",
+      "id": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "Personal Care",
+        "simple": "Personal Care"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Personal/Family",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 20,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "Personal Care",
+        "simple": "Personal Care"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Personal/Family",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 20,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "Personal Care",
+        "simple": "Personal Care"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Personal/Family",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 20,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "Personal Care",
+        "simple": "Personal Care"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Personal/Family",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 20,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 345.59,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "ATM/Cash Withdrawals",
+        "simple": "ATM/Cash Withdrawals"
+      },
+      "merchant": {
+        "name": "ATM/Cash Withdrawals",
+        "id": "858",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "ATM/Cash Withdrawals",
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 99,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "ATM/Cash Withdrawals",
+        "simple": "ATM/Cash Withdrawals"
+      },
+      "merchant": {
+        "name": "ATM/Cash Withdrawals",
+        "id": "858",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "ATM/Cash Withdrawals",
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "Dues and Subscriptions",
+        "simple": "Dues and Subscriptions"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Subscriptions/Renewals",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 108,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 518.31,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "ATM/Cash Withdrawals",
+        "simple": "ATM/Cash Withdrawals"
+      },
+      "merchant": {
+        "name": "ATM/Cash Withdrawals",
+        "id": "858",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "ATM/Cash Withdrawals",
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "ATM/Cash Withdrawals",
+        "simple": "ATM/Cash Withdrawals"
+      },
+      "merchant": {
+        "name": "ATM/Cash Withdrawals",
+        "id": "858",
+        "source": "YODLEE"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "ATM/Cash Withdrawals",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 987.56,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "ATM/Cash Withdrawals",
+        "simple": "ATM/Cash Withdrawals",
+        "consumer": "Dining"
+      },
+      "merchant": {
+        "name": "ATM/Cash Withdrawals",
+        "id": "858",
+        "source": "YODLEE"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "postingOrder": 5,
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "ATM/Cash Withdrawals",
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "ATM/Cash Withdrawals",
+        "simple": "ATM/Cash Withdrawals"
+      },
+      "merchant": {
+        "name": "ATM/Cash Withdrawals",
+        "id": "858",
+        "source": "YODLEE"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "ATM/Cash Withdrawals",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "Dues and Subscriptions",
+        "simple": "Dues and Subscriptions"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Subscriptions/Renewals",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 108,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 14.6779,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "ATM/Cash Withdrawals",
+        "simple": "ATM/Cash Withdrawals",
+        "consumer": "Dining"
+      },
+      "merchant": {
+        "name": "ATM/Cash Withdrawals",
+        "id": "858",
+        "source": "YODLEE"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "postingOrder": 5,
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "ATM/Cash Withdrawals",
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 412.12,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "ATM/Cash Withdrawals",
+        "simple": "ATM/Cash Withdrawals"
+      },
+      "merchant": {
+        "name": "ATM/Cash Withdrawals",
+        "id": "858",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "ATM/Cash Withdrawals",
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 115,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "ATM/Cash Withdrawals",
+        "simple": "ATM/Cash Withdrawals"
+      },
+      "merchant": {
+        "name": "ATM/Cash Withdrawals",
+        "id": "858",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "ATM/Cash Withdrawals",
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "ATM/Cash Withdrawals",
+        "simple": "ATM/Cash Withdrawals"
+      },
+      "merchant": {
+        "name": "ATM/Cash Withdrawals",
+        "id": "858",
+        "source": "YODLEE"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "ATM/Cash Withdrawals",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "ATM/Cash Withdrawals",
+        "simple": "ATM/Cash Withdrawals"
+      },
+      "merchant": {
+        "name": "ATM/Cash Withdrawals",
+        "id": "858",
+        "source": "YODLEE"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "ATM/Cash Withdrawals",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 189.99,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "ATM/Cash Withdrawals",
+        "simple": "ATM/Cash Withdrawals"
+      },
+      "merchant": {
+        "name": "ATM/Cash Withdrawals",
+        "id": "858",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "ATM/Cash Withdrawals",
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 16545,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "Cash Withdrawal",
+        "simple": "Cash Withdrawal",
+        "consumer": "Dining"
+      },
+      "merchant": {
+        "name": "Cash Withdrawal",
+        "id": "42591",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "postingOrder": 5,
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "ATM/Cash Withdrawals",
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "Personal Care",
+        "simple": "Personal Care"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Personal/Family",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 20,
+      "status": "POSTED"
+    }
+  ]
+}

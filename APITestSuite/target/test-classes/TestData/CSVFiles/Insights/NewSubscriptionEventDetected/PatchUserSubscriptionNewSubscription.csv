@@ -1,0 +1,13 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147568,patchUserSubscription- NewSubscription - subscribe to NewSubscription,NewSubscription,,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,,,204,TRUE
+AT-147573,patchUserSubscription- NewSubscription - updateTriggerType,NewSubscription,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147578,patchUserSubscription- NewSubscription -  update insightName by same name,NewSubscription,negTestScenario17,,NewSubscription,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147577,patchUserSubscription- NewSubscription -  update insightName edit InsightName,NewSubscription,negTestScenario2,,NewSubscriptionEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147571,patchUserSubscription- NewSubscription - update insightTitle,NewSubscription,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-147576,patchUserSubscription- NewSubscription - update container,NewSubscription,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-147574,patchUserSubscription- NewSubscription - update keys,NewSubscription,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147572,patchUserSubscription- NewSubscription - update description,NewSubscription,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147575,patchUserSubscription- NewSubscription - update applicableEntity,NewSubscription,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-147567,patchUserSubscription- NewSubscription - update entityParameter,NewSubscription,,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,,,204,TRUE
+AT-147570,patchUserSubscription- NewSubscription - update insightType to AGGREGATE,NewSubscription,negTestScenario24,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,AGGREGATE    AGGREGATE,,400,TRUE
+AT-147569,patchUserSubscription- NewSubscription - update insightType to INVALID,NewSubscription,negTestScenario24,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,INVALID   INVALID,,400,TRUE

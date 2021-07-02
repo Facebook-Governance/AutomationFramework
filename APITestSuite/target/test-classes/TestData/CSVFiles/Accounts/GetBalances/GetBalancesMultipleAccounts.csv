@@ -1,0 +1,3 @@
+tcid,tcName,httpStatusCode,restfile,filepath,account1,account2,fromDate,toDate,interval,enabled
+3,Bank and invalid,200,bankDaily.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,invalid,"0,0,0","0,3,0",,TRUE
+5,Both invalid,200,nullResponse.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,invalid,invalid,"0,0,0","0,3,0",,TRUE

@@ -1,0 +1,10 @@
+TestCaseId,TestCaseName,Parameter,Value,status,filePath,fileName,Enabled
+1,Test Case For HoldingType,holdingType,mutualFund,200,../src/test/resources/TestData/Smoke/Holdings/,SmokeHoldingMF.json,True
+2,Test Case For HoldingType,holdingType,bond,200,../src/test/resources/TestData/Smoke/Holdings/,SmokeHoldingBond.json,True
+3,Test Case For AccountId,accountId,1,200,../src/test/resources/TestData/Smoke/Holdings/,SmokeHoldingAccountId.json,True
+4,Test Case For providerAccountId,providerAccountId,1,200,../src/test/resources/TestData/Smoke/Holdings/,SmokeProviderAccountID.json,True
+5,Test Case For assetClassification.classificationType,assetClassification.classificationType,Country,200,../src/test/resources/TestData/Smoke/Holdings/,SmokeHoldingClassificationType.json,True
+6,Test Case For classificationValue,classificationValue,US,200,../src/test/resources/TestData/Smoke/Holdings/,SmokeHoldingClassificationValue.json,True
+7,Test Case For accountReconType,accountReconType,UNRECONCILED,200,../src/test/resources/TestData/Smoke/Holdings/,SmokeHoldingUNRECONCILED.json,True
+8,Test Case For accountReconType,accountReconType,RECONCILED,200,../src/test/resources/TestData/Smoke/Holdings/,SmokeHoldingRECONCILED.json,True
+9,Test case For inlcude,inlcude,assetClassification,200,../src/test/resources/TestData/Smoke/Holdings/,SmokeHoldinginlcude.json,True

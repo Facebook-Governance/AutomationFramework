@@ -1,0 +1,21 @@
+testCaseId,testCase,httpStatusCode,resFile,resFilePath,Enabled,accountId,predictedEventStatus,sourceType,userAprovalStatus
+AT-114669,GetPredictedEvents-InvalidAccountId,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,123,ACTIVE,MANUAL,APPROVED
+AT-114670,GetPredictedEvents-InvalidpredictedEventStatus,400,InvalidValueForPredictedEventStatus.json,../src/test/resources/TestData/ErrorMessage/,TRUE,,ABC,,
+AT-114671,GetPredictedEvents-InvalidSourceType,400,InvalidValueForSourceType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,,,XYZ,
+AT-114672,GetPredictedEvents-InvaliduserApprovalStatus,400,InvalidValueForUserApproval.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,,,,DEF
+AT-114673,GetPredictedEvents-AccountIdOfOtherUser,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,OTHER_USER,,,
+AT-114674,GetPredictedEvents-AlphabetsForAccountId,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,ABC,,,
+AT-114675,GetPredictedEvents-InvalidAccountId and predictedEventStatus,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,123,ABC,SYSTEM_PREDICTED,APPROVED
+AT-114676,GetPredictedEvents-InvalidAccountId and invalid sourcetype,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,123,ACTIVE,XYZ,APPROVED
+AT-114677,GetPredictedEvents-InvalidAccountId and invalid userAprovalStatus,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,123,ACTIVE,MANUAL,DEF
+AT-114678,GetPredictedEvents-InvalidAccountId and predictedEventStatus-MANUAL,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,123,ABC,MANUAL,APPROVED
+AT-114679,GetPredictedEvents-InvalidAccountId and invalid userAprovalStatus-SYSTEM_PREDICTED,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,123,ACTIVE,SYSTEM_PREDICTED,DEF
+AT-114680,GetPredictedEvents-InvalidpredictedEventStatus and accountID-manual,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,123,ABC,MANUAL,APPROVED
+AT-114681,GetPredictedEvents-InvalidpredictedEventStatus and accountID-System_predicted,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,123,ABC,SYSTEM_PREDICTED,APPROVED
+AT-114682,GetPredictedEvents-InvalidpredictedEventStatus and sourcetype,400,InvalidValueForSourceType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,,ABC,XYZ,APPROVED
+AT-114683,GetPredictedEvents-InvalidpredictedEventStatus and userApprovalStatus-manual,400,InvalidValueForUserApproval.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,,ABC,MANUAL,DEF
+AT-114684,GetPredictedEvents-InvalidpredictedEventStatus and accountID-System_predicted,400,InvalidValueForUserApproval.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,,ABC,SYSTEM_PREDICTED,DEF
+AT-114685,GetPredictedEvents-InvalidpredictedEventStatus and userApprovalStatus,400,InvalidValueForUserApproval.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,,ABC,,DEF
+AT-114686,GetPredictedEvents-InvalidSourceType and invalid accountid,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,123,,XYZ,
+AT-114687,GetPredictedEvents-InvalidSourceType and invalid predictedEventStatus,400,InvalidValueForSourceType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,,ABC,XYZ,
+AT-114688,GetPredictedEvents-InvalidSourceType and invalid userApprovalStatusStatus,400,InvalidValueForSourceType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,,,XYZ,DEF

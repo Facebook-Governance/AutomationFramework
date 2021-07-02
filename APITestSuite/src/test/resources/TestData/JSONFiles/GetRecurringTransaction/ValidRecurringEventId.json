@@ -1,0 +1,56 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 100.01,
+        "currency": "USD"
+      },
+      "isManual": true,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "MANUAL TXN",
+        "consumer": "MANUAL TXN"
+      },
+      "reconStatus": "SYS_UNRECONCILED",
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "recurringEventId": "${json-unit.ignore}",
+      "sourceType": "MANUAL",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Salary/Regular Income",
+      "categoryId": 29,
+      "status": "SCHEDULED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 100.01,
+        "currency": "USD"
+      },
+      "isManual": true,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "MANUAL TXN",
+        "consumer": "MANUAL TXN"
+      },
+      "reconStatus": "SYS_UNRECONCILED",
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "recurringEventId": "${json-unit.ignore}",
+      "sourceType": "MANUAL",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Salary/Regular Income",
+      "categoryId": 29,
+      "status": "SCHEDULED"
+    }
+  ]
+}

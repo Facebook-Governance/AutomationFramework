@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suites" verbose="5">
+
+	<!-- <parameter name="coBrand" value="YCOM_L1"/> <parameter name="loginType" 
+		value="L1NODE"></parameter> -->
+	<parameter name="runOnBrowserStack" value="false" />
+	<parameter name="bs_username" value="yodleebrowsersta1" />
+	<parameter name="bs_automate_key"
+		value="pzyoTJ6embZ48zsufsF2" />
+	<parameter name="browser" value="chrome" />
+	<parameter name="browser_version" value="48" />
+	<parameter name="platformName" value="windows" />
+	<parameter name="platformVersion" value="7" />
+	<parameter name="elpamEnabled" value="true" />
+	<parameter name="theme" value="new"></parameter>
+	<parameter name="appFlag" value="false" />
+	<parameter name="suiteName" value="Ok To Spend Regression" />
+
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.omni.pfm.listeners.CustomListener" />
+		<listener
+			class-name="com.automation.rdashboard.ReportDashboardPlugin" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+	</listeners>
+
+	<test name="Financial Forecast 1">
+		<classes>
+			<class name="com.omni.pfm.Ok2Spend.SFC_Onboarding_Test" />
+		</classes>
+	</test>
+
+	<test name="Financial Forecast 2">
+		<classes>
+			<class name="com.omni.pfm.Ok2Spend.SFC_LandingPage_Test" />
+		</classes>
+	</test>
+
+	<test name="Financial Forecast 3">
+		<classes>
+			<class name="com.omni.pfm.Ok2Spend.SFC_Events_Test" />
+		</classes>
+	</test>
+
+	<test name="Financial Forecast 4">
+		<classes>
+			<class name="com.omni.pfm.Ok2Spend.SFC_Saving_FTUE_Test" />
+		</classes>
+	</test>
+
+
+	<test name="Financial Forecast 5">
+		<classes>
+			<class name="com.omni.pfm.Ok2Spend.SFC_Investmnet_FTUE_Test" />
+		</classes>
+	</test>
+
+	<test name="Financial Forecast 6">
+		<classes>
+			<class name="com.omni.pfm.Ok2Spend.SFC_Checking_FTUE_Test" />
+		</classes>
+	</test>
+
+	<test name="Financial Forecast 7">
+		<classes>
+			<class name="com.omni.pfm.Ok2Spend.SFC_Card_FTUE_Test" />
+		</classes>
+	</test>
+
+</suite>

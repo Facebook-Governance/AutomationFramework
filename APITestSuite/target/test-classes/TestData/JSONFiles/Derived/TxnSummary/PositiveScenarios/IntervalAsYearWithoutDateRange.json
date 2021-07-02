@@ -1,0 +1,27 @@
+{
+    "transactionSummary": [
+        {
+            "categoryType": "EXPENSE",
+            "creditTotal": {
+                "amount": 123456.0,
+                "currency": "USD"
+            },
+            "links": {
+                "transactions": "${json-unit.ignore}"
+            }
+        },
+        {
+            "categoryType": "TRANSFER",
+            "creditTotal": {
+                "amount": 2098752.0,
+                "currency": "USD"
+            },
+            "links": {
+                "transactions": "${json-unit.ignore}"
+            }
+        }
+    ],
+    "links": {
+        "transactions": "${json-unit.ignore}"
+    }
+}

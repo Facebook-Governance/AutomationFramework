@@ -1,0 +1,3 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,recurringEventId,sourceType,enabled
+AT-115484,Delete-Manual,400,InvalidPredictedEventId.json,../src/test/resources/TestData/ErrorMessage/,VALID,MANUAL,TRUE
+AT-115485,Delete-System,400,InvalidPredictedEventId.json,../src/test/resources/TestData/ErrorMessage/,VALID,SYSTEM_PREDICTED,TRUE

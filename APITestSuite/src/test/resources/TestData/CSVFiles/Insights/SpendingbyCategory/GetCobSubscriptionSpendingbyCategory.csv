@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-143153,"Validate SpendingbyCategory , Validate InsightName",,SpendingbyCategory,SpendingbyCategory,,,,,,,,,,,200,TRUE
+AT-143153,"Validate SpendingbyCategory , Validate Supporting container",,SpendingbyCategory,SpendingbyCategory,,"BANK,CARD",,,,,,,,,200,TRUE
+AT-143153,"Validate SpendingbyCategory , Validate TriggerType",SCHEDULE,SpendingbyCategory,SpendingbyCategory,,,,,,,,,,,200,TRUE
+AT-143153,"Validate SpendingbyCategory , Validate applicableEntity",,SpendingbyCategory,SpendingbyCategory,,,,,ACCOUNT VIEW,,,,,,200,TRUE
+AT-143153,"Validate SpendingbyCategory , Validate number of levels and levelObject",,SpendingbyCategory,SpendingbyCategory,,,,,ACCOUNT VIEW,"account,view",,,,,200,TRUE
+AT-143153,"Validate SpendingbyCategory , Validate isSubscribed=false",,SpendingbyCategory,SpendingbyCategory,,,,,,"account,view",TRUE,,,,200,TRUE
+AT-143153,"Validate SpendingbyCategory , Validate view_insightKeys for SpendingbyCategory",,SpendingbyCategory,SpendingbyCategory,,,View,,View,,,,,,200,TRUE
+AT-143153,"Validate SpendingbyCategory , Validate description",,SpendingbyCategory,SpendingbyCategory,,,,Generates an insight that provides spending trends (based on $ amount) by category over a configured time period.,,,,,,,200,TRUE
+AT-143153,"Validate SpendingbyCategory , Validate title",,SpendingbyCategory,SpendingbyCategory,Spending by Category,,,,,,,,,,200,TRUE
+AT-143153,"Validate SpendingbyCategory , Validate frequency=DAILY",,SpendingbyCategory,SpendingbyCategory,,,,,,account,,DAILY,,,200,TRUE
+AT-143153,"Validate SpendingbyCategory , Validate account_insightKeys for SpendingbyCategory when isSubscribed is FALSE",,SpendingbyCategory,SpendingbyCategory,,,Account,,Account,,FALSE,,,,200,TRUE
+AT-143153,"Validate SpendingbyCategory , Validate account_insightKeys for SpendingbyCategory",,SpendingbyCategory,SpendingbyCategory,,,Account,,Account,,,,,,200,TRUE
+AT-143153,"Validate SpendingbyCategory , Validate threshold Name,default Value and Type for Accounts",,SpendingbyCategory,SpendingbyCategory,,,,,Account,,,,"Top,10,Number",,200,TRUE
+AT-143153,"Validate SpendingbyCategory , Validate threshold Name,default Value and Type for View",,SpendingbyCategory,SpendingbyCategory,,,,,View,,,,"Top,10,Number",,200,TRUE

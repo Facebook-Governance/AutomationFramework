@@ -1,0 +1,19 @@
+testCaseId,description,initialAllocationAmount,initialAllocationCurrency,totalDestAccountsCount,container,httpStatus,enabled
+AT-106037,create Single Destination account for a particular goal. initialAllocation amount should be greater than OR equal to Zero - bank,500,USD,1,bank,201,TRUE
+AT-106038,create Single  Destination account for a particular goal having same currency across created goal and initialAllocation currency initialAllocation amount should be less than OR greater than Zero - bank,1,USD,1,bank,201,TRUE
+AT-106039,create multiple Destination accounts for a particular goal. initialAllocation amount of both DA's should be less than  AND  >0 of goal target amount - bank,"300 , 200","USD , USD",2,bank,201,TRUE
+AT-106040,create multiple  Destination accounts for a particular goal having same currency across created goal and initialAllocation currency initialAllocation amount of both DA's should be less than OR >1 -investment ,"800 , 700","USD , USD",2,investment,201,TRUE
+AT-106041,create Single Destination account for a particular goal. initialAllocation amount should be less than OR >0  -investment,2300,USD,1,investment,201,TRUE
+AT-106042,create multiple Destination accounts for a particular goal. initialAllocation amount of both DA's(bank and investment) should be less than OR >1,"400 , 900","USD , USD",2,both,201,TRUE
+AT-106043,create Single Destination account for a particular goal. initialAllocation amount is Zero,0,USD,1,bank,400,TRUE
+AT-106044,create Single Destination account for a particular goal. initialAllocation amount is equal to goal Target Amount,13000,USD,1,bank,201,TRUE
+AT-106045,create Single Destination account for a particular goal. initialAllocation amount is less than Zero,-20,USD,1,bank,400,TRUE
+AT-106046,create multiple  Destination accounts for a particular goal having same currency across created goal and initialAllocation currency initialAllocation amount of both DA's should be one positive and other nagative,"500 , -800","USD , USD",2,bank,400,TRUE
+AT-106047,create Single Destination account for a particular goal. CLOSED account,100,USD,1,"bank,closed",400,TRUE
+AT-106048,create Single Destination account for a particular goal. INVALID account,200,USD,1,"bank,invalid",400,TRUE
+AT-106049,create Single Destination account for a particular goal. INACTIVE account,300,USD,1,"bank,inactive",400,TRUE
+AT-106054,create Single Destination account for a particular goal.TO_BE_CLOSED Account,450,USD,1,"bank,tobeclosed",201,TRUE
+AT-106050,create Single Destination account for a particular goal twice for different item accounts . Summing up both destination accounts initialAllocation amount should be greater than goal target Amount,"100 , 100","USD , INR",2,bank,400,TRUE
+AT-106051,create Single Destination account for a particular goal Goal is in IN_PROGRESS state,3899,USD,1,"bank,inprogress",400,TRUE
+AT-106052,create Single Destination account for a particular goal . Goal is in COMPLETED/REALIZED state,1200,USD,1,"bank,completed",400,TRUE
+AT-106053,create Single Destination account for a particular goal which Is goal Deleted,40,USD,1,"bank,deleted",400,TRUE

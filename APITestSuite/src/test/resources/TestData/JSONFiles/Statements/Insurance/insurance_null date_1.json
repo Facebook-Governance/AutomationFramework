@@ -1,0 +1,21 @@
+{
+	"statement": [{
+		"id": "${json-unit.ignore}",
+		"accountId": "${json-unit.ignore}",
+		"statementDate": "2013-01-25",
+		"billingPeriodStart": "2013-01-25",
+		"billingPeriodEnd": "2013-01-25",
+		"dueDate":  "${json-unit.ignore}",
+		"lastPaymentDate": "2013-01-10",
+		"lastUpdated": "${json-unit.ignore}",
+		"amountDue": {
+			"amount": 12353.12,
+			"currency": "USD"
+		},
+		"lastPaymentAmount": {
+			"amount": 3000.00,
+			"currency": "USD"
+		},
+		"isLatest": true
+	}]
+}

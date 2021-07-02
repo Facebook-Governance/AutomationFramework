@@ -1,0 +1,340 @@
+[
+    {
+        "userDefinedRuleId": "${json-unit.any-number}",
+        "memId": "${json-unit.any-number}",
+        "transactionCategorisationId": 1,
+        "rulePriority": 1,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringContains",
+                "fieldValue": "Dining"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberEquals",
+                "fieldValue": "543"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.any-number}",
+        "memId": "${json-unit.any-number}",
+        "transactionCategorisationId": 3,
+        "rulePriority": 2,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringEquals",
+                "fieldValue": "Deposit?"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberEquals",
+                "fieldValue": "2000"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.any-number}",
+        "memId": "${json-unit.any-number}",
+        "transactionCategorisationId": 20,
+        "rulePriority": 3,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringContains",
+                "fieldValue": "Din"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberLessThan",
+                "fieldValue": "1100"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.any-number}",
+        "memId": "${json-unit.any-number}",
+        "transactionCategorisationId": 20,
+        "rulePriority": 4,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringEquals",
+                "fieldValue": "Dining"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberLessThan",
+                "fieldValue": "2300"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.any-number}",
+        "memId": "${json-unit.any-number}",
+        "transactionCategorisationId": 15,
+        "rulePriority": 5,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringContains",
+                "fieldValue": "Dining"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberGreaterThan",
+                "fieldValue": "800"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.any-number}",
+        "memId": "${json-unit.any-number}",
+        "transactionCategorisationId": 25,
+        "rulePriority": 6,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringEquals",
+                "fieldValue": "Deposit?"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberGreaterThan",
+                "fieldValue": "430"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.any-number}",
+        "memId": "${json-unit.any-number}",
+        "transactionCategorisationId": 7,
+        "rulePriority": 7,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringContains",
+                "fieldValue": "trans"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberLessThanEquals",
+                "fieldValue": "850"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.any-number}",
+        "memId": "${json-unit.any-number}",
+        "transactionCategorisationId": 108,
+        "rulePriority": 8,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringEquals",
+                "fieldValue": "Depo"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberLessThanEquals",
+                "fieldValue": "150"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.any-number}",
+        "memId": "${json-unit.any-number}",
+        "transactionCategorisationId": 227,
+        "rulePriority": 9,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringContains",
+                "fieldValue": "trans"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberGreaterThanEquals",
+                "fieldValue": "1550"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.any-number}",
+        "memId": "${json-unit.any-number}",
+        "transactionCategorisationId": 37,
+        "rulePriority": 10,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringEquals",
+                "fieldValue": "tra"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberEquals",
+                "fieldValue": "1250"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.any-number}",
+        "memId": "${json-unit.any-number}",
+        "transactionCategorisationId": 3,
+        "rulePriority": 12,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringEquals",
+                "fieldValue": "Deposit?"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberEquals",
+                "fieldValue": "2222"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.any-number}",
+        "memId": "${json-unit.any-number}",
+        "transactionCategorisationId": 15,
+        "rulePriority": 13,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringContains",
+                "fieldValue": "trans"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberLessThanEquals",
+                "fieldValue": "100"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.any-number}",
+        "memId": "${json-unit.any-number}",
+        "transactionCategorisationId": 2,
+        "rulePriority": 14,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringContains",
+                "fieldValue": "This rule is for creating the rule using the newly"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberEquals",
+                "fieldValue": "414"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.any-number}",
+        "memId": "${json-unit.any-number}",
+        "transactionCategorisationId": 1,
+        "rulePriority": 15,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringEquals",
+                "fieldValue": "Champ12"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberEquals",
+                "fieldValue": "1234.45"
+            }
+        ],
+        "ruleClauseArray": [
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "description",
+                "operation": "stringEquals",
+                "fieldValue": "Champ12"
+            },
+            {
+                "ruleClauseId": "${json-unit.any-number}",
+                "userDefinedRuleId": "${json-unit.any-number}",
+                "field": "amount",
+                "operation": "numberEquals",
+                "fieldValue": "1234.45"
+            }
+        ],
+        "categoryLevelId": 3
+    }
+]

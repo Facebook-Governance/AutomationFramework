@@ -1,0 +1,35 @@
+{
+  "account": [
+    {
+      "CONTAINER": "investment",
+      "providerAccountId": "${json-unit.ignore}",
+      "accountName": "${json-unit.ignore}",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "${json-unit.ignore}",
+      "isAsset": true,
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 62500,
+        "currency": "USD"
+      },
+      "id": "${json-unit.ignore}",
+      "lastUpdated": "${json-unit.ignore}",
+      "includeInNetWorth": true,
+      "providerId": "19686",
+      "providerName": "HSBC",
+      "isManual": false,
+      "accountType": "OTHER",
+      "displayedName": "Bhawana Verma",
+      "createdDate": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "name": "ACCT_PROFILE",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ]
+    }
+  ]
+}

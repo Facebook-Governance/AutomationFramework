@@ -1,0 +1,52 @@
+{
+  "account": [
+    {
+      "CONTAINER": "bill",
+      "providerAccountId": "${json-unit.ignore}",
+      "accountName": "DAG BILLING",
+      "accountStatus": "ACTIVE",
+      "aggregationSource": "USER",
+      "accountNumber": "${json-unit.ignore}",
+      "isAsset": false,
+      "balance": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "id": "${json-unit.ignore}",
+      "lastUpdated": "${json-unit.ignore}",
+      "isEbillEnrolled": true,
+      "frequency": "ANNUALLY",
+      "providerId": "16441",
+      "providerName": "Dag Site",
+      "amountDue": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "dueDate": "${json-unit.ignore}",
+      "lastPaymentDate": "${json-unit.ignore}",
+      "lastPaymentAmount": {
+        "amount": 5600,
+        "currency": "USD"
+      },
+      "minimumAmountDue": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "accountType": "BILLS",
+      "isManual": false,
+      "displayedName": "DAG",
+      "createdDate": "${json-unit.ignore}",
+      "userClassification": "PERSONAL",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "nextUpdateScheduled": "${json-unit.ignore}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "user": {
+    "preferences": {
+      "dateFormat": "MM/dd/yyyy",
+      "timeZone": "PST",
+      "currency": "USD"
+    },
+    "address": {
+      "zip": "14703",
+      "country": "51015",
+      "address2": "67890",
+      "city": "13579",
+      "address1": "12345",
+      "state": "24680"
+    },
+    "loginName": "${json-unit.ignore}",
+    "name": {
+      "last": "Babu",
+      "first": "Sathish"
+    },
+    "id": "${json-unit.ignore}",
+    "roleType": "INDIVIDUAL",
+    "email": "test@yodlee.com"
+  }
+}

@@ -1,0 +1,5675 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "insightName": {
+      "type": "string"
+    },
+    "insightTitle": {
+      "type": "string"
+    },
+    "insightType": {
+      "type": "string"
+    },
+    "triggerType": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "string"
+    },
+    "subscription": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "entityType": {
+              "type": "string"
+            },
+            "frequency": {
+              "type": "string"
+            },
+            "duration": {
+              "type": "string"
+            },
+            "threshold": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "value",
+                    "type"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "value",
+                    "type"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "entityType",
+            "frequency",
+            "duration",
+            "threshold"
+          ]
+        }
+      ]
+    },
+    "basicAccount": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "container",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "container",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "container",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "container",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "container",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "container",
+            "link"
+          ]
+        }
+      ]
+    },
+    "basicCategoryDetail": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "categoryId": {
+              "type": "integer"
+            },
+            "category": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "basicPeerDetail": {
+              "type": "object",
+              "properties": {
+                "dateRange": {
+                  "type": "object",
+                  "properties": {
+                    "fromDate": {
+                      "type": "string"
+                    },
+                    "toDate": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "fromDate",
+                    "toDate"
+                  ]
+                },
+                "benchmarkAsOf": {
+                  "type": "string"
+                },
+                "benchmark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "geo": {
+                          "type": "object",
+                          "properties": {
+                            "level": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "level",
+                            "value"
+                          ]
+                        },
+                        "isIncome": {
+                          "type": "boolean"
+                        },
+                        "netTotal": {
+                          "type": "object",
+                          "properties": {
+                            "amount": {
+                              "type": "number"
+                            },
+                            "currency": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "currency"
+                          ]
+                        },
+                        "numberOfPeers": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "geo",
+                        "isIncome",
+                        "netTotal",
+                        "numberOfPeers"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "dateRange",
+                "benchmarkAsOf",
+                "benchmark"
+              ]
+            },
+            "peerSpendingComparison": {
+              "type": "object",
+              "properties": {
+                "peerSpendDifference": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "peerSpendDifferencePercent": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "peerSpendDifference",
+                "peerSpendDifferencePercent"
+              ]
+            }
+          },
+          "required": [
+            "categoryId",
+            "category",
+            "netTotal",
+            "averageNetTotal",
+            "basicPeerDetail",
+            "peerSpendingComparison"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "insightName",
+    "insightTitle",
+    "insightType",
+    "triggerType",
+    "createdDate",
+    "subscription",
+    "basicAccount",
+    "basicCategoryDetail"
+  ]
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>SdgSanitySuite.site16441.1</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.1</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>ACCOUNT_DETAILS</name>
+						</attribute>
+						<attribute>
+							<name>TRANSACTIONS</name>
+						</attribute>
+					</attributeList>
+				</dataset>
+				<dataset>
+					<name>ACCT_PROFILE</name>
+					<attributeList>
+						<attribute>
+							<name>FULL_ACCT_NUMBER</name>
+						</attribute>
+						<attribute>
+							<name>BANK_TRANSFER_CODE</name>
+						</attribute>
+						<attribute>
+							<name>HOLDER_DETAILS</name>
+						</attribute>
+						<attribute>
+							<name>HOLDER_NAME</name>
+						</attribute>
+					</attributeList>
+				</dataset>
+				<dataset>
+					<name>DOCUMENT</name>
+					<attributeList>
+						<attribute>
+							<name>TAX</name>
+						</attribute>
+						<attribute>
+							<name>STATEMENT</name>
+						</attribute>
+						<attribute>
+							<name>EBILL</name>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+	</request>
+	<response>
+		<accounts-multiple>
+		<accounts order="1">
+			<row>
+				<filePath>..\src\test\resources\TestData\SingleDataGathering\SdgSanityFlow\
+				</filePath>
+				<responseFile>AllDataSetsWithoutContainers.json</responseFile>
+			</row>
+		</accounts>
+		</accounts-multiple>
+		<get-provider-accounts-multiple>
+		<get-provider-accounts order="1">
+			<row>
+				<filePath>..\src\test\resources\TestData\SingleDataGathering\SdgSanityFlow\
+				</filePath>
+				<responseFile>AllDataSets_Success.json</responseFile>
+			</row>
+		</get-provider-accounts>
+		</get-provider-accounts-multiple>
+		<siteRefreshStats-multiple>
+		<siteRefreshStats order="1">
+
+			<datasetDetails>[{"container":"insurance","dataset":[{"attributeIds":[5,13,7,8],"datasetId":1},{"attributeIds":[11],"datasetId":3}]},{"container":"bank","dataset":[{"attributeIds":[2,1,4,3],"datasetId":2},{"attributeIds":[5,13,8],"datasetId":1},{"attributeIds":[9,10],"datasetId":3}]},{"container":"loans","dataset":[{"attributeIds":[5,13,7,8],"datasetId":1},{"attributeIds":[11,10],"datasetId":3}]},{"container":"stocks","dataset":[{"attributeIds":[2,1,4,3],"datasetId":2},{"attributeIds":[5,13,8],"datasetId":1},{"attributeIds":[9,10],"datasetId":3}]},{"container":"bills","dataset":[{"attributeIds":[5,13,7,8],"datasetId":1},{"attributeIds":[11],"datasetId":3}]},{"container":"credits","dataset":[{"attributeIds":[5,13,7,8],"datasetId":1},{"attributeIds":[11],"datasetId":3}]}]
+			</datasetDetails>
+			<memSiteAccExtnJson>[{"datasetId":1,"refreshStatus":7,"errorCode":0,"attribDetails":[{"attributeId":5,"refreshStatus":7,"errorCode":0},{"attributeId":7,"refreshStatus":7,"errorCode":0},{"attributeId":8,"refreshStatus":7,"errorCode":0},{"attributeId":13,"refreshStatus":7,"errorCode":0}]},{"datasetId":3,"refreshStatus":7,"errorCode":0,"attribDetails":[{"attributeId":9,"refreshStatus":7,"errorCode":0},{"attributeId":10,"refreshStatus":7,"errorCode":0},{"attributeId":11,"refreshStatus":7,"errorCode":0}]},{"datasetId":2,"refreshStatus":7,"errorCode":0,"attribDetails":[{"attributeId":1,"refreshStatus":7,"errorCode":0},{"attributeId":2,"refreshStatus":7,"errorCode":0},{"attributeId":3,"refreshStatus":7,"errorCode":0},{"attributeId":4,"refreshStatus":7,"errorCode":0}]}]
+			</memSiteAccExtnJson>
+
+		</siteRefreshStats>
+		</siteRefreshStats-multiple>
+	</response>
+</entity>

@@ -1,0 +1,388 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "provider": {
+      "$id": "/properties/provider",
+      "type": "array",
+      "items": {
+        "$id": "/properties/provider/items",
+        "type": "object",
+        "properties": {
+          "PRIORITY": {
+            "$id": "/properties/provider/items/properties/PRIORITY",
+            "type": "string",
+            "title": "The Priority Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "COBRAND"
+            ]
+          },
+          "id": {
+            "$id": "/properties/provider/items/properties/id",
+            "type": "number",
+            "minimum": -9223372036854775807,
+            "maximum": 9223372036854775807,
+            "title": "The Id Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              5
+            ]
+          },
+          "name": {
+            "$id": "/properties/provider/items/properties/name",
+            "type": "string",
+            "title": "The Name Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Wells Fargo"
+            ]
+          },
+          "loginUrl": {
+            "$id": "/properties/provider/items/properties/loginUrl",
+            "type": "string",
+            "title": "The Loginurl Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "https://www.wellsfargo.com/"
+            ]
+          },
+          "baseUrl": {
+            "$id": "/properties/provider/items/properties/baseUrl",
+            "type": "string",
+            "title": "The Baseurl Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "https://www.wellsfargo.com/"
+            ]
+          },
+          "favicon": {
+            "$id": "/properties/provider/items/properties/favicon",
+            "type": "string",
+            "title": "The Favicon Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_5.PNG"
+            ]
+          },
+          "logo": {
+            "$id": "/properties/provider/items/properties/logo",
+            "type": "string",
+            "title": "The Logo Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG"
+            ]
+          },
+          "status": {
+            "$id": "/properties/provider/items/properties/status",
+            "type": "string",
+            "format": "providersStatus",
+            "title": "The Status Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Supported"
+            ]
+          },
+          "mfaType": {
+            "$id": "/properties/provider/items/properties/mfaType",
+            "type": "string",
+            "format": "MFAType",
+            "title": "The Mfatype Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Multiple levels of strong authentication."
+            ]
+          },
+          "help": {
+            "$id": "/properties/provider/items/properties/help",
+            "type": "string",
+            "title": "The Help Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "If you are a registered user and use a security token: <br> <p> <ol> <li> Enter your registered user ID and password.</li> <li> Select Password and Token from the drop-down menu. <br> � A pop up appears <li> Enter your security code </li> </ol> If you are a registered user but do not use a security token: <br> <ol> <li> Enter your user ID and password </li> <li> Select Password Only option the drop-down menu. </li> </ol> </p>"
+            ]
+          },
+          "oAuthSite": {
+            "$id": "/properties/provider/items/properties/oAuthSite",
+            "type": "boolean",
+            "title": "The Oauthsite Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "languageISOCode": {
+            "$id": "/properties/provider/items/properties/languageISOCode",
+            "type": "string",
+            "title": "The Languageisocode Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "EN"
+            ]
+          },
+          "primaryLanguageISOCode": {
+            "$id": "/properties/provider/items/properties/primaryLanguageISOCode",
+            "type": "string",
+            "title": "The Primarylanguageisocode Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "EN"
+            ]
+          },
+          "countryISOCode": {
+            "$id": "/properties/provider/items/properties/countryISOCode",
+            "type": "string",
+            "title": "The Countryisocode Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "US"
+            ]
+          },
+          "lastModified": {
+            "$id": "/properties/provider/items/properties/lastModified",
+            "type": "string",
+            "title": "The Lastmodified Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-09-06T22:44:32Z"
+            ]
+          },
+          "forgetPasswordUrl": {
+            "$id": "/properties/provider/items/properties/forgetPasswordUrl",
+            "type": "string",
+            "title": "The Forgetpasswordurl Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "https://online.wellsfargo.com/das/cgi-bin/session.cgi?screenid=PASSWORD_HELP"
+            ]
+          },
+          "isAutoRefreshEnabled": {
+            "$id": "/properties/provider/items/properties/isAutoRefreshEnabled",
+            "type": "boolean",
+            "title": "The Isautorefreshenabled Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [
+              true
+            ]
+          },
+          "containerAttributes": {
+            "$id": "/properties/provider/items/properties/containerAttributes",
+            "type": "object",
+            "properties": {
+              "CREDITCARD": {
+                "$id": "/properties/provider/items/properties/containerAttributes/properties/CREDITCARD",
+                "type": "object",
+                "properties": {
+                  "numberOfTransactionDays": {
+                    "$id": "/properties/provider/items/properties/containerAttributes/properties/CREDITCARD/properties/numberOfTransactionDays",
+                    "type": "integer",
+                    "title": "The Numberoftransactiondays Schema.",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                      90
+                    ]
+                  }
+                }
+              },
+              "BANK": {
+                "$id": "/properties/provider/items/properties/containerAttributes/properties/BANK",
+                "type": "object",
+                "properties": {
+                  "numberOfTransactionDays": {
+                    "$id": "/properties/provider/items/properties/containerAttributes/properties/BANK/properties/numberOfTransactionDays",
+                    "type": "integer",
+                    "title": "The Numberoftransactiondays Schema.",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                      90
+                    ]
+                  }
+                }
+              },
+              "LOAN": {
+                "$id": "/properties/provider/items/properties/containerAttributes/properties/LOAN",
+                "type": "object",
+                "properties": {
+                  "numberOfTransactionDays": {
+                    "$id": "/properties/provider/items/properties/containerAttributes/properties/LOAN/properties/numberOfTransactionDays",
+                    "type": "integer",
+                    "title": "The Numberoftransactiondays Schema.",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                      90
+                    ]
+                  }
+                }
+              },
+              "INVESTMENT": {
+                "$id": "/properties/provider/items/properties/containerAttributes/properties/INVESTMENT",
+                "type": "object",
+                "properties": {
+                  "numberOfTransactionDays": {
+                    "$id": "/properties/provider/items/properties/containerAttributes/properties/INVESTMENT/properties/numberOfTransactionDays",
+                    "type": "integer",
+                    "title": "The Numberoftransactiondays Schema.",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                      90
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "loginHelp": {
+            "$id": "/properties/provider/items/properties/loginHelp",
+            "type": "string",
+            "title": "The Loginhelp Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "To log in successfully, please ensure following conditions are satisfied for your username at Wells Fargo.<br> Your Username: <p><ol> <li>Must be <strong>6 to 14 characters</strong> in length and including at least one letter.</li> <li>Cannot contain 9 or more numbers</li> <li>Must not contain <strong>Special Characters</strong> other than hyphens (-) or underscores (_)</li> <li>Must be different than your password, ATM PIN, or Social Security number, and not easy for others to guess!</li> </p> </ol>"
+            ]
+          },
+          "containerNames": {
+            "$id": "/properties/provider/items/properties/containerNames",
+            "type": "array",
+            "items": {
+              "$id": "/properties/provider/items/properties/containerNames/items",
+              "type": "string",
+              "format": "container",
+              "title": "The 0 Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "bank"
+              ]
+            }
+          },
+          "capability": {
+            "$id": "/properties/provider/items/properties/capability",
+            "type": "array",
+            "items": {
+              "$id": "/properties/provider/items/properties/capability/items",
+              "type": "object",
+              "properties": {
+                "name": {
+                  "$id": "/properties/provider/items/properties/capability/items/properties/name",
+                  "type": "string",
+                  "title": "The Name Schema.",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "CHALLENGE_DEPOSIT_VERIFICATION"
+                  ]
+                },
+                "container": {
+                  "$id": "/properties/provider/items/properties/capability/items/properties/container",
+                  "type": "array",
+                  "items": {
+                    "$id": "/properties/provider/items/properties/capability/items/properties/container/items",
+                    "type": "string",
+                    "format": "container",
+                    "title": "The 0 Schema.",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "bank"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "additionalDataSet": {
+            "$id": "/properties/provider/items/properties/additionalDataSet",
+            "type": "array",
+            "items": {
+              "$id": "/properties/provider/items/properties/additionalDataSet/items",
+              "type": "object",
+              "properties": {
+                "name": {
+                  "$id": "/properties/provider/items/properties/additionalDataSet/items/properties/name",
+                  "type": "string",
+                  "title": "The Name Schema.",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "ACCT_PROFILE"
+                  ]
+                },
+                "attribute": {
+                  "$id": "/properties/provider/items/properties/additionalDataSet/items/properties/attribute",
+                  "type": "array",
+                  "items": {
+                    "$id": "/properties/provider/items/properties/additionalDataSet/items/properties/attribute/items",
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "$id": "/properties/provider/items/properties/additionalDataSet/items/properties/attribute/items/properties/name",
+                        "type": "string",
+                        "title": "The Name Schema.",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                          "FULL_ACCT_NUMBER"
+                        ]
+                      },
+                      "container": {
+                        "$id": "/properties/provider/items/properties/additionalDataSet/items/properties/attribute/items/properties/container",
+                        "type": "array",
+                        "items": {
+                          "$id": "/properties/provider/items/properties/additionalDataSet/items/properties/attribute/items/properties/container/items",
+                          "type": "string",
+                          "format": "container",
+                          "title": "The 0 Schema.",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "bank"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "authType": {
+            "$id": "/properties/provider/items/properties/authType",
+            "type": "string",
+            "format": "AuthType",
+            "title": "The Authtype Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "MFA_CREDENTIALS"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

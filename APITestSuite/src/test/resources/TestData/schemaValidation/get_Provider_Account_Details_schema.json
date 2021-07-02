@@ -1,0 +1,173 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "providerAccount": {
+      "$id": "/properties/providerAccount",
+      "type": "object",
+      "properties": {
+        "id": {
+          "$id": "/properties/providerAccount/properties/id",
+          "type": "number",
+          "minimum": -9223372036854775807,
+          "maximum": 9223372036854775807,
+          "title": "The Id Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            11958654
+          ]
+        },
+        "providerId": {
+          "$id": "/properties/providerAccount/properties/providerId",
+          "type": "number",
+          "minimum": -9223372036854775807,
+          "maximum": 9223372036854775807,
+          "title": "The Providerid Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            16441
+          ]
+        },
+        "isManual": {
+          "$id": "/properties/providerAccount/properties/isManual",
+          "type": "boolean",
+          "title": "The Ismanual Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false,
+          "examples": [
+            false
+          ]
+        },
+        "createdDate": {
+          "$id": "/properties/providerAccount/properties/createdDate",
+          "type": "string",
+          "format": "date",
+          "title": "The Createddate Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "2017-11-28"
+          ]
+        },
+        "aggregationSource": {
+          "$id": "/properties/providerAccount/properties/aggregationSource",
+          "type": "string",
+          "format": "aggSource",
+          "title": "The Aggregationsource Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "USER"
+          ]
+        },
+        "refreshInfo": {
+          "$id": "/properties/providerAccount/properties/refreshInfo",
+          "type": "object",
+          "properties": {
+            "statusCode": {
+              "$id": "/properties/providerAccount/properties/refreshInfo/properties/statusCode",
+              "type": "integer",
+              "format": "refreshStatus",
+              "title": "The Statuscode Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0,
+              "examples": [
+                402
+              ]
+            },
+            "statusMessage": {
+              "$id": "/properties/providerAccount/properties/refreshInfo/properties/statusMessage",
+              "type": "string",
+              "format": "refreshStatus",
+              "title": "The Statusmessage Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "LOGIN_FAILED"
+              ]
+            },
+            "status": {
+              "$id": "/properties/providerAccount/properties/refreshInfo/properties/status",
+              "type": "string",
+              "format": "providerAccStatus",
+              "title": "The Status Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "FAILED"
+              ]
+            },
+            "additionalStatus": {
+              "$id": "/properties/providerAccount/properties/refreshInfo/properties/additionalStatus",
+              "type": "string",
+              "format": "providerAccDetailsStatus",
+              "title": "The Additionalstatus Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "LOGIN_FAILED"
+              ]
+            },
+            "actionRequired": {
+              "$id": "/properties/providerAccount/properties/refreshInfo/properties/actionRequired",
+              "type": "string",
+              "title": "The Actionrequired Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "UPDATE_CREDENTIALS"
+              ]
+            },
+            "message": {
+              "$id": "/properties/providerAccount/properties/refreshInfo/properties/message",
+              "type": "string",
+              "title": "The Message Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "INVOKE_UPDATE_PROVIDER_ACCOUNT_WITH_CREDENTIALS_PARAM"
+              ]
+            },
+            "nextRefreshScheduled": {
+              "$id": "/properties/providerAccount/properties/refreshInfo/properties/nextRefreshScheduled",
+              "type": "string",
+              "format": "datetime",
+              "title": "The Nextrefreshscheduled Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "2037-08-15T12:18:02Z"
+              ]
+            },
+            "lastRefreshed": {
+              "$id": "/properties/providerAccount/properties/refreshInfo/properties/lastRefreshed",
+              "type": "string",
+              "format": "datetime",
+              "title": "The Lastrefreshed Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "2017-11-28T10:47:22Z"
+              ]
+            },
+            "lastRefreshAttempt": {
+              "$id": "/properties/providerAccount/properties/refreshInfo/properties/lastRefreshAttempt",
+              "type": "string",
+              "format": "datetime",
+              "title": "The Lastrefreshattempt Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "2017-11-28T10:47:22Z"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

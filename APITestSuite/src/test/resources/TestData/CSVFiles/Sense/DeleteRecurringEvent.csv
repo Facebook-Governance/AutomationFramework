@@ -1,0 +1,8 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,recurringEventId,sourceType,enabled
+1,Valid id,204,NoResponse.json,../src/test/resources/TestData/ErrorMessage/,VALID,MANUAL,TRUE
+2,Inalid id,400,InvalidRecurringEventId.json,../src/test/resources/TestData/ErrorMessage/,INVALID,MANUAL,TRUE
+3,No id,400,Invalidinput.json,../src/test/resources/TestData/ErrorMessage/,NULL,MANUAL,TRUE
+4,OtherUser,400,InvalidRecurringEventId.json,../src/test/resources/TestData/ErrorMessage/,OTHER_USER,MANUAL,TRUE
+6,Inalid id,400,InvalidRecurringEventId.json,../src/test/resources/TestData/ErrorMessage/,INVALID,SYSTEM_PREDICTED,TRUE
+7,No id,400,Invalidinput.json,../src/test/resources/TestData/ErrorMessage/,NULL,SYSTEM_PREDICTED,TRUE
+8,OtherUser,400,InvalidRecurringEventId.json,../src/test/resources/TestData/ErrorMessage/,OTHER_USER,SYSTEM_PREDICTED,TRUE

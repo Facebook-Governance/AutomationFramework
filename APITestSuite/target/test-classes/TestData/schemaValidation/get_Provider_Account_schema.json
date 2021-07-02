@@ -1,0 +1,157 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "providerAccount": {
+      "$id": "/properties/providerAccount",
+      "type": "array",
+      "items": {
+        "$id": "/properties/providerAccount/items",
+        "type": "object",
+        "properties": {
+          "id": {
+            "$id": "/properties/providerAccount/items/properties/id",
+            "type": "number",
+            "minimum": -9223372036854775807,
+            "maximum": 9223372036854775807, 
+            "title": "The Id Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              359809
+            ]
+          },
+          "providerId": {
+            "$id": "/properties/providerAccount/items/properties/providerId",
+            "type": "number",
+            "minimum": -9223372036854775807,
+            "maximum": 9223372036854775807,
+            "title": "The Providerid Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              16441
+            ]
+          },
+          "lastUpdated": {
+            "$id": "/properties/providerAccount/items/properties/lastUpdated",
+            "type": "string",
+            "format":"datetime",
+            "title": "The Lastupdated Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-10-06T10:41:37Z"
+            ]
+          },
+          "isManual": {
+            "$id": "/properties/providerAccount/items/properties/isManual",
+            "type": "boolean",
+            "title": "The Ismanual Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "createdDate": {
+            "$id": "/properties/providerAccount/items/properties/createdDate",
+            "type": "string",
+            "format":"date",
+            "title": "The Createddate Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-09-19"
+            ]
+          },
+          "aggregationSource": {
+            "$id": "/properties/providerAccount/items/properties/aggregationSource",
+            "type": "string",
+            "format":"aggSource",
+            "title": "The Aggregationsource Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "USER"
+            ]
+          },
+          "refreshInfo": {
+            "$id": "/properties/providerAccount/items/properties/refreshInfo",
+            "type": "object",
+            "properties": {
+              "statusCode": {
+                "$id": "/properties/providerAccount/items/properties/refreshInfo/properties/statusCode",
+                "type": "integer",
+                "format":"statusCode",
+                "title": "The Statuscode Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  508
+                ]
+              },
+              "statusMessage": {
+                "$id": "/properties/providerAccount/items/properties/refreshInfo/properties/statusMessage",
+                "type": "string",
+                "format":"refreshStatus",
+                "title": "The Statusmessage Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "OK"
+                ]
+              },
+              "status": {
+                "$id": "/properties/providerAccount/items/properties/refreshInfo/properties/status",
+                "type": "string",
+                "format":"providerAccStatus",
+                "title": "The Status Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "IN_PROGRESS"
+                ]
+              },
+              "additionalStatus": {
+                "$id": "/properties/providerAccount/items/properties/refreshInfo/properties/additionalStatus",
+                "type": "string",
+                  "format":"providerAccDetailsStatus",
+                "title": "The Additionalstatus Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "LOGIN_IN_PROGRESS"
+                ]
+              },
+              "lastRefreshed": {
+                "$id": "/properties/providerAccount/items/properties/refreshInfo/properties/lastRefreshed",
+                "type": "string",
+                "format":"datetime",
+                "title": "The Lastrefreshed Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "2017-10-06T10:40:45Z"
+                ]
+              },
+              "lastRefreshAttempt": {
+                "$id": "/properties/providerAccount/items/properties/refreshInfo/properties/lastRefreshAttempt",
+                "type": "string",
+                "format":"datetime",
+                "title": "The Lastrefreshattempt Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "2017-10-06T10:40:45Z"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

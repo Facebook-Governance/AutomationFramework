@@ -1,0 +1,4 @@
+tcId,tcName,acl_KEY1,acl_KEY12,enabled
+AT-97266,Verify the API by passing invalid param_key,-1,,TRUE
+AT-97266,Verify the API by passing null  param_key,0,,TRUE
+AT-97266,Verify the API by passing invalid param_key,-7615,,TRUE

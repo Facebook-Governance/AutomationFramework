@@ -1,0 +1,27 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>PendingTrx_Reconcile.site16441.1</siteUser>
+				<siteUserId></siteUserId>
+				<sitePwd>site16441.1</sitePwd>
+				<sitePwdId></sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>TRANSACTIONS</name>
+								<container>bank</container>
+								<containerAttributes>
+								<bank nonOfTransaction="30"/>
+								</containerAttributes>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+	</request>
+</entity>

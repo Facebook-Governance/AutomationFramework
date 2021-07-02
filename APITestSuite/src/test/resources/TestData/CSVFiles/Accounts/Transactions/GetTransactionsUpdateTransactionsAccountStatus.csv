@@ -1,0 +1,3 @@
+testCaseId,TestCase,amount,currency,consumer,baseType,category,categorySource,startDate,memo,accountId,checkNumber,frequence,endDate,sourceType,transactionType,accountStatus,httpStatus,Enabled,resFilePathstatus,resFile,transactionId
+AT-30698,CLOSED,100,USD,Description,CREDIT,92,SYSTEM,"0,0,0",memo,CARD,1234,MONTHLY,"0,1,1",MANUAL,DEPOSIT,CLOSED,400,TRUE,../src/test/resources/TestData/JSONFiles/GetRecurringTransactionByIdABNegativeErrorMessage/,GetTransactionByIdNegativeClosedAccount.json,1154234
+AT-30698,INACTIVE,100,USD,Description,CREDIT,92,SYSTEM,"0,0,0",memo,CARD,1234,MONTHLY,"0,1,1",MANUAL,DEPOSIT,INACTIVE,400,TRUE,../src/test/resources/TestData/JSONFiles/GetRecurringTransactionByIdABNegativeErrorMessage/,GetTransactionByIdNegativeClosedAccount.json,11540158

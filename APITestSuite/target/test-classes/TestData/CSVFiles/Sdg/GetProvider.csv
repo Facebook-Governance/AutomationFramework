@@ -1,0 +1,9 @@
+tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,enabled,UsTestcaseId,priority,formType
+GetProvider_1,Validation REGEX field in get providers response,GET_PROVIDERS_DETAILS_WITHOUT_PROVIDERACCOUNT_ID,../src/test/resources/TestData/XML/MFA/PROVIDERS/,REGX.xml,YES,NO,TRUE,AT-31248,P1,Simplified
+GetProvider_2,Validation of Prefix and suffix in get providers response,GET_PROVIDERS_DETAILS_WITHOUT_PROVIDERACCOUNT_ID,../src/test/resources/TestData/XML/MFA/PROVIDERS/,Suffix_Prefix.xml,YES,NO,TRUE,AT-31249,P2,Simplified
+GetProvider_3,Validation of field MFAOP or OP_ in get providers response,GET_PROVIDERS_DETAILS_WITHOUT_PROVIDERACCOUNT_ID,../src/test/resources/TestData/XML/MFA/PROVIDERS/,OP_Field.xml,YES,NO,TRUE,AT-31250,P2,Simplified
+GetProvider_4,Validation of custom sites in response,GET_PROVIDERS_DETAILS_WITHOUT_PROVIDERACCOUNT_ID,../src/test/resources/TestData/XML/MFA/PROVIDERS/,Custom_Site.xml,YES,NO,TRUE,AT-31251,P2,Simplified
+GetProvider_5,Validation of oauth sites in response,GET_PROVIDERS_DETAILS_WITHOUT_PROVIDERACCOUNT_ID,../src/test/resources/TestData/XML/MFA/PROVIDERS/,Oauth_Site.xml,YES,NO,TRUE,AT-31252,P2,Simplified
+GetProvider_6,Validation of loginHelp and forgetPassword in response,GET_PROVIDERS_DETAILS_WITHOUT_PROVIDERACCOUNT_ID,../src/test/resources/TestData/XML/MFA/PROVIDERS/,LoginHelp_Forget_Password.xml,YES,NO,TRUE,AT-31253,P2,Simplified
+GetProvider_7,Validation of get providers display order,GET_PROVIDERS_DETAILS_WITHOUT_PROVIDERACCOUNT_ID,../src/test/resources/TestData/XML/MFA/PROVIDERS/,Display_Order.xml,YES,NO,TRUE,AT-31254,P2,Simplified
+GetProvider_8,Validate for field_type_info_id is 13,GET_PROVIDERS_DETAILS_WITHOUT_PROVIDERACCOUNT_ID,../src/test/resources/TestData/XML/MFA/PROVIDERS/,Suffix_Prefix.xml,YES,NO,TRUE,AT-31249,P2,Simplified

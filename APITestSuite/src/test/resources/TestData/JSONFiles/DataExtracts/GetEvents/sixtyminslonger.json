@@ -1,0 +1,5 @@
+{
+  "errorMessage": "Invalid value for fromDate or toDate.The time difference between fromDate and toDate cannot be more than 60 minute(s)",
+  "errorCode": "Y800",
+  "referenceCode": "${json-unit.ignore}"
+}

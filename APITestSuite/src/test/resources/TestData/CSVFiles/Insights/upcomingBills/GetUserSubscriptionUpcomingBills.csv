@@ -1,0 +1,14 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-138620,"getUserSubscription - Validate UpcomingBills , Validate InsightName",,UpcomingBills,UpcomingBills,,,,,,,,,,,,,200,TRUE
+AT-138621,"getUserSubscription - Validate UpcomingBills , Validate Supporting container",,UpcomingBills,,,BANK,,,,,,,,,,,200,TRUE
+AT-138622,"getUserSubscription - Validate UpcomingBills , Validate TriggerType",SCHEDULE,UpcomingBills,,,,,,,,,,,,,,200,TRUE
+AT-138623,"getUserSubscription - Validate UpcomingBills , Validate applicableEntity",,UpcomingBills,,,,,,,"ACCOUNT,VIEW",,,,,,,200,TRUE
+AT-138624,"getUserSubscription - Validate UpcomingBills , Validate number of levels and levelObject",,UpcomingBills,,,,,,,"ACCOUNT,VIEW",account,,,,,,200,TRUE
+AT-138625,"getUserSubscription - Validate UpcomingBills , Validate isSubscribed=false",,UpcomingBills,,,,,,,,,FALSE,,,,,200,TRUE
+AT-138626,"getUserSubscription - Validate UpcomingBills , Validate threshold Name,Value and Type",,UpcomingBills,,,,,,,,account,,,"FUTURE,7,DAYS",,,200,TRUE
+AT-138627,"getUserSubscription - Validate UpcomingBills , Validate insightKeys",,UpcomingBills,,,,Account,,,,,,,,,,200,TRUE
+AT-138628,"getUserSubscription - Validate UpcomingBills , Validate description",,UpcomingBills,,,,,,Generates an insight that lists upcoming recurring bills within a configured time period.,,,,,,,,200,TRUE
+AT-138629,"getUserSubscription - Validate UpcomingBills , Validate title",,UpcomingBills,,Upcoming    Bills,,,,,,,,,,,,200,TRUE
+AT-138630,"getUserSubscription - Validate UpcomingBills , Validate ruleExpression",,UpcomingBills,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-138631,"getUserSubscription - Validate UpcomingBills , Validate total number of keys",,UpcomingBills,,,,,10,,,,,,,,,200,TRUE
+AT-138632,"getUserSubscription - Validate UpcomingBills , verify entityParameter and configMeta are same",,UpcomingBills,,,,,,,,,,,,,TRUE,200,TRUE

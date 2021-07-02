@@ -1,0 +1,375 @@
+{
+    "account": [
+        {
+            "includeInNetWorth": true,
+            "accountName": "TESTDATA1",
+            "profile": {
+                "identifier": [
+                    {
+                        "type": "AADHAR",
+                        "value": "90876543212356"
+                    },
+                    {
+                        "type": "NRIC",
+                        "value": "78787989"
+                    }
+                ],
+                "address": [
+                    {
+                        "zip": "AP_SEC_Zip1",
+                        "address3": "AP_SEC_Address3",
+                        "address2": "AP_SEC_Address2",
+                        "city": "AP_SEC_City1",
+                        "address1": "AP_SEC_Address1",
+                        "state": "AP_SEC_state1"
+                    }
+                ],
+                "phoneNumber": [
+                    {
+                        "type": "HOME",
+                        "value": "AP_SEC_HomePhone1"
+                    },
+                    {
+                        "type": "WORK",
+                        "value": "AP_SEC_WorkPhone1"
+                    },
+                    {
+                        "type": "LANDLINE",
+                        "value": "AP_SEC_Phone1"
+                    },
+                    {
+                        "type": "MOBILE",
+                        "value": "AP_SEC_MobilePhone1"
+                    }
+                ],
+                "company": "AP_SEC_COMPANY",
+                "email": [
+                    {
+                        "type": "PRIMARY",
+                        "value": "AP_SEC_Prim@gmail.com"
+                    },
+                    {
+                        "type": "SECONDARY",
+                        "value": "AP_SEC_SEC@gmail.com"
+                    },
+                    {
+                        "type": "PERSONAL",
+                        "value": "AP_SEC_PERS@gmail.com"
+                    },
+                    {
+                        "type": "WORK",
+                        "value": "AP_SEC_Work@gmail.com"
+                    },
+                    {
+                        "type": "OTHERS",
+                        "value": "AP_SEC_Others@GMAIL>COM"
+                    },
+                    {
+                        "type": "OTHERS",
+                        "value": "AP_SEC_AccountEmail1@gmail.com"
+                    }
+                ]
+            },
+            "isManual": false,
+            "currentBalance": {
+                "amount": 9044.78,
+                "currency": "USD"
+            },
+            "accountType": "SAVINGS",
+            "displayedName": "accountHolder",
+            "holder": [
+                {
+                    "identifier": [
+                        {
+                            "type": "AADHAR",
+                            "value": "8900786654321"
+                        },
+                        {
+                            "type": "NRIC",
+                            "value": "90878712456789"
+                        }
+                    ],
+                    "address": [
+                        {
+                            "zip": "SecondAccountZip1",
+                            "address3": "SecondAccountAddress3",
+                            "address2": "SecondAccountAddress2",
+                            "city": "SecondAccountCity1",
+                            "address1": "SecondAccountAddress1",
+                            "state": "SecondAccountstate1",
+                            "type": "HOME"
+                        }
+                    ],
+                    "phoneNumber": [
+                        {
+                            "type": "HOME",
+                            "value": "SecondAccountHomePhone1"
+                        },
+                        {
+                            "type": "WORK",
+                            "value": "SecondAccountWorkPhone1"
+                        },
+                        {
+                            "type": "LANDLINE",
+                            "value": "SecondAccountPhone"
+                        },
+                        {
+                            "type": "MOBILE",
+                            "value": "9887878778"
+                        }
+                    ],
+                    "gender": "Male",
+                    "ownership": "JOINT_OWNER",
+                    "name": {
+                        "middle": "SecondAccountMiddleName1",
+                        "last": "SecondAccountLastName",
+                        "fullName": "SecondAccountFullName1",
+                        "first": "SecondAccountFirstName1"
+                    },
+                    "company": "SecondAccountDummy Company1",
+                    "dateOfBirth": "1990-10-17",
+                    "email": [
+                        {
+                            "type": "PRIMARY",
+                            "value": "PrimaryEmail1"
+                        },
+                        {
+                            "type": "SECONDARY",
+                            "value": "SecondaryEmail1"
+                        },
+                        {
+                            "type": "PERSONAL",
+                            "value": "PersonalEmail1"
+                        },
+                        {
+                            "type": "WORK",
+                            "value": "SecondAccount@gmail.com"
+                        },
+                        {
+                            "type": "OTHERS",
+                            "value": "SecondAccountother@gmail.com"
+                        },
+                        {
+                            "type": "OTHERS",
+                            "value": "testemail1@yodlee.com"
+                        }
+                    ]
+                }
+            ],
+            "accountNumber": "xxxx1123",
+            "availableBalance": {
+                "amount": 65454.78,
+                "currency": "USD"
+            },
+            "accountStatus": "ACTIVE",
+            "isAsset": true,
+            "aggregationSource": "USER",
+            "balance": {
+                "amount": 9044.78,
+                "currency": "USD"
+            },
+            "providerId": "16441",
+            "CONTAINER": "bank",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "ACCT_PROFILE"
+              },
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA"
+                }
+            ],
+            "providerName": "Dag Site"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "TESTDATA",
+            "profile": {
+                "identifier": [
+                    {
+                        "type": "AADHAR",
+                        "value": "7576565567"
+                    },
+                    {
+                        "type": "NRIC",
+                        "value": "454765876876"
+                    }
+                ],
+                "address": [
+                    {
+                        "zip": "Zip1",
+                        "address3": "Address3",
+                        "address2": "Address2",
+                        "city": "City1",
+                        "address1": "Address1",
+                        "state": "state1",
+                        "type": "HOME"
+                    }
+                ],
+                "phoneNumber": [
+                    {
+                        "type": "HOME",
+                        "value": "HomePhone1"
+                    },
+                    {
+                        "type": "WORK",
+                        "value": "WorkPhone1"
+                    },
+                    {
+                        "type": "LANDLINE",
+                        "value": "Phone1"
+                    },
+                    {
+                        "type": "MOBILE",
+                        "value": "MobilePhone1"
+                    }
+                ],
+                "company": "AccountCompany1",
+                "email": [
+                    {
+                        "type": "PRIMARY",
+                        "value": "PrimaryEmail1"
+                    },
+                    {
+                        "type": "SECONDARY",
+                        "value": "SecondaryEmail1"
+                    },
+                    {
+                        "type": "PERSONAL",
+                        "value": "PersonalEmail1"
+                    },
+                    {
+                        "type": "WORK",
+                        "value": "workEmail1"
+                    },
+                    {
+                        "type": "OTHERS",
+                        "value": "OthersEmail1"
+                    },
+                    {
+                        "type": "OTHERS",
+                        "value": "AccountEmail1"
+                    }
+                ]
+            },
+            "isManual": false,
+            "currentBalance": {
+                "amount": 44.78,
+                "currency": "USD"
+            },
+            "accountType": "CHECKING",
+            "displayedName": "accountHolder",
+            "holder": [
+                {
+                    "identifier": [
+                        {
+                            "type": "AADHAR",
+                            "value": "4575476vhg"
+                        },
+                        {
+                            "type": "NRIC",
+                            "value": "64576587687"
+                        }
+                    ],
+                    "address": [
+                        {
+                            "zip": "Zip1",
+                            "address3": "Address3",
+                            "address2": "Address2",
+                            "city": "City1",
+                            "address1": "Address1",
+                            "state": "state1",
+                            "type": "HOME"
+                        }
+                    ],
+                    "phoneNumber": [
+                        {
+                            "type": "HOME",
+                            "value": "HomePhone1"
+                        },
+                        {
+                            "type": "WORK",
+                            "value": "WorkPhone1"
+                        },
+                        {
+                            "type": "LANDLINE",
+                            "value": "Phone"
+                        },
+                        {
+                            "type": "MOBILE",
+                            "value": "MobilePhone1"
+                        }
+                    ],
+                    "gender": "Male",
+                    "ownership": "JOINT_OWNER",
+                    "name": {
+                        "middle": "MiddleName1",
+                        "last": "LastName1",
+                        "fullName": "FullName1",
+                        "first": "FirstName1"
+                    },
+                    "company": "Dummy Company1",
+                    "dateOfBirth": "1989-10-17",
+                    "email": [
+                        {
+                            "type": "PRIMARY",
+                            "value": "PrimaryEmail1"
+                        },
+                        {
+                            "type": "SECONDARY",
+                            "value": "SecondaryEmail1"
+                        },
+                        {
+                            "type": "PERSONAL",
+                            "value": "PersonalEmail1"
+                        },
+                        {
+                            "type": "WORK",
+                            "value": "workEmail1"
+                        },
+                        {
+                            "type": "OTHERS",
+                            "value": "OthersEmail1"
+                        },
+                        {
+                            "type": "OTHERS",
+                            "value": "testemail1@yodlee.com"
+                        }
+                    ]
+                }
+            ],
+            "accountNumber": "xxxx5623",
+            "availableBalance": {
+                "amount": 54.78,
+                "currency": "USD"
+            },
+            "accountStatus": "ACTIVE",
+            "isAsset": true,
+            "aggregationSource": "USER",
+            "balance": {
+                "amount": 44.78,
+                "currency": "USD"
+            },
+            "providerId": "16441",
+            "CONTAINER": "bank",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "ACCT_PROFILE"
+                },
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA"
+                }
+            ],
+            "providerName": "Dag Site"
+        }
+    ]
+}

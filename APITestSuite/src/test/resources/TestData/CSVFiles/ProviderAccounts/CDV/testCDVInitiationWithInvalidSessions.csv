@@ -1,0 +1,4 @@
+testCaseID,testCaseName,accountNumber,accountName,accountType,bankTransferId,bankTransferType,verificationType,resFile,filePath,HttpStatusCode
+1,renasant,12767987693,renasant,SAVINGS,284272625,ROUTING_NUMBER,CHALLENGE_DEPOSIT,InvalidCobrandSession.json,../src/test/resources/TestData/JSONFiles/ProviderAccount/CDV/Initiation/Negative/,401
+2,renasant,12767987693,renasant,SAVINGS,284272625,ROUTING_NUMBER,CHALLENGE_DEPOSIT,InvalidUserSession.json,../src/test/resources/TestData/JSONFiles/ProviderAccount/CDV/Initiation/Negative/,401
+3,renasant,12767987693,renasant,SAVINGS,284272625,ROUTING_NUMBER,CHALLENGE_DEPOSIT,BothInvalidSessions.json,../src/test/resources/TestData/JSONFiles/ProviderAccount/CDV/Initiation/Negative/,401

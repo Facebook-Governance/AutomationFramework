@@ -1,0 +1,1117 @@
+{
+  "provider": [
+    {
+      "PRIORITY": "COBRAND",
+      "id": 5,
+      "name": "Wells Fargo",
+      "loginUrl": "https://www.wellsfargo.com/",
+      "baseUrl": "https://www.wellsfargo.com/",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_5.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "mfaType": "Multiple levels of strong authentication.",
+      "help": "If you are a registered user and use a security token: <br> <p> <ol> <li> Enter your registered user ID and password.</li> <li> Select Password and Token from the drop-down menu. <br> • A pop up appears <li> Enter your security code </li> </ol> If you are a registered user but do not use a security token: <br> <ol> <li> Enter your user ID and password </li> <li> Select Password Only option the drop-down menu. </li> </ol> </p>",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "US",
+      "lastModified": "2017-09-06T22:44:32Z",
+      "forgetPasswordUrl": "https://online.wellsfargo.com/das/cgi-bin/session.cgi?screenid=PASSWORD_HELP",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        },
+        "BANK": {
+          "numberOfTransactionDays": 90
+        },
+        "LOAN": {
+          "numberOfTransactionDays": 90
+        },
+        "INVESTMENT": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "loginHelp": "To log in successfully, please ensure following conditions are satisfied for your username at Wells Fargo.<br> Your Username: <p><ol> <li>Must be <strong>6 to 14 characters</strong> in length and including at least one letter.</li> <li>Cannot contain 9 or more numbers</li> <li>Must not contain <strong>Special Characters</strong> other than hyphens (-) or underscores (_)</li> <li>Must be different than your password, ATM PIN, or Social Security number, and not easy for others to guess!</li> </p> </ol>",
+      "containerNames": [
+        "bank",
+        "loan",
+        "investment",
+        "creditCard"
+      ],
+      "capability": [
+        {
+          "name": "CHALLENGE_DEPOSIT_VERIFICATION",
+          "container": [
+            "bank"
+          ]
+        }
+      ],
+      "additionalDataSet": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "FULL_ACCT_NUMBER",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "HOLDER_NAME",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "MFA_CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 524,
+      "name": "U.S. Bank",
+      "loginUrl": "https://onlinebankingaggregators.usbank.com/auth/login",
+      "baseUrl": "https://www.usbank.com/index.html",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "mfaType": "Question and answer type multi factor authentication.",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "US",
+      "lastModified": "2017-09-11T00:20:47Z",
+      "forgetPasswordUrl": "https://onlinebanking.usbank.com/Auth/LoginAssistanceDesktop/LoadLoginAssistance?type=pid",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        },
+        "BANK": {
+          "numberOfTransactionDays": 90
+        },
+        "LOAN": {
+          "numberOfTransactionDays": 90
+        },
+        "INVESTMENT": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "bank",
+        "loan",
+        "investment",
+        "creditCard"
+      ],
+      "capability": [
+        {
+          "name": "CHALLENGE_DEPOSIT_VERIFICATION",
+          "container": [
+            "bank"
+          ]
+        }
+      ],
+      "additionalDataSet": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "FULL_ACCT_NUMBER",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "HOLDER_NAME",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "MFA_CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 744,
+      "name": "E*TRADE",
+      "loginUrl": "https://us.etrade.com/e/t/user/login",
+      "baseUrl": "https://us.etrade.com",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "mfaType": "Token Id based multi factor authentication",
+      "help": "If you are a registered user and use a security token: <br> <p> <ol> <li> Enter your registered user ID and password.</li> <li> Select Password and Token from the drop-down menu. <br> • A pop up appears <li> Enter your security code </li> </ol> If you are a registered user but do not use a security token: <br> <ol> <li> Enter your user ID and password </li> <li> Select Password Only option the drop-down menu. </li> </ol> </p>",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "US",
+      "lastModified": "2017-08-03T13:07:32Z",
+      "forgetPasswordUrl": "https://express.etrade.com/e/t/user/resetpassword",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "BANK": {
+          "numberOfTransactionDays": 90
+        },
+        "LOAN": {
+          "numberOfTransactionDays": 90
+        },
+        "INVESTMENT": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "bank",
+        "loan",
+        "investment"
+      ],
+      "capability": [
+        {
+          "name": "CHALLENGE_DEPOSIT_VERIFICATION",
+          "container": [
+            "stocks",
+            "bank"
+          ]
+        }
+      ],
+      "additionalDataSet": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "FULL_ACCT_NUMBER",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "HOLDER_NAME",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "MFA_CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 3968,
+      "name": "HSBC Bank",
+      "loginUrl": "https://www.hsbc.co.uk/1/2/welcome-gsp?initialAccess=true&IDV_URL=hsbc.MyHSBC_pib",
+      "baseUrl": "https://www.hsbc.co.uk/1/2/",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Beta",
+      "mfaType": "Multiple levels of strong authentication.",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "GB",
+      "lastModified": "2017-10-26T20:55:17Z",
+      "forgetPasswordUrl": "https://www.hsbc.co.uk/1/2/HSBCINTEGRATION/forgotten",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        },
+        "BANK": {
+          "numberOfTransactionDays": 90
+        },
+        "LOAN": {
+          "numberOfTransactionDays": 90
+        },
+        "INVESTMENT": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "bank",
+        "loan",
+        "investment",
+        "creditCard"
+      ],
+      "additionalDataSet": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "FULL_ACCT_NUMBER",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "HOLDER_NAME",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "MFA_CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 3970,
+      "name": "Halifax Online",
+      "loginUrl": "https://www.halifax-online.co.uk/personal/logon/login.jsp",
+      "baseUrl": "http://www.halifax.co.uk/",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "GB",
+      "lastModified": "2017-04-26T22:31:39Z",
+      "forgetPasswordUrl": "https://www.halifax-online.co.uk/",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        },
+        "BANK": {
+          "numberOfTransactionDays": 90
+        },
+        "LOAN": {
+          "numberOfTransactionDays": 90
+        },
+        "INVESTMENT": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "bank",
+        "loan",
+        "investment",
+        "creditCard"
+      ],
+      "capability": [
+        {
+          "name": "CHALLENGE_DEPOSIT_VERIFICATION",
+          "container": [
+            "bank"
+          ]
+        }
+      ],
+      "additionalDataSet": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "FULL_ACCT_NUMBER",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "HOLDER_NAME",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 4118,
+      "name": "Barclays - Pin Sentry Users",
+      "loginUrl": "https://bank.barclays.co.uk/olb/auth/LoginLink.action",
+      "baseUrl": "https://www.barclays.co.uk/PersonalBanking/",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "mfaType": "Multiple levels of strong authentication.",
+      "help": "Please Provide either of Membership number, Card number, Sort code and Account number. Non Token users need to enter Passcode and Memorable word which are mandatory.",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "GB",
+      "lastModified": "2017-11-11T20:55:16Z",
+      "forgetPasswordUrl": "https://ibank.barclays.co.uk/fp/1_2m/online/1,17266,loginForgottenDetails,00.html?forgottenLoginDetails=true",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "BANK": {
+          "numberOfTransactionDays": 90
+        },
+        "LOAN": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "loginHelp": "To link your Barclay account you must enter your Surname and one of the following: your Membership Number, Card Number, or Sort Code and Account Number. <b>If you are a non-PIN Sentry user, you must enter your Passcode and Memorable Word.</b>",
+      "containerNames": [
+        "bank",
+        "loan"
+      ],
+      "additionalDataSet": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "FULL_ACCT_NUMBER",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "HOLDER_NAME",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "MFA_CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 5041,
+      "name": "Central Bank of Boone County",
+      "loginUrl": "https://www.centralbankbc.net/login/login/Login.jsp",
+      "baseUrl": "https://www.centralbankbc.net/",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Beta",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "US",
+      "lastModified": "2017-10-08T19:03:12Z",
+      "forgetPasswordUrl": "https://www.centralbankbc.net/OnlineRegistration/forgotPassword.do",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        },
+        "BANK": {
+          "numberOfTransactionDays": 90
+        },
+        "LOAN": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "bank",
+        "loan",
+        "creditCard"
+      ],
+      "capability": [
+        {
+          "name": "CHALLENGE_DEPOSIT_VERIFICATION",
+          "container": [
+            "bank"
+          ]
+        }
+      ],
+      "authType": "CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 7364,
+      "name": "Federal Savings Bank",
+      "loginUrl": "https://web3.ibtapps.com/olb-nashville/Auth/EnterUsername?ReturnUrl=%2folb-nashville",
+      "baseUrl": "http://www.fsbdover.com/",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "mfaType": "Question and answer type multi factor authentication.",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "US",
+      "lastModified": "2016-09-01T17:15:23Z",
+      "forgetPasswordUrl": "https://web3.ibtapps.com/olb-nashville/Auth/EnterUsername?ReturnUrl=%2folb-nashville",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "BANK": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "bank"
+      ],
+      "capability": [
+        {
+          "name": "CHALLENGE_DEPOSIT_VERIFICATION",
+          "container": [
+            "bank"
+          ]
+        }
+      ],
+      "additionalDataSet": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "FULL_ACCT_NUMBER",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "HOLDER_NAME",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "MFA_CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 7634,
+      "name": "Custom Bank",
+      "loginUrl": "https://www.customsite.com",
+      "baseUrl": "http://www.yodleecustom.com",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "lastModified": "2017-11-13T17:25:58Z",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        },
+        "INSURANCE": {
+          "numberOfTransactionDays": 90
+        },
+        "BANK": {
+          "numberOfTransactionDays": 90
+        },
+        "LOAN": {
+          "numberOfTransactionDays": 90
+        },
+        "INVESTMENT": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "insurance",
+        "bank",
+        "loan",
+        "investment",
+        "creditCard"
+      ],
+      "capability": [
+        {
+          "name": "CHALLENGE_DEPOSIT_VERIFICATION",
+          "container": [
+            "bank"
+          ]
+        }
+      ],
+      "authType": "CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 7850,
+      "name": "Allied Irish Bank",
+      "loginUrl": "https://onlinebanking.aib.ie/inet/roi/login.htm",
+      "baseUrl": "http://www.aib.ie/",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "mfaType": "Question and answer type multi factor authentication.",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "IE",
+      "lastModified": "2015-12-08T15:59:22Z",
+      "forgetPasswordUrl": "http://www.aib.ie/servlet/ContentServer?pagename=ROIPersonalPortal/pp_main&c=AIBParent_P&cid=1136826204852&channel=P002",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        },
+        "LOAN": {
+          "numberOfTransactionDays": 90
+        },
+        "BANK": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "loan",
+        "bank",
+        "creditCard"
+      ],
+      "authType": "MFA_CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 8098,
+      "name": "NatWest Bank",
+      "loginUrl": "https://www.nwolb.com/",
+      "baseUrl": "http://personal.natwest.com/personal.html",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "GB",
+      "lastModified": "2017-11-26T22:23:08Z",
+      "forgetPasswordUrl": "https://www.nwolb.com/default.aspx?refererident=A9ACBDE69395FB8EE00FEFC8947C7A9CB2B9E158&cookieid=35743&noscr=false",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        },
+        "BANK": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "bank",
+        "creditCard"
+      ],
+      "additionalDataSet": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "FULL_ACCT_NUMBER",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 8995,
+      "name": "DagBank",
+      "loginUrl": "USloginUrl",
+      "baseUrl": "http://64.14.28.129/dag/index.do",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_8995.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "lastModified": "2017-05-18T18:44:10Z",
+      "forgetPasswordUrl": "http://dag2.yodlee.com/dag/index.do",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "BANK": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "bank"
+      ],
+      "capability": [
+        {
+          "name": "CHALLENGE_DEPOSIT_VERIFICATION",
+          "container": [
+            "bank"
+          ]
+        }
+      ],
+      "additionalDataSet": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 8997,
+      "name": "DagInsurance",
+      "loginUrl": "http://64.14.28.129/dag/index.do",
+      "baseUrl": "http://64.14.28.129/dag/index.do",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "help": "http://www.testingdagbank.com",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "lastModified": "2015-06-09T21:14:57Z",
+      "forgetPasswordUrl": "http://64.14.28.129/dag/index.do",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "INSURANCE": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "insurance"
+      ],
+      "authType": "CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 8998,
+      "name": "DagCreditcard",
+      "loginUrl": "http://64.14.28.129/dag/index.do",
+      "baseUrl": "http://64.14.28.129/dag/index.do",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "lastModified": "2015-06-09T21:15:19Z",
+      "forgetPasswordUrl": "https://mail.yahoo.com",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "creditCard"
+      ],
+      "authType": "CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 8999,
+      "name": "DagLoan",
+      "loginUrl": "http://64.14.28.129/dag/index.do",
+      "baseUrl": "http://64.14.28.129/dag/index.do",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "lastModified": "2015-06-09T21:13:36Z",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "LOAN": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "loan"
+      ],
+      "authType": "CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 9000,
+      "name": "DagBills",
+      "loginUrl": "http://64.14.28.129/dag/index.do",
+      "baseUrl": "https://mail.yahoo.com",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_9000.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "lastModified": "2017-01-01T20:42:32Z",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        },
+        "INSURANCE": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "insurance",
+        "creditCard"
+      ],
+      "authType": "CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 9001,
+      "name": "DagInvestments",
+      "loginUrl": "http://dag2.yodlee.com/dag/index.do",
+      "baseUrl": "http://dag2.yodlee.com/dag/index.do",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "US",
+      "lastModified": "2017-07-19T18:59:48Z",
+      "forgetPasswordUrl": "http://dag2.yodlee.com/dag/index.do",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "INVESTMENT": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "investment"
+      ],
+      "authType": "CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 15569,
+      "name": "Metro Bank Retail",
+      "loginUrl": "https://personal.metrobankonline.co.uk/MetroBankRetail/",
+      "baseUrl": "https://www.metrobankonline.co.uk/",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "GB",
+      "lastModified": "2016-12-20T16:36:24Z",
+      "forgetPasswordUrl": "https://personal.metrobankonline.co.uk/MetroBankRetail/",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        },
+        "BANK": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "bank",
+        "creditCard"
+      ],
+      "capability": [
+        {
+          "name": "CHALLENGE_DEPOSIT_VERIFICATION",
+          "container": [
+            "bank"
+          ]
+        }
+      ],
+      "additionalDataSet": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "FULL_ACCT_NUMBER",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "HOLDER_NAME",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 16441,
+      "name": "Dag Site",
+      "loginUrl": "http://64.14.28.129/dag/index.do",
+      "baseUrl": "http://64.14.28.129/dag/index.do",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_16441.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_16441_1_1.PNG",
+      "status": "Supported",
+      "help": "help",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "US",
+      "lastModified": "2017-11-28T12:38:10Z",
+      "forgetPasswordUrl": "http://64.14.28.129/dag/index.do",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        },
+        "INSURANCE": {
+          "numberOfTransactionDays": 90
+        },
+        "BANK": {
+          "numberOfTransactionDays": 90
+        },
+        "LOAN": {
+          "numberOfTransactionDays": 90
+        },
+        "INVESTMENT": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "insurance",
+        "bank",
+        "loan",
+        "investment",
+        "creditCard"
+      ],
+      "capability": [
+        {
+          "name": "CHALLENGE_DEPOSIT_VERIFICATION",
+          "container": [
+            "bank",
+            "bank"
+          ]
+        }
+      ],
+      "additionalDataSet": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "FULL_ACCT_NUMBER",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "HOLDER_NAME",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 16442,
+      "name": "Dag Site Multilevel",
+      "loginUrl": "http://64.14.28.129/dag/index.do",
+      "baseUrl": "http://64.14.28.129/dag/index.do",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_16442_1_1.PNG",
+      "status": "Supported",
+      "mfaType": "Multiple levels of strong authentication.",
+      "help": "Enter DagsiteMultilevel loginform field credentials as in dagsml site",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "US",
+      "lastModified": "2017-09-11T20:05:54Z",
+      "forgetPasswordUrl": "http://64.14.28.129/dag/index.do",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        },
+        "BANK": {
+          "numberOfTransactionDays": 90
+        },
+        "INVESTMENT": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "bank",
+        "investment",
+        "creditCard"
+      ],
+      "capability": [
+        {
+          "name": "CHALLENGE_DEPOSIT_VERIFICATION",
+          "container": [
+            "bank"
+          ]
+        }
+      ],
+      "additionalDataSet": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "FULL_ACCT_NUMBER",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "HOLDER_NAME",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "MFA_CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 18769,
+      "name": "Dag Site Captcha",
+      "loginUrl": "http://www.iplmatch.com/loginurl.do",
+      "baseUrl": "http://64.14.28.129/dag/index.do",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "mfaType": "Image based multifactor authentication",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "US",
+      "lastModified": "2017-02-15T16:28:19Z",
+      "forgetPasswordUrl": "http://www.iplmatch.com/password.do",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "BANK": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "bank"
+      ],
+      "capability": [
+        {
+          "name": "CHALLENGE_DEPOSIT_VERIFICATION",
+          "container": [
+            "bank"
+          ]
+        }
+      ],
+      "additionalDataSet": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "FULL_ACCT_NUMBER",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "HOLDER_NAME",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "MFA_CREDENTIALS"
+    },
+    {
+      "PRIORITY": "COBRAND",
+      "id": 19632,
+      "name": "Navient",
+      "loginUrl": "https://login.navient.com/CALM/calm.do?sourceAppName=NAVCOM",
+      "baseUrl": "https://www.navient.com",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.PNG",
+      "status": "Supported",
+      "oAuthSite": false,
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "US",
+      "lastModified": "2017-07-02T23:02:43Z",
+      "forgetPasswordUrl": "https://login2.navient.com/CALM2/ForgotPassword.do",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "LOAN": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "containerNames": [
+        "loan"
+      ],
+      "authType": "CREDENTIALS"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="classes" thread-count="3"
+	preserve-order="true">
+
+
+	<parameter name="suiteName" value="YSLAutoAmelia" />
+
+	<listeners>
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+
+	</listeners>
+	<test name="TestMetricsData">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestMetricsData" />
+		</classes>
+	</test>
+	<test name="TestCoverageAttribute">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestCoverageAttribute" />
+		</classes>
+	</test>
+	<test name="TestPensionAccType">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPensionAccType" />
+		</classes>
+	</test>
+	<test name="TestStudentLoanNewFields">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestStudentLoanNewFields" />
+		</classes>
+	</test>
+	<test name="TestNumberOfTransactionDays">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestNumberOfTransactionDays" />
+		</classes>
+	</test>
+</suite>
+	

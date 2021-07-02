@@ -1,0 +1,11 @@
+tcId,tcName,container,accountType,queryParam,enabled
+AT-98512,Test for bank container for V1.0,bank,,,TRUE
+AT-98512,Test for bank container for V1.0,bank,,status=ACTIVE,TRUE
+AT-98512,Test for loan container for V1.0,loan,MORTGAGE,,TRUE
+AT-98512,Test for loan container for V1.0,loan,MORTGAGE,status=ACTIVE,TRUE
+AT-98512,Test for loan container for V1.0,loan,LINE_OF_CREDIT,,TRUE
+AT-98512,Test for loan container for V1.0,loan,LINE_OF_CREDIT,status=ACTIVE,TRUE
+AT-98512,Test for bill container for V1.0,bill,,,TRUE
+AT-98512,Test for insurance container for V1.0,insurance,,,TRUE
+AT-98512,Test for investment container for V1.0,investment,,,TRUE
+AT-98512,Test for creditCard container for V1.0,creditCard,,,TRUE

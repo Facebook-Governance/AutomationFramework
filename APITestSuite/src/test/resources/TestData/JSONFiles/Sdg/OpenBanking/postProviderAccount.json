@@ -1,0 +1,16 @@
+{
+    "providerAccount": [
+        {
+            "id": "${json-unit.ignore}",
+            "aggregationSource": "USER",
+            "status": "LOGIN_IN_PROGRESS",
+            "requestId": "${json-unit.ignore}",
+            "dataset": [
+                {
+                    "name": "BASIC_AGG_DATA",
+                    "updateEligibility": "DISALLOW_UPDATE"
+                }
+            ]
+        }
+    ]
+}

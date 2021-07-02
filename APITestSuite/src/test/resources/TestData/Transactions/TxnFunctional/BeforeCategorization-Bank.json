@@ -1,0 +1,409 @@
+{
+    "transaction": [
+        {
+            "CONTAINER": "bank",
+            "id": 6160589,
+            "type": "DEPOSITS_CREDITS",
+            "subType": "DIRECT_DEPOSIT_SALARY",
+            "amount": {
+                "amount": 2526.17,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "categoryType": "INCOME",
+            "categoryId": 29,
+            "category": "Salary/Regular Income",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000012,
+            "createdDate": "${json-unit.ignore}"2018-02-03T09:03:48Z",
+            "lastUpdated": "2018-02-03T09:03:48Z",
+            "description": {
+                "original": "VIASAT INC DIRECT DEP",
+                "simple": "viasat Direct Deposit/Salary"
+            },
+            "date": "2018-01-17",
+            "postDate": "2018-01-17",
+            "isManual": false,
+            "status": "POSTED",
+            "accountId": 827904,
+            "runningBalance": {
+                "amount": 10310.16,
+                "currency": "USD"
+            },
+            "merchant": {
+                "id": "viasatus",
+                "name": "viasat",
+                "source": "FACTUAL",
+                "categoryLabel": [
+                    "Salary/Regular Income"
+                ],
+                "address": {
+                    "country": "US"
+                },
+                "coordinates": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 6160590,
+            "type": "DEPOSITS_CREDITS",
+            "subType": "DEPOSIT",
+            "amount": {
+                "amount": 112.57,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "categoryType": "INCOME",
+            "categoryId": 27,
+            "category": "Deposits",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000012,
+            "createdDate": "${json-unit.ignore}"2018-02-03T09:03:48Z",
+            "lastUpdated": "2018-02-03T09:03:48Z",
+            "description": {
+                "original": "DEPOSIT",
+                "simple": "deposit motel Deposit"
+            },
+            "date": "2018-01-16",
+            "postDate": "2018-01-16",
+            "isManual": false,
+            "status": "POSTED",
+            "accountId": 827904,
+            "runningBalance": {
+                "amount": 7783.99,
+                "currency": "USD"
+            },
+            "merchant": {
+                "id": "depositmotelus",
+                "name": "deposit motel",
+                "source": "FACTUAL",
+                "categoryLabel": [
+                    "Deposits"
+                ],
+                "address": {
+                    "country": "US"
+                },
+                "coordinates": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 6160591,
+            "type": "DEPOSITS_CREDITS",
+            "subType": "DIRECT_DEPOSIT_SALARY",
+            "amount": {
+                "amount": 15000,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "categoryType": "INCOME",
+            "categoryId": 29,
+            "category": "Salary/Regular Income",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000012,
+            "createdDate": "${json-unit.ignore}"2018-02-03T09:03:48Z",
+            "lastUpdated": "2018-02-03T09:03:48Z",
+            "description": {
+                "original": "Salary deposited",
+                "simple": "Direct Deposit/Salary"
+            },
+            "date": "2018-01-15",
+            "postDate": "2018-01-15",
+            "isManual": false,
+            "status": "POSTED",
+            "accountId": 827904,
+            "runningBalance": {
+                "amount": 25000,
+                "currency": "USD"
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 6160592,
+            "type": "PURCHASE",
+            "subType": "PURCHASE",
+            "amount": {
+                "amount": 100,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 16,
+            "category": "Services/Supplies",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000007,
+            "createdDate": "${json-unit.ignore}"2018-02-03T09:03:48Z",
+            "lastUpdated": "2018-02-03T09:03:48Z",
+            "description": {
+                "original": "Advertising in Yellow Pages",
+                "simple": "Yellow Pages Group"
+            },
+            "date": "2018-01-14",
+            "postDate": "2018-01-14",
+            "isManual": false,
+            "status": "POSTED",
+            "accountId": 827904,
+            "runningBalance": {
+                "amount": 3097.92,
+                "currency": "USD"
+            },
+            "merchant": {
+                "id": "41124",
+                "name": "Yellow Pages Group",
+                "source": "YODLEE"
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 6160593,
+            "type": "PAYMENT",
+            "subType": "LOAN",
+            "amount": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 17,
+            "category": "Loans",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000004,
+            "createdDate": "${json-unit.ignore}"2018-02-03T09:03:48Z",
+            "lastUpdated": "2018-02-03T09:03:48Z",
+            "description": {
+                "original": "LOAN PAYMENT",
+                "simple": "Loan"
+            },
+            "date": "2018-01-13",
+            "postDate": "2018-01-13",
+            "isManual": false,
+            "status": "POSTED",
+            "accountId": 827904,
+            "runningBalance": {
+                "amount": 6997.92,
+                "currency": "USD"
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 6160594,
+            "type": "WITHDRAWAL",
+            "subType": "ATM_CASH_WITHDRAWAL",
+            "amount": {
+                "amount": 5000.18,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 25,
+            "category": "ATM/Cash Withdrawals",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000010,
+            "createdDate": "${json-unit.ignore}"2018-02-03T09:03:48Z",
+            "lastUpdated": "2018-02-03T09:03:48Z",
+            "description": {
+                "original": "ATM Cash Withdrawal",
+                "simple": "ATM/Cash Withdrawal"
+            },
+            "date": "2018-01-12",
+            "postDate": "2018-01-12",
+            "isManual": false,
+            "status": "POSTED",
+            "accountId": 827904,
+            "runningBalance": {
+                "amount": 3197.92,
+                "currency": "USD"
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 6160595,
+            "type": "PAYMENT",
+            "subType": "RECURRING_SUBSCRIPTION_PAYMENT",
+            "amount": {
+                "amount": 1890.18,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 15,
+            "category": "Cable/Satellite/Telecom",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000004,
+            "createdDate": "${json-unit.ignore}"2018-02-03T09:03:48Z",
+            "lastUpdated": "2018-02-03T09:03:48Z",
+            "description": {
+                "original": "Telephone Bill Paid",
+                "simple": "tenino telephone"
+            },
+            "date": "2018-01-11",
+            "postDate": "2018-01-11",
+            "isManual": false,
+            "status": "POSTED",
+            "accountId": 827904,
+            "runningBalance": {
+                "amount": 8197.92,
+                "currency": "USD"
+            },
+            "merchant": {
+                "id": "teninotelephoneus",
+                "name": "tenino telephone",
+                "source": "FACTUAL",
+                "categoryLabel": [
+                    "Cable/Satellite/Telecom"
+                ],
+                "address": {
+                    "country": "US"
+                },
+                "coordinates": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 6160596,
+            "type": "PURCHASE",
+            "subType": "PURCHASE",
+            "amount": {
+                "amount": 500.18,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 2,
+            "category": "Automotive/Fuel",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000003,
+            "createdDate": "${json-unit.ignore}"2018-02-03T09:03:48Z",
+            "lastUpdated": "2018-02-03T09:03:48Z",
+            "description": {
+                "original": "SHELL OIL",
+                "simple": "shell"
+            },
+            "date": "2018-01-10",
+            "postDate": "2018-01-10",
+            "isManual": false,
+            "status": "POSTED",
+            "accountId": 827904,
+            "runningBalance": {
+                "amount": 2600.92,
+                "currency": "USD"
+            },
+            "merchant": {
+                "id": "shellus",
+                "name": "shell",
+                "source": "FACTUAL",
+                "categoryLabel": [
+                    "Automotive/Fuel"
+                ],
+                "address": {
+                    "country": "US"
+                },
+                "coordinates": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 6160597,
+            "type": "PAYMENT",
+            "subType": "PAYMENT",
+            "amount": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 21,
+            "category": "Rent",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000004,
+            "createdDate": "${json-unit.ignore}"2018-02-03T09:03:48Z",
+            "lastUpdated": "2018-02-03T09:03:48Z",
+            "description": {
+                "original": "Rent Paid",
+                "simple": "rent rv"
+            },
+            "date": "2018-01-09",
+            "postDate": "2018-01-09",
+            "isManual": false,
+            "status": "POSTED",
+            "accountId": 827904,
+            "runningBalance": {
+                "amount": 2197.92,
+                "currency": "USD"
+            },
+            "merchant": {
+                "id": "rentrvus",
+                "name": "rent rv",
+                "source": "FACTUAL",
+                "categoryLabel": [
+                    "Rent"
+                ],
+                "address": {
+                    "country": "US"
+                },
+                "coordinates": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": 6160598,
+            "type": "PURCHASE",
+            "subType": "PURCHASE",
+            "amount": {
+                "amount": 42.96,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 22,
+            "category": "Restaurants",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000011,
+            "createdDate": "${json-unit.ignore}"2018-02-03T09:03:48Z",
+            "lastUpdated": "2018-02-03T09:03:48Z",
+            "description": {
+                "original": "McDonalds",
+                "simple": "mcdonald's"
+            },
+            "date": "2018-01-08",
+            "postDate": "2018-01-08",
+            "isManual": false,
+            "status": "POSTED",
+            "accountId": 827904,
+            "runningBalance": {
+                "amount": 11488.1,
+                "currency": "USD"
+            },
+            "merchant": {
+                "id": "mcdonald'sus",
+                "name": "mcdonald's",
+                "source": "FACTUAL",
+                "categoryLabel": [
+                    "Restaurants"
+                ],
+                "address": {
+                    "country": "US"
+                },
+                "coordinates": {
+                    "latitude": 0.0,
+                    "longitude": 0.0
+                }
+            }
+        }
+    ]
+}

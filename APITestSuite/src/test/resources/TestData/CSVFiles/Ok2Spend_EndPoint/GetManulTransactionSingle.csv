@@ -1,0 +1,7 @@
+TcId,testcaseName,fromDate,toDate,container,baseType,keyword,accountId,bothCardBank,predictedEventId,sourceType,categoryId,type,categoryType,skip,top,httpStatusCode,respFile,FilePath,enabled
+AT-115345,verify getManualTransactions/{predictedTransactionId} by passing the predictedTransactionId,"0,0,0","0,4,10",bank,,,bank,,VALID,,,,,,,400,noSource.json,../src/test/resources/TestData/ErrorMessage/,TRUE
+AT-115346,verify getManualTransactions/{manualTransactionId}  by passing the manualTransactionId,"0,0,0","0,4,10",bank,,,bank,,VALID,,,,,,,400,noSource.json,../src/test/resources/TestData/ErrorMessage/,TRUE
+AT-115347,verify getManualTransactions/{AggregatedTransactionID} by passing the AggregatedTransactionID,"0,0,0","0,4,10",bank,,,bank,,VALID,,,,,,,400,noSource.json,../src/test/resources/TestData/ErrorMessage/,TRUE
+AT-115348,verify getManualTransactions/{invalidTransactionId} by passing the  invalidTransactionId,"0,0,0","0,4,10",bank,,,bank,,VALID,,,,,,,400,noSource.json,../src/test/resources/TestData/ErrorMessage/,TRUE
+AT-115349,verify getManualTransactions by passing valid predictedEventId ,"0,0,0","0,4,10",bank,,,,,VALID,,,,,,,400,noSource.json,../src/test/resources/TestData/ErrorMessage/,TRUE
+AT-115350,Validate the predictedEventId in response,"0,0,0","0,4,10",bank,,,bank,,VALID,,,,,,,200,,../src/test/resources/TestData/ErrorMessage/,TRUE

@@ -1,0 +1,20 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteId>16442</siteId>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+	</request>
+	
+	<response>
+		<providerDetails-multiple>
+		<providerDetails order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/Edit/MFA/</filePath>
+				<responseFile>Regx.json</responseFile>
+			</row>
+		</providerDetails>
+		</providerDetails-multiple>
+	</response>
+</entity>

@@ -1,0 +1,44 @@
+[
+	{
+		"negativeTest": "Scenario_1",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Future date for fromDate is  not allowed"
+	},
+	{
+		"negativeTest": "Scenario_2",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for  fromDate/toDate; If passing a date range, both fromDate and toDate is required"
+	},
+	{
+		"negativeTest": "Scenario_3",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Difference greater than 1 Year between fromDate and toDate is  not allowed"
+	},
+	{
+		"negativeTest": "Scenario_4",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Future date for toDate is  not allowed"
+	},
+	{
+		"negativeTest": "Scenario_5",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for  fromDate. fromDate cannot be greater than toDate"
+	},
+	{
+		"negativeTest": "Scenario_6",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for  fromDate/toDate; If passing a date range, both fromDate and toDate is required"
+	}	,
+	{
+		"negativeTest": "Scenario_7",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for  categoryType; only INCOME, EXPENSE allowed."
+	}
+]   

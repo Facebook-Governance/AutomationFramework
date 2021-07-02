@@ -1,0 +1,468 @@
+{
+  "definitions": {}, 
+  "$schema": "http://json-schema.org/draft-06/schema#", 
+  "$id": "http://example.com/example.json", 
+  "type": "object", 
+  "properties": {
+    "account": {
+      "$id": "/properties/account", 
+      "type": "array", 
+      "items": {
+        "$id": "/properties/account/items", 
+        "type": "object", 
+        "properties": {
+          "availableCash": {
+            "$id": "/properties/account/items/properties/availableCash", 
+            "type": "object", 
+            "properties": {
+              "amount": {
+                "$id": "/properties/account/items/properties/availableCash/properties/amount", 
+                "type": "number",
+                "multipleOf": 0.01, 
+                "title": "The Amount Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": 0.0, 
+                "examples": [
+                  13584.08984375
+                ]
+              }, 
+              "currency": {
+                "$id": "/properties/account/items/properties/availableCash/properties/currency", 
+                 "type": "string", 
+                "format":"money",
+                "title": "The Currency Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": "", 
+                "examples": [
+                  "USD"
+                ]
+              }
+            }
+          }, 
+           "dueDate": {
+            "$id": "/properties/account/items/properties/dueDate", 
+            "type": "string",
+            "format": "date",
+            "title": "The Duedate Schema.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "default": "", 
+            "examples": [
+              "2017-01-25"
+            ]
+          }, 
+          "includeInNetWorth": {
+            "$id": "/properties/account/items/properties/includeInNetWorth", 
+            "type": "boolean", 
+            "title": "The Includeinnetworth Schema.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "default": false, 
+            "examples": [
+              true
+            ]
+          }, 
+          "amountDue": {
+            "$id": "/properties/account/items/properties/amountDue", 
+            "type": "object", 
+            "properties": {
+              "amount": {
+                "$id": "/properties/account/items/properties/amountDue/properties/amount", 
+                "type": "number",
+                "multipleOf": 0.01,
+                "title": "The Amount Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": 0, 
+                "examples": [
+                  14000
+                ]
+              }, 
+              "currency": {
+                "$id": "/properties/account/items/properties/amountDue/properties/currency", 
+                "type": "string", 
+                "format":"money",
+                "title": "The Currency Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": "", 
+                "examples": [
+                  "USD"
+                ]
+              }
+            }
+          },
+           "availableCredit": {
+     "$id": "/properties/account/items/properties/availableCredit", 
+      "type": "object",
+      "properties": {
+        "amount": {
+          "$id": "/properties/account/items/properties/availableCredit/properties/amount",
+           "type": "number",
+           "multipleOf": 0.01,
+          "title": "The Amount Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            1000
+          ]
+        },
+        "currency": {
+          "$id": "/properties/account/items/properties/availableCredit/properties/currency",
+           "type": "string", 
+           "format":"money",
+          "title": "The Currency Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "USD"
+          ]
+        }
+      }
+    },
+          "holderProfile": {
+            "$id": "/properties/account/items/properties/holderProfile", 
+            "type": "array", 
+            "items": {
+              "$id": "/properties/account/items/properties/holderProfile/items", 
+              "type": "object", 
+              "properties": {
+                "name": {
+                  "$id": "/properties/account/items/properties/holderProfile/items/properties/name", 
+                  "type": "object", 
+                  "properties": {
+                    "displayed": {
+                      "$id": "/properties/account/items/properties/holderProfile/items/properties/name/properties/displayed", 
+                      "type": "string", 
+                      "title": "The Displayed Schema.", 
+                      "description": "An explanation about the purpose of this instance.", 
+                      "default": "", 
+                      "examples": [
+                        "MB365NEW"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }, 
+          "accountName": {
+            "$id": "/properties/account/items/properties/accountName", 
+            "type": "string", 
+            "title": "The Accountname Schema.", 
+            "description": "The account name (description) as it appears at the site.", 
+            "default": "", 
+            "examples": [
+              "Deleted Credit Card Account 2"
+            ]
+          }, 
+          "accountType": {
+            "$id": "/properties/account/items/properties/accountType", 
+            "type": "string",
+            "format": "accountType", 
+            "title": "The Accounttype Schema.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "default": "", 
+            "examples": [
+              "CREDIT"
+            ]
+          }, 
+          "isManual": {
+            "$id": "/properties/account/items/properties/isManual", 
+            "type": "boolean", 
+            "title": "The Ismanual Schema.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "default": false, 
+            "examples": [
+              false
+            ]
+          },
+          "minimumAmountDue": {
+            "$id": "/properties/account/items/properties/minimumAmountDue", 
+            "type": "object", 
+            "properties": {
+              "amount": {
+                "$id": "/properties/account/items/properties/minimumAmountDue/properties/amount", 
+                 "type": "number",
+                "multipleOf": 0.01, 
+                "title": "The Amount Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": 0, 
+                "examples": [
+                  5000
+                ]
+              }, 
+              "currency": {
+                "$id": "/properties/account/items/properties/minimumAmountDue/properties/currency", 
+                 "type": "string", 
+                "format":"money", 
+                "title": "The Currency Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": "", 
+                "examples": [
+                  "USD"
+                ]
+              }
+            }
+          },
+      "totalCashLimit": {
+      "$id": "/properties/totalCashLimit",
+      "type": "object",
+      "properties": {
+        "amount": {
+          "$id": "/properties/totalCashLimit/properties/amount",
+          "type": "number",
+          "multipleOf": 0.01,
+          "title": "The Amount Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            100
+          ]
+        },
+        "currency": {
+          "$id": "/properties/totalCashLimit/properties/currency",
+          "type": "string",
+           "format":"money",
+          "title": "The Currency Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "USD"
+          ]
+        }
+      }
+    },
+    "totalCreditLine": {
+      "$id": "/properties/totalCreditLine",
+      "type": "object",
+      "properties": {
+        "amount": {
+          "$id": "/properties/totalCreditLine/properties/amount",
+         "type": "number",
+          "multipleOf": 0.01,
+          "title": "The Amount Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            100
+          ]
+        },
+        "currency": {
+          "$id": "/properties/totalCreditLine/properties/currency",
+          "type": "string",
+          "format":"money",
+          "title": "The Currency Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "USD"
+          ]
+        }
+      }
+    },
+      "accountNumber": {
+            "$id": "/properties/account/items/properties/accountNumber", 
+            "type": "string", 
+            "title": "The Accountnumber Schema.", 
+            "description": "The account number as it appears on the site.", 
+            "default": "", 
+            "examples": [
+              "767231766"
+            ]
+          }, 
+          "accountStatus": {
+            "$id": "/properties/account/items/properties/accountStatus", 
+            "type": "string", 
+            "format":"accountStatus",
+            "title": "The Accountstatus Schema.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "default": "", 
+            "examples": [
+              "ACTIVE"
+            ]
+          }, 
+          "refreshinfo": {
+            "$id": "/properties/account/items/properties/refreshinfo", 
+            "type": "object", 
+            "properties": {
+              "lastRefreshed": {
+                "$id": "/properties/account/items/properties/refreshinfo/properties/lastRefreshed", 
+                "type": "string", 
+                 "format":"datetime",
+                "title": "The Lastrefreshed Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": "", 
+                "examples": [
+                  "2017-11-22T08:13:14Z"
+                ]
+              }, 
+              "nextRefreshScheduled": {
+                "$id": "/properties/account/items/properties/refreshinfo/properties/nextRefreshScheduled", 
+                "type": "string", 
+                 "format":"datetime",
+                "title": "The Nextrefreshscheduled Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": "", 
+                "examples": [
+                  "2017-11-23T08:49:34Z"
+                ]
+              }, 
+              "lastRefreshAttempt": {
+                "$id": "/properties/account/items/properties/refreshinfo/properties/lastRefreshAttempt", 
+                "type": "string", 
+                 "format":"datetime",
+                "title": "The Lastrefreshattempt Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": "", 
+                "examples": [
+                  "2017-11-22T08:13:14Z"
+                ]
+              }, 
+              "statusMessage": {
+                "$id": "/properties/account/items/properties/refreshinfo/properties/statusMessage", 
+                "type": "string", 
+                "format":"refreshStatus",
+                "title": "The Statusmessage Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": "", 
+                "examples": [
+                  "OK"
+                ]
+              }, 
+              "statusCode": {
+                "$id": "/properties/account/items/properties/refreshinfo/properties/statusCode", 
+                 "type": "integer",
+                "format":"statusCode",
+                "title": "The Statuscode Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": 0, 
+                "examples": [
+                  0
+                ]
+              }
+            }
+          }, 
+          "lastUpdated": {
+            "$id": "/properties/account/items/properties/lastUpdated", 
+            "type": "string",
+            "format": "datetime",
+            "title": "The Lastupdated Schema.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "default": "", 
+            "examples": [
+              "2017-11-22T08:13:14Z"
+            ]
+          }, 
+          "isAsset": {
+            "$id": "/properties/account/items/properties/isAsset", 
+            "type": "boolean", 
+            "title": "The Isasset Schema.", 
+               "description": "The account to be considered as an asset or liability", 
+            "default": false, 
+            "examples": [
+              false
+            ]
+          }, 
+          "createdDate": {
+            "$id": "/properties/account/items/properties/createdDate", 
+            "type": "string",
+            "format": "datetime", 
+            "title": "The Createddate Schema.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "default": "", 
+            "examples": [
+              "2017-11-22T08:13:12Z"
+            ]
+          }, 
+          "aggregationSource": {
+            "$id": "/properties/account/items/properties/aggregationSource", 
+            "type": "string", 
+            "title": "The Aggregationsource Schema.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "default": "", 
+            "examples": [
+              "USER"
+            ]
+          }, 
+           "balance": {
+            "$id": "/properties/account/items/properties/balance", 
+            "type": "object", 
+            "properties": {
+              "amount": {
+                "$id": "/properties/account/items/properties/balance/properties/amount", 
+                "type": "number",
+                "multipleOf": 0.01, 
+                "title": "The Amount Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": 0.0, 
+                "examples": [
+                  39229.80078125
+                ]
+              }, 
+              "currency": {
+                "$id": "/properties/account/items/properties/balance/properties/currency", 
+                 "type": "string", 
+                "format":"money",
+                "title": "The Currency Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": "", 
+                "examples": [
+                  "USD"
+                ]
+              }
+            }
+          }, 
+          "providerId": {
+            "$id": "/properties/account/items/properties/providerId", 
+            "type": "string",
+            "title": "The Providerid Schema.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "default": "", 
+            "examples": [
+              "16441"
+            ]
+          }, 
+          "providerAccountId": {
+            "$id": "/properties/account/items/properties/providerAccountId", 
+             "type": "number",
+            "minimum": -9223372036854775807,
+            "maximum": 9223372036854775807,
+            "title": "The Provideraccountid Schema.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "default": 0, 
+            "examples": [
+              11940852
+            ]
+          }, 
+          "CONTAINER": {
+            "$id": "/properties/account/items/properties/CONTAINER", 
+            "type": "string", 
+            "title": "The Container Schema.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "default": "", 
+            "examples": [
+              "creditCard"
+            ]
+          }, 
+          "id": {
+            "$id": "/properties/account/items/properties/id", 
+            "type": "integer", 
+            "title": "The Id Schema.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "default": 0, 
+            "examples": [
+              2851425
+            ]
+          }, 
+          "providerName": {
+            "$id": "/properties/account/items/properties/providerName", 
+            "type": "string", 
+            "title": "The Providername Schema.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "default": "", 
+            "examples": [
+              "Dag Site"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

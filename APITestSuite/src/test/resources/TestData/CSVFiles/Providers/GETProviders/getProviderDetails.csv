@@ -1,0 +1,2 @@
+tcid,tcName,status,resFile,resFilePath,usersSession,cobSession,providerId,defectId,enabled
+AT-57956,call with provider Id,200,getProviderDetails.json,../src/test/resources/TestData/providers/getProviders/,correct,correct,16441,0,True

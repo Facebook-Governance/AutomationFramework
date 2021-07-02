@@ -1,0 +1,60 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000007,
+      "description": {
+        "original": "Online Services",
+        "simple": "Online Services"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Services/Supplies",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 16,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000007,
+      "description": {
+        "original": "Online Services",
+        "simple": "Online Services"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Services/Supplies",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 16,
+      "status": "POSTED"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+tcId,tcName,refresh_enable,enabled
+AT-97851,test with cache refresh enabled,TRUE,TRUE
+AT-97852,test with cache refresh enabled for BCT,null,TRUE
+AT-97853,test with cache refresh disabled,FALSE,TRUE

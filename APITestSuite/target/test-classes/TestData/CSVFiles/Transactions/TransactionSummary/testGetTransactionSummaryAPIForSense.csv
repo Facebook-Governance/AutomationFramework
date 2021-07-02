@@ -1,0 +1,9 @@
+testCaseId,TestCase,accountIds,groupBy,cateforyType,categoryId,startDate,endDate,interval,include,includeUserCategory,status,ResFile,FilePath,Enabled
+1,AccountIdNull,NULL,CATEGORY_TYPE,,,"0,0,0","0,1,4",D,details,FALSE,200,AccountIdNull.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+2,Daily_HIGH_LEVEL_CATEGORY,BANK,HIGH_LEVEL_CATEGORY,"INCOME,EXPENSE,UNCATEGORIZE",,"0,0,0","0,1,4",D,details,FALSE,200,Daily_HIGH_LEVEL_CATEGORY.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+3,Daily_CATEGORY,CARD,CATEGORY,"INCOME,EXPENSE,UNCATEGORIZE",,"0,0,0","0,1,4",D,details,FALSE,200,Daily_CATEGORY.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+4,Daily_CATEGORY_TYPE ,NULL,CATEGORY_TYPE,"INCOME,EXPENSE,UNCATEGORIZE",,"0,0,0","0,1,4",D,details,FALSE,200,Daily_CATEGORY_TYPE.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+5,Weekly_HIGH_LEVEL_CATEGORY,BANK,HIGH_LEVEL_CATEGORY,"INCOME,EXPENSE,UNCATEGORIZE",,"0,0,0","0,1,4",W,details,FALSE,200,Weekly_HIGH_LEVEL_CATEGORY.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+6,Weekly_CATEGORY,CARD,CATEGORY,"INCOME,EXPENSE,UNCATEGORIZE",,"0,0,0","0,1,4",W,details,FALSE,200,Weekly_CATEGORY.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+7,Weekly_CATEGORY_TYPE ,NULL,CATEGORY_TYPE,"INCOME,EXPENSE,UNCATEGORIZE",,"0,0,0","0,1,4",W,details,FALSE,200,Weekly_CATEGORY_TYPE.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+3,Daily_CATEGORY_15,CARD,CATEGORY,"INCOME,EXPENSE,UNCATEGORIZE",15,"0,0,0","0,1,4",D,details,FALSE,200,Daily_CATEGORY.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE

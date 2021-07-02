@@ -1,0 +1,18 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-148152,patchUserSubscription - subscribe to IncomeExpenseOverview,IncomeExpenseOverview,,,,,,,,,,,1,,view,1,,,TRUE,,,,204,TRUE
+AT-148153,patchUserSubscription - updateTriggerType,IncomeExpenseOverview,negTestScenario16,REFRESH,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148151,patchUserSubscription -  update insightName by same name,IncomeExpenseOverview,negTestScenario17,,IncomeExpenseOverview,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148154,patchUserSubscription -  update insightName by same name,IncomeExpenseOverview,negTestScenario17,,IncomeExpenseOverview,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148155,patchUserSubscription -  update insightName edit InsightName,IncomeExpenseOverview,negTestScenario2,,IncomeExpenseOverviewEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148156,patchUserSubscription - update insightTitle,IncomeExpenseOverview,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-148157,patchUserSubscription - update container,IncomeExpenseOverview,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-148158,patchUserSubscription - update keys,IncomeExpenseOverview,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-148159,patchUserSubscription - update description,IncomeExpenseOverview,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-148160,patchUserSubscription - update applicableEntity,IncomeExpenseOverview,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-148161,patchUserSubscription - update entityParameter,IncomeExpenseOverview,,,,,,,,,,,1,,view,1,,DAILY,TRUE,,,,204,TRUE
+AT-148162,patchUserSubscription -  update entityParameter->account[0]->id - Valid ItemAccountId,IncomeExpenseOverview,,,,,,,,,,,1,,view,1,,DAILY,TRUE,,,,204,TRUE
+AT-148163,patchUserSubscription -  update entityParameter->view[0]->id - InValid viewId,IncomeExpenseOverview,negTestScenario26,,,,,,,,,,1,,view,1,76823,DAILY,TRUE,,,,400,TRUE
+AT-148164,patchUserSubscription -  update entityParameter->view[0]->isSubscribed=false,IncomeExpenseOverview,,,,,,,,,,,1,,view,1,,DAILY,FALSE,,,,204,TRUE
+AT-148165,patchUserSubscription - update duration  -  entityParameter->view[0]->duration ,IncomeExpenseOverview,negTestScenario11,,,,,,,,,,1,,view,1,,DAILY,TRUE,THIS_MONTH,,,204,TRUE
+AT-148166,patchUserSubscription - update insightType to AGGREGATE - entityParameter->account[0]->insightType,IncomeExpenseOverview,negTestScenario24,,,,,,,,,,1,,view,1,,DAILY,TRUE,,AGGREGATE,,400,TRUE
+AT-148167,patchUserSubscription - update insightType to INVALID - entityParameter->insightType,IncomeExpenseOverview,negTestScenario24,,,,,,,,,,1,,view,1,,DAILY,TRUE,,INVALID,,400,TRUE

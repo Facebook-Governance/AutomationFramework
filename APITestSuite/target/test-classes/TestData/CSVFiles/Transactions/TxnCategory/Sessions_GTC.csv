@@ -1,0 +1,25 @@
+test case id,cobSesion,userSession,fileName,filePath,status,Enabled,DefectID
+AT-66343,EMPTY,VALID,T-GTC-CUS-01,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66344,EXPIRED,VALID,T-GTC-CUS-02,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66345,NULL,VALID,T-GTC-CUS-03,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66346,VALID,EMPTY,T-GTC-CUS-04,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66347,EMPTY,EMPTY,T-GTC-CUS-05,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66348,EXPIRED,EMPTY,T-GTC-CUS-06,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66349,NULL,EMPTY,T-GTC-CUS-07,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66350,EMPTY,NULL,T-GTC-CUS-08,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66351,EXPIRED,NULL,T-GTC-CUS-09,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66352,NULL,NULL,T-GTC-CUS-10,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66353,VALID,NULL,T-GTC-CUS-11,../src/test/resources/TestData/Transactions/TxnCategory/,200,TRUE,0
+AT-66354,EMPTY,EXPIRED,T-GTC-CUS-12,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66355,EXPIRED,EXPIRED,T-GTC-CUS-13,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66356,NULL,EXPIRED,T-GTC-CUS-14,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66357,VALID,EXPIRED,T-GTC-CUS-15,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66358,INVALID,VALID,T-GTC-CUS-16,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66359,INVALID,EMPTY,T-GTC-CUS-17,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66360,INVALID,NULL,T-GTC-CUS-18,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66361,INVALID,EXPIRED,T-GTC-CUS-19,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66362,INVALID,INVALID,T-GTC-CUS-20,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66363,EXPIRED,INVALID,T-GTC-CUS-21,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66364,NULL,INVALID,T-GTC-CUS-22,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66365,VALID,INVALID,T-GTC-CUS-23,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0
+AT-66366,EMPTY,INVALID,T-GTC-CUS-24,../src/test/resources/TestData/Transactions/TxnCategory/,401,TRUE,0

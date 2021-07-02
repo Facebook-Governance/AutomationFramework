@@ -1,0 +1,9 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,recurringEventId,sourceType,enabled
+AT-115477,Valid id-manual,400,InvalidPredictedEventId.json,../src/test/resources/TestData/ErrorMessage/,INVALID,MANUAL,TRUE
+AT-115478,Invalid id-manual,400,InvalidPredictedEventId.json,../src/test/resources/TestData/ErrorMessage/,INVALID,MANUAL,TRUE
+AT-115479,No id-manual,400,Invalidinput.json,../src/test/resources/TestData/ErrorMessage/,NULL,MANUAL,TRUE
+AT-115486,OtherUser-manual,400,InvalidPredictedEventId.json,../src/test/resources/TestData/ErrorMessage/,INVALID,MANUAL,TRUE
+AT-115487,Invalid id-system_predicted,400,InvalidPredictedEventId.json,../src/test/resources/TestData/ErrorMessage/,INVALID,SYSTEM_PREDICTED,TRUE
+AT-115480,No id-system_predicetd,400,Invalidinput.json,../src/test/resources/TestData/ErrorMessage/,NULL,SYSTEM_PREDICTED,TRUE
+AT-115488,OtherUser-system_predicted,400,InvalidPredictedEventId.json,../src/test/resources/TestData/ErrorMessage/,INVALID,SYSTEM_PREDICTED,TRUE
+AT-115481,Valid id-system_predicted,204,NoResponse.json,../src/test/resources/TestData/ErrorMessage/,VALID,SYSTEM_PREDICTED,TRUE

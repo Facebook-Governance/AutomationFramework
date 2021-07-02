@@ -1,0 +1,2 @@
+UsTestcaseId,tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,priority,formType,enabled
+"AT-108136,AT-108138",BASICAGG_HOLDER_SRS_BANK,Adding SDG  Account Bank_Transactions providerId 16441,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#GET_TRANSACTIONS,../src/test/resources/TestData/XML/DD_xml/,Bank_Transactions_SRS.xml,YES,NO,P1,Simplified,TRUE

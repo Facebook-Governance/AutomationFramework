@@ -1,0 +1,29 @@
+<entity type="multiple">
+	<request>
+		<verification-multiple>
+		<verification order="1">
+			<accountId>true</accountId>
+			<verificationType>CHALLENGE_DEPOSIT</verificationType>
+			<account>
+					<accountNumber>1234567890</accountNumber>
+					<accountName>Citi Bank</accountName>
+					<accountType></accountType>
+					<bankTransferCode>
+							<id>031311878</id>
+							<type>ROUTING_NUMBER</type>
+					</bankTransferCode>
+				</account><cdVerificationStatus>2</cdVerificationStatus><isExpired>No</isExpired>
+			</verification>
+			</verification-multiple>
+		</request>
+	 <response>
+		<accounts-multiple>
+		<accounts order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/Verification/CDV/</filePath>
+				<responseFile>InitiationAccountTypeBlank.json</responseFile>
+			</row>
+		</accounts>
+		</accounts-multiple>
+	</response>
+</entity>

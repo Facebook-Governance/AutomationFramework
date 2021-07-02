@@ -1,0 +1,64 @@
+{
+  "document": [
+    {
+      "docType": "TAX",
+      "id": "${json-unit.ignore}",
+      "accountID": "${json-unit.ignore}",
+      "name": "${json-unit.ignore}",
+      "source": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "status": "DOC_DOWNLOADED",
+      "formType": "1099-DIV"
+    },
+    {
+      "docType": "STMT",
+      "statementDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "accountID": "${json-unit.ignore}",
+      "name": "${json-unit.ignore}",
+      "source": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "status": "DOC_DOWNLOADED"
+    },
+    {
+      "docType": "TAX",
+      "id": "${json-unit.ignore}",
+      "accountID": "${json-unit.ignore}",
+      "name": "${json-unit.ignore}",
+      "source": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "status": "DOC_DOWNLOADED",
+      "formType": "1099-DIV"
+    },
+    {
+      "docType": "STMT",
+      "statementDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "accountID": "${json-unit.ignore}",
+      "name": "${json-unit.ignore}",
+      "source": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "status": "DOC_DOWNLOADED"
+    },
+    {
+      "docType": "TAX",
+      "id": "${json-unit.ignore}",
+      "accountID": "${json-unit.ignore}",
+      "name": "${json-unit.ignore}",
+      "source": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "status": "DOC_DOWNLOADED",
+      "formType": "1099-DIV"
+    },
+    {
+      "docType": "STMT",
+      "statementDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "accountID": "${json-unit.ignore}",
+      "name": "${json-unit.ignore}",
+      "source": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "status": "DOC_DOWNLOADED"
+    }
+  ]
+}

@@ -1,0 +1,864 @@
+{
+	"account": [
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "rollover",
+			"accountType": "ROLLOVER_IRA",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "rothConversion",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "roth",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "conservatorship",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "jointByEntirety",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "communityProperty",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "jtwros",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "jttic",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "corporate",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "individual",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "brokerageMarginOption",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "brokerageCashOption",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "custodial",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "simple",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "annuity",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "trust",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "403b",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "401k",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "moneyMarket",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "brokerageMargin",
+			"accountType": "OTHER",
+			"isManual": false,
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				
+				
+				
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			
+			"isAsset": true,
+			
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			
+			"CONTAINER": "investment",
+			
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		}
+	]
+}

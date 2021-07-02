@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Card Statement Available"
+           tests="18"
+           failures="5"
+           errors="0"
+           skipped="0"
+           time="140.510">
+  <properties />
+            <testcase name="testGetNotificationsForCardStatementAvailable" time="8.557" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable">
+                <failure type="junit.framework.AssertionFailedError"
+                  message="Expected Number of Insights are not generated for All Accounts, Expected = 2 Insights Actual = 1 Insights"
+              >
+<![CDATA[junit.framework.AssertionFailedError: Expected Number of Insights are not generated for All Accounts, Expected = 2 Insights Actual = 1 Insights
+  junit.framework.Assert.fail(Assert.java:57)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable.testGetNotificationsForCardStatementAvailable(TestGetInsightsForCardStatementAvailable.java:315)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForCardStatementAvailable" time="0.099" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  com.yodlee.insights.yodleeApi.utils.BoardHelper.createViewRules(BoardHelper.java:692)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable.testGetNotificationsForCardStatementAvailable(TestGetInsightsForCardStatementAvailable.java:209)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForCardStatementAvailable" time="8.517" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable">
+                <failure type="junit.framework.AssertionFailedError"
+                  message="Expected Number of Insights are not generated for All Accounts, Expected = 2 Insights Actual = 1 Insights"
+              >
+<![CDATA[junit.framework.AssertionFailedError: Expected Number of Insights are not generated for All Accounts, Expected = 2 Insights Actual = 1 Insights
+  junit.framework.Assert.fail(Assert.java:57)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable.testGetNotificationsForCardStatementAvailable(TestGetInsightsForCardStatementAvailable.java:315)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForCardStatementAvailable" time="0.119" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  com.yodlee.insights.yodleeApi.utils.BoardHelper.createViewRules(BoardHelper.java:692)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable.testGetNotificationsForCardStatementAvailable(TestGetInsightsForCardStatementAvailable.java:209)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForCardStatementAvailable" time="8.802" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable">
+                <failure type="junit.framework.AssertionFailedError"
+                  message="Expected  1 insights triggered But found Empty {}"
+              >
+<![CDATA[junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+  junit.framework.Assert.fail(Assert.java:57)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable.testGetNotificationsForCardStatementAvailable(TestGetInsightsForCardStatementAvailable.java:315)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="testGetNotificationsForCardStatementAvailable" time="8.603" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable" />
+                <testcase name="testGetNotificationsForCardStatementAvailable" time="9.062" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable" />
+                <testcase name="testGetNotificationsForCardStatementAvailable" time="8.522" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable" />
+                <testcase name="testGetNotificationsForCardStatementAvailable" time="8.651" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable" />
+                <testcase name="testGetNotificationsForCardStatementAvailable" time="8.625" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable" />
+                <testcase name="testGetNotificationsForCardStatementAvailable" time="8.551" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable" />
+                <testcase name="testGetNotificationsForCardStatementAvailable" time="9.226" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable" />
+                <testcase name="testGetNotificationsForCardStatementAvailable" time="8.686" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable" />
+                <testcase name="testGetNotificationsForCardStatementAvailable" time="9.603" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable" />
+                <testcase name="testGetNotificationsForCardStatementAvailable" time="8.729" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable" />
+                <testcase name="testGetNotificationsForCardStatementAvailable" time="8.843" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable" />
+                <testcase name="testGetNotificationsForCardStatementAvailable" time="8.617" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable" />
+                <testcase name="testGetNotificationsForCardStatementAvailable" time="8.698" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable" />
+      
+</testsuite>

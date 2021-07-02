@@ -1,0 +1,91 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="classes" thread-count="3"
+	preserve-order="true">
+
+
+	<parameter name="suiteName" value="YSLAutoAmelia" />
+
+	<listeners>
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+
+	</listeners>
+	<test name="TestDedup">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestDedup" />
+		</classes>
+	</test>
+	<test name="TestDedupForAccounts">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestDedupForAccounts" />
+		</classes>
+	</test>
+	<test name="TestDedupForTransactions">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestDedupForTransactions" />
+		</classes>
+	</test>
+	<test name="TestImplicitDatasets">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestImplicitDatasets" />
+		</classes>
+	</test>
+	<test name="ChallengeDeposite">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestChallengeDepositVerification" />
+		</classes>
+	</test>
+	<test name="TestMatchingServiceFirstNameLastName">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestMatchingServiceFirstNameLastName" />
+		</classes>
+	</test>
+		<test name="TestMatchingServiceLastName">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestMatchingServiceLastName" />
+		</classes>
+	</test>
+	<test name="TestPassingOnlyDataSets">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPassingOnlyDataSets" />
+		</classes>
+	</test>
+	<test name="TestSingleDataGatheringBasicDD">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestSingleDataGatheringBasicDD" />
+		</classes>
+	</test>
+	<test name="TestEnrollAccounts">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestEnrollAccounts" />
+		</classes>
+	</test>
+	<test name="TestFANMasking">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestFANMasking" />
+		</classes>
+	</test>
+	<test name="TestRtnInvestment">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestRtnInvestment" />
+		</classes>
+	</test>
+</suite>
+	

@@ -1,0 +1,13 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147517,patchUserSubscription - subscribe to NewBill,NewBill,,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,,,204,TRUE
+AT-147522,patchUserSubscription - updateTriggerType,NewBill,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147527,patchUserSubscription -  update insightName by same name,NewBill,negTestScenario17,,NewBill,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147526,patchUserSubscription -  update insightName edit InsightName,NewBill,negTestScenario2,,NewBillEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147520,patchUserSubscription - update insightTitle,NewBill,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-147525,patchUserSubscription - update container,NewBill,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-147523,patchUserSubscription - update keys,NewBill,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147521,patchUserSubscription - update description,NewBill,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147524,patchUserSubscription - update applicableEntity,NewBill,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-147516,patchUserSubscription - update entityParameter,NewBill,,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,,,204,TRUE
+AT-147519,patchUserSubscription - update insightType to AGGREGATE,NewBill,negTestScenario24,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,AGGREGATE    AGGREGATE,,400,TRUE
+AT-147518,patchUserSubscription - update insightType to INVALID,NewBill,negTestScenario24,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,INVALID   INVALID,,400,TRUE

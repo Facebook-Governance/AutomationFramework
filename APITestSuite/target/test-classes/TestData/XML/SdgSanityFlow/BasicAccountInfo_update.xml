@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><entity type="multiple">
+<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>SdgSanitySuite.site16441.1</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.1</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>BASIC_ACCOUNT_INFO</name>
+							<container>bill,creditCard,bank,insurance,investment,loan
+							</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<update-provider-accounts-multiple>
+		<update-provider-accounts order="1">
+			<siteUser>SdgSanitySuite.site16441.1</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.1</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>BASIC_ACCOUNT_INFO</name>
+							<container>bill,creditCard,bank,insurance,investment,loan
+							</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</update-provider-accounts>
+		</update-provider-accounts-multiple>
+	</request>
+<response>
+		<get-provider-accounts-multiple>
+		<get-provider-accounts order="1">
+			<row>
+				<filePath>..\src\test\resources\TestData\SingleDataGathering\SdgSanityFlow\
+				</filePath>
+				<responseFile>BasicAggData.json</responseFile>
+			</row>
+		</get-provider-accounts>
+		</get-provider-accounts-multiple>
+		<siteRefreshStats-multiple>
+		<siteRefreshStats order="1">
+
+			<datasetDetails>[{"container":"insurance","dataset":[{"attributeIds":[13],"datasetId":1}]},{"container":"bank","dataset":[{"attributeIds":[13],"datasetId":1}]},{"container":"loans","dataset":[{"attributeIds":[13],"datasetId":1}]},{"container":"bills","dataset":[{"attributeIds":[13],"datasetId":1}]},{"container":"stocks","dataset":[{"attributeIds":[13],"datasetId":1}]},{"container":"credits","dataset":[{"attributeIds":[13],"datasetId":1}]}]</datasetDetails>
+			<memSiteAccExtnJson>[{"datasetId":1,"refreshStatus":7,"errorCode":0,"attribDetails":[{"attributeId":13,"refreshStatus":7,"errorCode":0}]}]</memSiteAccExtnJson>
+
+		</siteRefreshStats>
+		</siteRefreshStats-multiple>
+	</response>
+</entity>

@@ -1,0 +1,3 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,container,enabled
+AT-115497,Bank container,400,InvalidValueForPredictedTransactionId.json,../src/test/resources/TestData/ErrorMessage/,bank,TRUE
+AT-115498,Card container,400,InvalidValueForPredictedTransactionId.json,../src/test/resources/TestData/ErrorMessage/,creditCard,TRUE

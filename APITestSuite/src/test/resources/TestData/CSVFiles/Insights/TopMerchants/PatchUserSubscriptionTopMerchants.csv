@@ -1,0 +1,26 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-143127,subscribe toTopMerchants,TopMerchants,,,,,,,,,,,2,,account view ,,,,TRUE TRUE,,,,204,TRUE
+AT-143127,UpdateTriggerType,TopMerchants,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143127,Update insightName by same name,TopMerchants,negTestScenario17,,TopMerchants,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143161,Update insightName edit InsightName,TopMerchants,negTestScenario2,,TopMerchantsEditkfd,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143127,Update container,TopMerchants,negTestScenario6,,,,BILLS,,,,,,,,,,,,,,,,400,TRUE
+AT-143127,Update keys,TopMerchants,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-143127,Update description,TopMerchants,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-143167,Update configMeta - subscrption Info - configMeta->account[0]->id,TopMerchants,negTestScenario19,,,,,,,,,,2,TRUE,account view ,,,,FALSE FALSE,,,,400,TRUE
+AT-143169,Update applicableEntity,TopMerchants,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-143127,Update entityParameter,TopMerchants,,,,,,,,,,,2,,account view ,,,,TRUE TRUE,,,,204,TRUE
+AT-143127,Update entityParameter->account[0]->id - Valid ItemAccountId,TopMerchants,,,,,,,,,,,1,,account,,,,TRUE,,,,204,TRUE
+AT-143127,Update entityParameter->account[0]->id - InValid ItemAccountId,TopMerchants,negTestScenario20,,,,,,,,,,1,,account,,76823,,TRUE,,,,400,TRUE
+AT-143127,Update entityParameter->board[0]->id - InValid ViewID,TopMerchants,negTestScenario26,,,,,,,,,,1,,view,,abcdef,,TRUE,,,,400,TRUE
+AT-143130,Update entityParameter->account[0]->isSubscribed=false,TopMerchants,,,,,,,,,,,2,,account view ,,,,FALSE FALSE,,,,204,TRUE
+AT-143127,Update invalid duration  -  entityParameter->account[0]->duration ,TopMerchants,negTestScenario23,,,,,,,,,,2,,account view ,,,,TRUE TRUE,LAST_MONHT LAST_MONHT,,,400,TRUE
+AT-143129,Update valid duration  -  entityParameter->account[0]->duration ,TopMerchants,,,,,,,,,,,2,,account view ,,,,TRUE TRUE,SIX_MONTH SIX_MONTH,,,204,TRUE
+AT-143165,Update insightTitle,TopMerchants,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-143163,Update insightType to INVALID - entityParameter->account[0]->insightType,TopMerchants,negTestScenario24,,,,,,,,,,2,,account view ,,,,TRUE TRUE,,INVALID INVALID,,400,TRUE
+AT-143127,Update insightType to AGGREGATE - entityParameter->account[0]->insightType,TopMerchants,negTestScenario24,,,,,,,,,,2,,account view ,,,,TRUE TRUE,,AGGREGATE AGGREGATE,,400,TRUE
+AT-143164,Update entityParameter->account[0]->frequency,TopMerchants,negTestScenario22,,,,,,,,,,2,,account view ,,,MONTH MONTH,FALSE FALSE,,,,400,TRUE
+AT-143130,Update entityParameter->account[0]->valid frequency,TopMerchants,,,,,,,,,,,2,,account view ,,,MONTHLY,TRUE TRUE,,,,204,TRUE
+AT-143131,update threshold name  - entityParameter->account[0]->threshold[0]->name,TopMerchants,negTestScenario54,,,,,,,,,,1,,account,1,,,FALSE,,,"BELOW,5,NUMBER",400,TRUE
+AT-143166,update threshold values - entityParameter->account[0]->threshold[0]->value,TopMerchants,,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-143166,update threshold type - entityParameter->account[0]->threshold[0]->type,TopMerchants,negTestScenario55,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,VALUE",400,TRUE
+AT-143162,"update threshold name ,value and type to TOP,10,NUMBER",TopMerchants,,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE

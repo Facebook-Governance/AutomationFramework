@@ -1,0 +1,278 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="methods" thread-count="1"
+	preserve-order="true">
+
+
+	<parameter name="suiteName" value="YSLAutoAmelia" />
+
+	<listeners>
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+
+	</listeners>
+
+<test name="Cobrand">
+		<classes>
+			<class name="com.yodlee.yodleeApi.Cobrand.TestCobLogin" />
+		</classes>
+	</test>
+
+ 	<test name="User">
+		<classes>
+			<class name="com.yodlee.yodleeApi.User.TestAccessToken" />
+			<class name="com.yodlee.yodleeApi.User.TestGetToken" />
+			<class name="com.yodlee.yodleeApi.User.TestUpdatePassword" />
+			<class name="com.yodlee.yodleeApi.User.TestUserCredentials" />
+			<class name="com.yodlee.yodleeApi.User.TestUserDetails" />
+			<class name="com.yodlee.yodleeApi.User.TestUserLogin" />
+			<class name="com.yodlee.yodleeApi.User.TestUserRegistration" />
+		</classes>
+	</test>
+
+	<test name="Holding">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Holdings.TestAssetClassificationsList" />
+			<class name="com.yodlee.yodleeApi.Holdings.TestHolding" />
+			<class name="com.yodlee.yodleeApi.Holdings.TestHoldingTypeList" />
+		</classes>
+	</test>
+
+	<test name="Accounts">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestDeleteAccountsNegative" />
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestDeleteRecurringEvents" />
+			<class name="com.yodlee.yodleeApi.Accounts.TestGetAccounts" />
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestGetAccountsNotWorking" />
+			<class name="com.yodlee.yodleeApi.Accounts.TestGetAccountSust" />
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestGetAccountDetails" />
+			<class name="com.yodlee.yodleeApi.Accounts.TestGetBalances" />
+			<class name="com.yodlee.yodleeApi.Accounts.TestGetPreferences" />
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestGetRecurringEvents" />
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestGetTransactionsByIdAB" />
+			<class name="com.yodlee.yodleeApi.Accounts.TestSetPreferences" />
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestUpdateMultipleRecurringEvents" />
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestUpdateRecurringEvents" />
+		</classes>
+	</test>
+	
+	<test name="ProviderAccounts">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.providerAccounts.AddAndDeleteProviderAccount" />
+				
+			<class
+				name="com.yodlee.yodleeApi.providerAccounts.TestAccountAdditionForDiffSites" />
+			<class
+				name="com.yodlee.yodleeApi.providerAccounts.TestComplexLoginForm" />
+			<class
+				name="com.yodlee.yodleeApi.providerAccounts.TestDeleteProviderAccounts" />
+			<class
+				name="com.yodlee.yodleeApi.providerAccounts.TestGetProvidersValidation" />
+			<class
+				name="com.yodlee.yodleeApi.providerAccounts.TestLoginFormFields" />
+			<class
+				name="com.yodlee.yodleeApi.providerAccounts.TestProviderAccountsDetails" />
+				
+		</classes>
+	</test>
+<!--
+	<test name="ManualAccounts">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.ManualAccounts.TestManualAccounts" />
+			<class
+				name="com.yodlee.yodleeApi.ManualAccounts.TestUpdateManualAccount" />
+			<class
+				name="com.yodlee.yodleeApi.ManualAccounts.TestDeleteManualAccount" />
+		</classes>
+	</test>
+	-->
+
+	<test name="HistoricalBalance">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.HistoricalBalance.TestHistoricalBalance" />
+		</classes>
+	</test>
+	<test name="Transactions">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestCategorizationRule" />
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestCreateCategories" />
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestCreateCategoryRuleOrtho" />
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestCreateManualTransaction" />
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestDeleteTransaction" />
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestGetRecurringTransactions" />
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestGetTransactionMFAAccount" />
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestGetTransactionMore" />
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestGetTransactionSkipNTop" />
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestTransactionOrtho" />
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestTransactionsFunctional" />
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestTransactionsFunctionalMore" />
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestUpdateTxnCategory" />
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TransactionsNonSdgTdeTest" />
+		</classes>
+	</test>
+	<test name="Teaca">
+		<classes>
+			<class name="com.yodlee.yodleeApi.Teaca.TestTeacaAcountsYsl"></class>
+			<class name="com.yodlee.yodleeApi.Teaca.TestTeacaExceptional"></class>
+			<class
+				name="com.yodlee.yodleeApi.Teaca.TestTeacaProviderAccounts"></class>
+			<class name="com.yodlee.yodleeApi.Teaca.TestTeacaProviders"></class>
+			<class name="com.yodlee.yodleeApi.Teaca.TestTeacaTransaction"></class>
+		</classes>
+	</test>
+	
+	<test name="psd2">
+		<classes>
+		
+			<class
+				name="com.yodlee.app.yodleeApi.psd2.TestNonSDGGetProviderDetailsOAuthCob"></class>
+			<class
+				name="com.yodlee.app.yodleeApi.psd2.TestNonSDGGetPSDProvidersOAuthCob"></class>
+			<class
+				name="com.yodlee.app.yodleeApi.psd2.TestNonSDGGetProviderDetailsNonOAuthCob"></class>
+			
+			<class
+				name="com.yodlee.app.yodleeApi.psd2.TestNonSDGGetPSDProvidersNonOAuthCob"></class>
+			
+		</classes>
+	</test>
+	<test name="psd2.SDG">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.psd2.SDG.TestSDGGetPSDProvidersOAuthCob"></class>
+			<class
+				name="com.yodlee.app.yodleeApi.psd2.SDG.TestSDGGetProviderDetailsOAuthCob"></class>
+					
+			<class
+				name="com.yodlee.app.yodleeApi.psd2.SDG.TestSDGoAuthTokenOAuthCob"></class>
+					
+			<class
+				name="com.yodlee.app.yodleeApi.psd2.SDG.TestSDGGetProviderDetailsNonOAuthCob"></class>
+			
+			<class
+				name="com.yodlee.app.yodleeApi.psd2.SDG.TestSDGGetPSDProvidersNonOAuthCOb"></class>
+			
+			
+		</classes>
+	</test>
+
+
+
+	<!--Below Tests are for SDG only -->
+	<!-- <test name="Dedup">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestDedup" />
+		</classes>
+	</test>
+	
+	<test name="TransactionDedup">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestDedupForTransactions" />
+		</classes>
+	</test>
+	 
+	<test name="AccountDedup">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestDedupForAccounts" />
+		</classes>
+	</test>
+	<test name="PIIGranualConfig">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPIIGranularConfigs" />
+		</classes>
+	</test>
+	<test name="PIIGranualConfig2">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPIIGranularConfigs2" />
+		</classes>
+	</test>
+	<test name="PIIGranualConfigDefault">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPIIGranularConfigsDefault" />
+		</classes>
+	</test>
+	<test name="SDGBasicDD2">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestSingleDataGatheringBasicDD_2" />
+		</classes>
+	</test>
+	<test name="SDGBasicDD">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestSingleDataGatheringBasicDD" />
+		</classes>
+	</test>
+	<test name="PIIProfileConfig">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPIIProfilesSdg" />
+		</classes>
+	</test>
+	<test name="ProgressiveRefresh">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestProgressiveRefresh" />
+		</classes>
+	</test>
+	<test name="SDGBasicAggrgartion">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestSingleDataGatheringBasicAggregation" />
+		</classes>
+	</test>
+	<test name="RTNInvestment">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestRtnInvestment" />
+		</classes>
+	</test>
+	<test name="RefreshStatus">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestRefreshStatus" />
+		</classes>
+	</test>
+	<test name="RefreshStatus2">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestRefreshStatus_2" />
+		</classes>
+	</test> -->
+
+
+</suite>
+

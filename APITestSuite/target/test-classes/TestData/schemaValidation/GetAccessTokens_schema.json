@@ -1,0 +1,54 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "user": {
+      "$id": "/properties/user",
+      "type": "object",
+      "properties": {
+        "accessTokens": {
+          "$id": "/properties/user/properties/accessTokens",
+          "type": "array",
+          "items": {
+            "$id": "/properties/user/properties/accessTokens/items",
+            "type": "object",
+            "properties": {
+              "appId": {
+                "$id": "/properties/user/properties/accessTokens/items/properties/appId",
+                "type": "string",
+                "title": "The Appid Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "10003600"
+                ]
+              },
+              "value": {
+                "$id": "/properties/user/properties/accessTokens/items/properties/value",
+                "type": "string",
+                "title": "The Value Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "5e8d4d2502bc5a328d540ce2e9890c2a68a193e6db720e6af5a0639ea39dad60"
+                ]
+              },
+              "url": {
+                "$id": "/properties/user/properties/accessTokens/items/properties/url",
+                "type": "string",
+                "title": "The Url Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://192.168.57.139:7100/authenticate/nodesmb/"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

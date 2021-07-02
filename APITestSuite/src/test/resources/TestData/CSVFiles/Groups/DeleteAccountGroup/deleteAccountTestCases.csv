@@ -1,0 +1,3 @@
+TestCaseId,TestCaseName,containerKey,container,groupKey,group,resFile,filePath,cobsessionTokenKey,cobsessionToken,userSessionTokenKey,userSessionToken,status ,enabledTest,defectID
+AT-67661,invalid account id,containerKey,bank,group,CheckingGroup4,AccDeleteAcc.json,../src/test/resources/TestData/JSONFiles/AccountGroups/DeleteAccountsJson/,cobsession,VALID,userSession,VALID,400,TRUE,0
+AT-67663,for multiple acc's pass one invalid acc,containerKey,bank,group,CheckingGroup6,multDeleteAcc.json,../src/test/resources/TestData/JSONFiles/AccountGroups/DeleteAccountsJson/,cobsession,VALID,userSession,VALID,400,TRUE,0

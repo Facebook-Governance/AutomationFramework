@@ -1,0 +1,2 @@
+testCaseId,TestCase,startDate,frequency,endDate,referenceId,accountId,httpStatusCode,resFile,resFilePath,enabled
+AT-18994,WithInvalidAccountId,"0,0,0",MONTHLY,"0,6,0",bank,bank,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE

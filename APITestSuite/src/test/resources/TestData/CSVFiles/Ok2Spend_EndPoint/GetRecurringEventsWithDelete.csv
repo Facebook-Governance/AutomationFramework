@@ -1,0 +1,2 @@
+testCaseId,testCase,httpStatusCode,resFile,resFilePath,Enabled
+AT-114711,GetPredictedEvents-Deleted id,400,Empty.json,../src/test/resources/TestData/JSONFiles/GetRecurringEvents/,TRUE

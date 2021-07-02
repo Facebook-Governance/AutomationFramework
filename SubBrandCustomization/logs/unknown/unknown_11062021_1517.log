@@ -1,0 +1,1388 @@
+2021-06-11 15:17:03,208 [main] INFO   c.y.c.listeners.CustomListener(159) - Approximate tests to run ~ 17
+2021-06-11 15:17:18,683 [main] INFO   ReportGenerator(212) - ****************************************************************************************
+2021-06-11 15:17:18,684 [main] INFO   ReportGenerator(213) -                                 Sub Brand Management Tool Publish Workflows       
+2021-06-11 15:17:18,686 [main] INFO   ReportGenerator(214) - ----------------------------------------------------------------------------------------
+2021-06-11 15:17:19,241 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:17:19,251 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLoginPageContents By Thread with name as ##main
+2021-06-11 15:17:19,251 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:17:19,266 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:17:19,267 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLoginPageContents By Thread with name as ##main
+2021-06-11 15:17:19,267 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:17:19,268 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testValidateLoginPageContents
+
+2021-06-11 15:17:19,479 [main] INFO   com.yodlee.customizationtool.Login(61) - Login Page - Yodlee ID Text Box Is Present.
+2021-06-11 15:17:19,556 [main] INFO   com.yodlee.customizationtool.Login(64) - Login Page - Password Text Box Is Present.
+2021-06-11 15:17:19,611 [main] INFO   com.yodlee.customizationtool.Login(67) - Login Page - Login Button Is Present.
+2021-06-11 15:17:19,662 [main] INFO   com.yodlee.customizationtool.Login(70) - Login Page - Envestnet Yodlee Logo Is Present.
+2021-06-11 15:17:19,717 [main] INFO   com.yodlee.customizationtool.Login(73) - Login Page - Forgot Password Link Is Present.
+2021-06-11 15:17:19,902 [main] INFO   com.yodlee.customizationtool.Login(87) - Login Page - User Id Format Default Text Is Present.
+2021-06-11 15:17:19,936 [main] INFO   com.yodlee.customizationtool.Login(90) - Login Page - Login Button Is Enabled By Default.
+2021-06-11 15:17:19,937 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:17:19,938 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateLoginPageContents
+2021-06-11 15:17:19,938 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:17:19,940 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:17:19,941 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateLoginPageContents
+2021-06-11 15:17:19,941 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:17:19,942 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testValidateLoginPageContents: --->>> PASS 
+
+2021-06-11 15:17:20,771 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:17:20,772 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateMessageOnClickingForgotPasswordLink By Thread with name as ##main
+2021-06-11 15:17:20,774 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:17:20,775 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:17:20,776 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateMessageOnClickingForgotPasswordLink By Thread with name as ##main
+2021-06-11 15:17:20,777 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:17:20,777 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testValidateMessageOnClickingForgotPasswordLink
+
+2021-06-11 15:17:21,210 [main] INFO   com.yodlee.customizationtool.Login(101) - Login Page - Yodlee ID Text Box Is Present.
+2021-06-11 15:17:21,632 [main] INFO   com.yodlee.customizationtool.Login(108) - Login Page: Forgot Password On Click, Message Verification Successful.
+2021-06-11 15:17:21,633 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:17:21,633 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateMessageOnClickingForgotPasswordLink
+2021-06-11 15:17:21,634 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:17:21,636 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:17:21,636 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateMessageOnClickingForgotPasswordLink
+2021-06-11 15:17:21,637 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:17:21,637 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testValidateMessageOnClickingForgotPasswordLink: --->>> PASS 
+
+2021-06-11 15:17:21,781 [main] DEBUG  org.databene.commons.IOUtil(115) - isURIAvailable(converters.txt)
+2021-06-11 15:17:21,782 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(converters.txt, false)
+2021-06-11 15:17:21,783 [main] DEBUG  org.databene.commons.IOUtil(488) - getResourceAsStream(converters.txt, false)
+2021-06-11 15:17:21,784 [main] DEBUG  org.databene.CONFIG(85) - No custom converter setup 'converters.txt' found; using defaults.
+2021-06-11 15:17:21,787 [main] DEBUG  org.databene.commons.IOUtil(181) - getInputStreamForURI(org/databene/commons/converter/converters.txt, true)
+2021-06-11 15:17:21,788 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(org/databene/commons/converter/converters.txt, true)
+2021-06-11 15:17:21,788 [main] DEBUG  org.databene.commons.IOUtil(488) - getResourceAsStream(org/databene/commons/converter/converters.txt, true)
+2021-06-11 15:17:21,823 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2TimestampConverter
+2021-06-11 15:17:21,829 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2TimeConverter
+2021-06-11 15:17:21,830 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Time2StringConverter
+2021-06-11 15:17:21,831 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2DateConverter
+2021-06-11 15:17:21,832 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2LocaleConverter
+2021-06-11 15:17:21,833 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Locale2StringConverter
+2021-06-11 15:17:21,834 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2ClassConverter
+2021-06-11 15:17:21,837 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Class2StringConverter
+2021-06-11 15:17:21,838 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Date2TimestampConverter
+2021-06-11 15:17:21,839 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Timestamp2DateConverter
+2021-06-11 15:17:21,840 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Date2CalendarConverter
+2021-06-11 15:17:21,842 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Calendar2DateConverter
+2021-06-11 15:17:21,843 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Date2LongConverter
+2021-06-11 15:17:21,844 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Long2DateConverter
+2021-06-11 15:17:21,846 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating UtilDate2SqlDateConverter
+2021-06-11 15:17:21,847 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating SqlDate2UtilDateConverter
+2021-06-11 15:17:21,869 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating ByteArrayToBase64Converter
+2021-06-11 15:17:21,870 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Base64ToByteArrayConverter
+2021-06-11 15:17:21,872 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2GregorianCalendarConverter
+2021-06-11 15:17:21,873 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2DateFormatConverter
+2021-06-11 15:17:21,874 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2NumberFormatConverter
+2021-06-11 15:17:21,875 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2PatternConverter
+2021-06-11 15:17:21,876 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2CharConverter
+2021-06-11 15:17:21,878 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2ConverterConverter
+2021-06-11 15:17:21,883 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting date (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,896 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: date[]
+2021-06-11 15:17:21,897 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting big_decimal (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,898 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: big_decimal[]
+2021-06-11 15:17:21,899 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,900 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: string[]
+2021-06-11 15:17:21,917 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting byte (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,918 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: byte[]
+2021-06-11 15:17:21,919 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting big_integer (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,920 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: big_integer[]
+2021-06-11 15:17:21,921 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting double (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,922 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: double[]
+2021-06-11 15:17:21,923 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting float (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,924 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: float[]
+2021-06-11 15:17:21,942 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting int (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,943 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: int[]
+2021-06-11 15:17:21,944 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting long (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,945 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: long[]
+2021-06-11 15:17:21,945 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting boolean (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,946 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: boolean[]
+2021-06-11 15:17:21,947 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting array (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,949 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: array[]
+2021-06-11 15:17:21,950 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting binary (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,951 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: binary[]
+2021-06-11 15:17:21,951 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting short (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,952 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: short[]
+2021-06-11 15:17:21,952 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting time (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,953 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: time[]
+2021-06-11 15:17:21,953 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting timestamp (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,954 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: timestamp[]
+2021-06-11 15:17:21,954 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting object (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,955 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: object[]
+2021-06-11 15:17:21,956 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting entity (java.lang.String) to class java.lang.String
+2021-06-11 15:17:21,958 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added ComplexTypeDescriptor: entity[]
+2021-06-11 15:17:21,962 [main] DEBUG  org.databene.model.data.DataModel(138) - validating date[]
+2021-06-11 15:17:21,971 [main] DEBUG  org.databene.model.data.DataModel(138) - validating big_decimal[]
+2021-06-11 15:17:21,972 [main] DEBUG  org.databene.model.data.DataModel(138) - validating string[]
+2021-06-11 15:17:21,972 [main] DEBUG  org.databene.model.data.DataModel(138) - validating byte[]
+2021-06-11 15:17:21,973 [main] DEBUG  org.databene.model.data.DataModel(138) - validating big_integer[]
+2021-06-11 15:17:21,973 [main] DEBUG  org.databene.model.data.DataModel(138) - validating double[]
+2021-06-11 15:17:21,973 [main] DEBUG  org.databene.model.data.DataModel(138) - validating float[]
+2021-06-11 15:17:21,974 [main] DEBUG  org.databene.model.data.DataModel(138) - validating int[]
+2021-06-11 15:17:21,974 [main] DEBUG  org.databene.model.data.DataModel(138) - validating long[]
+2021-06-11 15:17:21,975 [main] DEBUG  org.databene.model.data.DataModel(138) - validating boolean[]
+2021-06-11 15:17:21,975 [main] DEBUG  org.databene.model.data.DataModel(138) - validating array[]
+2021-06-11 15:17:21,975 [main] DEBUG  org.databene.model.data.DataModel(138) - validating binary[]
+2021-06-11 15:17:21,976 [main] DEBUG  org.databene.model.data.DataModel(138) - validating short[]
+2021-06-11 15:17:21,976 [main] DEBUG  org.databene.model.data.DataModel(138) - validating time[]
+2021-06-11 15:17:21,977 [main] DEBUG  org.databene.model.data.DataModel(138) - validating timestamp[]
+2021-06-11 15:17:21,977 [main] DEBUG  org.databene.model.data.DataModel(138) - validating object[]
+2021-06-11 15:17:21,977 [main] DEBUG  org.databene.model.data.DataModel(138) - validating entity[]
+2021-06-11 15:17:22,952 [main] DEBUG  org.databene.CONFIG(191) - Initializing Script mapping from file org/databene/script/script.properties
+2021-06-11 15:17:22,952 [main] DEBUG  org.databene.commons.IOUtil(181) - getInputStreamForURI(org/databene/script/script.properties, true)
+2021-06-11 15:17:22,953 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(org/databene/script/script.properties, true)
+2021-06-11 15:17:22,955 [main] DEBUG  org.databene.commons.IOUtil(488) - getResourceAsStream(org/databene/script/script.properties, true)
+2021-06-11 15:17:22,961 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating FreeMarkerScriptFactory
+2021-06-11 15:17:22,963 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2DistributionConverter
+2021-06-11 15:17:22,970 [main] DEBUG  org.databene.commons.IOUtil(181) - getInputStreamForURI(org/databene/commons/special-letters.properties, true)
+2021-06-11 15:17:22,971 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(org/databene/commons/special-letters.properties, true)
+2021-06-11 15:17:22,971 [main] DEBUG  org.databene.commons.IOUtil(488) - getResourceAsStream(org/databene/commons/special-letters.properties, true)
+2021-06-11 15:17:22,975 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting benerator:defaultComponent (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,980 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testValidateLogin (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,982 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testValidateLogin (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,983 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting null to class java.lang.String
+2021-06-11 15:17:22,986 [main] DEBUG  o.d.benerator.anno.AnnotationMapper(182) - mapDetails(@org.databene.benerator.anno.Source(filter=, selector=, id=, nesting=, encoding=, value=src\test\resources\testdata\ValidateLogin.csv, separator=, uri=, dataset=), testValidateLogin[])
+2021-06-11 15:17:22,988 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting src\test\resources\testdata\ValidateLogin.csv (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,994 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 0 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,994 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,995 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,996 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,996 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 2 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,996 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,997 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 3 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,997 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,997 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 4 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,998 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,998 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 5 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:22,999 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:17:23,007 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(75) - createArrayGenerator(testValidateLogin)
+2021-06-11 15:17:23,025 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(142) - createCSVSourceGenerator(ArrayTypeDescriptor[0[type=string], 1[type=string], 2[type=string], 3[type=string], 4[type=string], 5[type=string]])
+2021-06-11 15:17:23,044 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testValidateLogin (java.lang.String) to class java.lang.String
+2021-06-11 15:17:23,057 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(90) - Created VariableAwareGenerator[
+    ConvertingGenerator
+]
+2021-06-11 15:17:23,069 [main] DEBUG  org.databene.commons.IOUtil(232) - resolveLocalUri(src\test\resources\testdata\ValidateLogin.csv, .)
+2021-06-11 15:17:23,072 [main] DEBUG  org.databene.commons.IOUtil(181) - getInputStreamForURI(src/test/resources/testdata/ValidateLogin.csv, true)
+2021-06-11 15:17:23,072 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(src/test/resources/testdata/ValidateLogin.csv, true)
+2021-06-11 15:17:23,115 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-113117 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:23,115 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:17:23,116 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting InvalidInput (java.lang.String) to class java.lang.String
+2021-06-11 15:17:23,116 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting invalid@pfml1stage (java.lang.String) to class java.lang.String
+2021-06-11 15:17:23,116 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Yodlee@123 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:23,117 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Invalid user credentials (java.lang.String) to class java.lang.String
+2021-06-11 15:17:23,117 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@4f4c789f
+2021-06-11 15:17:23,118 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-113127 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:23,118 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:17:23,118 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting NoInput (java.lang.String) to class java.lang.String
+2021-06-11 15:17:23,119 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting  (java.lang.String) to class java.lang.String
+2021-06-11 15:17:23,119 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting  (java.lang.String) to class java.lang.String
+2021-06-11 15:17:23,119 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Uh-oh! You've entered wrong username/ password. Please re-enter credentials (java.lang.String) to class java.lang.String
+2021-06-11 15:17:23,120 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@13f9ad9
+2021-06-11 15:17:23,120 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:17:23,120 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLogin By Thread with name as ##main
+2021-06-11 15:17:23,121 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:17:23,123 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:17:23,123 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLogin By Thread with name as ##main
+2021-06-11 15:17:23,124 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:17:23,124 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testValidateLogin ( AT-113117 , TRUE , InvalidInput , invalid@pfml1stage , Yodlee@123 , Invalid user credentials ) 
+
+2021-06-11 15:17:23,246 [main] INFO   com.yodlee.customizationtool.Login(124) - Successfully Loaded Login Page
+2021-06-11 15:17:29,504 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:17:29,505 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateLogin
+2021-06-11 15:17:29,505 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:17:29,507 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:17:29,507 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateLogin
+2021-06-11 15:17:29,507 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:17:29,508 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testValidateLogin ( AT-113117 , TRUE , InvalidInput , invalid@pfml1stage , Yodlee@123 , Invalid user credentials ) : --->>> PASS 
+
+2021-06-11 15:17:29,576 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-113116 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:29,577 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:17:29,577 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting ValidInput (java.lang.String) to class java.lang.String
+2021-06-11 15:17:29,577 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting rajeev@pfml1stage (java.lang.String) to class java.lang.String
+2021-06-11 15:17:29,577 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Yodlee@123 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:29,578 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting null to class java.lang.String
+2021-06-11 15:17:29,578 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@1460c81d
+2021-06-11 15:17:29,578 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:17:29,579 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLogin By Thread with name as ##main
+2021-06-11 15:17:29,579 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:17:29,581 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:17:29,581 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLogin By Thread with name as ##main
+2021-06-11 15:17:29,581 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:17:29,581 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testValidateLogin ( AT-113127 , TRUE , NoInput ,  ,  , Uh-oh! You've entered wrong username/ password. Please re-enter credentials ) 
+
+2021-06-11 15:17:29,714 [main] INFO   com.yodlee.customizationtool.Login(124) - Successfully Loaded Login Page
+2021-06-11 15:17:34,606 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:17:34,607 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateLogin
+2021-06-11 15:17:34,607 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:17:34,608 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:17:34,609 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateLogin
+2021-06-11 15:17:34,609 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:17:34,609 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testValidateLogin ( AT-113127 , TRUE , NoInput ,  ,  , Uh-oh! You've entered wrong username/ password. Please re-enter credentials ) : --->>> PASS 
+
+2021-06-11 15:17:34,686 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:17:34,687 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLogin By Thread with name as ##main
+2021-06-11 15:17:34,687 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:17:34,689 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:17:34,689 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLogin By Thread with name as ##main
+2021-06-11 15:17:34,689 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:17:34,690 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testValidateLogin ( AT-113116 , TRUE , ValidInput , rajeev@pfml1stage , Yodlee@123
+
+2021-06-11 15:17:34,814 [main] INFO   com.yodlee.customizationtool.Login(124) - Successfully Loaded Login Page
+2021-06-11 15:17:41,290 [main] INFO   com.yodlee.customizationtool.Login(130) - Successfully Logged In To Sub-Brand Management Portal Page
+2021-06-11 15:17:41,291 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:17:41,291 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateLogin
+2021-06-11 15:17:41,292 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:17:41,293 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:17:41,294 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateLogin
+2021-06-11 15:17:41,294 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:17:41,295 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testValidateLogin ( AT-113116 , TRUE , ValidInput , rajeev@pfml1stage , Yodlee@123: --->>> PASS 
+
+2021-06-11 15:17:54,236 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting benerator:defaultComponent (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,237 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testGeneralConfigurationNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,238 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testGeneralConfigurationNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,238 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting null to class java.lang.String
+2021-06-11 15:17:54,239 [main] DEBUG  o.d.benerator.anno.AnnotationMapper(182) - mapDetails(@org.databene.benerator.anno.Source(filter=, selector=, id=, nesting=, encoding=, value=src\test\resources\testdata\NegativeScenariosGeneralConfiguration.csv, separator=, uri=, dataset=), testGeneralConfigurationNegativeValidations[])
+2021-06-11 15:17:54,239 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting src\test\resources\testdata\NegativeScenariosGeneralConfiguration.csv (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,239 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 0 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,240 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,240 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,240 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,241 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 2 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,241 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,241 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(75) - createArrayGenerator(testGeneralConfigurationNegativeValidations)
+2021-06-11 15:17:54,242 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(142) - createCSVSourceGenerator(ArrayTypeDescriptor[0[type=string], 1[type=string], 2[type=string]])
+2021-06-11 15:17:54,242 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testGeneralConfigurationNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,243 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(90) - Created VariableAwareGenerator[
+    ConvertingGenerator
+]
+2021-06-11 15:17:54,243 [main] DEBUG  org.databene.commons.IOUtil(232) - resolveLocalUri(src\test\resources\testdata\NegativeScenariosGeneralConfiguration.csv, .)
+2021-06-11 15:17:54,247 [main] DEBUG  org.databene.commons.IOUtil(181) - getInputStreamForURI(src/test/resources/testdata/NegativeScenariosGeneralConfiguration.csv, true)
+2021-06-11 15:17:54,247 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(src/test/resources/testdata/NegativeScenariosGeneralConfiguration.csv, true)
+2021-06-11 15:17:54,254 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000001 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,254 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,255 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting EmptySubBrandDomainNameIPAddress (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,255 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@60f70249
+2021-06-11 15:17:54,256 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000002 (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,256 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,256 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters (java.lang.String) to class java.lang.String
+2021-06-11 15:17:54,256 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@31ee2fdb
+2021-06-11 15:17:54,257 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:17:54,257 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testGeneralConfigurationNegativeValidations By Thread with name as ##main
+2021-06-11 15:17:54,257 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:17:54,259 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:17:54,260 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testGeneralConfigurationNegativeValidations By Thread with name as ##main
+2021-06-11 15:17:54,260 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:17:54,261 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testGeneralConfigurationNegativeValidations ( AT-000001 , TRUE , EmptySubBrandDomainNameIPAddress ) 
+
+2021-06-11 15:17:57,888 [main] INFO   c.y.c.CreateSubBrand(98) - Create Sub-Brand Button Found.
+2021-06-11 15:18:05,349 [main] INFO   c.y.c.page.GeneralConfigurationPage(94) - **************************GENERAL CONFIGURATION**************************
+2021-06-11 15:18:12,270 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:18:12,271 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.CreateSubBrand#testGeneralConfigurationNegativeValidations
+2021-06-11 15:18:12,271 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:18:12,273 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:18:12,273 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.CreateSubBrand#testGeneralConfigurationNegativeValidations
+2021-06-11 15:18:12,274 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:18:12,274 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testGeneralConfigurationNegativeValidations ( AT-000001 , TRUE , EmptySubBrandDomainNameIPAddress ) : --->>> PASS 
+
+2021-06-11 15:18:12,377 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000003 (java.lang.String) to class java.lang.String
+2021-06-11 15:18:12,377 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:18:12,378 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters (java.lang.String) to class java.lang.String
+2021-06-11 15:18:12,378 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@7f1ef916
+2021-06-11 15:18:12,378 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:18:12,379 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testGeneralConfigurationNegativeValidations By Thread with name as ##main
+2021-06-11 15:18:12,380 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:18:12,381 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:18:12,382 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testGeneralConfigurationNegativeValidations By Thread with name as ##main
+2021-06-11 15:18:12,382 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:18:12,382 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testGeneralConfigurationNegativeValidations ( AT-000002 , TRUE , DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters ) 
+
+2021-06-11 15:18:17,035 [main] INFO   c.y.c.CreateSubBrand(98) - Create Sub-Brand Button Found.
+2021-06-11 15:18:54,788 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:18:54,789 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testGeneralConfigurationNegativeValidations
+2021-06-11 15:18:54,789 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:18:54,789 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:18:54,790 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Expected condition failed: waiting for presence of element located by: By.xpath: //span[@autoid='header-lbl-general-config'] (tried for 20 second(s) with 500 milliseconds interval)
+2021-06-11 15:18:54,790 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:18:55,124 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:18:55,124 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testGeneralConfigurationNegativeValidations
+2021-06-11 15:18:55,125 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:18:55,125 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:18:55,125 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Expected condition failed: waiting for presence of element located by: By.xpath: //span[@autoid='header-lbl-general-config'] (tried for 20 second(s) with 500 milliseconds interval)
+2021-06-11 15:18:55,125 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:18:55,676 [main] ERROR  ReportGenerator(86) - 
+
+ testGeneralConfigurationNegativeValidations ( AT-000002 , TRUE , DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters )  test has failed 
+
+
+2021-06-11 15:18:55,757 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000004 (java.lang.String) to class java.lang.String
+2021-06-11 15:18:55,758 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:18:55,758 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed (java.lang.String) to class java.lang.String
+2021-06-11 15:18:55,759 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@791c12e3
+2021-06-11 15:18:55,759 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:18:55,759 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testGeneralConfigurationNegativeValidations By Thread with name as ##main
+2021-06-11 15:18:55,760 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:18:55,761 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:18:55,762 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testGeneralConfigurationNegativeValidations By Thread with name as ##main
+2021-06-11 15:18:55,762 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:18:55,762 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testGeneralConfigurationNegativeValidations ( AT-000003 , TRUE , MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters ) 
+
+2021-06-11 15:19:02,699 [main] INFO   c.y.c.CreateSubBrand(98) - Create Sub-Brand Button Found.
+2021-06-11 15:19:09,958 [main] INFO   c.y.c.page.GeneralConfigurationPage(94) - **************************GENERAL CONFIGURATION**************************
+2021-06-11 15:19:18,888 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:19:18,888 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.CreateSubBrand#testGeneralConfigurationNegativeValidations
+2021-06-11 15:19:18,888 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:19:18,890 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:19:18,890 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.CreateSubBrand#testGeneralConfigurationNegativeValidations
+2021-06-11 15:19:18,890 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:19:18,891 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testGeneralConfigurationNegativeValidations ( AT-000003 , TRUE , MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters ) : --->>> PASS 
+
+2021-06-11 15:19:18,954 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:18,954 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testGeneralConfigurationNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:18,954 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:18,955 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:18,956 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testGeneralConfigurationNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:18,956 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:18,956 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testGeneralConfigurationNegativeValidations ( AT-000004 , TRUE , InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed ) 
+
+2021-06-11 15:19:22,226 [main] INFO   c.y.c.CreateSubBrand(98) - Create Sub-Brand Button Found.
+2021-06-11 15:19:29,583 [main] INFO   c.y.c.page.GeneralConfigurationPage(94) - **************************GENERAL CONFIGURATION**************************
+2021-06-11 15:19:34,606 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:19:34,607 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.CreateSubBrand#testGeneralConfigurationNegativeValidations
+2021-06-11 15:19:34,607 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:19:34,608 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:19:34,609 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.CreateSubBrand#testGeneralConfigurationNegativeValidations
+2021-06-11 15:19:34,609 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:19:34,609 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testGeneralConfigurationNegativeValidations ( AT-000004 , TRUE , InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed ) : --->>> PASS 
+
+2021-06-11 15:19:34,682 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting benerator:defaultComponent (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,683 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testPrivateAuthSetupNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,683 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testPrivateAuthSetupNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,684 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting null to class java.lang.String
+2021-06-11 15:19:34,684 [main] DEBUG  o.d.benerator.anno.AnnotationMapper(182) - mapDetails(@org.databene.benerator.anno.Source(filter=, selector=, id=, nesting=, encoding=, value=src\test\resources\testdata\NegativeScenariosPrivateAuthSetup.csv, separator=, uri=, dataset=), testPrivateAuthSetupNegativeValidations[])
+2021-06-11 15:19:34,684 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting src\test\resources\testdata\NegativeScenariosPrivateAuthSetup.csv (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,685 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 0 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,685 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,685 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,686 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,686 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 2 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,686 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,687 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 3 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,687 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,687 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(75) - createArrayGenerator(testPrivateAuthSetupNegativeValidations)
+2021-06-11 15:19:34,688 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(142) - createCSVSourceGenerator(ArrayTypeDescriptor[0[type=string], 1[type=string], 2[type=string], 3[type=string]])
+2021-06-11 15:19:34,688 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testPrivateAuthSetupNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,688 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(90) - Created VariableAwareGenerator[
+    ConvertingGenerator
+]
+2021-06-11 15:19:34,689 [main] DEBUG  org.databene.commons.IOUtil(232) - resolveLocalUri(src\test\resources\testdata\NegativeScenariosPrivateAuthSetup.csv, .)
+2021-06-11 15:19:34,690 [main] DEBUG  org.databene.commons.IOUtil(181) - getInputStreamForURI(src/test/resources/testdata/NegativeScenariosPrivateAuthSetup.csv, true)
+2021-06-11 15:19:34,690 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(src/test/resources/testdata/NegativeScenariosPrivateAuthSetup.csv, true)
+2021-06-11 15:19:34,697 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000001 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,697 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,698 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting NoLoginMechanism (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,698 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting None (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,699 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@3c232051
+2021-06-11 15:19:34,699 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000002 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,699 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,700 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting EmptyDetails (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,700 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SAML;JWT (java.lang.String) to class java.lang.String
+2021-06-11 15:19:34,700 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@15d0d6c9
+2021-06-11 15:19:34,700 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:34,701 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:34,701 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:34,705 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:34,707 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:34,707 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:34,707 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testPrivateAuthSetupNegativeValidations ( AT-000001 , TRUE , NoLoginMechanism , None ) 
+
+2021-06-11 15:19:40,656 [main] INFO   c.y.c.CreateSubBrand(246) - View List Of Sub Brand Page: Create Sub-Brand Button Found.
+2021-06-11 15:19:40,705 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:19:40,705 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations
+2021-06-11 15:19:40,706 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:19:40,706 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:19:40,706 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:19:40,706 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:19:40,944 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:19:40,944 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations
+2021-06-11 15:19:40,944 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:19:40,945 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:19:40,945 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:19:40,945 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:19:41,363 [main] ERROR  ReportGenerator(86) - 
+
+ testPrivateAuthSetupNegativeValidations ( AT-000001 , TRUE , NoLoginMechanism , None )  test has failed 
+
+
+2021-06-11 15:19:41,426 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000003 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:41,426 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:19:41,426 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit (java.lang.String) to class java.lang.String
+2021-06-11 15:19:41,427 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SAML;JWT (java.lang.String) to class java.lang.String
+2021-06-11 15:19:41,427 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@3ad8717d
+2021-06-11 15:19:41,427 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:41,428 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:41,428 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:41,429 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:41,430 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:41,430 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:41,430 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testPrivateAuthSetupNegativeValidations ( AT-000002 , TRUE , EmptyDetails , SAML;JWT ) 
+
+2021-06-11 15:19:43,820 [main] INFO   c.y.c.CreateSubBrand(246) - View List Of Sub Brand Page: Create Sub-Brand Button Found.
+2021-06-11 15:19:43,849 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:19:43,850 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations
+2021-06-11 15:19:43,850 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:19:43,850 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:19:43,850 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:19:43,850 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:19:44,052 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:19:44,052 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations
+2021-06-11 15:19:44,053 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:19:44,053 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:19:44,053 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:19:44,053 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:19:44,500 [main] ERROR  ReportGenerator(86) - 
+
+ testPrivateAuthSetupNegativeValidations ( AT-000002 , TRUE , EmptyDetails , SAML;JWT )  test has failed 
+
+
+2021-06-11 15:19:44,535 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000004 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:44,536 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:19:44,536 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey (java.lang.String) to class java.lang.String
+2021-06-11 15:19:44,536 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SAML;JWT (java.lang.String) to class java.lang.String
+2021-06-11 15:19:44,536 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@3c770db4
+2021-06-11 15:19:44,537 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:44,537 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:44,537 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:44,538 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:44,538 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:44,539 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:44,539 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testPrivateAuthSetupNegativeValidations ( AT-000003 , TRUE , MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit , SAML;JWT ) 
+
+2021-06-11 15:19:46,872 [main] INFO   c.y.c.CreateSubBrand(246) - View List Of Sub Brand Page: Create Sub-Brand Button Found.
+2021-06-11 15:19:46,903 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:19:46,903 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations
+2021-06-11 15:19:46,903 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:19:46,903 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:19:46,903 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:19:46,904 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:19:47,112 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:19:47,112 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations
+2021-06-11 15:19:47,112 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:19:47,113 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:19:47,113 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:19:47,113 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:19:47,545 [main] ERROR  ReportGenerator(86) - 
+
+ testPrivateAuthSetupNegativeValidations ( AT-000003 , TRUE , MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit , SAML;JWT )  test has failed 
+
+
+2021-06-11 15:19:47,626 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:47,627 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:47,627 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:47,628 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:47,628 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:47,629 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:47,629 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testPrivateAuthSetupNegativeValidations ( AT-000004 , TRUE , MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey , SAML;JWT ) 
+
+2021-06-11 15:19:49,981 [main] INFO   c.y.c.CreateSubBrand(246) - View List Of Sub Brand Page: Create Sub-Brand Button Found.
+2021-06-11 15:19:50,025 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:19:50,025 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations
+2021-06-11 15:19:50,026 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:19:50,026 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:19:50,026 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:19:50,026 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:19:50,274 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:19:50,274 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testPrivateAuthSetupNegativeValidations
+2021-06-11 15:19:50,274 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:19:50,275 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:19:50,275 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:19:50,275 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:19:50,739 [main] ERROR  ReportGenerator(86) - 
+
+ testPrivateAuthSetupNegativeValidations ( AT-000004 , TRUE , MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey , SAML;JWT )  test has failed 
+
+
+2021-06-11 15:19:50,795 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting benerator:defaultComponent (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,796 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testPublicAuthSetupNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,796 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testPublicAuthSetupNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,796 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting null to class java.lang.String
+2021-06-11 15:19:50,796 [main] DEBUG  o.d.benerator.anno.AnnotationMapper(182) - mapDetails(@org.databene.benerator.anno.Source(filter=, selector=, id=, nesting=, encoding=, value=src\test\resources\testdata\NegativeScenariosPublicAuthSetup.csv, separator=, uri=, dataset=), testPublicAuthSetupNegativeValidations[])
+2021-06-11 15:19:50,797 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting src\test\resources\testdata\NegativeScenariosPublicAuthSetup.csv (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,797 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 0 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,797 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,798 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,798 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,798 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 2 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,798 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,799 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 3 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,799 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,799 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 4 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,799 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,799 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 5 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,800 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,800 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 6 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,800 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,800 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 7 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,801 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,801 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 8 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,801 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,801 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,801 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,801 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 10 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,802 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,802 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(75) - createArrayGenerator(testPublicAuthSetupNegativeValidations)
+2021-06-11 15:19:50,802 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(142) - createCSVSourceGenerator(ArrayTypeDescriptor[0[type=string], 1[type=string], 2[type=string], 3[type=string], 4[type=string], 5[type=string], 6[type=string], 7[type=string], 8[type=string], 9[type=string], 10[type=string]])
+2021-06-11 15:19:50,802 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testPublicAuthSetupNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,802 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(90) - Created VariableAwareGenerator[
+    ConvertingGenerator
+]
+2021-06-11 15:19:50,803 [main] DEBUG  org.databene.commons.IOUtil(232) - resolveLocalUri(src\test\resources\testdata\NegativeScenariosPublicAuthSetup.csv, .)
+2021-06-11 15:19:50,803 [main] DEBUG  org.databene.commons.IOUtil(181) - getInputStreamForURI(src/test/resources/testdata/NegativeScenariosPublicAuthSetup.csv, true)
+2021-06-11 15:19:50,804 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(src/test/resources/testdata/NegativeScenariosPublicAuthSetup.csv, true)
+2021-06-11 15:19:50,809 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000001 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,809 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,810 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting EmptyDetails (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,810 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SAML;JWT (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,810 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testcredPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,811 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,811 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,811 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,811 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 150 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,812 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,812 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,812 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@23cd5d42
+2021-06-11 15:19:50,813 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000002 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,813 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,813 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,813 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SAML;JWT (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,813 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testcredPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,814 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,814 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,814 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,814 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 150 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,814 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,815 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:19:50,815 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@2b44d6d0
+2021-06-11 15:19:50,815 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:50,816 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testPublicAuthSetupNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:50,816 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:50,817 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:50,818 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testPublicAuthSetupNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:50,818 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:50,818 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testPublicAuthSetupNegativeValidations ( AT-000001 , TRUE , EmptyDetails , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE ) 
+
+2021-06-11 15:19:53,298 [main] INFO   c.y.c.CreateSubBrand(496) - Create Sub-Brand Button Found.
+2021-06-11 15:19:53,334 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:19:53,335 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testPublicAuthSetupNegativeValidations
+2021-06-11 15:19:53,335 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:19:53,335 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:19:53,335 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:19:53,335 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:19:53,622 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:19:53,623 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testPublicAuthSetupNegativeValidations
+2021-06-11 15:19:53,623 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:19:53,623 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:19:53,623 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:19:53,624 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:19:54,162 [main] ERROR  ReportGenerator(86) - 
+
+ testPublicAuthSetupNegativeValidations ( AT-000001 , TRUE , EmptyDetails , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )  test has failed 
+
+
+2021-06-11 15:19:54,261 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000003 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:54,262 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:19:54,262 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey (java.lang.String) to class java.lang.String
+2021-06-11 15:19:54,262 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SAML;JWT (java.lang.String) to class java.lang.String
+2021-06-11 15:19:54,262 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testcredPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:19:54,263 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:19:54,263 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:19:54,263 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:19:54,263 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 150 (java.lang.String) to class java.lang.String
+2021-06-11 15:19:54,264 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:19:54,264 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:19:54,264 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@30aec673
+2021-06-11 15:19:54,264 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:54,265 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testPublicAuthSetupNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:54,265 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:54,267 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:54,267 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testPublicAuthSetupNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:54,267 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:54,268 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testPublicAuthSetupNegativeValidations ( AT-000002 , TRUE , MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE ) 
+
+2021-06-11 15:19:56,593 [main] INFO   c.y.c.CreateSubBrand(496) - Create Sub-Brand Button Found.
+2021-06-11 15:19:56,630 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:19:56,631 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testPublicAuthSetupNegativeValidations
+2021-06-11 15:19:56,631 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:19:56,631 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:19:56,631 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:19:56,631 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:19:56,845 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:19:56,845 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testPublicAuthSetupNegativeValidations
+2021-06-11 15:19:56,846 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:19:56,846 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:19:56,846 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:19:56,846 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:19:57,266 [main] ERROR  ReportGenerator(86) - 
+
+ testPublicAuthSetupNegativeValidations ( AT-000002 , TRUE , MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )  test has failed 
+
+
+2021-06-11 15:19:57,314 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:57,314 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testPublicAuthSetupNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:57,315 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:57,316 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:19:57,316 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testPublicAuthSetupNegativeValidations By Thread with name as ##main
+2021-06-11 15:19:57,317 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:19:57,317 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testPublicAuthSetupNegativeValidations ( AT-000003 , TRUE , MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE ) 
+
+2021-06-11 15:19:59,648 [main] INFO   c.y.c.CreateSubBrand(496) - Create Sub-Brand Button Found.
+2021-06-11 15:19:59,682 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:19:59,682 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testPublicAuthSetupNegativeValidations
+2021-06-11 15:19:59,682 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:19:59,682 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:19:59,683 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:19:59,683 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:19:59,878 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:19:59,879 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testPublicAuthSetupNegativeValidations
+2021-06-11 15:19:59,879 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:19:59,879 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:19:59,879 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:19:59,879 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:20:00,317 [main] ERROR  ReportGenerator(86) - 
+
+ testPublicAuthSetupNegativeValidations ( AT-000003 , TRUE , MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )  test has failed 
+
+
+2021-06-11 15:20:00,393 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting benerator:defaultComponent (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,394 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testProductsAndAppSelectionNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,394 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testProductsAndAppSelectionNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,394 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting null to class java.lang.String
+2021-06-11 15:20:00,395 [main] DEBUG  o.d.benerator.anno.AnnotationMapper(182) - mapDetails(@org.databene.benerator.anno.Source(filter=, selector=, id=, nesting=, encoding=, value=src\test\resources\testdata\NegativeScenariosProductAndAppsSelection.csv, separator=, uri=, dataset=), testProductsAndAppSelectionNegativeValidations[])
+2021-06-11 15:20:00,395 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting src\test\resources\testdata\NegativeScenariosProductAndAppsSelection.csv (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,395 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 0 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,395 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,395 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,396 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,396 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 2 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,396 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,396 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 3 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,397 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,397 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 4 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,397 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,397 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 5 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,398 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,398 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 6 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,398 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,398 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 7 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,398 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,399 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 8 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,399 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,399 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,399 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,400 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 10 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,400 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,400 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(75) - createArrayGenerator(testProductsAndAppSelectionNegativeValidations)
+2021-06-11 15:20:00,400 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(142) - createCSVSourceGenerator(ArrayTypeDescriptor[0[type=string], 1[type=string], 2[type=string], 3[type=string], 4[type=string], 5[type=string], 6[type=string], 7[type=string], 8[type=string], 9[type=string], 10[type=string]])
+2021-06-11 15:20:00,400 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testProductsAndAppSelectionNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,401 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(90) - Created VariableAwareGenerator[
+    ConvertingGenerator
+]
+2021-06-11 15:20:00,401 [main] DEBUG  org.databene.commons.IOUtil(232) - resolveLocalUri(src\test\resources\testdata\NegativeScenariosProductAndAppsSelection.csv, .)
+2021-06-11 15:20:00,401 [main] DEBUG  org.databene.commons.IOUtil(181) - getInputStreamForURI(src/test/resources/testdata/NegativeScenariosProductAndAppsSelection.csv, true)
+2021-06-11 15:20:00,402 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(src/test/resources/testdata/NegativeScenariosProductAndAppsSelection.csv, true)
+2021-06-11 15:20:00,405 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000001 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,405 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,405 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting DefaultSettings (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,406 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SAML;JWT (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,406 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testcredpublic (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,406 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,406 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testpublic (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,407 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testrpublic (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,407 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 150 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,407 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,408 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,408 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@63f40ca0
+2021-06-11 15:20:00,409 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000002 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,409 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,409 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting NothingEnabled (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,409 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SAML;JWT (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,409 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testcredpublic (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,410 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,410 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testpublic (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,410 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testrpublic (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,410 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 150 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,411 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,411 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:00,411 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@4dad8ec0
+2021-06-11 15:20:00,411 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:00,412 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testProductsAndAppSelectionNegativeValidations By Thread with name as ##main
+2021-06-11 15:20:00,412 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:00,413 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:00,413 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testProductsAndAppSelectionNegativeValidations By Thread with name as ##main
+2021-06-11 15:20:00,413 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:00,413 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testProductsAndAppSelectionNegativeValidations ( AT-000001 , TRUE , DefaultSettings , SAML;JWT , testcredpublic , saml , testpublic , testrpublic , 150 , TRUE , FALSE ) 
+
+2021-06-11 15:20:01,720 [main] INFO   c.y.c.CreateSubBrand(756) - Create Sub-Brand Button Found.
+2021-06-11 15:20:01,756 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:20:01,756 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testProductsAndAppSelectionNegativeValidations
+2021-06-11 15:20:01,756 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:20:01,757 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:20:01,757 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:20:01,757 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:20:01,984 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:20:01,985 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testProductsAndAppSelectionNegativeValidations
+2021-06-11 15:20:01,985 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:20:01,985 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:20:01,985 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:20:01,986 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:20:02,517 [main] ERROR  ReportGenerator(86) - 
+
+ testProductsAndAppSelectionNegativeValidations ( AT-000001 , TRUE , DefaultSettings , SAML;JWT , testcredpublic , saml , testpublic , testrpublic , 150 , TRUE , FALSE )  test has failed 
+
+
+2021-06-11 15:20:02,569 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:02,569 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testProductsAndAppSelectionNegativeValidations By Thread with name as ##main
+2021-06-11 15:20:02,570 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:02,571 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:02,571 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testProductsAndAppSelectionNegativeValidations By Thread with name as ##main
+2021-06-11 15:20:02,571 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:02,571 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testProductsAndAppSelectionNegativeValidations ( AT-000002 , TRUE , NothingEnabled , SAML;JWT , testcredpublic , saml , testpublic , testrpublic , 150 , TRUE , FALSE ) 
+
+2021-06-11 15:20:07,358 [main] INFO   c.y.c.CreateSubBrand(756) - Create Sub-Brand Button Found.
+2021-06-11 15:20:07,395 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:20:07,396 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testProductsAndAppSelectionNegativeValidations
+2021-06-11 15:20:07,396 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:20:07,396 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:20:07,396 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:20:07,396 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:20:07,678 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:20:07,678 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testProductsAndAppSelectionNegativeValidations
+2021-06-11 15:20:07,678 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:20:07,678 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:20:07,679 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:20:07,679 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:20:08,301 [main] ERROR  ReportGenerator(86) - 
+
+ testProductsAndAppSelectionNegativeValidations ( AT-000002 , TRUE , NothingEnabled , SAML;JWT , testcredpublic , saml , testpublic , testrpublic , 150 , TRUE , FALSE )  test has failed 
+
+
+2021-06-11 15:20:08,547 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting benerator:defaultComponent (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,548 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testContactDetailsNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,548 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testContactDetailsNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,548 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting null to class java.lang.String
+2021-06-11 15:20:08,549 [main] DEBUG  o.d.benerator.anno.AnnotationMapper(182) - mapDetails(@org.databene.benerator.anno.Source(filter=, selector=, id=, nesting=, encoding=, value=src\test\resources\testdata\NegativeScenariosContactDetails.csv, separator=, uri=, dataset=), testContactDetailsNegativeValidations[])
+2021-06-11 15:20:08,549 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting src\test\resources\testdata\NegativeScenariosContactDetails.csv (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,549 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 0 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,550 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,550 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,550 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,551 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 2 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,551 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,551 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(75) - createArrayGenerator(testContactDetailsNegativeValidations)
+2021-06-11 15:20:08,552 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(142) - createCSVSourceGenerator(ArrayTypeDescriptor[0[type=string], 1[type=string], 2[type=string]])
+2021-06-11 15:20:08,552 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testContactDetailsNegativeValidations (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,553 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(90) - Created VariableAwareGenerator[
+    ConvertingGenerator
+]
+2021-06-11 15:20:08,553 [main] DEBUG  org.databene.commons.IOUtil(232) - resolveLocalUri(src\test\resources\testdata\NegativeScenariosContactDetails.csv, .)
+2021-06-11 15:20:08,555 [main] DEBUG  org.databene.commons.IOUtil(181) - getInputStreamForURI(src/test/resources/testdata/NegativeScenariosContactDetails.csv, true)
+2021-06-11 15:20:08,556 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(src/test/resources/testdata/NegativeScenariosContactDetails.csv, true)
+2021-06-11 15:20:08,576 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000001 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,581 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,583 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting EmptyContactDetails (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,595 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@57fdb8a4
+2021-06-11 15:20:08,595 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000002 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,596 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,596 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting ContactDetailsExceedCharacterLimit (java.lang.String) to class java.lang.String
+2021-06-11 15:20:08,597 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@17222c11
+2021-06-11 15:20:08,598 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:08,599 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations By Thread with name as ##main
+2021-06-11 15:20:08,599 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:08,602 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:08,602 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations By Thread with name as ##main
+2021-06-11 15:20:08,602 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:08,603 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testContactDetailsNegativeValidations ( AT-000001 , TRUE , EmptyContactDetails ) 
+
+2021-06-11 15:20:22,083 [main] INFO   c.y.c.CreateSubBrand(924) - Create Sub-Brand Button Found.
+2021-06-11 15:20:22,122 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:20:22,123 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations
+2021-06-11 15:20:22,123 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:20:22,123 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:20:22,123 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:20:22,123 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:20:22,397 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:20:22,398 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations
+2021-06-11 15:20:22,398 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:20:22,398 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:20:22,398 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:20:22,399 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:20:22,944 [main] ERROR  ReportGenerator(86) - 
+
+ testContactDetailsNegativeValidations ( AT-000001 , TRUE , EmptyContactDetails )  test has failed 
+
+
+2021-06-11 15:20:23,056 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000003 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:23,056 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:23,056 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters (java.lang.String) to class java.lang.String
+2021-06-11 15:20:23,057 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@77cca767
+2021-06-11 15:20:23,057 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:23,057 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations By Thread with name as ##main
+2021-06-11 15:20:23,057 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:23,059 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:23,059 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations By Thread with name as ##main
+2021-06-11 15:20:23,059 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:23,059 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testContactDetailsNegativeValidations ( AT-000002 , TRUE , ContactDetailsExceedCharacterLimit ) 
+
+2021-06-11 15:20:25,720 [main] INFO   c.y.c.CreateSubBrand(924) - Create Sub-Brand Button Found.
+2021-06-11 15:20:25,757 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:20:25,758 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations
+2021-06-11 15:20:25,758 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:20:25,758 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:20:25,758 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:20:25,758 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:20:26,006 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:20:26,006 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations
+2021-06-11 15:20:26,006 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:20:26,006 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:20:26,007 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:20:26,007 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:20:26,447 [main] ERROR  ReportGenerator(86) - 
+
+ testContactDetailsNegativeValidations ( AT-000002 , TRUE , ContactDetailsExceedCharacterLimit )  test has failed 
+
+
+2021-06-11 15:20:26,501 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000004 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:26,502 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:26,502 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting ContactUserIdNoSpecialCharacters (java.lang.String) to class java.lang.String
+2021-06-11 15:20:26,502 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@5c313224
+2021-06-11 15:20:26,502 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:26,502 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations By Thread with name as ##main
+2021-06-11 15:20:26,503 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:26,504 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:26,504 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations By Thread with name as ##main
+2021-06-11 15:20:26,504 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:26,504 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testContactDetailsNegativeValidations ( AT-000003 , TRUE , InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters ) 
+
+2021-06-11 15:20:30,372 [main] INFO   c.y.c.CreateSubBrand(924) - Create Sub-Brand Button Found.
+2021-06-11 15:20:30,422 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:20:30,423 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations
+2021-06-11 15:20:30,423 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:20:30,423 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:20:30,424 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:20:30,424 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:20:30,710 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:20:30,710 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations
+2021-06-11 15:20:30,710 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:20:30,710 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:20:30,711 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:20:30,711 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:20:31,283 [main] ERROR  ReportGenerator(86) - 
+
+ testContactDetailsNegativeValidations ( AT-000003 , TRUE , InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters )  test has failed 
+
+
+2021-06-11 15:20:31,401 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:31,402 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations By Thread with name as ##main
+2021-06-11 15:20:31,402 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:31,403 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:31,403 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations By Thread with name as ##main
+2021-06-11 15:20:31,404 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:31,404 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testContactDetailsNegativeValidations ( AT-000004 , TRUE , ContactUserIdNoSpecialCharacters ) 
+
+2021-06-11 15:20:41,246 [main] INFO   c.y.c.CreateSubBrand(924) - Create Sub-Brand Button Found.
+2021-06-11 15:20:41,281 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:20:41,281 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations
+2021-06-11 15:20:41,282 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:20:41,282 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:20:41,282 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:20:41,282 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:20:41,564 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-06-11 15:20:41,564 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.CreateSubBrand##testContactDetailsNegativeValidations
+2021-06-11 15:20:41,565 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-06-11 15:20:41,565 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-06-11 15:20:41,565 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::Index: 1, Size: 1
+2021-06-11 15:20:41,565 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-06-11 15:20:42,153 [main] ERROR  ReportGenerator(86) - 
+
+ testContactDetailsNegativeValidations ( AT-000004 , TRUE , ContactUserIdNoSpecialCharacters )  test has failed 
+
+
+2021-06-11 15:20:42,310 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting benerator:defaultComponent (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,311 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCreateAndViewSubBrandOverView (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,311 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCreateAndViewSubBrandOverView (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,311 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting null to class java.lang.String
+2021-06-11 15:20:42,316 [main] DEBUG  o.d.benerator.anno.AnnotationMapper(182) - mapDetails(@org.databene.benerator.anno.Source(filter=, selector=, id=, nesting=, encoding=, value=src\test\resources\testdata\CreateSubBrand.csv, separator=, uri=, dataset=), testCreateAndViewSubBrandOverView[])
+2021-06-11 15:20:42,317 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting src\test\resources\testdata\CreateSubBrand.csv (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,317 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 0 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,317 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,318 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,318 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,318 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 2 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,318 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,319 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 3 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,319 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,319 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 4 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,319 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,320 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 5 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,320 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,320 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 6 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,320 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,321 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 7 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,321 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,321 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 8 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,322 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,322 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,322 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,322 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 10 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,323 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,323 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 11 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,323 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,323 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 12 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,324 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,324 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 13 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,324 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,325 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 14 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,325 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,325 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 15 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,325 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,326 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 16 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,326 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,326 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 17 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,326 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,327 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 18 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,327 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,327 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 19 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,328 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,328 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 20 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,328 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,328 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 21 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,329 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,329 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 22 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,329 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,329 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 23 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,330 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,330 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 24 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,355 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,355 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 25 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,356 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,356 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 26 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,356 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,356 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 27 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,357 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,357 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 28 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,357 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,358 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 29 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,358 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,358 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 30 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,358 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,359 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 31 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,359 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,359 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 32 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,360 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,360 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 33 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,360 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,360 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 34 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,361 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,361 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 35 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,361 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,361 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(75) - createArrayGenerator(testCreateAndViewSubBrandOverView)
+2021-06-11 15:20:42,362 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(142) - createCSVSourceGenerator(ArrayTypeDescriptor[0[type=string], 1[type=string], 2[type=string], 3[type=string], 4[type=string], 5[type=string], 6[type=string], 7[type=string], 8[type=string], 9[type=string], 10[type=string], 11[type=string], 12[type=string], 13[type=string], 14[type=string], 15[type=string], 16[type=string], 17[type=string], 18[type=string], 19[type=string], 20[type=string], 21[type=string], 22[type=string], 23[type=string], 24[type=string], 25[type=string], 26[type=string], 27[type=string], 28[type=string], 29[type=string], 30[type=string], 31[type=string], 32[type=string], 33[type=string], 34[type=string], 35[type=string]])
+2021-06-11 15:20:42,362 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCreateAndViewSubBrandOverView (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,363 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(90) - Created VariableAwareGenerator[
+    ConvertingGenerator
+]
+2021-06-11 15:20:42,363 [main] DEBUG  org.databene.commons.IOUtil(232) - resolveLocalUri(src\test\resources\testdata\CreateSubBrand.csv, .)
+2021-06-11 15:20:42,364 [main] DEBUG  org.databene.commons.IOUtil(181) - getInputStreamForURI(src/test/resources/testdata/CreateSubBrand.csv, true)
+2021-06-11 15:20:42,364 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(src/test/resources/testdata/CreateSubBrand.csv, true)
+2021-06-11 15:20:42,372 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000001 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,372 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,372 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SubBrand-JWT-Aggregation-DD-Verification-DD (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,373 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1.1.1.1;2.2.2.2 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,373 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Sub-brand (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,373 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting JWT (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,373 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCredPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,376 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,376 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Private_Issuer (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,376 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Private_sso (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,376 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1800 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,377 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCredPublic (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,377 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,378 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Public_issuer (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,378 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Public_sso (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,378 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1800 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,379 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Aggregation;Verification (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,379 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Document Download (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,379 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Document Download (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,379 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Yodlee FastLink;Yodlee Financial Wellness FinApps (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,380 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,380 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,380 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Ravi Ranjan (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,380 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Shrivastav (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,381 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting RShrivastav@yodlee.com (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,381 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9989726351 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,381 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting User1 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,381 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Jnanesh (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,405 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting CM (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,405 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting jnanesh.m@yodlee.com (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,405 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9872536251 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,406 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting User2 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,406 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,406 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,406 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,407 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,407 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@35025a0a
+2021-06-11 15:20:42,407 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000002 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,408 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,408 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting ChannelPartner-JWT-Aggregation-DD-Verification-DD (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,408 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1.1.1.1;2.2.2.2 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,408 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Channel Partner (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,409 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting JWT (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,409 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCredPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,409 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,410 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Private_Issuer (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,410 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Private_sso (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,410 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1800 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,410 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCredPublic (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,411 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,411 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Public_issuer (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,411 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Public_sso (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,411 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1800 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,412 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Aggregation;Verification (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,412 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Document Download (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,412 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Document Download (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,412 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Yodlee FastLink;Yodlee Financial Wellness FinApps (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,413 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,413 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,413 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Ravi Ranjan (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,413 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Shrivastav (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,414 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting RShrivastav@yodlee.com (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,414 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9989726351 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,414 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting User1 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,414 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Jnanesh (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,414 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting CM (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,415 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting jnanesh.m@yodlee.com (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,415 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9872536251 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,415 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting User2 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,420 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,420 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,421 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,421 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:42,421 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@38732364
+2021-06-11 15:20:42,422 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:42,422 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testCreateAndViewSubBrandOverView By Thread with name as ##main
+2021-06-11 15:20:42,422 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:42,424 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:42,424 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testCreateAndViewSubBrandOverView By Thread with name as ##main
+2021-06-11 15:20:42,424 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:42,425 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testCreateAndViewSubBrandOverView ( AT-000001 , FALSE , SubBrand-JWT-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Sub-brand , JWT , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , FALSE , FALSE , FALSE ) 
+
+2021-06-11 15:20:47,589 [main] INFO   c.y.c.CreateSubBrand(1280) - Create Sub-Brand Button Found.
+2021-06-11 15:20:47,590 [main] INFO   c.y.c.CreateSubBrand(1978) - TEST CASE - AT-000001 - SubBrand-JWT-Aggregation-DD-Verification-DD IS NOT ENABLED. HENCE, SKIPPING
+2021-06-11 15:20:47,590 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:20:47,590 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.CreateSubBrand#testCreateAndViewSubBrandOverView
+2021-06-11 15:20:47,591 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:20:47,592 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:20:47,592 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.CreateSubBrand#testCreateAndViewSubBrandOverView
+2021-06-11 15:20:47,593 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:20:47,593 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testCreateAndViewSubBrandOverView ( AT-000001 , FALSE , SubBrand-JWT-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Sub-brand , JWT , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , FALSE , FALSE , FALSE ) : --->>> PASS 
+
+2021-06-11 15:20:47,712 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000003 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,713 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,713 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SubBrand-SAML-Aggregation-DD-Verification-DD (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,713 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1.1.1.1;2.2.2.2 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,714 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Sub-brand (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,714 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SAML (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,714 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCredPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,714 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,714 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Private_Issuer (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,715 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Private_sso (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,715 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1800 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,715 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCredPublic (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,716 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,716 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Public_issuer (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,716 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Public_sso (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,716 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1800 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,717 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Aggregation;Verification (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,717 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Document Download (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,717 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Document Download (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,717 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Yodlee FastLink;Yodlee Financial Wellness FinApps (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,718 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,718 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,718 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Ravi Ranjan (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,718 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Shrivastav (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,719 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting RShrivastav@yodlee.com (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,719 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9989726351 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,719 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting User1 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,719 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Jnanesh (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,720 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting CM (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,720 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting jnanesh.m@yodlee.com (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,720 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9872536251 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,720 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting User2 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,721 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,721 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,721 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,721 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:47,722 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@34279b8a
+2021-06-11 15:20:47,722 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:47,722 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testCreateAndViewSubBrandOverView By Thread with name as ##main
+2021-06-11 15:20:47,723 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:47,724 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:47,725 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testCreateAndViewSubBrandOverView By Thread with name as ##main
+2021-06-11 15:20:47,725 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:47,725 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testCreateAndViewSubBrandOverView ( AT-000002 , FALSE , ChannelPartner-JWT-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Channel Partner , JWT , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , TRUE , FALSE , FALSE ) 
+
+2021-06-11 15:20:51,161 [main] INFO   c.y.c.CreateSubBrand(1280) - Create Sub-Brand Button Found.
+2021-06-11 15:20:51,162 [main] INFO   c.y.c.CreateSubBrand(1978) - TEST CASE - AT-000002 - ChannelPartner-JWT-Aggregation-DD-Verification-DD IS NOT ENABLED. HENCE, SKIPPING
+2021-06-11 15:20:51,164 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:20:51,164 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.CreateSubBrand#testCreateAndViewSubBrandOverView
+2021-06-11 15:20:51,164 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:20:51,166 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:20:51,166 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.CreateSubBrand#testCreateAndViewSubBrandOverView
+2021-06-11 15:20:51,166 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:20:51,166 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testCreateAndViewSubBrandOverView ( AT-000002 , FALSE , ChannelPartner-JWT-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Channel Partner , JWT , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , TRUE , FALSE , FALSE ) : --->>> PASS 
+
+2021-06-11 15:20:51,251 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000004 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,252 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,252 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting ChannelPartner-SAML-Aggregation-DD-Verification-DD (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,252 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1.1.1.1;2.2.2.2 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,252 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Channel Partner (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,253 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SAML (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,253 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCredPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,253 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,253 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Private_Issuer (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,253 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Private_sso (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,254 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1800 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,254 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCredPublic (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,254 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,254 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Public_issuer (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,255 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Public_sso (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,255 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1800 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,255 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Aggregation;Verification (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,255 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Document Download (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,256 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Document Download (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,256 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Yodlee FastLink;Yodlee Financial Wellness FinApps (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,256 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,256 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,257 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Ravi Ranjan (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,257 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Shrivastav (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,257 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting RShrivastav@yodlee.com (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,257 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9989726351 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,257 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting User1 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,258 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Jnanesh (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,258 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting CM (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,258 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting jnanesh.m@yodlee.com (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,258 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9872536251 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,259 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting User2 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,259 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,259 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,259 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,259 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:51,260 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@12192604
+2021-06-11 15:20:51,260 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:51,260 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testCreateAndViewSubBrandOverView By Thread with name as ##main
+2021-06-11 15:20:51,260 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:51,262 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:51,262 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testCreateAndViewSubBrandOverView By Thread with name as ##main
+2021-06-11 15:20:51,263 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:51,263 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testCreateAndViewSubBrandOverView ( AT-000003 , FALSE , SubBrand-SAML-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Sub-brand , SAML , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , FALSE , FALSE , FALSE ) 
+
+2021-06-11 15:20:56,737 [main] INFO   c.y.c.CreateSubBrand(1280) - Create Sub-Brand Button Found.
+2021-06-11 15:20:56,737 [main] INFO   c.y.c.CreateSubBrand(1978) - TEST CASE - AT-000003 - SubBrand-SAML-Aggregation-DD-Verification-DD IS NOT ENABLED. HENCE, SKIPPING
+2021-06-11 15:20:56,738 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:20:56,738 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.CreateSubBrand#testCreateAndViewSubBrandOverView
+2021-06-11 15:20:56,738 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:20:56,740 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:20:56,740 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.CreateSubBrand#testCreateAndViewSubBrandOverView
+2021-06-11 15:20:56,740 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:20:56,741 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testCreateAndViewSubBrandOverView ( AT-000003 , FALSE , SubBrand-SAML-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Sub-brand , SAML , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , FALSE , FALSE , FALSE ) : --->>> PASS 
+
+2021-06-11 15:20:56,853 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000005 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,854 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,854 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SubBrand-SAML-JWT-Aggregation-DD-Verification-DD (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,854 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1.1.1.1;2.2.2.2 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,855 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Sub-brand (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,855 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SAML;JWT (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,855 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCredPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,855 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,856 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Private_Issuer (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,856 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Private_sso (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,856 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1800 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,856 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCredPublic (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,856 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,857 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Public_issuer (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,857 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Public_sso (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,857 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1800 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,857 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Aggregation;Verification (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,857 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Document Download (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,858 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Document Download (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,858 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Yodlee FastLink;Yodlee Financial Wellness FinApps (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,858 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,858 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,858 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Ravi Ranjan (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,859 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Shrivastav (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,859 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting RShrivastav@yodlee.com (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,859 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9989726351 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,860 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting User1 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,860 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Jnanesh (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,860 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting CM (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,860 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting jnanesh.m@yodlee.com (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,860 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9872536251 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,861 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting User2 (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,861 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,861 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,861 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,861 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:20:56,862 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@28b523a
+2021-06-11 15:20:56,862 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:56,862 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testCreateAndViewSubBrandOverView By Thread with name as ##main
+2021-06-11 15:20:56,863 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:56,864 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:20:56,864 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testCreateAndViewSubBrandOverView By Thread with name as ##main
+2021-06-11 15:20:56,865 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:20:56,865 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testCreateAndViewSubBrandOverView ( AT-000004 , FALSE , ChannelPartner-SAML-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Channel Partner , SAML , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , TRUE , FALSE , FALSE ) 
+
+2021-06-11 15:21:01,334 [main] INFO   c.y.c.CreateSubBrand(1280) - Create Sub-Brand Button Found.
+2021-06-11 15:21:01,334 [main] INFO   c.y.c.CreateSubBrand(1978) - TEST CASE - AT-000004 - ChannelPartner-SAML-Aggregation-DD-Verification-DD IS NOT ENABLED. HENCE, SKIPPING
+2021-06-11 15:21:01,335 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:21:01,335 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.CreateSubBrand#testCreateAndViewSubBrandOverView
+2021-06-11 15:21:01,335 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:21:01,337 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-06-11 15:21:01,337 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.CreateSubBrand#testCreateAndViewSubBrandOverView
+2021-06-11 15:21:01,337 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-06-11 15:21:01,337 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testCreateAndViewSubBrandOverView ( AT-000004 , FALSE , ChannelPartner-SAML-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Channel Partner , SAML , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , TRUE , FALSE , FALSE ) : --->>> PASS 
+
+2021-06-11 15:21:01,421 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-000006 (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,421 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,422 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting ChannelPartner-SAML-JWT-Aggregation-DD-Verification-DD (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,422 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1.1.1.1;2.2.2.2 (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,422 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Channel Partner (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,423 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting SAML;JWT (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,423 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCredPrivate (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,423 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,423 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Private_Issuer (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,424 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Private_sso (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,424 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1800 (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,424 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testCredPublic (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,424 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting saml (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,424 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Public_issuer (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,425 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Public_sso (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,425 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1800 (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,425 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Aggregation;Verification (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,425 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Document Download (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,425 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Document Download (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,426 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Yodlee FastLink;Yodlee Financial Wellness FinApps (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,426 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,426 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,426 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Ravi Ranjan (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,426 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Shrivastav (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,427 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting RShrivastav@yodlee.com (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,427 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9989726351 (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,427 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting User1 (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,427 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Jnanesh (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,427 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting CM (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,427 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting jnanesh.m@yodlee.com (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,427 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 9872536251 (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,428 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting User2 (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,428 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,428 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,428 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,428 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting FALSE (java.lang.String) to class java.lang.String
+2021-06-11 15:21:01,428 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@64279ab
+2021-06-11 15:21:01,429 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:21:01,429 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testCreateAndViewSubBrandOverView By Thread with name as ##main
+2021-06-11 15:21:01,429 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:21:01,431 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-06-11 15:21:01,431 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.CreateSubBrand##testCreateAndViewSubBrandOverView By Thread with name as ##main
+2021-06-11 15:21:01,432 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-06-11 15:21:01,432 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testCreateAndViewSubBrandOverView ( AT-000005 , TRUE , SubBrand-SAML-JWT-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Sub-brand , SAML;JWT , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , FALSE , FALSE , FALSE ) 
+
+2021-06-11 15:21:06,005 [main] INFO   c.y.c.CreateSubBrand(1280) - Create Sub-Brand Button Found.
+2021-06-11 15:21:11,141 [main] INFO   c.y.c.CreateSubBrand(1291) - Sub Brand Name: Lumin11062021152106
+2021-06-11 15:21:11,141 [main] INFO   c.y.c.CreateSubBrand(1292) - Domain Name Sub String: DNS11062021152106
+2021-06-11 15:21:11,713 [main] INFO   c.y.c.CreateSubBrand(1302) - New Sub-Brand Name Is: Lumin11062021152106
+2021-06-11 15:21:11,713 [main] INFO   c.y.c.page.GeneralConfigurationPage(94) - **************************GENERAL CONFIGURATION**************************
+2021-06-11 15:21:19,816 [main] INFO   c.y.c.CreateSubBrand(1331) - Begin JWT Private Key Private------------
+2021-06-11 15:21:19,817 [main] INFO   c.y.c.CreateSubBrand(1332) - -----BEGIN RSA PRIVATE KEY-----MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCJLfaWptPBH44D20h709F51s2isOqqwmgzZnhjTUotfr2UZrmaMxO3dCsy7NFb43QBq5247kVPcZCJizH+p9icS4qx6WlF1lNb1yznqxJIQyLKpSru/tpFIMXJ70S5mZRY76zaeVunAOSDgOLV5RZNN4fLFDUrKbn7qHlX2DGZnUbJwrxjpS7lXnrr/AZ4lZSoQeaHTp3jQ/mf/QqUZ9/vRp5tsHqYRuwWIUPz5Nry6e2ncm3/JbuAk/taythcE5WTn11t6VLyUpkOiZ4hDidB+sM8uNwk8T4y2JecQ7yF5oNChzeonl8u5LNv4nBh5FrHx8n4t6OPBs0JwC/TlagnAgMBAAECggEACn42j32BUxNr1IWwfLBOJKi2oAwyVw950vyylr3xv5sjOzfEWLQxfOXo7ANLXGEAnaQX825eZN5F9Q9tqpICMqpgmI1HHS1wwOSrrajbRCXGgoOxzgg2f/Uqy/B+bEgAHfFvYmLIDPU3hYuVTlEwrIVj4LfR/VQ6wrI3Xe3OlXZiS3v1gtj55Qmq8fTaTl7JXkO5zYTkll68Z33IV5PeMi1VRXRL75Yx2BDYTPvXwjSxOjLqp3YkAcWpInki8I3ViTvOprC+M+Szk1/2twTC5tpvNA/vCoS9idXe0EpIOEL218Mks4s+4tAv7otxlw3UExOjMuRJfjPl/kjqWC4ygQKBgQDb5SjsJqlRIy9IdlnINU4fJ/EWBaArxx9HKHoonovInXHhUPBexvTLPvQagHEJPckHc7IAR8lQKOJq34i+6mcgADy5upql3M10OegZfGkqGaaNIWthGPcoI3K5RAyp2K/AXQ9m2855LpmBU6EfUAqAWH4dxvuqVzGgRtjcEVU6wQKBgQCftAXfNfZ3XjeSsHk5CuVsW4rf3YQN9CQlnKCp0bGDOO8rLEwDT7SdbmcAmx/TpUZPM7F5L+PgcbQsbxchejakgMeAy8yqFvRyS7Ew8eKHaovFBLlUUJJDewbZsHRT3JhLXKjeF+9IZ5lXdEae6/0iV5t339lENflsLW88aoqk5wKBgQDats8CO94THtzrxRO+CA8A/DhWQBg1EuQwYblHZ5L/YmKfymKa0mcvNRmUtoY3u+WU7OVyU/SPL2stA9M+mWUjNjkwPsOND9amsOYDW3Q6dLLtEv174VoL6V41mdLCqQz+V1F3bE+sxsXWFXlf7LvVNq+SLJWqsvlgQrd2BCNywQKBgDCUsrST1cW6A228ASQ5DFFKB5TR7bnQ6q4GV1lRUI56Y0be0sCvHmJFk0+74JKhVCIDt5kF2GwOKqDZqk+kvbqM8iNb24ZiNToPjHc3HZHT93CXX0kmuVeNtSfDZZ+dGzbRmQz2evOrkBnqZREy+G3Z+JEepxj40kb2C0B1qHdBAoGAYU7I8X7tHG+ewj+MxE6xy6nfiy/FUDq0gCr2q8/O/Dk+lb3iqb48i0pBijQxkcpuGfK1A5LHclRkikN7S/nMrXj5DPTZzmNXMGZz6VNdUF+BcDMGUQHzmGbWHvYMdqWJgoPyIYbRsgc878fIHqs/toSeo66nWhJZ+ZuprejEYOM=-----END RSA PRIVATE KEY-----
+2021-06-11 15:21:19,817 [main] INFO   c.y.c.CreateSubBrand(1333) - End JWT Private Key Private------------
+2021-06-11 15:21:19,817 [main] INFO   c.y.c.p.PrivateAuthenticationSetupPage(120) - **************************PRIVATE AUTHENTICATION SETUP**************************
+2021-06-11 15:21:30,785 [main] INFO   c.y.c.CreateSubBrand(1366) - Begin JWT Private Key Public------------
+2021-06-11 15:21:30,786 [main] INFO   c.y.c.CreateSubBrand(1367) - -----BEGIN RSA PRIVATE KEY-----MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCc0ukN1Jq7Dl+oM4KfzuiJZVwXb9btJwwOt64Cd/sUlaGR4LoXL8hy5D0Um5WSuk/conYV9CuIYD3NFu0WeQHMzZQ6hzTJslymTGWCXjjYJa6RrUo3B5eCkEJjWx/HOZvepp6z67PscENeninK4dU2kZ/h3oNZEaEQVWkT4klD+HiEq+fAT0+I/xgNhrjmwSlYVMMpZvNgSDcKVK28c3Do5vj7vM1OUypb5ThFvd8J6x2J/D4Jf38EVFiuj2o+FqrzNTaEYsQkP3JGLg1X44EgEow+nwiWsc2V4dC1UTIdzMhllHvPRhP1f2njfXF3PaBgnIeHjIPc0DpGJdtrVSQ1AgMBAAECggEAUZ6ftxgI9AQWGxe8C2qHskKzvGrz5HfnGZ3VjeleHyeFcMQSdlDjNZC+jYQwQ65+NCnF5cUwBwl4AM7G1GRkYHA6jn+iJLuU5uRqDID3et+ZzK3xK1TjMQvd0ZIypuC/1BDKFoA9I3iGR69vtuz0qDMAkHDb0baQKk0ZpESotxvBBbqGFcFz4uP+UunBUF8c4cPVLRNKe5J35asOqyEy0LQoZ3wFSyhVP/tJJAhC+nGJoOlx4658nN9AUo5ZvWLqgfr1wObc+nuOlA7JpI7RD+ferTWAl1PiiBI3UFstYY2ejjlpGRdHGAIRE6m0pwN1UJi1HOeqS/KaIplYB5SWAQKBgQDPUeBcbmYKEo6oxhEFfQBCwexvckHMncgYoOY6wGCxp749hSYfUtb4pT+59caa85lNNUNFDgPTXkunolKWuJ3tZRdJfajXORfwS/Cdv59OsfTcRZ455VN9FPYS6f4NsACxU9u4Js+tQicvffm94JV9S7OI8bQ+Dcd8FArMUQLRgQKBgQDBpbC+d4JM9TpdUc0yThutEUPGwhOwlOA0zolO64hNxjyXMzemBn2jwUFH8t++foFG70PBaWsr6Y2YSgJTzBtphqkbavpltu+ChVGik3ePF+FHq5OdEZkz10tZYiQfjWy9x3yPu3aWYUHmKJSExbEmBA96AZfh/Y+CJsLy75EEtQKBgFIqixdXEc3wKOYvCdP5BL9wiDprODTWW9WW/2hNkoUWjElpmgBUHqsRIz6acAo9fYaiE3Us5stA1g8sQDtIFB9gL2iLCv2xvREZp9V9eq//y6H5XYponzw1sIkyf+QA22VsbOqBR1HNpCYocXCVr+mmtRMTaHInl+ZPMzBi8xEBAoGASuLIdt/AhAJRj8USlWGfUk5a54ImGyN3kPROJTbwfyMqS06DNrFL5QfXNvu1ivVhCQ1+Jk2eJF0tZLc6Ly2/bA+nVfMI4kzcUp079KMSmUOi2xR/AT7NAD9B5E8PqSQH6Vw7z1mvgngaA+eth6rr1se7NHNpSPvFg4951HjQnAECgYEAljorHA+/0zBR1kihRqtCmLJGtHRuZsglPWwJSlZrQ16U7QnQe+7v1MhIZP9NU8QAey0Os8nLWGvQk7x/jsRktNwug6UYz5SXetj7RELLmUmNXIsXtp/HDwqgxReKDJw+WRjy2xArOXJfKfywnJUk8a4M3Ku5WoCy8X4MyO8enO8=-----END RSA PRIVATE KEY-----
+2021-06-11 15:21:30,786 [main] INFO   c.y.c.CreateSubBrand(1368) - End JWT Private Key Public------------
+2021-06-11 15:21:30,786 [main] INFO   c.y.c.p.PublicAuthenticationSetupPage(117) - **************************PUBLIC AUTHENTICATION SETUP**************************
+2021-06-11 15:21:42,854 [main] INFO   c.y.c.p.ProductsAndAppsSelectionPage(150) - **************************PRODUCTS AND APPS SELECTION**************************
+2021-06-11 15:21:49,471 [main] INFO   c.y.c.CreateSubBrand(1401) - Contact 1 Email ID Is: RShrivastav@yodlee.com
+2021-06-11 15:21:49,471 [main] INFO   c.y.c.CreateSubBrand(1406) - Contact 2 Email ID Is: jnanesh.m@yodlee.com

@@ -1,0 +1,2 @@
+testCaseId,TestCase,passwordName,email,firstName,lastName,address1,address2,state,city,zip,country,currency,timeZone,dateFormat,status,ResFile,FilePath,Enabled,Track,DefectID
+AT-42589,Only address1,Test@123,test@yodlee.com,Envestnet,yodlee,Address One,,,,,USA,USD,GMT,MM/dd/yyyy,200,UserRegTimeZoneCountry.json,../src/test/resources/TestData/JSONFiles/User/,TRUE,TRUE,0

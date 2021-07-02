@@ -1,0 +1,5 @@
+{
+    "errorCode": "Y803",
+    "errorMessage": "targetDate is more than 99 years ahead of startDate. either recurring amount OR frequency is  required  to be changed",
+    "referenceCode": "${json-unit.ignore}"
+}

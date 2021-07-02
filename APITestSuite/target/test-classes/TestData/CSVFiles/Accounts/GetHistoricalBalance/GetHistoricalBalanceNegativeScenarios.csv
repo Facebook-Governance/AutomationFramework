@@ -1,0 +1,47 @@
+TcId,TestCaseName,accountIdContainer,includeCF,fromDate,toDate,interval,skip,top,status,respFile,filePath,defectId,enabled
+AT-63929,with invalid value for CF,bank,abcd,09-09-2013,"0,0,0",D,,,400,InvalidCF.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63930,with invalid from date,bank,TRUE,01-05-2013,,D,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63931,with invalid todate,bank,,09-09-2012,01-01-2013,D,,,400,invalidTodate.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63932,with invalid date range,bank,,"0,0,0",09-09-2013,D,,,400,invalidDateRange.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63933,with invalid value for interval,bank,TRUE,01-01-2013,"0,0,0",trues,,,400,invalidInterval.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63934,Invalid value for skip,bank,,,,,-1,,400,inavlidSkip.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63935,invalid top,bank,,,,,,-1,400,inavlidTOP.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63936,invalid top=0,bank,,,,,,0,400,inavlidTOP0.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63937,with top=501,bank,,,,,,501,400,top501.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63938,invalid accountId,invalid,,,,,,,400,invalidAccountId.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63939,with invalid value for CF,insurance,abcd,09-09-2013,"0,0,0",D,,,400,InvalidCF.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63940,with invalid from date,insurance,TRUE,01-05-2013,,D,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63941,with invalid todate,insurance,,09-09-2012,01-01-2013,D,,,400,invalidTodate.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63942,with invalid date range,insurance,,"0,0,0",09-09-2013,D,,,400,invalidDateRange.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63943,with invalid value for interval,insurance,TRUE,01-01-2013,"0,0,0",trues,,,400,invalidInterval.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63944,Invalid value for skip,insurance,,,,,-1,,400,inavlidSkip.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63945,invalid top,insurance,,,,,,-1,400,inavlidTOP.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63946,invalid top=0,insurance,,,,,,0,400,inavlidTOP0.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63947,with top=501,insurance,,,,,,501,400,top501.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63948,with invalid value for CF,investment,abcd,09-09-2013,"0,0,0",D,,,400,InvalidCF.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63949,with invalid from date,investment,TRUE,01-05-2013,,D,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63950,with invalid todate,investment,,09-09-2012,01-01-2013,D,,,400,invalidTodate.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63951,with invalid date range,investment,,"0,0,0",09-09-2013,D,,,400,invalidDateRange.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63952,with invalid value for interval,investment,TRUE,01-01-2013,"0,0,0",trues,,,400,invalidInterval.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63953,Invalid value for skip,investment,,,,,-1,,400,inavlidSkip.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63954,invalid top,investment,,,,,,-1,400,inavlidTOP.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63955,invalid top=0,investment,,,,,,0,400,inavlidTOP0.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63956,with top=501,investment,,,,,,501,400,top501.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63957,with invalid value for CF,loan,abcd,09-09-2013,"0,0,0",D,,,400,InvalidCF.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63958,with invalid from date,loan,TRUE,01-05-2013,,D,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63959,with invalid todate,loan,,09-09-2012,01-01-2013,D,,,400,invalidTodate.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63960,with invalid date range,loan,,"0,0,0",09-09-2013,D,,,400,invalidDateRange.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63961,with invalid value for interval,loan,TRUE,01-01-2013,"0,0,0",trues,,,400,invalidInterval.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63962,Invalid value for skip,loan,,,,,-1,,400,inavlidSkip.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63963,invalid top,loan,,,,,,-1,400,inavlidTOP.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63964,invalid top=0,loan,,,,,,0,400,inavlidTOP0.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63965,with top=501,loan,,,,,,501,400,top501.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63966,with invalid value for CF,creditCard,abcd,09-09-2013,"0,0,0",D,,,400,InvalidCF.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63967,with invalid from date,creditCard,TRUE,01-05-2013,,D,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63968,with invalid todate,creditCard,,09-09-2012,01-01-2013,D,,,400,invalidTodate.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63969,with invalid date range,creditCard,,"0,0,0",09-09-2013,D,,,400,invalidDateRange.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63970,with invalid value for interval,creditCard,TRUE,01-01-2013,"0,0,0",trues,,,400,invalidInterval.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63971,Invalid value for skip,creditCard,,,,,-1,,400,inavlidSkip.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63972,invalid top,creditCard,,,,,,-1,400,inavlidTOP.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63973,invalid top=0,creditCard,,,,,,0,400,inavlidTOP0.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE
+AT-63974,with top=501,creditCard,,,,,,501,400,top501.json,../src/test/resources/TestData/JSONFiles/HistoricalBalance/negative/,,TRUE

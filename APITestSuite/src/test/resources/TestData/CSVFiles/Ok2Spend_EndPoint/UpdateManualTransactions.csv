@@ -1,0 +1,25 @@
+testCaseId,TestCase,amount,currency,consumer,baseType,category,categorySource,date,memo,accountId,checkNumber,reconStatus,sourceType,transactionType,httpStatus,Enabled
+AT-115201,CardAccount,100,USD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,creditCard,1234,,MANUAL,DEPOSIT,204,TRUE
+AT-115202,AmountZero,0,USD,Description,CREDIT,29,SYSTEM,"0,10,0",memo,bank,1234,,MANUAL,WITHDRAWAL,204,TRUE
+AT-115203,AmountZero-0.01,0.01,USD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,creditCard,1234,,MANUAL,WITHDRAWAL,204,TRUE
+AT-115204,AmountZero-0.001,0.001,USD,Description,CREDIT,29,SYSTEM,"0,0,1",memo,bank,1234,,MANUAL,DEPOSIT,204,TRUE
+AT-115205,UserCategory,100,USD,Description,DEBIT,21,USER,"0,0,1",memo,creditCard,1234,,MANUAL,DEPOSIT,400,TRUE
+AT-115206,WithoutCheckNumber,100,USD,Description,CREDIT,29,SYSTEM,"0,0,1",memo,bank,,,MANUAL,WITHDRAWAL,400,TRUE
+AT-115207,WithoutDescription,100,USD,,DEBIT,92,SYSTEM,"0,0,1",memo,creditCard,1234,,MANUAL,WITHDRAWAL,204,TRUE
+AT-115208,Decription3Chars,100,USD,Des,DEBIT,92,SYSTEM,"0,0,1",memo,creditCard,1234,,MANUAL,WITHDRAWAL,204,TRUE
+AT-115209,WithoutMemo,100,USD,Description,CREDIT,92,SYSTEM,"0,0,1",,bank,1234,,MANUAL,DEPOSIT,204,TRUE
+AT-115210,Description200chars,100,USD,DescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDesDescriptioDes12,CREDIT,92,SYSTEM,"0,0,1",,creditCard,1234,,MANUAL,DEPOSIT,204,TRUE
+AT-115211,Memo200chars,100,USD,Description,CREDIT,92,SYSTEM,"0,0,1",DescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDesDescriptioDes12,bank,1234,,MANUAL,WITHDRAWAL,204,TRUE
+AT-115212,MarkAsPaid,100,USD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,USER_RECONCILED_AGAINST_CASH,MANUAL,WITHDRAWAL,204,TRUE
+AT-115213,AmountMaximum,99999999999,USD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,MANUAL,DEPOSIT,204,TRUE
+AT-115213,SGD ,100,SGD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,MANUAL,DEPOSIT,400,TRUE
+AT-115213,IDR ,100,IDR,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,MANUAL,WITHDRAWAL,400,TRUE
+AT-115213,AUD ,100,AUD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,MANUAL,WITHDRAWAL,400,TRUE
+AT-115213,BRL ,100,BRL,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,MANUAL,DEPOSIT,400,TRUE
+AT-115213,GBP ,100,GBP,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,MANUAL,DEPOSIT,400,TRUE
+AT-115213,CAD ,100,CAD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,MANUAL,WITHDRAWAL,400,TRUE
+AT-115213,EUR ,100,EUR,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,MANUAL,WITHDRAWAL,400,TRUE
+AT-115213,HKD ,100,HKD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,MANUAL,DEPOSIT,400,TRUE
+AT-115213,INR ,100,INR,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,MANUAL,DEPOSIT,400,TRUE
+AT-115213,JPY ,100,JPY,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,MANUAL,WITHDRAWAL,400,TRUE
+AT-115213,NZD ,100,NZD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,MANUAL,WITHDRAWAL,400,TRUE

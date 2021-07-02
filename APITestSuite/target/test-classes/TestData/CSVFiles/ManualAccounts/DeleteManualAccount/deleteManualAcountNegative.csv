@@ -1,0 +1,6 @@
+testCaseId,testCaseName,accountId,status,respFile,filePath,defectId,enabled
+1,delete invalid AccountId,893793,400,DeleteManualAccountError.json,../src/test/resources/TestData/JSONFiles/ManualAccounts/DeleteManualAccount/,,TRUE
+2,delete with special Character,!@#$%^&*&^%$,400,DeleteManualAccountSpecialCharecterError.json,../src/test/resources/TestData/JSONFiles/ManualAccounts/DeleteManualAccount/,,TRUE
+3,Delete with decimal number,1234.456,400,DeleteManualAccountDecimalError.json,../src/test/resources/TestData/JSONFiles/ManualAccounts/DeleteManualAccount/,,TRUE
+4,Delete with null,NULLVALUE,400,DeleteManualAccountNullError.json,../src/test/resources/TestData/JSONFiles/ManualAccounts/DeleteManualAccount/,,TRUE
+5,delete with comma separated id,"3,13,14,43,52,53,242",400,DeleteManualAccountCommaSeparetedError.json,../src/test/resources/TestData/JSONFiles/ManualAccounts/DeleteManualAccount/,,TRUE

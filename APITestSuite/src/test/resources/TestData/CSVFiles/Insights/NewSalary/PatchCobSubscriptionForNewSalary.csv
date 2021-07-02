@@ -1,0 +1,15 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147503,patchCobrandSubscription - subscribe to NewSalary isSubscribed=true,NewSalary,,,,,,,,,,,,account,,,,TRUE,,,,204,TRUE
+AT-147508,patchCobrandSubscription - update insightName to same name,NewSalary,negTestScenario53,NewSalary,,,,,,,,,,,,,,,,,,500,TRUE
+AT-147505,patchCobrandSubscription -  update insightName to different name,NewSalary,negTestScenario2,NewSalaryEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147506,patchCobrandSubscription - update insightTitle chars between 3 and 100 ,NewSalary,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-147501,patchCobrandSubscription -  update insightTitle chars are only 3,NewSalary,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-147515,patchCobrandSubscription - update insightTitle chars are only 100,NewSalary,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-147514,patchCobrandSubscription - update insightTitle chars are less than 3,NewSalary,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-147500,patchCobrandSubscription -  update insightTitle chars are greater 100,NewSalary,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-147510,patchCobrandSubscription - update insightTitle chars are special characters,NewSalary,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-147504,patchCobrandSubscription -  update container,NewSalary,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-147507,patchCobrandSubscription -  update keys,NewSalary,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147502,patchCobrandSubscription -  update description,NewSalary,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147513,patchCobrandSubscription -  update applicableEntity,NewSalary,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-147605,patchCobrandSubscription - update insightTitle to New Bill,NewSalary,,,New Salary,,,,,,,,,,,,,,,,,204,TRUE

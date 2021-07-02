@@ -1,0 +1,691 @@
+{
+	"account": [
+		{
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "YODLEE or CA"
+					}
+				}
+			],
+			"accountName": "YODLEE or CA",
+			"isManual": false,
+			"accountType": "REWARD_POINTS",
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": true,
+			"createdDate": "${json-unit.ignore}",
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "reward",
+			"primaryRewardUnit": "Rew Unit 1",
+			"id": "${json-unit.ignore}",
+			"providerName": "Dag Site"
+		},
+		{
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "YODLEE"
+					}
+				}
+			],
+			"accountName": "YODLEE",
+			"isManual": false,
+			"accountType": "REWARD_POINTS",
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": true,
+			"createdDate": "${json-unit.ignore}",
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "reward",
+			"primaryRewardUnit": "Rew Unit",
+			"id": "${json-unit.ignore}",
+			"providerName": "Dag Site"
+		},
+		{
+			"includeInNetWorth": true,
+			"accountName": "Super CD Plus",
+			"dueDate": "2012-01-25",
+			"interestPaidLastYear": {
+				"amount": 14000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": false,
+			"balance": {
+				"amount": 2000,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"maturityDate": "2013-01-25",
+			"providerId": "16441",
+			"id": "${json-unit.ignore}",
+			"providerName": "Dag Site",
+			"minimumAmountDue": {
+				"amount": 200,
+				"currency": "USD"
+			},
+			"interestRate": 7,
+			"availableCredit": {
+				"amount": 200,
+				"currency": "USD"
+			},
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "Bill Gates"
+					}
+				}
+			],
+			"isManual": false,
+			"accountType": "OTHER",
+			"originationDate": "2013-01-22",
+			"accountNumber": "xxxxxx34",
+			"interestRateType": "VARIABLE",
+			"originalLoanAmount": {
+				"amount": 3000,
+				"currency": "USD"
+			},
+			"amountDue": {
+				"amount": 14000,
+				"currency": "USD"
+			},
+			"createdDate": "${json-unit.ignore}",
+			"interestPaidYTD": {
+				"amount": 5000,
+				"currency": "USD"
+			},
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "loan",
+			"collateral": "ABC"
+		},
+		{
+			"includeInNetWorth": true,
+			"accountName": "Super CD Plus",
+			"dueDate": "2012-01-25",
+			"interestPaidLastYear": {
+				"amount": 14000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": false,
+			"balance": {
+				"amount": 2000,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"maturityDate": "2013-01-25",
+			"providerId": "16441",
+			"id": "${json-unit.ignore}",
+			"providerName": "Dag Site",
+			"minimumAmountDue": {
+				"amount": 200,
+				"currency": "USD"
+			},
+			"interestRate": 7,
+			"availableCredit": {
+				"amount": 200,
+				"currency": "USD"
+			},
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "Bill Gates"
+					}
+				}
+			],
+			"isManual": false,
+			"accountType": "OTHER",
+			"originationDate": "2013-01-22",
+			"accountNumber": "xxxxxx34",
+			"interestRateType": "VARIABLE",
+			"originalLoanAmount": {
+				"amount": 3000,
+				"currency": "USD"
+			},
+			"amountDue": {
+				"amount": 14000,
+				"currency": "USD"
+			},
+			"createdDate": "${json-unit.ignore}",
+			"interestPaidYTD": {
+				"amount": 5000,
+				"currency": "USD"
+			},
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "loan",
+			"collateral": "ABC"
+		},
+		{
+			"includeInNetWorth": true,
+			"accountName": "DAG INVESTMENT Yodlee",
+			"isManual": false,
+			"accountType": "OTHER",
+			"accountNumber": "xxxxxx23",
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": true,
+			"createdDate": "${json-unit.ignore}",
+			"balance": {
+				"amount": 79629,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "investment",
+			"id": "${json-unit.ignore}",
+			"providerName": "Dag Site"
+		},
+		{
+			"includeInNetWorth": true,
+			"availableCredit": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "Bill Gates Yodlee"
+					}
+				}
+			],
+			"accountName": "Super CD Plus Yodlee",
+			"isManual": false,
+			"accountType": "CREDIT",
+			"dueDate": "2013-02-14",
+			"accountNumber": "xxxxxx34",
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"amountDue": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": false,
+			"createdDate": "${json-unit.ignore}",
+			"balance": {
+				"amount": 11756.88,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"totalCashLimit": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "creditCard",
+			"id": "${json-unit.ignore}",
+			"totalCreditLine": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"providerName": "Dag Site",
+			"minimumAmountDue": {
+				"amount": 1000,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"availableCredit": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "Bill Gates"
+					}
+				}
+			],
+			"accountName": "Super CD Plus",
+			"isManual": false,
+			"accountType": "CREDIT",
+			"dueDate": "2013-02-14",
+			"accountNumber": "xxxxxx34",
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"amountDue": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": false,
+			"createdDate": "${json-unit.ignore}",
+			"balance": {
+				"amount": 11756.88,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"totalCashLimit": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "creditCard",
+			"id": "${json-unit.ignore}",
+			"totalCreditLine": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"providerName": "Dag Site",
+			"minimumAmountDue": {
+				"amount": 1000,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "DAG INVESTMENT Yodlee",
+			"isManual": false,
+			"accountType": "OTHER",
+			"accountNumber": "xxxxxx23",
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"accountStatus": "ACTIVE",
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": true,
+			"createdDate": "${json-unit.ignore}",
+			"balance": {
+				"amount": 79629,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "investment",
+			"id": "${json-unit.ignore}",
+			"cash": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		},
+		{
+			"includeInNetWorth": true,
+			"accountName": "DAG INSURANCE",
+			"isManual": false,
+			"accountType": "INSURANCE",
+			"accountNumber": "xxxxxx56",
+			"policyStatus": "OTHER",
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"lastUpdated": "${json-unit.ignore}",
+			"lifeInsuranceType": "OTHER",
+			"premium": {
+				"amount": 5000,
+				"currency": "USD"
+			},
+			"isAsset": false,
+			"createdDate": "${json-unit.ignore}",
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "insurance",
+			"remainingBalance": {
+				"amount": 5000,
+				"currency": "USD"
+			},
+			"id": "${json-unit.ignore}",
+			"providerName": "Dag Site"
+		},
+		{
+			"accountName": "DAG BILLING xx3456",
+			"isManual": false,
+			"accountType": "BILLS",
+			"accountNumber": "xxxxxx55",
+			"frequency": "ANNUALLY",
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"amountDue": {
+				"amount": 1200,
+				"currency": "USD"
+			},
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": false,
+			"createdDate": "${json-unit.ignore}",
+			"balance": {
+				"amount": 1200,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "bill",
+			"id": "${json-unit.ignore}",
+			"providerName": "Dag Site"
+		},
+		{
+			"accountName": "DAG BILLING Yodlee",
+			"isManual": false,
+			"accountType": "BILLS",
+			"accountNumber": "xxxxxx55",
+			"frequency": "ANNUALLY",
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"amountDue": {
+				"amount": 1200,
+				"currency": "USD"
+			},
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": false,
+			"createdDate": "${json-unit.ignore}",
+			"balance": {
+				"amount": 1200,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "bill",
+			"id": "${json-unit.ignore}",
+			"providerName": "Dag Site"
+		},
+		{
+			"accountName": "DAG BILLING xx3456",
+			"isManual": false,
+			"accountType": "BILLS",
+			"accountNumber": "xxxxxx55",
+			"frequency": "ANNUALLY",
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"amountDue": {
+				"amount": 1200,
+				"currency": "USD"
+			},
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": false,
+			"createdDate": "${json-unit.ignore}",
+			"balance": {
+				"amount": 1200,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "bill",
+			"id": "${json-unit.ignore}",
+			"providerName": "Dag Site"
+		},
+		{
+			"includeInNetWorth": true,
+			"accountName": "DAG INSURANCE",
+			"isManual": false,
+			"accountType": "INSURANCE",
+			"accountNumber": "xxxxxx56",
+			"policyStatus": "OTHER",
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"lastUpdated": "${json-unit.ignore}",
+			"lifeInsuranceType": "OTHER",
+			"premium": {
+				"amount": 5000,
+				"currency": "USD"
+			},
+			"isAsset": false,
+			"createdDate": "${json-unit.ignore}",
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "insurance",
+			"remainingBalance": {
+				"amount": 5000,
+				"currency": "USD"
+			},
+			"id": "${json-unit.ignore}",
+			"providerName": "Dag Site"
+		},
+		{
+			"includeInNetWorth": true,
+			"accountName": "DAG INVESTMENT",
+			"isManual": false,
+			"accountType": "OTHER",
+			"accountNumber": "xxxxxx55",
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": true,
+			"createdDate": "${json-unit.ignore}",
+			"balance": {
+				"amount": 79629,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "investment",
+			"id": "${json-unit.ignore}",
+			"providerName": "Dag Site"
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "accountHolder"
+					}
+				}
+			],
+			"accountName": "TESTDATA1",
+			"isManual": false,
+			"currentBalance": {
+				"amount": 9044.78,
+				"currency": "USD"
+			},
+			"accountType": "SAVINGS",
+			"accountNumber": "xxxxxxxx",
+			"availableBalance": {
+				"amount": 65454.78,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": true,
+			"createdDate": "${json-unit.ignore}",
+			"balance": {
+				"amount": 9044.78,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "bank",
+			"id": "${json-unit.ignore}",
+			"providerName": "Dag Site"
+		},
+		{
+			"accountName": "DAG BILLING",
+			"isManual": false,
+			"accountType": "BILLS",
+			"accountNumber": "xxxxxx55",
+			"frequency": "ANNUALLY",
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"amountDue": {
+				"amount": 1200,
+				"currency": "USD"
+			},
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": false,
+			"createdDate": "${json-unit.ignore}",
+			"balance": {
+				"amount": 1200,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "bill",
+			"id": "${json-unit.ignore}",
+			"providerName": "Dag Site"
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "accountHolder"
+					}
+				}
+			],
+			"accountName": "TESTDATA",
+			"isManual": false,
+			"currentBalance": {
+				"amount": 44.78,
+				"currency": "USD"
+			},
+			"accountType": "CHECKING",
+			"accountNumber": "xxxxxxxx",
+			"availableBalance": {
+				"amount": 54.78,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				"lastRefreshed": "${json-unit.ignore}",
+				"nextRefreshScheduled": "${json-unit.ignore}",
+				"lastRefreshAttempt": "${json-unit.ignore}",
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "ACTIVE",
+			"lastUpdated": "${json-unit.ignore}",
+			"isAsset": true,
+			"createdDate": "${json-unit.ignore}",
+			"balance": {
+				"amount": 44.78,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"providerAccountId": "${json-unit.ignore}",
+			"CONTAINER": "bank",
+			"id": "${json-unit.ignore}",
+			"providerName": "Dag Site"
+		}
+	]
+}

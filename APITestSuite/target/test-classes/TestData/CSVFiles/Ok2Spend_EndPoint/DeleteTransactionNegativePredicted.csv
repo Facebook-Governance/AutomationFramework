@@ -1,0 +1,3 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,transactionId,container,enabled
+AT-115490,Invalid transaction id,400,InvalidValueForPredictedTransactionId.json,../src/test/resources/TestData/ErrorMessage/,INVALID,INVALID,TRUE
+AT-115491,Null for transaction id,400,Invalidinput.json,../src/test/resources/TestData/ErrorMessage/,NULL,NULL,TRUE

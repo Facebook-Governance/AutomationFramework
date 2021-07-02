@@ -1,0 +1,11 @@
+testCaseId,description,initialAllocationAmount,initialAllocationCurrency,totalDestAccountsCount,container,httpStatus,enabled
+AT-106076,update created destination account  with initial allocation lesser than goal target amount,599,USD,1,bank,204,TRUE
+AT-106077,update created destination account  with initial allocation is equal to  goal target amount,13000,USD,1,bank,204,TRUE
+AT-106078,update created destination account  with initial allocation is greater than  goal target amount-multiple,"300 , 200","USD , USD",2,bank,204,TRUE
+AT-106079,update created destination account  with initial allocation goal which is already COMPLETED,"800 , 700","USD , USD",2,"bank,completed",400,TRUE
+AT-106080,update created destination account  with initial allocation - invalid goalId,2300,USD,1,"bank,invalid",400,TRUE
+AT-106081,update created destination account  with initial allocation - investment account,400,USD,1,investment,400,TRUE
+AT-106082,update created destination account  with initial allocation - bank and investment,"899 , 120","USD , USD",2,investment,400,TRUE
+AT-106083,update created destination account  with initial allocation - invalid initialAllocationAmount,-124,USD,1,bank,400,TRUE
+AT-106084,update created destination account  with initial allocation - invalid initialAllocationAmountCurrency,666,INR,1,bank,400,TRUE
+AT-106085,update created destination account  with multiple destination account,"500 , -800","USD , USD",2,bank,400,TRUE

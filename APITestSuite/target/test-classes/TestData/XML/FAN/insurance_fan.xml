@@ -1,0 +1,62 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>test</siteUser>
+			<siteUserId>65971</siteUserId>
+			<sitePwd>test</sitePwd>
+			<sitePwdId>65972</sitePwdId>
+			<siteId>16609</siteId>
+			<dataList>
+				<dataset>
+					<name>ACCT_PROFILE</name>
+					<attributeList>
+						<attribute>
+							<name>FULL_ACCT_NUMBER</name>
+							<container>insurance,reward</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+
+		<get-accounts-multiple>
+		<get-accounts order="1">
+			<container>insurance</container>
+			<include>fullAccountNumber</include>
+		</get-accounts>
+		</get-accounts-multiple>
+
+		<get-accountDetials-multiple>
+		<get-accountDetials order="1">
+			<container>insurance</container>
+			<include>fullAccountNumber</include>
+		</get-accountDetials>
+		</get-accountDetials-multiple>
+	</request>
+
+	<response>
+		<get-accounts-multiple>
+		<get-accounts order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/FAN/
+				</filePath>
+				<responseFile>insurance_fan_account.json</responseFile>
+			</row>
+		</get-accounts>
+		</get-accounts-multiple>
+
+		<accountDetails-multiple>
+		<accountDetails order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/FAN/
+				</filePath>
+				<responseFile>insurance_fan_accountDetails.json</responseFile>
+			</row>
+		</accountDetails>
+		</accountDetails-multiple>
+
+
+	</response>
+</entity>

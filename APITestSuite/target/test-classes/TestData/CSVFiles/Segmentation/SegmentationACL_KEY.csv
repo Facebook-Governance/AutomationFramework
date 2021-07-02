@@ -1,0 +1,11 @@
+tcId,tcName,acl_KEY1,acl_KEY12,enabled,checkpoint
+AT-97280,verify the API by passing valid param_acl,7164,0,TRUE,One
+AT-97280,verify the API by passing valid param_acl,5311,0,TRUE,default
+AT-97280,verify the API by passing valid param_acl,7466,0,TRUE,One
+AT-97279,verify the API by passing valid param_acl,7165,0,TRUE,One
+AT-97278,verify the API by passing valid param_acl,3,0,TRUE,One
+AT-97279,verify the API by passing valid param_acl,4,0,TRUE,One
+AT-97416,Get ACL values from segment_acl_value table,4,3,TRUE,Two
+AT-97416,Get ACL values from segment_acl_value table,4,3,TRUE,Three
+AT-97280,verify the API by passing valid param_acl,5223,0,TRUE,default
+AT-97280,verify the API by passing valid param_acl,5225,0,TRUE,default

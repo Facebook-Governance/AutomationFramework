@@ -1,0 +1,56 @@
+<entity type="multiple">
+    <request>
+        <add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+            <siteUser>genericmfa.site16445.1</siteUser>
+            <siteUserId>65513</siteUserId>
+            <sitePwd>site16445.1</sitePwd>
+            <sitePwdId>65514</sitePwdId>
+            <siteId>16445</siteId>
+            <dataList>
+                <dataset>
+                    <name>BASIC_AGG_DATA</name>
+                    <attributeList>
+                        <attribute>
+                            <name>ACCOUNT_DETAILS</name>
+                            <container>bank</container>
+                        </attribute>
+						<attribute>
+                            <name>TRANSACTIONS</name>
+                            <container>bank</container>
+                        </attribute>
+                    </attributeList>
+                </dataset>
+            </dataList>
+        </add-provider-accounts>
+		</add-provider-accounts-multiple>
+        <update-provider-accounts-multiple>
+		<update-mfa-provider-accounts order="1">
+		<answer1></answer1>
+			<answer2></answer2>
+            <token>123456</token>
+        </update-provider-accounts>
+		</update-provider-accounts-multiple>
+    <update-mfa-provider-accounts-multiple>
+	<update-mfa-provider-accounts order="1">
+        <siteUser>genericmfa.site16445.1</siteUser>
+            <siteUser>genericmfa.site16445.1</siteUser>
+            <siteUserId>65513</siteUserId>
+            <sitePwd>site16445.1</sitePwd>
+            <sitePwdId>65514</sitePwdId>
+            <siteId>16445</siteId>
+         <Updatetoken>123456</Updatetoken>
+      </update-mfa-provider-accounts>
+	  </update-mfa-provider-accounts-multiple>
+   </request>
+   <response>
+      <get-provider-accounts-multiple>
+	  <get-provider-accounts order="1">
+         <row>
+            <filePath>../src/test/resources/TestData/JSONFiles/Sdg/MFAUseCase/</filePath>
+            <responseFile>UpdateWithOnlyLoginForm16445.json</responseFile>
+         </row>
+      </get-provider-accounts>
+	  </get-provider-accounts-multiple>
+   </response>
+</entity>

@@ -1,0 +1,37 @@
+tcId,tcName,accountId,container,cobSessionToken,userSessionToken,status,filePath,resfile,defectId,enabled
+AT-63844,invalid acc id,1001,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_1,,TRUE
+AT-63845,invalid container,1005,1234565,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_2,,TRUE
+AT-63846,invalid container - alphabets,1006,afdklfafj,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_3,,TRUE
+AT-63847,invalid conainer - alphanumberic,1007,341fdgsdg342,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_4,,TRUE
+AT-63848,invalid container - symbols,1008,$^#%,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_5,,TRUE
+AT-63849,blank values,1009,,EMPTY,EMPTY,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_6,,TRUE
+AT-63850,null container,1010,NULL,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_7,,TRUE
+AT-63851,empty container,1011,EMPTY,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_8,,TRUE
+AT-63852,invalid container,1012,INVALID,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_9,,TRUE
+AT-63853,Negative AccountId,-1013,bank,EMPTY,VALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_10,,TRUE
+AT-63854,empty cobsession,1016,bank,VALID,NULL,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_11,,TRUE
+AT-63855,empty sessions,1017,bank,VALID,EXPIRED,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_12,,TRUE
+AT-63856,null cobsession,1018,bank,VALID,EMPTY,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_13,,TRUE
+AT-63857,null usersession,1019,bank,VALID,INVALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_14,,TRUE
+AT-63858,null sessions,1020,bank,NULL,VALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_15,,TRUE
+AT-63859,invalid cobsession,1021,bank,NULL,NULL,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_16,,TRUE
+AT-63860,invalid user session,1022,bank,NULL,EXPIRED,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_17,,TRUE
+AT-63861,invalid sessions,1023,bank,NULL,EMPTY,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_18,,TRUE
+AT-63862,expired cob token,1024,bank,NULL,INVALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_19,,TRUE
+AT-63863,expired user token,1025,bank,EXPIRED,VALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_20,,TRUE
+AT-63864,both expired tokens,1026,bank,EXPIRED,NULL,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_21,,TRUE
+AT-63865,empty cobsession,1027,loan,EXPIRED,EXPIRED,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_22,,TRUE
+AT-63866,empty usersession,1028,loan,EXPIRED,EMPTY,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_23,,TRUE
+AT-63867,empty usersession,1029,loan,EXPIRED,INVALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_24,,TRUE
+AT-63868,empty cobsession,1030,loan,EMPTY,VALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_25,,TRUE
+AT-63869,empty sessions,1031,loan,EMPTY,NULL,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_26,,TRUE
+AT-63870,null cobsession,1032,loan,EMPTY,EXPIRED,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_27,,TRUE
+AT-63871,null usersession,1033,loan,EMPTY,EMPTY,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_28,,TRUE
+AT-63872,null sessions,1034,loan,EMPTY,INVALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_29,,TRUE
+AT-63873,invalid cobsession,1035,loan,INVALID,VALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_30,,TRUE
+AT-63874,invalid user session,1036,loan,INVALID,NULL,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_31,,TRUE
+AT-63875,invalid sessions,1037,loan,INVALID,EXPIRED,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_32,,TRUE
+AT-63876,expired cob token,1038,loan,INVALID,EMPTY,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_33,,TRUE
+AT-63877,expired user token,1039,loan,INVALID,INVALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_34,,TRUE
+AT-63878,valid user token,8487212,investment,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_37,,TRUE
+AT-63879,Multiple AccountId,"123456, 3984",bill,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccountDetails/Negative/,A_GetAccDetailsNeg_38,,TRUE

@@ -1,0 +1,11 @@
+TestCaseId,TestCaseName,Parameter,Value,status,count,fileName,Enabled
+1,Getcount for FromDate,fromDate,2010-01-01,200,12,,True
+2,GetCount for baseType=CREDIT,baseType,CREDIT,200,9,,True
+3,GetCount for type=DEBIT,baseType,DEBIT,200,3,,True
+4,GetCount for toDate,toDate,2017-09-25,200,12,,True
+5,GetCount for categoryType,categoryType,INCOME,200,30,,True
+6,Getcount for Container=bank,container,bank,200,6,,True
+7,Getcount for Container=loan,container,loan,200,1,,True
+8,Getcount for Container=investment,container,investment,200,3,,True
+9,Getcount for Container=insurance,container,insurance,200,1,,True
+10,Getcount for Container=creditCard,container,creditCard,200,1,,True

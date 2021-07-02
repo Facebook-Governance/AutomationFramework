@@ -1,0 +1,2 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,transactionId,container,enabled
+AT-114910,Invalid transaction id,400,InvalidValueForManualTransactionId.json,/src/test/resources/TestData/ErrorMessage/,bank,bank,TRUE

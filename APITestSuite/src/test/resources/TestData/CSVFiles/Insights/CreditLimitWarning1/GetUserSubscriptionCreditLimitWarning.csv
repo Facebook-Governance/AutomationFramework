@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-143237,"Validate CreditLimitWarning , Validate InsightName",,CreditLimitWarning,CreditLimitWarning,,,,,,,,,,,,,200,TRUE
+AT-143238,"Validate CreditLimitWarning , Validate Supporting container",,CreditLimitWarning,,,CARD,,,,,,,,,,,200,TRUE
+AT-143239,"Validate CreditLimitWarning , Validate TriggerType",REFRESH,CreditLimitWarning,,,,,,,,,,,,,,200,TRUE
+AT-143240,"Validate CreditLimitWarning , Validate applicableEntity",,CreditLimitWarning,,,,,,,"ACCOUNT,BOARD",,,,,,,200,TRUE
+AT-143241,"Validate CreditLimitWarning , Validate number of levels and levelObject",,CreditLimitWarning,,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-143242,"Validate CreditLimitWarning , Validate isSubscribed=true",,CreditLimitWarning,,,,,,,,account,TRUE,,,,,200,TRUE
+AT-143243,"Validate CreditLimitWarning , Validate threshold Name,Value and Type",,CreditLimitWarning,,,,,,,,account,,,"LIMIT,90,PERCENT",,,200,TRUE
+AT-143244,"Validate CreditLimitWarning , Validate insightKeys",,CreditLimitWarning,,,,Account,,,,,,,,,,200,TRUE
+AT-143245,"Validate CreditLimitWarning , Validate description",,CreditLimitWarning,,,,,,Notification generated for creditLimitWarning.,,,,,,,,200,TRUE
+AT-143246,"Validate CreditLimitWarning , Validate title",,CreditLimitWarning,,Credit Limit Warning,,,,,,,,,,,,200,TRUE
+AT-143247,"Validate CreditLimitWarning , Validate total number of keys",,CreditLimitWarning,,,,,10,,,,,,,,,200,TRUE
+AT-143248,"Validate CreditLimitWarning , Validate if ruleExpression present",,CreditLimitWarning,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE

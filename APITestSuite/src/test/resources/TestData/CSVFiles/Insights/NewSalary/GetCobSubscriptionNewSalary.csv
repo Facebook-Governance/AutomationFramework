@@ -1,0 +1,11 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-147479," GET Cobrand Subscription NewSalary, validate InsightName",,NewSalary,NewSalary,,,,,,,,,,,,200,TRUE
+AT-147486," GET Cobrand Subscription NewSalary, validate container",,NewSalary,,,BANK,,,,,,,,,,200,TRUE
+AT-147485," GET Cobrand Subscription NewSalary, validate triggerType",EVENT,NewSalary,,,,,,,,,,,,,200,TRUE
+AT-147481," GET Cobrand Subscription NewSalary, validate applicableEntity",,NewSalary,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-147482," GET Cobrand Subscription NewSalary, validate number of levels and levelObject",,NewSalary,,,,,,,ACCOUNT,account,,,,,200,TRUE
+AT-147477," GET Cobrand Subscription NewSalary, validate isSubscribed=false by default",,NewSalary,,,,,,,,account,,,,,200,TRUE
+AT-147483," GET Cobrand Subscription NewSalary, validate insightKeys",,NewSalary,,,,Account,,,,,,,,,200,TRUE
+AT-147487," GET Cobrand Subscription NewSalary, validate description",,NewSalary,,,,,,Generates an insight when a new recurring salary is detected.,,,,,,,200,TRUE
+AT-147484," GET Cobrand Subscription NewSalary, validate title",,NewSalary,,New Salary,,,,,,,,,,,200,TRUE
+AT-147478," GET Cobrand Subscription NewSalary, validate total number of keys",,NewSalary,,,,,18,,,,,,,,200,TRUE

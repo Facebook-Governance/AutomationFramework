@@ -1,0 +1,2 @@
+tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,enabled,UsTestcaseId,priority,formType
+Dedup_1,Dedup details,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/Dedup/,Dedup.xml,YES,NO,TRUE,a6,p1,Simplified

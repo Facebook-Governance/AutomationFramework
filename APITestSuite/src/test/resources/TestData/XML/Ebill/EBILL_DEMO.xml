@@ -1,0 +1,62 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>AutoDocDownAdd10.site16441.2</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.2</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>ACCOUNT_DETAILS</name>
+							<container>creditCard</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<update-accounts-multiple>
+		<update-accounts order="1">
+			<nickname></nickname>
+			<accountStatus>ACTIVE</accountStatus>
+			<memo></memo>
+			<isEbillEnrolled>TRUE</isEbillEnrolled>
+
+		</update-accounts>
+		</update-accounts-multiple>
+
+		<get-accountDetials-multiple>
+		<get-accountDetials order="1">
+			<container>creditCard</container>
+			<include></include>
+		</get-accountDetials>
+		</get-accountDetials-multiple>
+	</request>
+
+	<response>
+		<update-accounts-multiple>
+		<update-accounts order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/RTN/
+				</filePath>
+				<responseFile>getProviderRTN.json</responseFile>
+			</row>
+		</update-accounts>
+		</update-accounts-multiple>
+
+		<accountDetails-multiple>
+		<accountDetails order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/RTN/
+				</filePath>
+				<responseFile>enrollCard.json</responseFile>
+			</row>
+		</accountDetails>
+		</accountDetails-multiple>
+	</response>
+</entity>

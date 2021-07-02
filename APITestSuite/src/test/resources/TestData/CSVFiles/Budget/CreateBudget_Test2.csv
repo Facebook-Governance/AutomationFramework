@@ -1,0 +1,4 @@
+TestCaseId,TestCase,enabled,UniqueNo,CategoryId,CateogryType,CurrencyType
+AT-105378,create budget for single group Id and Array of cat Id's,TRUE,102,"3,9,2,11,14,45,16,104,37,19,33,24,13,43,10,42,18,21,17,39,15,20,25,6,108,22,7,23","INCOME,EXPENSE,TRANSFER","ANG,AOA,ARS,AUD,AWG,ZM,BAM,BBD,BDT,BGL"
+AT-105374,verify created budget has all the references in the tables listed.,TRUE,108,"3,9,2,11,14,45,16,104,37,19,33,24,13,43,10,42,18,21,17,39,15,20,25,6,108,22,7,23","INCOME,EXPENSE,TRANSFER","ANG,AOA,ARS,AUD,AWG,ZM,BAM,BBD,BDT,BGL"
+AT-105389,verify isdeleted column is set to '0' in listed tables.,TRUE,109,"3,9,2,11,14,45,16,104,37,19,33,24,13,43,10,42,18,21,17,39,15,20,25,6,108,22,7,23","INCOME,EXPENSE,TRANSFER","ANG,AOA,ARS,AUD,AWG,ZM,BAM,BBD,BDT,BGL"

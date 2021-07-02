@@ -1,0 +1,43 @@
+{
+    "transaction": [
+        {
+            "CONTAINER": "loan",
+            "id": "${json-unit.ignore}",
+            "amount": {
+                "amount": 13500,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "categoryType": "EXPENSE",
+            "categoryId": "${json-unit.ignore}",
+            "category":"${json-unit.ignore}",
+            "categorySource": "USER",
+            "description": {
+                "original": "Deposit - Check 45568",
+                "consumer": "abcd!@#$"
+            },
+            "date": "2013-01-19",
+            "transactionDate": "2013-01-19",
+            "postDate": "2013-01-19",
+            "isManual": false,
+            "memo": "updated memo3",
+            "status": "POSTED",
+            "interest": {
+                "amount": 15,
+                "currency": "USD"
+            },
+            "principal": {
+                "amount": 12345.99,
+                "currency": "USD"
+            },
+            "accountId": "${json-unit.ignore}",
+            "parentCategoryId": 18,
+            "merchant": {
+                "id": "11303",
+                "source": "YODLEE",
+                "name": "Deposit"
+            },
+            "highLevelCategoryId": 10000004
+        }
+    ]
+}

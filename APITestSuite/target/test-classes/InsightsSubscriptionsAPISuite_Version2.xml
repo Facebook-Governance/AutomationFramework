@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll" parallel="methods" thread-count="1"
+	preserve-order="true">
+	<parameter name="hybrid" value="false" />
+	<parameter name="release_name" value="Version2" />
+	<parameter name="isFirstRun" value="false" />
+	<parameter name="isStaticComparable" value="false" />
+	<parameter name="isDiffyEnabled" value="false" />
+	<parameter name="getApiVersion" value="2" />
+	<parameter name="isUserStatic" value="false" />
+	<parameter name="updateApiVersion" value="2" />
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="config_file"
+		value="InsightsConfigV2.properties" />
+	<parameter name="suiteName"
+		value="InsightsSubscriptions-Version2" />
+	<listeners>
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+	</listeners>
+	<test name="GET Customer Subscriptions-V2">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.V2.TestGetCustomerSubscriptions">
+				<methods>
+					<include name="testGetCustomerSubscriptions" />
+				</methods>
+			</class>
+		</classes>
+	</test>	
+	<test name="PATCH  Customer Subscriptions-V2">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions">
+				<methods>
+					<include name="testPatchCustomerSubscriptions" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	 <test name="GET  User Subscriptions-V2">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions">
+				<methods>
+					<include name="testGetUserSubscriptions" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="PATCH  User Subscriptions-V2">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.V2.TestPatchUserSubscriptions">
+				<methods>
+					<include name="testPatchUserSubscriptions" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

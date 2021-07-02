@@ -1,0 +1,39 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+
+			<add-provider-accounts order="1">
+				<siteUser>TC_052</siteUser>
+				<siteUserId>65971</siteUserId>
+				<sitePwd>woody</sitePwd>
+				<sitePwdId>65972</sitePwdId>
+				<siteId>16609</siteId>
+				<ignoreGetProviderAccountFailure>true
+				</ignoreGetProviderAccountFailure>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>STATEMENTS</name>
+								<container>creditCard,insurance,loan</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+	</request>
+	<response>
+		<get-provider-accounts-multiple>
+			<get-provider-accounts order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/RefreshStatus/
+					</filePath>
+					<responseFile>TC_052.json</responseFile>
+				</row>
+			</get-provider-accounts>
+		</get-provider-accounts-multiple>
+
+	</response>
+</entity>

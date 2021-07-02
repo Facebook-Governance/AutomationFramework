@@ -1,0 +1,26 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-143249,user subscribes to ExpensesApproachingBudget,ExpensesApproachingBudget,,,,,,,,,,,1,,accountGroup,1,,,TRUE,,,"UPPER_LIMIT,98,PERCENT",204,TRUE
+AT-143250,updateTriggerType,ExpensesApproachingBudget,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143251, update insightName by same name,ExpensesApproachingBudget,negTestScenario17,,ExpensesApproachingBudget,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143252, update insightName edit InsightName,ExpensesApproachingBudget,negTestScenario2,,ExpensesApproachingBudgetEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143253,update insightTitle,ExpensesApproachingBudget,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-143254,update container,ExpensesApproachingBudget,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-143255,update keys,ExpensesApproachingBudget,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-143256,update description,ExpensesApproachingBudget,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-143257,update applicableEntity,ExpensesApproachingBudget,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-143258,update entityParameter,ExpensesApproachingBudget,,,,,,,,,,,1,,accountGroup,1,,,TRUE,,,"UPPER_LIMIT,10,PERCENT",204,TRUE
+AT-143259, update entityParameter->account[0]->id - Valid ItemAccountId,ExpensesApproachingBudget,,,,,,,,,,,1,,accountGroup,1,,,TRUE,,,"UPPER_LIMIT,75,PERCENT",204,TRUE
+AT-143260, update entityParameter->account[0]->id - InValid ItemAccountId,ExpensesApproachingBudget,negTestScenario42,,,,,,,,,,1,,accountGroup,1,76823,,TRUE,,,"UPPER_LIMIT,99,PERCENT",400,TRUE
+AT-143261, update entityParameter->account[0]->isSubscribed=false,ExpensesApproachingBudget,,,,,,,,,,,1,,accountGroup,1,,,FALSE,,,,204,TRUE
+AT-143262,update duration  -  entityParameter->account[0]->duration ,ExpensesApproachingBudget,negTestScenario48,,,,,,,,,,1,,accountGroup,1,,,TRUE,LAST_MONHT,,"UPPER_LIMIT,58,PERCENT",400,TRUE
+AT-143263,update insightType to AGGREGATE - entityParameter->account[0]->insightType,ExpensesApproachingBudget,negTestScenario24,,,,,,,,,,1,,accountGroup,1,,,TRUE,,AGGREGATE,"UPPER_LIMIT,58,PERCENT",400,TRUE
+AT-143264,update insightType to INVALID - entityParameter->account[0]->insightType,ExpensesApproachingBudget,negTestScenario24,,,,,,,,,,1,,accountGroup,1,,,TRUE,,INVALID,"UPPER_LIMIT,58,PERCENT",400,TRUE
+AT-143265,update threshold name  - entityParameter->account[0]->threshold[0]->name,ExpensesApproachingBudget,negTestScenario35,,,,,,,,,,1,,accountGroup,1,,,FALSE,,,"BALANCE,1000,UPPER_LIMIT",400,TRUE
+AT-143266,update threshold values - entityParameter->account[0]->threshold[0]->value,ExpensesApproachingBudget,,,,,,,,,,,1,,accountGroup,1,,,TRUE,,,"UPPER_LIMIT,58,PERCENT",204,TRUE
+AT-143267,update threshold type - entityParameter->account[0]->threshold[0]->type,ExpensesApproachingBudget,negTestScenario30,,,,,,,,,,1,,accountGroup,1,,,TRUE,,,"UPPER_LIMIT,58,AMOUNT",400,TRUE
+AT-143268,"update threshold name ,value and type to BALANCE,200,AMOUNT",ExpensesApproachingBudget,,,,,,,,,,,1,,accountGroup,1,,,TRUE,,,"UPPER_LIMIT,23,PERCENT",204,TRUE
+AT-143269,update configMeta - subscrption Info - configMeta->account[0]->id,ExpensesApproachingBudget,negTestScenario41,,,,,,,,,,1,TRUE,accountGroup,1,,,FALSE,,,"UPPER_LIMIT,0,PERCENT",400,TRUE
+AT-143270,update subscription to board and account,ExpensesApproachingBudget,negTestScenario57,,,,,,,,,,1,,accountGroup,1,,,TRUE,,,"UPPER_LIMIT,0,PERCENT",400,TRUE
+AT-143271,update subscription to board and account include frequency,ExpensesApproachingBudget,negTestScenario10,,,,,,,,,,1,,accountGroup,1,,MONTHLY WEEKLY,TRUE,,,"UPPER_LIMIT,87,PERCENT",400,TRUE
+AT-143272,update subscription to board and account include duration,ExpensesApproachingBudget,negTestScenario48,,,,,,,,,,1,,accountGroup,1,,,TRUE,LAST_MONTH,,"UPPER_LIMIT,92,PERCENT",400,TRUE
+AT-143273,update  unsubscribe from board and account,ExpensesApproachingBudget,,,,,,,,,,,1,,accountGroup,1,,,FALSE,,,"UPPER_LIMIT,95,PERCENT",204,TRUE

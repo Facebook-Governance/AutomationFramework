@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-147310,"Validate GoalOffTrack , Validate InsightName",,GoalOffTrack,GoalOffTrack,,,,,,,,,,,,,200,TRUE
+AT-147311,"Validate GoalOffTrack , Validate Supporting container",,GoalOffTrack,,,BANK,,,,,,,,,,,200,TRUE
+AT-147312,"Validate GoalOffTrack , Validate TriggerType",REFRESH,GoalOffTrack,,,,,,,,,,,,,,200,TRUE
+AT-147313,"Validate GoalOffTrack , Validate applicableEntity",,GoalOffTrack,,,,,,,GOAL,,,,,,,200,TRUE
+AT-147314,"Validate GoalOffTrack , Validate number of levels and levelObject",,GoalOffTrack,,,,,,,GOAL,goal,,,,,,200,TRUE
+AT-147315,"Validate GoalOffTrack , Validate isSubscribed=false",,GoalOffTrack,,,,,,,,,FALSE,,,,,200,TRUE
+AT-147316,"Validate GoalOffTrack , Validate insightKeys",,GoalOffTrack,,,,Goal,,,,,,,,,,200,TRUE
+AT-147317,"Validate GoalOffTrack , Validate description",,GoalOffTrack,,,,,,Notification generated when the actualSavings less than expectedSavings,,,,,,,,200,TRUE
+AT-147318,"Validate GoalOffTrack , Validate title",,GoalOffTrack,,Goal Off Track,,,,,,,,,,,,200,TRUE
+AT-147319,"Validate GoalOffTrack , Validate ruleExpression",,GoalOffTrack,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-147320,"Validate GoalOffTrack, Validate total number of keys",,GoalOffTrack,,,,,9,,,,,,,,,200,TRUE

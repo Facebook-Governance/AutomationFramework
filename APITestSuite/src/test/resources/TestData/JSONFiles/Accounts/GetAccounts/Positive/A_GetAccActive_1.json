@@ -1,0 +1,1733 @@
+{
+  "account": [
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "rollover",
+      "accountType": "ROLLOVER_IRA",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "isAsset": true,
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "CONTAINER": "investment",
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "rothConversion",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "isAsset": true,
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "CONTAINER": "investment",
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "roth",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "conservatorship",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "DAG_BILLING3",
+      "accountType": "WIRELESS",
+      "dueDate": "2013-12-28",
+      "isManual": false,
+      "accountNumber": "555555",
+      "frequency": "ANNUALLY",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": false,
+      
+      "balance": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "bill",
+      
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    {
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "DAG_BILLING2",
+      "accountType": "CABLE",
+      "dueDate": "2013-12-28",
+      "isManual": false,
+      "accountNumber": "555555",
+      "frequency": "ANNUALLY",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": false,
+      
+      "balance": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "bill",
+      
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    {
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "DAG_BILLING1",
+      "accountType": "UTILITY",
+      "dueDate": "2013-12-28",
+      "isManual": false,
+      "accountNumber": "555555",
+      "frequency": "ANNUALLY",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": false,
+      
+      "balance": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "bill",
+      
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "jointByEntirety",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "communityProperty",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "DAG_BILLING",
+      "accountType": "TELEPHONE",
+      "dueDate": "2013-12-28",
+      "isManual": false,
+      "accountNumber": "555555",
+      "frequency": "ANNUALLY",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": false,
+      
+      "balance": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "bill",
+      
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    {
+      "policyEffectiveDate": "2013-01-17",
+      "includeInNetWorth": true,
+      "accountName": "DAG INSURANCE2",
+      "policyTerm": "P1Y2M3DT10H30M",
+      "dueDate": "2013-01-07",
+      "policyStatus": "ACTIVE",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lifeInsuranceType": "OTHER",
+      
+      "premium": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "isAsset": false,
+      "balance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "remainingBalance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountType": "INSURANCE",
+      "isManual": false,
+      "cashValue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "accountNumber": "5555556",
+      "amountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyToDate": "2013-01-17",
+      "policyFromDate": "2013-01-17",
+      
+   
+      "CONTAINER": "insurance"
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "jtwros",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "YODLEE"
+          }
+        }
+      ],
+      "accountName": "YODLEE",
+      "accountType": "REWARD_POINTS",
+      "isManual": false,
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "reward",
+      "primaryRewardUnit": "Rew Unit",
+      
+      "providerName": "Dag Site"
+    },
+    {
+      "policyEffectiveDate": "2013-01-17",
+      "includeInNetWorth": true,
+      "accountName": "DAG INSURANCE1",
+      "policyTerm": "P1Y2M3DT10H30M",
+      "dueDate": "2013-01-07",
+      "policyStatus": "ACTIVE",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lifeInsuranceType": "OTHER",
+      
+      "premium": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "isAsset": false,
+      "balance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "remainingBalance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountType": "INSURANCE",
+      "isManual": false,
+      "cashValue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "accountNumber": "5555556",
+      "amountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyToDate": "2013-01-17",
+      "policyFromDate": "2013-01-17",
+      
+   
+      "CONTAINER": "insurance"
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "jttic",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "Super CD Plus2",
+      "dueDate": "2012-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "frequency": "SEMI_MONTHLY",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": false,
+      "balance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2013-01-25",
+      
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "originationDate": "2013-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+   
+      "CONTAINER": "loan",
+      "collateral": "ABC"
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "corporate",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "individual",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "policyEffectiveDate": "2013-01-17",
+      "includeInNetWorth": true,
+      "accountName": "DAG INSURANCE",
+      "policyTerm": "P1Y2M3DT10H30M",
+      "dueDate": "2013-01-07",
+      "policyStatus": "ACTIVE",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lifeInsuranceType": "OTHER",
+      
+      "premium": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "isAsset": false,
+      "balance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "remainingBalance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountType": "INSURANCE",
+      "isManual": false,
+      "cashValue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "accountNumber": "5555556",
+      "amountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyToDate": "2013-01-17",
+      "policyFromDate": "2013-01-17",
+      
+   
+      "CONTAINER": "insurance"
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "brokerageMarginOption",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "brokerageCashOption",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "Super CD Plus1",
+      "dueDate": "2012-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "frequency": "SEMI_MONTHLY",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": false,
+      "balance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2013-01-25",
+      
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "originationDate": "2013-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+   
+      "CONTAINER": "loan",
+      "collateral": "ABC"
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "custodial",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "simple",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "annuity",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "Super CD Plus",
+      "dueDate": "2012-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "frequency": "SEMI_MONTHLY",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": false,
+      "balance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2013-01-25",
+      
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "originationDate": "2013-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+   
+      "CONTAINER": "loan",
+      "collateral": "ABC"
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "trust",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "403b",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "401k",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "moneyMarket",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "brokerageMargin",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "989898139",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "investment",
+      
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "availableCredit": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates2"
+          }
+        }
+      ],
+      "accountName": "Super CD Plus2",
+      "accountType": "CHARGE",
+      "dueDate": "2013-02-14",
+      "isManual": false,
+      "accountNumber": "354-2334",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": false,
+      
+      "balance": {
+        "amount": 11756.88,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "totalCashLimit": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "providerId": "16441",
+   
+      "CONTAINER": "creditCard",
+      
+      "totalCreditLine": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 1000,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "availableCredit": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountName": "Super CD Plus1",
+      "accountType": "CHARGE",
+      "dueDate": "2013-02-14",
+      "isManual": false,
+      "accountNumber": "354-2334",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": false,
+      
+      "balance": {
+        "amount": 11756.88,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "totalCashLimit": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "providerId": "16441",
+   
+      "CONTAINER": "creditCard",
+      
+      "totalCreditLine": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 1000,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "accountHolder2"
+          }
+        }
+      ],
+      "accountName": "TESTDATA2",
+      "currentBalance": {
+        "amount": 44.78,
+        "currency": "USD"
+      },
+      "accountType": "CD",
+      "isManual": false,
+      "accountNumber": "503-1123xxx",
+      "availableBalance": {
+        "amount": 54.78,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 44.78,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "bank",
+      
+      "providerName": "Dag Site"
+    },
+    {
+      "includeInNetWorth": true,
+      "availableCredit": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountName": "Super CD Plus",
+      "accountType": "CREDIT",
+      "dueDate": "2013-02-14",
+      "isManual": false,
+      "accountNumber": "354-2334",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": false,
+      
+      "balance": {
+        "amount": 11756.88,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "totalCashLimit": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "providerId": "16441",
+   
+      "CONTAINER": "creditCard",
+      
+      "totalCreditLine": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 1000,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "accountHolder1"
+          }
+        }
+      ],
+      "accountName": "TESTDATA1",
+      "currentBalance": {
+        "amount": 44.78,
+        "currency": "USD"
+      },
+      "accountType": "PREPAID",
+      "isManual": false,
+      "accountNumber": "503-1123xxx",
+      "availableBalance": {
+        "amount": 54.78,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      
+      "balance": {
+        "amount": 44.78,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "bank",
+      
+      "providerName": "Dag Site"
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "accountHolder"
+          }
+        }
+      ],
+      "accountName": "TESTDATA",
+      "currentBalance": {
+        "amount": 44.78,
+        "currency": "USD"
+      },
+      "accountType": "CHECKING",
+      "isManual": false,
+      "accountNumber": "503-1123xxx",
+      "availableBalance": {
+        "amount": 54.78,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": true,
+      "balance": {
+        "amount": 44.78,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+   
+      "CONTAINER": "bank",
+      
+      "providerName": "Dag Site"
+    }
+  ]
+}

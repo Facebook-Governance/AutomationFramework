@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-146950,"Validate AggregateInsuranceAccount , Validate InsightName",,AggregateInsuranceAccount,AggregateInsuranceAccount,,,,,,,,,,,,200,TRUE
+AT-146951,"Validate AggregateInsuranceAccount , Validate Supporting container",,AggregateInsuranceAccount,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-146952,"Validate AggregateInsuranceAccount , Validate TriggerType",REFRESH,AggregateInsuranceAccount,,,,,,,,,,,,,200,TRUE
+AT-146953,"Validate AggregateInsuranceAccount , Validate applicableEntity",,AggregateInsuranceAccount,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-146954,"Validate AggregateInsuranceAccount , Validate number of levels and levelObject",,AggregateInsuranceAccount,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-146955,"Validate AggregateInsuranceAccount , Validate isSubscribed=false",,AggregateInsuranceAccount,,,,,,,,FALSE,,,,,200,TRUE
+AT-146957,"Validate AggregateInsuranceAccount , Validate insightKeys",,AggregateInsuranceAccount,,,,Account,,,,,,,,,200,TRUE
+AT-146958,"Validate AggregateInsuranceAccount , Validate description",,AggregateInsuranceAccount,,,,,Generates an insight when an insurance payment is identified but no corresponding insurance account was found for the user.,,,,,,,,200,TRUE
+AT-146959,"Validate AggregateInsuranceAccount , Validate title",,AggregateInsuranceAccount,,Aggregate Insurance Account,,,,,,,,,,,200,TRUE
+AT-146960,"Validate AggregateInsuranceAccount , Validate ruleExpression",,AggregateInsuranceAccount,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-146961,"Validate AggregateInsuranceAccount , verify entityParameter and configMeta are same",,AggregateInsuranceAccount,,,,,,,,,,,,TRUE,200,TRUE

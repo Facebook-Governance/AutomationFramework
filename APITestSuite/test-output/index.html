@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestAll">
+              <span class="suite-name border-failed">TestAll</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestAll">
+                    <span>C:\Users\rshrivastav\Perforce\V2_AutomationInsight\razor\ysl\wellness\modules\APITestSuite\src\test\resources\InsightsV2_ScheduleFeedsAPISuite_Ravi.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestAll">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestAll">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestAll">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestAll">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestAll">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestAll">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestAll" class="hide-methods failed suite-TestAll"> (hide)</a> <!-- hide-methods failed suite-TestAll -->
+                      <a href="#" panel-name="suite-TestAll" class="show-methods failed suite-TestAll"> (show)</a> <!-- show-methods failed suite-TestAll -->
+                    </span>
+                    <div class="method-list-content failed suite-TestAll">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost" hash-for-method="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS09, Validate HighBillsAndSubscriptionsCost Insight when threshold is 500 as AMOUNT and 50 PER...)">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS09, Validate HighBillsAndSubscriptionsCost Insight when threshold is 500 as AMOUNT and 50 PER...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestAll -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestAll" class="hide-methods passed suite-TestAll"> (hide)</a> <!-- hide-methods passed suite-TestAll -->
+                      <a href="#" panel-name="suite-TestAll" class="show-methods passed suite-TestAll"> (show)</a> <!-- show-methods passed suite-TestAll -->
+                    </span>
+                    <div class="method-list-content passed suite-TestAll">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost" hash-for-method="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS05, Validate HighBillsAndSubscriptionsCost Insight when user patch Threshold only AMOUNt and ...)">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS05, Validate HighBillsAndSubscriptionsCost Insight when user patch Threshold only AMOUNt and ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost" hash-for-method="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS10, Reset HighBIlls and Subscription to default values, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BAS...)">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS10, Reset HighBIlls and Subscription to default values, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BAS...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost" hash-for-method="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS06, Validate HighBillsAndSubscriptionsCost Insight when Threshold is patched and with user Su...)">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS06, Validate HighBillsAndSubscriptionsCost Insight when Threshold is patched and with user Su...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost" hash-for-method="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS04, Validate HighBillsAndSubscriptionsCost Insight when cobrand is subscribed  for different ...)">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS04, Validate HighBillsAndSubscriptionsCost Insight when cobrand is subscribed  for different ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost" hash-for-method="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS08, Validate HighBillsAndSubscriptionsCost Insight when threshold is 1 as AMOUNT and 1 PERCEN...)">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS08, Validate HighBillsAndSubscriptionsCost Insight when threshold is 1 as AMOUNT and 1 PERCEN...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost" hash-for-method="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS02, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is no...)">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS02, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is no...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost" hash-for-method="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS03, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is no...)">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS03, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is no...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost" hash-for-method="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS01, Validate HighBillsAndSubscriptionsCost Insight when cobrand is not Subscribed, HIGH_BILLS...)">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS01, Validate HighBillsAndSubscriptionsCost Insight when cobrand is not Subscribed, HIGH_BILLS...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost" hash-for-method="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS07, Validate HighBillsAndSubscriptionsCost Insight when threshold is 1000 as AMOUNT and 101 P...)">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS07, Validate HighBillsAndSubscriptionsCost Insight when threshold is 1000 as AMOUNT and 101 P...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestAll -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestAll" class="panel TestAll">
+          <div class="suite-TestAll-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS09, Validate HighBillsAndSubscriptionsCost Insight when threshold is 500 as AMOUNT and 50 PER...)">
+                  </a> <!-- testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS09, Validate HighBillsAndSubscriptionsCost Insight when threshold is 500 as AMOUNT and 50 PER...) -->
+                  <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight</span>
+                  <span class="parameters">(AT-HBnS09, Validate HighBillsAndSubscriptionsCost Insight when threshold is 500 as AMOUNT and 50 PERCENT with diff duration, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, CHANGE,500,AMOUNT CHANGE,50,PERCENT, , , , 1, TRUE, , TRUE, HighBillsAndSubscriptionCost.json, LAST_MONTH, , , , , , Account, 201, TRUE)</span>
+                  <div class="stack-trace">java.lang.AssertionError: TEST FAILED
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCostInsight(TestGetInsightsForHighBillsAndSubscriptionsCost.java:296)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-failed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS05, Validate HighBillsAndSubscriptionsCost Insight when user patch Threshold only AMOUNt and ...)">
+                  </a> <!-- testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS05, Validate HighBillsAndSubscriptionsCost Insight when user patch Threshold only AMOUNt and ...) -->
+                  <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight</span>
+                  <span class="parameters">(AT-HBnS05, Validate HighBillsAndSubscriptionsCost Insight when user patch Threshold only AMOUNt and Duration, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, CHANGE,300,AMOUNT, , , , 1, TRUE, , TRUE, HighBillsAndSubscriptionCost.json, LAST_THREE_MONTHS, , , , , , Account, 201, TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS10, Reset HighBIlls and Subscription to default values, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BAS...)">
+                  </a> <!-- testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS10, Reset HighBIlls and Subscription to default values, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BAS...) -->
+                  <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight</span>
+                  <span class="parameters">(AT-HBnS10, Reset HighBIlls and Subscription to default values, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, CHANGE,550,AMOUNT CHANGE,150,PERCENT, , , , 0, TRUE, FALSE, , HighBillsAndSubscriptionCost.json, LAST_THREE_MONTHS, , , , , , Account, 201, TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS06, Validate HighBillsAndSubscriptionsCost Insight when Threshold is patched and with user Su...)">
+                  </a> <!-- testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS06, Validate HighBillsAndSubscriptionsCost Insight when Threshold is patched and with user Su...) -->
+                  <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight</span>
+                  <span class="parameters">(AT-HBnS06, Validate HighBillsAndSubscriptionsCost Insight when Threshold is patched and with user Subscriptions as false, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, CHANGE,400,AMOUNT CHANGE,90,PERCENT, , , , 0, TRUE, , FALSE, HighBillsAndSubscriptionCost.json, , , , , , , Account, 201, TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS04, Validate HighBillsAndSubscriptionsCost Insight when cobrand is subscribed  for different ...)">
+                  </a> <!-- testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS04, Validate HighBillsAndSubscriptionsCost Insight when cobrand is subscribed  for different ...) -->
+                  <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight</span>
+                  <span class="parameters">(AT-HBnS04, Validate HighBillsAndSubscriptionsCost Insight when cobrand is subscribed  for different threshold user overides cobrand threshold, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, CHANGE,200,AMOUNT CHANGE,20,PERCENT, , , , 1, TRUE, TRUE, TRUE, HighBillsAndSubscriptionCost.json, , , , , , , Account, 201, TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS08, Validate HighBillsAndSubscriptionsCost Insight when threshold is 1 as AMOUNT and 1 PERCEN...)">
+                  </a> <!-- testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS08, Validate HighBillsAndSubscriptionsCost Insight when threshold is 1 as AMOUNT and 1 PERCEN...) -->
+                  <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight</span>
+                  <span class="parameters">(AT-HBnS08, Validate HighBillsAndSubscriptionsCost Insight when threshold is 1 as AMOUNT and 1 PERCENT with diff duration, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, CHANGE,1,AMOUNT CHANGE,1,PERCENT, , , , 1, TRUE, , TRUE, HighBillsAndSubscriptionCost.json, LAST_TWELVE_MONTHS, , , , , , Account, 201, TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS02, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is no...)">
+                  </a> <!-- testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS02, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is no...) -->
+                  <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight</span>
+                  <span class="parameters">(AT-HBnS02, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is not Subscribed, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, , , , , 0, TRUE, TRUE, FALSE, HighBillsAndSubscriptionCost.json, , , , , , , Account, 201, TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS03, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is no...)">
+                  </a> <!-- testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS03, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is no...) -->
+                  <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight</span>
+                  <span class="parameters">(AT-HBnS03, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is not Subscribed(Inheriting Cobrand Thresholds), HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, TRUE, , HighBillsAndSubscriptionCost.json, , , , , , , Account, 201, TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS01, Validate HighBillsAndSubscriptionsCost Insight when cobrand is not Subscribed, HIGH_BILLS...)">
+                  </a> <!-- testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS01, Validate HighBillsAndSubscriptionsCost Insight when cobrand is not Subscribed, HIGH_BILLS...) -->
+                  <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight</span>
+                  <span class="parameters">(AT-HBnS01, Validate HighBillsAndSubscriptionsCost Insight when cobrand is not Subscribed, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, BANK, CARD, SCHEDULE, 16441, InsightPDV.bank15, bank15, , 1, account, , , , , 0, TRUE, FALSE, , HighBillsAndSubscriptionCost.json, , , , , , , Account, 201, TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS07, Validate HighBillsAndSubscriptionsCost Insight when threshold is 1000 as AMOUNT and 101 P...)">
+                  </a> <!-- testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS07, Validate HighBillsAndSubscriptionsCost Insight when threshold is 1000 as AMOUNT and 101 P...) -->
+                  <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight</span>
+                  <span class="parameters">(AT-HBnS07, Validate HighBillsAndSubscriptionsCost Insight when threshold is 1000 as AMOUNT and 101 PERCENT with diff duration, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, CHANGE,1000,AMOUNT CHANGE,101,PERCENT, , , , 1, TRUE, , TRUE, HighBillsAndSubscriptionCost.json, LAST_SIX_MONTHS, , , , , , Account, 201, TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+        </div> <!-- panel TestAll -->
+        <div panel-name="test-xml-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rshrivastav\Perforce\V2_AutomationInsight\razor\ysl\wellness\modules\APITestSuite\src\test\resources\InsightsV2_ScheduleFeedsAPISuite_Ravi.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;TestAll&quot; parallel=&quot;methods&quot;&gt;
+  &lt;parameter name=&quot;environment&quot; value=&quot;NonDocker&quot;/&gt;
+  &lt;parameter name=&quot;hybrid&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;release_name&quot; value=&quot;Version2&quot;/&gt;
+  &lt;parameter name=&quot;isFirstRun&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;isStaticComparable&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;isDiffyEnabled&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;getApiVersion&quot; value=&quot;2&quot;/&gt;
+  &lt;parameter name=&quot;isUserStatic&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;config_file&quot; value=&quot;Config_NonDocker_Insights_V2.properties&quot;/&gt;
+  &lt;parameter name=&quot;updateApiVersion&quot; value=&quot;2&quot;/&gt;
+  &lt;parameter name=&quot;healthCheckUp&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;suiteName&quot; value=&quot;Insights SCHEDULE Feeds Suite - Ravi&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.yodlee.yodleeApi.listener.CustomListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.omni.pfm.listeners.ReportGenerator&quot;/&gt;
+    &lt;listener class-name=&quot;com.yodlee.yodleeApi.listener.YodleeApiListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;GET Feeds - High Bills And Subscriptions&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GET Feeds - High Bills And Subscriptions --&gt;
+&lt;/suite&gt; &lt;!-- TestAll --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GET Feeds - High Bills And Subscriptions (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestAll');
+function tableData_TestAll() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGetNotificationsForHighBillsAndSubscriptionsCostInsight')
+data.setCell(0, 2, 'com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost')
+data.setCell(0, 3, 165435);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGetNotificationsForHighBillsAndSubscriptionsCostInsight')
+data.setCell(1, 2, 'com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost')
+data.setCell(1, 3, 98049);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetNotificationsForHighBillsAndSubscriptionsCostInsight')
+data.setCell(2, 2, 'com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost')
+data.setCell(2, 3, 97698);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testGetNotificationsForHighBillsAndSubscriptionsCostInsight')
+data.setCell(3, 2, 'com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost')
+data.setCell(3, 3, 97397);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testGetNotificationsForHighBillsAndSubscriptionsCostInsight')
+data.setCell(4, 2, 'com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost')
+data.setCell(4, 3, 66942);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testGetNotificationsForHighBillsAndSubscriptionsCostInsight')
+data.setCell(5, 2, 'com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost')
+data.setCell(5, 3, 64639);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testGetNotificationsForHighBillsAndSubscriptionsCostInsight')
+data.setCell(6, 2, 'com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost')
+data.setCell(6, 3, 60110);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGetNotificationsForHighBillsAndSubscriptionsCostInsight')
+data.setCell(7, 2, 'com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost')
+data.setCell(7, 3, 59944);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testGetNotificationsForHighBillsAndSubscriptionsCostInsight')
+data.setCell(8, 2, 'com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost')
+data.setCell(8, 3, 54031);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testGetNotificationsForHighBillsAndSubscriptionsCostInsight')
+data.setCell(9, 2, 'com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost')
+data.setCell(9, 3, 17139);
+window.suiteTableData['TestAll']= { tableData: data, tableDiv: 'times-div-TestAll'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 minutes</span>
+              <div id="times-div-TestAll">
+              </div> <!-- times-div-TestAll -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpTest(Config_NonDocker_Insights_V2.properties, , false, 2, 2, True, false, false, false, false, false, Leg...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-suite before">
+                <span class="method-name">yccInit(null, null)</span>
+                <span class="method-start">5435 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5661 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializations</span>
+                <span class="method-start">8710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS01, Validate HighBillsAndSubscriptionsCost Insight when cobrand is not Subscribed, HIGH_BILLS...)</span>
+                <span class="method-start">8710 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS02, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is no...)</span>
+                <span class="method-start">174724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS03, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is no...)</span>
+                <span class="method-start">272374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS04, Validate HighBillsAndSubscriptionsCost Insight when cobrand is subscribed  for different ...)</span>
+                <span class="method-start">326648 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS05, Validate HighBillsAndSubscriptionsCost Insight when user patch Threshold only AMOUNt and ...)</span>
+                <span class="method-start">387055 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS06, Validate HighBillsAndSubscriptionsCost Insight when Threshold is patched and with user Su...)</span>
+                <span class="method-start">454141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS07, Validate HighBillsAndSubscriptionsCost Insight when threshold is 1000 as AMOUNT and 101 P...)</span>
+                <span class="method-start">552420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS08, Validate HighBillsAndSubscriptionsCost Insight when threshold is 1 as AMOUNT and 1 PERCEN...)</span>
+                <span class="method-start">569664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS09, Validate HighBillsAndSubscriptionsCost Insight when threshold is 500 as AMOUNT and 50 PER...)</span>
+                <span class="method-start">629786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetNotificationsForHighBillsAndSubscriptionsCostInsight(AT-HBnS10, Reset HighBIlls and Subscription to default values, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BAS...)</span>
+                <span class="method-start">694590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">unRegisteredUser</span>
+                <span class="method-start">792563 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">shutDownHook</span>
+                <span class="method-start">803637 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

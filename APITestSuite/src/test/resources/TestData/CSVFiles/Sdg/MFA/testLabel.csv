@@ -1,0 +1,7 @@
+tcId,testCaseName,dagSite,array,providerId,dagUN,dagPwd,enabled
+AT-91274,Add MFA Account for 16486 site,SecurityQA,loginform,16486,MFAAutomation.site16486.1,site16486.1,TRUE
+AT-91274,Add MFA Account for 16486 site  fieldArray,SecurityQA,fieldarray,16486,MFAAutomation.site16486.1,site16486.1,TRUE
+AT-91276,Add MFA Account for 16442 site,MultiLevel,loginform,16442,MFAAutomation.site16442.1,site16442.1,TRUE
+AT-91276,Add MFA Account for 16442 site fieldArray,MultiLevel,fieldarray,16442,MFAAutomation.site16442.1,site16442.1,TRUE
+AT-91288,Add MFA Account for 16486 site Q&A has fieldArray,SecurityQAField,loginform,16486,MFAAutomation.site16486.1,site16486.1,TRUE
+AT-91288,"Add MFA Account for 16486 fieldArray site, Q&A has fieldArray",SecurityQAField,fieldarray,16486,MFAAutomation.site16486.1,site16486.1,TRUE

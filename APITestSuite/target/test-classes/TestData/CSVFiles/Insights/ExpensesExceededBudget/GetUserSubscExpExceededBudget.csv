@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-146950,"Validate ExpensesExceededBudget , Validate InsightName",,ExpensesExceededBudget,ExpensesExceededBudget,,,,,,,,,,,,200,TRUE
+AT-146951,"Validate ExpensesExceededBudget , Validate Supporting container",,ExpensesExceededBudget,,,BANK,,,,,,,,,,200,TRUE
+AT-146952,"Validate ExpensesExceededBudget , Validate TriggerType",REFRESH,ExpensesExceededBudget,,,,,,,,,,,,,200,TRUE
+AT-146953,"Validate ExpensesExceededBudget , Validate applicableEntity",,ExpensesExceededBudget,,,,,,ACCOUNT_GROUP,,,,,,,200,TRUE
+AT-146954,"Validate ExpensesExceededBudget , Validate number of levels and levelObject",,ExpensesExceededBudget,,,,,,ACCOUNT_GROUP,accountGroup,,,,,,200,TRUE
+AT-146955,"Validate ExpensesExceededBudget , Validate isSubscribed=false",,ExpensesExceededBudget,,,,,,,,FALSE,,,,,200,TRUE
+AT-146956,"Validate ExpensesExceededBudget , Validate threshold Name,Value and Type",,ExpensesExceededBudget,,,,,,,accountGroup,,,,,,200,TRUE
+AT-146957,"Validate ExpensesExceededBudget , Validate insightKeys",,ExpensesExceededBudget,,,,AccountGroup,,,,,,,,,200,TRUE
+AT-146958,"Validate ExpensesExceededBudget , Validate description",,ExpensesExceededBudget,,,,,Generates an insight when actual spending is more than budgeted spending for the current month.,,,,,,,,200,TRUE
+AT-146959,"Validate ExpensesExceededBudget , Validate title",,ExpensesExceededBudget,,Spending Exceeded Budget,,,,,,,,,,,200,TRUE
+AT-146960,"Validate ExpensesExceededBudget , Validate ruleExpression",,ExpensesExceededBudget,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-146961,"Validate ExpensesExceededBudget , verify entityParameter and configMeta are same",,ExpensesExceededBudget,,,,,,,,,,,,TRUE,200,TRUE

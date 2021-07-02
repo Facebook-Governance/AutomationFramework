@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+
+	<!-- <parameter name="coBrand" value="YCOM_L1" />
+	<parameter name="loginType" value="L1Node" /> -->
+	<parameter name="browser" value="chrome" />
+	<parameter name="runOnBrowserStack" value="false" />
+	<parameter name="bs_username" value="yodleebrowsersta1" />
+	<parameter name="bs_automate_key"
+		value="pzyoTJ6embZ48zsufsF2" />
+	<parameter name="browser_version" value="43" />
+	<parameter name="platformName" value="OS X" />
+	<parameter name="platformVersion" value="YOSEMITE" />
+	<parameter name="elpamEnabled" value="true" />
+	<parameter name="appFlag" value="false" />
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="suiteName"
+		value="Categorization Rule Regresssion" />
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.omni.pfm.listeners.CustomListener" />
+		<listener
+			class-name="com.automation.rdashboard.ReportDashboardPlugin" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+	</listeners>
+
+	<test name="CategorizationRule Test Case" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.CategorizationRules.Categorization_RulesPFM_Test">
+				<methods>
+					<exclude name="testRunIndividualRule"></exclude>
+					<exclude name="testNoRecategorizing"></exclude>
+					<exclude name="testNoRecategorizing2"></exclude>
+					<exclude name="testAfterModifiedPriorities1"></exclude>
+					<exclude name="testCreateEditDeleteRule1"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

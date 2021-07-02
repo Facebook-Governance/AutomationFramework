@@ -1,0 +1,184 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "insightName": {
+      "type": "string"
+    },
+    "insightTitle": {
+      "type": "string"
+    },
+    "insightType": {
+      "type": "string"
+    },
+    "triggerType": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "string"
+    },
+    "subscription": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "entityId": {
+              "type": "string"
+            },
+            "entityType": {
+              "type": "string"
+            },
+            "frequency": {
+              "type": "string"
+            },
+            "threshold": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "value",
+                    "type"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "entityId",
+            "entityType",
+            "frequency",
+            "threshold"
+          ]
+        }
+      ]
+    },
+    "investmentAccount": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "isAsset": {
+              "type": "boolean"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            },
+            "basicHolding": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "accountId": {
+                      "type": "integer"
+                    },
+                    "link": {
+                      "type": "object",
+                      "properties": {
+                        "entityName": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "entityName",
+                        "url"
+                      ]
+                    },
+                    "holdingType": {
+                      "type": "string"
+                    },
+                    "maturityDate": {
+                      "type": "string"
+                    },
+                    "asOf": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "accountId",
+                    "link",
+                    "holdingType",
+                    "maturityDate",
+                    "asOf"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "isAsset",
+            "container",
+            "link",
+            "basicHolding"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "insightName",
+    "insightTitle",
+    "insightType",
+    "triggerType",
+    "createdDate",
+    "subscription",
+    "investmentAccount"
+  ]
+}

@@ -1,0 +1,47 @@
+<entity type="multiple">
+	<request>
+	<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>SdgAutoCatalog.site16442.1</siteUser>
+			<siteUserId>65501</siteUserId>
+			<sitePwd>site16442.1</sitePwd>
+			<sitePwdId>65502</sitePwdId>
+			<siteId>16442</siteId>
+			<dataList>
+				<dataset>
+					<name>ACCT_PROFILE</name>
+					<attributeList>
+						<attribute>
+							<name>HOLDER_DETAILS</name>
+							<container>bank</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+	</add-provider-accounts-multiple>
+	<update-provider-accounts-multiple>
+		<update-provider-accounts order="1">
+			<token>123456</token>
+			<answer1>Texas</answer1>
+			<answer2>w3schools</answer2>
+		</update-provider-accounts>
+	</update-provider-accounts-multiple>
+	<get-userProfile-multiple>
+		<get-userProfile order="1">
+			<provideraccountId/>
+			<noOfProviderAccounts/>
+		</get-userProfile>
+	</get-userProfile-multiple>
+	</request>
+	<response>
+	<userProfile-multiple>
+		<userProfile order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/PII/</filePath>
+				<responseFile>pii_NoProviderAccountIds.json</responseFile>
+			</row>
+		</userProfile>
+	</userProfile-multiple>
+	</response>
+</entity>

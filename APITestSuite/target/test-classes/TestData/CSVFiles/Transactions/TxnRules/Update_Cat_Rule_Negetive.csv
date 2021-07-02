@@ -1,0 +1,15 @@
+TestCaseId,TestCaseName,categoryId,priority,descriptionOperation,descriptionValue,amountOperation,amountValue,statusCode,updateDescriptionOperation,UpdateDescriptionValue,updateAmountOperation,updateAmountvalue,updatedStatusCode,ResFile,FilePath,DefectID,Enabled
+67040,Empty updateDescOp,3,1,stringContains,Depositÿ,numberLessThan,2000,201,,trans,numberEquals,1100,400,T-UCR-02,../src/test/resources/TestData/Transactions/TxnRule/UpdateTxnCatRule/,0,TRUE
+67045,Empty updateDescOp,3,7,stringEquals,Depositÿ,numberLessThan,2000,201,,Din,numberLessThanEquals,2550,400,T-UCR-09,../src/test/resources/TestData/Transactions/TxnRule/UpdateTxnCatRule/,0,TRUE
+67047,Invalid update amt value,20,9,stringEquals,Dining,numberLessThanEquals,2300,201,stringContains,champ123,numberGreaterThanEquals,dfd@#,400,T-UCR-11,../src/test/resources/TestData/Transactions/TxnRule/UpdateTxnCatRule/,0,TRUE
+67050,Empty update descOp,3,-1,stringContains,Depositÿ,numberLessThan,2000,400,,Dining,numberGreaterThanEquals,280,400,T-UCR-58,../src/test/resources/TestData/Transactions/TxnRule/UpdateTxnCatRule/,0,TRUE
+67053,Empty update discOp,15,-1,stringContains,Dining,numberGreaterThanEquals,800,201,,tra,numberGreaterThanEquals,283,400,T-UCR-61,../src/test/resources/TestData/Transactions/TxnRule/UpdateTxnCatRule/,0,TRUE
+67055,Empty updateDescOp,3,-1,stringEquals,Depositÿ,numberLessThan,2000,400,,Depositÿ,numberGreaterThanEquals,287,400,T-UCR-65,../src/test/resources/TestData/Transactions/TxnRule/UpdateTxnCatRule/,0,TRUE
+67057,Empty updateDescOp,20,-1,stringEquals,Dining,numberLessThanEquals,2300,400,,Check,numberGreaterThanEquals,289,400,T-UCR-67,../src/test/resources/TestData/Transactions/TxnRule/UpdateTxnCatRule/,0,TRUE
+67059,Invalid categoryIds,1,-1,stringContains,Dining,numberEquals,543,201,,Depositÿ,numberGreaterThanEquals,335,400,T-UCR-113,../src/test/resources/TestData/Transactions/TxnRule/UpdateTxnCatRule/,0,TRUE
+67060,Invalid categoryIds,3,-1,stringContains,Depositÿ,numberLessThan,2000,400,stringContains,Dining,numberGreaterThanEquals,336,400,T-UCR-114,../src/test/resources/TestData/Transactions/TxnRule/UpdateTxnCatRule/,0,TRUE
+67063,Invalid categoryIds,15,-1,stringContains,Dining,numberGreaterThanEquals,800,400,,Din,numberGreaterThanEquals,339,400,T-UCR-117,../src/test/resources/TestData/Transactions/TxnRule/UpdateTxnCatRule/,0,TRUE
+67065,Invalid categoryIds,3,-1,stringEquals,Depositÿ,numberLessThan,2000,400,stringContains,tra,numberGreaterThanEquals,343,400,T-UCR-121,../src/test/resources/TestData/Transactions/TxnRule/UpdateTxnCatRule/,0,TRUE
+67067,Invalid categoryIds,20,-1,stringEquals,Dining,numberLessThanEquals,2300,400,,Depo,numberGreaterThanEquals,345,400,T-UCR-123,../src/test/resources/TestData/Transactions/TxnRule/UpdateTxnCatRule/,0,TRUE
+67069,Invalid Amt value,1,1,stringContains,Dinings,numberEquals,54,201,stringEquals,sss,numberLessThan,1.00E+32,400,T-UCR-673,../src/test/resources/TestData/Transactions/TxnRule/UpdateTxnCatRule/,0,TRUE
+67070,Invalid Amt value,1,1,stringContains,Dini,numberEquals,54000,201,stringEquals,asd,numberLessThan,-9,400,T-UCR-674,../src/test/resources/TestData/Transactions/TxnRule/UpdateTxnCatRule/,0,TRUE

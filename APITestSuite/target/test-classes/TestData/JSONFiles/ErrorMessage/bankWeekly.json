@@ -1,0 +1,228 @@
+{
+  "account": [
+    {
+      "balances": [
+        {
+          "date": 2,
+          "balance": {
+            "amount": 16644.78,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 9,
+          "balance": {
+            "amount": 16644.78,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 16,
+          "balance": {
+            "amount": 16644.78,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 23,
+          "balance": {
+            "amount": 16644.78,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 30,
+          "balance": {
+            "amount": 16644.78,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 37,
+          "balance": {
+            "amount": 16644.78,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 44,
+          "balance": {
+            "amount": 16644.78,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 51,
+          "balance": {
+            "amount": 16644.78,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 58,
+          "balance": {
+            "amount": 16644.78,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 65,
+          "balance": {
+            "amount": 16644.78,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 72,
+          "balance": {
+            "amount": 16644.78,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 79,
+          "balance": {
+            "amount": 16644.78,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 86,
+          "balance": {
+            "amount": 16644.78,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 93,
+          "balance": {
+            "amount": 16644.78,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 8,
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 10,
+          "balance": {
+            "amount": 1000,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": 17,
+          "balance": {
+            "amount": 2000,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": 24,
+          "balance": {
+            "amount": 3000,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": 31,
+          "balance": {
+            "amount": 4100.01,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 38,
+          "balance": {
+            "amount": 4100.01,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 41,
+          "balance": {
+            "amount": 5100.01,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": 48,
+          "balance": {
+            "amount": 6100.01,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": 55,
+          "balance": {
+            "amount": 7100.01,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": 62,
+          "balance": {
+            "amount": 8200.02,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 69,
+          "balance": {
+            "amount": 9200.02,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": 71,
+          "balance": {
+            "amount": 10200.02,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": 78,
+          "balance": {
+            "amount": 11200.02,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": 85,
+          "balance": {
+            "amount": 12200.02,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": 92,
+          "balance": {
+            "amount": 12200.02,
+            "currency": "USD"
+          }
+        }
+      ],
+      "isAsset": true,
+      "CONTAINER": "bank",
+      "id": "${json-unit.ignore}"
+    }
+  ]
+}

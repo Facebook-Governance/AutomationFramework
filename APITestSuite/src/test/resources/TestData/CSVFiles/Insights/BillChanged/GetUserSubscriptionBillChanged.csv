@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-BillCh45,"Validate BillChanged , Validate InsightName",,BillChanged,BillChanged,Bill Changed,"BANK, CARD",,,,"ACCOUNT, VIEW","account, view","FALSE, FALSE",,"CHANGE,10,AMOUNT   CHANGE,10,PERCENT CHANGE,10,AMOUNT   CHANGE,10,PERCENT",,,200,TRUE
+AT-BillCh46,"Validate BillChanged , Validate Supporting container",,BillChanged,,,BANK,,,,,,,,,,,200,TRUE
+AT-BillCh47,"Validate BillChanged , Validate TriggerType",EVENT,BillChanged,,,,,,,,,,,,,,200,TRUE
+AT-BillCh48,"Validate BillChanged , Validate applicableEntity",,BillChanged,,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-BillCh49,"Validate BillChanged , Validate number of levels and levelObject",,BillChanged,,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-BillCh50,"Validate BillChanged , Validate isSubscribed=false",,BillChanged,,,,,,,,account,FALSE,,,,,200,TRUE
+AT-BillCh51,"Validate BillChanged , Validate threshold Name,Value and Type",,BillChanged,,,,,,,,account,,,"CHANGE,100,AMOUNT   CHANGE,10,PERCENT",,,200,TRUE
+AT-BillCh52,"Validate BillChanged , Validate description",,BillChanged,,,,,,Generates an insight when a recurring salary changes by more than a configured threshold.,,,,,,,,200,TRUE
+AT-BillCh53,"Validate BillChanged , Validate title",,BillChanged,,Bill Changed,,,,,,,,,,,,200,TRUE
+AT-BillCh54,"Validate BillChanged , Validate ruleExpression",,BillChanged,,,,,,,,,,,,,,200,TRUE
+AT-BillCh55,"Validate BillChanged , Validate total number of keys ",,BillChanged,,,,,17,,,,,,,,,200,TRUE

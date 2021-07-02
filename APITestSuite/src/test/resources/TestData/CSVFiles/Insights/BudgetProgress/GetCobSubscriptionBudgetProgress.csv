@@ -1,0 +1,14 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,insightType,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-148510,"getCobrandSubscription - Validate BudgetProgress , check if Insight is unSubscribed to OR isSubscribed=false ",,BudgetProgress,BudgetProgress,,,,,,,,FALSE,OTHER,DAILY,,,200,TRUE
+AT-148511,"getCobrandSubscription - Validate BudgetProgress , Validate InsightName",,BudgetProgress,BudgetProgress,,,,,,,,,OTHER,DAILY,,,200,TRUE
+AT-148512,"getCobrandSubscription - Validate BudgetProgress , Validate Supporting container",,BudgetProgress,,,"BANK,CARD",,,,,,,OTHER,DAILY,,,200,TRUE
+AT-148513,"getCobrandSubscription - Validate BudgetProgress , Validate TriggerType",SCHEDULE,BudgetProgress,,,,,,,,,,OTHER,DAILY,,,200,TRUE
+AT-148514,"getCobrandSubscription - Validate BudgetProgress , Validate applicableEntity",,BudgetProgress,,,,,,,VIEW,,,OTHER,DAILY,,,200,TRUE
+AT-148515,"getCobrandSubscription - Validate BudgetProgress , Validate number of levels and levelObject",,BudgetProgress,,,,,,,VIEW,view,,OTHER,WEEKLY,,,200,TRUE
+AT-148516,"getCobrandSubscription - Validate BudgetProgress , Validate isSubscribed=false",,BudgetProgress,,,,,,,,,FALSE,OTHER,DAILY,,,200,TRUE
+AT-148517,"getCobrandSubscription - Validate BudgetProgress , Validate threshold Name,default Value  and Type",,BudgetProgress,,,,,,,,view,,OTHER,WEEKLY,,,200,TRUE
+AT-148518,"getCobrandSubscription - Validate BudgetProgress , Validate insightKeys",,BudgetProgress,,,,View,,,,,,OTHER,DAILY,,,200,TRUE
+AT-148519,"getCobrandSubscription - Validate BudgetProgress , Validate description",,BudgetProgress,,,,,,Generates an insight that provides information about budget progress.,,,,OTHER,DAILY,,,200,TRUE
+AT-148520,"getCobrandSubscription - Validate BudgetProgress , Validate title",,BudgetProgress,,Budget Progress,,,,,,,,OTHER,DAILY,,,200,TRUE
+AT-148521,"getCobrandSubscription - Validate BudgetProgress , Validate ruleExpression",,BudgetProgress,,,,,,,,,,OTHER,DAILY,,checkRuleExpressionIfPresent,200,TRUE
+AT-148522,"getCobrandSubscription - Validate BudgetProgress , Validate total number of keys",,BudgetProgress,,,,,11,,,,,OTHER,DAILY,,,200,TRUE

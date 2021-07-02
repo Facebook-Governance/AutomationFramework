@@ -1,0 +1,14 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-147386,"getUserSubscription - Validate BillNotPaid , Validate InsightName",,BillNotPaid,BillNotPaid,,,,,,,,,,,,,200,TRUE
+AT-147395,"getUserSubscription - Validate BillNotPaid , Validate Supporting container",,BillNotPaid,,,"BANK,CARD",,,,,,,,,,,200,TRUE
+AT-147393,"getUserSubscription - Validate BillNotPaid , Validate TriggerType",SCHEDULE,BillNotPaid,,,,,,,,,,,,,,200,TRUE
+AT-147390,"getUserSubscription - Validate BillNotPaid , Validate applicableEntity",,BillNotPaid,,,,,,,"ACCOUNT,VIEW",account  view,,,,,,200,TRUE
+AT-147385,"getUserSubscription - Validate BillNotPaid , Validate number of levels and levelObject",,BillNotPaid,,,,,,,"ACCOUNT,VIEW",account view,,,,,,200,TRUE
+AT-147394,"getUserSubscription - Validate BillNotPaid , Validate isSubscribed=false",,BillNotPaid,,,,,,,,,FALSE,,,,,200,TRUE
+AT-147388,"getUserSubscription - Validate BillNotPaid , Validate threshold Name,Value and Type",,BillNotPaid,,,,,,,"ACCOUNT,VIEW","account,view",,,"DELAY,3,DAYS  DELAY,3,DAYS",,,200,TRUE
+AT-147389,"getUserSubscription - Validate BillNotPaid , Validate insightKeys",,BillNotPaid,,,,Account,,,,,,,,,,200,TRUE
+AT-147384,"getUserSubscription - Validate BillNotPaid , Validate description",,BillNotPaid,,,,,,Generates an insight if a recurring bill has not been paid for more than a configured number of days.,,,,,,,,200,TRUE
+AT-147396,"getUserSubscription - Validate BillNotPaid , Validate title",,BillNotPaid,,Bill Not Paid,,,,,,,,,,,,200,TRUE
+AT-147391,"getUserSubscription - Validate BillNotPaid , Validate ruleExpression",,BillNotPaid,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-147392,"getUserSubscription - Validate BillNotPaid , Validate total number of keys",,BillNotPaid,,,,,16,,,,,,,,,200,TRUE
+AT-147387,"getUserSubscription - Validate BillNotPaid , Validate insightKeys View",,BillNotPaid,,,,View,,,,,,,,,,200,TRUE

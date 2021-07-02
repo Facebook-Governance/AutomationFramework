@@ -1,0 +1,76 @@
+{
+	"account": [
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "accountHolder"
+					}
+				}
+			],
+			"accountName": "TESTDATA1",
+			"isManual": false,
+			"currentBalance": {
+				"amount": 0,
+				"currency": "USD"
+			},
+			"accountType": "RECURRING_DEPOSIT",
+			"accountNumber": "503-5623xxx",
+			"availableBalance": {
+				"amount": 65454.78,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "INACTIVE",
+			"isAsset": true,
+			"balance": {
+				"amount": 0,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"CONTAINER": "bank",
+			"providerName": "Dag Site"
+		},
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "accountHolder"
+					}
+				}
+			],
+			"accountName": "TESTDATA1",
+			"isManual": false,
+			"currentBalance": {
+				"amount": 0,
+				"currency": "USD"
+			},
+			"accountType": "PPF",
+			"accountNumber": "503-5623xxx",
+			"availableBalance": {
+				"amount": 65454.78,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "INACTIVE",
+			"isAsset": true,
+			"balance": {
+				"amount": 0,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"CONTAINER": "bank",
+			"providerName": "Dag Site"
+		}
+	]
+}

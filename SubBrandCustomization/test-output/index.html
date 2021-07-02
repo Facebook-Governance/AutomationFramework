@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation">
+              <span class="suite-name border-failed">Sub Brand Management Portal Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Sub_Brand_Management_Portal_Automation">
+                    <span>C:\Users\rshrivastav\Perforce\Sub-brandingTool\razor\apphub\appdev\automation\dev\SubBrandCustomization\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Sub_Brand_Management_Portal_Automation">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Sub_Brand_Management_Portal_Automation">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Sub_Brand_Management_Portal_Automation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Sub_Brand_Management_Portal_Automation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Sub_Brand_Management_Portal_Automation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Sub_Brand_Management_Portal_Automation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">43 methods, 3 failed,   40 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Sub_Brand_Management_Portal_Automation" class="hide-methods failed suite-Sub_Brand_Management_Portal_Automation"> (hide)</a> <!-- hide-methods failed suite-Sub_Brand_Management_Portal_Automation -->
+                      <a href="#" panel-name="suite-Sub_Brand_Management_Portal_Automation" class="show-methods failed suite-Sub_Brand_Management_Portal_Automation"> (show)</a> <!-- show-methods failed suite-Sub_Brand_Management_Portal_Automation -->
+                    </span>
+                    <div class="method-list-content failed suite-Sub_Brand_Management_Portal_Automation">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.EditSubBrand" hash-for-method="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000001, TRUE, CreateChannelPartnerWithSingleJWTAndEditChangeToSubBrandEnableSAMLDisableJWT, 1.1.1...)">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000001, TRUE, CreateChannelPartnerWithSingleJWTAndEditChangeToSubBrandEnableSAMLDisableJWT, 1.1.1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.EditSubBrand" hash-for-method="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000002, TRUE, CreateChannelPartnerWithSAMLAndEditChangeToSubBrandAndEnableJWTDisableSAML, 1.1.1.1...)">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000002, TRUE, CreateChannelPartnerWithSAMLAndEditChangeToSubBrandAndEnableJWTDisableSAML, 1.1.1.1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrandAndCustomize" hash-for-method="testCreateSubBrandCustomizePublishAndViewSubBrandOverview(AT-000001, TRUE, SubBrand-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML;...)">testCreateSubBrandCustomizePublishAndViewSubBrandOverview(AT-000001, TRUE, SubBrand-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML;...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Sub_Brand_Management_Portal_Automation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Sub_Brand_Management_Portal_Automation" class="hide-methods passed suite-Sub_Brand_Management_Portal_Automation"> (hide)</a> <!-- hide-methods passed suite-Sub_Brand_Management_Portal_Automation -->
+                      <a href="#" panel-name="suite-Sub_Brand_Management_Portal_Automation" class="show-methods passed suite-Sub_Brand_Management_Portal_Automation"> (show)</a> <!-- show-methods passed suite-Sub_Brand_Management_Portal_Automation -->
+                    </span>
+                    <div class="method-list-content passed suite-Sub_Brand_Management_Portal_Automation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testContactDetailsNegativeValidations(AT-000003, TRUE, InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters)">testContactDetailsNegativeValidations(AT-000003, TRUE, InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testContactDetailsNegativeValidations(AT-000002, TRUE, ContactDetailsExceedCharacterLimit)">testContactDetailsNegativeValidations(AT-000002, TRUE, ContactDetailsExceedCharacterLimit)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testContactDetailsNegativeValidations(AT-000001, TRUE, EmptyContactDetails)">testContactDetailsNegativeValidations(AT-000001, TRUE, EmptyContactDetails)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testContactDetailsNegativeValidations(AT-000004, TRUE, ContactUserIdNoSpecialCharacters)">testContactDetailsNegativeValidations(AT-000004, TRUE, ContactUserIdNoSpecialCharacters)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.EditSubBrand" hash-for-method="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000004, FALSE, CreateChannelPartnerWIithSAMLAndSingleJWTAndEditChangeToSubBrandAndAddAnotherJWT, ...)">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000004, FALSE, CreateChannelPartnerWIithSAMLAndSingleJWTAndEditChangeToSubBrandAndAddAnotherJWT, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.EditSubBrand" hash-for-method="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000006, FALSE, CreateSubBrandWithSAMLAndEditChangeToChannelPartnerAndEnableJWTDisableSAML, 1.1.1....)">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000006, FALSE, CreateSubBrandWithSAMLAndEditChangeToChannelPartnerAndEnableJWTDisableSAML, 1.1.1....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.EditSubBrand" hash-for-method="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000003, FALSE, CreateChannelPartnerWithSingleJWTAndEditChangeToSubBrandAndAddAnotherJWTEnableSAML...)">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000003, FALSE, CreateChannelPartnerWithSingleJWTAndEditChangeToSubBrandAndAddAnotherJWTEnableSAML...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.EditSubBrand" hash-for-method="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000007, FALSE, CreateSubBrandWIithSingleJWTAndEditChangeToChannelPartnerAndAddAnotherJWTEnableSAM...)">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000007, FALSE, CreateSubBrandWIithSingleJWTAndEditChangeToChannelPartnerAndAddAnotherJWTEnableSAM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.EditSubBrand" hash-for-method="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000005, FALSE, CreateSubBrandWithSingleJWTAndEditChangeToChannelPartnerEnableSAMLDisableJWT, 1.1....)">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000005, FALSE, CreateSubBrandWithSingleJWTAndEditChangeToChannelPartnerEnableSAMLDisableJWT, 1.1....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.EditSubBrand" hash-for-method="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000008, FALSE, CreateSubBrandWIithSAMLAndSingleJWTAndEditChangeToChannelPartnerAndAddAnotherJWT, ...)">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000008, FALSE, CreateSubBrandWIithSAMLAndSingleJWTAndEditChangeToChannelPartnerAndAddAnotherJWT, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testCreateAndViewSubBrandOverView(AT-000001, FALSE, SubBrand-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, JWT, test...)">testCreateAndViewSubBrandOverView(AT-000001, FALSE, SubBrand-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, JWT, test...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testCreateAndViewSubBrandOverView(AT-000006, TRUE, ChannelPartner-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Pa...)">testCreateAndViewSubBrandOverView(AT-000006, TRUE, ChannelPartner-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testCreateAndViewSubBrandOverView(AT-000005, TRUE, SubBrand-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML;...)">testCreateAndViewSubBrandOverView(AT-000005, TRUE, SubBrand-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML;...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testCreateAndViewSubBrandOverView(AT-000002, FALSE, ChannelPartner-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Partne...)">testCreateAndViewSubBrandOverView(AT-000002, FALSE, ChannelPartner-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Partne...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testCreateAndViewSubBrandOverView(AT-000003, FALSE, SubBrand-SAML-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML, te...)">testCreateAndViewSubBrandOverView(AT-000003, FALSE, SubBrand-SAML-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML, te...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testCreateAndViewSubBrandOverView(AT-000004, FALSE, ChannelPartner-SAML-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Partn...)">testCreateAndViewSubBrandOverView(AT-000004, FALSE, ChannelPartner-SAML-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Partn...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.EditSubBrand" hash-for-method="testEditFlowStepperLinksAndBackLinksAndButton">testEditFlowStepperLinksAndBackLinksAndButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testGeneralConfigurationNegativeValidations(AT-000002, TRUE, DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters)">testGeneralConfigurationNegativeValidations(AT-000002, TRUE, DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testGeneralConfigurationNegativeValidations(AT-000004, TRUE, InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed)">testGeneralConfigurationNegativeValidations(AT-000004, TRUE, InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testGeneralConfigurationNegativeValidations(AT-000003, TRUE, MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters)">testGeneralConfigurationNegativeValidations(AT-000003, TRUE, MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testGeneralConfigurationNegativeValidations(AT-000001, TRUE, EmptySubBrandDomainNameIPAddress)">testGeneralConfigurationNegativeValidations(AT-000001, TRUE, EmptySubBrandDomainNameIPAddress)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testPrivateAuthSetupNegativeValidations(AT-000001, TRUE, NoLoginMechanism, None)">testPrivateAuthSetupNegativeValidations(AT-000001, TRUE, NoLoginMechanism, None)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testPrivateAuthSetupNegativeValidations(AT-000002, TRUE, EmptyDetails, SAML;JWT)">testPrivateAuthSetupNegativeValidations(AT-000002, TRUE, EmptyDetails, SAML;JWT)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testPrivateAuthSetupNegativeValidations(AT-000003, TRUE, MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit, SAML;JWT)">testPrivateAuthSetupNegativeValidations(AT-000003, TRUE, MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit, SAML;JWT)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testPrivateAuthSetupNegativeValidations(AT-000004, TRUE, MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey, SAML;JWT)">testPrivateAuthSetupNegativeValidations(AT-000004, TRUE, MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey, SAML;JWT)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testProductsAndAppSelectionNegativeValidations(AT-000002, TRUE, NothingEnabled, SAML;JWT, testcredpublic, saml, testpublic, testrpublic, 150, TRUE,...)">testProductsAndAppSelectionNegativeValidations(AT-000002, TRUE, NothingEnabled, SAML;JWT, testcredpublic, saml, testpublic, testrpublic, 150, TRUE,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testProductsAndAppSelectionNegativeValidations(AT-000001, TRUE, DefaultSettings, SAML;JWT, testcredpublic, saml, testpublic, testrpublic, 150, TRUE...)">testProductsAndAppSelectionNegativeValidations(AT-000001, TRUE, DefaultSettings, SAML;JWT, testcredpublic, saml, testpublic, testrpublic, 150, TRUE...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testPublicAuthSetupNegativeValidations(AT-000002, TRUE, MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit, SAML;JWT, testcredPrivate...)">testPublicAuthSetupNegativeValidations(AT-000002, TRUE, MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit, SAML;JWT, testcredPrivate...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testPublicAuthSetupNegativeValidations(AT-000001, TRUE, EmptyDetails, SAML;JWT, testcredPrivate, saml, testPrivate, testPrivate, 150, TRUE,...)">testPublicAuthSetupNegativeValidations(AT-000001, TRUE, EmptyDetails, SAML;JWT, testcredPrivate, saml, testPrivate, testPrivate, 150, TRUE,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.CreateSubBrand" hash-for-method="testPublicAuthSetupNegativeValidations(AT-000003, TRUE, MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey, SAML;JWT, testcredPriv...)">testPublicAuthSetupNegativeValidations(AT-000003, TRUE, MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey, SAML;JWT, testcredPriv...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.Login" hash-for-method="testValidateLogin(AT-113117, TRUE, InvalidInput, invalid@pfml1stage, Yodlee@123, Invalid user credentials)">testValidateLogin(AT-113117, TRUE, InvalidInput, invalid@pfml1stage, Yodlee@123, Invalid user credentials)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.Login" hash-for-method="testValidateLogin(AT-113116, TRUE, ValidInput, rajeev@pfml1stage, Yodlee@123, null)">testValidateLogin(AT-113116, TRUE, ValidInput, rajeev@pfml1stage, Yodlee@123, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.Login" hash-for-method="testValidateLogin(AT-113127, TRUE, NoInput, , , Uh-oh! You&#039;ve entered wrong username/ password. Please re-enter creden...)">testValidateLogin(AT-113127, TRUE, NoInput, , , Uh-oh! You've entered wrong username/ password. Please re-enter creden...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.Login" hash-for-method="testValidateLoginPageContents">testValidateLoginPageContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.Login" hash-for-method="testValidateMessageOnClickingForgotPasswordLink">testValidateMessageOnClickingForgotPasswordLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.ViewListOfSubBrands" hash-for-method="testValidateSearchFilterWorksOnlyWhenMinimum3CharacterAreEnteredInSearchFilter">testValidateSearchFilterWorksOnlyWhenMinimum3CharacterAreEnteredInSearchFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.ViewListOfSubBrands" hash-for-method="testValidateSearchForExistingSubBrand">testValidateSearchForExistingSubBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.ViewListOfSubBrands" hash-for-method="testValidateSearchForNonExistantSubBrand">testValidateSearchForNonExistantSubBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.ViewListOfSubBrands" hash-for-method="testValidateSortingByColumnNames">testValidateSortingByColumnNames</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Sub_Brand_Management_Portal_Automation" title="com.yodlee.customizationtool.ViewListOfSubBrands" hash-for-method="testValidateViewListOfSubBrandPageContents">testValidateViewListOfSubBrandPageContents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Sub_Brand_Management_Portal_Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Sub_Brand_Management_Portal_Automation" class="panel Sub_Brand_Management_Portal_Automation">
+          <div class="suite-Sub_Brand_Management_Portal_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.yodlee.customizationtool.CreateSubBrandAndCustomize</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateSubBrandCustomizePublishAndViewSubBrandOverview(AT-000001, TRUE, SubBrand-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML;...)">
+                  </a> <!-- testCreateSubBrandCustomizePublishAndViewSubBrandOverview(AT-000001, TRUE, SubBrand-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML;...) -->
+                  <span class="method-name">testCreateSubBrandCustomizePublishAndViewSubBrandOverview</span>
+                  <span class="parameters">(AT-000001, TRUE, SubBrand-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML;JWT, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Aggregation;Verification, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, RaviRanjan, Shrivastav, RShrivastav@yodlee.com, 9989726351, User1, Jnanesh, CM, Jnanesh.M@yodlee.com, 9872536251, User2, TRUE, FALSE, FALSE, FALSE)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=91.0.4472.77)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IN-L2504&apos;, ip: &apos;192.168.150.183&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\RSHRIV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d8b6d3ef45f0378431fe1ec7ea2ba34
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.yodlee.customizationtool.CreateSubBrandAndCustomize.customizeSubBrand(CreateSubBrandAndCustomize.java:1411)
+	at com.yodlee.customizationtool.CreateSubBrandAndCustomize.testCreateSubBrandCustomizePublishAndViewSubBrandOverview(CreateSubBrandAndCustomize.java:462)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sub_Brand_Management_Portal_Automation-class-failed -->
+          <div class="suite-Sub_Brand_Management_Portal_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.yodlee.customizationtool.EditSubBrand</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000001, TRUE, CreateChannelPartnerWithSingleJWTAndEditChangeToSubBrandEnableSAMLDisableJWT, 1.1.1...)">
+                  </a> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000001, TRUE, CreateChannelPartnerWithSingleJWTAndEditChangeToSubBrandEnableSAMLDisableJWT, 1.1.1...) -->
+                  <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview</span>
+                  <span class="parameters">(AT-000001, TRUE, CreateChannelPartnerWithSingleJWTAndEditChangeToSubBrandEnableSAMLDisableJWT, 1.1.1.1;2.2.2.2, Channel Partner, SAML;JWT, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Aggregation, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Accounts;Transactions;Budget, Transactions;Budget;Accounts, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 9989726351, rshrivastav, Rajeev, AIyer, riyer@yodlee.com, 9882192783, riyer, FALSE, FALSE, FALSE, FALSE, 3.3.3.3;4.4.4.4, Sub-brand, SAML, testCredPrivateEdit, saml, Private_Issuer, Private_sso, 1800, testCredPublicEdit, saml, Public_issuer, Public_sso, 1800, Aggregation, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 7892831730, rshrivastavEdit, Rajeev, AIyer, riyer@yodlee.com, 7896351531, riyerEdit, FALSE, FALSE, TRUE, FALSE, FALSE)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Edit Flow: View List of Sub-Brands Page: Publish Not Completed Even After 5 Minutes. Deployment Status Still Shows:Publish initiated in Public For Sub Brand Lumin14062021140827 expected [true] but found [false]
+	at com.yodlee.customizationtool.EditSubBrand.testCreateAndEditSubBrandAndViewSubBrandOverview(EditSubBrand.java:1597)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000002, TRUE, CreateChannelPartnerWithSAMLAndEditChangeToSubBrandAndEnableJWTDisableSAML, 1.1.1.1...)">
+                  </a> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000002, TRUE, CreateChannelPartnerWithSAMLAndEditChangeToSubBrandAndEnableJWTDisableSAML, 1.1.1.1...) -->
+                  <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview</span>
+                  <span class="parameters">(AT-000002, TRUE, CreateChannelPartnerWithSAMLAndEditChangeToSubBrandAndEnableJWTDisableSAML, 1.1.1.1;2.2.2.2, Sub-brand, SAML;JWT, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Verification, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Transactions;Fincheck, Transactions;Fincheck, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 9735173173, rshrivastav, Rajeev, AIyer, riyer@yodlee.com, 9889361731, riyer, FALSE, FALSE, FALSE, FALSE, 3.3.3.3;4.4.4.4, Sub-brand, SAML, testCredPrivateEdit, saml, Private_Issuer, Private_sso, 1800, testCredPublicEdit, saml, Public_issuer, Public_sso, 1800, Aggregation, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 7892831730, rshrivastavEdit, Rajeev, AIyer, riyer@yodlee.com, 7896351531, riyerEdit, FALSE, TRUE, TRUE, FALSE, FALSE)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Edit Sub-Brand: Contact Details Page: Contact One User Id Text Box Is Enabled In Contact Details Page. expected [true] but found [false],
+	Edit Sub-Brand: Review Page: The Actual And Expected Aggregation Sub Products Do Not Match. Actual is: enabled Expected Is: Document Download enabled expected [Document Download enabled] but found [enabled],
+	Edit Sub-Brand: Review Page: The Actual And Expected Selected Contact 1 Details Do Not Match. Actual is: First Name : RaviRanjan;Last Name : Shrivastav;Contact Number : 9735173173;Email Address : rshrivastav@yodlee.com;User ID : Lumin14062021143002rshrivastav Expected Is: First Name : RaviRanjan;Last Name : Shrivastav;Contact Number : 9735173173;Email Address : rshrivastav@yodlee.com;User ID : Lumin14062021143002rshrivastavEdit expected [First Name : RaviRanjan;Last Name : Shrivastav;Contact Number : 9735173173;Email Address : rshrivastav@yodlee.com;User ID : Lumin14062021143002rshrivastavEdit] but found [First Name : RaviRanjan;Last Name : Shrivastav;Contact Number : 9735173173;Email Address : rshrivastav@yodlee.com;User ID : Lumin14062021143002rshrivastav]
+	at com.yodlee.customizationtool.EditSubBrand.testCreateAndEditSubBrandAndViewSubBrandOverview(EditSubBrand.java:2149)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sub_Brand_Management_Portal_Automation-class-failed -->
+          <div class="suite-Sub_Brand_Management_Portal_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.yodlee.customizationtool.CreateSubBrand</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContactDetailsNegativeValidations(AT-000003, TRUE, InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters)">
+                  </a> <!-- testContactDetailsNegativeValidations(AT-000003, TRUE, InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters) -->
+                  <span class="method-name">testContactDetailsNegativeValidations</span>
+                  <span class="parameters">(AT-000003, TRUE, InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContactDetailsNegativeValidations(AT-000002, TRUE, ContactDetailsExceedCharacterLimit)">
+                  </a> <!-- testContactDetailsNegativeValidations(AT-000002, TRUE, ContactDetailsExceedCharacterLimit) -->
+                  <span class="method-name">testContactDetailsNegativeValidations</span>
+                  <span class="parameters">(AT-000002, TRUE, ContactDetailsExceedCharacterLimit)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContactDetailsNegativeValidations(AT-000001, TRUE, EmptyContactDetails)">
+                  </a> <!-- testContactDetailsNegativeValidations(AT-000001, TRUE, EmptyContactDetails) -->
+                  <span class="method-name">testContactDetailsNegativeValidations</span>
+                  <span class="parameters">(AT-000001, TRUE, EmptyContactDetails)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContactDetailsNegativeValidations(AT-000004, TRUE, ContactUserIdNoSpecialCharacters)">
+                  </a> <!-- testContactDetailsNegativeValidations(AT-000004, TRUE, ContactUserIdNoSpecialCharacters) -->
+                  <span class="method-name">testContactDetailsNegativeValidations</span>
+                  <span class="parameters">(AT-000004, TRUE, ContactUserIdNoSpecialCharacters)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndViewSubBrandOverView(AT-000001, FALSE, SubBrand-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, JWT, test...)">
+                  </a> <!-- testCreateAndViewSubBrandOverView(AT-000001, FALSE, SubBrand-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, JWT, test...) -->
+                  <span class="method-name">testCreateAndViewSubBrandOverView</span>
+                  <span class="parameters">(AT-000001, FALSE, SubBrand-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, JWT, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Aggregation;Verification, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, Ravi Ranjan, Shrivastav, RShrivastav@yodlee.com, 9989726351, User1, Jnanesh, CM, jnanesh.m@yodlee.com, 9872536251, User2, TRUE, FALSE, FALSE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndViewSubBrandOverView(AT-000006, TRUE, ChannelPartner-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Pa...)">
+                  </a> <!-- testCreateAndViewSubBrandOverView(AT-000006, TRUE, ChannelPartner-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Pa...) -->
+                  <span class="method-name">testCreateAndViewSubBrandOverView</span>
+                  <span class="parameters">(AT-000006, TRUE, ChannelPartner-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Partner, SAML;JWT, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Aggregation;Verification, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, Ravi Ranjan, Shrivastav, RShrivastav@yodlee.com, 9989726351, User1, Jnanesh, CM, jnanesh.m@yodlee.com, 9872536251, User2, TRUE, TRUE, FALSE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndViewSubBrandOverView(AT-000005, TRUE, SubBrand-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML;...)">
+                  </a> <!-- testCreateAndViewSubBrandOverView(AT-000005, TRUE, SubBrand-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML;...) -->
+                  <span class="method-name">testCreateAndViewSubBrandOverView</span>
+                  <span class="parameters">(AT-000005, TRUE, SubBrand-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML;JWT, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Aggregation;Verification, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, Ravi Ranjan, Shrivastav, RShrivastav@yodlee.com, 9989726351, User1, Jnanesh, CM, jnanesh.m@yodlee.com, 9872536251, User2, TRUE, FALSE, FALSE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndViewSubBrandOverView(AT-000002, FALSE, ChannelPartner-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Partne...)">
+                  </a> <!-- testCreateAndViewSubBrandOverView(AT-000002, FALSE, ChannelPartner-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Partne...) -->
+                  <span class="method-name">testCreateAndViewSubBrandOverView</span>
+                  <span class="parameters">(AT-000002, FALSE, ChannelPartner-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Partner, JWT, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Aggregation;Verification, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, Ravi Ranjan, Shrivastav, RShrivastav@yodlee.com, 9989726351, User1, Jnanesh, CM, jnanesh.m@yodlee.com, 9872536251, User2, TRUE, TRUE, FALSE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndViewSubBrandOverView(AT-000003, FALSE, SubBrand-SAML-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML, te...)">
+                  </a> <!-- testCreateAndViewSubBrandOverView(AT-000003, FALSE, SubBrand-SAML-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML, te...) -->
+                  <span class="method-name">testCreateAndViewSubBrandOverView</span>
+                  <span class="parameters">(AT-000003, FALSE, SubBrand-SAML-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Aggregation;Verification, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, Ravi Ranjan, Shrivastav, RShrivastav@yodlee.com, 9989726351, User1, Jnanesh, CM, jnanesh.m@yodlee.com, 9872536251, User2, TRUE, FALSE, FALSE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndViewSubBrandOverView(AT-000004, FALSE, ChannelPartner-SAML-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Partn...)">
+                  </a> <!-- testCreateAndViewSubBrandOverView(AT-000004, FALSE, ChannelPartner-SAML-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Partn...) -->
+                  <span class="method-name">testCreateAndViewSubBrandOverView</span>
+                  <span class="parameters">(AT-000004, FALSE, ChannelPartner-SAML-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Partner, SAML, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Aggregation;Verification, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, Ravi Ranjan, Shrivastav, RShrivastav@yodlee.com, 9989726351, User1, Jnanesh, CM, jnanesh.m@yodlee.com, 9872536251, User2, TRUE, TRUE, FALSE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGeneralConfigurationNegativeValidations(AT-000002, TRUE, DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters)">
+                  </a> <!-- testGeneralConfigurationNegativeValidations(AT-000002, TRUE, DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters) -->
+                  <span class="method-name">testGeneralConfigurationNegativeValidations</span>
+                  <span class="parameters">(AT-000002, TRUE, DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGeneralConfigurationNegativeValidations(AT-000004, TRUE, InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed)">
+                  </a> <!-- testGeneralConfigurationNegativeValidations(AT-000004, TRUE, InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed) -->
+                  <span class="method-name">testGeneralConfigurationNegativeValidations</span>
+                  <span class="parameters">(AT-000004, TRUE, InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGeneralConfigurationNegativeValidations(AT-000003, TRUE, MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters)">
+                  </a> <!-- testGeneralConfigurationNegativeValidations(AT-000003, TRUE, MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters) -->
+                  <span class="method-name">testGeneralConfigurationNegativeValidations</span>
+                  <span class="parameters">(AT-000003, TRUE, MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGeneralConfigurationNegativeValidations(AT-000001, TRUE, EmptySubBrandDomainNameIPAddress)">
+                  </a> <!-- testGeneralConfigurationNegativeValidations(AT-000001, TRUE, EmptySubBrandDomainNameIPAddress) -->
+                  <span class="method-name">testGeneralConfigurationNegativeValidations</span>
+                  <span class="parameters">(AT-000001, TRUE, EmptySubBrandDomainNameIPAddress)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrivateAuthSetupNegativeValidations(AT-000001, TRUE, NoLoginMechanism, None)">
+                  </a> <!-- testPrivateAuthSetupNegativeValidations(AT-000001, TRUE, NoLoginMechanism, None) -->
+                  <span class="method-name">testPrivateAuthSetupNegativeValidations</span>
+                  <span class="parameters">(AT-000001, TRUE, NoLoginMechanism, None)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrivateAuthSetupNegativeValidations(AT-000002, TRUE, EmptyDetails, SAML;JWT)">
+                  </a> <!-- testPrivateAuthSetupNegativeValidations(AT-000002, TRUE, EmptyDetails, SAML;JWT) -->
+                  <span class="method-name">testPrivateAuthSetupNegativeValidations</span>
+                  <span class="parameters">(AT-000002, TRUE, EmptyDetails, SAML;JWT)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrivateAuthSetupNegativeValidations(AT-000003, TRUE, MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit, SAML;JWT)">
+                  </a> <!-- testPrivateAuthSetupNegativeValidations(AT-000003, TRUE, MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit, SAML;JWT) -->
+                  <span class="method-name">testPrivateAuthSetupNegativeValidations</span>
+                  <span class="parameters">(AT-000003, TRUE, MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit, SAML;JWT)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrivateAuthSetupNegativeValidations(AT-000004, TRUE, MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey, SAML;JWT)">
+                  </a> <!-- testPrivateAuthSetupNegativeValidations(AT-000004, TRUE, MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey, SAML;JWT) -->
+                  <span class="method-name">testPrivateAuthSetupNegativeValidations</span>
+                  <span class="parameters">(AT-000004, TRUE, MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey, SAML;JWT)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductsAndAppSelectionNegativeValidations(AT-000002, TRUE, NothingEnabled, SAML;JWT, testcredpublic, saml, testpublic, testrpublic, 150, TRUE,...)">
+                  </a> <!-- testProductsAndAppSelectionNegativeValidations(AT-000002, TRUE, NothingEnabled, SAML;JWT, testcredpublic, saml, testpublic, testrpublic, 150, TRUE,...) -->
+                  <span class="method-name">testProductsAndAppSelectionNegativeValidations</span>
+                  <span class="parameters">(AT-000002, TRUE, NothingEnabled, SAML;JWT, testcredpublic, saml, testpublic, testrpublic, 150, TRUE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductsAndAppSelectionNegativeValidations(AT-000001, TRUE, DefaultSettings, SAML;JWT, testcredpublic, saml, testpublic, testrpublic, 150, TRUE...)">
+                  </a> <!-- testProductsAndAppSelectionNegativeValidations(AT-000001, TRUE, DefaultSettings, SAML;JWT, testcredpublic, saml, testpublic, testrpublic, 150, TRUE...) -->
+                  <span class="method-name">testProductsAndAppSelectionNegativeValidations</span>
+                  <span class="parameters">(AT-000001, TRUE, DefaultSettings, SAML;JWT, testcredpublic, saml, testpublic, testrpublic, 150, TRUE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPublicAuthSetupNegativeValidations(AT-000002, TRUE, MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit, SAML;JWT, testcredPrivate...)">
+                  </a> <!-- testPublicAuthSetupNegativeValidations(AT-000002, TRUE, MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit, SAML;JWT, testcredPrivate...) -->
+                  <span class="method-name">testPublicAuthSetupNegativeValidations</span>
+                  <span class="parameters">(AT-000002, TRUE, MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit, SAML;JWT, testcredPrivate, saml, testPrivate, testPrivate, 150, TRUE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPublicAuthSetupNegativeValidations(AT-000001, TRUE, EmptyDetails, SAML;JWT, testcredPrivate, saml, testPrivate, testPrivate, 150, TRUE,...)">
+                  </a> <!-- testPublicAuthSetupNegativeValidations(AT-000001, TRUE, EmptyDetails, SAML;JWT, testcredPrivate, saml, testPrivate, testPrivate, 150, TRUE,...) -->
+                  <span class="method-name">testPublicAuthSetupNegativeValidations</span>
+                  <span class="parameters">(AT-000001, TRUE, EmptyDetails, SAML;JWT, testcredPrivate, saml, testPrivate, testPrivate, 150, TRUE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPublicAuthSetupNegativeValidations(AT-000003, TRUE, MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey, SAML;JWT, testcredPriv...)">
+                  </a> <!-- testPublicAuthSetupNegativeValidations(AT-000003, TRUE, MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey, SAML;JWT, testcredPriv...) -->
+                  <span class="method-name">testPublicAuthSetupNegativeValidations</span>
+                  <span class="parameters">(AT-000003, TRUE, MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey, SAML;JWT, testcredPrivate, saml, testPrivate, testPrivate, 150, TRUE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sub_Brand_Management_Portal_Automation-class-passed -->
+          <div class="suite-Sub_Brand_Management_Portal_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.yodlee.customizationtool.EditSubBrand</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000004, FALSE, CreateChannelPartnerWIithSAMLAndSingleJWTAndEditChangeToSubBrandAndAddAnotherJWT, ...)">
+                  </a> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000004, FALSE, CreateChannelPartnerWIithSAMLAndSingleJWTAndEditChangeToSubBrandAndAddAnotherJWT, ...) -->
+                  <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview</span>
+                  <span class="parameters">(AT-000004, FALSE, CreateChannelPartnerWIithSAMLAndSingleJWTAndEditChangeToSubBrandAndAddAnotherJWT, 1.1.1.1;2.2.2.2, Channel Partner, SAML;JWT, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Verification, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Accounts;Transactions;Budget, Transactions;Budget;Accounts, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 9735173173, rshrivastav, Rajeev, AIyer, riyer@yodlee.com, 9889361731, riyer, FALSE, FALSE, FALSE, FALSE, 3.3.3.3;4.4.4.4, Sub-brand, SAML;JWT, testCredPrivateEdit, saml, Private_Issuer, Private_sso, 1800, testCredPublicEdit, saml, Public_issuer, Public_sso, 1800, Aggregation, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 7892831730, rshrivastavEdit, Rajeev, AIyer, riyer@yodlee.com, 7896351531, riyerEdit, FALSE, FALSE, TRUE, TRUE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000006, FALSE, CreateSubBrandWithSAMLAndEditChangeToChannelPartnerAndEnableJWTDisableSAML, 1.1.1....)">
+                  </a> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000006, FALSE, CreateSubBrandWithSAMLAndEditChangeToChannelPartnerAndEnableJWTDisableSAML, 1.1.1....) -->
+                  <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview</span>
+                  <span class="parameters">(AT-000006, FALSE, CreateSubBrandWithSAMLAndEditChangeToChannelPartnerAndEnableJWTDisableSAML, 1.1.1.1;2.2.2.2, Channel Partner, SAML, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Verification, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Transactions;Fincheck, Transactions;Fincheck, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 9735173173, rshrivastav, Rajeev, AIyer, riyer@yodlee.com, 9889361731, riyer, FALSE, FALSE, FALSE, FALSE, 3.3.3.3;4.4.4.4, Channel Partner, JWT, testCredPrivateEdit, saml, Private_Issuer, Private_sso, 1800, testCredPublicEdit, saml, Public_issuer, Public_sso, 1800, Aggregation, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 7892831730, rshrivastavEdit, Rajeev, AIyer, riyer@yodlee.com, 7896351531, riyerEdit, FALSE, TRUE, TRUE, FALSE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000003, FALSE, CreateChannelPartnerWithSingleJWTAndEditChangeToSubBrandAndAddAnotherJWTEnableSAML...)">
+                  </a> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000003, FALSE, CreateChannelPartnerWithSingleJWTAndEditChangeToSubBrandAndAddAnotherJWTEnableSAML...) -->
+                  <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview</span>
+                  <span class="parameters">(AT-000003, FALSE, CreateChannelPartnerWithSingleJWTAndEditChangeToSubBrandAndAddAnotherJWTEnableSAML, 1.1.1.1;2.2.2.2, Channel Partner, JWT, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Aggregation, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Accounts;Transactions;Budget, Transactions;Budget;Accounts, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 9989726351, rshrivastav, Rajeev, AIyer, riyer@yodlee.com, 9882192783, riyer, FALSE, FALSE, FALSE, FALSE, 3.3.3.3;4.4.4.4, Sub-brand, SAML;JWT, testCredPrivateEdit, saml, Private_Issuer, Private_sso, 1800, testCredPublicEdit, saml, Public_issuer, Public_sso, 1800, Aggregation, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 7892831730, rshrivastavEdit, Rajeev, AIyer, riyer@yodlee.com, 7896351531, riyerEdit, FALSE, FALSE, TRUE, TRUE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000007, FALSE, CreateSubBrandWIithSingleJWTAndEditChangeToChannelPartnerAndAddAnotherJWTEnableSAM...)">
+                  </a> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000007, FALSE, CreateSubBrandWIithSingleJWTAndEditChangeToChannelPartnerAndAddAnotherJWTEnableSAM...) -->
+                  <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview</span>
+                  <span class="parameters">(AT-000007, FALSE, CreateSubBrandWIithSingleJWTAndEditChangeToChannelPartnerAndAddAnotherJWTEnableSAML, 1.1.1.1;2.2.2.2, Sub-brand, JWT, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Aggregation, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Accounts;Transactions;Budget, Transactions;Budget;Accounts, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 9735173173, rshrivastav, Rajeev, AIyer, riyer@yodlee.com, 9889361731, riyer, FALSE, FALSE, FALSE, FALSE, 3.3.3.3;4.4.4.4, Channel Partner, SAML;JWT, testCredPrivateEdit, saml, Private_Issuer, Private_sso, 1800, testCredPublicEdit, saml, Public_issuer, Public_sso, 1800, Aggregation, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 7892831730, rshrivastavEdit, Rajeev, AIyer, riyer@yodlee.com, 7896351531, riyerEdit, FALSE, FALSE, TRUE, TRUE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000005, FALSE, CreateSubBrandWithSingleJWTAndEditChangeToChannelPartnerEnableSAMLDisableJWT, 1.1....)">
+                  </a> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000005, FALSE, CreateSubBrandWithSingleJWTAndEditChangeToChannelPartnerEnableSAMLDisableJWT, 1.1....) -->
+                  <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview</span>
+                  <span class="parameters">(AT-000005, FALSE, CreateSubBrandWithSingleJWTAndEditChangeToChannelPartnerEnableSAMLDisableJWT, 1.1.1.1;2.2.2.2, Sub-brand, JWT, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Aggregation, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Accounts;Transactions;Budget, Transactions;Budget;Accounts, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 9735173173, rshrivastav, Rajeev, AIyer, riyer@yodlee.com, 9889361731, riyer, FALSE, FALSE, FALSE, FALSE, 3.3.3.3;4.4.4.4, Channel Partner, SAML, testCredPrivateEdit, saml, Private_Issuer, Private_sso, 1800, testCredPublicEdit, saml, Public_issuer, Public_sso, 1800, Aggregation, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 7892831730, rshrivastavEdit, Rajeev, AIyer, riyer@yodlee.com, 7896351531, riyerEdit, FALSE, FALSE, TRUE, FALSE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000008, FALSE, CreateSubBrandWIithSAMLAndSingleJWTAndEditChangeToChannelPartnerAndAddAnotherJWT, ...)">
+                  </a> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000008, FALSE, CreateSubBrandWIithSAMLAndSingleJWTAndEditChangeToChannelPartnerAndAddAnotherJWT, ...) -->
+                  <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview</span>
+                  <span class="parameters">(AT-000008, FALSE, CreateSubBrandWIithSAMLAndSingleJWTAndEditChangeToChannelPartnerAndAddAnotherJWT, 1.1.1.1;2.2.2.2, Sub-brand, SAML;JWT, testCredPrivate, saml, Private_Issuer, Private_sso, 1800, testCredPublic, saml, Public_issuer, Public_sso, 1800, Verification, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Accounts;Transactions;Budget, Transactions;Budget;Accounts, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 9735173173, rshrivastav, Rajeev, AIyer, riyer@yodlee.com, 9889361731, riyer, FALSE, FALSE, FALSE, FALSE, 3.3.3.3;4.4.4.4, Channel Partner, SAML;JWT, testCredPrivateEdit, saml, Private_Issuer, Private_sso, 1800, testCredPublicEdit, saml, Public_issuer, Public_sso, 1800, Aggregation, Document Download, Document Download, Yodlee FastLink;Yodlee Financial Wellness FinApps, Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings, Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts, RaviRanjan, Shrivastav, rshrivastav@yodlee.com, 7892831730, rshrivastavEdit, Rajeev, AIyer, riyer@yodlee.com, 7896351531, riyerEdit, FALSE, FALSE, TRUE, TRUE, FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditFlowStepperLinksAndBackLinksAndButton">
+                  </a> <!-- testEditFlowStepperLinksAndBackLinksAndButton -->
+                  <span class="method-name">testEditFlowStepperLinksAndBackLinksAndButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sub_Brand_Management_Portal_Automation-class-passed -->
+          <div class="suite-Sub_Brand_Management_Portal_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.yodlee.customizationtool.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateLogin(AT-113117, TRUE, InvalidInput, invalid@pfml1stage, Yodlee@123, Invalid user credentials)">
+                  </a> <!-- testValidateLogin(AT-113117, TRUE, InvalidInput, invalid@pfml1stage, Yodlee@123, Invalid user credentials) -->
+                  <span class="method-name">testValidateLogin</span>
+                  <span class="parameters">(AT-113117, TRUE, InvalidInput, invalid@pfml1stage, Yodlee@123, Invalid user credentials)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateLogin(AT-113116, TRUE, ValidInput, rajeev@pfml1stage, Yodlee@123, null)">
+                  </a> <!-- testValidateLogin(AT-113116, TRUE, ValidInput, rajeev@pfml1stage, Yodlee@123, null) -->
+                  <span class="method-name">testValidateLogin</span>
+                  <span class="parameters">(AT-113116, TRUE, ValidInput, rajeev@pfml1stage, Yodlee@123, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateLogin(AT-113127, TRUE, NoInput, , , Uh-oh! You&#039;ve entered wrong username/ password. Please re-enter creden...)">
+                  </a> <!-- testValidateLogin(AT-113127, TRUE, NoInput, , , Uh-oh! You've entered wrong username/ password. Please re-enter creden...) -->
+                  <span class="method-name">testValidateLogin</span>
+                  <span class="parameters">(AT-113127, TRUE, NoInput, , , Uh-oh! You've entered wrong username/ password. Please re-enter credentials)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateLoginPageContents">
+                  </a> <!-- testValidateLoginPageContents -->
+                  <span class="method-name">testValidateLoginPageContents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateMessageOnClickingForgotPasswordLink">
+                  </a> <!-- testValidateMessageOnClickingForgotPasswordLink -->
+                  <span class="method-name">testValidateMessageOnClickingForgotPasswordLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sub_Brand_Management_Portal_Automation-class-passed -->
+          <div class="suite-Sub_Brand_Management_Portal_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.yodlee.customizationtool.ViewListOfSubBrands</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateSearchFilterWorksOnlyWhenMinimum3CharacterAreEnteredInSearchFilter">
+                  </a> <!-- testValidateSearchFilterWorksOnlyWhenMinimum3CharacterAreEnteredInSearchFilter -->
+                  <span class="method-name">testValidateSearchFilterWorksOnlyWhenMinimum3CharacterAreEnteredInSearchFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateSearchForExistingSubBrand">
+                  </a> <!-- testValidateSearchForExistingSubBrand -->
+                  <span class="method-name">testValidateSearchForExistingSubBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateSearchForNonExistantSubBrand">
+                  </a> <!-- testValidateSearchForNonExistantSubBrand -->
+                  <span class="method-name">testValidateSearchForNonExistantSubBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateSortingByColumnNames">
+                  </a> <!-- testValidateSortingByColumnNames -->
+                  <span class="method-name">testValidateSortingByColumnNames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateViewListOfSubBrandPageContents">
+                  </a> <!-- testValidateViewListOfSubBrandPageContents -->
+                  <span class="method-name">testValidateViewListOfSubBrandPageContents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sub_Brand_Management_Portal_Automation-class-passed -->
+        </div> <!-- panel Sub_Brand_Management_Portal_Automation -->
+        <div panel-name="test-xml-Sub_Brand_Management_Portal_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rshrivastav\Perforce\Sub-brandingTool\razor\apphub\appdev\automation\dev\SubBrandCustomization\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Sub Brand Management Portal Automation&quot;&gt;
+  &lt;parameter name=&quot;suiteName&quot; value=&quot;Sub-brand Management Portal Automation&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.yodlee.customizationtool.listeners.CustomListener&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.rdashboard.ReportDashboardPlugin&quot;/&gt;
+    &lt;listener class-name=&quot;com.omni.pfm.listeners.ReportGenerator&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Sub Brand Management Tool Publish Workflows&quot;&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;L1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.Login&quot;/&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.CreateSubBrand&quot;/&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.EditSubBrand&quot;/&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.ViewListOfSubBrands&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sub Brand Management Tool Publish Workflows --&gt;
+  &lt;test name=&quot;Sub Brand Management Tool -Customization Workflows&quot;&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;L1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.CreateSubBrandAndCustomize&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sub Brand Management Tool -Customization Workflows --&gt;
+  &lt;test name=&quot;Sub Brand Management Tool Publish Workflows(failed)&quot;&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;L1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.CreateSubBrandAndCustomize&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;closeBrowser&quot;/&gt;
+          &lt;include name=&quot;logout&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.yodlee.customizationtool.CreateSubBrandAndCustomize --&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.CreateSubBrand&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;logout&quot;/&gt;
+          &lt;include name=&quot;init&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.yodlee.customizationtool.CreateSubBrand --&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.EditSubBrand&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testCreateAndEditSubBrandAndViewSubBrandOverview&quot; invocation-numbers=&quot;0 1&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;init&quot;/&gt;
+          &lt;include name=&quot;logout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.yodlee.customizationtool.EditSubBrand --&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;logout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.yodlee.customizationtool.Login --&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.ViewListOfSubBrands&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;init&quot;/&gt;
+          &lt;include name=&quot;logout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.yodlee.customizationtool.ViewListOfSubBrands --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sub Brand Management Tool Publish Workflows(failed) --&gt;
+  &lt;test name=&quot;Sub Brand Management Tool -Customization Workflows(failed)&quot;&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;L1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.CreateSubBrandAndCustomize&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;closeBrowser&quot;/&gt;
+          &lt;include name=&quot;logout&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;testCreateSubBrandCustomizePublishAndViewSubBrandOverview&quot; invocation-numbers=&quot;0&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.yodlee.customizationtool.CreateSubBrandAndCustomize --&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.CreateSubBrand&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;logout&quot;/&gt;
+          &lt;include name=&quot;init&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.yodlee.customizationtool.CreateSubBrand --&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.EditSubBrand&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;init&quot;/&gt;
+          &lt;include name=&quot;logout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.yodlee.customizationtool.EditSubBrand --&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;logout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.yodlee.customizationtool.Login --&gt;
+      &lt;class name=&quot;com.yodlee.customizationtool.ViewListOfSubBrands&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;init&quot;/&gt;
+          &lt;include name=&quot;logout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.yodlee.customizationtool.ViewListOfSubBrands --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sub Brand Management Tool -Customization Workflows(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Sub Brand Management Portal Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Sub_Brand_Management_Portal_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Sub Brand Management Portal Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sub Brand Management Tool Publish Workflows (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Sub Brand Management Tool -Customization Workflows (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Sub Brand Management Tool Publish Workflows(failed) (5 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Sub Brand Management Tool -Customization Workflows(failed) (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Sub_Brand_Management_Portal_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Sub Brand Management Portal Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Sub_Brand_Management_Portal_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Sub Brand Management Portal Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Sub_Brand_Management_Portal_Automation');
+function tableData_Sub_Brand_Management_Portal_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(43);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCreateAndEditSubBrandAndViewSubBrandOverview')
+data.setCell(0, 2, 'com.yodlee.customizationtool.EditSubBrand')
+data.setCell(0, 3, 1293474);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCreateAndEditSubBrandAndViewSubBrandOverview')
+data.setCell(1, 2, 'com.yodlee.customizationtool.EditSubBrand')
+data.setCell(1, 3, 1014927);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCreateAndViewSubBrandOverView')
+data.setCell(2, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(2, 3, 647974);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCreateAndViewSubBrandOverView')
+data.setCell(3, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(3, 3, 406206);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCreateSubBrandCustomizePublishAndViewSubBrandOverview')
+data.setCell(4, 2, 'com.yodlee.customizationtool.CreateSubBrandAndCustomize')
+data.setCell(4, 3, 77392);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testGeneralConfigurationNegativeValidations')
+data.setCell(5, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(5, 3, 48306);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testPublicAuthSetupNegativeValidations')
+data.setCell(6, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(6, 3, 45844);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testContactDetailsNegativeValidations')
+data.setCell(7, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(7, 3, 41313);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testPublicAuthSetupNegativeValidations')
+data.setCell(8, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(8, 3, 40475);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testPublicAuthSetupNegativeValidations')
+data.setCell(9, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(9, 3, 40416);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testContactDetailsNegativeValidations')
+data.setCell(10, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(10, 3, 37786);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testContactDetailsNegativeValidations')
+data.setCell(11, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(11, 3, 37259);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testProductsAndAppSelectionNegativeValidations')
+data.setCell(12, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(12, 3, 35053);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testProductsAndAppSelectionNegativeValidations')
+data.setCell(13, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(13, 3, 33400);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testPrivateAuthSetupNegativeValidations')
+data.setCell(14, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(14, 3, 32596);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testValidateSortingByColumnNames')
+data.setCell(15, 2, 'com.yodlee.customizationtool.ViewListOfSubBrands')
+data.setCell(15, 3, 31842);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testPrivateAuthSetupNegativeValidations')
+data.setCell(16, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(16, 3, 27052);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testPrivateAuthSetupNegativeValidations')
+data.setCell(17, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(17, 3, 27029);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testEditFlowStepperLinksAndBackLinksAndButton')
+data.setCell(18, 2, 'com.yodlee.customizationtool.EditSubBrand')
+data.setCell(18, 3, 25004);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testContactDetailsNegativeValidations')
+data.setCell(19, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(19, 3, 23726);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testPrivateAuthSetupNegativeValidations')
+data.setCell(20, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(20, 3, 21170);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testGeneralConfigurationNegativeValidations')
+data.setCell(21, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(21, 3, 18366);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testGeneralConfigurationNegativeValidations')
+data.setCell(22, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(22, 3, 15032);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testGeneralConfigurationNegativeValidations')
+data.setCell(23, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(23, 3, 14331);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testValidateLogin')
+data.setCell(24, 2, 'com.yodlee.customizationtool.Login')
+data.setCell(24, 3, 8051);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testValidateLogin')
+data.setCell(25, 2, 'com.yodlee.customizationtool.Login')
+data.setCell(25, 3, 6868);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testValidateLogin')
+data.setCell(26, 2, 'com.yodlee.customizationtool.Login')
+data.setCell(26, 3, 4576);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testCreateAndViewSubBrandOverView')
+data.setCell(27, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(27, 3, 3231);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testCreateAndViewSubBrandOverView')
+data.setCell(28, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(28, 3, 3026);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testCreateAndViewSubBrandOverView')
+data.setCell(29, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(29, 3, 2749);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testCreateAndEditSubBrandAndViewSubBrandOverview')
+data.setCell(30, 2, 'com.yodlee.customizationtool.EditSubBrand')
+data.setCell(30, 3, 2711);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testCreateAndEditSubBrandAndViewSubBrandOverview')
+data.setCell(31, 2, 'com.yodlee.customizationtool.EditSubBrand')
+data.setCell(31, 3, 2710);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testCreateAndViewSubBrandOverView')
+data.setCell(32, 2, 'com.yodlee.customizationtool.CreateSubBrand')
+data.setCell(32, 3, 2529);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testCreateAndEditSubBrandAndViewSubBrandOverview')
+data.setCell(33, 2, 'com.yodlee.customizationtool.EditSubBrand')
+data.setCell(33, 3, 2497);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testCreateAndEditSubBrandAndViewSubBrandOverview')
+data.setCell(34, 2, 'com.yodlee.customizationtool.EditSubBrand')
+data.setCell(34, 3, 2487);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testCreateAndEditSubBrandAndViewSubBrandOverview')
+data.setCell(35, 2, 'com.yodlee.customizationtool.EditSubBrand')
+data.setCell(35, 3, 2444);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testCreateAndEditSubBrandAndViewSubBrandOverview')
+data.setCell(36, 2, 'com.yodlee.customizationtool.EditSubBrand')
+data.setCell(36, 3, 2416);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testValidateLoginPageContents')
+data.setCell(37, 2, 'com.yodlee.customizationtool.Login')
+data.setCell(37, 3, 2367);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testValidateSearchForNonExistantSubBrand')
+data.setCell(38, 2, 'com.yodlee.customizationtool.ViewListOfSubBrands')
+data.setCell(38, 3, 1301);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testValidateSearchForExistingSubBrand')
+data.setCell(39, 2, 'com.yodlee.customizationtool.ViewListOfSubBrands')
+data.setCell(39, 3, 1096);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testValidateViewListOfSubBrandPageContents')
+data.setCell(40, 2, 'com.yodlee.customizationtool.ViewListOfSubBrands')
+data.setCell(40, 3, 728);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testValidateSearchFilterWorksOnlyWhenMinimum3CharacterAreEnteredInSearchFilter')
+data.setCell(41, 2, 'com.yodlee.customizationtool.ViewListOfSubBrands')
+data.setCell(41, 3, 469);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testValidateMessageOnClickingForgotPasswordLink')
+data.setCell(42, 2, 'com.yodlee.customizationtool.Login')
+data.setCell(42, 3, 272);
+window.suiteTableData['Sub_Brand_Management_Portal_Automation']= { tableData: data, tableDiv: 'times-div-Sub_Brand_Management_Portal_Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 hours</span>
+              <div id="times-div-Sub_Brand_Management_Portal_Automation">
+              </div> <!-- times-div-Sub_Brand_Management_Portal_Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Sub_Brand_Management_Portal_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Sub Brand Management Portal Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Sub_Brand_Management_Portal_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.yodlee.customizationtool.CreateSubBrand</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.yodlee.customizationtool.EditSubBrand</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.yodlee.customizationtool.ViewListOfSubBrands</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Sub_Brand_Management_Portal_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yodlee.customizationtool.CreateSubBrandAndCustomize</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup(chrome, L1)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yodlee.customizationtool.CreateSubBrand</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11801 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yodlee.customizationtool.EditSubBrand</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12721 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yodlee.customizationtool.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12787 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yodlee.customizationtool.ViewListOfSubBrands</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12787 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yodlee.customizationtool.Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testValidateLoginPageContents</span>
+                <span class="method-start">12805 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateMessageOnClickingForgotPasswordLink</span>
+                <span class="method-start">16115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateLogin(AT-113117, TRUE, InvalidInput, invalid@pfml1stage, Yodlee@123, Invalid user credentials)</span>
+                <span class="method-start">17412 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateLogin(AT-113127, TRUE, NoInput, , , Uh-oh! You've entered wrong username/ password. Please re-enter creden...)</span>
+                <span class="method-start">25537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateLogin(AT-113116, TRUE, ValidInput, rajeev@pfml1stage, Yodlee@123, null)</span>
+                <span class="method-start">30153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">37119 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yodlee.customizationtool.CreateSubBrand</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">37506 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testGeneralConfigurationNegativeValidations(AT-000001, TRUE, EmptySubBrandDomainNameIPAddress)</span>
+                <span class="method-start">46210 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGeneralConfigurationNegativeValidations(AT-000002, TRUE, DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters)</span>
+                <span class="method-start">61299 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGeneralConfigurationNegativeValidations(AT-000003, TRUE, MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters)</span>
+                <span class="method-start">109677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGeneralConfigurationNegativeValidations(AT-000004, TRUE, InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed)</span>
+                <span class="method-start">128185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPrivateAuthSetupNegativeValidations(AT-000001, TRUE, NoLoginMechanism, None)</span>
+                <span class="method-start">142641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPrivateAuthSetupNegativeValidations(AT-000002, TRUE, EmptyDetails, SAML;JWT)</span>
+                <span class="method-start">163862 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPrivateAuthSetupNegativeValidations(AT-000003, TRUE, MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit, SAML;JWT)</span>
+                <span class="method-start">190960 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPrivateAuthSetupNegativeValidations(AT-000004, TRUE, MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey, SAML;JWT)</span>
+                <span class="method-start">223628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPublicAuthSetupNegativeValidations(AT-000001, TRUE, EmptyDetails, SAML;JWT, testcredPrivate, saml, testPrivate, testPrivate, 150, TRUE,...)</span>
+                <span class="method-start">250836 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPublicAuthSetupNegativeValidations(AT-000002, TRUE, MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit, SAML;JWT, testcredPrivate...)</span>
+                <span class="method-start">291385 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPublicAuthSetupNegativeValidations(AT-000003, TRUE, MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey, SAML;JWT, testcredPriv...)</span>
+                <span class="method-start">337280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProductsAndAppSelectionNegativeValidations(AT-000001, TRUE, DefaultSettings, SAML;JWT, testcredpublic, saml, testpublic, testrpublic, 150, TRUE...)</span>
+                <span class="method-start">377789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProductsAndAppSelectionNegativeValidations(AT-000002, TRUE, NothingEnabled, SAML;JWT, testcredpublic, saml, testpublic, testrpublic, 150, TRUE,...)</span>
+                <span class="method-start">411257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testContactDetailsNegativeValidations(AT-000001, TRUE, EmptyContactDetails)</span>
+                <span class="method-start">446367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testContactDetailsNegativeValidations(AT-000002, TRUE, ContactDetailsExceedCharacterLimit)</span>
+                <span class="method-start">484215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testContactDetailsNegativeValidations(AT-000003, TRUE, InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters)</span>
+                <span class="method-start">525593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testContactDetailsNegativeValidations(AT-000004, TRUE, ContactUserIdNoSpecialCharacters)</span>
+                <span class="method-start">562899 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndViewSubBrandOverView(AT-000001, FALSE, SubBrand-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, JWT, test...)</span>
+                <span class="method-start">586712 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndViewSubBrandOverView(AT-000002, FALSE, ChannelPartner-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Partne...)</span>
+                <span class="method-start">589985 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndViewSubBrandOverView(AT-000003, FALSE, SubBrand-SAML-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML, te...)</span>
+                <span class="method-start">592867 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndViewSubBrandOverView(AT-000004, FALSE, ChannelPartner-SAML-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Partn...)</span>
+                <span class="method-start">595964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndViewSubBrandOverView(AT-000005, TRUE, SubBrand-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML;...)</span>
+                <span class="method-start">598599 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndViewSubBrandOverView(AT-000006, TRUE, ChannelPartner-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Channel Pa...)</span>
+                <span class="method-start">1246657 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">1652921 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yodlee.customizationtool.EditSubBrand</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">1653685 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testEditFlowStepperLinksAndBackLinksAndButton</span>
+                <span class="method-start">1661259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000001, TRUE, CreateChannelPartnerWithSingleJWTAndEditChangeToSubBrandEnableSAMLDisableJWT, 1.1.1...)</span>
+                <span class="method-start">1686414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000002, TRUE, CreateChannelPartnerWithSAMLAndEditChangeToSubBrandAndEnableJWTDisableSAML, 1.1.1.1...)</span>
+                <span class="method-start">2981469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000003, FALSE, CreateChannelPartnerWithSingleJWTAndEditChangeToSubBrandAndAddAnotherJWTEnableSAML...)</span>
+                <span class="method-start">3997950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000004, FALSE, CreateChannelPartnerWIithSAMLAndSingleJWTAndEditChangeToSubBrandAndAddAnotherJWT, ...)</span>
+                <span class="method-start">4000562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000005, FALSE, CreateSubBrandWithSingleJWTAndEditChangeToChannelPartnerEnableSAMLDisableJWT, 1.1....)</span>
+                <span class="method-start">4003181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000006, FALSE, CreateSubBrandWithSAMLAndEditChangeToChannelPartnerAndEnableJWTDisableSAML, 1.1.1....)</span>
+                <span class="method-start">4005698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000007, FALSE, CreateSubBrandWIithSingleJWTAndEditChangeToChannelPartnerAndAddAnotherJWTEnableSAM...)</span>
+                <span class="method-start">4008378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateAndEditSubBrandAndViewSubBrandOverview(AT-000008, FALSE, CreateSubBrandWIithSAMLAndSingleJWTAndEditChangeToChannelPartnerAndAddAnotherJWT, ...)</span>
+                <span class="method-start">4011212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">4014043 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yodlee.customizationtool.ViewListOfSubBrands</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">4014522 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testValidateViewListOfSubBrandPageContents</span>
+                <span class="method-start">4022357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateSearchForNonExistantSubBrand</span>
+                <span class="method-start">4023198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateSearchForExistingSubBrand</span>
+                <span class="method-start">4024567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateSearchFilterWorksOnlyWhenMinimum3CharacterAreEnteredInSearchFilter</span>
+                <span class="method-start">4025736 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateSortingByColumnNames</span>
+                <span class="method-start">4026276 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">4058243 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.yodlee.customizationtool.CreateSubBrandAndCustomize</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4059741 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCreateSubBrandCustomizePublishAndViewSubBrandOverview(AT-000001, TRUE, SubBrand-SAML-JWT-Aggregation-DD-Verification-DD, 1.1.1.1;2.2.2.2, Sub-brand, SAML;...)</span>
+                <span class="method-start">4067173 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">4146697 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">4147587 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

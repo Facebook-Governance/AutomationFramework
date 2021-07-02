@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-147374,"getCobrandSubscription - Validate LoanMaturityNotice , check if Insight is unSubscribed to OR isSubscribed=false ",,LoanMaturityNotice,LoanMaturityNotice,,,,,,,,FALSE,,,,200,TRUE
+AT-147375,"getCobrandSubscription - Validate LoanMaturityNotice , Validate InsightName",,LoanMaturityNotice,LoanMaturityNotice,,,,,,,,,,,,200,TRUE
+AT-147376,"getCobrandSubscription - Validate LoanMaturityNotice , Validate Supporting container",,LoanMaturityNotice,,,LOAN,,,,,,,,,,200,TRUE
+AT-147377,"getCobrandSubscription - Validate LoanMaturityNotice , Validate TriggerType",SCHEDULE,LoanMaturityNotice,,,,,,,,,,,,,200,TRUE
+AT-147378,"getCobrandSubscription - Validate LoanMaturityNotice , Validate applicableEntity",,LoanMaturityNotice,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-147379,"getCobrandSubscription - Validate LoanMaturityNotice , Validate number of levels and levelObject",,LoanMaturityNotice,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-147380,"getCobrandSubscription - Validate LoanMaturityNotice , Validate isSubscribed=false",,LoanMaturityNotice,,,,,,,,,FALSE,,,,200,TRUE
+AT-147381,"getCobrandSubscription - Validate LoanMaturityNotice , Validate insightKeys",,LoanMaturityNotice,,,,Account,,,,,,,,,200,TRUE
+AT-147382,"getCobrandSubscription - Validate LoanMaturityNotice , Validate description",,LoanMaturityNotice,,,,,,Generates an insight when a loan is within a configured number of days from maturity.,,,,,,,200,TRUE
+AT-147383,"getCobrandSubscription - Validate LoanMaturityNotice , Validate title",,LoanMaturityNotice,,Loan Maturity Notice,,,,,,,,,,,200,TRUE
+AT-147384,"getCobrandSubscription - Validate LoanMaturityNotice , Validate total number of keys",,LoanMaturityNotice,,,,,6,,,,,,,,200,TRUE
+AT-147385,"getCobrandSubscription - Validate LoanMaturityNotice , Validate frequency",,LoanMaturityNotice,,,,,,,,,,DAILY,,,200,TRUE

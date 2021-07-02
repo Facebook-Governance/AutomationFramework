@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,insightType,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-148523,"getUserSubscription - Validate BudgetProgress , Validate InsightName",,BudgetProgress,BudgetProgress,,,,,,,,,,,,,,200,TRUE
+AT-148524,"getUserSubscription - Validate BudgetProgress , Validate Supporting container",,BudgetProgress,,,"BANK,CARD",,,,,,,,,,,,200,TRUE
+AT-148525,"getUserSubscription - Validate BudgetProgress , Validate TriggerType",SCHEDULE,BudgetProgress,,,,,,,,,,,,,,,200,TRUE
+AT-148526,"getUserSubscription - Validate BudgetProgress , Validate applicableEntity",,BudgetProgress,,,,,,,VIEW,,,,,,,,200,TRUE
+AT-148527,"getUserSubscription - Validate BudgetProgress , Validate number of levels and levelObject",,BudgetProgress,,,,,,,VIEW,view,,,,,,,200,TRUE
+AT-148528,"getUserSubscription - Validate BudgetProgress , Validate isSubscribed=false",,BudgetProgress,,,,,,,,,FALSE,,,,,,200,TRUE
+AT-148529,"getUserSubscription - Validate BudgetProgress , Validate insightKeys",,BudgetProgress,,,,View,,,,,,,,,,,200,TRUE
+AT-148530,"getUserSubscription - Validate BudgetProgress , Validate description",,BudgetProgress,,,,,,Generates an insight that provides information about budget progress.,,,,,,,,,200,TRUE
+AT-148531,"getUserSubscription - Validate BudgetProgress , Validate title",,BudgetProgress,,Budget Progress,,,,,,,,,,,,,200,TRUE
+AT-148532,"getUserSubscription - Validate BudgetProgress , Validate ruleExpression",,BudgetProgress,,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-148533,"getUserSubscription - Validate BudgetProgress , Validate total number of keys",,BudgetProgress,,,,,11,,,,,,,,,,200,TRUE
+AT-148534,"getUserSubscription - Validate BudgetProgress , verify entityParameter and configMeta are same",,BudgetProgress,,,,,,,,,,,,,,TRUE,200,TRUE
+AT-148570,getUserSubscription - BudgetProgress - Validate insightType,,BudgetProgress,BudgetProgress,,,,,,,,,,OTHER,,,,200,TRUE
+AT-148571,getUserSubscription - BudgetProgress -  Validate frequency,,BudgetProgress,BudgetProgress,,,,,,,,,DAILY,,,,,200,TRUE

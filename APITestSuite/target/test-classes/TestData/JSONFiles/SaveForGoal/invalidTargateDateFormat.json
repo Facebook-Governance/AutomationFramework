@@ -1,0 +1,5 @@
+{
+    "errorCode": "Y800",
+    "errorMessage": "Invalid value for startDate.startDate should be earlier than targetDate",
+    "referenceCode": "${json-unit.ignore}"
+}

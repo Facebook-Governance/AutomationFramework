@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pages>
+
+	<page name='SAML_LOGIN' isMenuItem='false'>
+	
+	    <element name='IframeuserName' locator='xpath' value="//div[@class='content active']//input[@name='userName']"/>
+	    <element name='IframePassword' locator='xpath' value="//div[@class='content active']//input[@name='password']"></element>
+	    <element name='IframeEnviDropDown' locator='xpath' value="//div[@class='content active']//select[@name='envId']"></element>
+	    <element name='IframeSubmit' locator='xpath' value="//div[@class='content active']//input[@class='button expand']"></element>
+	    <element name='IframeEnviSwitchIframe' locator='id' value='finapp_10003700'></element>
+	    <element name='OLBAllTabs' locator='xpath' value="//ul[@class='left']/li"></element>
+	    <element name='OLBMultipleFinapId' locator='xpath' value="//input[@id='multiFinappIds']"></element>
+	    <element name='OLBExpraparam' locator='xpath' value="//input[@id='extraParams']"></element>
+	    <element name='OLBSave' locator='xpath' value="//input[@name='save']"></element>
+	     <element name='OLBSave' locator='xpath' value="//input[@name='save']"></element>
+	    
+	    
+        <element name='LoginSave' locator='xpath' value='//input[@value="Log In"]'></element>
+        <element name='Mode' locator='id' value='testmode'/>
+        <element name='Login' locator='name' value='login'/>
+        <element name='Password' locator='name' value='password'/>
+        <element name='FinappIdNew' locator='name' value='app'/>
+	    <element name='RedirectReq' locator='name' value='redirectReq'/>
+	    <element name='LoginSubmit' locator='id' value='submitBtn'/>
+        <element name='Authenicate' locator='xpath' value='//html/body/form/div[3]/div[7]/div/input'/>
+      	<element name='LinkAccHdr' locator='class' value='multiAccountHeaderTitle show-for-smallplus-up'/>
+       	<element name='cobLogin' locator='id' value='cobLogin'>yodlee_10000004</element>
+        <element name='cobPassword' locator='id' value='cobPassword'>yodlee123</element>
+        <element name='userName' locator='id' value='userId'></element>
+        <element name='userPassword' locator='id' value='password'></element>
+        <element name='nodeRsessionUrl' locator='id' value='nodeRsessionUrl'>https://finapp.autopfmc.corp.yodlee.com/authenticate/ymc/</element>
+        <element name='restRsessionUrl' locator='id' value='restRsessionUrl'>https://rest.autopfmc.corp.yodlee.com:3443/services/srest/ymc/v1.0/</element>
+        <element name='finappId' locator='id' value='finappId'>10003700</element>
+        <element name='saveButton' locator='xpath' value='//input[@value="Save"]'></element>
+        <element name='NewWindowRsession' locator='xpath' value="//a[contains(text(),'New Window - RSESSION')]"></element>
+        <element name='loginText' locator='xpath' value="//input[@value='Log In']"></element>
+      
+	</page>
+	
+	<page name='LinkAnAccount' isMenuItem='false'>
+	  <element name='linkAccount' locator='xpath' value="//a[contains(text(),'Link Account')]"></element>
+	  <element name='addLinkAfterAccount' locator='css' value="#link-account-btn-persist"></element>
+	  <element name='addLinkAfterTwoAccount' locator='css' value="#link-account-button-persist"></element>
+	  <element name='getStarted' locator='xpath' value="//*[text()='Get Started']"></element>
+	  <element name='FastLinkOLBFrame' locator='id' value="floaterFinapp"></element>
+	  <element name='siteSearch' locator='id' value="siteSearch"></element>
+	  <element name='siteSearchBtn' locator='xpath' value="//div[@id='searchBtn']"></element>
+	  <element name='siteName' locator='xpath' value="//div[@class='siteName ellipsis-cls']"></element>
+	  <element name='password' locator='xpath' value="//input[contains(@name,'PASSWORD')]"></element>
+	  <element name='reEnterPassword' locator='name' value="Re-enter_PASSWORD"></element>
+	  <element name='nextBtn' locator='xpath' value="//button[@id='next']"></element>
+	  <element name='selectCheckBox' locator='xpath' value="//div[@id='tncSection']//span[contains(@class,'customCheckBox')]"></element>
+	  <element name='submitBtn' locator='xpath' value="//div[contains(@class,'text-right')]//button[contains(@aria-label,'Submit')]"></element>
+	  <element name='siteNameContainer' locator='css' value=".siteName"></element>
+	  <element name='loginContainerAcc' locator='name' value="LOGIN"></element>
+	  <element name='successMsg' locator='xpath' value="//div[contains(text(),'Congratulations')]"></element>
+	  
+	 
+	</page>
+	
+<page name='DashboardPage' isHomePage='true' isMenuItem='false' parentMenu='' containerPage='' locator='xpath' value="//ul[@class='nav-primary']/*[@id='10003702']">
+     <element name='dashBoard' locator='id' value="10003702"></element>
+  
+     <element name='Investment' locator='xpath' value="//li//div/span[contains(text(),'Investment')]"></element>
+	 <element name='header1' locator='xpath' value=".//*[@id='cf-table-container']/div/table/thead"></element> 
+	 <element name='header_SL' locator='id' value="headerTitle"></element>
+	 <element name='Header_SL1' locator='id' value="mobileTitle"></element>
+	 <element name='bar_SL' locator='id' value="durationContainer"></element>
+	 <element name='text1_SL' locator='id' value="durationTwo"></element>
+	 <element name='text2_SL' locator='id' value="durationOne"></element>
+	 <element name='chart_SL' locator='id' value="spendingTopContentCard"></element>
+	 <element name='amount_SL' locator='xpath' value="//span[@class='month-spending hide-for-small smallplus-5 medium-5 large-5 columns']"></element>
+	 <element name='amt_SL' locator='xpath' value="//div[@class='widgetSummaryAmount']"></element>
+	 <element name='todaysChange' locator='xpath' value="//div[@id='todaysChange']//div"></element>
+	 <element name='assestByDefault_DIL' locator='id' value="ihFilterdd"></element>
+	 <element name='filter_DIL' locator='xpath' value="//ul[@id='filterDropdown']//a"></element>
+	 <element name='card_DIL' locator='id' value="ihWidgetContainerCard"></element>
+	 <element name='gettableDonutChart' locator='xpath' value="//div[@class='chart-legend-row']"></element>
+	 <element name='dropDownInvestment' locator='xpath' value="//div[@id='filter-dropdown-coach-mark']"></element>
+	 <element name='investmenttotal_DIL' locator='xpath' value="//span[@class='display-data-heavy-value galen-todays-total-value']"></element>
+	 <element name='totalAmount_DIL' locator='xpath' value="//div[@class='data']"></element>
+	 <element name='card_NL' locator='id' value="nwWidgetContainerCard"></element>
+	 <element name='Assetval_NL' locator='id' value="nwAssets"></element>
+	 <element name='Liabilitiesval_NL' locator='id' value="nwLiability"></element>
+	 <element name='networth_NL' locator='xpath' value="//div[@class='total-networth-amount']"></element>
+	 <element name='changeper_NL' locator='xpath' value="//div[@id='todaysChange']//span[@class='dataPercent']"></element>
+	 <element name='Nwtextr_NL' locator='xpath' value="//div[@class='nwHeaderTitle heading']"></element>
+	 <element name='hd_NL' locator='id' value="mobileTitle"></element>
+	 <element name='header3_BL' locator='id' value="budgetWidgetHeaderTitle"></element>
+	 <element name='text_BL' locator='xpath' value="//h3[@class='no-data-message-title no-data-message-title-font']"></element>
+	 <element name='txt_BL' locator='xpath' value="//p[@class='no-data-message-content no-data-message-title-font']"></element>
+	 <element name='btn_BL' locator='id' value="budgetFullViewBtn"></element>
+	 <element name='header_BL' locator='xpath' value="//h2[contains(text(),'Budget')]"></element>
+	 <element name='inputbx_BL' locator='id' value="cat-amt-edit-1"></element>
+	 <element name='text1_BL' locator='xpath' value="//span[@class='chartTopLabel Galen-chartTopLabel']"></element>
+	 <element name='card_BL' locator='id' value="page-view-click-card"></element>
+	 <element name='text2_BL' locator='xpath' value="//p[text()='Spent']"></element>
+	 <element name='text3_BL' locator='xpath' value="//p[text()='Budgeted']"></element>
+	 <element name='txt1_BL' locator='xpath' value="//div[@class='chartBottomLabelBox']"></element>
+	 <element name='icon_BL' locator='xpath' value="//span[contains(@class,'Galen-chartBottomIcon')]"></element>
+	 <element name='amt_BL' locator='xpath' value="//div[@id='leftPart']//p[@class='spentAmount Galen-spentAmount']"></element>
+	 <element name='amount_BL' locator='xpath' value="//div[@id='rightPart']//p[@class='spentAmount Galen-spentAmount']"></element>
+	 <element name='text4_BL' locator='xpath' value="//div[@class='progressbar firstProgress']//span[@class='y-bold-text y-text-uppercase']"></element>
+	 <element name='header_IL' locator='id' value="wealthWidgetHeaderTitle"></element>   
+	 <element name='header1_IL' locator='id' value="link-account-button-persist"></element>               
+	 <element name='subheader_IL' locator='xpath' value="//div[text()='INVESTMENTS']"></element>
+	 <element name='description_IL' locator='xpath' value="//p[@class='no-data-message-content no-data-message-title-font']"></element>
+	 <element name='text4_IL' locator='id' value="budgetFullViewBtn"></element>
+	 <element name='descr_IL' locator='id' value="barchartHeader"></element>
+	 <element name='descri_IL' locator='id' value="acc-heading-inner"></element>
+	 <element name='icon_IL' locator='xpath' value="//span[@class='button-text left show-for-medium-up']"></element>
+	 <element name='text_IL' locator='id' value="menu-settings-icon"></element>
+	 <element name='delete_IL' locator='xpath' value="//i[@class='yodlee-font-icon svg_icon-delete']"></element>
+	 <element name='checkbx_IL' locator='id' value="deleteconfirmcheck"></element>
+	 <element name='buttn_IL' locator='xpath' value="//a[text()='Delete']"></element>
+	 <element name='dagBank_Accounts' locator='xpath' value="//a[text()='DagCreditcard']"></element>
+	    
+	         
+     <element name='header2' locator='id' value="acc-heading-inner"></element>
+	 <element name='text' locator='xpath' value="//a[@class='expand-collapse-btn outline-none']"></element>
+	 <element name='btn' locator='id' value="link-account-button-persist"></element>
+     <element name='collapse_All' locator='xpath' value='//span[text()="Collapse All"]'/>
+     <element name='linkAccount_DS' locator='id' value='link-account-button-persist'/>
+     <element name='txt' locator='xpath' value='//div[@id="footerSection"]/div/div/div/span'/>
+     <element name='txt1' locator='xpath' value='//div[@class="ft-lmore"]/a'/>
+     <element name='icon' locator='xpath' value='//span[@class="yodlee-font-icon f-icon svg_arrow-up account-icon"]'/>
+     <element name='cash' locator='xpath' value='//div[@id="accounts-body"]/div[1]/div[1]/span'/>
+     <element name='dropdown1' locator='id' value='expand-collapse-link'/>
+     <element name='amount' locator='xpath' value="//span[contains(@class,'container-total-balance')]"/>
+     <element name='accounttype' locator='xpath' value='//span[contains(@class,"auto_main_header")]'/>
+     <element name='amt' locator='xpath' value="//div[@id='accountInfo-bank']//span[contains(@class,'y-regular-text right')]"/>
+     <element name='amt1' locator='xpath' value="//div[@id='accounts-body']/div//div[@data-name='BANK']/div[1]/div[2]/div/span"/>
+     <element name='amt2' locator='xpath' value="//div[@id='accounts-body']/div//div[@data-name='BANK']/div[1]/div[2]/div/span"/>
+     <element name='amt3' locator='xpath' value="//div[@id='accounts-body']/div//div[@data-name='BANK']/div[3]/div[2]/div/span"/>
+     <element name='acc' locator='xpath' value='//span[contains(text(),"Dag Site")]'/>
+     <element name='acc1' locator='xpath' value="//div[@class='columns acc-row-column2 y-secondary-text']"/>
+     <element name='bttnAcc' locator='xpath' value='//a[@id="viewAllAccounts"]'/>
+     <element name='header' locator='xpath' value='//h2[contains(@class,"title")]'/>
+     <element name='button' locator='id' value='ftue-continue'/>
+     <element name='buttn' locator='xpath' value='//span[text()="Go to my investments"]'/>
+     <element name='bttn' locator='id' value='viewAllAccounts'/>
+     <element name='amount1' locator='xpath' value="//div[@id='accountInfo-bank']//span[contains(@class,'y-regular-text right')]"/>        
+	 <element name='text4_SL' locator='xpath' value="//span[@class='key y-bold-text']"></element>
+	 <element name='text5_SL' locator='id' value="back-to-text"></element>
+	 <element name='txt_SL' locator='xpath' value="//div[@class='widgetSummaryTitle']"></element>
+	 <element name='category_SL' locator='xpath' value="//div[contains(@class,'legend-row')]"></element>
+	 <element name='dashBoard' locator='id' value="10003702"></element>
+	 <element name='Spending' locator='xpath' value='//span[contains(text(),"Spending")]'></element>
+	 <element name='CashFlow' locator='xpath' value='//li[contains(@id,"10003643")]'></element>  
+     <element name='cashForecastHeader' locator='xpath' value='//div[@class="fcWidgetHeader"]'></element>	
+	 <element name='UserNameHeader' locator='xpath' value='//div[contains(text(),"Hi")]'></element>
+	 <element name='startReviewBtn' locator='xpath' value='//a[@aria-label="START REVIEW"]'></element>
+	 <element name='Spending' locator='xpath' value='//span[contains(text(),"Spending")]'></element>	
+	 <element name='FinancialForecast' locator='xpath' value='//span[contains(text(),"Financial Forecast")]'></element>
+	 <element name='DashBoard' locator='xpath' value='//li[contains(@class,"nav-link")]'></element>
+	 <element name='Accounts' locator='xpath' value='//span[contains(text(),"Accounts")]'></element>
+	 <element name='Settings' locator='xpath' value='//div[@aria-label="Settings"]'></element>
+	 <element name='AccountSettings' locator='xpath' value='//span[contains(text(),"Account Settings")]'></element>
+	 <element name='LinkAnAccount' locator='xpath' value='//a[@id="dashboardLinkAccountBtn"]'></element>
+	 <element name='LinkAccount' locator='xpath' value='//span[contains(text(),"Link Account")]'></element>
+	 <element name='SiteSearch' locator='xpath' value='//input[@id="siteSearch"]'></element>
+	 <element name='SearchInvest' locator='xpath' value='//input[contains(@aria-label,"search Accounts")]'></element>
+	 <element name='SubmitLink' locator='xpath' value='//input[contains(@type,"submit")]'></element>
+	 <element name='DagCreditCard' locator='xpath' value='//div[contains(text(),"DagCreditcard")]'></element>
+	 <element name='DagInvestment' locator='xpath' value='//div[contains(text(),"DagInvestments")]'></element>
+	 <element name='DagBank' locator='xpath' value='//div[@aria-label="DagBank"]'></element>
+	 <element name='UserName' locator='xpath' value='//input[contains(@name,"LOGIN")]'></element>
+	 <element name='Password' locator='xpath' value='//input[contains(@name,"PASSWORD")]'></element>
+	 <element name='RePassword' locator='xpath' value='//input[contains(@name,"Re-enter_PASSWORD")]'></element>
+	 <element name='SubmitCard' locator='xpath' value='//span[contains(text(),"Submit")]'></element>
+	 <element name='AllDone' locator='xpath' value='//button[contains(@class,"button secondary allDone ")]'></element>
+	 <element name='AccountsLabel' locator='xpath' value='//a[contains(text(),"LINK ACCOUNT")]'></element>
+	 <element name='WelcomePopup' locator='xpath' value='//i[@class="yodlee-font-icon svg_close close-modal-window closeIcon right"]'></element>
+	 <element name='CreditCardUsage' locator='xpath' value='//div[contains(text(),"Credit Card Usage")]' />	 
+	 <element name='LinkAccount2' locator='xpath' value='//span[contains(text(),"Link Account")]'></element>
+	 <element name='Expense' locator='xpath' value='//li[@id="10003665"]'></element>
+	 <element name='CategorzationRules' locator='xpath' value='//ul[contains(@class,"nav-secondary")]//li[5]'></element> 
+	 <element name='DagCreditcard' locator='xpath' value='//div[@orgvalue="DagCreditcard"]'/>
+	 <element name='DagCreditcardUsername' locator='xpath' value='//input[@name="LOGIN"]'/>
+	 <element name='DagCreditcardPasswordOne' locator='xpath' value='//input[@name="PASSWORD"]'/>
+	 <element name='DagCreditcardPasswordTwo' locator='xpath' value='//input[@name="Re-enter_PASSWORD"]'/>
+	 <element name='DagCreditcardSubmit' locator='xpath' value='//button[@id="next"]'/>
+	 
+	 <element name='AccountSettings' locator='xpath' value='//span[contains(text(),"Account Settings")]'/>
+	 <element name='DagBank' locator='xpath' value='//div[@orgvalue="DagBank"]'/>
+	 <element name='DagBankUsername' locator='xpath' value='//input[@name="LOGIN"]'/>
+	 <element name='DagBankPasswordOne' locator='xpath' value='//input[@name="PASSWORD1"]'/>
+	 <element name='DagBankPasswordTwo' locator='xpath' value='//input[@name="Re-enter_PASSWORD1"]'/>
+	 <element name='DagBankSubmit' locator='xpath' value='//button[@id="next"]'/>
+	 <element name='AllDoneButton' locator='xpath' value='//span[@class="btnContent"]'/>
+	 <element name='DagCreditCard' locator='xpath' value='//div[contains(text(),"DagCreditcard")]'></element>
+	 <element name='UserName' locator='xpath' value='//input[contains(@name,"LOGIN")]'></element>
+	 <element name='Password' locator='xpath' value='//input[contains(@name,"PASSWORD")]'></element>
+	 <element name='RePassword' locator='xpath' value='//input[contains(@name,"Re-enter_PASSWORD")]'></element>
+	 <element name='SubmitCard' locator='xpath' value='//div[@id="buttonSection"]'></element> 
+	 <element name='CurrBalLink' locator='xpath' value='//div[contains(text(),"Current Balance")]'></element>
+	 <element name='BilsTransferLink' locator='xpath' value='//div[contains(text(),"Bills and Transfers")]'></element>
+</page>
+
+
+ 
+ 
+  	<page name='SFG' isMenuItem="false" parentMenu='' containerPage='' locator='xpath' locatorValue="//ul[@class='nav-primary']/li/span[text()='Goals']">
+  	  <element name='nextbuttonClick' locator='css' value="#saveGoalState"></element> 
+       <element name='AccountDropDown1' locator='css' value="#sfgGoalAccountsInputId"></element> 
+       <element name='MultiAccountSwitch' locator='css' value="#multiAccToggleSwitch"></element> 
+       <element name='SaveAccountsBtn' locator='css' value="#saveSFGAccounts"></element> 
+       <element name='checkBoxList' locator='css' value=".customCheckBox"></element> 
+       <element name='amountBoxList' locator='xpath' value="//input[@class='y-range-slider-text-input']"></element> 
+       <element name='InProgressGoalList' locator='css' value="#goals-inprogress .progress-mainHeader"></element> 
+       <element name='editgoalbutton' locator='id' value="saveGoalState"></element> 
+       <element name='goalAccountList' locator='xpath' value="//div[contains(@class,'sfgAccount columns')]/div[1]"></element> 
+       <element name='goalnametextbox' locator='css' value="#sfgEditGoalNameInput"></element>
+       <element name='amountfield1' locator='css' value="#sfgEditGoalAmountInput"></element>
+       <element name='goalNameErrorMsg' locator='css' value="#sfgEditGoalNameInputError"></element>
+       <element name='goalAmountFieldErrorMsg' locator='css' value="#sfgEditGoalAmountInputError"></element>
+       <element name='dateField' locator='css' value="#sfgGoalTargetDateInput"></element>
+       <element name='dateFieldErrorMsg' locator='css' value="#sfgGoalTargetDateInputError"></element>
+   	   <element name='onGoingFundingChange' locator='xpath' value="//div[@class='row onGoingFundingRule-item']"></element>
+  	   <element name='StartEndFreqLabels' locator='css' value="#sfgEditOngoingFundingCnr .onGoingFundingIns .align-left-content"></element> 
+  	  <element name='StartEndFreqValues' locator='css' value="#sfgEditOngoingFundingCnr .onGoingFundingIns .align-right-content"></element> 
+      <element name='insufficientFundingError' locator='css' value="#insufficientFundingErrCnr>p"></element> 
+      <element name='insufficientFundingIcon' locator='css' value="#insufficientFundingErrCnr>i"></element>
+  	  <element name='insufficientFundingMsg' locator='css' value="#insufficientFundMsg"></element>
+  	  <element name='deleteFunding' locator='css' value="#deleteBlock"></element>
+  	  <element name='ongoingFreqLabel' locator='css' value="#sfgOngoingFundingFrequecnyLabel"></element>
+  	  <element name='ongoingStartLabel' locator='css' value="#sfgOngoinFundingStartdateLabel"></element>
+  	  <element name='ongoingEndLabel' locator='css' value="#sfgOngoingFundingEnddateLabel"></element>
+  	  <element name='ongoingFreqValue' locator='css' value="#sfgOngoingFundingFrequecny"></element>
+  	  <element name='ongoingStartValue' locator='css' value="#sfgOngoinFundingStartdate"></element>
+  	  <element name='ongoingEndDateValue' locator='css' value="#sfgOngoingFundingEnddate"></element>
+  	  <element name='addFunding' locator='css' value="#addReqFunding"></element>
+      <element name='SaveHeader' locator='css' value="#modalname"></element>
+      <element name='getStartedTab' locator='css' value="#sfgGetStarted"></element>
+      <element name='createGoalTab' locator='css' value="#new-goal-icon-persist"></element>
+     <element name='SaveHeaderPara1' locator='xpath' value="//div[@id='sfgSaveGoalEditContent']//p[1]"></element>
+     <element name='SaveHeaderPara2' locator='xpath' value="//div[@id='sfgSaveGoalEditContent']//p[2]"></element>
+     <element name='SaveOptionsList' locator='xpath' value="//div[@id='sfgSaveGoalEditContent']//label"></element>
+     <element name='SavepopUpAddFunds' locator='css' value="#sfgSaveGoalEdit"></element>
+     <element name='SavepopUpCancelButton' locator='css' value="#sfgCancelSaveGoalEdit"></element>
+     <element name='AcntSelectedTickMark' locator='css' value=".component-tick-mark"></element>
+     <element name='account2Select' locator='xpath' value='//li[@id="li-1"]/h3'></element>
+   	 <element name='afterEditScreenRightValue' locator='css' value="#sfgEditOngoingFundingCnr .align-right-content"></element>
+  	 <element name='arrowIcon' locator='css' value=".arrow-icon"></element>
+  	 <element name='deletePopupHeader' locator='xpath' value='//div[contains(@class,"popup-body-message")]/p'></element>
+  	 <element name='editArrow' locator='css' value=".svg_icon-edit"></element>
+  	 <element name='acntNameLabel' locator='css' value=".accountsNameLabel"></element>
+  	 <element name='BalanceAvailable' locator='css' value=".accountsAvlBalLabel"></element>
+  	 <element name='removeAmountButton' locator='css' value=".sfgRemoveAccountsLink"></element>
+  	 <element name='amountInputBox' locator='css' value=".y-currency-input .y-range-slider-text-input"></element>
+  	 <element name='viewDetails' locator='css' value=".viewDetailsLink"></element>
+  	 <element name='BalanceLabel' locator='css' value=".sfgAccountsAllocationLabel"></element>
+  	 <element name='goalNameLabel' locator='css' value=".goalNameLabel"></element>
+  	 <element name='goalAmountLabel' locator='css' value=".goalContAmount"></element>
+  	 <element name='ListViewLabel' locator='css' value=".sfgGoalsListViewLabel"></element>
+  	 <element name='saveSFGAccountsDetails' locator='css' value="#saveSFGAccountsDetails"></element> 
+  	 <element name='cancelAccountDetails' locator='css' value="#cancelAccountDetails"></element> 
+  	 <element name='AllocationProgressBar' locator='css' value="#sfgAccountsAllocationProgressBarId"></element> 
+  	 <element name='AllocationProgressBarLabel' locator='css' value="#sfgAccountsAllocationBarId .y-progress-bar-label"></element> 
+  	 <element name='EditPopupDoneButton' locator='css' value="#saveSFGContributionsButton"></element> 
+     <element name='EditPopupSavingAmount' locator='css' value=".savingsToDateRow"></element> 
+  	 <element name='EditPopupAddAccount' locator='css' value="#sfgAddAccountsLink"></element>
+  	 <element name='addAccountPopupCurrencyLabel' locator='css' value=".multiCurrencyInfoLabel"></element>
+  	 <element name='addedAcntName' locator='xpath' value="//div[contains(@class,'sfgAccount columns small')]/div[1]"></element>
+  	 <element name='afterSavingEditScreenRightValue' locator='css' value=".onGoingFundingRules .align-right-content"></element>
+  	 <element name='saveGoalPopUp' locator='css' value="#sfgMarkAsComplete"></element> 
+	 <element name='saveGoalPopUpLeft' locator='css' value="#sfgMarkCompGoalStatusCnr .leftText"></element> 
+ 	 <element name='saveGoalPopUpRight' locator='css' value="#sfgMarkCompGoalStatusCnr .rightText"></element> 
+     <element name='saveGoalPopUpGoalStatusHeader' locator='css' value="#sfgMarkCompGoalStatusCnr .funding-subheader"></element> 
+  	 <element name='saveGoalPopUpPara1' locator='xpath' value="//div[@id='sfgMarkCompleteContent']//p[1]"></element> 
+     <element name='saveGoalPopUpPara2' locator='xpath' value="//div[@id='sfgMarkCompleteContent']//p[2]"></element> 
+  	 <element name='RB1label' locator='xpath' value="//label[@for='sfgMakeFundsAvl']"></element> 
+  	 <element name='RB2label' locator='xpath' value="//label[@for='sfgParkFunds']"></element> 
+  	 <element name='SaveGoalCancelButton' locator='css' value="#sfgCancelMarkComplete"></element> 
+  	 <element name='SaveGoalConfirmButton' locator='css' value="#sfgMarkComplete"></element>  
+  	 <element name='deleteGoalButton' locator='css' value="#sfgDeleteGoal"></element>  
+  	 <element name='deleteGoalPara1' locator='xpath' value="//div[contains(@class,'popup-body-message')]/p[1]"></element>  
+  	 <element name='deleteGoalPara2' locator='xpath' value="//div[contains(@class,'popup-body-message')]/p[2]"></element>  
+     <element name='imageBarGoalName' locator='css' value="#sfgGoalName"></element>  
+  	 <element name='imageBarGoalAmount' locator='xpath' value="//span[@class='y-progress-bar-right-label']"></element>  
+  	 <element name='imageBarGoalDate' locator='css' value="#sfgGoalTargetDate"></element>  
+  	 <element name='SavingSucessMsg' locator='css' value="#feedbackText"></element>  
+     <element name='GoalSummaryFooterLine' locator='css' value=".sfgMarkGoalInfoCnr"></element>  
+  	 <element name='markAsCompleteConfirmText' locator='css' value=".y-bold-text"></element>   
+  	 <element name='markAsCompleteLeftLabel' locator='css' value="#sfgMarkCompleteContent .leftText"></element>  
+  	 <element name='markAsCompleteRightLabel' locator='css' value="#sfgMarkCompleteContent .rightText"></element>
+  	 <element name='VictoryTickMarkIcon' locator='xpath' value='//div[contains(@class,"goalAccomplishedCnr")]//p[1]'></element>
+  	 <element name='VictoryText' locator='xpath' value='//div[contains(@class,"goalAccomplishedCnr")]//p[2]'></element>
+  	 <element name='VictoryText2' locator='xpath' value='//div[contains(@class,"goalAccomplishedCnr")]//p[3]'></element>
+  	 <element name='startNewGoalTab' locator='css' value='#startNewGoal'></element>
+  	 <element name='SFGIVictoryGoalNames' locator='css' value="#goals-victory .progress-mainHeader"></element>
+  	 <element name='categoriesLevelBackBtn' locator='css' value='#back-to-text'></element>
+  	 <element name='draftGoalCount' locator='css' value='#goalSection-drafts .progressGoalsCategory'></element>
+  	 <element name='draftViewMoreButton' locator='css' value='#viewMore-drafts-goals'></element>
+  	 <element name='SFGDraftGoalNames' locator='css' value='#goals-drafts .progress-mainHeader'></element>
+  	 <element name='CompletedGoalCount' locator='css' value='#goalSection-savingscompleted'></element>
+  	 <element name='SFGCompletedGoalNames' locator='css' value='#goals-savingscompleted .progress-mainHeader'></element>
+   	 <element name='viewMoreButtonForCompleted' locator='css' value='#viewMore-savingscompleted-goals'></element>
+  	 <element name='VictoryGoalCount' locator='css' value='#goalSection-victory .progressGoalsCategory'></element>
+  	<element name='viewMoreButtonForVictory' locator='css' value='#viewMore-victory-goals'></element>
+  	 <element name='CompletedCongratesMsg' locator='css' value='#goals-savingscompleted .progress-message'></element>
+  	<element name='VictorCongratesMsg' locator='css' value='#goals-victory .progress-message'></element>
+  	 <element name='InprogressGoalCount' locator='css' value='#goalSection-inprogress .progressGoalsCategory'></element>
+  	<element name='viewMoreButtonForInprogress' locator='css' value='#viewMore-inprogress-goals .viewMoreTitle'></element>
+  	<element name='MinMaxArrowForGoal' locator='css' value='.progressGoalsCategory'></element>
+  	<element name='AllProgressBarStatus' locator='css' value='.progressGoalsSection .progressStatusName'></element>
+  	<element name='alertSetting' locator='css' value='#alert-icon'></element>
+  	<element name='alertSettingIcon' locator='xpath' value='//li[@id="li-alert-icon"]//i'></element>
+  	<element name='alertSettingHeader' locator='xpath' value='//h2[@class="title ellipsis"]'></element>
+  	<element name='alertSettingGoalNameHeader' locator='css' value='.notexttransform'></element>
+  	 <element name='containerList' locator='css' value='.tab-title'/>
+  	 <element name='alertSettingGoalsDropdown' locator='css' value='.accordion-icon'/>
+  	 <element name='AlertPOPupLabels' locator='css' value='#goalsSummary .alert-name'/>
+  	 <element name='AlertPOPupSubLabels' locator='css' value='#goalsSummary .alert-description'/>
+  	 <element name='AlertPOPupSaveBtn' locator='xpath' value='//div[@id="goalsSummary"]//div[contains(@class,"btn-width right")]/a'/>
+  	 <element name='AlertsToggleButtons' locator='css' value='#goalsSummary .alert-name-label'/> 
+  	 <element name='SettingContainerList' locator='css' value='.customTabs .inline-block'/> 
+  	 <element name='accountSettingIcon' locator='css' value='.svg_settings'/> 
+  	 <element name='closeActnOption' locator='css' value="#close-account"></element>
+  	 <element name='closeAccountButton' locator='css' value="#closeBtn"></element>
+  	 <element name='goalInprogressErrorMsg' locator='css' value="#goals-inprogress .progressMsgInner"></element>
+  	 <element name='oneTimeFundingditButton' locator='css' value="#sfgEditAccountsLink"></element>
+  	<element name='RadioButton3' locator='css' value="#sfgSaveAsisRadio"></element> 
+  	<element name='offtrackMsg' locator='css' value=".goalLagginMsg"></element> 
+  	 <element name='InprogressOfftrackMsg' locator='css' value=".goal-lagging-color .progressMsgInner"></element> 
+  	 <element name='DashboardGoalColor' locator='css' value=".goal-error-color"></element> 	 
+  	 <element name='offTrackErrorMsg1' locator='css' value="#sfgGoalStatusMsgCnr"></element> 
+    <element name='offTrackErrorMsg2' locator='xpath' value="//div[@class='y-icon-label']"></element> 
+  	 <element name='offTrackErrorMsg3' locator='css' value=".no-dest-acc-err-details"></element> 
+  	 
+  	  
+  	 
+  	 
+  	 
+  	 
+  	 
+  	 <element name='sfgHeader' locator='css' value="#sfgHeaderContent .title"></element>
+  	<element name='noDataMessage1' locator='css' value=".no-data-context-text-content"></element>
+  	<element name='noDataMessage2' locator='css' value=".no-data-message-title"></element>
+  	<element name='noDataMessage3' locator='css' value=".no-data-message-content"></element>
+  	<element name='sfgLinkAccount' locator='css' value="#sfgNoAccounts"></element>
+  	<element name='getStartButton' locator='id' value="sfgStartNewGoal"></element>
+  	<element name='SFGhighLevlcategories' locator='css' value=".goal-mainHeader"></element>
+  	<element name='goalProgressTag' locator='xpath' value="//a[@aria-controls='sfgMyGoals']"></element>
+  	<element name='startGoalMessage' locator='css' value=".sfgNoGoalMessage"></element>
+  	<element name='startGoal3steps' locator='css' value=".sfgStepName"></element>
+  	<element name="startGoal3stepsImages" locator='css' value=".sfgStepImg"></element>
+  	<element name="startGoal3stepsInfo" locator='css' value=".sfgStepDesc"></element>
+  	<element name="startGoalGetStartButton" locator='css' value="#sfgGetStarted"></element>
+  	<element name="SFGcategoryHeading" locator='css' value=".sfgCategoryHeading"></element>
+  	<element name="SFGCreateGoalButton" locator='css' value="#new-goal-icon-persist"></element>
+  	<element name='getSubCatText' locator='xpath' value="//div[contains(@class,'slide')]//div[contains(@id,'lowLevelCategory')]//div[contains(@class,'card-title-center')]"></element>
+  	<element name='alldoneButton' locator='xpath' value="//div[@id='content']/div/div[2]/div/div[1]/button"></element>
+  	<element name='closeHighLevelCat' locator='css' value=".svg_icon-close-circle"></element>
+  	<element name='SFGhighLevlcategoriesSubContent' locator='css' value=".goal-subHeader"></element>
+  	<element name='newGoalbutton' locator='xpath' value="//div[@id='sfgNavMenusContent']/ul/li[1]/a"></element>
+  	<element name='MyGoalsTab' locator='xpath' value="//a[@id='myGoalsTabId']"></element>
+  	<element name='GoalCategory' locator='xpath' value="//a[@id='goalCategoryTabId']"></element>
+  	 <element name='backToNewGoal' locator='css' value="#sfgBody #back-to-text"></element>
+  	 <element name='backToNewGoalIcon' locator='css' value="#sfgBody .svg_back"></element>
+  	 <element name='GoalHeaderInsteps' locator='xpath' value="//div[@id='sfgBody']//h2[contains(@class,'title')]"></element>
+  	 <element name='curentlyActiveStep' locator='xpath' value="//div[@class='step active-step']//span[3]"></element>
+  	 <element name='all3GoalSteps' locator='css' value=".step-name-desktop"></element>
+  	 <element name='goalNameFieldLable' locator='css' value="#sfgGoalNameInputCnr .y-textFieldLabel"></element>
+  	 <element name='GoalNameInput' locator='id' value="sfgGoalNameInput"></element>
+  	 <element name='GoalNameErrors' locator='css' value="#sfgGoalNameInputError"></element>
+  	 <element name='GoalAmountInput' locator='id' value="sfgGoalAmountInput"></element>
+  	<element name='GoalAmountErrors' locator='css' value="#sfgGoalAmountInputError"></element>
+  	 <element name='frequencyRadioButtonText' locator='xpath' value="//label[contains(@class,'amountAndFreqRadioLabel')]/p"></element>
+  	 <element name='TagateRadioButtonText' locator='xpath' value="//label[contains(@class,'targetDateRadioLabel')]/p"></element>
+  	<element name='GoalAmtFrqBtnInput' locator='css' value=".amountAndFreqRadioLabel #amountAndFreqRadio"></element>
+  	<element name='GoalAmtFrqInput' locator='css' value="#sfgFreqAmount"></element>
+  	<element name='FrqAmountErrors' locator='css' value=".sfgFreqErrorCnr"></element>
+  	<element name='helpsybol' locator='css' value=".svg_icon_tip"></element>
+  	 <element name='helpMessage' locator='xpath' value="//div[contains(@class,'sfgFreqInfoCnr')]/p"></element>
+  	<element name='GoalTargetBtnInput' locator='css' value='.targetDateRadioLabel #targetDateRadio'></element>
+  	<element name='GoalTargetInput' locator='xpath' value="//input[@id='sfgGoalTargetDateInput']"></element>
+  	<element name='TargetDateErrors' locator='css' value="#sfgGoalTargetDateInputError"></element>
+  	<element name='GoalStartInput' locator='xpath' value="//input [@id='sfgGoalStartDateInput']"></element>
+  	<element name='StartDateErrors' locator='css' value="#sfgGoalStartDateInputError"></element>
+    <element name='frequencyDropdown1' locator='xpath' value="//div[@id='sfgFreqCnr']//div[contains(@id,'g-generic-dropdown')]/a"></element>
+  	<element name='FrqDropDownIcon' locator='xpath' value="//div[@id='sfgFreqCnr']//div[contains(@id,'g-generic-dropdown')]/a//span[2]"></element>
+  	<element name='allFrequency' locator='xpath' value="//div[@id='sfgFreqCnr']//ul[1]/li//span[1]"></element>
+  	<element name='NextBtnStep1' locator='css' value="#saveGoalState"></element>
+  	<element name='twoOptionError1' locator='xpath' value="//div[@class='sfgTargetCnrError y-material-error']"></element>
+  	<element name='AccountfieldLable' locator='css' value="#sfgAccountsDropdownId .y-textFieldLabel"></element>
+  	<element name='AccountdropDownIcon' locator='css' value="#sfgAccountsCnrId .svg_dropdown"></element>
+  	<element name='AccountdropDownField' locator='css' value="#sfgGoalAccountsInputId"></element>
+  	<element name='OneTimeFunddingLable' locator='css' value=".one-time-funding-subheader"></element>
+  	<element name='OneTimeAlocateText' locator='css' value="#sfgAccountsAllocationPreTextId"></element>
+  	<element name='OntimeFundingTextBox' locator='css' value="#sfgAccountsAllocationAmountId"></element>
+  	<element name='OntimeFundingPostText' locator='css' value="#sfgAccountsAllocationPostTextId"></element>
+  	<element name='OntimeFundingOptionalText' locator='css' value=".optionalLablProp"></element>
+  	<element name='OntimeFundingAmountEqualAmountMessage' locator='xpath' value="//div[contains(@class,'sfgAccountsAllocationErrorCnr')]/p"></element>
+  	<element name='OntimeFundingErrorMessage' locator='xpath' value="//div[contains(@class,'sfgAccountsAllocationErrorCnr')]"></element>
+  	<element name='recurOnGoingFundingHeader' locator='css' value=".funding-subheader"></element>
+  	<element name='recurOnGoingFundingValue' locator='css' value="#sfgOngoingFundingValueId"></element>
+  	<element name='AcconuPopUpHeader' locator='css' value="#modalname"></element>
+  	<element name='saveMoreThanAccountLabel' locator='xpath' value="//div[@id='sfgAccountsOptions']//label"></element>
+  	<element name='MultiAccountToggel' locator='xpath' value="//div[@id='multiAccToggleContainer']"></element>
+  	<element name='currencuInfoMessage' locator='css' value=".multiCurrencyInfoLabel"></element>
+  	<element name='SfgallAccountname' locator='css' value=".accountsNameLabel"></element>
+  	<element name='SfgallAccountnameUnselected' locator='xpath' value="//a[contains(@id,'accountsRowLink')]//div[contains(@class,'accountDetailsContent')]/div[1]/div[1]//label"></element>
+  	<element name='allAccountAvailablebalace' locator='css' value=".accountsAvlBalLabel"></element>
+  	<element name='AccountPopUPonTimeFundingpretext' locator='css' value=".y-range-slider-pre-label"></element>
+  	<element name='AccountPopUPonTimeFundingPosttext' locator='css' value=".y-range-slider-post-label"></element>
+  	<element name='AccountPopUPonTimeFundingOptionaltext' locator='css' value=".accounts-financial-container .optionalLablProp"></element>
+  	<element name='AccountPopUPonTimeFundingTextBox' locator='css' value=".accounts-financial-container .y-range-slider-text-input"></element>
+  	<element name='AccountPopUPonTimeFundingEqualsMessage' locator='css' value=".accounts-financial-container .y-material-warning"></element>
+  	<element name='AccountPopUPonTimeFundingErrorMessage' locator='css' value=".accounts-financial-container .accountAllocationError"></element>
+  	<element name='SelectedAccountCheckBox' locator='css' value=".customCheckBox"></element>
+  	<element name='unselectedAccountCheckBox' locator='xpath' value="//div[contains(@class,'accountsContainer')]/div[1]/span/span[contains(@id,'multiAccountCheckBox')]"></element>
+  	<element name='AccountsOneTimeFundingAmountMessage' locator='css' value=".sfgAccountsInfoLabel"></element>
+  	<element name='AccountPopUpclose' locator='css' value=".icon-close-b"></element>
+  	<element name='AccountPopUpSave' locator='css' value="#saveSFGAccounts"></element>
+  	<element name='SFGAccountPopUpCancel' locator='css' value="#cancelNavigate"></element>
+  	<element name='AccountAllocatedText' locator='css' value=".initialAccountAllocation .preLabel"></element>
+  	<element name='AccountAllocatedAmount' locator='css' value=".initialAccountAllocation .sfgMultiAccountsAllocationAmount"></element>
+  	<element name='AccountAllocatedAmountFrom' locator='css' value=".initialAccountAllocation .postLabel"></element>
+  	<element name='AccountAllocatedAmountFromAccount' locator='css' value=".initialAccountAllocation .sfgMultiAccountsName"></element>
+  	<element name='SFGBackButton' locator='css' value="#backnavigation"></element>
+  	<element name='SaveFundingLabel' locator='css' value="#sfgDestAccountsDropdown .y-textFieldLabel"></element>
+  	<element name='FundingPageAccount' locator='css' value="#sfgFundingAccountsInputId"></element>
+  	<element name='FundingPageAccountDropdownIcon' locator='css' value="#sfgDestAccountsDropdown .postDecorator"></element>
+  	<element name='SFGListOfAccount' locator='xpath' value="//div[@id='sfgFundingAccounts']//ul[1]/li//span[1]"></element>
+  	<element name='SFGAmountLabel' locator='css' value="#sfgOngoingFundingAmount .y-textFieldLabel"></element>
+  	<element name='SFGAmountValue' locator='css' value="#sfgOngoingFundingAmount #sfgFundingAmountInputId"></element>
+  	<element name='SFGFrequencyLabel' locator='css' value="#sfgOngoingFundingFrequecnyLabel"></element>
+  	<element name='SFGFrequencyValue' locator='css' value="#sfgOngoingFundingFrequecny"></element>
+  	<element name='SFGStartDateLabel' locator='css' value="#sfgOngoinFundingStartdateLabel"></element>
+  	<element name='SFGStartDateValue' locator='css' value="#sfgOngoinFundingStartdate"></element>
+  	<element name='SFGEndDateLabel' locator='css' value="#sfgOngoingFundingEnddateLabel"></element>
+  	<element name='SFGEndDateValue' locator='css' value="#sfgOngoingFundingEnddate"></element>
+  	<element name='SFGFundingCancelButton' locator='css' value="#sfgSkipStep"></element>
+  	<element name='SFGFundingSaveButton' locator='css' value="#sfgSaveFunding"></element>
+  	<element name='SFGOnGoingFundingLeftLabel' locator='css' value=".align-left-content"></element>
+  	<element name='SFGOnGoingFundingLightvalue' locator='css' value=".align-right-content"></element>
+  	<element name='SFGOnAdditionFundingErrorIcon' locator='css' value="#addFunding .svg_icon-error-line"></element>
+  	<element name='SFGOnAdditionFundingErrorMessage' locator='xpath' value="//div[@id='additionalFundingInfoCnr']//p"></element>
+  	<element name='SFGOnAdditionFundingIcon' locator='css' value=".add-icon"></element>
+  	<element name='SFGOnAdditionFundingIconLabel' locator='css' value="#addMoreFunding"></element>
+  	<element name='SFGOnAdditionFundingRow' locator='css' value=".onGoingFundingRule-item"></element>
+  	<element name='SFGOnOngoingFundingDeleteButton' locator='xpath' value="//a[@id='deleteBlock']"></element>
+  	<element name='SFGFundingDeletePopUp' locator='id' value="modalname"></element>
+  	<element name='SFGFundingDeletwPopUpDeleteInfoMessage' locator='xpath' value="//div[contains(@class,'yodlee-modal-popup-body-message')]/p[1]"></element>
+  	<element name='SFGFundingDeletwPopUpCancelInfoMessage' locator='xpath' value="//div[contains(@class,'yodlee-modal-popup-body-message')]/p[2]"></element>
+  	<element name='SFGFundingDeletePopupCloseIcon' locator='css' value=".svg-icon"></element>
+  	<element name='SFGFundingDeletePopupCancelButton' locator='css' value="#sfgCancel"></element>
+  	<element name='SFGFundingDeletePopupDeleteButton' locator='css' value="#sfgSkip"></element>
+  	<element name='SFGStartMyGoalButton' locator='id' value="saveGoalState"></element>
+  	<element name='SFGViewSummeryGoalName' locator='css' value="#sfgGoalName"></element>
+  	<element name='SFGViewSummeryGoalCard' locator='css' value=".sfgContentWrapper"></element>
+  	<element name='SFGViewSummeryGoalTargateDate' locator='css' value="#sfgGoalTargetDate"></element>
+  	<element name='SFGViewSummeryGoalSavedAmount' locator='css' value=".y-progress-bar-left-label"></element>
+  	<element name='SFGViewSummeryGoalTargateAmount' locator='css' value=".y-progress-bar-right-label"></element>
+  	<element name='SFGViewSummeryGoalOneTimefundinglabel' locator='css' value=".oneTimeFundingRules .funding-subheader"></element>
+  	<element name='SFGViewSummeryGoalRecurringfundinglabel' locator='css' value=".onGoingFundingRules .funding-subheader"></element>
+  	<element name='SFGInprogressGoalTab' locator='css' value="#goalSection-inprogress .progressStatusName"></element>
+  	<element name='SFGInprogressGoalNames' locator='xpath' value="//div[@id='goals-inprogress']//div[contains(@class,'progress-mainHeader')]"></element>
+  	<element name='SFGInprogressGoalCards' locator='xpath' value="//div[@id='goals-inprogress']//a[contains(@class,' goalCard')]"></element>
+  	
+  	<element name='SFGInprogressGoalEndDate' locator='xpath' value="//div[@id='goals-inprogress']//div[contains(@class,'card-subTitle')]"></element>
+    <element name='SFGInprogressGoalProgressBar' locator='xpath' value="//div[@id='goals-inprogress']//div[contains(@class,'y-progress-bar-completed')]"></element>
+    <element name='SFGInprogressGoalOneTimeFundingValue' locator='xpath' value="//div[@id='goals-inprogress']//span[contains(@class,'y-progress-bar-left-label')]"></element>
+    <element name='SFGInprogressGoalOfText' locator='xpath' value="//div[@id='goals-inprogress']//span[contains(@class,'y-progress-bar-conjunction')]"></element>
+    <element name='SFGInprogressGoalTargateAmount' locator='xpath' value="//div[@id='goals-inprogress']//span[contains(@class,'y-progress-bar-right-label')]"></element>
+    <element name='SFgDraftGoalPopUPHeader' locator='css' value="#modalname"></element>
+     <element name='SFgDraftGoalPopUPClose' locator='css' value=".svg-icon"></element>
+     <element name='SFgDraftGoalQuiteMessage' locator='xpath' value="//div[contains(@class,'yodlee-modal-popup-body-message')]/p[1]"></element>
+     <element name='SFgDraftGoalCancelMessage' locator='xpath' value="//div[contains(@class,'yodlee-modal-popup-body-message')]/p[2]"></element>
+    <element name='SFgDraftGoalSaveMyProgress' locator='css' value="#sfgSaveProgress"></element>
+    <element name='SFgDraftGoalQuiteWithOutsaving' locator='css' value="#sfgQuitSetup"></element>
+    <element name='SFGGoalSaveMessage' locator='id' value="feedbackText"></element>
+  	<element name='SFGDraftGoalNames' locator='xpath' value="//div[@id='goals-drafts']//div[contains(@class,'progress-mainHeader')]"></element>
+  	<element name='SFGDraftGoalCardMessage' locator='xpath' value="//div[@id='goals-drafts']//div[contains(@class,'progress-content-margins progressMsgInner')]"></element>
+  	<element name='SFGDraftGoalDeletIcon' locator='xpath' value="//div[@id='goals-drafts']//a[contains(@class,'goalDeleteIcon')]"></element>
+  	<element name='SFGDraftGoalDeletPopUpHeader' locator='css' value="#modalname"></element>
+  	<element name='SFGDraftGoalDeletPopupClose' locator='css' value=".svg-icon"></element>
+  	<element name='SFGDraftGoalDeletPopupDeleteInfoMessage' locator='xpath' value="//div[contains(@class,'yodlee-modal-popup-body-message')]/p[1]"></element>
+  	<element name='SFGDraftGoalDeletPopupCancelInfoMessage' locator='xpath' value="//div[contains(@class,'yodlee-modal-popup-body-message')]/p[2]"></element>
+  	<element name='SFGDraftGoalDeletPopupDeletButton' locator='css' value="#sfgSkip"></element>
+  	<element name='SFGDraftGoalDeletPopupCancelButton' locator='css' value="#sfgCancel"></element>
+  	<element name='SFGAmountFlowConfirmationPupUpHeader' locator='css' value="#modalname"></element>
+  	<element name='SFGAmountFlowConfirmationPupUpCloseIcon' locator='css' value=".svg-icon"></element>
+  	<element name='SFGAmountFlowConfirmationPupUpInfo1' locator='xpath' value="//div[@id='sfgSaveAsIsContent']//p[1]"></element>
+  	<element name='SFGAmountFlowConfirmationPupUpInfo2' locator='xpath' value="//div[@id='sfgSaveAsIsContent']//p[2]"></element>
+  	<element name='SFGAmountFlowConfirmationPupUpRadioButton1' locator='xpath' value="//div[@id='sfgSaveAsIsContent']//label[1]"></element>
+  	<element name='SFGAmountFlowConfirmationPupUpRadioButton2' locator='xpath' value="//div[@id='sfgSaveAsIsContent']//label[2]"></element>
+  	<element name='SFGAmountFlowConfirmationPupUpCancelButton' locator='css' value="#sfgCancelSaveAsis"></element>
+  	<element name='SFGAmountFlowConfirmationPupUpSaveButton' locator='css' value="#sfgSaveAsIs"></element>
+  	<element name='SFGTargateSaveLabel' locator='css' value=".onFundLabel"></element>
+  	<element name='SFGTargateSaveValue' locator='css' value=".onFundAmt"></element>
+  	<element name='SFGTargateFrequencytext' locator='xpath' value="//div[@id='sfgOngoingFundingFrequencyId']//a//span[1]"></element>
+  	<element name='SFGTargateFrequencyIcon' locator='xpath' value="//div[@id='sfgOngoingFundingFrequencyId']//a//span[2]"></element>
+  	<element name='SFGTargateFrequencytextList' locator='xpath' value="//div[@id='sfgOngoingFundingFrequencyId']//ul[1]/li//span[1]"></element>
+  	<element name='SFGEditCurrentStauslabel' locator='css' value=".sfgGoalStatusCnr .funding-subheader"></element>
+  	<element name='SFGEditCurrentStausDetailslabel' locator='css' value=".sfgGoalStatusContent .align-left-content"></element>
+  	<element name='SFGEditCurrentStausDetailsValue' locator='css' value=".sfgGoalStatusContent .align-right-content"></element>
+  	<element name='SFGEditOngoingFundinglabel' locator='css' value="#sfgOnGoingFundingCnr .funding-subheader"></element>
+  	<element name='SFGEditOngoingFundingDetailslabel' locator='css' value="#sfgOnGoingFundingCnr .align-left-content"></element>
+  	<element name='SFGEditOngoingFundingDetailsValue' locator='css' value="#sfgOnGoingFundingCnr .align-right-content"></element>
+  	<element name='SFGCurrencySymbolInTrargateAmount' locator='css' value=".decoText"></element>
+  	<element name='SFGCurrencySymbolInFrequencyAmount' locator='css' value="#sfgFreqAmtCurr"></element>
+  	<element name='SFGFundingAmountErrorMessage' locator='css' value="#sfgFundingAmountInputIdError"></element>
+  	<element name='SFGEmarkedCurrencySymbol' locator='css' value="#sfgAccountsListView .y-range-slider-currency"></element>
+  	<element name='SFGGoalCardOfText' locator='css' value=".y-progress-bar-conjunction"></element>
+  	
+  	<element name='SFGAccountViewMoreOption' locator='css' value=".viewDetailsLink"></element>
+  	<element name='SFGAccountViewMorePopupHeader' locator='css' value="#modalname"></element>
+  	<element name='SFGAccountViewMorePopupFreavailableBalance' locator='css' value=".sfgAccountsAllocationLabel"></element>
+  	<element name='SFGAccountViewMorePopupPrgressBar' locator='css' value="#sfgAccountsAllocationProgressBarId"></element>
+  	<element name='SFGAccountViewMorePopupSavedValue' locator='css' value="#sfgAccountsAllocationId .y-progress-bar-left-label"></element>
+  	<element name='SFGAccountViewMorePopupOftext' locator='css' value="#sfgAccountsAllocationId .y-progress-bar-conjunction"></element>
+  	<element name='SFGAccountViewMorePopupAvailableBalance' locator='css' value="#sfgAccountsAllocationId .y-progress-bar-right-label"></element>
+  	<element name='SFGAccountViewMorePopupFollwingtext' locator='css' value=".sfgGoalsListViewLabel"></element>
+  	<element name='SFGAccountViewMorePopupListOfGoal' locator='xpath' value="//div[@id='goalDetailsContent']/span[1]"></element>
+  	<element name='SFGAccountViewMorePopupListOfGoalAmount' locator='css' value=".goalAmount"></element>
+  	<element name='SFGAccountViewMorePopupListOfGoalDate' locator='css' value=".goalDate"></element>
+  	<element name='SFGAccountViewMorePopupListOfGoalSavedValueInProgressbar' locator='css' value="#goalContributionSlider .y-range-slider-fill-right-value"></element>
+  	<element name='SFGAccountViewMorePopupListOfGoalSavedValueInProgressbarcss' locator='css' value="#goalContributionSlider .y-range-slider-handle"></element>
+  	<element name='SFGAccountViewMorePopupListYouHavedSavedText' locator='css' value=".goalContributionSliderCnr  .y-range-slider-pre-label"></element>
+  	<element name='SFGAccountViewMorePopupListOfMountField' locator='css' value=".goalContributionSliderCnr  .y-range-slider-text-input"></element>
+  	<element name='SFGAccountViewMorePopupListOfGoalOptionalText' locator='css' value=".goalContributionSliderCnr  .y-range-slider-post-label"></element>
+  	<element name='SFGAccountViewMorePopupListOfGoalOptionalText1' locator='css' value=".goalContributionSliderCnr  .optionalLablProp"></element>
+  	<element name='SFGAccountViewMorePopupCloseIcon' locator='css' value=".icon-close-b"></element>
+  	<element name='SFGAccountViewMorePopupCancelButton' locator='css' value="#cancelAccountDetails"></element>
+  	<element name='SFGAccountViewMorePopupSaveBuuton' locator='css' value="#saveSFGAccountsDetails"></element>
+  	<element name='SFGAccountViewMorePopupAllocationFieldErrorMessage' locator='css' value=".goalContributionError"></element>
+  	<element name='SFGAccountIntegrationAccountName' locator='xpath' value="//div[contains(@class,'account-details-action')]/div[1]//div[contains(@class,'acc-row-column1')]/span[1]"></element>
+  	<element name='SFGAccountIntegrationAccountNumber' locator='xpath' value="//div[contains(@class,'account-details-action')]/div[1]//div[contains(@class,'acc-row-column2')]/span[1]"></element>
+  	<element name='SFGAccountIntegrationAccountAccountBalance' locator='css' value=".auto-account-balance"></element>
+  	
+  	
+  	
+  	<element name='SFGDashBoardHeader' locator='css' value="#sfgWidgetHeaderTitle"></element>
+  	<element name='SFGDashBoardMessage' locator='css' value="#sfgContentCtr .no-data-message-content"></element>
+  	<element name='SFGDashBoardLetsGoButton' locator='css' value="#sfgWidgetFtueBtn"></element>
+  	<element name='SFGDashBoardBackTodashBoardIcon' locator='css' value=".svg_back"></element>
+  	<element name='SFGDashBoardBackTodashBoardIconSummery' locator='css' value="#sfgBody .svg_back"></element>
+  	<element name='SFGDashBoardBackTodashBoardLink' locator='css' value="#back-to-text"></element>
+  	 <element name='SFGDashBoardBackTodashBoardLinkSummery' locator='css' value="#sfgBody #back-to-text"></element>
+  	<element name='SFGDashBoardGoalName' locator='xpath' value="//div[contains(@class,'progress-card-cnr')]/p[1]"></element>
+  	<element name='SFGDashBoardCircleSymbol' locator='css' value=".svg_icon-circle"></element>
+  	<element name='SFGDashBoardNextIcon' locator='css' value="#sfgWidgetContainer .svg_icon-arrow-next"></element>
+  	<element name='SFGDashBoardViewAllGoals' locator='css' value="#sfgWidgetViewAllGoalsBtn"></element>
+  	<element name='SFGDashBoardViewAllGoalsInLatPAge' locator='css' value="#sfgViewAllGoalBtn"></element>
+  	<element name='SFGCmpleteGoalButton' locator='css' value="#sfgGoalSetupSection1 #sfgMarkAsComplete"></element>
+  	<element name='SFGCmpleteGoalConfirmationButtonButton' locator='css' value="#sfgMarkComplete"></element>
+  	<element name='SFGCmpleteGoalName' locator='xpath' value="//div[@id='goals-savingscompleted']//div[contains(@class,'progress-mainHeader')]"></element>
+  	<element name='SFGMarkAsCmpleteButton' locator='css' value="#saveGoalState"></element>
+  	<element name='SFGMarkAsCmpletePopUpButton' locator='css' value="#sfgMarkComplete"></element>
+  	<element name='SFGMyprofileLink' locator='css' value="#app-header-wrap #fcMyProfileLink"></element>
+  	<element name='SFGMyprofileListpreference' locator='xpath' value="//aside/div[1]//a"></element>
+  	<element name='SFGMyprofileListpreferenceCurrencyDropDown' locator='css' value="#selectedCurrencyIcon"></element>
+  	<element name='SFGMyprofileListpreferenceCurrencyList' locator='xpath' value="//div[@id='currencyList']//ul[1]/li//span[1]"></element>
+  	<element name='SFGMyprofileSaveChanges' locator='css' value="#save-changes"></element>
+  	<element name='SFGCurrencyMissMatchIcon' locator='css' value=".currency-mismatch-icon"></element>
+  	<element name='SFGCurrencyMissMatchTitle' locator='css' value=".currency-mismatch-title"></element>
+  	<element name='SFGCurrencyMissMatchMessage1' locator='css' value=".currency-mismatch-messageone"></element>
+  	<element name='SFGCurrencyMissMatchMessage2' locator='css' value=".currency-mismatch-messagetwo"></element>
+  	
+  	<element name='SFGCurrencyMissMatchTitleInStep1' locator='css' value=".ftue-msg-header"></element>
+  	<element name='SFGCurrencyMissMatchMessage1Instep1' locator='css' value=".ftue-msg-desc"></element>
+  	<element name='SFGCurrencyMissMatchLinkAccountButton' locator='css' value="#openFLFloaterBtn"></element>
+    <element name='SFGProfileAmountFormate' locator='css' value="#selectedDigitGroupingIcon"></element>
+    <element name='SFGProfileAmountFormateList' locator='xpath' value="//div[@id='dgList']//ul[1]/li//span[1]"></element>
+    <element name='SFGProfilDateFormate' locator='css' value="#selectedDateFormatIcon"></element>
+    <element name='SFGProfileDateFormateList' locator='xpath' value="//div[@id='dateFormatList']//ul[1]/li//span[1]"></element>
+    <element name='SFGLinkAnAccountMessage' locator='css' value="#sfgAccountLinkDescription"></element>
+    <element name='SFGOLBId' locator='css' value="#finapp_10003737"></element>
+    <element name='SFGOLBLinkAnAccount' locator='css' value="#sfgWdgetLinkAcctBtn"></element>
+    <element name='SFGOLBBackButton' locator='css' value="#sfgWidgetContent .svg_icon-arrow-previous"></element>
+     <element name='SFGOLBBackButtonHidden' locator='css' value=".pagination-left-arrow"></element>
+     <element name='SFGOLBAccountDelete' locator='css' value=".svg_icon-delete"></element>
+     <element name='SFGOLBAccountDeleteCheckBox' locator='css' value="#deleteconfirmcheck"></element>
+     <element name='SFGOLBAccountDeletePupUpDete' locator='css' value=".last-button"></element>
+     <element name='SFGOLBAccountErrormEssage' locator='css' value=".sfgAddAccountsErr"></element>
+    
+    
+     
+	 
+	 
+	
+    </page>
+    <page name='AccountSettings' isHomePage='false' isMenuItem='true' parentMenu='Settings' containerPage='DashboardPage' locator='xpath' locatorValue='//span[contains(text(),"Account Settings")]'>
+        </page>
+		</Pages>

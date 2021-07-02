@@ -1,0 +1,14 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-147374,"getCobrandSubscription - Validate RecurringDepositLate , check if Insight is unSubscribed to OR isSubscribed=false ",,RecurringDepositLate,RecurringDepositLate,,,,,,,,FALSE,,,,200,TRUE
+AT-147375,"getCobrandSubscription - Validate RecurringDepositLate , Validate InsightName",,RecurringDepositLate,RecurringDepositLate,,,,,,,,,,,,200,TRUE
+AT-147376,"getCobrandSubscription - Validate RecurringDepositLate , Validate Supporting container",,RecurringDepositLate,,,BANK,,,,,,,,,,200,TRUE
+AT-147377,"getCobrandSubscription - Validate RecurringDepositLate , Validate TriggerType",SCHEDULE,RecurringDepositLate,,,,,,,,,,,,,200,TRUE
+AT-147378,"getCobrandSubscription - Validate RecurringDepositLate , Validate applicableEntity",,RecurringDepositLate,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-147379,"getCobrandSubscription - Validate RecurringDepositLate , Validate number of levels and levelObject",,RecurringDepositLate,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-147380,"getCobrandSubscription - Validate RecurringDepositLate , Validate isSubscribed=false",,RecurringDepositLate,,,,,,,,,FALSE,,,,200,TRUE
+AT-147381,"getCobrandSubscription - Validate RecurringDepositLate , Validate threshold Name,default Value 3 and Type",,RecurringDepositLate,,,,,,,ACOCUNT  VIEW,account,,,"DELAY,3,DAYS",,200,TRUE
+AT-147382,"getCobrandSubscription - Validate RecurringDepositLate , Validate insightKeys",,RecurringDepositLate,,,,Account,,,,,,,,,200,TRUE
+AT-147383,"getCobrandSubscription - Validate RecurringDepositLate , Validate description",,RecurringDepositLate,,,,,,Generates an insight if a recurring deposit has not posted to an account for more than a configured number of days.,,,,,,,200,TRUE
+AT-147384,"getCobrandSubscription - Validate RecurringDepositLate , Validate title",,RecurringDepositLate,,Recurring Deposit is Late,,,,,,,,,,,200,TRUE
+AT-147385,"getCobrandSubscription - Validate RecurringDepositLate , Validate total number of keys",,RecurringDepositLate,,,,,17,,,,,,,,200,TRUE
+AT-147386,getCobrandSubscription - Validate RecurringDepositLate  - default frequency,,RecurringDepositLate,RecurringDepositLate,,,,,,,,,DAILY,,,200,TRUE

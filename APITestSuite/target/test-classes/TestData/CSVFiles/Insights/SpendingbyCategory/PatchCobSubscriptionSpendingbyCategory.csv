@@ -1,0 +1,27 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-143172,Update entityParameter->account[0]->insightType,SpendingbyCategory,negTestScenario24,,,,,,,,,2,,account view,,,,TRUE TRUE,,OTHER OTHER ,,400,TRUE
+AT-143172,Update entityParameter->account[0]->insightType - Invalid Name,SpendingbyCategory,negTestScenario24,,,,,,,,,2,,account view,,,,TRUE TRUE,,INVALID INVALID,,400,TRUE
+AT-143165,Update entityParameter->account[0]->duration,SpendingbyCategory,negTestScenario23,,,,,,,,,2,,account view,,,,TRUE TRUE,LASW_MONHT LASW_MONHT ,,,400,TRUE
+AT-143129,Update entityParameter->account[0]->valid duration,SpendingbyCategory,,,,,,,,,,2,,account view,,,,TRUE TRUE,LAST_MONTH LAST_MONTH,,,204,TRUE
+AT-143165,Subscribe SpendingbyCategory to isSubscribed=true,SpendingbyCategory,,,,,,,,,,2,,account view,,,,TRUE TRUE,,,,204,TRUE
+AT-143165,Update insightName to same name,SpendingbyCategory,negTestScenario53,SpendingbyCategory,,,,,,,,,,,,,,,,,,500,TRUE
+AT-143161,Update insightName to different name,SpendingbyCategory,negTestScenario2,SpendingbyCategoryEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143165,Update insightTitle chars are less than 3,SpendingbyCategory,negTestScenario3,,kk,,,,,,,,,,,,,,,,,400,TRUE
+AT-143165,Update insightTitle chars are greater 100,SpendingbyCategory,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-143165,Update insightTitle chars between 3 and 100 ,SpendingbyCategory,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-143165,Update insightTitle chars are only 3,SpendingbyCategory,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-143165,Update insightTitle chars are only 100,SpendingbyCategory,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-143165,Update insightTitle chars are special characters,SpendingbyCategory,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-143165,Update entityParameter,SpendingbyCategory,,,,,,,,,,2,,account view,,,,TRUE TRUE,,,,204,TRUE
+AT-143165,Update entityParameter->account[0]->frequency,SpendingbyCategory,negTestScenario22,,,,,,,,,2,,account view,,,Month Month,TRUE TRUE,,,,400,TRUE
+AT-143165,Update entityParameter->account[0]->isSubscribed=false,SpendingbyCategory,,,,,,,,,,2,,account view,,,,FALSE FALSE,,,,204,TRUE
+AT-143165,Update container,SpendingbyCategory,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-143165,Update keys,SpendingbyCategory,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-143165,Update description,SpendingbyCategory,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-143170,Update entityParameter->account[0]->threshold[0]->name,SpendingbyCategory,negTestScenario54,,,,,,,,,1,,account,1,,,FALSE,,,"BELOW,10,NUMBER",400,TRUE
+AT-143163,Update entityParameter->account[0]->threshold[0]->value,SpendingbyCategory,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,10,NUMBER",204,TRUE
+AT-143170,Update entityParameter->account[0]->threshold[0]->type,SpendingbyCategory,negTestScenario55,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,10,VALUE",400,TRUE
+AT-143162,Update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,SpendingbyCategory,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-143165,Update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,SpendingbyCategory,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,10,NUMBER",204,TRUE
+AT-143169,Update applicableEntity,SpendingbyCategory,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-143165,Changing to Default,SpendingbyCategory,,,Spending by Category,,,,,,,2,,account view,,,DAILY DAILY,TRUE TRUE,THREE_MONTHS THREE_MONTHS,,,204,TRUE

@@ -1,0 +1,96 @@
+<entity type="multiple">
+	<request>
+
+		<post-consent-multiple>
+
+			<post-consent order="1">
+				<providerId>24016</providerId>
+				<applicationName></applicationName>
+				<providerAccountId></providerAccountId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>bank</container>
+							</attribute>
+							<attribute>
+								<name>TRANSACTIONS</name>
+								<container>bank</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</post-consent>
+
+			<post-consent order="2">
+				<providerId>24016</providerId>
+				<applicationName></applicationName>
+				<providerAccountId></providerAccountId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>bank</container>
+							</attribute>
+							<attribute>
+								<name>TRANSACTIONS</name>
+								<container>bank</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</post-consent>
+
+		</post-consent-multiple>
+
+		<update-consent-multiple>
+			<update-consent order="1">
+				<scopeList>
+					<scope>
+						<name>ACCOUNT_DETAILS</name>
+
+					</scope>
+					<scope>
+						<name>TRANSACTION_DETAILS</name>
+
+					</scope>
+				</scopeList>
+			</update-consent>
+			<update-consent order="2">
+				<scopeList>
+					<scope>
+						<name>ACCOUNT_DETAILS</name>
+
+					</scope>
+					<scope>
+						<name>TRANSACTION_DETAILS</name>
+
+					</scope>
+				</scopeList>
+			</update-consent>
+		</update-consent-multiple>
+
+		<get-consent-with-provider-account-ids-multiple>
+			<get-consent-with-provider-account-ids order="1">
+				<providerAccountId>9099,99876</providerAccountId>
+			</get-consent-with-provider-account-ids>
+		</get-consent-with-provider-account-ids-multiple>
+
+	</request>
+
+	<response>
+		<get-consent-with-provider-account-ids-multiple>
+			<get-consent-with-provider-account-ids order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/OpenBanking/
+					</filePath>
+					<responseFile>InvalidProviderAccountIds.json</responseFile>
+				</row>
+			</get-consent-with-provider-account-ids>
+		</get-consent-with-provider-account-ids-multiple>
+	</response>
+</entity>

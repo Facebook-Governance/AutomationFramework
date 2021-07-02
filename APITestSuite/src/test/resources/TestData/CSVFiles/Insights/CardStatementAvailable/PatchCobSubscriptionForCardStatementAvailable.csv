@@ -1,0 +1,30 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-154591,PATCH COBRAND SUBSCRIPTION - subscribe to CardStatementAvailable isSubscribed=true,CardStatementAvailable,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,10,DAYS",204,TRUE
+AT-154592,PATCH COBRAND SUBSCRIPTION - update insightName to same name,CardStatementAvailable,negTestScenario1,CardStatementAvailable,,,,,,,,,,,,,,,,,,500,TRUE
+AT-154593,PATCH COBRAND SUBSCRIPTION -  update insightName to different name,CardStatementAvailable,negTestScenario2,CardStatementAvailableEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-154594,PATCH COBRAND SUBSCRIPTION - update insightTitle chars between 3 and 100 ,CardStatementAvailable,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-154595,PATCH COBRAND SUBSCRIPTION -  update insightTitle chars are only 3,CardStatementAvailable,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-154596,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are only 100,CardStatementAvailable,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-154597,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are less than 3,CardStatementAvailable,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-154598,PATCH COBRAND SUBSCRIPTION -  update insightTitle chars are greater 100,CardStatementAvailable,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-154599,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are special characters,CardStatementAvailable,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-154600,PATCH COBRAND SUBSCRIPTION -  update container,CardStatementAvailable,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-154601,PATCH COBRAND SUBSCRIPTION -  update keys,CardStatementAvailable,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-154602,PATCH COBRAND SUBSCRIPTION -  update description,CardStatementAvailable,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-154603,PATCH COBRAND SUBSCRIPTION -  update applicableEntity,CardStatementAvailable,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-154604,PATCH COBRAND SUBSCRIPTION -  update entityParameter,CardStatementAvailable,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,10,DAYS",204,TRUE
+AT-154605,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->insightType,CardStatementAvailable,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"DAYS_BEFORE,10,DAYS",400,TRUE
+AT-154606,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->insightType - Invalid Name,CardStatementAvailable,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"DAYS_BEFORE,10,DAYS",400,TRUE
+AT-154607,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->threshold[0]->name,CardStatementAvailable,negTestScenario27,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,10,DAYS",400,TRUE
+AT-154608,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->threshold[0]->value,CardStatementAvailable,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,25,DAYS",204,TRUE
+AT-154609,PATCH COBRAND SUBSCRIPTION -  update entityParameter->account[0]->threshold[0]->type,CardStatementAvailable,negTestScenario28,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,10,PERCENT",400,TRUE
+AT-154610,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->isSubscribed=false,CardStatementAvailable,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-154611,PATCH COBRAND SUBSCRIPTION -  update entityParameter-VIEW,CardStatementAvailable,,,,,,,,,,1,,view,1,,,TRUE,,,"DAYS_BEFORE,10,DAYS",204,TRUE
+AT-154612,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW[0]->insightType,CardStatementAvailable,negTestScenario24,,,,,,,,,1,,view,1,,,TRUE,,OTHER,"DAYS_BEFORE,10,DAYS",400,TRUE
+AT-154613,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW[0]->insightType - Invalid Name,CardStatementAvailable,negTestScenario24,,,,,,,,,1,,view,1,,,TRUE,,INVALID,"DAYS_BEFORE,10,DAYS",400,TRUE
+AT-154614,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW->threshold[0]->name,CardStatementAvailable,negTestScenario27,,,,,,,,,1,,view,1,,,TRUE,,,"LIMIT,10,DAYS",400,TRUE
+AT-154615,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW->threshold[0]->value,CardStatementAvailable,,,,,,,,,,1,,view,1,,,TRUE,,,"DAYS_BEFORE,25,DAYS",204,TRUE
+AT-154616,PATCH COBRAND SUBSCRIPTION -  update entityParameter->VIEW->threshold[0]->type,CardStatementAvailable,negTestScenario28,,,,,,,,,1,,view,1,,,TRUE,,,"DAYS_BEFORE,10,PERCENT",400,TRUE
+AT-154617,PATCH COBRAND SUBSCRIPTION - update entityParameter->View->isSubscribed=false,CardStatementAvailable,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-154618,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW->threshold[0]->value- reverting to default,CardStatementAvailable,,,,,,,,,,2,,account   view,2,,,TRUE  TRUE,,,"DAYS_BEFORE,10,DAYS   DAYS_BEFORE,10,DAYS  ",204,TRUE
+AT-154619,PATCH COBRAND SUBSCRIPTION - update insightTitle to Card Statement Available,CardStatementAvailable,,,Card Statement Available,,,,,,,,,,,,,TRUE,,,,204,TRUE

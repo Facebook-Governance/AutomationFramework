@@ -1,0 +1,12 @@
+TestCaseId,TestCaseName,container,baseType,keyword,fromDate,toDate,category,categoryTDE,categoryId,highLevelCategoryId,type,categoryType,skip,top,resFile1,filePath1,status ,enabled
+1,invalid value for container,bank1,,,,,,,,,,,,,InvalidValueForContainer.json,../src/test/resources/TestData/Transactions/Invalid/,400,TRUE
+2,invalid value for base type,,crdeedocd,,,,,,,,,,,,InvalidValueForBaseType.json,../src/test/resources/TestData/Transactions/Invalid/,400,TRUE
+3,invalid value for fromDate,,,,2017-04-31,,,,,,,,,,InvalidValueForFromDate.json,../src/test/resources/TestData/Transactions/Invalid/,400,TRUE
+4,invalid value for toDate,,,,,2017-04-31,,,,,,,,,InvalidValueForToDate.json,../src/test/resources/TestData/Transactions/Invalid/,400,TRUE
+5,invalid value for category ID,,,,,,,,invalid,,,,,,InvalidValueForCategoryId.json,../src/test/resources/TestData/Transactions/Invalid/,400,TRUE
+6,invalid value for date range,,,,2017-01-01,2016-12-31,,,,,,,,,InvalidValueForDateRange.json,../src/test/resources/TestData/Transactions/Invalid/,400,TRUE
+7,invalid value for top,,,,,,,,,,,,,501,invalidValueforTop.json,../src/test/resources/TestData/Transactions/Invalid/,400,TRUE
+8,invalid value for skip,,,,,,,,,,,,-1,,invalidValueForskip.json,../src/test/resources/TestData/Transactions/Invalid/,400,TRUE
+9,invalid value for category type,,,,,,,,,,,invalid,,,InvalidValueForCategoryType.json,../src/test/resources/TestData/Transactions/Invalid/,400,TRUE
+10,invalid value for type,,,,,,,,,,invalid,,,,InvalidValueForType.json,../src/test/resources/TestData/Transactions/Invalid/,400,TRUE
+11,invalid value for High level category Id ,,,,,,,,,invalid,,,,,InvalidValueForHighLevelCategoryId.json,../src/test/resources/TestData/Transactions/Invalid/,400,TRUE

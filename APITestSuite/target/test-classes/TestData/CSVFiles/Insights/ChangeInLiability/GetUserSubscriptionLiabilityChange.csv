@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-146234,"Validate LiabilityChange , Validate InsightName",,LiabilityChange,LiabilityChange,,,,,,,,,,,,,200,TRUE
+AT-146235,"Validate LiabilityChange , Validate Supporting container",,LiabilityChange,,,"BANK,CARD,LOAN,INVESTMENT",,,,,,,,,,,200,TRUE
+AT-146236,"Validate LiabilityChange , Validate TriggerType",SCHEDULE,LiabilityChange,,,,,,,,,,,,,,200,TRUE
+AT-146237,"Validate LiabilityChange , Validate applicableEntity",,LiabilityChange,,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-146238,"Validate LiabilityChange , Validate number of levels and levelObject",,LiabilityChange,,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-146239,"Validate LiabilityChange , Validate isSubscribed=false",,LiabilityChange,,,,,,,,account,FALSE,,,,,200,TRUE
+AT-146240,"Validate LiabilityChange , Validate threshold Name,Value and Type",,LiabilityChange,,,,,,,,account,,,"CHANGE,3,PERCENT",,,200,TRUE
+AT-146241,"Validate LiabilityChange , Validate insightKeys for networths info",,LiabilityChange,,,,Account,,,,,,,,,,200,TRUE
+AT-146242,"Validate LiabilityChange , Validate insightKeys for historicalBalances info",,LiabilityChange,,,,Account,,,,,,,,,,200,TRUE
+AT-146243,"Validate LiabilityChange , Validate description",,LiabilityChange,,,,,,Generates an insight when total liabilities change by more than a configured threshold.,,,,,,,,200,TRUE
+AT-146244,"Validate LiabilityChange , Validate title",,LiabilityChange,,Change in Liabilities,,,,,,,,,,,,200,TRUE
+AT-146245,"Validate LiabilityChange , Validate ruleExpression",,LiabilityChange,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-146246,"Validate LiabilityChange , Validate frequency=MONTHLY",,LiabilityChange,,,,,,,,account,,MONTHLY,,,,200,TRUE
+AT-146247,"Validate LiabilityChange , Validate total number of keys ",,LiabilityChange,,,,,9,,,,,,,,,200,TRUE

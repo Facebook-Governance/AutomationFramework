@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-148821,"getCobrandSubscription - Validate ProjectedLowBalance , check if Insight is unSubscribed to OR isSubscribed=false ",,ProjectedLowBalance,ProjectedLowBalance,,,,,,,account,FALSE,,,,200,TRUE
+AT-148822,"getCobrandSubscription - Validate ProjectedLowBalance , Validate InsightName",,ProjectedLowBalance,ProjectedLowBalance,,,,,,,,,,,,200,TRUE
+AT-148823,"getCobrandSubscription - Validate ProjectedLowBalance , Validate Supporting container",,ProjectedLowBalance,,,BANK,,,,,,,,,,200,TRUE
+AT-148824,"getCobrandSubscription - Validate ProjectedLowBalance , Validate TriggerType",REFRESH,ProjectedLowBalance,,,,,,,,,,,,,200,TRUE
+AT-148825,"getCobrandSubscription - Validate ProjectedLowBalance , Validate applicableEntity",,ProjectedLowBalance,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-148826,"getCobrandSubscription - Validate ProjectedLowBalance , Validate number of levels and levelObject",,ProjectedLowBalance,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-148827,"getCobrandSubscription - Validate ProjectedLowBalance , Validate isSubscribed=false",,ProjectedLowBalance,,,,,,,,,FALSE,,,,200,TRUE
+AT-148828,"getCobrandSubscription - Validate ProjectedLowBalance , Validate threshold Name,t Value  and Type",,ProjectedLowBalance,,,,,,,,account,,,"FUTURE,7,DAYS  MINIMUM,100,AMOUNT",,200,TRUE
+AT-148829,"getCobrandSubscription - Validate ProjectedLowBalance , Validate insightKeys",,ProjectedLowBalance,,,,Account,,,,,,,,,200,TRUE
+AT-148830,"getCobrandSubscription - Validate ProjectedLowBalance , Validate description",,ProjectedLowBalance,,,,,,Generates an insight when the projected balance for a bank account is less than a configured threshold.,,,,,,,200,TRUE
+AT-148831,"getCobrandSubscription - Validate ProjectedLowBalance , Validate title",,ProjectedLowBalance,,Projected Low Balance,,,,,,,,,,,200,TRUE
+AT-148832,"getCobrandSubscription - Validate ProjectedLowBalance , Validate ruleExpression",,ProjectedLowBalance,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE

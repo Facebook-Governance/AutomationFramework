@@ -1,0 +1,322 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "insightName": {
+      "type": "string"
+    },
+    "insightTitle": {
+      "type": "string"
+    },
+    "insightType": {
+      "type": "string"
+    },
+    "triggerType": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "string"
+    },
+    "subscription": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "entityType": {
+              "type": "string"
+            },
+            "frequency": {
+              "type": "string"
+            },
+            "duration": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "entityType",
+            "frequency",
+            "duration"
+          ]
+        }
+      ]
+    },
+    "basicAccount": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "container",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "container",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "container",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "container",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "container",
+            "link"
+          ]
+        }
+      ]
+    },
+    "accountDerived": {
+      "type": "object",
+      "properties": {
+        "totalAvailableBalance": {
+          "type": "object",
+          "properties": {
+            "amount": {
+              "type": "number"
+            },
+            "currency": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "amount",
+            "currency"
+          ]
+        },
+        "averageSpending": {
+          "type": "object",
+          "properties": {
+            "amount": {
+              "type": "number"
+            },
+            "currency": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "amount",
+            "currency"
+          ]
+        },
+        "spendingRunway": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "totalAvailableBalance",
+        "averageSpending",
+        "spendingRunway"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "insightName",
+    "insightTitle",
+    "insightType",
+    "triggerType",
+    "createdDate",
+    "subscription",
+    "basicAccount",
+    "accountDerived"
+  ]
+}

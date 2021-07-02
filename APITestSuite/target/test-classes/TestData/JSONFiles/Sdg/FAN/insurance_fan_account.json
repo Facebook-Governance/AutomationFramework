@@ -1,0 +1,148 @@
+{
+    "account": [
+        {
+            "includeInNetWorth": false,
+            "accountName": "InsuranceAccount3",
+            "accountType": "ANNUITY",
+            "isManual": false,
+            "accountNumber": "xxxx1023",
+            "policyStatus": "OTHER",
+            "accountStatus": "ACTIVE",
+            "amountDue": {
+                "amount": 15341,
+                "currency": "USD"
+            },
+            "lastUpdated": "${json-unit.ignore}",
+            "premium": {
+                "amount": 15341,
+                "currency": "USD"
+            },
+            "fullAccountNumber": "56789123451",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "aggregationSource": "USER",
+            "balance": {
+                "amount": 15341,
+                "currency": "USD"
+            },
+            "providerId": "16609",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "insurance",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "OCBC Bank"
+        },
+        {
+            "includeInNetWorth": false,
+            "accountName": "InsuranceAccount2",
+            "accountType": "ANNUITY",
+            "isManual": false,
+            "accountNumber": "xxxx1022",
+            "policyStatus": "OTHER",
+            "accountStatus": "ACTIVE",
+            "amountDue": {
+                "amount": 15341,
+                "currency": "USD"
+            },
+            "lastUpdated": "${json-unit.ignore}",
+            "premium": {
+                "amount": 15341,
+                "currency": "USD"
+            },
+            "fullAccountNumber": "56789123451",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "aggregationSource": "USER",
+            "balance": {
+                "amount": 15341,
+                "currency": "USD"
+            },
+            "providerId": "16609",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "insurance",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "OCBC Bank"
+        },
+        {
+            "includeInNetWorth": false,
+            "accountName": "InsuranceAccount1",
+            "accountType": "ANNUITY",
+            "isManual": false,
+            "accountNumber": "xxxx1021",
+            "policyStatus": "OTHER",
+            "accountStatus": "ACTIVE",
+            "amountDue": {
+                "amount": 15341,
+                "currency": "USD"
+            },
+            "lastUpdated": "${json-unit.ignore}",
+            "premium": {
+                "amount": 15341,
+                "currency": "USD"
+            },
+            "fullAccountNumber": "56789123451",
+            "isAsset": true,
+            "createdDate":  "${json-unit.ignore}",
+            "aggregationSource": "USER",
+            "balance": {
+                "amount": 15341,
+                "currency": "USD"
+            },
+            "providerId": "16609",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "insurance",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "OCBC Bank"
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>yslAutomation.site16441.6</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.6</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>investment</container>
+							</attribute>
+							<attribute>
+								<name>TRANSACTIONS</name>
+								<container>investment</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<accountId>YES</accountId>
+				<status>ACTIVE</status>
+				<container>investment</container>
+			</get-accounts>
+		</get-accounts-multiple>
+
+		<get-accountDetials-multiple>
+			<get-accountDetials order="1">
+				<container>investment</container>
+			</get-accountDetials>
+		</get-accountDetials-multiple>
+
+		<get-transactions-multiple>
+			<get-transactions order="1">
+				<txnAccountId>YES</txnAccountId>
+				<fromDate>2000-01-01</fromDate>
+				<toDate></toDate>
+				<container>investment</container>
+				<baseType></baseType>
+				<keyword></keyword>
+				<category></category>
+				<categoryId></categoryId>
+				<highLevelCategoryId></highLevelCategoryId>
+				<type></type>
+				<categoryType></categoryType>
+				<accountReconType></accountReconType>
+				<skip></skip>
+				<top></top>
+			</get-transactions>
+		</get-transactions-multiple>
+
+	</request>
+
+	<response>
+		<get-provider-accounts-multiple>
+			<get-provider-accounts order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/ProviderDetails/
+					</filePath>
+					<responseFile>getProviderAccountsDetails16441_BasicAggr.json
+					</responseFile>
+				</row>
+			</get-provider-accounts>
+		</get-provider-accounts-multiple>
+
+		<account-multiple>
+			<account order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/Accounts/
+					</filePath>
+					<responseFile>getAccounts_investment.json</responseFile>
+				</row>
+			</account>
+		</account-multiple>
+
+		<accountdetails-multiple>
+			<accountdetails order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/Accounts/
+					</filePath>
+					<responseFile>getAccountDetails_investment.json</responseFile>
+				</row>
+			</accountdetails>
+		</accountdetails-multiple>
+
+		<transaction-multiple>
+			<transaction order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/Transactions/
+					</filePath>
+					<responseFile>getTransactions_investment.json</responseFile>
+				</row>
+			</transaction>
+		</transaction-multiple>
+	</response>
+</entity>

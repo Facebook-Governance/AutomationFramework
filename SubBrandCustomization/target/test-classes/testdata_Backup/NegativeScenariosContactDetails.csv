@@ -1,0 +1,5 @@
+Test ID,Enabled,Test Name
+AT-000001,TRUE,EmptyContactDetails
+AT-000002,TRUE,ContactDetailsExceedCharacterLimit
+AT-000003,TRUE,InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters
+AT-000004,TRUE,ContactUserIdNoSpecialCharacters

@@ -1,0 +1,10 @@
+testCaseId,tcname,status,cobSession,eventname,filePath,resFile,defectId,enabled
+AT-58254,Deleted Successfully,204,valid,DATA_UPDATES,../src/test/resources/TestData/JSONFiles/DataExtracts/DeleteSubscription/,successfuldelete.json,0,TRUE
+1,invalid eventname,400,valid,SDGF1343!@#,../src/test/resources/TestData/JSONFiles/DataExtracts/DeleteSubscription/,invalidEventname.json,0,TRUE
+2,invalid eventname and cobsession:doubt,400,SDGF1343!@#,data_updates,../src/test/resources/TestData/JSONFiles/DataExtracts/DeleteSubscription/,invalidEventname.json,0,TRUE
+3,empty eventname,405,valid,,../src/test/resources/TestData/JSONFiles/DataExtracts/DeleteSubscription/,methodnotallowed.json,0,TRUE
+4,empty cobsession:doubt,400,,DATA_UPDATES,../src/test/resources/TestData/JSONFiles/DataExtracts/DeleteSubscription/,emptyCobSession.json,0,TRUE
+5,empty eventname and cobsession:doubt,405,,,../src/test/resources/TestData/JSONFiles/DataExtracts/DeleteSubscription/,methodnotallowed.json,0,TRUE
+6,already deleted,400,valid,DATA_UPDATES,../src/test/resources/TestData/JSONFiles/DataExtracts/DeleteSubscription/,alreadyDeleted.json,0,TRUE
+7,invalid eventname,400,valid,"DATA_UPDATES,REFRESH",../src/test/resources/TestData/JSONFiles/DataExtracts/DeleteSubscription/,invalidEventname.json,0,TRUE
+8,invalid eventname,400,valid,data_updates,../src/test/resources/TestData/JSONFiles/DataExtracts/DeleteSubscription/,invalidEventname.json,0,TRUE

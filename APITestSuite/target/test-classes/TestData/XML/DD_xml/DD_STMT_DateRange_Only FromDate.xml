@@ -1,0 +1,61 @@
+<entity type="multiple">
+<request>
+<add-provider-accounts order="1">
+	<siteUser>RestGenDocDown.site16441.7</siteUser>
+	<siteUserId>65499</siteUserId>
+	<sitePwd>site16441.7</sitePwd>
+	<sitePwdId>65500</sitePwdId>
+	<siteId>16441</siteId>
+	<dataList>
+                <dataset>
+                    <name>DOCUMENT</name>
+                    <attributeList>
+                        <attribute>
+                            <name>STATEMENT</name>
+                            <container>bank</container>
+							<fromDate>;getModifiedDate(-1m,false)</fromDate>
+							<toDate></toDate>
+                        </attribute>
+                    </attributeList>
+                </dataset>
+            </dataList>
+	
+ </add-provider-accounts>
+   
+   <get-documents>
+      <docAccountId></docAccountId>
+      <docType></docType>
+      <keyword></keyword>
+      <fromDate></fromDate>
+      <toDate></toDate>
+   </get-documents>
+   
+   </request>
+   
+   <response>
+      <document>
+         <row>
+            <filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/</filePath>
+            <responseFile>getDocumentsLatestSTMT_ThreeDocs.json</responseFile>
+         </row>
+      </document>
+      <documentDetails>
+         <row>
+            <filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/</filePath>
+            <responseFile>downloadDocument.json</responseFile>
+         </row>
+      </documentDetails>
+      <provider>
+         <row>
+            <filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/</filePath>
+            <responseFile>nullResponse.json</responseFile>
+         </row>
+      </provider>
+      <get-provider-accounts order="1">
+         <row>
+            <filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/</filePath>
+            <responseFile>getProviderDetailsDocumentDownload.json</responseFile>
+         </row>
+      </get-provider-accounts>      
+   </response>
+</entity>

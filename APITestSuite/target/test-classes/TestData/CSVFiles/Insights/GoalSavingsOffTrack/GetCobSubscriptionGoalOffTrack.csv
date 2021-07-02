@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-147279,"Validate GoalOffTrack , Validate InsightName ",,GoalOffTrack,GoalOffTrack,,,,,,,,,,,200,TRUE
+AT-147280,"Validate GoalOffTrack , Validate Supporting container",,GoalOffTrack,,,BANK,,,,,,,,,200,TRUE
+AT-147281,"Validate GoalOffTrack , Validate TriggerType",REFRESH,GoalOffTrack,,,,,,,,,,,,200,TRUE
+AT-147282,"Validate GoalOffTrack , Validate applicableEntity",,GoalOffTrack,,,,,,GOAL,,,,,,200,TRUE
+AT-147283,"Validate GoalOffTrack , Validate number of levels and levelObject",,GoalOffTrack,,,,,,GOAL,goal,,,,,200,TRUE
+AT-147284,"Validate GoalOffTrack , Validate isSubscribed=false",,GoalOffTrack,,,,,,,,FALSE,,,,200,TRUE
+AT-147285,"Validate GoalOffTrack , Validate insightKeys",,GoalOffTrack,,,,Goal,,,,,,,,200,TRUE
+AT-147286,"Validate GoalOffTrack , Validate description",,GoalOffTrack,,,,,Generates an insight when actual goal savings is less than expected goal savings on the most recent goal contribution date.,,,,,,,200,TRUE
+AT-147287,"Validate GoalOffTrack , Validate title",,GoalOffTrack,,Goal Off Track,,,,,,,,,,200,TRUE
+AT-147288,"Validate GoalOffTrack , Validate ruleExpression",,GoalOffTrack,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-147289,"Validate GoalOffTrack, Validate total number of keys",,GoalOffTrack,,,,,,,,,,,,200,TRUE

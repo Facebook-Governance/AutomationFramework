@@ -1,0 +1,2 @@
+TestCaseId,Title,categoryNameKey,categoryNameValue,parentCategoryIdKey,parentCategoryIdValue,status,priority,source,descriptionOperation,descriptionValue,amountOperation,amountValue,statusCode,TransResFile,TransFilePath,defectID,enabled
+AT-59713,UserDefinedCategorization,categoryName,ATM/Cash Withdrawals SubCategory,parentCategoryId,25,200,1,USER,stringContains,DEPOSIT,numberGreaterThan,1000,201,userDefinedCategorization-Bank.json,../src/test/resources/TestData/Transactions/TxnFunctional/,0,TRUE

@@ -1,0 +1,8 @@
+tcId,tcName,acl_KEY1,acl_KEY12,enabled,checkpoint
+AT-104069,param_value would be picked from cob_param table for param key 1265,1265,0,TRUE,COBID_APPID
+AT-104068,param_value would be picked from cob_param table for param key 1266,1266,0,TRUE,COBID_SEGMENTID
+AT-104067,param_value would be picked from cob_param table for param key 1267,1267,0,TRUE,COBID_APPID_SEGMENTID
+AT-104070,param_value would be picked from cob_param table for param key 1268,1268,0,TRUE,COBID
+AT-104071,param_value would be picked from cob_param table for param key 1269,1269,0,TRUE,CH_APP
+AT-104072,param_value would be picked from cob_param table for param key 1270,1270,0,TRUE,CH_ID
+AT-104073,param_value would be picked from cob_param table for param key 1271,1271,0,TRUE,default

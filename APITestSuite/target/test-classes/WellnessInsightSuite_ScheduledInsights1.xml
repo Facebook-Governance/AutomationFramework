@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll" parallel="methods" thread-count="1"
+	preserve-order="true">
+	<parameter name="hybrid" value="false" />
+	<parameter name="release_name" value="Nov 2018" />
+	<parameter name="isFirstRun" value="false" />
+	<parameter name="isStaticComparable" value="false" />
+	<parameter name="isDiffyEnabled" value="false" />
+	<parameter name="getApiVersion" value="1.0" />
+	<parameter name="isUserStatic" value="false" />
+	<parameter name="updateApiVersion" value="1.0" />
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="config_file" value="Config_Sense.Properties" />
+	<parameter name="suiteName" value="YSLAutoAmelia" />
+	<listeners>
+		<listener
+
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+	</listeners>
+	<test name="ProjectedInsufficientBalance">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForProjectedInsufficientBalance"></class>
+		</classes>
+	</test>
+	<test name="GoalProgress">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForGoalsInProgress"></class>
+		</classes>
+	</test>
+	<test name="CategorizeTransactions">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForCategorizeTransactions"></class>
+		</classes>
+	</test>
+	<test name="Financial Forecast">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForFinancialForecast"></class>
+		</classes>
+	</test>
+	<test name="Budget Summary">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForBudgetSummary"></class>
+		</classes>
+	</test>
+	<test name="SubscriptionNotPaid">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForSubscriptionNotPaid"></class>
+		</classes>
+	</test>
+	<test name="FinancialFees">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForFinancialFees" />
+		</classes>
+	</test>
+	<test name="SpendingEarningComparison">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForSpendingEarningComparison"></class>
+		</classes>
+	</test>
+	<test name="SpendingbyCategory">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForSpendingbyCategory"></class>
+		</classes>
+	</test>
+	<test name="TopMerchants">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForTopMerchants" />
+		</classes>
+	</test>
+	<test name="EmergencySavings">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForEmergencySavings" />
+		</classes>
+	</test>
+	<test name="SpendingByCategoryConsumerLevel">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForSpendingByCategoryConsumerLevel" />
+		</classes>
+	</test>
+	<test name="TopMerchantsConsumerLevel">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForSpendingByMerchantsConsumerLevel" />
+		</classes>
+	</test>
+ 	<test name="ZeroCardInterestPaid">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForZeroCardInterestPaid" />
+		</classes>
+	</test>
+</suite>

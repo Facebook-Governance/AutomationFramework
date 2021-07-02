@@ -1,0 +1,6 @@
+testCaseID,testCaseName,filter,value,bugID,enabled
+AT-57961,skip and top different values to verify GET Providers API,skip,510,0,TRUE
+AT-57961,skip and top different values to verify GET Providers API,skip,45,0,TRUE
+AT-57962,skip and top different values to verify GET Providers API,top,501,0,TRUE
+AT-57962,skip and top different values to verify GET Providers API,top,45,0,TRUE
+AT-57962,skip and top different values to verify GET Providers API,top,4,0,TRUE

@@ -1,0 +1,16 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147427,patchUserSubscrionption - subscribe to InvestmentMaturityNotice,InvestmentMaturityNotice,,,,,,,,,,,1,,account,,,DAILY,TRUE,,,,204,TRUE
+AT-147428,patchUserSubscrionption - updateTriggerType,InvestmentMaturityNotice,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147429,patchUserSubscrionption -  update insightName by same name,InvestmentMaturityNotice,negTestScenario17,,InvestmentMaturityNotice,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147430,patchUserSubscrionption -  update insightName edit InsightName,InvestmentMaturityNotice,negTestScenario2,,InvestmentMaturityNoticeEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147431,patchUserSubscrionption - update insightTitle,InvestmentMaturityNotice,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-147432,patchUserSubscrionption - update container,InvestmentMaturityNotice,negTestScenario6,,,,LOAN,,,,,,,,,,,,,,,,400,TRUE
+AT-147433,patchUserSubscrionption - update keys,InvestmentMaturityNotice,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147434,patchUserSubscrionption - update description,InvestmentMaturityNotice,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147435,patchUserSubscrionption - update applicableEntity,InvestmentMaturityNotice,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-147436,patchUserSubscrionption - update entityParameter,InvestmentMaturityNotice,,,,,,,,,,,1,,account,,,DAILY,TRUE,,,,204,TRUE
+AT-147437,patchUserSubscrionption -  update entityParameter->account[0]->id - Valid ItemAccountId,InvestmentMaturityNotice,,,,,,,,,,,1,,account,,,DAILY,TRUE,,,,204,TRUE
+AT-147438,patchUserSubscrionption -  update entityParameter->account[0]->id - InValid ItemAccountId,InvestmentMaturityNotice,negTestScenario20,,,,,,,,,,1,,account,,76823,,TRUE,,,,400,TRUE
+AT-147439,patchUserSubscrionption -  update entityParameter->account[0]->isSubscribed=false,InvestmentMaturityNotice,,,,,,,,,,,1,,account,,,DAILY,FALSE,,,,204,TRUE
+AT-147444,"patchUserSubscrionption - update threshold name ,value and type to MINIMUM,200,AMOUNT",InvestmentMaturityNotice,,,,,,,,,,,1,,account,,,DAILY,TRUE,,,,204,TRUE
+AT-147445,patchUserSubscrionption - update configMeta - subscrption Info - configMeta->account[0]->id,InvestmentMaturityNotice,negTestScenario19,,,,,,,,,,1,TRUE,account,,,,FALSE,,,,400,TRUE

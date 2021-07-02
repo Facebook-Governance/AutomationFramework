@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-126924,"Validate AggregateRealEstateAccount , check if Insight is unSubscribed to OR isSubscribed=false ",,AggregateRealEstateAccount,AggregateRealEstateAccount,,,,,,account,FALSE,,,,200,TRUE
+AT-126925,"Validate AggregateRealEstateAccount , Validate InsightName",,AggregateRealEstateAccount,AggregateRealEstateAccount,,,,,,,,,,,200,TRUE
+AT-126926,"Validate AggregateRealEstateAccount , Validate Supporting container",,AggregateRealEstateAccount,,,"BANK,CARD",,,,,,,,,200,TRUE
+AT-126927,"Validate AggregateRealEstateAccount , Validate TriggerType",REFRESH,AggregateRealEstateAccount,,,,,,,,,,,,200,TRUE
+AT-126928,"Validate AggregateRealEstateAccount , Validate applicableEntity",,AggregateRealEstateAccount,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-126929,"Validate AggregateRealEstateAccount , Validate number of levels and levelObject",,AggregateRealEstateAccount,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-126930,"Validate AggregateRealEstateAccount , Validate isSubscribed=false",,AggregateRealEstateAccount,,,,,,,,FALSE,,,,200,TRUE
+AT-126931,"Validate AggregateRealEstateAccount , Validate insightKeys",,AggregateRealEstateAccount,,,,Account,,,,,,,,200,TRUE
+AT-126932,"Validate AggregateRealEstateAccount , Validate description",,AggregateRealEstateAccount,,,,,Generates an insight when a mortgage payment is identified but no corresponding real estate account was found for the user.,,,,,,,200,TRUE
+AT-126933,"Validate AggregateRealEstateAccount , Validate title",,AggregateRealEstateAccount,,Aggregate Real Estate Account,,,,,,,,,,200,TRUE
+AT-126934,"Validate AggregateRealEstateAccount , Validate ruleExpression",,AggregateRealEstateAccount,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE

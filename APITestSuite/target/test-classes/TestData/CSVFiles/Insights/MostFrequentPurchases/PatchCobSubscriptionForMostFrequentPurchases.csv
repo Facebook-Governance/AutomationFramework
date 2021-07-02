@@ -1,0 +1,36 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-148702,PATCH COBRAND SUBSCRIPTION - subscribe to MostFrequentPurchases isSubscribed=true,MostFrequentPurchases,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-148703,PATCH COBRAND SUBSCRIPTION - update insightName to same name,MostFrequentPurchases,negTestScenario1,MostFrequentPurchases,,,,,,,,,,,,,,,,,,500,TRUE
+AT-148704,PATCH COBRAND SUBSCRIPTION -  update insightName to different name,MostFrequentPurchases,negTestScenario2,MostFrequentPurchasesEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148705,PATCH COBRAND SUBSCRIPTION - update insightTitle chars between 3 and 100 ,MostFrequentPurchases,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-148706,PATCH COBRAND SUBSCRIPTION -  update insightTitle chars are only 3,MostFrequentPurchases,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-148707,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are only 100,MostFrequentPurchases,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-148708,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are less than 3,MostFrequentPurchases,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-148709,PATCH COBRAND SUBSCRIPTION -  update insightTitle chars are greater 100,MostFrequentPurchases,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-148710,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are special characters,MostFrequentPurchases,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-148711,PATCH COBRAND SUBSCRIPTION -  update container,MostFrequentPurchases,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-148712,PATCH COBRAND SUBSCRIPTION -  update keys,MostFrequentPurchases,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-148713,PATCH COBRAND SUBSCRIPTION -  update description,MostFrequentPurchases,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-148714,PATCH COBRAND SUBSCRIPTION -  update applicableEntity,MostFrequentPurchases,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-148715,PATCH COBRAND SUBSCRIPTION -  update entityParameter,MostFrequentPurchases,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-148716,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->insightType,MostFrequentPurchases,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"TOP,5,NUMBER",400,TRUE
+AT-148717,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->insightType - Invalid Name,MostFrequentPurchases,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"TOP,5,NUMBER",400,TRUE
+AT-148718,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->threshold[0]->name,MostFrequentPurchases,negTestScenario27,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,1,AMOUNT",400,TRUE
+AT-148719,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->threshold[0]->value,MostFrequentPurchases,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,20,NUMBER",204,TRUE
+AT-148720,PATCH COBRAND SUBSCRIPTION -  update entityParameter->account[0]->threshold[0]->type,MostFrequentPurchases,negTestScenario28,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,1,PERCENT",400,TRUE
+AT-148721,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->isSubscribed=false,MostFrequentPurchases,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-148722,PATCH COBRAND SUBSCRIPTION -  update entityParameter-VIEW,MostFrequentPurchases,,,,,,,,,,1,,view,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-148723,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW[0]->insightType,MostFrequentPurchases,negTestScenario24,,,,,,,,,1,,view,1,,,TRUE,,OTHER,"TOP,5,NUMBER",400,TRUE
+AT-148724,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW[0]->insightType - Invalid Name,MostFrequentPurchases,negTestScenario24,,,,,,,,,1,,view,1,,,TRUE,,INVALID,"TOP,5,NUMBER",400,TRUE
+AT-148725,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW->threshold[0]->name,MostFrequentPurchases,negTestScenario27,,,,,,,,,1,,view,1,,,TRUE,,,"LIMIT,5,NUMBER",400,TRUE
+AT-148726,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW->threshold[0]->value,MostFrequentPurchases,,,,,,,,,,1,,view,1,,,TRUE,,,"TOP,20,NUMBER",204,TRUE
+AT-148727,PATCH COBRAND SUBSCRIPTION -  update entityParameter->VIEW->threshold[0]->type,MostFrequentPurchases,negTestScenario28,,,,,,,,,1,,view,1,,,TRUE,,,"TOP,1,PERCENT",400,TRUE
+AT-148728,PATCH COBRAND SUBSCRIPTION - update entityParameter->View->isSubscribed=false,MostFrequentPurchases,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-148729,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW->threshold[0]->value- reverting to default,MostFrequentPurchases,,,,,,,,,,2,,account   view,2,,,TRUE  TRUE,,,"TOP,5,NUMBER  TOP,5,NUMBER",204,TRUE
+AT-148730,PATCH COBRAND SUBSCRIPTION - update insightTitle to most frequent purchases,MostFrequentPurchases,,,Count of Transactions by Merchant,,,,,,,,,,,,,,,,,204,TRUE
+AT-148731,PATCH COBRAND SUBSCRIPTION -  update   frequency ACCOUNT,MostFrequentPurchases,,,,,,,,,,1,,account,1,,MONTHLY,,,,,204,TRUE
+AT-148732,PATCH COBRAND SUBSCRIPTION -  update   frequency VIEW,MostFrequentPurchases,,,,,,,,,,1,,view,1,,MONTHLY,,,,,204,TRUE
+AT-148733,PATCH COBRAND SUBSCRIPTION -  update insightName to duration,MostFrequentPurchases,,,,,,,,,,2,,account   view,2,,,,SIX_MONTHS   SIX_MONTHS,,,204,TRUE
+AT-148734,PATCH COBRAND SUBSCRIPTION -  update  frequency to default for Account,MostFrequentPurchases,,,,,,,,,,1,,account,1,,WEEKLY,,,,,204,TRUE
+AT-148735,PATCH COBRAND SUBSCRIPTION -  update insightName to duration to default,MostFrequentPurchases,,,,,,,,,,2,,account   view,2,,,,THREE_MONTHS   THREE_MONTHS,,,204,TRUE
+AT-148736,PATCH COBRAND SUBSCRIPTION -  update  frequency to default for view,MostFrequentPurchases,,,,,,,,,,1,,view,1,,WEEKLY,,,,,204,TRUE

@@ -1,0 +1,79 @@
+{
+  "userData": [
+    {
+      "user": {
+        "loginName": "YSLDE1505455911040"
+      },
+      "account": [
+        {
+          "includeInNetWorth": true,
+          "accountName": "Super CD Plus",
+          "dueDate": "2013-02-14",
+          "refreshinfo": {
+            "lastRefreshed": "${json-unit.ignore}",
+            "nextRefreshScheduled": "${json-unit.ignore}",
+            "lastRefreshAttempt": "${json-unit.ignore}",
+            "statusMessage": "OK",
+            "statusCode": 0
+          },
+          "accountStatus": "ACTIVE",
+          "lastUpdated": "${json-unit.ignore}",
+          "isAsset": false,
+          "balance": {
+            "amount": 11756.88,
+            "currency": "USD"
+          },
+          "isDeleted": false,
+          "totalCashLimit": {
+            "amount": 100,
+            "currency": "USD"
+          },
+          "providerId": "16441",
+          "lastPaymentDate": "2013-12-30",
+          "lastPaymentAmount": {
+            "amount": 5000.67,
+            "currency": "USD"
+          },
+          "id": "${json-unit.ignore}",
+          "totalCreditLine": {
+            "amount": 100,
+            "currency": "USD"
+          },
+          "providerName": "Dag Site",
+          "minimumAmountDue": {
+            "amount": 1000,
+            "currency": "USD"
+          },
+          "apr": 15.25,
+          "availableCredit": {
+            "amount": 1000,
+            "currency": "USD"
+          },
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "Bill Gates"
+              }
+            }
+          ],
+          "isManual": false,
+          "accountType": "CREDIT",
+          "accountNumber": "354-2334",
+          "classification": "PERSONAL",
+          "url": "http://abc.com",
+          "amountDue": {
+            "amount": 100,
+            "currency": "USD"
+          },
+          "createdDate": "${json-unit.ignore}",
+          "providerAccountId": "${json-unit.ignore}",
+          "CONTAINER": "creditCard",
+          "runningBalance": {
+            "amount": 11756.88,
+            "currency": "USD"
+          }
+        }
+      ]
+    }
+  ]
+}

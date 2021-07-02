@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1">
+
+	<!-- <parameter name="coBrand" value="YCOM_L1"/> <parameter name="loginType" 
+		value="L1NODE" /> -->
+	<parameter name="browser" value="chrome" />
+	<parameter name="runOnBrowserStack" value="false" />
+	<parameter name="bs_username" value="yodleebrowsersta1" />
+	<parameter name="bs_automate_key"
+		value="pzyoTJ6embZ48zsufsF2" />
+	<parameter name="browser_version" value="48" />
+	<parameter name="platformName" value="windows" />
+	<parameter name="platformVersion" value="7" />
+	<parameter name="elpamEnabled" value="true" />
+	<parameter name="appFlag" value="false"></parameter>
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="suiteName" value="FinCheck Regression" />
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.omni.pfm.listeners.CustomListener" />
+		<listener
+			class-name="com.automation.rdashboard.ReportDashboardPlugin" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+	</listeners>
+
+	<!-- Finchek Onboarding -->
+	<test name="Fincheck Version 2 - Onboarding " verbose="2"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_Onboarding_Test"></class>
+		</classes>
+	</test>
+
+	<!-- Indicator 1 -->
+	<test name="Fincheck Version 2 - Spend to Income Ratio Helath "
+		verbose="2" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_Spend_To_Income_Healthy_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Spend to Income Ratio Risk "
+		verbose="2" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_Spend_To_Income_Risky_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Spend to Income Ratio Danger "
+		verbose="2" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_Spend_To_Income_Danger_Test"></class>
+		</classes>
+	</test>
+
+	<!-- Indicator 2 -->
+	<test name="Fincheck Version 2 - Pay Bills Health " verbose="2"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_PayBills_Healthy_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Pay Bills Risk " verbose="2"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_PayBills_Risky_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Pay Bills Danger " verbose="2"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_PayBills_Danger_Test"></class>
+		</classes>
+	</test>
+
+	<!-- Indicator 3 -->
+
+	<test name="Fincheck Version 2 - Emergency Savings Helath "
+		verbose="2" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_EmergencySavings_Healthy_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Emergency Savings Risk "
+		verbose="2" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_EmergecySavings_Risky_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Emergency Savings Danger "
+		verbose="2" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_EmergencySavings_Danger_Test"></class>
+		</classes>
+	</test>
+
+	<!-- Indicator 4 -->
+	<test name="Fincheck Version 2 - Retirement Savings Helath "
+		verbose="2" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_RetirementSavings_Healthy_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Retirement Savings Risk "
+		verbose="2" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_RetirementSavings_Risky_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Retirement Savings Danger "
+		verbose="2" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_RetirementSavings_Danger_Test"></class>
+		</classes>
+	</test>
+
+	<!-- Indicator 5 -->
+	<test name="Fincheck Version 2 - Debt To Income Helath "
+		verbose="2" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_DebtToIncome_Healthy_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Debt To Income Risk " verbose="2"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_DebtToIncome_Risky_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Debt To Income Danger "
+		verbose="2" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_DebtToIncome_Danger_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Credit Score " verbose="2"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_Indicator_Credit_Score_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Insurance " verbose="2"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_Indicator_Insurance_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Planning " verbose="2"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_Indicator_Planing_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Overview " verbose="2"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_Overviewscreen_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Settings " verbose="2"
+		preserve-order="true">
+		<classes>
+			<class name="com.omni.pfm.FinCheckV2.FincheckV2_Settings_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Fincheck Version 2 - Exception Scenario " verbose="2"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.FinCheckV2.FincheckV2_Exceptions_Test"></class>
+		</classes>
+	</test>
+
+</suite>

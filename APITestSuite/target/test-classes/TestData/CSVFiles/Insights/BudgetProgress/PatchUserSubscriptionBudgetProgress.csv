@@ -1,0 +1,16 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-148555,patchUserSubscription - subscribe to BudgetProgress,BudgetProgress,,,,,,,,,,,1,,view,1,,,TRUE,,,,204,TRUE
+AT-148556,patchUserSubscription - updateTriggerType,BudgetProgress,negTestScenario16,REFRESH,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148557,patchUserSubscription -  update insightName by same name,BudgetProgress,negTestScenario17,,BudgetProgress,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148558,patchUserSubscription -  update insightName edit InsightName,BudgetProgress,negTestScenario2,,BudgetProgressEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148559,patchUserSubscription - update insightTitle,BudgetProgress,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-148560,patchUserSubscription - update container,BudgetProgress,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-148561,patchUserSubscription - update keys,BudgetProgress,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-148562,patchUserSubscription - update description,BudgetProgress,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-148563,patchUserSubscription - update applicableEntity,BudgetProgress,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-148564,patchUserSubscription - update entityParameter,BudgetProgress,,,,,,,,,,,1,,view,1,,DAILY,TRUE,,,,204,TRUE
+AT-148565,patchUserSubscription -  update entityParameter->account[0]->id - Valid ItemAccountId,BudgetProgress,,,,,,,,,,,1,,view,1,,DAILY,TRUE,,,,204,TRUE
+AT-148566,patchUserSubscription -  update entityParameter->view[0]->id - InValid viewId,BudgetProgress,negTestScenario26,,,,,,,,,,1,,view,1,76823,DAILY,TRUE,,,,400,TRUE
+AT-148567,patchUserSubscription -  update entityParameter->view[0]->isSubscribed=false,BudgetProgress,,,,,,,,,,,1,,view,1,,DAILY,FALSE,,,,204,TRUE
+AT-148568,patchUserSubscription - update insightType to AGGREGATE - entityParameter->account[0]->insightType,BudgetProgress,negTestScenario24,,,,,,,,,,1,,view,1,,DAILY,TRUE,,AGGREGATE,,400,TRUE
+AT-148569,patchUserSubscription - update insightType to INVALID - entityParameter->insightType,BudgetProgress,negTestScenario24,,,,,,,,,,1,,view,1,,DAILY,TRUE,,INVALID,,400,TRUE

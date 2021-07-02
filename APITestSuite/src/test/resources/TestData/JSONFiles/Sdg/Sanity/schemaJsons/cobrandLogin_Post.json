@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "properties": {
+    "cobrandId": {
+      "type": "integer"
+    },
+    "applicationId": {
+      "type": "string"
+    },
+    "locale": {
+      "type": "string"
+    },
+    "session": {
+      "type": "object",
+      "properties": {
+        "cobSession": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "cobrandId",
+    "applicationId",
+    "locale",
+    "session"
+  ]
+}

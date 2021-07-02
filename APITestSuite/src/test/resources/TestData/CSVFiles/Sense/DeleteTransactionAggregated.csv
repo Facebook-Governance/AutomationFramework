@@ -1,0 +1,3 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,transactionId,container,enabled
+1,Invalid transaction id,400,InvalidValueForTransactionId.json,/src/test/resources/TestData/ErrorMessage/,bank,bank,TRUE
+1,Invalid transaction id,400,InvalidValueForTransactionId.json,/src/test/resources/TestData/ErrorMessage/,creditCard,creditCard,TRUE

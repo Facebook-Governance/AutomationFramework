@@ -1,0 +1,60 @@
+{
+  "providerAccount": [
+    {
+      "id": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "providerId": 16442,
+      "isManual": false,
+      "createdDate": "${json-unit.ignore}",
+      "status": "SUCCESS",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "nextUpdateScheduled": "${json-unit.ignore}"
+        }
+      ],
+      "loginForm": [
+        {
+          "formType": "questionAndAnswer",
+          "id": 164422,
+          "row": [
+            {
+              "label": "${json-unit.ignore}",
+              "field": [
+                {
+                  "id": "${json-unit.ignore}",
+				  "isValueProvided": "${json-unit.ignore}",
+                  "value": "${json-unit.ignore}"
+                }
+              ]
+            },
+            {
+              "label": "${json-unit.ignore}",
+              "field": [
+                {
+                  "id": "${json-unit.ignore}",
+				  "isValueProvided": "${json-unit.ignore}",
+                  "value": "${json-unit.ignore}"
+                }
+              ]
+            },
+            {
+              "label": "${json-unit.ignore}",
+              "field": [
+                {
+                  "id": "${json-unit.ignore}",
+				  "isValueProvided": "${json-unit.ignore}",
+                  "value": "${json-unit.ignore}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-137606,subscribe toFinancialFees,FinancialFees,,,,,,,,,,,2,,account view ,,,,TRUE TRUE,,,,204,TRUE
+AT-137606,UpdateTriggerType,FinancialFees,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-137606,Update insightName by same name,FinancialFees,negTestScenario17,,FinancialFees,,,,,,,,,,,,,,,,,,400,TRUE
+AT-137606,Update insightName edit InsightName,FinancialFees,negTestScenario2,,FinancialFeesEditkfd,,,,,,,,,,,,,,,,,,400,TRUE
+AT-137606,Update container,FinancialFees,negTestScenario6,,,,BILLS,,,,,,,,,,,,,,,,400,TRUE
+AT-137606,Update keys,FinancialFees,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-137606,Update description,FinancialFees,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-137606,Update configMeta - subscrption Info - configMeta->account[0]->id,FinancialFees,negTestScenario19,,,,,,,,,,2,TRUE,account view ,,,,FALSE FALSE,,,,400,TRUE
+AT-137608,Update applicableEntity,FinancialFees,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-137608,Update entityParameter,FinancialFees,,,,,,,,,,,2,,account view ,,,,TRUE TRUE,,,,204,TRUE
+AT-137608,Update entityParameter->account[0]->id - Valid ItemAccountId,FinancialFees,,,,,,,,,,,1,,account,,,,TRUE,,,,204,TRUE
+AT-137608,Update entityParameter->account[0]->id - InValid ItemAccountId,FinancialFees,negTestScenario20,,,,,,,,,,1,,account,,76823,,TRUE,,,,400,TRUE
+AT-137608,Update entityParameter->board[0]->id - InValid boardId,FinancialFees,negTestScenario26,,,,,,,,,,1,,view,,abcdef,,TRUE,,,,400,TRUE
+AT-137608,Update entityParameter->account[0]->isSubscribed=false,FinancialFees,,,,,,,,,,,2,,account view ,,,,FALSE FALSE,,,,204,TRUE
+AT-137610,Update invalid duration  -  entityParameter->account[0]->duration ,FinancialFees,negTestScenario23,,,,,,,,,,2,,account view ,,,,TRUE TRUE,LAST_MONHT LAST_MONHT,,,400,TRUE
+AT-137613,Update insightTitle,FinancialFees,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-137616,Update insightType to INVALID - entityParameter->account[0]->insightType,FinancialFees,negTestScenario24,,,,,,,,,,2,,account view ,,,,TRUE TRUE,,INVALID INVALID,,400,TRUE
+AT-137617,Update insightType to AGGREGATE - entityParameter->account[0]->insightType,FinancialFees,negTestScenario24,,,,,,,,,,2,,account view ,,,,TRUE TRUE,,AGGREGATE AGGREGATE,,400,TRUE
+AT-137619,Update entityParameter->account[0]->frequency,FinancialFees,negTestScenario22,,,,,,,,,,2,,account view ,,,MONTH MONTH,FALSE FALSE,,,,400,TRUE

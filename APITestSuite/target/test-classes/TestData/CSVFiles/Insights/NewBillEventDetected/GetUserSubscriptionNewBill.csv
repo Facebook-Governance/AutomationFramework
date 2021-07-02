@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,insightType,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-147490,getUserSubscription-NewBillValidate InsightName,,NewBill,NewBill,,,,,,,,,,,,,,200,TRUE
+AT-147497,getUserSubscription-NewBillValidate Supporting container,,NewBill,,,"BANK,CARD",,,,,,,,,,,,200,TRUE
+AT-147496,getUserSubscription-NewBillValidate TriggerType,EVENT,NewBill,,,,,,,,,,,,,,,200,TRUE
+AT-147489,getUserSubscription-NewBillValidate applicableEntity,,NewBill,,,,,,,ACCOUNT VIEW,,,,,,,,200,TRUE
+AT-147492,getUserSubscription-NewBillValidate number of levels and levelObject,,NewBill,,,,,,,ACCOUNT VIEW,"account,view",,,,,,,200,TRUE
+AT-147493,getUserSubscription-NewBillValidate isSubscribed=false,,NewBill,,,,,,,,"account,view",FALSE,,,,,,200,TRUE
+AT-147498,getUserSubscription-NewBillValidate insightKeys,,NewBill,,,,Account,,,,,,,,,,,200,TRUE
+AT-147488,getUserSubscription-NewBillValidate description,,NewBill,,,,,,Generates an insight when a new recurring bill is detected.,,,,,,,,,200,TRUE
+AT-147494,getUserSubscription-NewBillValidate title,,NewBill,,New Bill,,,,,,,,,,,,,200,TRUE
+AT-147499,getUserSubscription-NewBillValidate total number of keys,,NewBill,,,,,18,,,,,,,,,,200,TRUE
+AT-147495,getUserSubscription-NewBillValidate InsightType,,NewBill,NewBill,,,,,,,,,,OTHER,,,,200,TRUE
+AT-147491,getUserSubscription-NewBillValidate insightKeys,,NewBill,,,,View,,,,,,,,,,,200,TRUE

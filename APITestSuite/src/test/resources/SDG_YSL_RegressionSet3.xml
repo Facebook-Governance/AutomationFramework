@@ -1,0 +1,51 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="classes" thread-count="3"
+	preserve-order="true">
+
+
+	<parameter name="suiteName" value="YSLAutoAmelia" />
+
+	<listeners>
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+
+	</listeners>
+<test name="TestSingleDataGatheringBasicAggregation">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestSingleDataGatheringBasicAggregation" />
+		</classes>
+	</test>
+	
+	<test name="TestPIIGranularConfigsDefault">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPIIGranularConfigsDefault" />
+		</classes>
+	</test>
+	<test name="TestEnrollAccounts">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestEnrollAccounts" />
+		</classes>
+	</test>
+	<test name="TestProgressiveRefresh">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestProgressiveRefresh" />
+		</classes>
+	</test>
+	<test name="TestRefreshStatus_2">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestRefreshStatus_2" />
+		</classes>
+	</test>
+
+</suite>
+	

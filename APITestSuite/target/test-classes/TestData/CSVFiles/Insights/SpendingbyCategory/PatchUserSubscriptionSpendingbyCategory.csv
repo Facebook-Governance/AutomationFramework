@@ -1,0 +1,26 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-143127,subscribe toSpendingbyCategory,SpendingbyCategory,,,,,,,,,,,2,,account view ,,,,TRUE TRUE,,,,204,TRUE
+AT-143127,UpdateTriggerType,SpendingbyCategory,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143127,Update insightName by same name,SpendingbyCategory,negTestScenario17,,SpendingbyCategory,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143161,Update insightName edit InsightName,SpendingbyCategory,negTestScenario2,,SpendingbyCategoryEditkfd,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143127,Update container,SpendingbyCategory,negTestScenario6,,,,BILLS,,,,,,,,,,,,,,,,400,TRUE
+AT-143127,Update keys,SpendingbyCategory,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-143127,Update description,SpendingbyCategory,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-143167,Update configMeta - subscrption Info - configMeta->account[0]->id,SpendingbyCategory,negTestScenario19,,,,,,,,,,2,TRUE,account view ,,,,FALSE FALSE,,,,400,TRUE
+AT-143169,Update applicableEntity,SpendingbyCategory,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-143127,Update entityParameter,SpendingbyCategory,,,,,,,,,,,2,,account view ,,,,TRUE TRUE,,,,204,TRUE
+AT-143127,Update entityParameter->account[0]->id - Valid ItemAccountId,SpendingbyCategory,,,,,,,,,,,1,,account,,,,TRUE,,,,204,TRUE
+AT-143127,Update entityParameter->account[0]->id - InValid ItemAccountId,SpendingbyCategory,negTestScenario20,,,,,,,,,,1,,account,,76823,,TRUE,,,,400,TRUE
+AT-143127,Update entityParameter->board[0]->id - InValid ViewID,SpendingbyCategory,negTestScenario26,,,,,,,,,,1,,view,,abcdef,,TRUE,,,,400,TRUE
+AT-143130,Update entityParameter->account[0]->isSubscribed=false,SpendingbyCategory,,,,,,,,,,,2,,account view ,,,,FALSE FALSE,,,,204,TRUE
+AT-143127,Update invalid duration  -  entityParameter->account[0]->duration ,SpendingbyCategory,negTestScenario23,,,,,,,,,,2,,account view ,,,,TRUE TRUE,LAST_MONHT LAST_MONHT,,,400,TRUE
+AT-143129,Update valid duration  -  entityParameter->account[0]->duration ,SpendingbyCategory,,,,,,,,,,,2,,account view ,,,,TRUE TRUE,SIX_MONTH SIX_MONTH,,,204,TRUE
+AT-143165,Update insightTitle,SpendingbyCategory,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-143163,Update insightType to INVALID - entityParameter->account[0]->insightType,SpendingbyCategory,negTestScenario24,,,,,,,,,,2,,account view ,,,,TRUE TRUE,,INVALID INVALID,,400,TRUE
+AT-143127,Update insightType to AGGREGATE - entityParameter->account[0]->insightType,SpendingbyCategory,negTestScenario24,,,,,,,,,,2,,account view ,,,,TRUE TRUE,,AGGREGATE AGGREGATE,,400,TRUE
+AT-143164,Update entityParameter->account[0]->frequency,SpendingbyCategory,negTestScenario22,,,,,,,,,,2,,account view ,,,MONTH MONTH,FALSE FALSE,,,,400,TRUE
+AT-143130,Update entityParameter->account[0]->valid frequency,SpendingbyCategory,,,,,,,,,,,2,,account view ,,,MONTHLY,TRUE TRUE,,,,204,TRUE
+AT-143131,update threshold name  - entityParameter->account[0]->threshold[0]->name,SpendingbyCategory,negTestScenario54,,,,,,,,,,1,,account,1,,,FALSE,,,"BELOW,10,NUMBER",400,TRUE
+AT-143166,update threshold values - entityParameter->account[0]->threshold[0]->value,SpendingbyCategory,,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,10,NUMBER",204,TRUE
+AT-143166,update threshold type - entityParameter->account[0]->threshold[0]->type,SpendingbyCategory,negTestScenario55,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,10,VALUE",400,TRUE
+AT-143162,"update threshold name ,value and type to TOP,10,NUMBER",SpendingbyCategory,,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,10,NUMBER",204,TRUE

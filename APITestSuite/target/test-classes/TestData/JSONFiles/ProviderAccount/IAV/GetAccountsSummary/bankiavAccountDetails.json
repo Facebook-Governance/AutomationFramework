@@ -1,0 +1,50 @@
+{
+  "account": [
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "YODLEE_16445"
+          }
+        }
+      ],
+      "accountName": "TESTDATA",
+      "isManual": false,
+      "currentBalance": {
+        "amount": 44.78,
+        "currency": "USD"
+      },
+      "accountType": "CHECKING",
+      "accountNumber": "xxxx6789",
+      "availableBalance": {
+        "amount": 212.78,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "${json-unit.ignore}",
+        "nextRefreshScheduled": "${json-unit.ignore}",
+        "lastRefreshAttempt": "${json-unit.ignore}",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "${json-unit.ignore}",
+      "isAsset": true,
+      "createdDate": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 44.78,
+        "currency": "USD"
+      },
+      "providerId": "${json-unit.ignore}",
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "id": "${json-unit.ignore}",
+      "providerName": "Dag Site",
+      "bankTransferCode": {
+        "id": "999999935"
+      }
+    }
+  ]
+}

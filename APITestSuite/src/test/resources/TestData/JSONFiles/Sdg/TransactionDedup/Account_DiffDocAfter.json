@@ -1,0 +1,56 @@
+{
+    "account": [
+        {
+            "includeInNetWorth": true,
+            "accountName": "DAG INVESTMENT",
+            "accountType": "OTHER",
+            "isManual": false,
+            "displayedName": "DAG",
+            "accountNumber": "555555",
+            "accountStatus": "ACTIVE",
+            "shortBalance": {
+                "amount": 15000,
+                "currency": "USD"
+            },
+            "lastUpdated": "${json-unit.ignore}",
+           "associatedProviderAccountId": "#{path:/account[0].associatedProviderAccountId;value:;condition:(associatedProviderAccountId==true && associatedProviderAccountId!=providerAccountIdResponse)}",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 79629,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "16441",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "investment",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "cash": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "dataset": [
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "DOCUMENT",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Dag Site",
+            "marginBalance": {
+                "amount": 2369,
+                "currency": "USD"
+            }
+        }
+    ]
+}

@@ -1,0 +1,499 @@
+<html>
+<head>
+<title>TestNG:  GET Feeds - Net Income Summary</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GET Feeds - Net Income Summary</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/13/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 02 13:47:26 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>194 seconds (194820 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.prepareAutomationReport()'><b>prepareAutomationReport</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.yodlee.insights.yodleeApi.utils.InsightsHelper.printSummaryOfTests(InsightsHelper.java:1966)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.prepareAutomationReport(TestGetInsightsForIncomeExpenseOverview.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace898027953", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace898027953'><pre>java.lang.NullPointerException
+	at com.yodlee.insights.yodleeApi.utils.InsightsHelper.printSummaryOfTests(InsightsHelper.java:1966)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.prepareAutomationReport(TestGetInsightsForIncomeExpenseOverview.java:314)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-148476, getNotification - Validate IncomeExpenseOverview Inisight generation for an user for THREE MONTHS, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, TRUE, TRUE, viewsRulesAmountRangeExpense, TRUE, 1, View, viewsRulesAmountRangeExpense, , , 10#10000, , MONTHLY, THREE_MONTHS, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace780372547", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace780372547'><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>7</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-148478, getNotification - Validate IncomeExpenseOverview Inisight generation for an user for LAST_MONTH, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, TRUE, TRUE, viewsRulesAmountRangeExpense, TRUE, 1, View, viewsRulesAmountRangeExpense, , , 10#10000, , MONTHLY, LAST_MONTH, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2019182033", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2019182033'><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>10</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-148479, getNotification - Validate IncomeExpenseOverview Inisight generation for an user for SIX_MONTH, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, TRUE, TRUE, viewsRulesAmountRangeExpense, TRUE, 1, View, viewsRulesAmountRangeExpense, , , 10#10000, , MONTHLY, SIX_MONTHS, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace342697926", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace342697926'><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>7</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-148480, getNotification - Validate IncomeExpenseOverview Inisight generation for an user for ONE_YEAR, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, TRUE, TRUE, viewsRulesAmountRangeExpense, TRUE, 1, View, viewsRulesAmountRangeExpense, , , 10#10000, , MONTHLY, ONE_YEAR, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace41647092", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace41647092'><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>8</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-148481, getNotification - Validate IncomeExpenseOverview Inisight generation for an user for ONE_YEAR for DAILY frequency, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, TRUE, TRUE, viewsRulesAmountRangeExpense, TRUE, 1, View, viewsRulesAmountRangeExpense, , , 10#10000, , DAILY, ONE_YEAR, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace928029456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace928029456'><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>9</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-148483, getNotification - Validate IncomeExpenseOverview Inisight generation for an user for THREE_MONTHS for DAILY frequency, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, TRUE, TRUE, viewsRulesAmountRangeExpense, TRUE, 1, View, viewsRulesAmountRangeExpense, , , 10#10000, , DAILY, THREE_MONTHS, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1254261978", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1254261978'><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>7</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-148484, getNotification - Validate IncomeExpenseOverview Inisight generation for an user for SIX_MONTHS for DAILY frequency, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, TRUE, TRUE, viewsRulesAmountRangeExpense, TRUE, 1, View, viewsRulesAmountRangeExpense, , , 10#10000, , DAILY, SIX_MONTHS, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace144005838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace144005838'><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>7</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-148485, getNotification - Validate IncomeExpenseOverview Inisight generation for an user for ONE_YEAR for WEEKLY frequency, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, TRUE, TRUE, viewsRulesAmountRangeExpense, TRUE, 1, View, viewsRulesAmountRangeExpense, , , 10#10000, , WEEKLY, ONE_YEAR, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace802465616", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace802465616'><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>7</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-148487, getNotification - Validate IncomeExpenseOverview Inisight generation for an user for THREE_MONTHS for WEEKLY frequency, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, TRUE, TRUE, viewsRulesAmountRangeExpense, TRUE, 1, View, viewsRulesAmountRangeExpense, , , 10#10000, , WEEKLY, THREE_MONTHS, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1849712590", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1849712590'><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>7</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-148488, getNotification - Validate IncomeExpenseOverview Inisight generation for an user for SIX_MONTHS for WEEKLY frequency, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, TRUE, TRUE, viewsRulesAmountRangeExpense, TRUE, 1, View, viewsRulesAmountRangeExpense, , , 10#10000, , WEEKLY, SIX_MONTHS, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2059668362", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2059668362'><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>8</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-13416, Validate IncomeExpenseOverview Inisight generate inisghts for view  edit createdDate to past -15 days and re trigger invoker no new  insight   should be generated , NET_INCOME_SUMMARY, EDIT,-15, SCHEDULE, , 1, view, 0, TRUE, NA, TRUE, viewsRulesAmountRange, TRUE, 0, View, viewsRulesAmountRange, , , 10#10000, , DAILY, THREE_MONTHS, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1704478555", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1704478555'><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>7</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-13419, Validate IncomeExpenseOverview Inisight generation for only income transactions, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, NA, TRUE, viewsRulesTxnstId, TRUE, 0, View, viewsRulesTxnstId, , IncomeExpenseOverview@Txn2, , , DAILY, THREE_MONTHS, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1675941850", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1675941850'><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at sun.reflect.GeneratedMethodAccessor275.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>7</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-13420, Validate INcomeExpenseOverview Inisight generation for different amount range, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, NA, TRUE, viewsRulesAmountRange, TRUE, 0, View, viewsRulesAmountRange, , , 9#99999, , DAILY, THREE_MONTHS, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace830672839", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace830672839'><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  0 insights triggered But found 1 Insights for All Account 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview(TestGetInsightsForIncomeExpenseOverview.java:307)
+	at sun.reflect.GeneratedMethodAccessor275.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>9</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-148475, getNotification - Validate IncomeExpenseOverview Inisight generation when cobrand is not subscribe to a view - Insights shouldn't be generated, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, FALSE, , , , 0, , viewsRulesAmountRangeExpense, , , 10#10000, , MONTHLY, THREE_MONTHS, 201, TRUE</td>
+<td></td>
+<td>6</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-148477, getNotification - Validate IncomeExpenseOverview Inisight generation for an user for THIS_MONTH, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, TRUE, TRUE, viewsRulesAmountRangeExpense, FALSE, 1, View, viewsRulesAmountRangeExpense, , , 10#10000, , MONTHLY, THIS_MONTH, 201, TRUE</td>
+<td></td>
+<td>10</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-148482, getNotification - Validate IncomeExpenseOverview Inisight generation for an user for THIS_MONTH for DAILY frequency, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, TRUE, TRUE, viewsRulesAmountRangeExpense, FALSE, 1, View, viewsRulesAmountRangeExpense, , , 10#10000, , DAILY, THIS_MONTH, 201, TRUE</td>
+<td></td>
+<td>7</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-148486, getNotification - Validate IncomeExpenseOverview Inisight generation for an user for THIS_MONTH for WEEKLY frequency, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, TRUE, TRUE, viewsRulesAmountRangeExpense, FALSE, 1, View, viewsRulesAmountRangeExpense, , , 10#10000, , WEEKLY, THIS_MONTH, 201, TRUE</td>
+<td></td>
+<td>7</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview.testGetNotificationsForIncomeExpenseOverview()'><b>testGetNotificationsForIncomeExpenseOverview</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview<br>Parameters: AT-13417, Validate IncomeExpenseOverview Inisight generation for last month income transaction and changing default thresold, NET_INCOME_SUMMARY, FALSE, SCHEDULE, , 1, view, 0, TRUE, NA, TRUE, viewsRulesAmountRangeLastMonth, FALSE, 0, View, viewsRulesAmountRangeLastMonth, , , 10#10000, , WEEKLY, THIS_MONTH, 201, TRUE</td>
+<td></td>
+<td>7</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview@74455848</td></tr>
+</table><p>
+</body>
+</html>

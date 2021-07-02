@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+
+	<!-- <parameter name="coBrand" value="YCOM_L1" />
+	<parameter name="loginType" value="L1NODE" /> -->
+	<parameter name="browser" value="chrome" />
+	<parameter name="runOnBrowserStack" value="false" />
+	<parameter name="bs_username" value="yodleebrowsersta1" />
+	<parameter name="bs_automate_key"
+		value="pzyoTJ6embZ48zsufsF2" />
+	<parameter name="browser_version" value="48" />
+	<parameter name="platformName" value="windows" />
+	<parameter name="platformVersion" value="7" />
+	<parameter name="elpamEnabled" value="true" />
+	<parameter name="appFlag" value="false" />
+	<!-- <parameter name="appFlag" value="emulator"></parameter> <parameter 
+		name="deviceName" value="Galaxy S5" /> -->
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="suiteName" value="Wellness P0 Suite" />
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.omni.pfm.listeners.CustomListener" />
+		<listener
+			class-name="com.automation.rdashboard.ReportDashboardPlugin" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+	</listeners>
+
+	<test name="Networth P0">
+		<groups>
+			<run>
+				<include name="NetworthP0" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.omni.pfm.P0ScenariosTesting.P0Scenarios"></class>
+		</classes>
+	</test>
+	
+	<test name="Expense And Income Analysis P0">
+		<groups>
+			<run>
+				<include name="EA/IA P0" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.omni.pfm.P0ScenariosTesting.P0Scenarios"></class>
+		</classes>
+	</test>
+	<test name="Cashflow P0">
+		<groups>
+			<run>
+				<include name="CashFlow P0" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.omni.pfm.P0ScenariosTesting.P0Scenarios"></class>
+		</classes>
+	</test>
+	
+	<test name="Investment Holdings P0">
+		<groups>
+			<run>
+				<include name="IH P0" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.omni.pfm.P0ScenariosTesting.P0Scenarios"></class>
+		</classes>
+	</test>
+	
+	<test name="Budget P0">
+		<groups>
+			<run>
+				<include name="Budget P0" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.omni.pfm.P0ScenariosTesting.P0Scenarios"></class>
+		</classes>
+	</test>
+	
+	
+</suite>

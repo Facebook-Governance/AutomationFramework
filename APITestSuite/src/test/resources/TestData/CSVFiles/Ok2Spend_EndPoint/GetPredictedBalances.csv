@@ -1,0 +1,21 @@
+tcid,tcName,httpStatusCode,restfile,filepath,accountId,fromDate,toDate,interval,enabled
+AT-114712,Verify getPredictedBalance -with invalid account id,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,INVALID,"0,0,0","0,0,0",,TRUE
+AT-114713,Verify getPredictedBalance -with invalid todate,400,invalidDateRange.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,,"0,0,0","0,-3,0",,TRUE
+AT-114714,Verify getPredictedBalance -with invalid date range,400,invalidDateRange.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,,"0,0,0","0,-3,0",,TRUE
+AT-114715,Verify getPredictedBalance -with invalid value for interval,400,InvalidValueForInterval.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,,"0,0,0","0,3,0",g,TRUE
+AT-114716,Verify getPredictedBalance -FutureFromDate,200,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,CARD,"0,0,2","0,3,0",D,TRUE
+AT-114717,Verify getPredictedBalance -bank interval-d,200,bankDaily.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,"0,0,0","0,3,0",d,TRUE
+AT-114718,Verify getPredictedBalance -bank interval-D,200,bankDaily.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,"0,0,0","0,3,0",D,TRUE
+AT-114719,Verify getPredictedBalance -bank interval-M,200,bankWeekly1.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,"0,0","0,1",M,TRUE
+AT-114720,Verify getPredictedBalance -bank interval-m,200,bankWeekly1.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,"0,0","0,1",m,TRUE
+AT-114721,Verify getPredictedBalance -bank interval-w,200,bankWeekly.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,"0,0,0","0,0,7",w,TRUE
+AT-114722,Verify getPredictedBalance -bank interval-W,200,bankWeekly.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,"0,0,0","0,0,7",W,TRUE
+AT-114723,Verify getPredictedBalance -bank interval-d,200,bankDaily.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,CARD,"0,0,0","0,3,0",d,TRUE
+AT-114724,Verify getPredictedBalance -bank interval-D,200,bankDaily.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,CARD,"0,0,0","0,3,0",D,TRUE
+AT-114725,Verify getPredictedBalance -bank interval-M,200,bankWeekly1.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,CARD,"0,0","0,1",M,TRUE
+AT-114726,Verify getPredictedBalance -bank interval-m,200,bankWeekly1.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,CARD,"0,0","0,1",m,TRUE
+AT-114727,Verify getPredictedBalance -bank interval-w,200,bankWeekly.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,CARD,"0,0,0","0,0,7",w,TRUE
+AT-114728,Verify getPredictedBalance -bank interval-W,200,bankWeekly.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,CARD,"0,0,0","0,0,7",W,TRUE
+AT-114729,getPredictedBalance-past date range-card account id,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,CARD,"0,-1,0","0,0,-2",D,TRUE
+AT-114730,getPredictedBalance-past date range-bank account id,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,"0,-1,0","0,0,-2",D,TRUE
+AT-114731,getPredictedBalance-past date from date and future toDate,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,"0,-1,0","0,3,0",D,TRUE

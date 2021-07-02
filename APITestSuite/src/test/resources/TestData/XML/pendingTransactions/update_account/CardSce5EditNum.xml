@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <cardAccount accountClassification="personal" acctType="charge">
+      <accountName>Dag Charge Card</accountName>
+      <nickName>Traditional Gharge</nickName>
+      <accountHolder>Jacob</accountHolder>
+      <accountNumber>XXXX-XXXX-XXXX-3600</accountNumber>
+      <balance balType="runningBalance">
+         <curAmt curCode="USD">10928.00</curAmt>
+      </balance>
+      <asOf localFormat="yyyyMMdd">2018-10-20T00:00:00</asOf>
+      <balance balType="amountDue">
+         <curAmt curCode="USD">10418.00</curAmt>
+      </balance>
+      <balance balType="minPayment">
+         <curAmt curCode="USD">550.00</curAmt>
+      </balance>
+      <balance balType="lastPayment">
+         <curAmt curCode="USD">122.00</curAmt>
+      </balance>
+      <lastPaymentDate localFormat="yyyyMMdd">2018-09-18T00:00:00</lastPaymentDate>
+      <balance balType="availableCredit">
+         <curAmt curCode="USD">1657.00</curAmt>
+      </balance>
+      <balance balType="totalCreditLine">
+         <curAmt curCode="USD">12000.00</curAmt>
+      </balance>
+      <dueDate localFormat="yyyyMMdd">2018-11-07T00:00:00</dueDate>
+      <apr>19.99</apr>
+      <transactionList>
+         <transaction uniqueId="1118111" transactionStatus="posted" baseType="debit">
+            <description>Audible1</description>
+            <transactionId>320188820111871001</transactionId>
+            <transDate localFormat="yyyyMMdd">;getModifiedDate(-9d)</transDate>
+            <postDate localFormat="yyyyMMdd">;getModifiedDate(-8d)</postDate>
+            <amount curCode="USD">10.00</amount>
+         </transaction>
+		 <transaction uniqueId="1118112" transactionStatus="posted" baseType="debit">
+            <description>Audible2</description>
+            <transactionId>320188820111871002</transactionId>
+            <transDate localFormat="yyyyMMdd">;getModifiedDate(-7d)</transDate>
+            <postDate localFormat="yyyyMMdd">;getModifiedDate(-6d)</postDate>
+            <amount curCode="USD">25.00</amount>
+         </transaction>
+         <transaction uniqueId="1118113" transactionStatus="pending" baseType="debit">
+            <description>Audible3</description>
+            <transactionId>320188820111871003</transactionId>
+            <transDate localFormat="yyyyMMdd">;getModifiedDate(-6d)</transDate>
+            <amount curCode="USD">55.00</amount>
+         </transaction>
+		 <transaction uniqueId="1118444" transactionStatus="pending" baseType="debit">
+            <description>Audible4</description>
+            <transactionId>320188820111871004</transactionId>
+            <transDate localFormat="yyyyMMdd">;getModifiedDate(-4d)</transDate>
+            <amount curCode="USD">125.00</amount>
+         </transaction>
+      </transactionList>
+   </cardAccount>
+</site>

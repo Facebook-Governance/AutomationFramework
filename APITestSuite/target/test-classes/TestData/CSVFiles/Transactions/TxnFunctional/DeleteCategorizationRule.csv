@@ -1,0 +1,2 @@
+TestCaseId,Title,categoryId,priority,descriptionOperation,descriptionValue,amountOperation,amountValue,statusCode,container,fromDate,TransResFile,TransFilePath,defectID,enabled
+"AT-59717",DeleteCategorizationRule and check Transactions,20,1,stringContains,Advertising in Yellow Pages,numberEquals,100,201,bank,1/1/1900,systemDefinedCategorization-Bank_AfterRuleDelete.json,../src/test/resources/TestData/Transactions/TxnFunctional/,0,TRUE

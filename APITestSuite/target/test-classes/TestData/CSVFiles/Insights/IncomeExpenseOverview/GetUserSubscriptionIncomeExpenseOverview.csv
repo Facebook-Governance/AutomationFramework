@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,duration,insightType,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-143335,"getUserSubscription - Validate IncomeExpenseOverview , Validate InsightName",,IncomeExpenseOverview,IncomeExpenseOverview,,,,,,,,,,,,,,,200,TRUE
+AT-143336,"getUserSubscription - Validate IncomeExpenseOverview , Validate Supporting container",,IncomeExpenseOverview,,,"BANK,CARD",,,,,,,,,,,,,200,TRUE
+AT-143337,"getUserSubscription - Validate IncomeExpenseOverview , Validate TriggerType",SCHEDULE,IncomeExpenseOverview,,,,,,,,,,,,,,,,200,TRUE
+AT-143338,"getUserSubscription - Validate IncomeExpenseOverview , Validate applicableEntity",,IncomeExpenseOverview,,,,,,,VIEW,,,,,,,,,200,TRUE
+AT-143339,"getUserSubscription - Validate IncomeExpenseOverview , Validate number of levels and levelObject",,IncomeExpenseOverview,,,,,,,VIEW,view,,,,,,,,200,TRUE
+AT-143340,"getUserSubscription - Validate IncomeExpenseOverview , Validate isSubscribed=false",,IncomeExpenseOverview,,,,,,,,,FALSE,,,,,,,200,TRUE
+AT-143341,"getUserSubscription - Validate IncomeExpenseOverview , Validate insightKeys",,IncomeExpenseOverview,,,,View,,,,,,,,,,,,200,TRUE
+AT-143342,"getUserSubscription - Validate IncomeExpenseOverview , Validate description",,IncomeExpenseOverview,,,,,,Generates an insight that provides net income trends over a configured time period.,,,,,,,,,,200,TRUE
+AT-143343,"getUserSubscription - Validate IncomeExpenseOverview , Validate title",,IncomeExpenseOverview,,Net Income Summary,,,,,,,,,,,,,,200,TRUE
+AT-143344,"getUserSubscription - Validate IncomeExpenseOverview , Validate ruleExpression",,IncomeExpenseOverview,,,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-143345,"getUserSubscription - Validate IncomeExpenseOverview , Validate total number of keys",,IncomeExpenseOverview,,,,,15,,,,,,,,,,,200,TRUE
+AT-143346,"getUserSubscription - Validate IncomeExpenseOverview , verify entityParameter and configMeta are same",,IncomeExpenseOverview,,,,,,,,,,,,,,,,200,TRUE
+AT-143347,getUserSubscription - Validate insightType,,IncomeExpenseOverview,IncomeExpenseOverview,,,,,,,,,,,OTHER,,,,200,TRUE
+AT-143348,getUserSubscription - Validate duration,,IncomeExpenseOverview,IncomeExpenseOverview,,,,,,,,,,THIS_MONTH,,,,,200,TRUE

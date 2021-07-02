@@ -1,0 +1,21 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-148845,patchCobrand - subscribe to CategorySpendingExceeded isSubscribed=true,CategorySpendingExceeded,,,,,,,,,,1,,account,2,,,TRUE,,,"CHANGE,50,AMOUNT  CHANGE,10,PERCENT",204,TRUE
+AT-148846,patchCobrand - update insightName to same name,CategorySpendingExceeded,negTestScenario1,CategorySpendingExceeded,,,,,,,,,,,,,,,,,,500,TRUE
+AT-148847,patchCobrand -  update insightName to different name,CategorySpendingExceeded,negTestScenario2,CategorySpendingExceededEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148848,patchCobrand - update insightTitle chars between 3 and 100 ,CategorySpendingExceeded,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-148849,patchCobrand -  update insightTitle chars are only 3,CategorySpendingExceeded,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-148850,patchCobrand - update insightTitle chars are only 100,CategorySpendingExceeded,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-148851,patchCobrand - update insightTitle chars are less than 3,CategorySpendingExceeded,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-148852,patchCobrand -  update insightTitle chars are greater 100,CategorySpendingExceeded,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-148853,patchCobrand - update insightTitle chars are special characters,CategorySpendingExceeded,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-148854,patchCobrand - update insightTitle chars are special characters,CategorySpendingExceeded,,,Spending Exceeded Average,,,,,,,,,,,,,,,,,204,TRUE
+AT-148855,patchCobrand -  update container,CategorySpendingExceeded,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-148856,patchCobrand -  update keys,CategorySpendingExceeded,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-148857,patchCobrand -  update description,CategorySpendingExceeded,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-148858,patchCobrand -  update applicableEntity,CategorySpendingExceeded,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-148859,patchCobrand - update entityParameter->account[0]->isSubscribed=false,CategorySpendingExceeded,,,,,,,,,,1,,account,2,,,FALSE,,,"CHANGE,50,AMOUNT  CHANGE,10,PERCENT",204,TRUE
+AT-148862,patchCobrand - update entityParameter->account[0]->threshold[0]->name,CategorySpendingExceeded,negTestScenario35,,,,,,,,,1,,account,2,,,FALSE,,,"BALANCE,50,AMOUNT  CHANGE,10,PERCENT",400,TRUE
+AT-148863,patchCobrand - update entityParameter->account[0]->threshold[0]->value,CategorySpendingExceeded,,,,,,,,,,1,,account,2,,,TRUE,,,"CHANGE,150,AMOUNT  CHANGE,10,PERCENT",204,TRUE
+AT-148864,patchCobrand -  update entityParameter->account[0]->threshold[0]->type,CategorySpendingExceeded,negTestScenario28,,,,,,,,,1,,account,2,,,TRUE,,,"CHANGE,50,PERCENT  CHANGE,10,PERCENT",400,TRUE
+AT-148865,patchCobrand -  update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,CategorySpendingExceeded,,,,,,,,,,1,,account,2,,,TRUE,,,"CHANGE,500,AMOUNT  CHANGE,10,PERCENT",204,TRUE
+AT-148866,patchCobrand - update entityParameter->account[0]->threshold[0]->value-revert,CategorySpendingExceeded,,,,,,,,,,1,,account,2,,,TRUE,,,"CHANGE,50,AMOUNT  CHANGE,10,PERCENT",204,TRUE

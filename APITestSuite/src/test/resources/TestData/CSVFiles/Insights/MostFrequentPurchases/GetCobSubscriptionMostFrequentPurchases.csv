@@ -1,0 +1,17 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,duration,thresholdDetails,ruleExpression,status,enabled
+AT-148669,"Validate getCobrandSubscription for MostFrequentPurchases , check if Insight is unSubscribed to OR isSubscribed=false ",,MostFrequentPurchases,MostFrequentPurchases,,,,,,,,FALSE,,,,,200,TRUE
+AT-148670,"Validate  getCobrandSubscription for  MostFrequentPurchases , Validate InsightName",,MostFrequentPurchases,MostFrequentPurchases,,,,,,,,,,,,,200,TRUE
+AT-148671,"Validate getCobrandSubscription for  MostFrequentPurchases , Validate Supporting container",,MostFrequentPurchases,,,"BANK,CARD",,,,,,,,,,,200,TRUE
+AT-148672,"Validate getCobrandSubscription for  MostFrequentPurchases , Validate TriggerType",SCHEDULE,MostFrequentPurchases,,,,,,,,,,,,,,200,TRUE
+AT-148673,"Validate getCobrandSubscription for  MostFrequentPurchases , Validate applicableEntity",,MostFrequentPurchases,,,,,,,"ACCOUNT,VIEW",,,,,,,200,TRUE
+AT-148674,"Validate getCobrandSubscription for  MostFrequentPurchases , Validate number of levels and levelObject",,MostFrequentPurchases,,,,,,,"ACCOUNT,VIEW","account,view",,,,,,200,TRUE
+AT-148675,"Validate getCobrandSubscription for  MostFrequentPurchases , Validate isSubscribed=false",,MostFrequentPurchases,,,,,,,,,FALSE,,,,,200,TRUE
+AT-148676,"Validate getCobrandSubscription for  MostFrequentPurchases , Validate threshold Name,default Value  and Type",,MostFrequentPurchases,,,,,,,,"account,view",,,,"TOP,5,NUMBER",,200,TRUE
+AT-148677,"Validate getCobrandSubscription for  MostFrequentPurchases , Validate insightKeys for Account",,MostFrequentPurchases,,,,Account,,,,,,,,,,200,TRUE
+AT-148678,"Validate getCobrandSubscription for  MostFrequentPurchases , Validate description",,MostFrequentPurchases,,,,,,Generates an insight that provides spending trends (based on transaction count) by merchant over a configured time period.,,,,,,,,200,TRUE
+AT-148679,"Validate getCobrandSubscription for  MostFrequentPurchases , Validate title",,MostFrequentPurchases,,Count of Transactions by Merchant,,,,,,,,,,,,200,TRUE
+AT-148680,"Validate getCobrandSubscription for  MostFrequentPurchases , Validate ruleExpression",,MostFrequentPurchases,,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-148681,"Validate getCobrandSubscription for  MostFrequentPurchases , Validate total number of keys",,MostFrequentPurchases,,,,,32,,,,,,,,,200,TRUE
+AT-148682,"Validate getCobrandSubscription for  MostFrequentPurchases , Validate insightKeys for View",,MostFrequentPurchases,,,,View,,,,,,,,,,200,TRUE
+AT-148683,"Validate getCobrandSubscription for  MostFrequentPurchases , Validate frequency",,MostFrequentPurchases,,,,,,,,,,WEEKLY,,,,200,TRUE
+AT-148684,"Validate getCobrandSubscription for  MostFrequentPurchases , Validate duration",,MostFrequentPurchases,,,,,,,,,,,THREE_MONTHS,,,200,TRUE

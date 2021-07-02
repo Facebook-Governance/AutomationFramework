@@ -1,0 +1,44 @@
+testCaseId,testCase,container,parentCategoryId,consumer,memo,ResFile,filePath,enabled
+1,with valid consumer SubCato_bank,bank,28,updating transactions,,validConsumerBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+2,with min consumer SubCato_bank,bank,3,aaa,,minConsumerBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+3,with max consumer SubCato_bank,bank,41,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,maxConsumerBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+4,with consumer has numbers SubCato_bank,bank,20,12345678,,consumerNumbersBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+5,with consumer has alphanumeric SubCato_bank,bank,6,!@#$,,consumerAlphanumericBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+6,with consumer has numbers and alphabets SubCato_bank,bank,7,123abcd,,consumerAlphabetsBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+7,with consumer has numbers and specialCharacters SubCato_bank,bank,7,123!@#,,num&specialcharConsumerBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+8,with consumer has alphabets and specialCharacters SubCato_bank,bank,9,abcd!@#$,,alpha&specialcharConsumerBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+9,"with consumer has alphabets , numbers and specialCharacters SubCato_bank",bank,10,abc123!@#,,alphaNum&specialcharConsumerBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+10,with valid consumer SubCato_creditCard,creditCard,11,updating transactions,,validConsumerCreditcardSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+11,with min consumer SubCato_creditCard,creditCard,20,aaa,,minConsumerCreditcardSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+12,with max consumer SubCato_investment,investment,13,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,maxConsumerInvestmentSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+13,with consumer has numbers SubCato_investment,investment,14,12345678,,consumerNumbersInvestmentSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+14,with consumer has alphanumeric SubCato_insurance,insurance,15,!@#$,,consumerAlphanumericInsuranceSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+15,with consumer has numbers and alphabets SubCato_insurance,insurance,16,123abcd,,consumerAlphabetsInsuranceSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+16,with consumer has numbers and specialCharacters SubCato_loan,loan,17,123!@#,,num&specialcharConsumerLoanSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+17,with consumer has alphabets and specialCharacters SubCato_loan,loan,18,abcd!@#$,,alpha&specialcharConsumerLoanSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+18,"with consumer has alphabets , numbers and specialCharacters SubCato_investment",investment,19,abc123!@#,,alphaNum&specialcharConsumerInvSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+19,with consumer has null,creditCard,20,,,nullConsumerSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+20,null memo,investment,21,,,nullMemoSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+21,with valid memo SubCato_bank,bank,22,,updated memo,validMemoBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+22,with min memo SubCato_bank,bank,23,,a,minMemoBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+23,with max memo SubCato_bank,bank,24,,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,maxMemoBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+24,with memo has numbers SubCato_bank,bank,25,,12345678,memoNumbersBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+25,with memo has alphanumeric SubCato_bank,bank,26,,!@#$,memoAlphanumericBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+26,with memo has numbers and alphabets SubCato_bank,bank,27,,123abcd,memoAlphabetsBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+27,with memo has numbers and specialCharacters SubCato_bank,bank,28,,123!@#,num&specialcharMemoBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+28,with memo has alphabets and specialCharacters SubCato_bank,bank,29,,abcd!@#$,alpha&specialcharMemoBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+29,"with memo has alphabets , numbers and specialCharacters SubCato_bank",bank,92,,abc123!@#,alphaNum&specialcharMemoBankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+30,with valid memo SubCato_creditCard,creditCard,7,,updated memo,validMemoCreditcardSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+31,with min memo SubCato_creditCard,creditCard,96,,a,minMemoCreditcardSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+32,with max memo SubCato_investment,investment,7,,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,maxMemoInvestmentSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+33,with memo has numbers SubCato_investment,investment,40,,12345678,memoNumbersInvestmentSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+34,with memo has alphanumeric SubCato_insurance,insurance,108,,!@#$,memoAlphanumericInsuranceSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+35,with memo has numbers and alphabets SubCato_insurance,insurance,104,,123abcd,memoAlphabetsInsuranceSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+36,with memo has numbers and specialCharacters SubCato_loan,loan,30,,123!@#,num&specialcharMemoLoanSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+37,with memo has alphabets and specialCharacters SubCato_loan,loan,108,,abcd!@#$,alpha&specialcharMemoLoanSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+38,"with memo has alphabets , numbers and specialCharacters SubCato_insurance",insurance,20,,abc123!@#,alphaNum&specialcharMemoInvSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+39,with both consumer and memo SubCato_bank,bank,39,update consumer 1,updated memo1,BankSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+40,with both consumer and memo SubCato_creditCard,creditCard,114,update consumer 2,updated memo2,CreditcardSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+41,with both consumer and memo SubCato_loan,loan,225,update consumer 3,updated memo3,LoanSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+42,with both consumer and memo SubCato_insurance,insurance,227,update consumer 4,updated memo4,InsuranceSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE
+43,with both consumer and memo SubCato_investment,investment,92,update consumer 5,updated memo5,InvestmentSubCat.json,../src/test/resources/TestData/Transactions/updateTransaction/,TRUE

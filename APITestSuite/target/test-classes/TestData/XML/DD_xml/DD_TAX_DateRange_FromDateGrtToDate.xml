@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<entity type="multiple">
+<request>
+<add-provider-accounts order="1">
+	<siteUser>RestGenDocDown.site16441.7</siteUser>
+	<siteUserId>65499</siteUserId>
+	<sitePwd>site16441.7</sitePwd>
+	<sitePwdId>65500</sitePwdId>
+	<siteId>16441</siteId>
+	<dataSetForm>{
+
+	"name": "DOCUMENT",
+	"attribute": [{
+		"name": "TAX",
+		"container": ["bank","investment"],
+		"fromFinYear": "2021",
+		"toFinYear": "2016"
+	}]
+}
+	</dataSetForm>
+ </add-provider-accounts>
+    <update-provider-accounts>
+	<siteUser>RestGenDocDown.site16441.7</siteUser>
+	<siteUserId>65499</siteUserId>
+	<sitePwd>site16441.7</sitePwd>
+	<sitePwdId>65500</sitePwdId>
+	<siteId>16441</siteId>
+	<dataSetForm>{
+
+	"name": "DOCUMENT",
+	"attribute": [{
+		"name": "TAX",
+		"container": ["bank","investment"]
+	}]
+}</dataSetForm>
+</update-provider-accounts>
+   
+   <get-accounts>
+      <status>ACTIVE</status>
+      <container>bank</container>
+      <accountReconType>UNRECONCILED</accountReconType>
+   </get-accounts>
+   
+   <get-accountDetials>
+      <container>bank</container>
+   </get-accountDetials>
+  
+   <get-Historical_Balance>
+      <accountId>YES</accountId>
+      <skip>1</skip>
+      <top>1</top>
+      <interval>d</interval>
+      <includeCF>true</includeCF>
+      <fromDate>2013-01-01</fromDate>
+      <toDate>2017-03-28</toDate>
+      <accountReconType>UNRECONCILED</accountReconType>
+   </get-Historical_Balance>
+   
+   <get-Inv_Opt>
+      <accountId>YES</accountId>
+      <accountReconType>UNRECONCILED</accountReconType>
+      <include>assetClassification</include>
+   </get-Inv_Opt>
+   
+   <get-nw_summary>
+      <accountId>YES</accountId>
+      <accountReconType>UNRECONCILED</accountReconType>
+      <include>details</include>
+      <fromDate>2013-01-01</fromDate>
+      <toDate>2017-03-28</toDate>
+      <interval>d</interval>
+      <top>2</top>
+      <skip>1</skip>
+   </get-nw_summary>
+   
+   <get-providers>
+      <priority>COBRAND</priority>
+      <capability>CHALLENGE_DEPOSIT_VERIFICATION</capability>
+      <dataSet>ACCT_PROFILE.FULL_ACCT_NUMBER</dataSet>
+      <name></name>
+      <skip>1</skip>
+      <top>10</top>
+   </get-providers>
+   
+   <get-txn_summary>
+      <groupBy></groupBy>
+      <categoryType></categoryType>
+      <categoryId></categoryId>
+      <fromDate></fromDate>
+      <toDate></toDate>
+      <include></include>
+	  <interval></interval>
+   </get-txn_summary>
+   
+   <get-transactions>
+      <txnAccountId>YES</txnAccountId>
+      <fromDate>2000-01-01</fromDate>
+      <toDate></toDate>
+      <container>bank</container>
+      <baseType>DEBIT</baseType>
+      <keyword></keyword>
+	  <category></category>
+      <categoryId></categoryId>
+      <highLevelCategoryId></highLevelCategoryId>>
+      <type></type>
+      <categoryType></categoryType>
+      <accountReconType></accountReconType>
+	  <skip></skip>
+	  <top></top>
+   </get-transactions>
+   
+   <get-statements>
+      <accountId>YES</accountId>
+      <container>creditCard</container>
+      <isLatest></isLatest>
+      <status></status>
+      <fromDate></fromDate>
+   </get-statements>
+   
+   <get-holdings>
+      <accountId>YES</accountId>
+      <container>investment</container>
+	  <holdingType></holdingType>
+      <include></include>
+      <classificationType></classificationType>
+      <classificationValue></classificationValue>
+      <accountReconType></accountReconType>
+   </get-holdings>
+   
+   <get-holdingSummary>
+      <accountId>YES</accountId>
+      <container>investment</container>
+      <include></include>
+      <classificationType></classificationType>
+      <accountReconType></accountReconType>
+   </get-holdingSummary>
+   
+   <get-documents>
+      <docAccountId></docAccountId>
+      <docType></docType>
+      <keyword></keyword>
+      <fromDate></fromDate>
+      <toDate></toDate>
+   </get-documents>
+   
+   </request>
+   
+   <response>
+      <account>
+         <row>
+            <filePath>../src/test/resources/TestData/JSONFiles/Sdg/GetAccounts/</filePath>
+            <responseFile>getAccounts.json</responseFile>
+         </row>
+      </account>
+      <accountDetails>
+         <row>
+            <filePath>../src/test/resources/TestData/JSONFiles/Sdg/GetAccountsDetails/</filePath>
+            <responseFile>getDocumentsLatestTax - edit.json</responseFile>
+         </row>
+      </accountDetails>
+        
+      <document>
+         <row>
+            <filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/</filePath>
+            <responseFile>getDocumentsOnDemandSTMT_Latest.json</responseFile>
+         </row>
+      </document>
+      <documentDetails>
+         <row>
+            <filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/</filePath>
+            <responseFile>downloadDocument.json</responseFile>
+         </row>
+      </documentDetails>
+      <provider>
+         <row>
+            <filePath>../src/test/resources/TestData/JSONFiles/Sdg/GetProviders/</filePath>
+            <responseFile>nullResponse.json</responseFile>
+         </row>
+      </provider>
+      <providerDetails>
+         <row>
+            <filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/</filePath>
+            <responseFile>getProviderDetailsDocumentDownload.json</responseFile>
+         </row>
+      </providerDetails>
+       <providerDetailsBasicAgg>
+         <row>
+            <filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/</filePath>
+            <responseFile>getProviderDetailsForBasicAgg_DAGSite.json</responseFile>
+         </row>
+      </providerDetailsBasicAgg>
+   </response>
+</entity>

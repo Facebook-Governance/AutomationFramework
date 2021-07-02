@@ -1,0 +1,24 @@
+{
+  "providerAccount": [
+    {
+      "id": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "providerId": "${json-unit.ignore}",
+      "isManual": false,
+      "createdDate": "${json-unit.ignore}",
+      "status": "FAILED",
+      "dataset": [
+        {
+          "name": "ACCT_PROFILE",
+          "additionalStatus": "ENROLLMENT_REQUIRED_FOR_DATASET",
+          "updateEligibility": "DISALLOW_UPDATE"
+        },
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "ENROLLMENT_REQUIRED_FOR_DATASET",
+          "updateEligibility": "DISALLOW_UPDATE"
+        }
+      ]
+    }
+  ]
+}

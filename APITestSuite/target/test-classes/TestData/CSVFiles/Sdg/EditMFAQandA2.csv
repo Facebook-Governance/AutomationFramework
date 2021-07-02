@@ -1,0 +1,5 @@
+UsTestcaseId,tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,priority,formType,enabled
+AT-91245,1,Get ProviderAccount Details without Filter( Param Value - CREDS_QA),MFA_ADD_PROVIDER_ACCOUNT#GET_PROVIDERS_ACCOUNTDETAILS_WITHFILTER,../src/test/resources/TestData/XML/MFA/,CredsQA_GetPANoFilter.xml,YES,NO,P1,Simplified,TRUE
+AT-91246,2,Get ProviderAccount Details with credentials( Param Value - CREDS_QA),MFA_ADD_PROVIDER_ACCOUNT#GET_PROVIDERS_ACCOUNTDETAILS_WITHFILTER,../src/test/resources/TestData/XML/MFA/,CredsQA_GetPAWithCredentials.xml,YES,NO,P1,Simplified,TRUE
+AT-91247,3,Get ProviderAccount Details with QuestionAndAnswer( Param Value - CREDS_QA),MFA_ADD_PROVIDER_ACCOUNT#GET_PROVIDERS_ACCOUNTDETAILS_WITHFILTER,../src/test/resources/TestData/XML/MFA/,CredsQA_GetPAWithQA.xml,YES,NO,P1,Simplified,TRUE
+AT-91248,4,"Get ProviderAccount Details with credentials,QuestionAndAnswer( Param Value - CREDS_QA)",MFA_ADD_PROVIDER_ACCOUNT#GET_PROVIDERS_ACCOUNTDETAILS_WITHFILTER,../src/test/resources/TestData/XML/MFA/,CredsQA_GetPAWithCredentials_QA.xml,YES,NO,P1,Simplified,TRUE

@@ -1,0 +1,26 @@
+{
+    "providerAccount": {
+        "id": "${json-unit.ignore}",
+        "account": [
+            {
+                "id": "${json-unit.ignore}",
+                "accountNumber": "9876987698",
+                "accountName": "XYZertyty Bank",
+                "accountType": "SAVINGS",
+                "bankTransferCode": [
+                    {
+                        "id": "092905168",
+                        "type": "ROUTING_NUMBER"
+                    }
+                ],
+                "verification": {
+                    "type": "CHALLENGE_DEPOSIT",
+                    "status": "IN_PROGRESS",
+                    "reason": [
+                        "INSTRUCTION_INITIATED"
+                    ]
+                }
+            }
+        ]
+    }
+}

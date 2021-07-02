@@ -1,0 +1,13 @@
+testCaseId,testCaseName,Status,FileName,filePath,userSession,cobSession,priority,capability,name,additionalDataSet,classification,skip,top,defectId,enabled
+1,Invalid priority name,400,invalidPriority.json,../src/test/resources/TestData/providers/getProviders/,correct,correct,abcd,,,,,,,0,TRUE
+2,Null priority name,400,invalidPriority.json,../src/test/resources/TestData/providers/getProviders/,correct,correct,null,,,,,,,0,TRUE
+AT-57957,Valid priority name suggested,200,validPriority1.json,../src/test/resources/TestData/providers/getProviders/,correct,correct,suggested,,,,,,,0,TRUE
+AT-57957,Valid priority name popular,200,validPriority2.json,../src/test/resources/TestData/providers/getProviders/,correct,correct,popular,,,,,,,0,TRUE
+AT-57957,Valid priority name cobrand,200,validPriority3.json,../src/test/resources/TestData/providers/getProviders/,correct,correct,cobrand,,,,,,,0,TRUE
+6,Invalid capability,400,invalidCapability.json,../src/test/resources/TestData/providers/getProviders/,correct,correct,,capability,,,,,,0,TRUE
+AT-57958,Valid capability,200,validPriority4.json,../src/test/resources/TestData/providers/getProviders/,correct,correct,,CHALLENGE_DEPOSIT_VERIFICATION,,,,,,0,TRUE
+AT-57960,valid name characters=2,200,validName.json,../src/test/resources/TestData/providers/getProviders/,correct,correct,,,ab,,,,,0,TRUE
+AT-57960,valid name character=1,200,validName1.json,../src/test/resources/TestData/providers/getProviders/,correct,correct,,,a,,,,,0,TRUE
+AT-57957,Invalid capability,200,validPriority5.json,../src/test/resources/TestData/providers/getProviders/,correct,correct,,,abc,,,,,0,TRUE
+AT-57959,valid additional set,200,validAdditionDataSet.json,../src/test/resources/TestData/providers/getProviders/,correct,correct,,,,ACCT_PROFILE.FULL_ACCT_NUMBER,,,,0,TRUE
+AT-57963,valid classification,200,validClassification.json,../src/test/resources/TestData/providers/getProviders/,correct,correct,,,,,classification,,,0,TRUE

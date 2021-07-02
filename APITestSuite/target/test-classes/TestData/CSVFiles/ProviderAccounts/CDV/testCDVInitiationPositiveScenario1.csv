@@ -1,0 +1,2 @@
+testCaseID,testCaseName,accountNumber,accountName,accountType,bankTransferId,bankTransferType,verificationType,resFile,filePath,enabled
+1,Wells Fargo,9876987698,XYZertyty Bank,SAVINGS,92905168,ROUTING_NUMBER,CHALLENGE_DEPOSIT,wellsFargo.json,../src/test/resources/TestData/JSONFiles/ProviderAccounts/CDV/,TRUE

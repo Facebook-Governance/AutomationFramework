@@ -1,0 +1,5 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,recurringEventId,sourceType,accountStatus,enabled
+12,Closed account,400,InvalidRecurringEventId.json,../src/test/resources/TestData/ErrorMessage/,VALID,MANUAL,CLOSED,TRUE
+12,Inactive account,400,InvalidRecurringEventId.json,../src/test/resources/TestData/ErrorMessage/,VALID,MANUAL,INACTIVE,TRUE
+12,Closed account,400,InvalidRecurringEventId.json,../src/test/resources/TestData/ErrorMessage/,VALID,SYSTEM_PREDICTED,CLOSED,TRUE
+12,Inactive account,400,InvalidRecurringEventId.json,../src/test/resources/TestData/ErrorMessage/,VALID,SYSTEM_PREDICTED,INACTIVE,TRUE

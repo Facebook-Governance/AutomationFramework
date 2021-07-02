@@ -1,0 +1,82 @@
+{
+  "account": [
+    {
+      "CONTAINER": "loan",
+      "providerAccountId": "${json-unit.ignore}",
+      "accountName": "Super CD Plus",
+      "accountStatus": "ACTIVE",
+      "aggregationSource": "USER",
+      "accountNumber": "${json-unit.ignore}",
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "interestRateType": "VARIABLE",
+      "collateral": "ABC",
+      "isAsset": false,
+      "balance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "id": "${json-unit.ignore}",
+      "lastUpdated": "${json-unit.ignore}",
+      "isEbillEnrolled": true,
+      "includeInNetWorth": true,
+      "frequency": "${json-unit.ignore}",
+      "providerId": "16441",
+      "providerName": "Dag Site",
+      "isManual": false,
+      "accountType": "OTHER",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "dueDate": "${json-unit.ignore}",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "maturityDate": "${json-unit.ignore}",
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "lastPaymentDate": "${json-unit.ignore}",
+      "lastPaymentAmount": {
+        "amount": 10000,
+        "currency": "USD"
+      },
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "principalBalance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "recurringPayment": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "displayedName": "Bill Gates",
+      "originationDate": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "userClassification": "PERSONAL",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "nextUpdateScheduled": "${json-unit.ignore}"
+        }
+      ]
+    }
+  ]
+}

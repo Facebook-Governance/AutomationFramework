@@ -1,0 +1,24 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>cacheRefreshDis.site16442.1</siteUser>
+				<siteUserId></siteUserId>
+				<sitePwd>site16442.1</sitePwd>
+				<sitePwdId></sitePwdId>
+				<siteId>16442</siteId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>bank</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+	</request>
+</entity>

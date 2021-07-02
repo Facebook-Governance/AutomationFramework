@@ -1,0 +1,39 @@
+<entity type="multiple">
+<request>
+<add-provider-accounts-multiple>
+<add-provider-accounts order="1">
+	<siteUser>simpleDescRule.site16441.2</siteUser>
+	<siteUserId>65499</siteUserId>
+	<sitePwd>site16441.2</sitePwd>
+	<sitePwdId>65500</sitePwdId>
+	<siteId>16441</siteId>
+	<dataList>
+                <dataset>
+                    <name>BASIC_AGG_DATA</name>
+                    <attributeList>
+                        <attribute>
+                            <name>TRANSACTIONS</name>
+                            <container>bank</container>
+                        </attribute>
+                    </attributeList>
+                </dataset>
+            </dataList>
+ </add-provider-accounts>
+ </add-provider-accounts-multiple>
+  <transactions-count-multiple>
+  <transactions-count order="1">
+     <detailCategoryId>1145,1154</detailCategoryId>
+   </transactions-count>
+   </transactions-count-multiple>
+   </request>
+   <response>
+<transaction-multiple>
+<transaction order="1">
+	<row>
+	<filePath>../src/test/resources/TestData/JSONFiles/Sdg/KalamTDE_ResponseJson/</filePath>
+	<responseFile>TxnCount3.json</responseFile>
+	</row>
+	</transaction> 
+</transaction-multiple>	
+   </response>
+</entity>

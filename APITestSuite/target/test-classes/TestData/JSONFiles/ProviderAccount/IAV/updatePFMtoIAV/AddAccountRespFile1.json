@@ -1,0 +1,18 @@
+{
+  "providerAccount": {
+    "lastUpdated": "${json-unit.any-string}",
+    "createdDate": "${json-unit.any-string}",
+    "refreshInfo": {
+      "lastRefreshed": "${json-unit.any-string}",
+      "additionalStatus": "LOGIN_IN_PROGRESS",
+      "lastRefreshAttempt": "${json-unit.any-string}",
+      "statusMessage": "CREDENTIALS_UPDATE_IN_PROGRESS",
+      "statusCode": 802,
+      "status": "IN_PROGRESS"
+    },
+    "aggregationSource": "USER",
+    "providerId": 16441,
+    "isManual": false,
+    "id": "${json-unit.any-number}"
+  }
+}

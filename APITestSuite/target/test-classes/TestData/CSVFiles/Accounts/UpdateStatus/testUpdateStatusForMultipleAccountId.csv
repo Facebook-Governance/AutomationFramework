@@ -1,0 +1,3 @@
+tcId,oldStatus,container,accountReconType,providerAccountId,statusCode,defectId,resFile,filePath,enabled,specific
+AT-53160,EMPTY,investment,EMPTY,VALID,400,0,A-UpdateStatusMultipleAccountId-1,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,FALSE
+AT-53160,ACTIVE,investment,EMPTY,VALID,400,0,A-UpdateStatusMultipleAccountId-2,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,FALSE

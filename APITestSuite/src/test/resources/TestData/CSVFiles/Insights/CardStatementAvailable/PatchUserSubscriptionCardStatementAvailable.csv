@@ -1,0 +1,28 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-154620,PatchUser - subscribe to CardStatementAvailable,CardStatementAvailable,,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,10,DAYS",204,TRUE
+AT-154621,PatchUser - CardStatementAvailable - updateTriggerType,CardStatementAvailable,negTestScenario16,REFRESH,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-154622,PatchUser -  CardStatementAvailable - update insightName by same name,CardStatementAvailable,negTestScenario17,,CardStatementAvailable,,,,,,,,,,,,,,,,,,400,TRUE
+AT-154623,PatchUser -  CardStatementAvailable - update insightName edit InsightName,CardStatementAvailable,negTestScenario2,,CardStatementAvailableEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-154624,PatchUser - CardStatementAvailable - update insightTitle,CardStatementAvailable,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-154625,PatchUser - CardStatementAvailable - update container,CardStatementAvailable,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-154626,PatchUser - CardStatementAvailable - update keys,CardStatementAvailable,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-154627,PatchUser - CardStatementAvailable - update description,CardStatementAvailable,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-154628,PatchUser - CardStatementAvailable - update applicableEntity,CardStatementAvailable,negTestScenario9,,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-154629,PatchUser - CardStatementAvailable - update entityParameter,CardStatementAvailable,,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,10,DAYS",204,TRUE
+AT-154630,PatchUser -  CardStatementAvailable - update entityParameter->account[0]->id - Valid ItemAccountId,CardStatementAvailable,,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,10,DAYS",204,TRUE
+AT-154631,PatchUser -  CardStatementAvailable - update entityParameter->account[0]->id - InValid ItemAccountId,CardStatementAvailable,negTestScenario20,,,,,,,,,,1,,account,1,76823,,TRUE,,,"DAYS_BEFORE,10,DAYS",400,TRUE
+AT-154632,PatchUser -  CardStatementAvailable - update entityParameter->account[0]->isSubscribed=false,CardStatementAvailable,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-154633,PatchUser - CardStatementAvailable - update insightType to AGGREGATE - entityParameter->account[0]->insightType,CardStatementAvailable,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,AGGREGATE,"DAYS_BEFORE,10,DAYS",400,TRUE
+AT-154634,PatchUser - CardStatementAvailable - update insightType to INVALID - entityParameter->account[0]->insightType,CardStatementAvailable,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"DAYS_BEFORE,10,DAYS",400,TRUE
+AT-154635,PatchUser - CardStatementAvailable - update threshold name  - entityParameter->account[0]->threshold[0]->name,CardStatementAvailable,negTestScenario27,,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,10,DAYS",400,TRUE
+AT-154636,PatchUser - CardStatementAvailable - update threshold values - entityParameter->account[0]->threshold[0]->value,CardStatementAvailable,,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,25,DAYS",204,TRUE
+AT-154637,PatchUser - CardStatementAvailable - update threshold type - entityParameter->account[0]->threshold[0]->type,CardStatementAvailable,negTestScenario28,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,10,PERCENT",400,TRUE
+AT-154638,PatchUser - CardStatementAvailable - update configMeta - subscrption Info - configMeta->account[0]->id,CardStatementAvailable,negTestScenario19,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"DAYS_BEFORE,10,DAYS",400,TRUE
+AT-154639,PatchUser-View -  CardStatementAvailable - update entityParameter->account[0]->id - InValid ItemAccountId,CardStatementAvailable,negTestScenario26,,,,,,,,,,1,,view,1,76823,,TRUE,,,"DAYS_BEFORE,10,DAYS",400,TRUE
+AT-154640,PatchUser -  View - CardStatementAvailable - update entityParameter->account[0]->isSubscribed=false,CardStatementAvailable,,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-154641,PatchUser -View- CardStatementAvailable - update insightType to AGGREGATE - entityParameter->account[0]->insightType,CardStatementAvailable,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,AGGREGATE,"DAYS_BEFORE,10,DAYS",400,TRUE
+AT-154642,PatchUser - View- CardStatementAvailable - update insightType to INVALID - entityParameter->account[0]->insightType,CardStatementAvailable,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,INVALID,"DAYS_BEFORE,10,DAYS",400,TRUE
+AT-154643,PatchUser - View- CardStatementAvailable - update threshold name  - entityParameter->account[0]->threshold[0]->name,CardStatementAvailable,negTestScenario27,,,,,,,,,,1,,view,1,,,FALSE,,,"LIMIT,10,DAYS",400,TRUE
+AT-154644,PatchUser -View -  CardStatementAvailable - update threshold values - entityParameter->account[0]->threshold[0]->value,CardStatementAvailable,,,,,,,,,,,1,,view,1,,,TRUE,,,"DAYS_BEFORE,25,DAYS",204,TRUE
+AT-154645,PatchUser - View - CardStatementAvailable - update threshold type - entityParameter->account[0]->threshold[0]->type,CardStatementAvailable,negTestScenario28,,,,,,,,,,1,,view,1,,,TRUE,,,"DAYS_BEFORE,10,PERCENT",400,TRUE
+AT-154646,PatchUser - View - CardStatementAvailable - update configMeta - subscrption Info - configMeta->account[0]->id,CardStatementAvailable,negTestScenario19,,,,,,,,,,1,TRUE,view,1,,,FALSE,,,"DAYS_BEFORE,10,DAYS",400,TRUE

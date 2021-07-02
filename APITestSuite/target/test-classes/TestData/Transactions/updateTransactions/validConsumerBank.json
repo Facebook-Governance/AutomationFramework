@@ -1,0 +1,55 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": "${json-unit.ignore}",
+        "currency": "USD"
+      },
+      "isManual": false,
+	  "sourceType": "AGGREGATED",
+	  "type": "${json-unit.ignore}",
+	  "subType": "${json-unit.ignore}",
+      "highLevelCategoryId": 10000003,
+	  "createdDate": "${json-unit.ignore}",
+	  "lastUpdated": "${json-unit.ignore}",
+      "description": {
+        "original": "${json-unit.ignore}",
+        "simple": "${json-unit.ignore}",
+        "consumer": "updating transactions"
+      },
+      "merchant": {
+        "name": "${json-unit.ignore}",
+        "id": "${json-unit.ignore}",
+        "source": "YODLEE",
+		"categoryLabel": [
+                    "${json-unit.ignore}"
+                ],
+                "address": {
+                    "city": "${json-unit.ignore}",
+                    "state": "${json-unit.ignore}",
+                    "country": "${json-unit.ignore}"
+                },
+                "coordinates": {
+                    "latitude": "${json-unit.ignore}",
+                    "longitude": "${json-unit.ignore}"
+                }
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Automotive/Fuel",
+      "runningBalance": {
+        "amount": "${json-unit.ignore}",
+        "currency": "USD"
+      },
+      "categoryId": 2,
+      "status": "POSTED"
+    }
+  ]
+}

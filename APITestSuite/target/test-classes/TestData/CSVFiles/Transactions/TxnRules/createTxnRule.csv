@@ -1,0 +1,202 @@
+TestCaseId,TestCaseName,categoryId,priority,descriptionOperation,descriptionValue,amountOperation,amountValue,filePath,fileName,statusCode,DefectID,Enabled
+AT-66825,Valid test case,1,-1,stringContains,Dining,numberEquals,543,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-01,201,0,TRUE
+AT-66826,Valid test case,1,23,stringContains,Din,numberGreaterThan,1100,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-03,201,0,TRUE
+AT-66827,Valid test case,20,2,stringContains,Dining,numberLessThanEquals,2300,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-04,201,0,TRUE
+AT-66828,Valid test case,20,2,stringContains,Dining,numberGreaterThanEquals,800,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-05,201,0,TRUE
+AT-66829,Invalid amtOp value,25,4,stringContains,Deposit ,sagfsaf,430,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66830,Empty amtOp value,7,5,stringContains,trans,,,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-07,201,0,TRUE
+AT-66831,Valid test case,1,6,stringEquals,Dining,numberEquals,543,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-08,201,0,TRUE
+AT-66832,Valid test case,3,7,stringEquals,Deposit ,numberLessThan,2000,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-09,201,0,TRUE
+AT-66833,Valid test case,20,8,stringEquals,Din,numberGreaterThan,1100,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-10,201,0,TRUE
+AT-66834,Valid test case,20,9,stringEquals,Dining,numberLessThanEquals,2300,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-11,201,0,TRUE
+AT-66835,Valid test case,15,10,stringEquals,Dining,numberGreaterThanEquals,800,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-12,201,0,TRUE
+AT-66836,Invalid amtOp value,25,11,stringEquals,Deposit ,sagfsaf,430,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-13,400,0,TRUE
+AT-66837,Empty amtOp value,7,12,stringEquals,trans,,,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-14,201,0,TRUE
+AT-66838,Invalid descOp,1,13,stringEquals==,Dining,numberEquals,543,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-15,400,0,TRUE
+AT-66839,Invalid descOp,3,14,stringEquals==,Deposit ,numberLessThan,2000,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-16,400,0,TRUE
+AT-66840,Invalid descOp,20,15,stringEquals==,Din,numberGreaterThan,1100,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-17,400,0,TRUE
+AT-66841,Invalid descOp,20,16,stringEquals==,Dining,numberLessThanEquals,2300,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-18,400,0,TRUE
+AT-66842,Invalid descOp,15,17,stringEquals==,Dining,numberGreaterThanEquals,800,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-19,400,0,TRUE
+AT-66843,Invalid descOp,25,18,stringEquals==,Deposit ,sagfsaf,430,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-20,400,0,TRUE
+AT-66844,Invalid descOp,7,19,stringEquals==,trans,,,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-21,400,0,TRUE
+AT-66845,Empty descOp ,1,20,,Dining,numberEquals,543,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-22,400,0,TRUE
+AT-66846,Empty descOp ,3,21,,Deposit ,numberLessThan,2000,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-23,400,0,TRUE
+AT-66847,Empty descOp ,20,22,,Din,numberGreaterThan,1100,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-24,400,0,TRUE
+AT-66848,Empty descOp ,20,23,,Dining,numberLessThanEquals,2300,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-25,400,0,TRUE
+AT-66849,Empty descOp ,15,24,,Dining,numberGreaterThanEquals,800,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-26,400,0,TRUE
+AT-66850,Empty descOp ,25,25,,Deposit ,sagfsaf,430,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-27,400,0,TRUE
+AT-66851,Empty descOp ,7,26,,trans,,850,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-28,400,0,TRUE
+AT-66852,Invalid Category Ids,-1,27,stringContains,Dining,numberEquals,543,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-29,400,0,TRUE
+AT-66853,Invalid Category Ids,-1,28,stringContains,Deposit ,numberLessThan,2000,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-30,400,0,TRUE
+AT-66854,Invalid Category Ids,-1,29,stringContains,Din,numberGreaterThan,1100,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-31,400,0,TRUE
+AT-66855,Invalid Category Ids,-1,30,stringContains,Dining,numberLessThanEquals,2300,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-32,400,0,TRUE
+AT-66856,Invalid Category Ids,-1,31,stringContains,Dining,numberGreaterThanEquals,800,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-33,400,0,TRUE
+AT-66857,Invalid Category Ids,-1,33,stringContains,trans,,,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-35,400,0,TRUE
+AT-66858,Invalid Category Ids,-1,34,stringEquals,Dining,numberEquals,543,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-36,400,0,TRUE
+AT-66859,Invalid Category Ids,-1,35,stringEquals,Deposit ,numberLessThan,2000,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-37,400,0,TRUE
+AT-66860,Invalid Category Ids,-1,36,stringEquals,Din,numberGreaterThan,1100,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-38,400,0,TRUE
+AT-66861,Invalid Category Ids,-1,37,stringEquals,Dining,numberLessThanEquals,2300,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-39,400,0,TRUE
+AT-66862,Invalid Category Ids,-1,38,stringEquals,Dining,numberGreaterThanEquals,800,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-40,400,0,TRUE
+AT-66863,Invalid Category Ids,-1,40,stringEquals,trans,,,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-42,400,0,TRUE
+AT-66864,Empty Desc Value,1,1,stringContains,,numberEquals,543,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66865,Empty Desc Value,3,1,stringContains,,numberLessThan,2000,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66866,Empty Desc Value,20,1,stringContains,,numberGreaterThan,1100,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66867,Empty Desc Value,20,2,stringContains,,numberLessThanEquals,2300,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66868,Empty Desc Value,15,3,stringContains,,numberGreaterThanEquals,800,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66869,Empty Desc Value,25,4,stringContains,,sagfsaf,430,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66870,Empty Desc Value,7,5,stringContains,,,850,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66871,Empty Desc Value,1,6,stringEquals,,numberEquals,543,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66872,Empty Desc Value,3,7,stringEquals,,numberLessThan,2000,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66873,Empty Desc Value,20,8,stringEquals,,numberGreaterThan,1100,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66874,Empty Desc Value,20,9,stringEquals,,numberLessThanEquals,2300,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66875,Empty Desc Value,15,10,stringEquals,,numberGreaterThanEquals,800,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66876,Empty Desc Value,25,11,stringEquals,,sagfsaf,430,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66877,Empty Desc Value,7,12,stringEquals,,,850,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66878,Empty Desc Value,1,13,stringEquals==,,numberEquals,543,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66879,Empty Desc Value,3,14,stringEquals==,,numberLessThan,2000,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66880,Empty Desc Value,20,15,stringEquals==,,numberGreaterThan,1100,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66881,Empty Desc Value,20,16,stringEquals==,,numberLessThanEquals,2300,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66882,Empty Desc Value,15,17,stringEquals==,,numberGreaterThanEquals,800,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66883,Empty Desc Value,25,18,stringEquals==,,sagfsaf,430,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66884,Empty Desc Value,7,19,stringEquals==,,,850,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66885,Empty Desc Value,1,20,,,numberEquals,543,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-78,201,0,TRUE
+AT-66886,Empty Desc Value,3,21,,,numberLessThan,2000,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-79,201,0,TRUE
+AT-66887,Empty Desc Value,20,22,,,numberGreaterThan,1100,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-80,201,0,TRUE
+AT-66888,Empty Desc Value,20,23,,,numberLessThanEquals,2300,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-81,201,0,TRUE
+AT-66889,Empty Desc Value,15,24,,,numberGreaterThanEquals,800,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-82,201,0,TRUE
+AT-66890,Empty Desc Value,25,25,,,sagfsaf,430,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66891,Empty Desc Value,7,26,,,,850,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66892,Empty Desc Value,-1,48,,,numberEquals,543,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-106,400,0,TRUE
+AT-66893,Empty Desc Value,-1,49,,,numberLessThan,2000,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-107,400,0,TRUE
+AT-66894,Empty Desc Value,-1,50,,,numberGreaterThan,1100,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-108,400,0,TRUE
+AT-66895,Empty Desc Value,-1,51,,,numberLessThanEquals,2300,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-109,400,0,TRUE
+AT-66896,Empty Desc Value,-1,52,,,numberGreaterThanEquals,800,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-110,400,0,TRUE
+AT-66897,Invalid Value for amt,1,1,stringContains,Dining,numberEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66898,Invalid Value for amt,3,1,stringContains,Deposit ,numberLessThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66899,Invalid Value for amt,20,1,stringContains,Din,numberGreaterThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66900,Invalid Value for amt,20,2,stringContains,Dining,numberLessThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66901,Invalid Value for amt,15,3,stringContains,Dining,numberGreaterThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66902,Invalid Value for amt,25,4,stringContains,Deposit ,sagfsaf,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66903,Invalid Value for amt,7,5,stringContains,trans,,,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-126,400,0,TRUE
+AT-66904,Invalid Value for amt,1,6,stringEquals,Dining,numberEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66905,Invalid Value for amt,3,7,stringEquals,Deposit ,numberLessThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66906,Invalid Value for amt,20,8,stringEquals,Din,numberGreaterThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66907,Invalid Value for amt,20,9,stringEquals,Dining,numberLessThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66908,Invalid Value for amt,15,10,stringEquals,Dining,numberGreaterThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66909,Invalid Value for amt,25,11,stringEquals,Deposit ,sagfsaf,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66910,Invalid Value for amt,7,12,stringEquals,trans,,,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-126,400,0,TRUE
+AT-66911,Invalid Value for amt,1,13,stringEquals==,Dining,numberEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66912,Invalid Value for amt,3,14,stringEquals==,Deposit ,numberLessThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66913,Invalid Value for amt,20,15,stringEquals==,Din,numberGreaterThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66914,Invalid Value for amt,20,16,stringEquals==,Dining,numberLessThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66915,Invalid Value for amt,15,17,stringEquals==,Dining,numberGreaterThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66916,Invalid Value for amt,25,18,stringEquals==,Deposit ,sagfsaf,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66917,Invalid Value for amt,7,19,stringEquals==,trans,,,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66918,Invalid Value for amt,1,20,,Dining,numberEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-134,400,0,TRUE
+AT-66919,Invalid Value for amt,3,21,,Deposit ,numberLessThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-135,400,0,TRUE
+AT-66920,Invalid Value for amt,20,22,,Din,numberGreaterThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-136,400,0,TRUE
+AT-66921,Invalid Value for amt,20,23,,Dining,numberLessThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-137,400,0,TRUE
+AT-66922,Invalid Value for amt,15,24,,Dining,numberGreaterThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-138,400,0,TRUE
+AT-66923,Invalid Value for amt,25,25,,Deposit ,sagfsaf,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-139,400,0,TRUE
+AT-66924,Invalid Value for amt,7,26,,trans,,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-140,400,0,TRUE
+AT-66925,Invalid Value for amt,-1,27,stringContains,Dining,numberEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-141,400,0,TRUE
+AT-66926,Invalid Value for amt,-1,28,stringContains,Deposit ,numberLessThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-142,400,0,TRUE
+AT-66927,Invalid Value for amt,-1,29,stringContains,Din,numberGreaterThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-143,400,0,TRUE
+AT-66928,Invalid Value for amt,-1,30,stringContains,Dining,numberLessThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-144,400,0,TRUE
+AT-66929,Invalid Value for amt,-1,31,stringContains,Dining,numberGreaterThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-145,400,0,TRUE
+AT-66930,Invalid Value for amt,-1,32,stringContains,Deposit ,sagfsaf,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-146,400,0,TRUE
+AT-66931,Invalid Value for amt,-1,33,stringContains,trans,,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-147,400,0,TRUE
+AT-66932,Invalid Value for amt,-1,34,stringEquals,Dining,numberEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-148,400,0,TRUE
+AT-66933,Invalid Value for amt,-1,35,stringEquals,Deposit ,numberLessThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-149,400,0,TRUE
+AT-66934,Invalid Value for amt,-1,36,stringEquals,Din,numberGreaterThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-150,400,0,TRUE
+AT-66935,Invalid Value for amt,-1,37,stringEquals,Dining,numberLessThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-151,400,0,TRUE
+AT-66936,Invalid Value for amt,-1,38,stringEquals,Dining,numberGreaterThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-152,400,0,TRUE
+AT-66937,Invalid Value for amt,-1,39,stringEquals,Deposit ,sagfsaf,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-153,400,0,TRUE
+AT-66938,Invalid Value for amt,-1,40,stringEquals,trans,,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-154,400,0,TRUE
+AT-66939,Invalid Value for amt,-1,41,stringEquals==,Dining,numberEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-155,400,0,TRUE
+AT-66940,Invalid Value for amt,-1,42,stringEquals==,Deposit ,numberLessThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-156,400,0,TRUE
+AT-66941,Invalid Value for amt,1,1,stringContains,,numberEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66942,Invalid Value for amt,3,1,stringContains,,numberLessThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66943,Invalid Value for amt,20,1,stringContains,,numberGreaterThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66944,Invalid Value for amt,20,2,stringContains,,numberLessThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66945,Invalid Value for amt,15,3,stringContains,,numberGreaterThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66946,Invalid Value for amt,25,4,stringContains,,sagfsaf,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66947,Invalid Value for amt,7,5,stringContains,,,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66948,Invalid Value for amt,1,6,stringEquals,,numberEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66949,Invalid Value for amt,3,7,stringEquals,,numberLessThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66950,Invalid Value for amt,20,8,stringEquals,,numberGreaterThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66951,Invalid Value for amt,20,9,stringEquals,,numberLessThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66952,Invalid Value for amt,15,10,stringEquals,,numberGreaterThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66953,Invalid Value for amt,25,11,stringEquals,,sagfsaf,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66954,Invalid Value for amt,7,12,stringEquals,,,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66955,Invalid Value for amt,1,13,stringEquals==,,numberEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66956,Invalid Value for amt,3,14,stringEquals==,,numberLessThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66957,Invalid Value for amt,20,15,stringEquals==,,numberGreaterThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66958,Invalid Value for amt,20,16,stringEquals==,,numberLessThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66959,Invalid Value for amt,15,17,stringEquals==,,numberGreaterThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66960,Invalid Value for amt,25,18,stringEquals==,,sagfsaf,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66961,Invalid Value for amt,7,19,stringEquals==,,,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66962,Invalid Value for amt,1,20,,,numberEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66963,Invalid Value for amt,3,21,,,numberLessThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66964,Invalid Value for amt,20,22,,,numberGreaterThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66965,Invalid Value for amt,20,23,,,numberLessThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66966,Invalid Value for amt,15,24,,,numberGreaterThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66967,Invalid Value for amt,25,25,,,sagfsaf,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66968,Invalid Value for amt,7,26,,,,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-66969,Invalid Value for amt,-1,30,stringContains,,numberLessThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-200,400,0,TRUE
+AT-66970,Invalid Value for amt,-1,31,stringContains,,numberGreaterThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-201,400,0,TRUE
+AT-66971,Invalid Value for amt,-1,32,stringContains,,sagfsaf,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-202,400,0,TRUE
+AT-66972,Invalid Value for amt,-1,33,stringContains,,,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-203,400,0,TRUE
+AT-66973,Invalid Value for amt,-1,34,stringEquals,,numberEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-204,400,0,TRUE
+AT-66974,Invalid Value for amt,-1,35,stringEquals,,numberLessThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-205,400,0,TRUE
+AT-66975,Invalid Value for amt,-1,36,stringEquals,,numberGreaterThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-206,400,0,TRUE
+AT-66976,Invalid Value for amt,-1,37,stringEquals,,numberLessThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-207,400,0,TRUE
+AT-66977,Invalid Value for amt,-1,38,stringEquals,,numberGreaterThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-208,400,0,TRUE
+AT-66978,Invalid Value for amt,-1,39,stringEquals,,sagfsaf,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-209,400,0,TRUE
+AT-66979,Invalid Value for amt,-1,40,stringEquals,,,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-210,400,0,TRUE
+AT-66980,Invalid Value for amt,-1,41,stringEquals==,,numberEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-211,400,0,TRUE
+AT-66981,Invalid Value for amt,-1,42,stringEquals==,,numberLessThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-212,400,0,TRUE
+AT-66982,Invalid Value for amt,-1,43,stringEquals==,,numberGreaterThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-213,400,0,TRUE
+AT-66983,Invalid Value for amt,-1,44,stringEquals==,,numberLessThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-214,400,0,TRUE
+AT-66984,Invalid Value for amt,-1,45,stringEquals==,,numberGreaterThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-215,400,0,TRUE
+AT-66985,Invalid Value for amt,-1,46,stringEquals==,,sagfsaf,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-216,400,0,TRUE
+AT-66986,Invalid Value for amt,-1,47,stringEquals==,,,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-217,400,0,TRUE
+AT-66987,Invalid Value for amt,-1,48,,,numberEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-218,400,0,TRUE
+AT-66988,Invalid Value for amt,-1,49,,,numberLessThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-219,400,0,TRUE
+AT-66989,Invalid Value for amt,-1,50,,,numberGreaterThan,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-220,400,0,TRUE
+AT-66990,Invalid Value for amt,-1,51,,,numberLessThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-221,400,0,TRUE
+AT-66991,Invalid Value for amt,-1,52,,,numberGreaterThanEquals,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-222,400,0,TRUE
+AT-66992,Invalid Value for amt,-1,53,,,sagfsaf,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-223,400,0,TRUE
+AT-66993,Invalid Value for amt,-1,54,,,,1.00E+22,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-224,400,0,TRUE
+AT-66994,Valid test case,,1,stringContains,Dinner,numberEquals,543,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-225,400,0,TRUE
+AT-66995,Valid test case without priority,a,,stringContains,deposits,numberEquals,5343,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-226,400,0,TRUE
+AT-66996,Empty amount value,1,,stringContains,deposits,numberEquals,,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-227,400,0,TRUE
+AT-66997,Empty rule,3,2,,,,,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-228,400,0,TRUE
+AT-66998,Invalid priority,1,a#,stringContains,deposits,numberEquals,5343,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-229,400,0,TRUE
+AT-66999,InValid amount value,1,32,stringContains,consumer,numberEquals,ferV,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-230,400,0,TRUE
+AT-67000,Valid test case,1,2,stringContains,Dining,numberEquals,-23.8,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-231,400,0,TRUE
+AT-67001,Empty amtOp value,7,12,stringEquals,trans,,456,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,T-CTR-232,400,0,TRUE
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,

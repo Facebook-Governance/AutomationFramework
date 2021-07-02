@@ -1,0 +1,41 @@
+<entity type="multiple">
+	<request>
+		<post-consent-multiple>
+			<post-consent order="1">
+				<providerId>24016</providerId>
+				<applicationName></applicationName>
+				<providerAccountId></providerAccountId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>bank</container>
+							</attribute>
+							<attribute>
+								<name>TRANSACTIONS</name>
+								<container>bank</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</post-consent>
+		</post-consent-multiple>
+	</request>
+	
+	<response>	
+
+		<post-consent-multiple>
+			<response-post-consent order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/OpenBanking/
+					</filePath>
+					<responseFile>postConsentModelo.json</responseFile>
+				</row>
+			</response-post-consent>
+		</post-consent-multiple>
+		
+	</response>
+	
+</entity>

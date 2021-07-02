@@ -1,0 +1,32 @@
+{
+    "document": [
+        {
+            "docType": "TAX",
+            "id": "${json-unit.ignore}",
+            "accountID": "${json-unit.ignore}",
+            "name": "${json-unit.ignore}",
+            "source": "SYSTEM",
+            "lastUpdated": "${json-unit.ignore}",
+            "status": "DOC_DOWNLOADED",
+            "formType": "${json-unit.ignore}"
+        },{
+            "docType": "TAX",
+            "id": "${json-unit.ignore}",
+            "accountID": "${json-unit.ignore}",
+            "name": "${json-unit.ignore}",
+            "source": "SYSTEM",
+            "lastUpdated": "${json-unit.ignore}",
+            "status": "DOC_DOWNLOADED",
+            "formType": "${json-unit.ignore}"
+        },{
+            "docType": "TAX",
+            "id": "${json-unit.ignore}",
+            "accountID": "${json-unit.ignore}",
+            "name": "${json-unit.ignore}",
+            "source": "SYSTEM",
+            "lastUpdated": "${json-unit.ignore}",
+            "status": "DOC_DOWNLOADED",
+            "formType": "${json-unit.ignore}"
+        }
+    ]
+}

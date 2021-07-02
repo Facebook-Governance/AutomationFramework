@@ -1,0 +1,39 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "event": {
+      "$id": "/properties/event",
+      "type": "array",
+      "items": {
+        "$id": "/properties/event/items",
+        "type": "object",
+        "properties": {
+          "callbackUrl": {
+            "$id": "/properties/event/items/properties/callbackUrl",
+            "type": "string",
+            "title": "The Callbackurl Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "http://yslrocks.com/notify"
+            ]
+          },
+          "name": {
+            "$id": "/properties/event/items/properties/name",
+            "type": "string",
+            "format": "eventName",
+            "title": "The Name Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "REFRESH"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

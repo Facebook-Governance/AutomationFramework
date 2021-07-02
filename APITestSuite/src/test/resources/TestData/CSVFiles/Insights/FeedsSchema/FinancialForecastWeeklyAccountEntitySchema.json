@@ -1,0 +1,957 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "insightName": {
+      "type": "string"
+    },
+    "insightTitle": {
+      "type": "string"
+    },
+    "insightType": {
+      "type": "string"
+    },
+    "triggerType": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "string"
+    },
+    "subscription": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "entityType": {
+              "type": "string"
+            },
+            "frequency": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "entityType",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    "dateRange": {
+      "type": "object",
+      "properties": {
+        "fromDate": {
+          "type": "string"
+        },
+        "toDate": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "fromDate",
+        "toDate"
+      ]
+    },
+    "accountDerived": {
+      "type": "object",
+      "properties": {
+        "totalAvailableBalance": {
+          "type": "object",
+          "properties": {
+            "amount": {
+              "type": "number"
+            },
+            "currency": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "amount",
+            "currency"
+          ]
+        }
+      },
+      "required": [
+        "totalAvailableBalance"
+      ]
+    },
+    "predictedInfo": {
+      "type": "object",
+      "properties": {
+        "predictedBalance": {
+          "type": "object",
+          "properties": {
+            "amount": {
+              "type": "number"
+            },
+            "currency": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "amount",
+            "currency"
+          ]
+        },
+        "predictedIncome": {
+          "type": "object",
+          "properties": {
+            "amount": {
+              "type": "number"
+            },
+            "currency": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "amount",
+            "currency"
+          ]
+        },
+        "predictedExpense": {
+          "type": "object",
+          "properties": {
+            "amount": {
+              "type": "number"
+            },
+            "currency": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "amount",
+            "currency"
+          ]
+        }
+      },
+      "required": [
+        "predictedBalance",
+        "predictedIncome",
+        "predictedExpense"
+      ]
+    },
+    "cardAccount": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "isAsset": {
+              "type": "boolean"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            },
+            "lastUpdated": {
+              "type": "string"
+            },
+            "predictedInfo": {
+              "type": "object",
+              "properties": {
+                "predictedBalance": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "predictedIncome": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "predictedExpense": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                }
+              },
+              "required": [
+                "predictedBalance",
+                "predictedIncome",
+                "predictedExpense"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "isAsset",
+            "container",
+            "link",
+            "lastUpdated",
+            "predictedInfo"
+          ]
+        }
+      ]
+    },
+    "bankAccount": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "isAsset": {
+              "type": "boolean"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            },
+            "availableBalance": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "currentBalance": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "balance": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "lastUpdated": {
+              "type": "string"
+            },
+            "predictedInfo": {
+              "type": "object",
+              "properties": {
+                "date": {
+                  "type": "string"
+                },
+                "predictedBalance": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "predictedIncome": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "predictedExpense": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                }
+              },
+              "required": [
+                "date",
+                "predictedBalance",
+                "predictedIncome",
+                "predictedExpense"
+              ]
+            },
+            "basicTransaction": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "amount": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "date": {
+                      "type": "string"
+                    },
+                    "link": {
+                      "type": "object",
+                      "properties": {
+                        "entityName": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "entityName",
+                        "url"
+                      ]
+                    },
+                    "categoryId": {
+                      "type": "integer"
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "categoryType": {
+                      "type": "string"
+                    },
+                    "baseType": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "object",
+                      "properties": {
+                        "simple": {
+                          "type": "string"
+                        },
+                        "consumer": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "simple",
+                        "consumer"
+                      ]
+                    },
+                    "sourceType": {
+                      "type": "string"
+                    },
+                    "merchantType": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "amount",
+                    "date",
+                    "link",
+                    "categoryId",
+                    "category",
+                    "categoryType",
+                    "baseType",
+                    "description",
+                    "sourceType",
+                    "merchantType"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "amount": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "date": {
+                      "type": "string"
+                    },
+                    "link": {
+                      "type": "object",
+                      "properties": {
+                        "entityName": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "entityName",
+                        "url"
+                      ]
+                    },
+                    "categoryId": {
+                      "type": "integer"
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "categoryType": {
+                      "type": "string"
+                    },
+                    "baseType": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "object",
+                      "properties": {
+                        "simple": {
+                          "type": "string"
+                        },
+                        "consumer": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "simple",
+                        "consumer"
+                      ]
+                    },
+                    "sourceType": {
+                      "type": "string"
+                    },
+                    "merchantType": {
+                      "type": "string"
+                    },
+                    "basicMerchant": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "amount",
+                    "date",
+                    "link",
+                    "categoryId",
+                    "category",
+                    "categoryType",
+                    "baseType",
+                    "description",
+                    "sourceType",
+                    "merchantType"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "isAsset",
+            "container",
+            "link",
+            "availableBalance",
+            "currentBalance",
+            "balance",
+            "lastUpdated",
+            "predictedInfo",
+            "basicTransaction"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "isAsset": {
+              "type": "boolean"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            },
+            "availableBalance": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "currentBalance": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "balance": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "lastUpdated": {
+              "type": "string"
+            },
+            "predictedInfo": {
+              "type": "object",
+              "properties": {
+                "date": {
+                  "type": "string"
+                },
+                "predictedBalance": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "predictedIncome": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                },
+                "predictedExpense": {
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "type": "number"
+                    },
+                    "currency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amount",
+                    "currency"
+                  ]
+                }
+              },
+              "required": [
+                "date",
+                "predictedBalance",
+                "predictedIncome",
+                "predictedExpense"
+              ]
+            },
+            "basicTransaction": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "amount": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "date": {
+                      "type": "string"
+                    },
+                    "link": {
+                      "type": "object",
+                      "properties": {
+                        "entityName": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "entityName",
+                        "url"
+                      ]
+                    },
+                    "categoryId": {
+                      "type": "integer"
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "categoryType": {
+                      "type": "string"
+                    },
+                    "baseType": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "object",
+                      "properties": {
+                        "simple": {
+                          "type": "string"
+                        },
+                        "consumer": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "simple",
+                        "consumer"
+                      ]
+                    },
+                    "sourceType": {
+                      "type": "string"
+                    },
+                    "merchantType": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "amount",
+                    "date",
+                    "link",
+                    "categoryId",
+                    "category",
+                    "categoryType",
+                    "baseType",
+                    "description",
+                    "sourceType",
+                    "merchantType"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "amount": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "date": {
+                      "type": "string"
+                    },
+                    "link": {
+                      "type": "object",
+                      "properties": {
+                        "entityName": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "entityName",
+                        "url"
+                      ]
+                    },
+                    "categoryId": {
+                      "type": "integer"
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "categoryType": {
+                      "type": "string"
+                    },
+                    "baseType": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "object",
+                      "properties": {
+                        "simple": {
+                          "type": "string"
+                        },
+                        "consumer": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "simple",
+                        "consumer"
+                      ]
+                    },
+                    "sourceType": {
+                      "type": "string"
+                    },
+                    "merchantType": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "amount",
+                    "date",
+                    "link",
+                    "categoryId",
+                    "category",
+                    "categoryType",
+                    "baseType",
+                    "description",
+                    "sourceType",
+                    "merchantType"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "isAsset",
+            "container",
+            "link",
+            "availableBalance",
+            "currentBalance",
+            "balance",
+            "lastUpdated",
+            "predictedInfo",
+            "basicTransaction"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "insightName",
+    "insightTitle",
+    "insightType",
+    "triggerType",
+    "createdDate",
+    "subscription",
+    "dateRange",
+    "accountDerived",
+    "predictedInfo",
+    "cardAccount",
+    "bankAccount"
+  ]
+}

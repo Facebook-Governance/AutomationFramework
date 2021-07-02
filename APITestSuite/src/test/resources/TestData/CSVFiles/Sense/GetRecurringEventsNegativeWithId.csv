@@ -1,0 +1,10 @@
+testCase,httpStatusCode,resFile,resFilePath,Enabled,accountId,recurringEventStatus,sourceType,userAprovalStatus,recurringEventId
+GetRecurringEvents-InvalidAccountId,400,InvalidValueForAccountId.json,../src/test/resources/TestData/ErrorMessage/,TRUE,123,,,,VALID
+GetRecurringEvents-InvalidRecurringEventStatus,400,InvalidValueForRecurringEventStatus.json,../src/test/resources/TestData/ErrorMessage/,TRUE,,ABC,,,VALID
+GetRecurringEvents-InvalidSourceType,400,InvalidValueForSourceType.json,../src/test/resources/TestData/ErrorMessage/,TRUE,,,XYZ,,VALID
+GetRecurringEvents-InvaliduserApprovalStatus,400,InvalidValueForUserApproval.json,../src/test/resources/TestData/ErrorMessage/,TRUE,,,,DEF,VALID
+GetRecurringEvents-AccountIdOfOtherUser,400,InvalidValueForAccountId.json,../src/test/resources/TestData/ErrorMessage/,TRUE,OTHER_USER,,,,VALID
+GetRecurringEvents-AlphabetsForAccountId,400,InvalidValueForAccountId.json,../src/test/resources/TestData/ErrorMessage/,TRUE,ABC,,,,VALID
+GetRecurringEvents-RecurringEventIdOfOtherUser,400,Resourcenotfound.json,../src/test/resources/TestData/ErrorMessage/,TRUE,,,,,OTHER_USER
+GetRecurringEvents-AlphabetsForRecurringEventId,400,InvalidInput.json,../src/test/resources/TestData/ErrorMessage/,TRUE,,,,,STRING
+GetRecurringEvents-InvalidValueForRecurringEventId,400,Resourcenotfound.json,../src/test/resources/TestData/ErrorMessage/,TRUE,,,,,123

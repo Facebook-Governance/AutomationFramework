@@ -1,0 +1,5 @@
+{
+    "errorCode": "Y815",
+    "errorMessage": "Cannot apply filter on categoryId if groupBy value is CATEGORY_TYPE",
+    "referenceCode": "${json-unit.ignore}"
+}

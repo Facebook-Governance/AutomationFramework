@@ -1,0 +1,23 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-148845,patchCobrand - subscribe to ProjectedLowBalance isSubscribed=true,ProjectedLowBalance,,,,,,,,,,1,,account,2,,,TRUE,,,"FUTURE,7,DAYS  MINIMUM,100,AMOUNT",204,TRUE
+AT-148846,patchCobrand - update insightName to same name,ProjectedLowBalance,negTestScenario1,ProjectedLowBalance,,,,,,,,,,,,,,,,,,500,TRUE
+AT-148847,patchCobrand -  update insightName to different name,ProjectedLowBalance,negTestScenario2,ProjectedLowBalanceEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148848,patchCobrand - update insightTitle chars between 3 and 100 ,ProjectedLowBalance,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-148849,patchCobrand -  update insightTitle chars are only 3,ProjectedLowBalance,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-148850,patchCobrand - update insightTitle chars are only 100,ProjectedLowBalance,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-148851,patchCobrand - update insightTitle chars are less than 3,ProjectedLowBalance,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-148852,patchCobrand -  update insightTitle chars are greater 100,ProjectedLowBalance,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-148853,patchCobrand - update insightTitle chars are special characters,ProjectedLowBalance,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-148854,patchCobrand - update insightTitle chars are special characters,ProjectedLowBalance,,,Projected Low Balance,,,,,,,,,,,,,,,,,204,TRUE
+AT-148855,patchCobrand -  update container,ProjectedLowBalance,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-148856,patchCobrand -  update keys,ProjectedLowBalance,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-148857,patchCobrand -  update description,ProjectedLowBalance,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-148858,patchCobrand -  update applicableEntity,ProjectedLowBalance,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-148859,patchCobrand - update entityParameter->account[0]->isSubscribed=false,ProjectedLowBalance,,,,,,,,,,1,,account,2,,,FALSE,,,"FUTURE,7,DAYS  MINIMUM,100,AMOUNT",204,TRUE
+AT-148860,patchCobrand - update entityParameter->account[0]->insightType,ProjectedLowBalance,negTestScenario24,,,,,,,,,1,,account,2,,,TRUE,,OTHER,"FUTURE,7,DAYS  MINIMUM,100,AMOUNT",400,TRUE
+AT-148861,patchCobrand - update entityParameter->account[0]->insightType - Invalid Name,ProjectedLowBalance,negTestScenario24,,,,,,,,,1,,account,2,,,TRUE,,INVALID,"FUTURE,7,DAYS  MINIMUM,100,AMOUNT",400,TRUE
+AT-148862,patchCobrand - update entityParameter->account[0]->threshold[0]->name,ProjectedLowBalance,negTestScenario35,,,,,,,,,1,,account,2,,,FALSE,,,"BALANCE,7,DAYS  MINIMUM,100,AMOUNT",400,TRUE
+AT-148863,patchCobrand - update entityParameter->account[0]->threshold[0]->value,ProjectedLowBalance,,,,,,,,,,1,,account,2,,,TRUE,,,"FUTURE,10,DAYS  MINIMUM,100,AMOUNT",204,TRUE
+AT-148864,patchCobrand -  update entityParameter->account[0]->threshold[0]->type,ProjectedLowBalance,negTestScenario14,,,,,,,,,1,,account,2,,,TRUE,,,"FUTURE,10,AMOUNT  MINIMUM,100,AMOUNT",400,TRUE
+AT-148865,patchCobrand -  update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,ProjectedLowBalance,negTestScenario14,,,,,,,,,1,,account,2,,,TRUE,,,"FUTURE,200,AMOUNT MINIMUM,100,AMOUNT",400,TRUE
+AT-148866,patchCobrand - update entityParameter->account[0]->threshold[0]->value-revert,ProjectedLowBalance,,,,,,,,,,1,,account,2,,,TRUE,,,"FUTURE,7,DAYS  MINIMUM,100,AMOUNT",204,TRUE

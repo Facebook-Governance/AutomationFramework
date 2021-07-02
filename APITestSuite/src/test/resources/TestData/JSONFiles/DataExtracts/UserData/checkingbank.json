@@ -1,0 +1,46 @@
+{
+  "userData": [
+    {
+      "user": {
+        "loginName": "YSLDE1501174949442"
+      },
+      "account": [
+        {
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": " "
+              }
+            }
+          ],
+          "accountName": " ",
+          "isManual": true,
+          "currentBalance": {
+            "amount": 84699,
+            "currency": "USD"
+          },
+          "accountType": "CHECKING",
+          "memo": "this is bank account",
+          "accountNumber": " ",
+          "url": "https://www.icici.com/",
+          "accountStatus": "DELETED",
+          "lastUpdated": "${json-unit.ignore}",
+          "isAsset": true,
+          "createdDate": "${json-unit.ignore}",
+          "isDeleted": true,
+          "balance": {
+            "amount": 84699,
+            "currency": "USD"
+          },
+          "providerId": "7634",
+          "providerAccountId": "${json-unit.ignore}",
+          "CONTAINER": "bank",
+          "nickname": "Flood Cash",
+          "id": "${json-unit.ignore}",
+          "providerName": "Custom Bank"
+        }
+      ]
+    }
+  ]
+}

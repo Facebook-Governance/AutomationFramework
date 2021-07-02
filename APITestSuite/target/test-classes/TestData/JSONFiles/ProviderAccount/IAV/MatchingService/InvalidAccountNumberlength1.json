@@ -1,0 +1,5 @@
+{
+    "errorCode": "${json-unit.any-string}",
+    "errorMessage": "Invalid length for accountNumber",
+    "referenceCode": "${json-unit.any-string}"
+}

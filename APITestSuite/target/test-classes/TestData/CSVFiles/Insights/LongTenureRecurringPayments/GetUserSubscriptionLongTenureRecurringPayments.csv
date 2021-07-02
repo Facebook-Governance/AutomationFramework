@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-147386,"getUserSubscription - Validate LongTenureRecurringPayments , Validate InsightName",,LongTenureRecurringPayments,LongTenureRecurringPayments,,,,,,,,,,,,,200,TRUE
+AT-147395,"getUserSubscription - Validate LongTenureRecurringPayments , Validate Supporting container",,LongTenureRecurringPayments,,,"BANK,CARD",,,,,,,,,,,200,TRUE
+AT-147393,"getUserSubscription - Validate LongTenureRecurringPayments , Validate TriggerType",SCHEDULE,LongTenureRecurringPayments,,,,,,,,,,,,,,200,TRUE
+AT-147390,"getUserSubscription - Validate LongTenureRecurringPayments , Validate applicableEntity",,LongTenureRecurringPayments,,,,,,,ACCOUNT,account,,,,,,200,TRUE
+AT-147385,"getUserSubscription - Validate LongTenureRecurringPayments , Validate number of levels and levelObject",,LongTenureRecurringPayments,,,,,,,ACCOUNT,account,,,,,,200,TRUE
+AT-147394,"getUserSubscription - Validate LongTenureRecurringPayments , Validate isSubscribed=false",,LongTenureRecurringPayments,,,,,,,,,FALSE,,,,,200,TRUE
+AT-147388,"getUserSubscription - Validate LongTenureRecurringPayments , Validate threshold Name,Value and Type",,LongTenureRecurringPayments,,,,,,,ACCOUNT,account,,MONTHLY,"TOP,5,NUMBER",,,200,TRUE
+AT-147389,"getUserSubscription - Validate LongTenureRecurringPayments , Validate insightKeys",,LongTenureRecurringPayments,,,,Account,,,,,,,,,,200,TRUE
+AT-147384,"getUserSubscription - Validate LongTenureRecurringPayments , Validate description",,LongTenureRecurringPayments,,,,,,Inform the user about long-running recurring payments.,,,,,,,,200,TRUE
+AT-147396,"getUserSubscription - Validate LongTenureRecurringPayments , Validate title",,LongTenureRecurringPayments,,Long Tenure Recurring Payments,,,,,,,,,,,,200,TRUE
+AT-147391,"getUserSubscription - Validate LongTenureRecurringPayments , Validate ruleExpression",,LongTenureRecurringPayments,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-147392,"getUserSubscription - Validate LongTenureRecurringPayments , Validate total number of keys",,LongTenureRecurringPayments,,,,,8,,,,,,,,,200,TRUE

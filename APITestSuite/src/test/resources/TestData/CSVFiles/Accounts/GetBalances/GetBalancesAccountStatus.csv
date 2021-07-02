@@ -1,0 +1,35 @@
+tcid,tcName,httpStatusCode,restfile,filepath,accountId,includeCF,fromDate,toDate,interval,skip,top,accountStatus,enabled
+1,with no filter,200,nofilter.json,../src/test/resources/TestData/historicalBalance/,,,"0,0,-1","0,0,0",,,,,TRUE
+2,with valid account id,200,validaccID.json,../src/test/resources/TestData/historicalBalance/,BANK,,"0,0,1",,,,,,TRUE
+3,with invalid account id,400,nullRespons.json,../src/test/resources/TestData/historicalBalance/,INVALID,,"0,0,1","0,0,0",,,,,TRUE
+4,with CF true,200,Cftrue.json,../src/test/resources/TestData/historicalBalance/,,TRUE,"0,0,1","0,3,0",,,,,TRUE
+5,with CF FALSE,200,Cffalse.json,../src/test/resources/TestData/historicalBalance/,,FALSE,"0,0,1",,,,,,TRUE
+6,with valid account id and CF TRUE,200,AccID&Cftrue.json,../src/test/resources/TestData/historicalBalance/,BANK,TRUE,"0,0,1","0,3,0",,,,,TRUE
+7,with valid account id and CF FALSE,200,AccID&CFfalse.json,../src/test/resources/TestData/historicalBalance/,CARD,FALSE,"0,0,1",,,,,,TRUE
+8,with invalid value for CF,400,InvalidCF.json,../src/test/resources/TestData/historicalBalance/,,trues,"0,0,1",,,,,,TRUE
+9,with valid from date,200,validfromDate.json,../src/test/resources/TestData/historicalBalance/,,,"0,0,1",,,,,,TRUE
+10,with valid  to date,200,validtoDate.json,../src/test/resources/TestData/historicalBalance/,,,"0,0,1","0,3,0",,,,,TRUE
+11,with valid from and to date,200,validfrom&todate.json,../src/test/resources/TestData/historicalBalance/,,,"0,0,1","0,3,0",,,,,TRUE
+12,with invalid from date,400,invalidFromDate.json,../src/test/resources/TestData/historicalBalance/,,,"0,0,1",,,,,,TRUE
+13,with invalid todate,400,invalidTodate.json,../src/test/resources/TestData/historicalBalance/,,,"0,0,1","0,3,0",,,,,TRUE
+14,with invalid date range,400,invalidDateRange,../src/test/resources/TestData/historicalBalance/,,,"0,0,1","0,3,0",,,,,TRUE
+15,date with other filters,200,allFilter1.json,../src/test/resources/TestData/historicalBalance/,BANK,FALSE,"0,0,1","0,3,0",,,,,TRUE
+16,With D as interval,200,dailyDatapoint.json,../src/test/resources/TestData/historicalBalance/,,,"0,0,1",,d,,,,TRUE
+17,with D as interval and other filters,200,dailyDatapointwithallFilter.json,../src/test/resources/TestData/historicalBalance/,CARD,TRUE,"0,0,1","0,3,0",D,,,,TRUE
+18,With M as interval,200,monthlyDatapoint.json,../src/test/resources/TestData/historicalBalance/,,,"0,0,1",,M,,,,TRUE
+19,with m as interval and other filters,200,monthlyDatapointwithallFilter.json,../src/test/resources/TestData/historicalBalance/,BANK,TRUE,"0,0,1","0,3,0",m,,,,TRUE
+20,With w as interval,200,weeklyDatapoint.json,../src/test/resources/TestData/historicalBalance/,,,"0,0,1",,w,,,,TRUE
+21,with w as interval and other filters,200,weeklyDatapointall.json,../src/test/resources/TestData/historicalBalance/,CARD,TRUE,"0,0,1","0,3,0",W,,,,TRUE
+22,with invalid value for interval,400,invalidInterval.json,../src/test/resources/TestData/historicalBalance/,,,"0,0,1",,g,,,,TRUE
+23,with skip filter,200,skipAlone.json,../src/test/resources/TestData/historicalBalance/,,,"0,0,1",,,1,,,TRUE
+24,with top filter,200,topAlone.json,../src/test/resources/TestData/historicalBalance/,,,"0,0,1",,,,1,,TRUE
+25,with skip and top filter,200,skip&top.json,../src/test/resources/TestData/historicalBalance/,,,"0,0,1",,,1,1,,TRUE
+26,with all filters,200,allFilter.json,../src/test/resources/TestData/historicalBalance/,CARD,TRUE,"0,0,1","0,3,0",D,1,1,,TRUE
+27,Invalid value for skip,400,inavlidSkip.json,../src/test/resources/TestData/historicalBalance/,,,,,,-1,,,TRUE
+28,invalid top,400,inavlidTOP.json,../src/test/resources/TestData/historicalBalance/,,,,,,,-1,,TRUE
+29,Invalid value for skip,200,inavlidSkip0.json,../src/test/resources/TestData/historicalBalance/,,,,,,0,,,TRUE
+30,invalid top,400,inavlidTOP0.json,../src/test/resources/TestData/historicalBalance/,,,,,,,0,,TRUE
+31,with top=500,200,top500.json,../src/test/resources/TestData/historicalBalance/,,,,,,,500,,TRUE
+32,with top=501,400,top501.json,../src/test/resources/TestData/historicalBalance/,,,,,,,501,,TRUE
+33,with inactive account id,200,inactiveAccID.json,../src/test/resources/TestData/historicalBalance/,BANK,,"0,0,1",,,,,,TRUE
+34,with closed account id,200,closedAccID.json,../src/test/resources/TestData/historicalBalance/,CARD,,"0,0,2",,,,,,TRUE

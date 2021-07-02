@@ -1,0 +1,4 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,transactionId,container,enabled
+1,Invalid transaction id,400,InvalidValueForTransactionId.json,../src/test/resources/TestData/ErrorMessage/,INVALID,INVALID,TRUE
+2,Transaction id of other user,400,Resourcenotfound.json,../src/test/resources/TestData/ErrorMessage/,OTHER_USER,OTHER_USER,TRUE
+2,Null for transaction id,400,InvalidValueForTransactionId.json,../src/test/resources/TestData/ErrorMessage/,NULL,NULL,TRUE

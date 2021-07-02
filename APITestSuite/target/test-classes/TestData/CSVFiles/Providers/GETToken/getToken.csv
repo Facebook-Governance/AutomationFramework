@@ -1,0 +1,2 @@
+testCaseId,testCaseName,Status,FileName,filePath,DefectID,enabled
+AT-57964,Get the token,200,getTokenResponse.json,../src/test/resources/TestData/providers/getToken/,0,TRUE

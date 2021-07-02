@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-143194,"Validate CreditLimitWarning , Validate InsightName",,CreditLimitWarning,CreditLimitWarning,,,,,,,,,,,200,TRUE
+AT-143195,"Validate CreditLimitWarning , Validate Supporting container",,CreditLimitWarning,,,CARD,,,,,,,,,200,TRUE
+AT-143196,"Validate CreditLimitWarning , Validate TriggerType",REFRESH,CreditLimitWarning,,,,,,,,,,,,200,TRUE
+AT-143197,"Validate CreditLimitWarning , Validate applicableEntity",,CreditLimitWarning,,,,,,"ACCOUNT,BOARD",,,,,,200,TRUE
+AT-143198,"Validate CreditLimitWarning , Validate number of levels and levelObject",,CreditLimitWarning,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-143199,"Validate CreditLimitWarning , Validate isSubscribed=false",,CreditLimitWarning,,,,,,,account,FALSE,,,,200,TRUE
+AT-143200,"Validate CreditLimitWarning , Validate threshold Name,Value and Type",,CreditLimitWarning,,,,,,,account,,,"LIMIT,90,PERCENT",,200,TRUE
+AT-143201,"Validate CreditLimitWarning , Validate insightKeys",,CreditLimitWarning,,,,Account,,,,,,,,200,TRUE
+AT-143202,"Validate CreditLimitWarning , Validate description",,CreditLimitWarning,,,,,Generates an insight when the balance on a single credit card is more than a configured threshold.,,,,,,,200,TRUE
+AT-143203,"Validate CreditLimitWarning , Validate title",,CreditLimitWarning,,Credit Utilization Warning (single card),,,,,,,,,,200,TRUE
+AT-143204,"Validate CreditLimitWarning , Validate total number of keys",,CreditLimitWarning,,,,,,,,,,,,200,TRUE
+AT-143205,"Validate CreditLimitWarning , Validate if ruleExpression present",,CreditLimitWarning,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE

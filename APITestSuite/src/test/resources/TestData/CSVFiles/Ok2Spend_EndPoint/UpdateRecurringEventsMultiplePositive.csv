@@ -1,0 +1,2 @@
+testCaseId,TestCase,amount,currency,consumer,baseType,category,categorySource,startDate,memo,accountId,checkNumber,frequency,endDate,transactionType,recurringEventStatus,userApprovalStatus,httpStatus,Enabled,TestInputFile,sourceType
+AT-33681,Manual,100,INR,Description,DEBIT,92,SYSTEM,"0,0,1",memo,BANK,1234,WEEKLY,"0,0,10",,ACTIVE,APPROVED,200,TRUE,PredictedMultipleEventUpdate,MANUAL

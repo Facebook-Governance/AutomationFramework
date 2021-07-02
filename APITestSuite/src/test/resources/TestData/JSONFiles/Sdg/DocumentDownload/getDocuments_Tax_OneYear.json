@@ -1,0 +1,34 @@
+{
+    "document": [
+        {
+            "docType": "TAX",
+            "id": "${json-unit.ignore}",
+            "accountID": "${json-unit.ignore}",
+            "name": "LM12341.pdf",
+            "source": "SYSTEM",
+            "lastUpdated": "${json-unit.ignore}",
+            "status": "DOC_DOWNLOADED",
+            "formType": "${json-unit.ignore}"
+        },
+         {
+            "docType": "TAX",
+            "id": "${json-unit.ignore}",
+            "accountID": "${json-unit.ignore}",
+            "name": "LM12342.pdf",
+            "source": "SYSTEM",
+            "lastUpdated": "${json-unit.ignore}",
+            "status": "DOC_DOWNLOADED",
+            "formType": "${json-unit.ignore}"
+        },
+         {
+            "docType": "TAX",
+            "id": "${json-unit.ignore}",
+            "accountID": "${json-unit.ignore}",
+            "name": "BL12345.pdf",
+            "source": "SYSTEM",
+            "lastUpdated": "${json-unit.ignore}",
+            "status": "DOC_DOWNLOADED",
+            "formType": "${json-unit.ignore}"
+        }
+    ]
+}

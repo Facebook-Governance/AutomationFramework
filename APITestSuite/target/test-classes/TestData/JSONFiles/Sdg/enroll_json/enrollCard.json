@@ -1,0 +1,69 @@
+{
+  "account": [
+    {
+      "CONTAINER": "creditCard",
+      "providerAccountId": "${json-unit.ignore}",
+      "accountName": "Super CD Plus",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "isAsset": false,
+      "balance": {
+        "amount": 11756.88,
+        "currency": "USD"
+      },
+      "id": "${json-unit.ignore}",
+      "lastUpdated": "${json-unit.ignore}",
+      "isEbillEnrolled": true,
+      "includeInNetWorth": true,
+      "providerId": "16441",
+      "providerName": "Dag Site",
+      "isManual": false,
+      "amountDue": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "apr": 15.25,
+      "availableCredit": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "dueDate": "${json-unit.ignore}",
+      "lastPaymentDate": "${json-unit.ignore}",
+      "lastPaymentAmount": {
+        "amount": 5000.67,
+        "currency": "USD"
+      },
+      "minimumAmountDue": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "accountType": "CREDIT",
+      "classification": "PERSONAL",
+      "runningBalance": {
+        "amount": 11756.88,
+        "currency": "USD"
+      },
+      "totalCashLimit": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "totalCreditLine": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "displayedName": "Bill Gates",
+      "createdDate": "${json-unit.ignore}",
+      "userClassification": "PERSONAL",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ]
+    }
+  ]
+}

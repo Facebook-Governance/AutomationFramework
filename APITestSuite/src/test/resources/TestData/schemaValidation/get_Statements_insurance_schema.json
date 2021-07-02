@@ -1,0 +1,174 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "statement": {
+      "$id": "/properties/statement",
+      "type": "array",
+      "items": {
+        "$id": "/properties/statement/items",
+        "type": "object",
+        "properties": {
+          "id": {
+            "$id": "/properties/statement/items/properties/id",
+            "type": "number",
+            "minimum": -9223372036854775807,
+            "maximum": 9223372036854775807, 
+            "title": "The Id Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              1718511
+            ]
+          },
+          "accountId": {
+            "$id": "/properties/statement/items/properties/accountId",
+            "type": "number",
+            "minimum": -9223372036854775807,
+            "maximum": 9223372036854775807,
+            "title": "The Accountid Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              2851449
+            ]
+          },
+          "statementDate": {
+            "$id": "/properties/statement/items/properties/statementDate",
+            "type": "string",
+            "format": "date",
+            "title": "The Statementdate Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-01-25"
+            ]
+          },
+          "billingPeriodStart": {
+            "$id": "/properties/statement/items/properties/billingPeriodStart",
+            "type": "string",
+            "format": "date",
+            "title": "The Billingperiodstart Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-01-25"
+            ]
+          },
+          "billingPeriodEnd": {
+            "$id": "/properties/statement/items/properties/billingPeriodEnd",
+            "type": "string",
+            "format": "date",
+            "title": "The Billingperiodend Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-01-25"
+            ]
+          },
+          "dueDate": {
+            "$id": "/properties/statement/items/properties/dueDate",
+            "type": "string",
+            "format": "date",
+            "title": "The Duedate Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-01-28"
+            ]
+          },
+          "lastPaymentDate": {
+            "$id": "/properties/statement/items/properties/lastPaymentDate",
+            "type": "string",
+            "format": "date",
+            "title": "The Lastpaymentdate Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-01-10"
+            ]
+          },
+          "lastUpdated": {
+            "$id": "/properties/statement/items/properties/lastUpdated",
+            "type": "string",
+            "format": "datetime",
+            "title": "The Lastupdated Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-11-22T08:13:19Z"
+            ]
+          },
+          "amountDue": {
+            "$id": "/properties/statement/items/properties/amountDue",
+            "type": "object",
+            "properties": {
+              "amount": {
+                "$id": "/properties/statement/items/properties/amountDue/properties/amount",
+                "type": "number",
+                 "multipleOf": 0.01,
+                "title": "The Amount Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  12353.123046875
+                ]
+              },
+              "currency": {
+                "$id": "/properties/statement/items/properties/amountDue/properties/currency",
+                "type": "string",
+                "format": "money",
+                "title": "The Currency Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "USD"
+                ]
+              }
+            }
+          },
+          "lastPaymentAmount": {
+            "$id": "/properties/statement/items/properties/lastPaymentAmount",
+            "type": "object",
+            "properties": {
+              "amount": {
+                "$id": "/properties/statement/items/properties/lastPaymentAmount/properties/amount",
+               "type": "number",
+                 "multipleOf": 0.01,
+                "title": "The Amount Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  3000
+                ]
+              },
+              "currency": {
+                "$id": "/properties/statement/items/properties/lastPaymentAmount/properties/currency",
+                "type": "string",
+                "format": "money",
+                "title": "The Currency Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "USD"
+                ]
+              }
+            }
+          },
+          "isLatest": {
+            "$id": "/properties/statement/items/properties/isLatest",
+            "type": "boolean",
+            "title": "The Islatest Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [
+              true
+            ]
+          }
+        }
+      }
+    }
+  }
+}

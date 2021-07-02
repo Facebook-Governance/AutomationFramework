@@ -1,0 +1,8 @@
+testCaseId,testCaseName,httpStatusCode,acountId,preferenceType,otherAmount,payerAccountId,enabled
+1,Statement balance,204,creditCard,STMT_BALANCE,,bank,TRUE
+2,Minimum amount,204,creditCard,MIN_AMT_DUE,,bank,TRUE
+3,Current balance,204,creditCard,CURRENT_BALANCE,,bank,TRUE
+4,Other,204,creditCard,OTHER,100,bank,TRUE
+5,Statement balanceWithAmount,204,creditCard,STMT_BALANCE,10,bank,TRUE
+6,MinimumDueWithAmount,204,creditCard,MIN_AMT_DUE,10,bank,TRUE
+7,Current balanceWithAmount,204,creditCard,CURRENT_BALANCE,10,bank,TRUE

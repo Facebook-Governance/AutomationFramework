@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll" parallel="methods" thread-count="1"
+	preserve-order="true">
+	<parameter name="hybrid" value="false" />
+	<parameter name="release_name" value="Version2" />
+	<parameter name="isFirstRun" value="false" />
+	<parameter name="isStaticComparable" value="false" />
+	<parameter name="isDiffyEnabled" value="false" />
+	<parameter name="getApiVersion" value="2" />
+	<parameter name="isUserStatic" value="false" />
+	<parameter name="updateApiVersion" value="2" />
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="config_file"
+		value="Config_Docker_Insights_V2.properties" />
+	<parameter name="suiteName"
+		value="Insights SCHEDULE Feeds Suite2" />
+	<parameter name="environment" value="Docker" />
+	<listeners>
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+	</listeners>
+	<test name="High Bills And Subscription Cost Based on Peers">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost">
+			</class>
+		</classes>
+	</test>
+	<test name="Long Tenure Recurring Payments">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments">
+			</class>
+		</classes>
+	</test>
+	<test name="Networth Summary">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary">
+			</class>
+		</classes>
+	</test>
+	<test name="Cash Flow Summary">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary">
+			</class>
+		</classes>
+	</test>
+	<test name="Suggested Saving Opportunity">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity">
+			</class>
+		</classes>
+	</test>
+	<test name="Income Threshold">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeThreshold">
+			</class>
+		</classes>
+	</test>
+	<test name="Loan Maturity Notice">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLoanMaturityNotice">
+			</class>
+		</classes>
+	</test>
+	<test name="Investment Maturity Notice">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForInvestmentMaturityNotice">
+			</class>
+		</classes>
+	</test>
+	<test name="Zero Card Interest Paid">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForZeroCardInterestPaid">
+			</class>
+		</classes>
+	</test>
+	<test name="GET Feeds - Change in Assets">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForChangeInAssets">
+			</class>
+		</classes>
+	</test>
+	<test name="GET Feeds - Change in Liabilities">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForChangeInLiabilities">
+			</class>
+		</classes>
+	</test>
+	<test name="GET Feeds - Change in Networth">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForChangeInNetworth">
+			</class>
+		</classes>
+	</test>
+	<test
+		name="GET Feeds - Savings increased compared 
+		to historical average">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSavingsIncreasedComparedToYourAverage">
+			</class>
+		</classes>
+	</test>
+	<test
+		name="GET Feeds - Your spending last month compared to your historical average">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage">
+			</class>
+		</classes>
+	</test> 
+	<test
+		name="GET Feeds - Missed Bills">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForMissedBills">
+			</class>
+		</classes>
+	</test>
+	<test
+		name="GET Feeds - Recurring Deposit Is Late">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForRecurringDepositLate">
+			</class>
+		</classes>
+	</test>
+	<test name="Peer Spending Comparison Summary">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestPeerSpendingComparisonSummary">
+			</class>
+		</classes>
+	</test>
+	<test name="GET Feeds - Change in Property Value">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForPropertyValueChange">
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll" parallel="methods" thread-count="1" preserve-order="true">
+    <parameter name="hybrid" value="false" />
+    <parameter name="release_name" value="Nov 2018" />
+    <parameter name="isFirstRun" value="false" />
+    <parameter name="isStaticComparable" value="false" />
+    <parameter name="isDiffyEnabled" value="false" />
+    <parameter name="getApiVersion" value="1.0" />
+    <parameter name="isUserStatic" value="false" />
+    <parameter name="updateApiVersion" value="1.0" />
+    <parameter name="healthCheckUp" value="false" />
+    <parameter name="config_file" value="InsightsConfigV1.properties" />
+    <parameter name="suiteName" value="Notifications" />
+    <listeners>
+        <listener class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+        <listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+        <listener class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+    </listeners>
+    <test name="BillNotPaid_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForBillNotPaid" />
+        </classes>
+    </test>
+    <test name="UpcomingBills_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForUpcomingBills" />
+        </classes>
+    </test>
+    <test name="UpcomingSubscription_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForUpcomingSubscription" />
+        </classes>
+    </test>
+    <test name="NewBillEventDetected_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForNewBill" />
+        </classes>
+    </test>
+    <test name="NewSubscriptionEventDetected_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForNewSubscription" />
+        </classes>
+    </test>
+    <test name="IncomeExpenseOverview_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForIncomeExpenseOverview" />
+        </classes>
+    </test>
+    <test name="BudgetProgress_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForBudgetProgressView" />
+        </classes>
+    </test>
+    <test name="RefundDepositNotice_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForRefundDepositNotice" />
+        </classes>
+    </test>
+    <test name="MostFrequentPurchases-TopMerchantCount_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForMostFrequentPurchases" />
+        </classes>
+    </test>
+    <test name="ProjectedLowBalance_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForProjectedLowBalance" />
+        </classes>
+    </test>
+    <test name="CameInUnderBudget_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForCameinUnderBudget" />
+        </classes>
+    </test>
+    <test name="CreditLimitWarning_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForCreditLimitWarninng" />
+        </classes>
+    </test>
+    <test name="CreditUtilization_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForCreditUtilization" />
+        </classes>
+    </test>
+    <test name="GoalsSavingsOffTrack_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForGoalsSavingsOffTrack" />
+        </classes>
+    </test>
+     <test name="RecurringDepositLate_Notifications">
+        <classes>
+           <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForRecurringDepositLate"></class> 
+        </classes>
+    </test>
+    <test name="LoanMaturityNotice_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForLoanMaturityNotice"></class> 
+        </classes>
+    </test>
+    <test name="FinancialFees_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForFinancialFees" />
+        </classes>
+    </test>
+    <test name="TopMerchants_Notifications">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForTopMerchants" />
+        </classes>
+    </test>
+</suite>

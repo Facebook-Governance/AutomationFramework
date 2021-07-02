@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>RestGenDocDown.site16441.9</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.9</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>TRANSACTIONS</name>
+							<container>bill,creditCard,bank,insurance,investment,loan
+							</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+
+				<dataset>
+					<name>DOCUMENT</name>
+					<attributeList>
+						<attribute>
+							<name>STATEMENT</name>
+							<container>bank,investment</container>
+						</attribute>
+						<attribute>
+							<name>TAX</name>
+							<container>bank,investment,loan</container>
+						</attribute>
+						<attribute>
+							<name>EBILL</name>
+							<container>bill,creditCard,insurance,loan
+							</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<cacheRequest-multiple>
+		<cacheRequest order="1">
+			<containers>
+				<container>
+					<sumInfoId>20559</sumInfoId>
+					<datasetAttributes>
+						<datasetAttribute>9</datasetAttribute>
+						<datasetAttribute>6</datasetAttribute>
+						<datasetAttribute>8</datasetAttribute>
+					</datasetAttributes>
+				</container>
+			</containers>
+		</cacheRequest>
+		</cacheRequest-multiple>
+	</request>
+	<response>
+		<siteRefreshStats-multiple>
+		<siteRefreshStats order="1">
+			<datasetDetails>[{"container":"bank","dataset":[{"datasetId":1,"attributeIds":[8,13]}]}]
+			</datasetDetails>
+			<memSiteAccExtnJson>[{"datasetId":1,"refreshStatus":7,"errorCode":0,"attribDetails":[{"attributeId":8,"refreshStatus":7,"errorCode":0},{"attributeId":13,"refreshStatus":7,"errorCode":0}]}]
+			</memSiteAccExtnJson>
+		</siteRefreshStats>
+		</siteRefreshStats-multiple>
+	</response>
+</entity>

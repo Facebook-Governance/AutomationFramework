@@ -1,0 +1,51 @@
+<entity type="multiple">
+	<request>
+        <add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+            <siteUser>MSTesting.site16441.3</siteUser>
+            <siteUserId>65499</siteUserId>
+            <sitePwd>site16441.3</sitePwd>
+            <sitePwdId>65500</sitePwdId>
+            <siteId>16441</siteId>
+            <dataList>
+                <dataset>
+                    <name>ACCT_PROFILE</name>
+                    <attributeList>
+                        <attribute>
+                            <name>HOLDER_NAME</name>
+                            <container>bank</container>
+                        </attribute>
+						<attribute>
+                            <name>FULL_ACCT_NUMBER</name>
+                            <container>bank</container>
+                        </attribute>
+                    </attributeList>
+                </dataset>
+            </dataList>
+        </add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<msverification-multiple>
+		<msverification order="1">
+			<accountId></accountId>
+			<providerAccountId>false</providerAccountId>
+			<verificationType>MATCHING</verificationType>
+		</msverification>
+		</msverification-multiple>
+		<get-accountDetials-multiple>
+		<get-accountDetials order="1">
+		<include></include>
+		<container>bank</container>
+		</get-accountDetials>
+		</get-accountDetials-multiple>
+		</request>
+	 <response>
+        <accountDetails-multiple>
+		<accountDetails order="1">
+            <row>
+                <filePath>../src/test/resources/TestData/JSONFiles/Sdg/Verification/MS/</filePath>
+                <responseFile>MSGetAccounts16441.json</responseFile>
+            </row>
+        </accountDetails>
+		</accountDetails-multiple>
+    </response>
+</entity>

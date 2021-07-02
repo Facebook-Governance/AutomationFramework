@@ -1,0 +1,11 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-146914,"Validate SpendingEarningComparison , check if Insight is unSubscribed to OR isSubscribed=false ",,SpendingEarningComparison,SpendingEarningComparison,,,,,,account,TRUE,,,,200,TRUE
+AT-146915,"Validate SpendingEarningComparison , Validate InsightName",,SpendingEarningComparison,SpendingEarningComparison,,,,,,,,,,,200,TRUE
+AT-146916,"Validate SpendingEarningComparison , Validate Supporting container",,SpendingEarningComparison,,,BANK CARD,,,,,,,,,200,TRUE
+AT-146917,"Validate SpendingEarningComparison , Validate TriggerType",SCHEDULE,SpendingEarningComparison,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-146918,"Validate SpendingEarningComparison , Validate applicableEntity",,SpendingEarningComparison,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-146919,"Validate SpendingEarningComparison , Validate number of levels and levelObject",,SpendingEarningComparison,,,,,,ACCOUNT,account,,,,,200,TRUE
+AT-146920,"Validate SpendingEarningComparison , Validate isSubscribed=false",,SpendingEarningComparison,,,,,,,,FALSE,,,,200,TRUE
+AT-146922,"Validate SpendingEarningComparison , Validate insightKeys",,SpendingEarningComparison,,,,Account,,ACCOUNT,,,,,,200,TRUE
+AT-146923,"Validate SpendingEarningComparison , Validate description",,SpendingEarningComparison,,,,,Provide spend to earning percent to the user.,,,,,,,200,TRUE
+AT-146924,"Validate SpendingEarningComparison , Validate title",,SpendingEarningComparison,,Spending And Earning Comparison,,,,,,,,,,200,TRUE

@@ -1,0 +1,17 @@
+TestCaseId,TestCase,goalAccountItemId,goalId,recurringAmount,recurringCurrency,frequency,isAutoTransferRule,startDate,endDate,errorCode,errorMsg,statusCode,enabled
+"AT-105985,AT-106001",Passing invalid goalId,1,12345,1000,USD,MONTHLY,FALSE,"0,0,1","1,0,0",Y800,Invalid value for goalId,400,TRUE
+"AT-105986,AT-105987","Passing invalid itemAccountId, which is not linked with goal.",2,,2000,USD,EVERY_2_WEEKS,FALSE,"0,0,1","1,0,0",Y800,Invalid value for goalAccountId,400,TRUE
+"AT-105988,AT-105989",More than 11 numbers in recurring amount,1,,1.00E+11,USD,MONTHLY,FALSE,"0,0,1","1,0,0",Y804,"Permitted values of amount between 1 - 99,999,999,999.99",400,TRUE
+AT-105998,One_time Frequency ,1,,1000,USD,ONE_TIME,FALSE,"0,0,1","1,0,0",Y800,Invalid value for startDate and endDate.startDate should be same as the endDate for one time  frequency,400,TRUE
+"AT-106003,AT-105990",Invalid currency,1,,1000,INR,MONTHLY,FALSE,"0,0,1","1,0,0",Y800,Invalid value for recurringAmount currency,400,TRUE
+"AT-105991,AT-105995,AT-105996",StartDate is less than current date,1,,1000,USD,MONTHLY,FALSE,"0,0,-1","1,0,0",Y800,Invalid value for startDate.startDate is a past/currentDate,400,TRUE
+AT-105994,EndDate is less than current date,1,,1000,USD,MONTHLY,FALSE,"0,0,1","0,0,-1",Y800,Invalid value for endDate.endDate is a past/currentDate,400,TRUE
+"AT-105992,AT-105993",StartDate of funding rule is less than satrt date of createGoal.,1,,1000,USD,MONTHLY,FALSE,"0,0,0","1,0,0",Y800,Invalid value for startDate.startDate of the Funding rule should not be earlier than startDate of the Goal,400,TRUE
+"AT-105997AT-105999,AT-105997",Invalid Frequency,1,,1000,USD,DAILY,FALSE,"0,0,1","1,0,0",Y800,Invalid value for frequency.,400,TRUE
+AT-106004,Empty Frequency,1,,1000,USD,,FALSE,"0,0,1","1,0,0",Y800,Invalid value for frequency.,400,TRUE
+AT-106005,Empty startDate,1,,1000,USD,MONTHLY,FALSE,,"1,0,0",Y800,Invalid value for startDate.startDate is required,400,TRUE
+AT-106006,Empty End Date,1,,1000,USD,MONTHLY,FALSE,"0,0,1",,Y800,Invalid value for endDate.endDate is required,400,TRUE
+AT-106002,Empty recurring amount,1,,,USD,MONTHLY,FALSE,"0,0,1","1,0,0",Y800,Invalid value for recurringAmount.Amount is required,400,TRUE
+AT-106000,One_time Frequency with same start and end date,1,,10000,USD,ONE_TIME,FALSE,"0,0,1","0,0,1",,,201,TRUE
+AT-105984,With all valid parameters,1,,1000,USD,MONTHLY,FALSE,"0,0,1","1,0,0",,,201,TRUE
+AT-105989,With 11 numbers in recurring amount,1,,10000000000,USD,MONTHLY,FALSE,"0,0,1","1,0,0",,,201,TRUE

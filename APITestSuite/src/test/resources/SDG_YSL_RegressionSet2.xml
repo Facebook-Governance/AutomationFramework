@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="classes" thread-count="3"
+	preserve-order="true">
+
+
+	<parameter name="suiteName" value="YSLAutoAmelia" />
+
+	<listeners>
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+
+	</listeners>
+	<test name="TestNoTimeGap">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestNoTimeGap" />
+		</classes>
+	</test>
+
+	<test name="TestMatchingServiceFirstNameLastName">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestMatchingServiceFirstNameLastName" />
+		</classes>
+	</test>
+	<test name="TestSingleDataGatheringBasicDD">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestSingleDataGatheringBasicDD" />
+		</classes>
+	</test>
+	<test name="TestFANMasking">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestFANMasking" />
+		</classes>
+	</test>
+
+</suite>
+	

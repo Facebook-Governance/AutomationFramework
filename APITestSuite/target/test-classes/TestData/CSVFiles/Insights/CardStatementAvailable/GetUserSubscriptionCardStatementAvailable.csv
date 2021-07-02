@@ -1,0 +1,16 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-154576,"getUserSubscription - Validate CardStatementAvailable , Validate InsightName",,CardStatementAvailable,CardStatementAvailable,,,,,,,,,,,,,200,TRUE
+AT-154577,"getUserSubscription - Validate CardStatementAvailable , Validate Supporting container",,CardStatementAvailable,,,CARD,,,,,,,,,,,200,TRUE
+AT-154578,"getUserSubscription - Validate CardStatementAvailable , Validate TriggerType",REFRESH,CardStatementAvailable,,,,,,,,,,,,,,200,TRUE
+AT-154579,"getUserSubscription - Validate CardStatementAvailable , Validate applicableEntity",,CardStatementAvailable,,,,,,,"ACCOUNT,VIEW",,,,,,,200,TRUE
+AT-154580,"getUserSubscription - Validate CardStatementAvailable , Validate number of levels and levelObject",,CardStatementAvailable,,,,,,,"ACCOUNT,VIEW",account,,,,,,200,TRUE
+AT-154581,"getUserSubscription - Validate CardStatementAvailable , Validate isSubscribed=false",,CardStatementAvailable,,,,,,,,,FALSE,,,,,200,TRUE
+AT-154582,"getUserSubscription - Validate CardStatementAvailable , Validate threshold Name,Value and Type",,CardStatementAvailable,,,,,,,,account,,,"DAYS_BEFORE,10,DAYS",,,200,TRUE
+AT-154583,"getUserSubscription - Validate CardStatementAvailable , Validate insightKeys",,CardStatementAvailable,,,,Account,,,,,,,,,,200,TRUE
+AT-154584,"getUserSubscription - Validate CardStatementAvailable , Validate description",,CardStatementAvailable,,,,,,Generates an insight when a new credit card statement is available.,,,,,,,,200,TRUE
+AT-154585,"getUserSubscription - Validate CardStatementAvailable , Validate title",,CardStatementAvailable,,Card Statement Available,,,,,,,,,,,,200,TRUE
+AT-154586,"getUserSubscription - Validate CardStatementAvailable , Validate ruleExpression",,CardStatementAvailable,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-154587,"getUserSubscription - Validate CardStatementAvailable , Validate total number of keys-ACCOUNT",,CardStatementAvailable,,,,Account,18,,,,,,,,,200,TRUE
+AT-154588,"getUserSubscription - Validate CardStatementAvailable , verify entityParameter and configMeta are same",,CardStatementAvailable,,,,,,,,,,,,,TRUE,200,TRUE
+AT-154589,"getUserSubscription - Validate CardStatementAvailable , Validate threshold Name,Value and Type-view",,CardStatementAvailable,,,,,,,,view,,,"DAYS_BEFORE,10,DAYS",,,200,TRUE
+AT-154590,"getUserSubscription - Validate CardStatementAvailable , Validate total number of keys - VIEW",,CardStatementAvailable,,,,View,20,,,,,,,,,200,TRUE

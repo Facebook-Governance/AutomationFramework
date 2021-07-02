@@ -1,0 +1,69 @@
+{
+	"account": [
+		{
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "YODLEE"
+					}
+				}
+			],
+			"accountName": "YODLEE",
+			"accountType": "REWARD_POINTS",
+			"isManual": false,
+			"enrollmentDate": "2002-08-25",
+			"nextLevel": "NEXT LEVEL",
+			"rewardBalance": [
+				{
+					"expiryDate": "2014-01-25",
+					"balance": 14560,
+					"description": "DESC",
+					"units": "miles",
+					"balanceToLevel": "GOLD"
+				},
+				{
+					"expiryDate": "2014-01-25",
+					"balance": 1400,
+					"description": "DESC",
+					"units": "miles",
+					"balanceToLevel": "GOLD"
+				},
+				{
+					"expiryDate": "2014-01-25",
+					"balanceType": "EXPIRING_BALANCE",
+					"balance": 1200,
+					"description": "DESC",
+					"units": "miles",
+					"balanceToLevel": "GOLD"
+				},
+				{
+					"expiryDate": "2014-01-25",
+					"balanceType": "TOTAL_BALANCE",
+					"balance": 34567.98,
+					"description": "DESC",
+					"units": "miles",
+					"balanceToLevel": "GOLD"
+				},
+				{
+					"expiryDate": "2014-01-25",
+					"balance": 12121.98,
+					"description": "REWARDS",
+					"units": "miles",
+					"balanceToLevel": "GOLD"
+				}
+			],
+			"accountStatus": "ACTIVE",
+			"currentLevel": "CUR LEVEL",
+			"refreshinfo": {
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"isAsset": true,
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"CONTAINER": "reward",
+			"primaryRewardUnit": "Rew Unit",
+			"providerName": "Dag Site"
+		}
+	]
+}

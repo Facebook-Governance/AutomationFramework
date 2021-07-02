@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll" parallel="methods" thread-count="1"
+	preserve-order="true">
+	<parameter name="hybrid" value="false" />
+	<parameter name="release_name" value="Nov 2018" />
+	<parameter name="isFirstRun" value="false" />
+	<parameter name="isStaticComparable" value="false" />
+	<parameter name="isDiffyEnabled" value="false" />
+	<parameter name="getApiVersion" value="1.0" />
+	<parameter name="isUserStatic" value="false" />
+	<parameter name="updateApiVersion" value="1.0" />
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="config_file" value="Config_Sense.Properties" />
+	<parameter name="suiteName" value="YSLAutoAmelia" />
+	<listeners>
+		<listener
+
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+	</listeners>
+	<test name="NetworthChange">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForNetworthChange" />
+		</classes>
+	</test>
+	<test name="AssetChange">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForAssetChange" />
+		</classes>
+	</test>
+	<test name="LiabilityChange">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForLiabilityChange" />
+		</classes>
+	</test>
+	<test name="LoanMaturityNotice">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForLoanMaturityNotice" />
+		</classes>
+	</test>
+	<test name="InvestmentMaturityNotice">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForInvestmentMaturityNotice" />
+		</classes>
+	</test>
+	<test name="BudgetProgress">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForBudgetProgressView" />
+		</classes>
+	</test>
+	<test name="UpcomingBills">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForUpcomingBills" />
+		</classes>
+	</test>
+	<test name="IncomeExpenseOverview">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForIncomeExpenseOverview" />
+		</classes>
+	</test>
+	<test name="PropertyValueChange">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForPropertyValueChange" />
+		</classes>
+	</test>
+	<test name="UpcomingSubscription">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForUpcomingSubscription" />
+		</classes>
+	</test>
+	<test name="CameinUnderBudget">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForCameinUnderBudget" />
+		</classes>
+	</test>
+	<test name="BillNotPaid">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForBillNotPaid" />
+		</classes>
+	</test>
+	<test name="RecurringDepositLate">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForRecurringDepositLate"></class>
+		</classes>
+	</test>
+	<test name="MostFrequentPurchases">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForMostFrequentPurchases"></class>
+		</classes>
+	</test>
+	<test name="IncomeThreshold">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForIncomeThresholdInsight"></class>
+		</classes>
+	</test>
+</suite>

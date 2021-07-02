@@ -1,0 +1,23 @@
+tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,priority,formType,enabled
+AT-89244,Add SDG document DD_STMT_DateRange_NoDocs_within 180 days,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#GET_DOCUMENTS,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_DateRange_NoDocs.xml,YES,NO,P1,Simplified,TRUE
+AT-89244,Add SDG document DD_STMT_NoDocs_BkInv,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_DateRange_NoDocs_BkInv.xml,YES,NO,P1,Simplified,TRUE
+AT-89242,Add SDG document DD_STMT_DateRange_Bank_2month,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#GET_DOCUMENTS#GET_DOCUMENTS_DETAILS,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_DateRange_Bank_TwoMonths.xml,YES,NO,P1,Simplified,TRUE
+AT-88874,Add SDG document DD_STMT_DateRange_Inv_2month,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#GET_DOCUMENTS#GET_DOCUMENTS_DETAILS,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_DateRange_OnlyTwo_Inv.xml,YES,NO,P1,Simplified,FALSE
+AT-89262,Add SDG document DD_STMT_DateRange_Dates_null,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_DateRange_null.xml,YES,NO,P1,Simplified,TRUE
+AT-89234,Add SDG document DD_STMT_DateRange_Dates_empty,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_DateRange_empty.xml,YES,NO,P1,Simplified,TRUE
+AT-89243,Add SDG document DD_STMT_DateRange_Dates_more than180Days,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_DateRange_Invalid.xml,YES,NO,P1,Simplified,TRUE
+AT-89236,Add SDG document DD_STMT_DateRange_Dates_fromDate greater than toDate,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_DateRange_FromDateGrtrThanTodate.xml,YES,NO,P1,Simplified,TRUE
+AT-88117,Add SDG document DD_STMT_DateRange_Dates_setting invalid fromDate,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_DateRange_Invalid_fromDate.xml,YES,NO,P1,Simplified,TRUE
+AT-89240,Add SDG document DD_STMT_DateRange_Dates_setting invalid toDate,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_DateRange_Invalid_toDate.xml,YES,NO,P1,Simplified,TRUE
+AT-88874,Add SDG document DD_STMT_DateRange_Bank_1month,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#GET_DOCUMENTS#GET_DOCUMENTS_DETAILS,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_DateRange_Bank_OneMonth.xml,YES,NO,P1,Simplified,FALSE
+AT-88876,Add SDG document DD_STMT_DateRange_Bank_within 1 month,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#GET_DOCUMENTS#GET_DOCUMENTS_DETAILS,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_DateRange_Bank_WithinMonth.xml,YES,NO,P1,Simplified,FALSE
+AT-88876,Add SDG document DD_STMT_DateRange_BkInv_within 2 month,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#GET_DOCUMENTS#GET_DOCUMENTS_DETAILS,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_DateRange_BkInv_WithinMonth.xml,YES,NO,P1,Simplified,FALSE
+AT-88875,Add SDG document DD_TAX_DateRange_Bank_1year,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#GET_DOCUMENTS#GET_DOCUMENTS_DETAILS,../src/test/resources/TestData/XML/DD_xml/,DD_TAX_DateRange_OneYear.xml,YES,NO,P1,Simplified,FALSE
+AT-89235,Add SDG document DD_TAX_DateRange_Dates_null,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_TAX_DateRange_null.xml,YES,NO,P1,Simplified,TRUE
+AT-89234,Add SDG document DD_TAX_DateRange_Dates_empty,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DD_xml/,DD_TAX_DateRange_empty.xml,YES,NO,P1,Simplified,TRUE
+AT-88117,Add SDG document DD_TAX_DateRange_Dates_setting invalid fromFinYear,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_TAX_DateRange_Invalid.xml,YES,NO,P1,Simplified,TRUE
+AT-89240,Add SDG document DD_TAX_DateRange_Dates_setting invalid toFinYear,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DD_xml/,DD_TAX_InvalidToFinYear.xml,YES,NO,P1,Simplified,TRUE
+AT-89236,Add SDG document DD_TAX_DateRange_Dates_fromFinYear greater than toFinYear,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DD_xml/,DD_TAX_FromGrtThanTo.xml,YES,NO,P1,Simplified,TRUE
+AT-89238,Add SDG document DD_TAX_DateRange_Dates_setting only fromFinYear,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DD_xml/,DD_TAX_OnlyFinYear.xml,YES,NO,P1,Simplified,TRUE
+AT-89255,Add SDG document DD_STMT,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#GET_DOCUMENTS#GET_DOCUMENTS_DETAILS,../src/test/resources/TestData/XML/DD_xml/,DD_STMT.xml,YES,NO,P1,Simplified,FALSE
+"AT-89248,AT-89247",Add SDG document DD_STMT_BankInv,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#GET_DOCUMENTS#GET_DOCUMENTS_DETAILS,../src/test/resources/TestData/XML/DD_xml/,DD_STMT_BankInv.xml,YES,NO,P1,Simplified,FALSE

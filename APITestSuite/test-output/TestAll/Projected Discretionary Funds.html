@@ -1,0 +1,375 @@
+<html>
+<head>
+<title>TestNG:  Projected Discretionary Funds</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Projected Discretionary Funds</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/6</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 19 02:34:43 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>266 seconds (266114 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.prepareAutomationReport()'><b>prepareAutomationReport</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.yodlee.insights.yodleeApi.utils.InsightsHelper.printSummaryOfTests(InsightsHelper.java:1966)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.prepareAutomationReport(TestGetInsightsForProjectedDiscretionaryFunds.java:338)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1091535320", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1091535320'><pre>java.lang.NullPointerException
+	at com.yodlee.insights.yodleeApi.utils.InsightsHelper.printSummaryOfTests(InsightsHelper.java:1966)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.prepareAutomationReport(TestGetInsightsForProjectedDiscretionaryFunds.java:338)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds@3514a4c0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds()'><b>testGetNotificationsForPojectedDiscretionaryFunds</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds<br>Parameters: AT-148482, getNotification - Validate PROJECTED_DISCRETIONARY_FUNDS Inisight generation for an user when user threshold is of less amount, PROJECTED_DISCRETIONARY_FUNDS, FALSE, SCHEDULE, 1, account, 1, TRUE, TRUE, TRUE, ProjectedDiscretionaryFundshappyflow ProjectedDiscretionaryFundsZeroAdjustment, TRUE TRUE, 1, account, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  1 insights triggered But found Empty {}
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds(TestGetInsightsForProjectedDiscretionaryFunds.java:330)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1157499770", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1157499770'><pre>java.lang.AssertionError: Test FAILED -&gt; Expected  1 insights triggered But found Empty {}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds(TestGetInsightsForProjectedDiscretionaryFunds.java:330)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>115</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds@3514a4c0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds()'><b>testGetNotificationsForPojectedDiscretionaryFunds</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds<br>Parameters: AT-148481, getNotification - Validate PROJECTED_DISCRETIONARY_FUNDS Inisight generation for an user when user threshold is of less amount, PROJECTED_DISCRETIONARY_FUNDS, FALSE, SCHEDULE, 1, account, 0, TRUE, TRUE, FALSE, ProjectedDiscretionaryFundshappyflow ProjectedDiscretionaryFundsZeroAdjustment, FALSE FALSE, 0, account, 201, TRUE</td>
+<td></td>
+<td>145</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds@3514a4c0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds()'><b>testGetNotificationsForPojectedDiscretionaryFunds</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds<br>Parameters: AT-148475, getNotification - Validate PROJECTED_DISCRETIONARY_FUNDS Inisight generation when cobrand is not subscribe to a view - Insights shouldn't be generated, PROJECTED_DISCRETIONARY_FUNDS, FALSE, SCHEDULE, 1, account, 0, TRUE, FALSE, , , , 0, , 201, FALSE<br/>
+<a href="#Output-1439739284" onClick='toggleBox("Output-1439739284", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1439739284" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1439739284">
+Skipping testcase:AT-148475<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Skipping Test Case ==&gt; AT-148475
+	at com.yodlee.yodleeApi.utils.commonUtils.CommonUtils.isTCEnabled(CommonUtils.java:161)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds(TestGetInsightsForProjectedDiscretionaryFunds.java:187)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1439739284", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1439739284'><pre>org.testng.SkipException: Skipping Test Case ==&gt; AT-148475
+	at com.yodlee.yodleeApi.utils.commonUtils.CommonUtils.isTCEnabled(CommonUtils.java:161)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds(TestGetInsightsForProjectedDiscretionaryFunds.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds@3514a4c0</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds()'><b>testGetNotificationsForPojectedDiscretionaryFunds</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds<br>Parameters: AT-148476, getNotification - Validate PROJECTED_DISCRETIONARY_FUNDS Inisight generation for an user when user is subscribed, PROJECTED_DISCRETIONARY_FUNDS, FALSE, SCHEDULE, 1, account, 0, TRUE, TRUE, FALSE, , FALSE, 0, account, 201, FALSE<br/>
+<a href="#Output-2017448733" onClick='toggleBox("Output-2017448733", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2017448733" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2017448733">
+Skipping testcase:AT-148476<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Skipping Test Case ==&gt; AT-148476
+	at com.yodlee.yodleeApi.utils.commonUtils.CommonUtils.isTCEnabled(CommonUtils.java:161)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds(TestGetInsightsForProjectedDiscretionaryFunds.java:187)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2017448733", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2017448733'><pre>org.testng.SkipException: Skipping Test Case ==&gt; AT-148476
+	at com.yodlee.yodleeApi.utils.commonUtils.CommonUtils.isTCEnabled(CommonUtils.java:161)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds(TestGetInsightsForProjectedDiscretionaryFunds.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds@3514a4c0</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds()'><b>testGetNotificationsForPojectedDiscretionaryFunds</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds<br>Parameters: AT-148477, getNotification - Validate PROJECTED_DISCRETIONARY_FUNDS Inisight generation for an user when user threshold is not the default, PROJECTED_DISCRETIONARY_FUNDS, FALSE, SCHEDULE, 1, account, 1, TRUE, TRUE, TRUE, , FALSE, 0, account, 201, FALSE<br/>
+<a href="#Output-747424967" onClick='toggleBox("Output-747424967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-747424967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-747424967">
+Skipping testcase:AT-148477<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Skipping Test Case ==&gt; AT-148477
+	at com.yodlee.yodleeApi.utils.commonUtils.CommonUtils.isTCEnabled(CommonUtils.java:161)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds(TestGetInsightsForProjectedDiscretionaryFunds.java:187)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace747424967", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace747424967'><pre>org.testng.SkipException: Skipping Test Case ==&gt; AT-148477
+	at com.yodlee.yodleeApi.utils.commonUtils.CommonUtils.isTCEnabled(CommonUtils.java:161)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds(TestGetInsightsForProjectedDiscretionaryFunds.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds@3514a4c0</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds()'><b>testGetNotificationsForPojectedDiscretionaryFunds</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds<br>Parameters: AT-148478, getNotification - Validate PROJECTED_DISCRETIONARY_FUNDS Inisight generation for an user when user threshold is greater than the transaction amount, PROJECTED_DISCRETIONARY_FUNDS, FALSE, SCHEDULE, 1, account, 1, TRUE, TRUE, TRUE, ProjectedDiscretionaryFundsZeroAdjustment, TRUE, 1, account, 201, FALSE<br/>
+<a href="#Output-657141328" onClick='toggleBox("Output-657141328", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-657141328" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-657141328">
+Skipping testcase:AT-148478<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Skipping Test Case ==&gt; AT-148478
+	at com.yodlee.yodleeApi.utils.commonUtils.CommonUtils.isTCEnabled(CommonUtils.java:161)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds(TestGetInsightsForProjectedDiscretionaryFunds.java:187)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace657141328", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace657141328'><pre>org.testng.SkipException: Skipping Test Case ==&gt; AT-148478
+	at com.yodlee.yodleeApi.utils.commonUtils.CommonUtils.isTCEnabled(CommonUtils.java:161)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds(TestGetInsightsForProjectedDiscretionaryFunds.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds@3514a4c0</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds()'><b>testGetNotificationsForPojectedDiscretionaryFunds</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds<br>Parameters: AT-148479, getNotification - Validate PROJECTED_DISCRETIONARY_FUNDS Inisight generation for an user when user threshold is of less amount, PROJECTED_DISCRETIONARY_FUNDS, FALSE, SCHEDULE, 1, account, 1, TRUE, TRUE, TRUE, ProjectedDiscretionaryFundshappyflow, TRUE, 1, account, 201, FALSE<br/>
+<a href="#Output-1431521867" onClick='toggleBox("Output-1431521867", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1431521867" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1431521867">
+Skipping testcase:AT-148479<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Skipping Test Case ==&gt; AT-148479
+	at com.yodlee.yodleeApi.utils.commonUtils.CommonUtils.isTCEnabled(CommonUtils.java:161)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds(TestGetInsightsForProjectedDiscretionaryFunds.java:187)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1431521867", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1431521867'><pre>org.testng.SkipException: Skipping Test Case ==&gt; AT-148479
+	at com.yodlee.yodleeApi.utils.commonUtils.CommonUtils.isTCEnabled(CommonUtils.java:161)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds(TestGetInsightsForProjectedDiscretionaryFunds.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds@3514a4c0</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds()'><b>testGetNotificationsForPojectedDiscretionaryFunds</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds<br>Parameters: AT-148480, getNotification - Validate PROJECTED_DISCRETIONARY_FUNDS Inisight generation for an user when user threshold is of less amount, PROJECTED_DISCRETIONARY_FUNDS, FALSE, SCHEDULE, 1, account, 1, TRUE, TRUE, TRUE, ProjectedDiscretionaryFundshappyflow ProjectedDiscretionaryFundsZeroAdjustment, TRUE FALSE, 1, account, 201, FALSE<br/>
+<a href="#Output-1893596297" onClick='toggleBox("Output-1893596297", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1893596297" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1893596297">
+Skipping testcase:AT-148480<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Skipping Test Case ==&gt; AT-148480
+	at com.yodlee.yodleeApi.utils.commonUtils.CommonUtils.isTCEnabled(CommonUtils.java:161)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds(TestGetInsightsForProjectedDiscretionaryFunds.java:187)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1893596297", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1893596297'><pre>org.testng.SkipException: Skipping Test Case ==&gt; AT-148480
+	at com.yodlee.yodleeApi.utils.commonUtils.CommonUtils.isTCEnabled(CommonUtils.java:161)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds.testGetNotificationsForPojectedDiscretionaryFunds(TestGetInsightsForProjectedDiscretionaryFunds.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds@3514a4c0</td></tr>
+</table><p>
+</body>
+</html>

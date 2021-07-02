@@ -1,0 +1,146 @@
+[
+	{
+      "testCaseId":"AT-106043",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y804",
+      "errorMessage":"Permitted values of amount between 1 - 99,999,999,999.99"     				
+    },
+    {
+      "testCaseId":"AT-106045",
+      "httpStatuCode":"400",		
+      "yslErrorCode":"Y804",
+      "errorMessage":"Permitted values of amount between 1 - 99,999,999,999.99"		    				
+    },
+    {
+      "testCaseId":"AT-106046",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y804",
+      "errorMessage":"Permitted values of amount between 1 - 99,999,999,999.99"     				    				
+    },
+    {
+      "testCaseId":"AT-106047",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y800",
+      "errorMessage":"Invalid value for goalAccountId.AccountId is either CLOSED or INACTIVE or DELTED"     				    				
+    },
+    {
+      "testCaseId":"AT-106048",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y800",
+      "errorMessage":"Invalid value for goalAccountId"     				    				
+    },
+    {
+      "testCaseId":"AT-106049",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y800",
+      "errorMessage":"Invalid value for goalAccountId.AccountId is either CLOSED or INACTIVE or DELTED"     				    				
+    },
+    {
+      "testCaseId":"AT-106050",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y800",
+      "errorMessage":"Invalid value for initialAllocation currency"     				    				
+    },
+    {
+      "testCaseId":"AT-106051",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y400",
+      "errorMessage":"null"     				    				
+    },
+    {
+      "testCaseId":"AT-106052",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y800",
+      "errorMessage":"Invalid value for goalId.The goal is either COMPLETED or REALIZED"     				    				
+    },
+    {
+      "testCaseId":"AT-106053",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y800",
+      "errorMessage":"Invalid value for goalId"     				    				
+    },
+     {
+      "testCaseId":"AT-106079",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y822",
+      "errorMessage":"initialAllocationAmount cannot be requested for goalId"     				    				
+    },
+     {
+      "testCaseId":"AT-106080",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y800",
+      "errorMessage":"Invalid value for id"     				    				
+    },
+     {
+      "testCaseId":"AT-106083",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y804",
+      "errorMessage":"Permitted values of amount between 0 - 99,999,999,999.99"     				    				
+    },
+     {
+      "testCaseId":"AT-106084",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y800",
+      "errorMessage":"Invalid value for goalId"     				    				
+    },
+     {
+      "testCaseId":"AT-106081",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y800",
+      "errorMessage":"Invalid value for id"     				    				
+    },
+    {
+      "testCaseId":"AT-106082",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y800",
+      "errorMessage":"Invalid value for goalId"     				    				
+    },
+    {
+      "testCaseId":"AT-106085",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y800",
+      "errorMessage":"Invalid value for goalId"     				    				
+    },
+    {
+      "testCaseId":"AT-110128",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y853",
+      "errorMessage":"targetDate and recurringAmount parameters cannot be passed simultaneously."     				    				
+    },
+    {
+      "testCaseId":"AT-110131",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y853",
+      "errorMessage":"targetDate and frequency parameters cannot be passed simultaneously."     				    				
+    },
+    {
+      "testCaseId":"AT-110132",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y853",
+      "errorMessage":"targetDate and recurringAmount parameters cannot be passed simultaneously."     				    				
+    },
+    {
+      "testCaseId":"AT-110133",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y813",
+      "errorMessage":"when recurring amount is given  frequency should be provided"     				    				
+    },
+    {
+      "testCaseId":"AT-110134",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y853",
+      "errorMessage":"targetDate and frequency parameters cannot be passed simultaneously."     				    				
+    },
+    {
+      "testCaseId":"AT-110141",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y803",
+      "errorMessage":"targetDate is more than 99 years ahead of startDate. either recurring amount OR frequency is  required  to be changed"     				    				
+    },
+    {
+      "testCaseId":"AT-112195",
+      "httpStatuCode":"400",
+      "yslErrorCode":"Y800",
+      "errorMessage":"Invalid value for initialAllocation Amount. initialAllocation Amount is greater than the freeAvailableBalance of the account"
+    }
+  ]   

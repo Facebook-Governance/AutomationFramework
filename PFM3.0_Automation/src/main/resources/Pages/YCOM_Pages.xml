@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pages>
+
+
+	<page name='SAML_LOGIN' isMenuItem='false'>   		
+        
+	        <element name='LoginSave' locators='xpath' value='//input[@value="Log In"]'></element>
+	        <element name='Mode' locator='id' value='testmode'/>
+	        <element name='Login' locator='name' value='login'/>
+	        <element name='Password' locator='name' value='password'/>
+	        <element name='FinappIdNew' locator='name' value='finappId'/>
+	        <element name='RedirectReq' locator='name' value='redirectReq'/>
+	        <element name='Authenicate' locator='xpath' value='//html/body/form/div[3]/div[7]/div/input'/>
+       		<element name='LinkAccHdr' locator='class' value='multiAccountHeaderTitle show-for-smallplus-up'/>
+	        <element name='cobLogin' locator='id' value='cobLogin'>yodlee_10000004</element>
+	        <element name='cobPassword' locator='id' value='cobPassword'>yodlee123</element>
+	        <element name='userName' locator='id' value='userId'></element>
+	        <element name='userPassword' locator='id' value='password'></element>
+	        <element name='nodeRsessionUrl' locator='id' value='nodeRsessionUrl'>https://finapp.autopfmc.corp.yodlee.com/authenticate/ymc/</element>
+	        <element name='restRsessionUrl' locator='id' value='restRsessionUrl'>https://rest.autopfmc.corp.yodlee.com:3443/services/srest/ymc/v1.0/</element>
+	        <element name='finappId' locator='id' value='finappId'>10003700</element>
+	        <element name='saveButton' locator='xpath' value='//input[@value="Save"]'></element>
+	        <element name='NewWindowRsession' locator='xpath' value="//a[contains(text(),'New Window - RSESSION')]"></element>
+     	</page>
+
+<page name='LinkAnAccount' isMenuItem='false'>
+	  <element name='linkAccount' locator='xpath' value="//a[contains(text(),'Link Account')]"></element>
+	  <element name='addLinkAfterAccount' locator='css' value="#link-account-btn-persist"></element>
+	  <element name='addLinkAfterTwoAccount' locator='css' value="#link-account-button-persist"></element>
+	  <element name='getStarted' locator='xpath' value="//*[text()='Get Started']"></element>
+	  <element name='siteSearch' locator='id' value="siteSearch"></element>
+	  <element name='siteSearchBtn' locator='xpath' value="//div[@id='searchBtn']"></element>
+	  
+	  <element name='siteName' locator='xpath' value="//div[@class='siteName ellipsis-cls']"></element>
+	  <element name='password' locator='xpath' value="//input[contains(@name,'PASSWORD')]"></element>
+	  <element name='reEnterPassword' locator='name' value="Re-enter_PASSWORD"></element>
+	  <element name='nextBtn' locator='xpath' value="//button[@id='next']"></element>
+	  <element name='selectCheckBox' locator='xpath' value="//div[@id='tncSection']//span[contains(@class,'customCheckBox')]"></element>
+	  <element name='submitBtn' locator='xpath' value="//div[contains(@class,'text-right')]//button[contains(@aria-label,'Submit')]"></element>
+	  <element name='siteNameContainer' locator='css' value=".siteName"></element>
+	  <element name='loginContainerAcc' locator='name' value="LOGIN"></element>
+	  <element name='successMsg' locator='xpath' value="//div[contains(text(),'Congratulations')]"></element>
+	  
+	
+	</page>
+	
+<page name='DashboardPage' isHomePage='true' isMenuItem='false' parentMenu='' containerPage='' locator='id' value="10003702">
+	<element name='dashBoard' locator='id' value="10003702"></element>
+	<element name='Spending' locator='xpath' value='//span[contains(text(),"Spending")]'></element>
+</page>
+<page name='Budget' isMenuItem='true' parentMenu='Spending' containerPage='DashboardPage' locator='id' locatorValue="10003781">
+  
+ 
+<element name='settingsIcon_BIABS' locator='xpath' value='//a[@id="settings-button"]/i' />
+<element name='settingsHeader_BIABS' locator='xpath' value='//a[@id="settings-button"]/span' />
+<element name='moreIcon_BIABS' locator='xpath' value='//li[@id="li-more-button"]/a' />
+<element name='featureTourIcon_BIABS' locator='xpath' value='//a[@id="menu-feature-tour-button"]//i' />
+<element name='featureTourText_BIABS' locator='xpath' value='//a[@id="menu-feature-tour-button"]//span' />
+<element name='BudgetAndAccountsGroups_BIABS' locator='xpath' value='//div[contains(@class,"joyride-tip-guide")]//h3[contains(text(),"Budget and Account Groups")]' />
+<element name='overviewText_BIABS' locator='xpath' value='//div[contains(@class,"joyride-tip-guide")]//h3[contains(text(),"Overview")]' />
+<element name='BudgetCreatedText_BIABS' locator='xpath' value='(//div[contains(@class,"joyride-tip-guide")]//div//p)[1]' />
+<element name='seeYourActualText_BIABS' locator='xpath' value='(//div[contains(@class,"joyride-tip-guide")]//div//p)[2]' />
+<element name='featureTourCloseIcon_BIABS' locator='xpath' value='(//div[contains(@class,"joyride-tip-guide")]//div//a)[3]' />
+<element name='featureTourCloseIcon1_BIABS' locator='xpath' value='(//div[contains(@class,"joyride-tip-guide")]//div//a)[1]' />
+<element name='budgetDetailsText_BIABS' locator='xpath' value='//div[contains(@class,"joyride-tip-guide")]//h3[contains(text(),"Budget Details")]' />
+<element name='seeYourBudgetText_BIABS' locator='xpath' value='//div[contains(@class,"joyride-tip-guide")]//p[contains(text(),"See how you?re doing")]' />
+<element name='budgetDetailsNextButton_BIABS' locator='xpath' value='//div[@class="joyride-content-wrapper"]//div[2]//a[2]//span[contains(@class,"next")]' />
+<element name='addiconStep2elementForBill' locator='xpath' value="//span[@id='add-font-icon-bills']"></element>
+<element name='settingsText_BIABS' locator='xpath' value='//div[contains(@class,"joyride-tip-guide")]//h3[text()="Settings"]' />
+<element name='manageAccountsText_BIABS' locator='xpath' value='//div[contains(@class,"joyride-tip-guide")]//p[contains(text(),"Manage your accounts")]' />
+<element name='settingsBackButton_BIABS' locator='xpath' value='//div[contains(@class,"joyride-tip-guide coachmarkZIndex")]//a[contains(@class,"prev")]' />
+<element name='settingsNextButton_BIABS' locator='xpath' value='//div[@class="joyride-content-wrapper"]//div[2]//a[contains(text(),"Got It")]' />
+<element name='monthText_BIABS' locator='xpath' value='//div[contains(@class,"row collapse budget-summary")]/div[1]' />
+<element name='incomeHeader_BIABS' locator='xpath' value='//span[contains(text(),"income")]' />
+<element name='incomeAndSpendingHeader_BIABS' locator='xpath' value='//div[@class="summary-container"]/div/div[2]//div[@role="heading"]' />
+<element name='billAndSpendingHeader_BIABS' locator='xpath' value='//span[contains(text(),"Bills &amp; Spending")]' />
+<element name='viewAllAccountsButton_BIABS' locator='xpath' value='//div[@id="footerbutton"]/a' />
+<element name='notificationHeader_BIABS' locator='id' value='notificationsTitle' />
+<element name='howImDoingText_BIABS' locator='xpath' value='//a[contains(@class,"sort-menu-anchor")]/span[1]' />
+<element name='budgetAmountText_BIABS' locator='xpath' value='//span[contains(@title,"Budgeted Amounts")]' />
+<element name='budgetDetailsHeader_BIABS' locator='xpath' value='//div[@id="left-to-spend"]//span[contains(text(),"Budget Details")]' />
+<element name='sortByText_BIABS' locator='xpath' value='//div[@id="sort-field-container"]//label[contains(text(),"SORT BY")]' />
+<element name='dropDown_BIABS' locator='xpath' value='//div[@id="sort-field"]/div/div/a/span[2]' />
+<element name='addBudgetHeader_BIABS' locator='id' value='modalname' />
+<element name='addBudgetNameText_BIABS' locator='xpath' value='//div[contains(@id,"addbudgetmediumup")]/div[1]' />
+<element name='addBudgetNameTextBox_BIABS' locator='id' value='mtTxnCategorySelected' />
+<element name='addBudgetDropDown_BIABS' locator='xpath' value='//div[@id="baCategoryList"]/span' />
+<element name='amountperMonthText_BIABS' locator='xpath' value='//div[@id="bd-amountwrap"]/div[2]/div[1]' />
+<element name='lastThreeMonthText_BIABS' locator='id' value='bd-chartHeading' />
+<element name='amountPerMonthInputBox_BIABS' locator='id' value='AddBudgetAmount' />
+<element name='addBudgetSaveButton_BIABS' locator='xpath' value='//div[@id="bd-add-wrapper"]/div[2]/div/a' />
+<element name='leftToSpendMaximizeIcon_BIABS' locator='xpath' value='(//div[@id="budget-items"]//div[contains(@class,"budget-item-container")]//div[4]//span)[1]' />
+<element name='budgetedAmountText_BIABS' locator='xpath' value='(//div[contains(@class,"budgetDetails")]//div[contains(@class,"catDataViewLables")])[1]' />
+<element name='spentAmountText_BIABS' locator='xpath' value='(//div[contains(@class,"budgetDetails")]//div[contains(@class,"catDataViewLables")])[2]' />
+<element name='remainingAmountText_BIABS' locator='xpath' value='(//div[contains(@class,"budgetDetails")]//div[contains(@class,"catDataViewLables")])[3]' />
+<element name='thisMonthTransactionText_BIABS' locator='xpath' value='//div[@id="transactionsTitle"]/div/div' />
+<element name='leftToSpendEditIcon_BIABS' locator='xpath' value='//a[@id="editPopUpAnchor"]/i' />
+<element name='budgetedAmount_BIABS' locator='xpath' value='//div[@id="catViewBudgetSpentAndLeft"]/div/div[3]//div[2]' />
+<element name='spentAmount_BIABS' locator='xpath' value='//div[@id="catViewBudgetSpentAndLeft"]/div/div[3]//div[2]' />
+<element name='transactionAmount_BIABS' locator='xpath' value='//div[@class="amountContainer"]/span' />
+<element name='editBudgetInputBox_BIABS' locator='id' value='budgetamt' />
+<element name='deleteButton_BIABS' locator='xpath' value='//a[contains(@class,"deleteButton text-red")]' />
+<element name='saveButton_BIABS' locator='xpath' value='//a[contains(@class,"saveButton")]' />
+<element name='closeIcon_BIABS' locator='xpath' value='//div[contains(@id,"budgetDetails")]//a[@title="Close"]' />
+<element name='spendingTrendText_BIABS' locator='id' value='bd-chartHeading' />
+<element name='spentPercentage_BIABS' locator='xpath' value='//div[@id="percentage"]/div/span[1]' />
+<element name='leftAmount_BIABS' locator='xpath' value='//div[@id="amount"]/div/span[1]' />
+<element name='accountsHeader_BIABS' locator='xpath' value='//div[@id="navigation"]/div[2]/div[2]/span' />
+<element name='backToBudgetIcon_BIABS' locator='id' value='back-to-link' />
+<element name='budgetedAmountLarget_BIABS' locator='xpath' value='//li[@title="Budgeted Amount, Largest to Smallest"]//span[1]' />
+<element name='getCategory_BIABS' locator='xpath' value='//span[@class="ls-category-name y-regular-text"]' />
+<element name='saveBtnDisabled_BIABS' locator='xpath' value='//a[@class="saveButton disabled"]' />
+
+<element name='Description_BSA' locator='id' value='gal_linkacc_des_med' />
+<element name='SelectAccountsHeader_BSA' locator='xpath' value='//div[@id="budgetsetup-body"]//span[contains(@class,"group-name-text")]' />
+<element name='AccTypeSubHeader_BSA' locator='xpath' value='//div[contains(@class,"y-border-top")]' />
+<element name='SiteName_BSA' locator='xpath' value='//div[contains(@id,"budgetAccounts")]//span[contains(@class,"account-name")]/label' />
+<element name='AccountName_BSA' locator='xpath' value='//div[contains(@id,"budgetAccounts")]//span[contains(@class,"account-name")]/div' />
+<element name='InfoIcon_BSA' locator='xpath' value='//div[@id="helpTooltip"]/span[@id="multidropdownForMediumUp"]//span' />
+<element name='CoachmarkHeader_BSA' locator='xpath' value='//div[@id="helpTooltip"]//span[@id="tool-tip-heading"]' />
+<element name='CoachmarkDescription_BSA' locator='xpath' value='//div[@id="helpTooltip"]//span[@id="tool-tip-heading"]' />
+<element name='OKButton_BSA' locator='xpath' value='//a[@id="toolTipOk"]' />
+<element name='NextButton_BSA' locator='id' value='nextBtn' />
+<element name='MobileNextButton_BSA' locator='xpath' value='//div[@id="budgetsetup-footer"]/div/div[3]/div/a[@id="gal_nextstep"]' />
+<element name='BackButton_BSA' locator='id' value='backBtn' />
+<element name='MobileBackButton_BSA' locator='xpath' value='//a[@aria-label="Back to Budget"]' />
+<element name='CheckBox_BSA' locator='xpath' value='//span[contains(@class,"customCheckBox")]' />
+
+<element name='BudgetHeader_BNA' locator='xpath' value="//h2[contains(text(),'Budget')]" />
+<element name='mobileBudgetHeader_BNA' locator='xpath' value="//h2[text()='Create a Budget']" />
+<element name='LinkAccountButton_BNA' locator='xpath' value="//div[@id='no-data-container']/div[2]//a" />
+<element name='LinkAccountHeader_BNA' locator='xpath' value="//div[@id='setup_floaterViewSection']//div[contains(@class,'headerTitle')]//div[contains(@class,'header-text')]" />
+<element name='Description_BNA' locator='xpath' value="//div[@id='content-section']//div[@id='welcomeText']/p[1]" />
+<element name='Steps_BNA' locator='xpath' value="//div[@id='budget-body']//div[@class='stepText']//h3[contains(@class,'y-primary-title')]" />
+<element name='mobilestep1text_BNA' locator='xpath' value="//*[@package='com.fi' and @content-desc='STEP 1']" />
+<element name='mobilestep2text_BNA' locator='xpath' value="//*[@package='com.fi' and @content-desc='STEP 2']" />
+<element name='mobilestep3text_BNA' locator='xpath' value="//*[@package='com.fi' and @content-desc='STEP 3']" />
+<element name='mobilestep1iconview_BNA' locator='xpath' value="//*[@package='com.fi' and @index='4']" />
+<element name='mobilestep2iconview_BNA' locator='xpath' value="//div[@class='stepSet step-container']//div[contains(@class,'stepIcon')]/i" />
+<element name='mobilestep3iconview_BNA' locator='xpath' value="//*[@package='com.fi' and @index='10']" />
+<element name='StepsIcon_BNA' locator='xpath' value="//div[@id='budget-body']//div[@class='stepText']//i[contains(@class,'yodlee-font-icon')]" />
+<element name='GetStartedButton_BNA' locator='xpath' value="//div[@id='content-section']//div[1]/div[@class='step-button']/a" />
+<element name='MobileGetStartedButton_BNA' locator='xpath' value="//div[@id='content-section']//div[2]/div[@class='step-button']/a" />
+<element name='FooterText_BNA' locator='xpath' value="//div[@id='content-section']//div[1]/div[contains(@class,'footerText')]/span" />
+<element name='MobileFooterText_BNA' locator='xpath' value="//div[contains(@class,'footerText')]/span" />
+<element name='ThreeTabs_BNA' locator='id' value="budget-setup-tabs" />
+<element name='MobileThreeTabs_BNA' locator='xpath' value="//div[@id='budget-setup-tabs']//div[contains(@class,'Tab')]/span" />
+<element name='FooterTextList_BNA' locator='xpath' value="//div[@id='app-footer-wrap']//li/a" />
+<element name='FooterLogo_BNA' locator='xpath' value="//div[contains(@class,'footerText')]/span" />
+<element name='FooterLogo1_BNA' locator='xpath' value="//div[contains(@class,'customer-logo customer')]" />
+<element name='alldoneButton_BNA' locator='xpath' value="//div[@id='content']/div/div[2]/div/div[1]/button" />
+
+<element name='CreateBudgetHeader_CB' locator='xpath' value="//span[contains(text(),'Create Budget')]" />
+<element name='MobileCreateBudgetHeader_CB' locator='xpath' value="//a[@id='link-createBudget-button']/i" />
+<element name='CreateBudgetPlusIcon_CB' locator='xpath' value="//a[@id='link-createBudget-button']/i" />
+<element name='AlertSettingsText_CB' locator='xpath' value="//a[@id='menu-link-alert-button']/span" />
+<element name='AlertSettingsIcon_CB' locator='xpath' value="//a[@id='menu-link-alert-button']/i" />
+<element name='AlertSettingsHeader_CB' locator='xpath' value="//div[@id='settings-container']//div[@id='alert-popup']//h3" />
+<element name='AlertSettingsSubheader_CB' locator='xpath' value="//div[@id='alerts-container']//div[contains(@class,'header-content')]/div/label" />
+<element name='AlertSettingsDescription_CB' locator='xpath' value="//div[@id='alerts-container']//div/span[contains(@class,'alert-description')]" />
+<element name='QAMonthlyText_CB' locator='xpath' value="//span[@id='edit-holder']/span" />
+<element name='QAMonthlyDropDown_CB' locator='xpath' value="//span[@id='edit-holder']/span//i" />
+<element name='QAMonthlyList_CB' locator='xpath' value="//span[@id='edit-holder']//ul[@id='g-dropdown']//span[1]" />
+<element name='TickMark_CB' locator='xpath' value="//span[@id='edit-holder']//ul[@id='g-dropdown']/li[1]//span[2]" />
+<element name='ToggleButton_CB' locator='xpath' value="//label[@class='alert-name-label']" />
+<element name='CancelButton_CB' locator='xpath' value="//a[@id='cancelBtn']" />
+<element name='SaveChangesButton_CB' locator='xpath' value="//div[@class='alerts-card card-layout']/div[2]/div/div[1]//a[@aria-label='Save Changes']" />
+<element name='MobleSaveChangesButton_CB' locator='xpath' value="//a[@class='y-primary-button last js-save-changes yodlee-modal-popup-btn last-button']" />
+<element name='SelectBudgetDesc_CB' locator='xpath' value="//span[@id='gal_linkacc_des_med']" />
+<element name='SelectExistingGroupText_CB' locator='xpath' value="//label[@for='groupName']" />
+<element name='BudgetDropDown_CB' locator='xpath' value="//div[@id='category-list']/input" />
+<element name='DropDownIcon_CB' locator='xpath' value="//div[@id='category-list']/span" />
+<element name='PlusIcon_CB' locator='xpath' value="//a[contains(@id,'create_group_link')]/span/i" />
+<element name='InfoIcon_CB' locator='xpath' value="//div[@id='create-group-details']//div[2]//span[@id='dropdown_icon-budget']" />
+<element name='InfoDescription_CB' locator='xpath' value="//div[@id='create-group-details']//div[2]//div[@id='tool-tip-heading-budget']" />
+<element name='CloseIcon_CB' locator='xpath' value="//div[contains(@class,'selectBoxContainer')]/div[2]//a[@aria-label='Close tooltip']" />
+<element name='ORText_CB' locator='xpath' value="//div[@id='create-group-details']//div[2]/span[text()='OR']" />
+<element name='NoGroupIcon_CB' locator='xpath' value="//div[@id='allBudgetedNoNewGroup']//div[@id='noDataIcon']" />
+<element name='NoAccountGroupText_CB' locator='xpath' value="//div[@id='allBudgetedNoNewGroup']//div[@id='noDataIcon']" />
+<element name='NoAccountGroupDesc_CB' locator='xpath' value="//div[@id='allBudgetedNoNewGroup']//p[@class='no-data-message-content']" />
+<element name='NoAccountGroupButton_CB' locator='xpath' value="//div[@id='allBudgetedNoNewGroup']//a[@id='createBudgetBtn']" />
+<element name='CreateAccountGroupHeader_CB' locator='xpath' value="//h3[@id='modalname']" />
+<element name='CreateAccountGroupDesc_CB' locator='xpath' value="//div[@id='createEditPopUp']//p" />
+<element name='GroupNameText_CB' locator='xpath' value="//form[@class='group-form']/div[1]/div[2]//label" />
+<element name='AccountToIncludeText_CB' locator='xpath' value="//form[@class='group-form']/div[1]/div[4]/div/label" />
+<element name='GroupInputBox_CB' locator='xpath' value="//input[@id='groupName']" />
+<element name='CheckBox_CB' locator='xpath' value="//span[contains(@class,'customCheckBox')]" />
+<element name='CreateGroupButton_CB' locator='xpath' value="//input[@id='createUpdateGroup']" />
+<element name='PFMTestingText_CB' locator='xpath' value="//div[@id='budgetsetup-body']/div[1]/div[contains(@class,'y-secondary-title')]/div[1]/span" />
+<element name='AccountTypeHeading_CB' locator='xpath' value="//div[@id='budgetsetup-body']//div[contains(@class,'y-persistent-header')]//div[contains(@class,'section')]//div[@role='heading']" />
+<element name='InfoIcon1_CB' locator='xpath' value="//div[@id='helpTooltip']/span[2]//span[@id='dropdown_icon']" />
+<element name='InfoText_CB' locator='xpath' value="//div[@id='helpTooltip']/span[2]//span[@id='dropdown_text']" />
+<element name='InfoHeader_CB' locator='xpath' value="//div[@id='helpTooltip']//span[@id='tool-tip-heading']" />
+<element name='InfoDescription1_CB' locator='xpath' value="//div[@class='tipmsg1 p1']" />
+<element name='CloseIcon1_CB' locator='xpath' value="//a[@id='toolTipClose']" />
+<element name='BackButton_CB' locator='xpath' value="//a[@id='backnavigation']" />
+<element name='NextButtonText_CB' locator='id' value="gal_nextstep" />
+<element name='NextButtonIcon_CB' locator='xpath' value="//a[@id='gal_nextstep']/span[2]" />
+
+<element name='titleLabel' locator='css' value=".title"></element>
+<element name='welcomeNote' locator='xpath' value="//div[@id='welcomeText']/h2"></element>
+<element name='helpText' locator='xpath' value="//div[@id='welcomeText']/p"></element>
+<element name='getStartedButton' locator='xpath' value="//div[@id='content-section']//div[3]/div[1]/div[1]/a"></element>
+<element name='selectTheAccountsText' locator='id' value="gal_linkacc_des_med"></element>
+<element name='linkAccountButton' locator='xpath' value="//div[@id='header-details']//a[@class='linkAccountBtn nowrap']"></element>
+<element name='linkAccountText' locator='xpath' value="//div[text()='Link Accounts']"></element>
+<element name='fastLinkCloseIcon' locator='css' value=".yodlee-font-icon.svg_close.closeIcon"></element>
+<element name='checkingSubHeader' locator='xpath' value="//div[@id='budgetsetup-body']/div[1]//div[1]//div[text()='Checking']"></element>
+<element name='coackMarkIcon' locator='xpath' value="//a[@id='dropdown_medium']"></element>
+<element name='okButton' locator='id' value="toolTipOk"></element>
+<element name='creditCardsSubHeader' locator='xpath' value="//div[@id='budgetsetup-body']/div[2]//div[1]//div[text()='Cards']"></element>
+<element name='savingsAndInvestmentSubHeader' locator='xpath' value="//div[contains(text(),'Savings and Investments')]"></element>
+<element name='investmentCheckBox' locator='xpath' value="//div[contains(text(),'INVESTMENT ')]//preceding::span[1]"></element>
+<element name='investmentAccount' locator='xpath' value="//div[contains(text(),'INVESTMENT')]"></element>
+<element name='whyNeedAccountsText' locator='xpath' value="//div[@id='helpTooltip']//span[2]//span"></element>
+<element name='nextButton' locator='xpath' value="//div[@id='budgetsetup-footer']//div[2]//a[@id='gal_nextstep']"></element>
+<element name='myIncomeText' locator='id' value="income"></element>
+<element name='myRecurringBillText' locator='id' value="bills"></element>
+<element name='flexibleSpendingText' locator='id' value="flexibleExpense"></element>
+<element name='basedMonthDataText' locator='id' value="headerText1"></element>
+<element name='noteText' locator='id' value="headerText2"></element>
+<element name='addiconStep1element' locator='xpath' value="//span[contains(@id,'add-font-icon-bills')]"></element>
+<element name='mobileaddiconStep1element' locator='xpath' value="//span[@id='mob-add-font-icon-bills']"></element>
+<element name='addiconStep2element' locator='xpath' value="//span[contains(@id,'add-font-')]"></element>
+<element name='mobileaddiconStep2element' locator='xpath' value="//span[@id='mob-add-font-icon-flexibleExpense']"></element>
+<element name='selectCategoryTextBox' locator='xpath' value="//p[contains(@class,'sel-txt p2')]/span[1]"></element>
+<element name='selectCategoryTextBox1' locator='css' value=".input-search"></element>
+<element name='mobileselectCategoryTextBox' locator='id' value="mtTxnCategorySelected"></element>
+<element name='selectCategoryDropDown' locator='xpath' value="//p[contains(@class,'sel-txt p2')]/span[2]"></element>
+<element name='backButton' locator='id' value="backBtn"></element>
+<element name='incomeNextButton' locator='id' value="nextBtn"></element>
+<element name='nextBtn' locator='id' value="nextBtn"></element>
+<element name='editincome' locator='id' value="edit-font-icon-income"></element>
+<element name='editflexicon' locator='id' value="edit-font-icon-flexibleExpense"></element>
+<element name='editincometext' locator='xpath' value="//input[@id='cat-amt-edit-1']"></element>
+<element name='mobileincomeNextButton' locator='id' value="nextBtnMob"></element>
+<element name='cancelButton' locator='id' value="cancel-button"></element>
+<element name='addButton' locator='id' value="add-button"></element>
+<element name='myIncomeEditIcon' locator='xpath' value="//*[@id='edit-font-icon-flexibleExpense']"></element>
+<element name='totalRecurringBillText' locator='id' value="recurBillsLbl-bills"></element>
+
+<element name='totalRecurringAmount' locator='id' value="recurBillsEle-bills"></element>
+<element name='myRecurringEditIcon' locator='xpath' value="//div[@id='bills-div']//div[2]//span[2]//a"></element>
+<element name='mobilemyRecurringEditIcon' locator='xpath' value="//span[@id='mob-edit-font-icon-bills']"></element>
+<element name='incomeAndBillInputBox' locator='xpath' value="//div[@id='categoryList']//div//div//div//div//div[2]//span"></element>
+<element name='incomeCancelButton' locator='id' value="cancelBtn"></element>
+<element name='incomeSaveButton' locator='xpath' value="//a[@id='saveBtn']"></element>
+<element name='MobileincomeSaveButton' locator='xpath' value="//a[@id='saveBtnMob']"></element>
+<element name='SaveButton' locator='xpath' value="//a[@id='nextBtn']"></element>
+<element name='MobileSaveButton' locator='xpath' value="//a[@id='nextBtnMob']"></element>
+<element name='checksCategory' locator='xpath' value="//ul/li//span[contains(text(),'Utilities')]"></element>
+<element name='editAmountInputBox' locator='id' value="editamtinputbx"></element>
+
+<element name='budgetSettingsHeader' locator='xpath' value="//div[@id='budgets-section-header']//h2"></element>
+<element name='sendMeNotificationText' locator='id' value="notificationsSettingsTitle]"></element>
+<element name='linkAccountButton' locator='xpath' value="//a[@class='linkAccountBtn']"></element>
+<element name='linkAccountBelowText' locator='xpath' value="//div[@id='budgetsetup-header']/div[2]/span"></element>
+<element name='linkAccountBelowTex' locator='xpath' value="//a[contains(@class,'linkAccountBtn')]"></element>
+<element name='AccountsLabel' locator='xpath' value="Accounts"></element>
+<element name='linkAccountButton1' locator='id' value="gal_linkaccbtn_set"></element>
+<element name='BudgetAccountDescription' locator='xpath' value="//div[@id='budgetsetup-header']//div[2]//div[contains(@class,'accountSettingsText')]"></element>
+<element name='WhyLinkThoseBudgetText' locator='xpath' value="//span[@id='tool-tip-heading']"></element>
+<element name='EditAllBudgetText' locator='id' value="Edit All Budgets"></element>
+<element name='FlexibleSpendingAddIcon' locator='xpath' value="//span[@id='add-font-icon-flexibleExpense']"></element>
+<element name='SaveChangesButton' locator='xpath' value="//a[@id='settingsSaveBtn']"></element>
+<element name='SuccessMessage' locator='xpath' value="//p[@id='feedbackText']"></element>
+<element name='BackToBudgetText' locator='xpath' value="//div[@id='budgetSettingsLayout']//span[@id='back-to-text']"></element>
+
+<element name='flexiblespendingcategories' locator='xpath' value="//label[contains(@id,'category-lbl')]"/>
+<element name='flexiblespendingediticon' locator='xpath' value='//a[@id="edit-btnflexibleExpense"]'/>
+<element name='flexiblespendingAddicon' locator='xpath' value='add-font-icon-flexibleExpense'/>
+<element name='automativeexpense' locator='id' value='//div[@id="categoryList"]/div[2]//label[contains(@id,"category-lbl")]'/>
+<element name='checkallcheckbox' locator='xpath' value="//span[@class='checkboxwrap']//span[@aria-label='Select All']"/>
+<element name='flexiblespendingcheckbox' locator='xpath' value="//div[@id='categoryList']/div//span[@class='checkboxwrap']/span"/>
+<element name='groceriescheckbox' locator='xpath' value="//span[@aria-label='Home Improvement']"/>
+<element name='flexiblespendingbasedonmonthtxt' locator='xpath' value="//p[@id='headerText2']"/>
+<element name='automativeexpensecategory' locator='xpath' value="//div[@class='multisection-dropdown outline-none1']/ul[1]/li[1]/ul[1]/li[1]/ul/li[1]/div[contains(@class,'disabled ')]"/>
+<element name='donebtn' locator='id' value='nextBtn'/>
+<element name='header' locator='id' value='groupHeaderTxt'/>
+<element name='totalflexiblespendingtxt' locator='id' value='recurBillsLbl-flexibleExpense'/>
+<element name='budgetexceedstxt' locator='id' value='bgtRsltMsg1'/>
+<element name='considerbudgetingtxt' locator='id' value='bgtRsltMsg2'/>
+
+<element name='title' locator='xpath' value="//h2[text()='Create a Budget']"/>
+<element name='rentandmortagecheckbx' locator='xpath' value="//div[@id='categoryList']/div[1]/div[@class='row'][1]//div[@class='y-tabular-row'][1]//span[@class='y-checkboxParent left'][1]//span[contains(@class,'customCheckBox')]"/>
+<element name='amtdisabled' locator='xpath' value="//div[contains(@id,'cat-amt-div')]//span[contains(@class,'disabled')]"/>
+<element name='myincometxt' locator='id' value='income'/>
+<element name='basedmonthdatatxt' locator='css' value="[id*='categoryItem'] > div > div > table>tbody>tr>td[id*='cat-amt']>span"/>
+<element name='billcategories' locator='xpath' value="//div[@id='categoryList']//span//label[contains(@id,'category-lbl')]"/>
+<element name='mobilemyincomeediticon' locator='xpath' value='//span[@id="mob-edit-font-icon-income"]'/>
+<element name='checkbx' locator='xpath' value='//span[contains(@class,"customCheckBox")]'/>
+<element name='amount' locator='xpath' value='//td[contains(@class,"y-amount-field category-amount-style right small-6 medium-4 columns")]'/>
+<element name='diableamountamount' locator='xpath' value='//td[@class="category-view-ui y-list-item-title y-amount-field category-amount-style right small-6 medium-4 columns disabled"]'/>
+<element name='CategoryValues1' locator='xpath' value='//input[contains(@id,"cat-amt") and contains(@aria-label,"ATM/Cash Withdrawals")]'/>
+<element name='EditactAmount' locator='xpath' value='//input[contains(@id,"cat-amt-edit")]'/>
+<element name='RecuringBillamountamount2' locator='xpath' value='//input[contains(@id,"cat-amt") and contains(@aria-label,"Income")]'/>
+
+<element name='budgetsettingsheader' locator='xpath' value='//div[@id="budgets-section-header"]//h2'/>
+<element name='sendmenotificationtxt' locator='id' value='notificationsSettingsTitle'/>
+<element name='notificationmsg' locator='xpath' value='//div[@id="notificationsSettingTypes"]/div/div/div/div[2]'/>
+<element name='notificationoptions' locator='xpath' value='//div[@id="notificationsSettingTypes"]/div/div/div/div[contains(text(),"Alert:")]'/>
+<element name='linkaccountbelowtxt' locator='xpath' value='//div[@id="budgetsetup-header"]/div[2]/span'/>
+<element name='linkaccountbtn' locator='xpath' value='//a[contains(@class,"linkAccountBtn")]'/>
+<element name='accountslabel' locator='id' value='Accounts'/>
+<element name='linkaccountbttn' locator='id' value='gal_linkaccbtn_set'/>
+<element name='account' locator='xpath' value='//div[@id="budgetsetup-header"]//div[2]//div[contains(@class,"accountSettingsText")]'/>
+<element name='list' locator='xpath' value='//div[@id="budgetsetup-body"]//div[1]/div[contains(@class,"section")]//div[@role="heading"]'/>
+<element name='text' locator='xpath' value='//span[@id="tool-tip-heading"]'/>
+<element name='sidebar' locator='id' value='Edit All Budgets'/>
+<element name='add' locator='xpath' value='//span[@id="add-font-icon-flexibleExpense"]'/>
+<element name='button' locator='xpath' value='//a[@id="settingsSaveBtn"]'/>
+<element name='msg' locator='xpath' value='//p[@id="feedbackText"]'/>
+<element name='back' locator='xpath' value='//div[@id="budgetSettingsLayout"]//span[@id="back-to-text"]'/>
+<element name='header_BDG' locator='id' value='groupHeaderTxt'/>
+
+
+</page>
+</Pages>

@@ -1,0 +1,292 @@
+2021-02-12 10:54:42,735 [main] INFO   c.y.c.listeners.CustomListener(159) - Approximate tests to run ~ 17
+2021-02-12 10:54:43,221 [main] TRACE  io.github.bonigarcia.wdm.Config(207) - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2021-02-12 10:54:43,224 [main] TRACE  io.github.bonigarcia.wdm.Config(214) - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using blank value
+2021-02-12 10:54:43,239 [main] TRACE  io.github.bonigarcia.wdm.Config(207) - Property wdm.proxy not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2021-02-12 10:54:43,240 [main] TRACE  io.github.bonigarcia.wdm.Config(214) - Property wdm.proxy not found in /webdrivermanager.properties, using blank value
+2021-02-12 10:54:43,920 [main] TRACE  io.github.bonigarcia.wdm.Config(207) - Property wdm.binaryPath not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2021-02-12 10:54:43,921 [main] TRACE  io.github.bonigarcia.wdm.Config(214) - Property wdm.binaryPath not found in /webdrivermanager.properties, using blank value
+2021-02-12 10:54:43,923 [main] TRACE  io.github.bonigarcia.wdm.Shell(55) - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+2021-02-12 10:54:44,211 [main] TRACE  io.github.bonigarcia.wdm.Shell(57) - Result: Version=88.0.4324.150
+2021-02-12 10:54:44,212 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(561) - Detected Google Chrome version 88
+2021-02-12 10:54:44,214 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(592) - Using preferences true
+2021-02-12 10:54:44,215 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(93) - Removing preference chrome88=88.0.4324.96 (expired on 2021-02-11 15:20:12)
+2021-02-12 10:54:44,218 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(638) - Getting driver version from local properties for chrome88
+2021-02-12 10:54:44,218 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(672) - Reading local version.properties to find out driver version
+2021-02-12 10:54:44,220 [main] DEBUG  i.g.bonigarcia.wdm.WebDriverManager(642) - Driver for chrome88 not found in local properties
+2021-02-12 10:54:44,220 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(672) - Reading online version.properties to find out driver version
+2021-02-12 10:54:44,673 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(575) - Using chromedriver 88.0.4324.96 (since Google Chrome 88 is installed in your machine)
+2021-02-12 10:54:44,674 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(513) - Managing chromedriver arch=64 version=88.0.4324.96 getLatest=false cache=false
+2021-02-12 10:54:44,674 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(815) - Checking if chromedriver exists in cache
+2021-02-12 10:54:44,675 [main] TRACE  io.github.bonigarcia.wdm.Downloader(116) - Target path C:\Users\rshrivastav/.m2/repository/webdriver
+2021-02-12 10:54:44,698 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(855) - Filter cache by chromedriver -- input list [C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe, C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39\chromedriver.exe, C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe, C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\87.0.4280.88\chromedriver.exe, C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\88.0.4324.96\chromedriver.exe, C:\Users\rshrivastav\.m2\repository\webdriver\geckodriver\win64\0.26.0\geckodriver.exe] -- output list [C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe, C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39\chromedriver.exe, C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe, C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\87.0.4280.88\chromedriver.exe, C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\88.0.4324.96\chromedriver.exe] 
+2021-02-12 10:54:44,699 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(855) - Filter cache by 88.0.4324.96 -- input list [C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe, C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\83.0.4103.39\chromedriver.exe, C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe, C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\87.0.4280.88\chromedriver.exe, C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\88.0.4324.96\chromedriver.exe] -- output list [C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\88.0.4324.96\chromedriver.exe] 
+2021-02-12 10:54:44,699 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(855) - Filter cache by win -- input list [C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\88.0.4324.96\chromedriver.exe] -- output list [C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\88.0.4324.96\chromedriver.exe] 
+2021-02-12 10:54:44,701 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(592) - Using preferences true
+2021-02-12 10:54:44,708 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(66) - Storing preference chrome88=88.0.4324.96 (valid until 2021-02-13 10:54:44)
+2021-02-12 10:54:44,710 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(592) - Using preferences true
+2021-02-12 10:54:44,710 [main] DEBUG  i.g.bonigarcia.wdm.WebDriverManager(530) - Driver chromedriver 88.0.4324.96 found in cache
+2021-02-12 10:54:44,712 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(1050) - Exporting webdriver.chrome.driver as C:\Users\rshrivastav\.m2\repository\webdriver\chromedriver\win32\88.0.4324.96\chromedriver.exe
+2021-02-12 10:54:49,960 [main] INFO   ReportGenerator(212) - ****************************************************************************************
+2021-02-12 10:54:49,961 [main] INFO   ReportGenerator(213) -                                 Sub Brand Management Tool Publish Workflows       
+2021-02-12 10:54:49,961 [main] INFO   ReportGenerator(214) - ----------------------------------------------------------------------------------------
+2021-02-12 10:54:50,167 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-02-12 10:54:50,168 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLoginPageContents By Thread with name as ##main
+2021-02-12 10:54:50,168 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-02-12 10:54:50,175 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-02-12 10:54:50,175 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLoginPageContents By Thread with name as ##main
+2021-02-12 10:54:50,176 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-02-12 10:54:50,176 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testValidateLoginPageContents
+
+2021-02-12 10:54:50,326 [main] INFO   com.yodlee.customizationtool.Login(61) - Login Page - Yodlee ID Text Box Is Present.
+2021-02-12 10:54:50,404 [main] INFO   com.yodlee.customizationtool.Login(64) - Login Page - Password Text Box Is Present.
+2021-02-12 10:54:50,479 [main] INFO   com.yodlee.customizationtool.Login(67) - Login Page - Login Button Is Present.
+2021-02-12 10:54:50,556 [main] INFO   com.yodlee.customizationtool.Login(70) - Login Page - Envestnet Yodlee Logo Is Present.
+2021-02-12 10:54:50,626 [main] INFO   com.yodlee.customizationtool.Login(73) - Login Page - Forgot Password Link Is Present.
+2021-02-12 10:54:50,775 [main] INFO   com.yodlee.customizationtool.Login(87) - Login Page - User Id Format Default Text Is Present.
+2021-02-12 10:54:50,806 [main] INFO   com.yodlee.customizationtool.Login(90) - Login Page - Login Button Is Enabled By Default.
+2021-02-12 10:54:50,807 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-02-12 10:54:50,807 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateLoginPageContents
+2021-02-12 10:54:50,807 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-02-12 10:54:50,809 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-02-12 10:54:50,809 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateLoginPageContents
+2021-02-12 10:54:50,809 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-02-12 10:54:50,810 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testValidateLoginPageContents: --->>> PASS 
+
+2021-02-12 10:54:51,428 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-02-12 10:54:51,428 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateMessageOnClickingForgotPasswordLink By Thread with name as ##main
+2021-02-12 10:54:51,429 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-02-12 10:54:51,432 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-02-12 10:54:51,433 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateMessageOnClickingForgotPasswordLink By Thread with name as ##main
+2021-02-12 10:54:51,434 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-02-12 10:54:51,434 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testValidateMessageOnClickingForgotPasswordLink
+
+2021-02-12 10:54:51,486 [main] INFO   com.yodlee.customizationtool.Login(101) - Login Page - Yodlee ID Text Box Is Present.
+2021-02-12 10:54:51,643 [main] INFO   com.yodlee.customizationtool.Login(108) - Login Page: Forgot Password On Click, Message Verification Successful.
+2021-02-12 10:54:51,644 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-02-12 10:54:51,644 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateMessageOnClickingForgotPasswordLink
+2021-02-12 10:54:51,644 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-02-12 10:54:51,646 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-02-12 10:54:51,647 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateMessageOnClickingForgotPasswordLink
+2021-02-12 10:54:51,647 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-02-12 10:54:51,648 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testValidateMessageOnClickingForgotPasswordLink: --->>> PASS 
+
+2021-02-12 10:54:51,735 [main] DEBUG  org.databene.commons.IOUtil(115) - isURIAvailable(converters.txt)
+2021-02-12 10:54:51,736 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(converters.txt, false)
+2021-02-12 10:54:51,737 [main] DEBUG  org.databene.commons.IOUtil(488) - getResourceAsStream(converters.txt, false)
+2021-02-12 10:54:51,738 [main] DEBUG  org.databene.CONFIG(85) - No custom converter setup 'converters.txt' found; using defaults.
+2021-02-12 10:54:51,741 [main] DEBUG  org.databene.commons.IOUtil(181) - getInputStreamForURI(org/databene/commons/converter/converters.txt, true)
+2021-02-12 10:54:51,742 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(org/databene/commons/converter/converters.txt, true)
+2021-02-12 10:54:51,743 [main] DEBUG  org.databene.commons.IOUtil(488) - getResourceAsStream(org/databene/commons/converter/converters.txt, true)
+2021-02-12 10:54:51,751 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2TimestampConverter
+2021-02-12 10:54:51,757 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2TimeConverter
+2021-02-12 10:54:51,759 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Time2StringConverter
+2021-02-12 10:54:51,760 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2DateConverter
+2021-02-12 10:54:51,761 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2LocaleConverter
+2021-02-12 10:54:51,763 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Locale2StringConverter
+2021-02-12 10:54:51,765 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2ClassConverter
+2021-02-12 10:54:51,767 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Class2StringConverter
+2021-02-12 10:54:51,768 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Date2TimestampConverter
+2021-02-12 10:54:51,769 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Timestamp2DateConverter
+2021-02-12 10:54:51,771 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Date2CalendarConverter
+2021-02-12 10:54:51,773 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Calendar2DateConverter
+2021-02-12 10:54:51,775 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Date2LongConverter
+2021-02-12 10:54:51,776 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Long2DateConverter
+2021-02-12 10:54:51,777 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating UtilDate2SqlDateConverter
+2021-02-12 10:54:51,779 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating SqlDate2UtilDateConverter
+2021-02-12 10:54:51,780 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating ByteArrayToBase64Converter
+2021-02-12 10:54:51,781 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating Base64ToByteArrayConverter
+2021-02-12 10:54:51,783 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2GregorianCalendarConverter
+2021-02-12 10:54:51,784 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2DateFormatConverter
+2021-02-12 10:54:51,786 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2NumberFormatConverter
+2021-02-12 10:54:51,787 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2PatternConverter
+2021-02-12 10:54:51,789 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2CharConverter
+2021-02-12 10:54:51,791 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2ConverterConverter
+2021-02-12 10:54:51,797 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting date (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,817 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: date[]
+2021-02-12 10:54:51,817 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting big_decimal (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,818 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: big_decimal[]
+2021-02-12 10:54:51,819 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,820 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: string[]
+2021-02-12 10:54:51,821 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting byte (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,822 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: byte[]
+2021-02-12 10:54:51,823 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting big_integer (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,823 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: big_integer[]
+2021-02-12 10:54:51,824 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting double (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,824 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: double[]
+2021-02-12 10:54:51,825 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting float (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,826 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: float[]
+2021-02-12 10:54:51,826 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting int (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,827 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: int[]
+2021-02-12 10:54:51,827 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting long (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,828 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: long[]
+2021-02-12 10:54:51,829 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting boolean (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,830 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: boolean[]
+2021-02-12 10:54:51,831 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting array (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,832 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: array[]
+2021-02-12 10:54:51,833 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting binary (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,833 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: binary[]
+2021-02-12 10:54:51,834 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting short (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,835 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: short[]
+2021-02-12 10:54:51,835 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting time (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,836 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: time[]
+2021-02-12 10:54:51,837 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting timestamp (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,837 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: timestamp[]
+2021-02-12 10:54:51,838 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting object (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,838 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added SimpleTypeDescriptor: object[]
+2021-02-12 10:54:51,839 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting entity (java.lang.String) to class java.lang.String
+2021-02-12 10:54:51,842 [main] DEBUG  o.d.m.d.DefaultDescriptorProvider(65) - added ComplexTypeDescriptor: entity[]
+2021-02-12 10:54:51,846 [main] DEBUG  org.databene.model.data.DataModel(138) - validating date[]
+2021-02-12 10:54:51,852 [main] DEBUG  org.databene.model.data.DataModel(138) - validating big_decimal[]
+2021-02-12 10:54:51,853 [main] DEBUG  org.databene.model.data.DataModel(138) - validating string[]
+2021-02-12 10:54:51,853 [main] DEBUG  org.databene.model.data.DataModel(138) - validating byte[]
+2021-02-12 10:54:51,854 [main] DEBUG  org.databene.model.data.DataModel(138) - validating big_integer[]
+2021-02-12 10:54:51,854 [main] DEBUG  org.databene.model.data.DataModel(138) - validating double[]
+2021-02-12 10:54:51,855 [main] DEBUG  org.databene.model.data.DataModel(138) - validating float[]
+2021-02-12 10:54:51,855 [main] DEBUG  org.databene.model.data.DataModel(138) - validating int[]
+2021-02-12 10:54:51,855 [main] DEBUG  org.databene.model.data.DataModel(138) - validating long[]
+2021-02-12 10:54:51,855 [main] DEBUG  org.databene.model.data.DataModel(138) - validating boolean[]
+2021-02-12 10:54:51,856 [main] DEBUG  org.databene.model.data.DataModel(138) - validating array[]
+2021-02-12 10:54:51,856 [main] DEBUG  org.databene.model.data.DataModel(138) - validating binary[]
+2021-02-12 10:54:51,856 [main] DEBUG  org.databene.model.data.DataModel(138) - validating short[]
+2021-02-12 10:54:51,857 [main] DEBUG  org.databene.model.data.DataModel(138) - validating time[]
+2021-02-12 10:54:51,857 [main] DEBUG  org.databene.model.data.DataModel(138) - validating timestamp[]
+2021-02-12 10:54:51,858 [main] DEBUG  org.databene.model.data.DataModel(138) - validating object[]
+2021-02-12 10:54:51,859 [main] DEBUG  org.databene.model.data.DataModel(138) - validating entity[]
+2021-02-12 10:54:52,244 [main] DEBUG  org.databene.CONFIG(191) - Initializing Script mapping from file org/databene/script/script.properties
+2021-02-12 10:54:52,245 [main] DEBUG  org.databene.commons.IOUtil(181) - getInputStreamForURI(org/databene/script/script.properties, true)
+2021-02-12 10:54:52,246 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(org/databene/script/script.properties, true)
+2021-02-12 10:54:52,246 [main] DEBUG  org.databene.commons.IOUtil(488) - getResourceAsStream(org/databene/script/script.properties, true)
+2021-02-12 10:54:52,251 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating FreeMarkerScriptFactory
+2021-02-12 10:54:52,253 [main] DEBUG  org.databene.commons.BeanUtil(952) - Instantiating String2DistributionConverter
+2021-02-12 10:54:52,256 [main] DEBUG  org.databene.commons.IOUtil(181) - getInputStreamForURI(org/databene/commons/special-letters.properties, true)
+2021-02-12 10:54:52,257 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(org/databene/commons/special-letters.properties, true)
+2021-02-12 10:54:52,257 [main] DEBUG  org.databene.commons.IOUtil(488) - getResourceAsStream(org/databene/commons/special-letters.properties, true)
+2021-02-12 10:54:52,261 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting benerator:defaultComponent (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,267 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testValidateLogin (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,269 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testValidateLogin (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,270 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting null to class java.lang.String
+2021-02-12 10:54:52,272 [main] DEBUG  o.d.benerator.anno.AnnotationMapper(182) - mapDetails(@org.databene.benerator.anno.Source(filter=, selector=, id=, nesting=, encoding=, value=src\test\resources\testdata\ValidateLogin.csv, separator=, uri=, dataset=), testValidateLogin[])
+2021-02-12 10:54:52,275 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting src\test\resources\testdata\ValidateLogin.csv (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,278 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 0 (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,279 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,280 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 1 (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,281 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,281 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 2 (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,281 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,282 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 3 (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,282 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,282 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 4 (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,283 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,283 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting 5 (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,283 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting string (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,290 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(75) - createArrayGenerator(testValidateLogin)
+2021-02-12 10:54:52,297 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(142) - createCSVSourceGenerator(ArrayTypeDescriptor[0[type=string], 1[type=string], 2[type=string], 3[type=string], 4[type=string], 5[type=string]])
+2021-02-12 10:54:52,303 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting testValidateLogin (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,314 [main] DEBUG  o.d.b.factory.ArrayGeneratorFactory(90) - Created VariableAwareGenerator[
+    ConvertingGenerator
+]
+2021-02-12 10:54:52,316 [main] DEBUG  org.databene.commons.IOUtil(232) - resolveLocalUri(src\test\resources\testdata\ValidateLogin.csv, .)
+2021-02-12 10:54:52,318 [main] DEBUG  org.databene.commons.IOUtil(181) - getInputStreamForURI(src/test/resources/testdata/ValidateLogin.csv, true)
+2021-02-12 10:54:52,319 [main] DEBUG  org.databene.commons.IOUtil(473) - getFileOrResourceAsStream(src/test/resources/testdata/ValidateLogin.csv, true)
+2021-02-12 10:54:52,329 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-113117 (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,329 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,330 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting InvalidInput (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,331 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting invalid@pfml1stage (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,331 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Yodlee@123 (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,332 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Invalid user credentials (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,332 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@5cb5bb88
+2021-02-12 10:54:52,333 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-113127 (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,333 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,333 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting NoInput (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,334 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting  (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,334 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting  (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,334 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Uh-oh! You've entered wrong username/ password. Please re-enter credentials (java.lang.String) to class java.lang.String
+2021-02-12 10:54:52,335 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@17b6d426
+2021-02-12 10:54:52,335 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-02-12 10:54:52,335 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLogin By Thread with name as ##main
+2021-02-12 10:54:52,336 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-02-12 10:54:52,338 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-02-12 10:54:52,338 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLogin By Thread with name as ##main
+2021-02-12 10:54:52,339 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-02-12 10:54:52,339 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testValidateLogin ( AT-113117 , TRUE , InvalidInput , invalid@pfml1stage , Yodlee@123 , Invalid user credentials ) 
+
+2021-02-12 10:54:52,388 [main] INFO   com.yodlee.customizationtool.Login(124) - Successfully Loaded Login Page
+2021-02-12 10:55:04,310 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-02-12 10:55:04,311 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateLogin
+2021-02-12 10:55:04,311 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-02-12 10:55:04,313 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-02-12 10:55:04,313 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateLogin
+2021-02-12 10:55:04,313 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-02-12 10:55:04,313 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testValidateLogin ( AT-113117 , TRUE , InvalidInput , invalid@pfml1stage , Yodlee@123 , Invalid user credentials ) : --->>> PASS 
+
+2021-02-12 10:55:04,378 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting AT-113116 (java.lang.String) to class java.lang.String
+2021-02-12 10:55:04,379 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting TRUE (java.lang.String) to class java.lang.String
+2021-02-12 10:55:04,379 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting ValidInput (java.lang.String) to class java.lang.String
+2021-02-12 10:55:04,380 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting rajeev@pfml1stage (java.lang.String) to class java.lang.String
+2021-02-12 10:55:04,380 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting Yodlee@123 (java.lang.String) to class java.lang.String
+2021-02-12 10:55:04,380 [main] DEBUG  o.d.commons.converter.AnyConverter(92) - Converting null to class java.lang.String
+2021-02-12 10:55:04,380 [main] DEBUG  o.d.b.c.VariableAwareGenerator(96) - Generated [Ljava.lang.Object;@1a865273
+2021-02-12 10:55:04,381 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-02-12 10:55:04,381 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLogin By Thread with name as ##main
+2021-02-12 10:55:04,381 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-02-12 10:55:04,383 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-02-12 10:55:04,383 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLogin By Thread with name as ##main
+2021-02-12 10:55:04,384 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-02-12 10:55:04,384 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testValidateLogin ( AT-113127 , TRUE , NoInput ,  ,  , Uh-oh! You've entered wrong username/ password. Please re-enter credentials ) 
+
+2021-02-12 10:55:04,434 [main] INFO   com.yodlee.customizationtool.Login(124) - Successfully Loaded Login Page
+2021-02-12 10:55:09,273 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-02-12 10:55:09,274 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.Login##testValidateLogin
+2021-02-12 10:55:09,274 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-02-12 10:55:09,274 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-02-12 10:55:09,274 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::The following asserts failed:
+	Login Page: Actual And the Expected Do Not Match When Blank User Id Is Mentioned, Actual is  Expected is Required field. expected [Required field.] but found []
+2021-02-12 10:55:09,275 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-02-12 10:55:09,806 [main] INFO   c.y.c.listeners.CustomListener(82) - ===========================================================================
+2021-02-12 10:55:09,807 [main] INFO   c.y.c.listeners.CustomListener(83) - FAILED - com.yodlee.customizationtool.Login##testValidateLogin
+2021-02-12 10:55:09,807 [main] INFO   c.y.c.listeners.CustomListener(84) - ===========================================================================
+2021-02-12 10:55:09,807 [main] INFO   c.y.c.listeners.CustomListener(86) - ===========================================================================
+2021-02-12 10:55:09,807 [main] INFO   c.y.c.listeners.CustomListener(87) - FAILURE REASON :::The following asserts failed:
+	Login Page: Actual And the Expected Do Not Match When Blank User Id Is Mentioned, Actual is  Expected is Required field. expected [Required field.] but found []
+2021-02-12 10:55:09,808 [main] INFO   c.y.c.listeners.CustomListener(88) - ===========================================================================
+2021-02-12 10:55:10,596 [main] ERROR  ReportGenerator(86) - 
+
+ testValidateLogin ( AT-113127 , TRUE , NoInput ,  ,  , Uh-oh! You've entered wrong username/ password. Please re-enter credentials )  test has failed 
+
+
+2021-02-12 10:55:10,677 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-02-12 10:55:10,678 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLogin By Thread with name as ##main
+2021-02-12 10:55:10,678 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-02-12 10:55:10,681 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-02-12 10:55:10,681 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.Login##testValidateLogin By Thread with name as ##main
+2021-02-12 10:55:10,682 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-02-12 10:55:10,682 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> testValidateLogin ( AT-113116 , TRUE , ValidInput , rajeev@pfml1stage , Yodlee@123
+
+2021-02-12 10:55:10,738 [main] INFO   com.yodlee.customizationtool.Login(124) - Successfully Loaded Login Page
+2021-02-12 10:55:24,699 [main] INFO   com.yodlee.customizationtool.Login(130) - Successfully Logged In To Sub-Brand Management Portal Page
+2021-02-12 10:55:24,700 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-02-12 10:55:24,700 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateLogin
+2021-02-12 10:55:24,700 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-02-12 10:55:24,702 [main] INFO   c.y.c.listeners.CustomListener(70) - ==============================================================================
+2021-02-12 10:55:24,702 [main] INFO   c.y.c.listeners.CustomListener(71) - PASSED - com.yodlee.customizationtool.Login#testValidateLogin
+2021-02-12 10:55:24,702 [main] INFO   c.y.c.listeners.CustomListener(72) - ==============================================================================
+2021-02-12 10:55:24,702 [main] INFO   ReportGenerator(169) - 
+
+ TestCase: testValidateLogin ( AT-113116 , TRUE , ValidInput , rajeev@pfml1stage , Yodlee@123: --->>> PASS 
+

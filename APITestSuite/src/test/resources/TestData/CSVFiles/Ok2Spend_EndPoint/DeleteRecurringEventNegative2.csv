@@ -1,0 +1,3 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,recurringEventId,sourceType,accountStatus,enabled
+AT-115482,Closed account,400,InvalidPredictedEventId.json,../src/test/resources/TestData/ErrorMessage/,VALID,SYSTEM_PREDICTED,CLOSED,TRUE
+AT-115483,Inactive account,400,InvalidPredictedEventId.json,../src/test/resources/TestData/ErrorMessage/,VALID,SYSTEM_PREDICTED,INACTIVE,TRUE

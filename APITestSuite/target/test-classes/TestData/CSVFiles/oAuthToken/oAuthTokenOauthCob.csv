@@ -1,0 +1,17 @@
+tcId,tcName,siteId,appCallBackUrl,applicationName,status,resFile,filePath,enabled
+AT-68150,DagOAuth with Call Back,19335,https://www.yodlee.com,null,200,oAuthTokenValidRespWithCallBackUrl.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+AT-68151,DagOAuth with out Call Back,19335,null,null,200,oAuthTokenValidRespWithOutCallBackUrl.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+AT-68152,NationWide with Call Back,24161,https://www.yodlee.com,null,200,oAuthTokenValidRespWithCallBackUrl.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+AT-68153,NationWide with out Call Back,24161,null,null,200,oAuthTokenValidRespWithOutCallBackUrl.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+AT-68154,ModelO with Call Back,24016,https://www.yodlee.com,null,200,oAuthTokenValidRespWithCallBackUrl.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+AT-68155,ModelO with out Call Back,24016,null,null,200,oAuthTokenValidRespWithOutCallBackUrl.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+"AT-68156,AT-69160",Credential Site with Call Back,16441,https://www.yodlee.com,null,400,oAuthTokenServiceNotSupportedResp.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+"AT-68157,AT-68161",Credential Site with out Call Back,16441,null,null,400,oAuthTokenServiceNotSupportedResp.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+"AT-68158,AT-68162",A Site with invalid Param,abc,https://www.yodlee.com,null,400,oAuthTokenInValidValueForJson.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+AT-68159,A Site with invalid Param without app call back,abc,null,null,400,oAuthTokenInValidValueForJson.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+AT-89495,DagOAuth with Application Name,19335,https://www.yodlee.com,IQBankApp,200,oAuthTokenValidRespWithCallBackUrl.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+AT-89494,Modelo with Application Name,24016,https://www.yodlee.com,IQBankApp,200,oAuthTokenValidRespWithCallBackUrl.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+AT-89496,DagOAuth with Application Name no call back,19335,null,IQBankApp,200,oAuthTokenValidRespWithOutCallBackUrl.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+AT-89491,Modelo with Application Name no call back,24016,null,IQBankApp,200,oAuthTokenValidRespWithOutCallBackUrl.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+AT-89490,Dag Oauth with Invalid Application Name,19335,https://www.yodlee.com,IQBankAppInvalid,400,oAuthTokenInValidValueForApplictionName.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE
+"AT-89493, AT-89492",Modelo with Invalid Application Name,24016,null,IQBankAppInvalid,400,oAuthTokenInValidValueForApplictionName.json,../src/test/resources/TestData/JSONFiles/oAuthToken/,TRUE

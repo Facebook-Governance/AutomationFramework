@@ -1,0 +1,22 @@
+<entity type="multiple">
+<request>
+<get-accounts-multiple>
+<get-accounts order="1">
+<container></container>
+ <accountReconType></accountReconType>
+ <include>fullAccountNumber</include>
+</get-accounts>
+</get-accounts-multiple>
+</request>
+
+<response>
+	<get-accounts-multiple>
+	<get-accounts order="1">
+		<row>
+			<filePath>../src/test/resources/TestData/JSONFiles/Sdg/FAN/</filePath>
+			<responseFile>nocontainer_fan_account.json</responseFile>
+		</row>
+	</get-accounts>
+	</get-accounts-multiple>
+</response>
+</entity>

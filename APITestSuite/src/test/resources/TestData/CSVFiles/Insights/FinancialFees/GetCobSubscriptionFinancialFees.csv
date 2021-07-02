@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-146482,"Validate FinancialFees , Validate InsightName",,FinancialFees,FinancialFees,,,,,,,,,,,200,TRUE
+AT-146482,"Validate FinancialFees , Validate Supporting container",,FinancialFees,FinancialFees,,"BANK,CARD",,,,,,,,,200,TRUE
+AT-146482,"Validate FinancialFees , Validate TriggerType",SCHEDULE,FinancialFees,FinancialFees,,,,,,,,,,,200,TRUE
+AT-146482,"Validate FinancialFees , Validate applicableEntity",,FinancialFees,FinancialFees,,,,,ACCOUNT VIEW,,,,,,200,TRUE
+AT-146482,"Validate FinancialFees , Validate number of levels and levelObject",,FinancialFees,FinancialFees,,,,,ACCOUNT VIEW,"account,view",,,,,200,TRUE
+AT-146482,"Validate FinancialFees , Validate isSubscribed=false",,FinancialFees,FinancialFees,,,,,,"account,view",TRUE,,,,200,TRUE
+AT-146482,"Validate FinancialFees , Validate view_insightKeys for FinancialFees",,FinancialFees,FinancialFees,,,View,,View,,,,,,200,TRUE
+AT-146482,"Validate FinancialFees , Validate description",,FinancialFees,FinancialFees,,,,Generates an insight that provides financial fee trends over a configured time period.,,,,,,,200,TRUE
+AT-146482,"Validate FinancialFees , Validate title",,FinancialFees,FinancialFees,Financial Fees,,,,,,,,,,200,TRUE
+AT-146482,"Validate FinancialFees , Validate frequency=DAILY",,FinancialFees,FinancialFees,,,,,,account,,DAILY,,,200,TRUE
+AT-137646,"Validate FinancialFees , Validate account_insightKeys for FinancialFees when isSubscribed is FALSE",,FinancialFees,FinancialFees,,,Account,,Account,,FALSE,,,,200,TRUE
+AT-137645,"Validate FinancialFees , Validate account_insightKeys for FinancialFees",,FinancialFees,FinancialFees,,,Account,,Account,,,,,,200,TRUE

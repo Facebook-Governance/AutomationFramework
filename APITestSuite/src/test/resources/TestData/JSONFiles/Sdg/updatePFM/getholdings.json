@@ -1,0 +1,146 @@
+{
+    "holding": [
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "sedol": "BPZPK82",
+            "isin": "US25159K8797",
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "costBasis": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "cusipNumber": "25159K879",
+            "isShort": false,
+            "description": "Deutsche Real Assets A",
+            "employeeContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "holdingType": "mutualFund",
+            "optionType": "unknown",
+            "price": {
+                "amount": 8.93,
+                "currency": "USD"
+            },
+            "quantity": 8000,
+            "symbol": "AAAAX",
+            "value": {
+                "amount": 5600,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "sedol": "2005973",
+            "isin": "US4592001014",
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "costBasis": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "cusipNumber": "459200101",
+            "isShort": false,
+            "description": "International Business Machines Corp",
+            "employeeContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "holdingType": "preferredStock",
+            "optionType": "unknown",
+            "price": {
+                "amount": 158,
+                "currency": "USD"
+            },
+            "quantity": 2000,
+            "symbol": "IBM",
+            "value": {
+                "amount": 5600,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "isin": "US00790T1007",
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "costBasis": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "cusipNumber": "00790T100",
+            "isShort": false,
+            "description": "ADACAP Shs Sponsored American Deposit Receipt Repr 2 Shs",
+            "employeeContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "holdingType": "stock",
+            "optionType": "unknown",
+            "price": {
+                "amount": 36.6,
+                "currency": "USD"
+            },
+            "quantity": 2000,
+            "symbol": "AAAP",
+            "value": {
+                "amount": 5600,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "isin": "US0605051046",
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "costBasis": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "cusipNumber": "060505104",
+            "isShort": false,
+            "description": "Bank of America Corp",
+            "employeeContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "holdingType": "stock",
+            "optionType": "unknown",
+            "price": {
+                "amount": 20,
+                "currency": "USD"
+            },
+            "quantity": 2000,
+            "symbol": "BAC",
+            "value": {
+                "amount": 5600,
+                "currency": "USD"
+            }
+        }
+    ]
+}

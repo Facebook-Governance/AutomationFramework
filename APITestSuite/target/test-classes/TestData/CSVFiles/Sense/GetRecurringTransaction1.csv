@@ -1,0 +1,16 @@
+TcId,Testcase Name,fromDate,toDate,container,baseType,keyword,accountId,recurringEventId,sourceType,categoryId,type,categoryType,skip,top,httpStatusCode,respFile,FilePath,enabled
+4,InvalidValueForSkip,,,,,,,,,,,,-1,,200,InvalidValueForSkip.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+5,InvalidValueForTop,,,,,,,,,,,,,-1,200,InvalidValueForTop.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+6,InvalidValueForTop,,,,,,,,,,,,,501,400,InvalidValueForTop.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+7,InvalidValueForSkip,,,,,,,,,,,,501,,400,nullResponse.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+9,InvalidSourceType,,,,,,,,xyz,,,,,,400,InvalidValueForSourceType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+11,InvalidContainer,,,xyz,,,,,,,,,,,400,InvalidTransactionType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+12,ValidRecurringEventId,"0,0,0","0,1,10",,,,,VALID,"MANUAL,SYSTEM_PREDICTED",,,,,,200,ValidRecurringEventId.json,../src/test/resources/TestData/JSONFiles/GetRecurringTransaction/,TRUE
+13,RecurringEventIdOfOtherUser,,,,,,,OTHER_USER,"MANUAL,SYSTEM_PREDICTED",,,,,,400,InvalidRecurringEventId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+14,InvalidRecurringEventId,,,,,,,INVALID,"MANUAL,SYSTEM_PREDICTED",,,,,,400,InvalidRecurringEventId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+15,Future-AGGREGATED,"0,0,1","0,0,10",,,,,,AGGREGATED,,,,,,200,nullResponse.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+16,SourceType-AGGREGATED,"-1,-1,-1","0,0,0",,,,,,,,,,,,200,AggregatedTransactions.json,../src/test/resources/TestData/JSONFiles/GetRecurringTransaction/,TRUE
+17,Past-System,"0,-1,-1","0,0,0",,,,,,SYSTEM_PREDICTED,,,,,,200,nullResponse.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+18,Past-Manual,"0,-1,-1","0,0,0",,,,,,MANUAL,,,,,,200,nullResponse.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+19,ValidKeyword,"0,0,0","0,1,10",,,Zelle,,,SYSTEM_PREDICTED,,,,,,200,ValidKeyword.json,../src/test/resources/TestData/JSONFiles/GetRecurringTransaction/,TRUE
+22,Invalid-KeywordWithoutSourceType,"0,0,0","0,1,10",,,dfjkdnfiv,,,,,,,,,200,nullResponse.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE

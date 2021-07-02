@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,insightType,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-147550,getUserSubscription -NewSubscription- Validate InsightName,,NewSubscription,NewSubscription,,,,,,,,,,,,,,200,TRUE
+AT-147541,getUserSubscription -NewSubscription- Validate Supporting container,,NewSubscription,,,"BANK,CARD",,,,,,,,,,,,200,TRUE
+AT-147548,getUserSubscription -NewSubscription- Validate TriggerType,EVENT,NewSubscription,,,,,,,,,,,,,,,200,TRUE
+AT-147547,getUserSubscription -NewSubscription- Validate applicableEntity,,NewSubscription,,,,,,,ACCOUNT VIEW,,,,,,,,200,TRUE
+AT-147540,getUserSubscription -NewSubscription- Validate number of levels and levelObject,,NewSubscription,,,,,,,ACCOUNT VIEW,"account,view",,,,,,,200,TRUE
+AT-147543,getUserSubscription -NewSubscription- Validate isSubscribed=false,,NewSubscription,,,,,,,,"account,view",FALSE,,,,,,200,TRUE
+AT-147544,getUserSubscription -NewSubscription- Validate insightKeys,,NewSubscription,,,,Account,,,,,,,,,,,200,TRUE
+AT-147549,getUserSubscription -NewSubscription- Validate description,,NewSubscription,,,,,,This is an event based insight which is generated when any new bill is detected.,,,,,,,,,200,TRUE
+AT-147539,getUserSubscription -NewSubscription- Validate title,,NewSubscription,,New Subscription,,,,,,,,,,,,,200,TRUE
+AT-147545,getUserSubscription -NewSubscription- Validate total number of keys,,NewSubscription,,,,,18,,,,,,,,,,200,TRUE
+AT-147546,getUserSubscription -NewSubscription- Validate InsightType,,NewSubscription,NewSubscription,,,,,,,,,,OTHER,,,,200,TRUE
+AT-147542,getUserSubscription -NewSubscription- Validate-View,,NewSubscription,,,,View,,,,,,,,,,,200,TRUE

@@ -1,0 +1,57 @@
+TestCaseID,TestCaseName,status,container,providerAccID,accReconType,cobsessionToken,userSessionToken,filePath,resFile
+AT-61766,,invalid,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-62976,,abcdef,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-62977,,123456,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-62978,,abcd1234ef,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-62979,,%#^#^^,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-62980,,,invalid,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidContainer.json
+AT-62981,,,abcdef,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidContainer.json
+AT-62982,,,1234565,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidContainer.json
+AT-62983,,,abfd1234ef,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidContainer.json
+AT-62984,,,%%#^%^,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidContainer.json
+AT-62985,,,,invalid,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidProviderAcc.json
+AT-62986,,,,abcedef,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidProviderAcc.json
+AT-62987,,,,1233455,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidProviderAcc.json
+AT-62988,,,,afffdsf3f55,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidProviderAcc.json
+AT-62989,,,,$$%^$%^#^,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidProviderAcc.json
+AT-62990,,,,,invalid,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidAccRecon.json
+AT-62991,,,,,abcdefe,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidAccRecon.json
+AT-62992,,,,,1324343,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidAccRecon.json
+AT-62993,,,,,afgsfd45664ef,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidAccRecon.json
+AT-62994,,,,,%%^&$#^&,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidAccRecon.json
+AT-62995,wrong enum active,active,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-62996,wrong enum inactive,inactive,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-62997,wrong enum closed,closed,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-62998,wrong enum deleted,deleted,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-62999,wrong enum tobeclosed,tobeclosed,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-63000,with enum DEFAULT,DEFAULT,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-63001,with enum NONDELETED,NONDELETED,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-63002,with enum UNRECONCILED_DEFAULT,UNRECONCILED_DEFAULT,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-63003,with enum UNRECONCILED_ACTIVE,UNRECONCILED_ACTIVE,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-63004,with enum UNRECONCILED_CLOSED,UNRECONCILED_CLOSED,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-63005,with enum UNRECONCILED_INACTIVE,UNRECONCILED_INACTIVE,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-63006,with enum UNRECONCILED_DELETED,UNRECONCILED_DELETED,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-63007,with enum UNRECONCILED_TO_BE_CLOSED,UNRECONCILED_TO_BE_CLOSED,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-63008,with enum UNRECONCILED_NONDELETED,UNRECONCILED_NONDELETED,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-63009,with enum TRANX_STATUS,TRANX_STATUS,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-63010,with enum UNRECONCILED_TRANX_STATUS_DELETED,UNRECONCILED_TRANX_STATUS_DELETED,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-63011,with enum UNRECONCILED_TRANX_STATUS,UNRECONCILED_TRANX_STATUS,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-63012,with enum DATA_EXTRACT,DATA_EXTRACT,,,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidStatus.json
+AT-63013,invalid enum -accountReconType,,,,unreconciled,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidAccRecon.json
+AT-63014,invalid enum -accountReconType,,,,reconciled,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidAccRecon.json
+AT-63015,invalid enum -accountReconType,,,,both,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidAccRecon.json
+AT-63016,invalid enum -accountReconType,,,,"reconciled,reconciled",VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidAccRecon.json
+AT-63017,invalid enum -accountReconType,,,,"unreconciled,reconciled",VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidAccRecon.json
+AT-63018,invalid enum -accountReconType,,,,"unreconciled,unreconciled",VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidAccRecon.json
+AT-63019,invalid cobsession,,,,,INVALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidcobsession.json
+AT-63020,invalid userSession,,,,,VALID,INVALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidcobsession.json
+AT-63021,empty cobsession,,,,,,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidsession.json
+AT-63022,Both empty cobSession,,,,,VALID,,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidsession.json
+AT-63023,expired cobsession,,,,,EXPIRED,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidsession.json
+AT-63024,expired user session,,,,,VALID,EXPIRED,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidsession.json
+AT-63025,empty cobsession and expired user session,,,,,,EXPIRED,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidsession.json
+AT-63026,expired cobsession and emtpy user session,,,,,EXPIRED,,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidsession.json
+AT-63027,both expired sessions,,,,,EXPIRED,EXPIRED,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidsession.json
+AT-63028,maximum length for provider acc id,,,MAX_COUNT,,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidProviderAcc.json
+AT-63029,all invalid with valid session,invalid,invalid,invalid,invalid,VALID,VALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,allInvalid.json
+AT-63030,all invalid with invalid session,invalid,invalid,invalid,invalid,INVALID,INVALID,../src/test/resources/TestData/Accounts/Get Accounts/Negative/,invalidsession.json

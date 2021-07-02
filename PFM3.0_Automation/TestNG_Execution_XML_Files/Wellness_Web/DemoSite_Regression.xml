@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+
+	<!-- <parameter name="coBrand" value="YCOM_L1BackUp" /> <parameter name="loginType" 
+		value="L1NODE" /> -->
+	<parameter name="browser" value="chrome" />
+	<parameter name="runOnBrowserStack" value="false" />
+	<parameter name="bs_username" value="yodleebrowsersta1" />
+	<parameter name="bs_automate_key"
+		value="pzyoTJ6embZ48zsufsF2" />
+	<parameter name="browser_version" value="43" />
+	<parameter name="platformName" value="OS X" />
+	<parameter name="platformVersion" value="YOSEMITE" />
+	<parameter name="elpamEnabled" value="true" />
+	<parameter name="appFlag" value="false" />
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="suiteName"
+		value="Wellness Suite 10 - DemoSite" />
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.omni.pfm.listeners.CustomListener" />
+		<listener
+			class-name="com.automation.rdashboard.ReportDashboardPlugin" />
+	</listeners>
+
+
+	<test name="SignUp">
+		<classes>
+			<class name="com.omni.pfm.DemoSite.SignUp_Test"></class>
+		</classes>
+	</test>
+
+	<test name="LoginEnhancement">
+		<classes>
+			<class name="com.omni.pfm.DemoSite.LoginEnhancement_Test"></class>
+		</classes>
+
+	</test>
+
+
+	<!-- <test name="RememberMe"> <classes> <class name="com.omni.pfm.DemoSite.Login_RememberMe_Test"></class> 
+		</classes> </test> -->
+
+
+	<test name="LandingScreen">
+		<classes>
+			<class name="com.omni.pfm.DemoSite.LandingScreen_Test"></class>
+		</classes>
+	</test>
+
+	<test name="PersonalInfo">
+		<classes>
+			<class name="com.omni.pfm.DemoSite.PersonalInfo_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Update Password">
+		<classes>
+			<class name="com.omni.pfm.DemoSite.UpdatePassword_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Update Security Questions">
+		<classes>
+			<class name="com.omni.pfm.DemoSite.UpdateSecurityQues_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Update Preferences">
+		<classes>
+			<class name="com.omni.pfm.DemoSite.UpdatePreferences_Test"></class>
+		</classes>
+	</test>
+
+
+	<test name="Create Service Request">
+		<classes>
+			<class name="com.omni.pfm.DemoSite.CreateServiceRequest_Test"></class>
+		</classes>
+	</test>
+
+	<test name="List Service Requests">
+		<classes>
+			<class name="com.omni.pfm.DemoSite.ListServiceRequests_Test"></class>
+		</classes>
+	</test>
+
+	<test name="DemoSite DeleteMyAccount">
+		<classes>
+			<class
+				name="com.omni.pfm.DemoSite.DeleteMyAccount_HappyPath_Test"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,67 @@
+{
+  "links": {
+    "transactions": "${json-unit.ignore}"
+  },
+  "transactionSummary": [
+    {
+      "categoryType": "EXPENSE",
+      "categorySummary": [
+        {
+          "details": [
+            {
+              "date": "${json-unit.ignore}",
+              "debitTotal": {
+                "amount": 8000,
+                "currency": "USD"
+              }
+            },
+            {
+              "date": "${json-unit.ignore}",
+              "debitTotal": {
+                "amount": 8000,
+                "currency": "USD"
+              }
+            },
+            {
+              "date": "${json-unit.ignore}",
+              "debitTotal": {
+                "amount": 8000,
+                "currency": "USD"
+              }
+            },
+            {
+              "date": "${json-unit.ignore}",
+              "debitTotal": {
+                "amount": 8000,
+                "currency": "USD"
+              }
+            },
+            {
+              "date": "${json-unit.ignore}",
+              "debitTotal": {
+                "amount": 8000,
+                "currency": "USD"
+              }
+            }
+          ],
+          "links": {
+            "transactions": "${json-unit.ignore}"
+          },
+          "categoryName": "Cable/Satellite/Telecom",
+          "categoryId": "15",
+          "debitTotal": {
+            "amount": 40000,
+            "currency": "USD"
+          }
+        }
+      ],
+      "links": {
+        "transactions": "${json-unit.ignore}"
+      },
+      "debitTotal": {
+        "amount": 40000,
+        "currency": "USD"
+      }
+    }
+  ]
+}

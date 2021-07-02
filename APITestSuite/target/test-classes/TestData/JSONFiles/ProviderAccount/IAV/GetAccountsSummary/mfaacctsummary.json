@@ -1,0 +1,83 @@
+{
+  "account": [{
+    "refreshinfo": {
+      "statusCode": 0,
+      "lastRefreshAttempt": "${json-unit.ignore}",
+      "lastRefreshed": "${json-unit.ignore}",
+      "nextRefreshScheduled": "${json-unit.ignore}",
+      "statusMessage": "OK"
+    },
+    "CONTAINER": "bank",
+    "isManual": false,
+    "isAsset": true,
+    "lastUpdated": "${json-unit.ignore}",
+    "currentBalance": {
+      "amount": 9044.78,
+      "currency": "USD"
+    },
+    "availableBalance": {
+      "amount": 65454.78,
+      "currency": "USD"
+    },
+    "id": "${json-unit.ignore}",
+    "balance": {
+      "amount": 9044.78,
+      "currency": "USD"
+    },
+    "accountName": "TESTDATA1",
+    "accountNumber": "503-5623xxx",
+    "aggregationSource": "USER",
+    "providerName": "Dag Site Multilevel",
+    "accountStatus": "ACTIVE",
+    "accountType": "SAVINGS",
+    "providerId": "16442",
+    "includeInNetWorth": true,
+    "holderProfile": [{
+      "name": {
+        "displayed": "accountHolder"
+      }
+    }],
+    "createdDate": "${json-unit.ignore}",
+    "providerAccountId": "${json-unit.ignore}"
+  }, {
+    "refreshinfo": {
+      "statusCode": 0,
+      "lastRefreshAttempt": "${json-unit.ignore}",
+      "lastRefreshed": "${json-unit.ignore}",
+      "nextRefreshScheduled": "${json-unit.ignore}",
+      "statusMessage": "OK"
+    },
+    "CONTAINER": "bank",
+    "isManual": false,
+    "isAsset": true,
+    "lastUpdated": "${json-unit.ignore}",
+    "currentBalance": {
+      "amount": 44.78,
+      "currency": "USD"
+    },
+    "availableBalance": {
+      "amount": 54.78,
+      "currency": "USD"
+    },
+    "id": "${json-unit.ignore}",
+    "balance": {
+      "amount": 44.78,
+      "currency": "USD"
+    },
+    "accountName": "TESTDATA",
+    "accountNumber": "8894512341",
+    "aggregationSource": "USER",
+    "providerName": "Dag Site Multilevel",
+    "accountStatus": "ACTIVE",
+    "accountType": "CHECKING",
+    "providerId": "16442",
+    "includeInNetWorth": true,
+    "holderProfile": [{
+      "name": {
+        "displayed": "FIRSTNAME"
+      }
+    }],
+    "createdDate": "${json-unit.ignore}",
+    "providerAccountId": "${json-unit.ignore}"
+  }]
+}

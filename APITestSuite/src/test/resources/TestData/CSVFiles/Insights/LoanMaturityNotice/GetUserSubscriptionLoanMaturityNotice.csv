@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-147386,"getUserSubscription - Validate LoanMaturityNotice , Validate InsightName",,LoanMaturityNotice,LoanMaturityNotice,,,,,,,,,,,,,200,TRUE
+AT-147387,"getUserSubscription - Validate LoanMaturityNotice , Validate Supporting container",,LoanMaturityNotice,,,LOAN,,,,,,,,,,,200,TRUE
+AT-147388,"getUserSubscription - Validate LoanMaturityNotice , Validate TriggerType",SCHEDULE,LoanMaturityNotice,,,,,,,,,,,,,,200,TRUE
+AT-147389,"getUserSubscription - Validate LoanMaturityNotice , Validate applicableEntity",,LoanMaturityNotice,,,,,,,ACCOUNT,account,,,,,,200,TRUE
+AT-147390,"getUserSubscription - Validate LoanMaturityNotice , Validate number of levels and levelObject",,LoanMaturityNotice,,,,,,,ACCOUNT,account,,,,,,200,TRUE
+AT-147391,"getUserSubscription - Validate LoanMaturityNotice , Validate isSubscribed=false",,LoanMaturityNotice,,,,,,,,,FALSE,,,,,200,TRUE
+AT-147392,"getUserSubscription - Validate LoanMaturityNotice , Validate insightKeys",,LoanMaturityNotice,,,,Account,,,,,,,,,,200,TRUE
+AT-147393,"getUserSubscription - Validate LoanMaturityNotice , Validate description",,LoanMaturityNotice,,,,,,Generates an insight when a loan is within a configured number of days from maturity.,,,,,,,,200,TRUE
+AT-147394,"getUserSubscription - Validate LoanMaturityNotice , Validate title",,LoanMaturityNotice,,Loan Maturity Notice,,,,,,,,,,,,200,TRUE
+AT-147395,"getUserSubscription - Validate LoanMaturityNotice , Validate ruleExpression",,LoanMaturityNotice,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-147396,"getUserSubscription - Validate LoanMaturityNotice , Validate total number of keys",,LoanMaturityNotice,,,,,,,,,,,,,,200,TRUE
+AT-147397,"getUserSubscription - Validate LoanMaturityNotice , Validate frequency",,LoanMaturityNotice,,,,,6,,,,,DAILY,,,,200,TRUE

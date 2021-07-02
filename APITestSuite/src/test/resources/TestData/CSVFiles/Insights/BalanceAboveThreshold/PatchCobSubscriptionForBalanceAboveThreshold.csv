@@ -1,0 +1,25 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-BalAbTh13,subscribe to BalanceAboveThreshold isSubscribed=true,BalanceAboveThreshold,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,500,AMOUNT",204,TRUE
+AT-BalAbTh14,update insightName to same name,BalanceAboveThreshold,negTestScenario53,BalanceAboveThreshold,,,,,,,,,,,,,,,,,,500,TRUE
+AT-BalAbTh15, update insightName to different name,BalanceAboveThreshold,negTestScenario2,BalanceAboveThresholdEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-BalAbTh16,update insightTitle chars between 3 and 100 ,BalanceAboveThreshold,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-BalAbTh17, update insightTitle chars are only 3,BalanceAboveThreshold,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-BalAbTh18,update insightTitle chars are only 100,BalanceAboveThreshold,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-BalAbTh19,update insightTitle chars are less than 3,BalanceAboveThreshold,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-BalAbTh20, update insightTitle chars are greater 100,BalanceAboveThreshold,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-BalAbTh21,update insightTitle chars are special characters,BalanceAboveThreshold,negTestScenario5,,{}}#4@@,,,,,,,,,,,,,,,,,400,TRUE
+AT-BalAbTh22, update container,BalanceAboveThreshold,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-BalAbTh23, update keys,BalanceAboveThreshold,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-BalAbTh24, update description,BalanceAboveThreshold,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-BalAbTh25, update applicableEntity,BalanceAboveThreshold,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-BalAbTh26, update entityParameter,BalanceAboveThreshold,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,50000,AMOUNT",204,TRUE
+AT-BalAbTh27,update entityParameter->account[0]->frequency,BalanceAboveThreshold,negTestScenario10,,,,,,,,,1,,account,1,,M,TRUE,,,"BALANCE,50000,AMOUNT",400,TRUE
+AT-BalAbTh28,update entityParameter->account[0]->isSubscribed=false,BalanceAboveThreshold,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-BalAbTh29,update entityParameter->account[0]->duration,BalanceAboveThreshold,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"BALANCE,50000,AMOUNT",400,TRUE
+AT-BalAbTh30,update entityParameter->account[0]->insightType,BalanceAboveThreshold,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"BALANCE,50000,AMOUNT",400,TRUE
+AT-BalAbTh31,update entityParameter->account[0]->insightType - Invalid Name,BalanceAboveThreshold,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"BALANCE,50000,AMOUNT",400,TRUE
+AT-BalAbTh32,update entityParameter->account[0]->threshold[0]->name,BalanceAboveThreshold,negTestScenario27,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,1000,AMOUNT",400,TRUE
+AT-BalAbTh33,update entityParameter->account[0]->threshold[0]->value,BalanceAboveThreshold,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1455,AMOUNT",204,TRUE
+AT-BalAbTh34, update entityParameter->account[0]->threshold[0]->type,BalanceAboveThreshold,negTestScenario28,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1455,PERCENT",400,TRUE
+AT-BalAbTh35, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,BalanceAboveThreshold,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,50000,AMOUNT",204,TRUE
+AT-BalAbTh36, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,BalanceAboveThreshold,,,Balance Above Threshold,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,50000,AMOUNT",204,TRUE

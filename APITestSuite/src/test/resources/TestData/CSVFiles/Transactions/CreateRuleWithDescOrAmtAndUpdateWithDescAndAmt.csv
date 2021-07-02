@@ -1,0 +1,4 @@
+TestCaseId,categoryId,priority,Field,Operation,Value,Title,statusCode,updateDescriptionOperation,updateDescriptionValue,updateAmountOperation,updateAmountValue,updatedStatusCode,ResFile,FilePath,Enabled
+10,1,1,description,stringContains,fuel,StringContainsNumEqual,201,stringContains,Gaso,numberGreaterThanEquals,2000,204,StringContainsNumEqual.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE
+11,1,1,amount,numberEquals,2000,StringEqualsNumEqual,201,stringContains,petrol,numberLessThanEquals,1800,204,StringEqualsNumEqual.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE
+12,1,1,description,stringContains,auto,StringContainsNumLessThan,201,,,,,400,StringContainsNumLessThan.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE

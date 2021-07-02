@@ -1,0 +1,66 @@
+<entity type="multiple">
+	<request>
+	<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>SdgAutoCatalog.site16441.1</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.1</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>ACCT_PROFILE</name>
+					<attributeList>
+						<attribute>
+							<name>HOLDER_DETAILS</name>
+							<container>investment,bank,insurance</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>ACCOUNT_DETAILS</name>
+							<container>insurance</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+	</add-provider-accounts-multiple>
+	<get-accounts-multiple>
+		<get-accounts order="1">
+			<accountId/>
+			<status>ACTIVE</status>
+			<include/>
+			<container>loan,creditCard</container>
+			<accountReconType/>
+		</get-accounts>
+	</get-accounts-multiple>
+	<get-accountDetials-multiple>
+		<get-accountDetials order="1">
+			<container>insurance</container>
+			<include/>
+		</get-accountDetials>
+	</get-accountDetials-multiple>
+	</request>
+	<response>
+	<account-multiple>
+		<account order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/PII/</filePath>
+				<responseFile>pii_SupportedNonSupportedAccounts.json</responseFile>
+			</row>
+		</account>
+	</account-multiple>
+	<accountDetails-multiple>
+		<accountDetails order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/PII/</filePath>
+				<responseFile>pii_SupportedNonSupported.json</responseFile>
+			</row>
+		</accountDetails>
+	</accountDetails-multiple>
+	</response>
+</entity>

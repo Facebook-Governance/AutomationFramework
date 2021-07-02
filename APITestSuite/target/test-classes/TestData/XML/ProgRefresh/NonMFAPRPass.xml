@@ -1,0 +1,37 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>TestProgRefresh.site16441.1</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.1</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>TRANSACTIONS</name>
+								<container>bank</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+				<ignoreGetProviderAccountFailure>true
+				</ignoreGetProviderAccountFailure>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+	</request>
+	<response>
+		<get-provider-accounts-multiple>
+			<get-provider-accounts order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/PR_SPR/
+					</filePath>
+					<responseFile>NonMfaPRPass.json</responseFile>
+				</row>
+			</get-provider-accounts>
+		</get-provider-accounts-multiple>
+	</response>
+</entity>

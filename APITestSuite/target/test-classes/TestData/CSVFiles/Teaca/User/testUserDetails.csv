@@ -1,0 +1,5 @@
+testCaseId,TestCase,passwordName,email,firstName,lastName,address1,address2,state,city,zip,country,currency,timeZone,dateFormat,status,ResFile,FilePath,Enabled,Track,DefectID
+AT-42594,Only address1,Test@123,test@yodlee.com,Envestnet,yodlee,Address One,,,,,,USD,PST,MM/dd/yyyy,200,UserRegTimeZone.json,../src/test/resources/TestData/JSONFiles/User/,TRUE,FALSE,0
+AT-42594,Only address1,Test@123,test@yodlee.com,Envestnet,yodlee,Address One,,,,,,USD,AEST,MM/dd/yyyy,200,UserRegTimeZoneAEST.json,../src/test/resources/TestData/JSONFiles/User/,TRUE,FALSE,0
+AT-42594,Only address1,Test@123,test@yodlee.com,Envestnet,yodlee,Address One,,,,,,USD,UTC,MM/dd/yyyy,200,UserRegTimeZoneUTC.json,../src/test/resources/TestData/JSONFiles/User/,TRUE,FALSE,0
+AT-42594,Only address1,Test@123,test@yodlee.com,Envestnet,yodlee,Address One,,,,,,USD,GMT,MM/dd/yyyy,200,UserRegTimeZoneGMT.json,../src/test/resources/TestData/JSONFiles/User/,TRUE,FALSE,0

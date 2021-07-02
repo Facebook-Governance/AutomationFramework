@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll1" parallel="classes" thread-count="1"
+	preserve-order="true">
+
+
+	<parameter name="suiteName" value="YSLAutoAmelia" />
+
+	<listeners>
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+
+	</listeners>
+	<test name="ImplicitDataset">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestImplicitDatasets" />
+		</classes>
+	</test>
+</suite>
+	

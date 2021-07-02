@@ -1,0 +1,526 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 340,
+        "currency": "USD"
+      },
+      "checkNumber": "DAG-333",
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "ACH Deposit - Credit 0000000000 - PPD SSA TREAS 310 XXSOC SEC",
+        "simple": "Deposits"
+      },
+      "merchant": {
+        "name": "Deposits",
+        "id": "11304",
+        "source": "YODLEE"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "runningBalance": {
+        "amount": 59,
+        "currency": "USD"
+      },
+      "categoryId": 27,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "Deposits",
+        "simple": "Deposits"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Uncategorized",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "Deposits",
+        "simple": "Deposits"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Uncategorized",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 13500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "Deposit - Check 45568"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "11303",
+        "source": "YODLEE"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "principal": {
+        "amount": 12345.99,
+        "currency": "USD"
+      },
+      "postingOrder": 4,
+      "accountId": "${json-unit.ignore}",
+      "interest": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "CONTAINER": "loan",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "categoryId": 27,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 13500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "Deposit - Check 45568"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "11303",
+        "source": "YODLEE"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "principal": {
+        "amount": 12345.99,
+        "currency": "USD"
+      },
+      "postingOrder": 4,
+      "accountId": "${json-unit.ignore}",
+      "interest": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "CONTAINER": "loan",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "categoryId": 27,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 13500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "Deposit - Check 45568"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "11303",
+        "source": "YODLEE"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "principal": {
+        "amount": 12345.99,
+        "currency": "USD"
+      },
+      "postingOrder": 4,
+      "accountId": "${json-unit.ignore}",
+      "interest": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "CONTAINER": "loan",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "categoryId": 27,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 13500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "Deposit - Check 45568"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "11303",
+        "source": "YODLEE"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "principal": {
+        "amount": 12345.99,
+        "currency": "USD"
+      },
+      "postingOrder": 4,
+      "accountId": "${json-unit.ignore}",
+      "interest": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "CONTAINER": "loan",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "categoryId": 27,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 13500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "Deposit - Check 45568"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "11303",
+        "source": "YODLEE"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "principal": {
+        "amount": 12345.99,
+        "currency": "USD"
+      },
+      "postingOrder": 4,
+      "accountId": "${json-unit.ignore}",
+      "interest": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "CONTAINER": "loan",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "categoryId": 27,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 13500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "Deposit - Check 45568"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "11303",
+        "source": "YODLEE"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "principal": {
+        "amount": 12345.99,
+        "currency": "USD"
+      },
+      "postingOrder": 4,
+      "accountId": "${json-unit.ignore}",
+      "interest": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "CONTAINER": "loan",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "categoryId": 27,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 13500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "Deposit - Check 45568"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "11303",
+        "source": "YODLEE"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "principal": {
+        "amount": 12345.99,
+        "currency": "USD"
+      },
+      "postingOrder": 4,
+      "accountId": "${json-unit.ignore}",
+      "interest": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "CONTAINER": "loan",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "categoryId": 27,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 13500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "Deposit - Check 45568"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "11303",
+        "source": "YODLEE"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "principal": {
+        "amount": 12345.99,
+        "currency": "USD"
+      },
+      "postingOrder": 4,
+      "accountId": "${json-unit.ignore}",
+      "interest": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "CONTAINER": "loan",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "categoryId": 27,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 13500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "Deposit - Check 45568"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "11303",
+        "source": "YODLEE"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "principal": {
+        "amount": 12345.99,
+        "currency": "USD"
+      },
+      "postingOrder": 4,
+      "accountId": "${json-unit.ignore}",
+      "interest": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "CONTAINER": "loan",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "categoryId": 27,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 13500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "Deposit - Check 45568"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "11303",
+        "source": "YODLEE"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "principal": {
+        "amount": 12345.99,
+        "currency": "USD"
+      },
+      "postingOrder": 4,
+      "accountId": "${json-unit.ignore}",
+      "interest": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "CONTAINER": "loan",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "categoryId": 27,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 13500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "Deposit - Check 45568"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "11303",
+        "source": "YODLEE"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "principal": {
+        "amount": 12345.99,
+        "currency": "USD"
+      },
+      "postingOrder": 4,
+      "accountId": "${json-unit.ignore}",
+      "interest": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "CONTAINER": "loan",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "categoryId": 27,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "Deposit - Check 45568"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "11303",
+        "source": "YODLEE"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "principal": {
+        "amount": 10000,
+        "currency": "USD"
+      },
+      "postingOrder": 5,
+      "accountId": "${json-unit.ignore}",
+      "interest": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "CONTAINER": "loan",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "categoryId": 27,
+      "status": "POSTED"
+    }
+  ]
+}

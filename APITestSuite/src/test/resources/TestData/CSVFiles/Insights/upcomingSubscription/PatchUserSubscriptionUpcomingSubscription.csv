@@ -1,0 +1,30 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-138735,PatchUser - subscribe to UpcomingSubscription,UpcomingSubscription,,,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,DAYS",204,TRUE
+AT-138736,PatchUser - UpcomingSubscription - updateTriggerType,UpcomingSubscription,negTestScenario16,REFRESH,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-138737,PatchUser -  UpcomingSubscription - update insightName by same name,UpcomingSubscription,negTestScenario17,,UpcomingSubscription,,,,,,,,,,,,,,,,,,400,TRUE
+AT-138738,PatchUser -  UpcomingSubscription - update insightName edit InsightName,UpcomingSubscription,negTestScenario2,,UpcomingSubscriptionEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-138739,PatchUser - UpcomingSubscription - update insightTitle,UpcomingSubscription,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-138740,PatchUser - UpcomingSubscription - update container,UpcomingSubscription,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-138741,PatchUser - UpcomingSubscription - update keys,UpcomingSubscription,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-138742,PatchUser - UpcomingSubscription - update description,UpcomingSubscription,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-138743,PatchUser - UpcomingSubscription - update applicableEntity,UpcomingSubscription,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-138744,PatchUser - UpcomingSubscription - update entityParameter,UpcomingSubscription,,,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,DAYS",204,TRUE
+AT-138745,PatchUser -  UpcomingSubscription - update entityParameter->account[0]->id - Valid ItemAccountId,UpcomingSubscription,,,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,DAYS",204,TRUE
+AT-138746,PatchUser -  UpcomingSubscription - update entityParameter->account[0]->id - InValid ItemAccountId,UpcomingSubscription,negTestScenario20,,,,,,,,,,1,,account,1,76823,,TRUE,,,"FUTURE,7,DAYS",400,TRUE
+AT-138747,PatchUser -  UpcomingSubscription - update entityParameter->account[0]->isSubscribed=false,UpcomingSubscription,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-138748,PatchUser - UpcomingSubscription - update duration  -  entityParameter->account[0]->duration ,UpcomingSubscription,negTestScenario48,,,,,,,,,,1,,account,1,,,TRUE,LAST_MONHT,,"FUTURE,7,DAYS",400,TRUE
+AT-138749,PatchUser - UpcomingSubscription - update insightType to AGGREGATE - entityParameter->account[0]->insightType,UpcomingSubscription,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,AGGREGATE,"FUTURE,7,DAYS",400,TRUE
+AT-138750,PatchUser - UpcomingSubscription - update insightType to INVALID - entityParameter->account[0]->insightType,UpcomingSubscription,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"FUTURE,7,DAYS",400,TRUE
+AT-138751,PatchUser - UpcomingSubscription - update threshold name  - entityParameter->account[0]->threshold[0]->name,UpcomingSubscription,negTestScenario27,,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,7,DAYS",400,TRUE
+AT-138752,PatchUser - UpcomingSubscription - update threshold values - entityParameter->account[0]->threshold[0]->value,UpcomingSubscription,negTestScenario42,,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7777,DAYS",400,TRUE
+AT-138753,PatchUser - UpcomingSubscription - update threshold type - entityParameter->account[0]->threshold[0]->type,UpcomingSubscription,negTestScenario28,,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,PERCENT",400,TRUE
+AT-138754,PatchUser - UpcomingSubscription - update configMeta - subscrption Info - configMeta->account[0]->id,UpcomingSubscription,negTestScenario19,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"FUTURE,7,DAYS",400,TRUE
+AT-138746,PatchUser-View -  UpcomingSubscription - update entityParameter->account[0]->id - InValid ItemAccountId,UpcomingSubscription,negTestScenario26,,,,,,,,,,1,,view,1,76823,,TRUE,,,"FUTURE,7,DAYS",400,TRUE
+AT-138747,PatchUser -  View - UpcomingSubscription - update entityParameter->account[0]->isSubscribed=false,UpcomingSubscription,,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-138748,PatchUser - View- UpcomingSubscription - update duration  -  entityParameter->account[0]->duration ,UpcomingSubscription,negTestScenario48,,,,,,,,,,1,,view,1,,,TRUE,LAST_MONHT,,"FUTURE,7,DAYS",400,TRUE
+AT-138749,PatchUser -View- UpcomingSubscription - update insightType to AGGREGATE - entityParameter->account[0]->insightType,UpcomingSubscription,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,AGGREGATE,"FUTURE,7,DAYS",400,TRUE
+AT-138750,PatchUser - View- UpcomingSubscription - update insightType to INVALID - entityParameter->account[0]->insightType,UpcomingSubscription,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,INVALID,"FUTURE,7,DAYS",400,TRUE
+AT-138751,PatchUser - View- UpcomingSubscription - update threshold name  - entityParameter->account[0]->threshold[0]->name,UpcomingSubscription,negTestScenario27,,,,,,,,,,1,,view,1,,,FALSE,,,"LIMIT,7,DAYS",400,TRUE
+AT-138752,PatchUser -View -  UpcomingSubscription - update threshold values - entityParameter->account[0]->threshold[0]->value,UpcomingSubscription,negTestScenario42,,,,,,,,,,1,,view,1,,,TRUE,,,"FUTURE,7777,DAYS",400,TRUE
+AT-138753,PatchUser - View - UpcomingSubscription - update threshold type - entityParameter->account[0]->threshold[0]->type,UpcomingSubscription,negTestScenario28,,,,,,,,,,1,,view,1,,,TRUE,,,"FUTURE,7,PERCENT",400,TRUE
+AT-138754,PatchUser - View - UpcomingSubscription - update configMeta - subscrption Info - configMeta->account[0]->id,UpcomingSubscription,negTestScenario19,,,,,,,,,,1,TRUE,view,1,,,FALSE,,,"FUTURE,7,DAYS",400,TRUE

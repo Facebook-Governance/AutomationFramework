@@ -1,0 +1,374 @@
+[
+  {
+    "negativeScenario": "EditInsightName",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for insightName"
+  },
+  {
+    "negativeScenario": "EditInsightType",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "Modifying InsightType attribute is not allowed"
+  },
+  {
+    "negativeScenario": "EditApplicableEntity",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insight insightName, modifying applicableEntity is not allowed"
+  },
+  {
+    "negativeScenario": "EditTriggerType",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insight insightName, modifying triggerType is not allowed"
+  },
+  {
+    "negativeScenario": "EditContainer",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insight insightName, modifying container is not allowed"
+  },
+  {
+    "negativeScenario": "EditDescription",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insight insightName, modifying description is not allowed"
+  },
+  {
+    "negativeScenario": "EditTitleMinAndMaxChars",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y801",
+    "errorMessage": "Invalid length for insightTitle; min 3 and max 100 characters including spaces are allowed."
+  },
+  {
+    "negativeScenario": "EditTitleWithSpecialChars",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y801",
+    "errorMessage": "Invalid value for insightTitle; special characters ></\"'%{}|^~[] are not supported."
+  },
+  {
+    "negativeScenario": "EditThresholdAmountRangeMinAndMax",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for  MINIMUM in insightName insight Min = 1.00 and Max = 1000000.00"
+  },
+  {
+    "negativeScenario": "EditThresholdNameInvalidMINIMUM",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insightName insight, MINIMUMEDIT inside the threshold is not allowed"
+  },
+  {
+    "negativeScenario": "EditThresholdTypeInvalidAMOUNT",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insightName insight, AMOUNTEDIT inside the threshold is either repeated or not allowed"
+  },
+  {
+    "negativeScenario": "patchEntityIdToCustomerSubscription",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "For Customer entityId cannot be PATCHed"
+  },
+  {
+    "negativeScenario": "editTwoSimilarEntities",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for customerConfiguration; customerConfiguration is either missing, duplicated, or has insufficient/incorrect attributes."
+  },
+  {
+    "negativeScenario": "editNotSupportedEntity",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for entityType. Supported entityType for insightName insight are -[ACCOUNT, VIEW]"
+  },
+  {
+    "negativeScenario": "editNotSupportedEntityLargeDeposit",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for entityType. Supported entityType for LARGE_DEPOSIT insight are -[VIEW, ACCOUNT]"
+  },
+  {
+    "negativeScenario": "EditNotSupportedEntityNetLiabilityAsset",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for entityType. Supported entityType for insightName insight are -[ACCOUNT]"
+  },
+  {
+	    "negativeScenario": "EditNotSupportedEntityIncomeThreshold",
+	    "httpStatusCode": "400",
+	    "yslErrorCode": "Y800",
+	    "errorMessage": "Invalid value for entityType. Supported entityType for insightName insight are -[VIEW]"
+  },
+  {
+    "negativeScenario": "editWithNoEntityType",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "entityType should be provided"
+  },
+  {
+    "negativeScenario": "emptyCustomerConfiguration",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for customerConfiguration; customerConfiguration is either missing, duplicated, or has insufficient/ incorrect attributes."
+  },
+  {
+    "negativeScenario": "EditThresholdFUTUREMinAndMax",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for FUTURE in insightName insight Min = 0 and Max = 31"
+  },
+  {
+    "negativeScenario": "EditThresholdFUTUREMinAndMax1",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for FUTURE in insightName insight Min = 0 and Max = 15"
+  },
+  {
+    "negativeScenario": "EditThresholdNameInvalidFUTURE",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insightName insight, FUTUREEDIT inside the threshold is not allowed"
+  },
+  {
+    "negativeScenario": "EditThresholdNameInvalidDAYS",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insightName insight, DAYSEDIT inside the threshold is either repeated or not allowed"
+  },
+  {
+    "negativeScenario": "EditThresholdDELAYMinAndMax",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for DELAY in insightName insight Min = 1 and Max = 15"
+  },
+  {
+    "negativeScenario": "EditThresholdDELAYMinAndMax1",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for DELAY in insightName insight Min = 0 and Max = 15"
+  },
+  {
+    "negativeScenario": "EditThresholdNameInvalidDELAY",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insightName insight, DELAYEDIT inside the threshold is not allowed"
+  },
+  {
+    "negativeScenario": "EditFrequency",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insight insightName, modifying frequency is not allowed"
+  },
+  {
+    "negativeScenario": "Threshold_NOT_Allowed",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insightName insight passing threshold is not allowed"
+  },
+  {
+    "negativeScenario": "CHANGE_NetworthMinMax",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for CHANGE in insightName insight Min = 1.00 and Max = 500.00"
+  },
+  {
+    "negativeScenario": "EditNetworthThresholdInvalidName",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insightName insight, CHANGEEDIT inside the threshold is not allowed"
+  },
+  {
+    "negativeScenario": "EditNetworthThresholdInvalidType",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insightName insight, PERCENTEDIT inside the threshold is either repeated or not allowed"
+  },
+  {
+    "negativeScenario": "EditNetworthNotSupportedFrequency",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for frequency; Supported values are DAILY, WEEKLY, MONTHLY"
+  },
+  {
+    "negativeScenario": "COUNTOFTxnsFrequency",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for frequency; Supported values are WEEKLY, MONTHLY, MID_MONTHLY"
+  },
+  {
+    "negativeScenario": "MinAndMaxPropertyValueChangeAmount",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for CHANGE in insightName insight Min = 0.00 and Max = 10000000.00"
+  },
+  {
+    "negativeScenario": "CHANGE_PropertyValueMinMax",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for CHANGE in insightName insight Min = 0.00 and Max = 500.00"
+  },
+  {
+    "negativeScenario": "EditPropValueSupportedFrequency",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for frequency; Supported values are WEEKLY, MONTHLY"
+  },
+  {
+    "negativeScenario": "MaxTOPValue",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for TOP in insightName insight Min = 1 and Max = 100"
+  },
+  {
+    "negativeScenario": "MaxTOPValue1",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for TOP in insightName insight Min = 1 and Max = 50"
+  },
+  {
+    "negativeScenario": "EditTOPInValidValue",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insightName insight, TOPEDIT inside the threshold is not allowed"
+  },
+  {
+    "negativeScenario": "EditNUMBERInValidValue",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insightName insight, NUMBEREDIT inside the threshold is either repeated or not allowed"
+  },
+  {
+    "negativeScenario": "SupportMaxDurations",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for duration; Supported values are THIS_MONTH, LAST_MONTH, THREE_MONTHS, SIX_MONTHS, ONE_YEAR, LAST_THREE_MONTHS, LAST_SIX_MONTHS, LAST_TWELVE_MONTHS"
+  },
+  {
+    "negativeScenario": "SupportFrequencies",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for Frequency. Supported value of Frequency is MID_MONTHLY when Duration is set as LAST_MONTH, LAST_THREE_MONTHS, LAST_SIX_MONTHS, LAST_TWELVE_MONTHS"
+  },
+  {
+    "negativeScenario": "EditDELAYBEFORE",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insightName insight, DAYS_BEFOREEDIT inside the threshold is not allowed"
+  },
+  {
+    "negativeScenario": "DAYS_BEFORE_MinMax",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for DAYS_BEFORE in insightName insight Min = 0 and Max = 31"
+  },
+  {
+    "negativeScenario": "DAYS_BEFORE_MinMax1",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for DAYS_BEFORE in insightName insight Min = 0 and Max = 20"
+  },
+  {
+    "negativeScenario": "CHANGE_CreditUtilizeMinMax",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for LIMIT in insightName insight Min = 1.00 and Max = 100.00"
+  },
+  {
+    "negativeScenario": "CHANGE_CreditCardAPRMinMax",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for CHANGE in insightName insight Min = 0.01 and Max = 100.00"
+  },
+  {
+    "negativeScenario": "SpecifyFrequencyAttribute",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "Specifying frequency attribute for insightName insight is not allowed"
+  },
+  {
+    "negativeScenario": "LIMITEdit",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insightName insight, LIMITEDIT inside the threshold is not allowed"
+  },
+  {
+    "negativeScenario": "BillChangeMinMax",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for CHANGE in insightName insight Min = 0.01 and Max = 10000.00"
+  },
+  {
+    "negativeScenario": "SalaryChangedMinMax",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for CHANGE in insightName insight Min = 0.00 and Max = 10000.00"
+  },
+  {
+    "negativeScenario": "EditThresholdBalanceRangeMinAndMax",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for  BALANCE in insightName insight Min = 1.00 and Max = 1000000.00"
+  },
+  {
+    "negativeScenario": "UserEditsTitleNOTAllowed",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "Modifying insightTitle using this API is not allowed"
+  },
+  {
+    "negativeScenario": "UserEditsInsightsType",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "Modifying InsightType attribute is not allowed"
+  },
+  {
+    "negativeScenario": "UserEditsTriggerType",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insight insightName, modifying triggerType is not allowed"
+  },
+  {
+    "negativeScenario": "UserEditsContainer",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y802",
+    "errorMessage": "For insight insightName, modifying container is not allowed"
+  },
+  {
+    "negativeScenario": "ACCOUNTEntitySupported",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for entityType. Supported entityType for insightName insight are -[ACCOUNT]"
+  },
+  {
+    "negativeScenario": "ACCOUNTVIEWEntitySupported",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for entityType. Supported entityType for insightName insight are -[ACCOUNT, VIEW]"
+  },
+  {
+    "negativeScenario": "VIEWEntitySupported",
+    "httpStatusCode": "400",
+    "yslErrorCode": "Y800",
+    "errorMessage": "Invalid value for entityType. Supported entityType for insightName insight are -[VIEW]"
+  },
+  {
+	    "negativeScenario": "SupportFrequenciesNew",
+	    "httpStatusCode": "400",
+	    "yslErrorCode": "Y800",
+	    "errorMessage": "Invalid value for Frequency. Supported value of Frequency is MID_MONTHLY when Duration is set as LAST_MONTH, LAST_THREE_MONTHS, LAST_SIX_MONTHS, LAST_TWELVE_MONTHS"
+  },
+  {
+	    "negativeScenario": "SpecifyFrequencyAttributeNew",
+	    "httpStatusCode": "400",
+	    "yslErrorCode": "Y802",
+	    "errorMessage": "Specifying frequency attribute for insightName insight is not allowed"	    				 
+	  },
+	  {
+		    "negativeScenario": "SupportMaxDurationsNew",
+		    "httpStatusCode": "400",
+		    "yslErrorCode": "Y800",
+		    "errorMessage": "Invalid value for duration; Supported values are THIS_MONTH, LAST_MONTH, THREE_MONTHS, SIX_MONTHS, ONE_YEAR, LAST_THREE_MONTHS, LAST_SIX_MONTHS, LAST_TWELVE_MONTHS"
+		  }
+]

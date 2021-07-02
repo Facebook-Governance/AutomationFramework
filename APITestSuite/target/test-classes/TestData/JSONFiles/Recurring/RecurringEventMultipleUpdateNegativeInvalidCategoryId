@@ -1,0 +1,57 @@
+{
+	"account": {
+		"recurringEvents": [
+		{
+				"id": 10174482,
+				"sourceType": "MANUAL",
+				"memo": "jn",
+				"description": {
+					"original": "sdcbijsdbc_edit10174482",
+					"consumer": "sdcbijsdbc_edit10174482"
+				},
+				"amount": {
+					"amount": 123012.12,
+					"currency": "USD"
+				},
+				"userApprovalStatus": "APPROVED",
+				"recurringEventStatus": "ACTIVE",
+				"startDate": "2017-06-26",
+				"endDate": "2017-08-26",
+				"baseType": "CREDIT",
+				"categoryId": 291,
+				"frequency": "EVERY_2_MONTHS",
+				"createdDate": "2017-06-15",
+				"lastUpdatedDate": "2017-06-15",
+				"nextTransactionId": 11540164,
+				"confidenceLevel": "HIGH",
+				"categorySource": "SYSTEM"
+			},
+			{
+				"id": 10174481,
+				"sourceType": "MANUAL",
+				"memo": "jn",
+				"description": {
+					"original": "sdcbijsdbc_edit10174481",
+					"consumer": "sdcbijsdbc_edit10174481"
+				},
+				"amount": {
+					"amount": 123012.12,
+					"currency": "USD"
+				},
+				"userApprovalStatus": "APPROVED",
+				"recurringEventStatus": "ACTIVE",
+				"startDate": "2017-06-26",
+				"endDate": "2017-08-26",
+				"baseType": "CREDIT",
+				"categoryId": 291,
+				"frequency": "EVERY_2_MONTHS",
+				"createdDate": "2017-06-15",
+				"lastUpdatedDate": "2017-06-15",
+				"nextTransactionId": 11540162,
+				"confidenceLevel": "HIGH",
+				"categorySource": "SYSTEM"
+				
+			}
+		]
+	}
+}

@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-147374,"getCobrandSubscription - Validate InvestmentMaturityNotice , check if Insight is unSubscribed to OR isSubscribed=false ",,InvestmentMaturityNotice,InvestmentMaturityNotice,,,,,,,,FALSE,,,,200,TRUE
+AT-147375,"getCobrandSubscription - Validate InvestmentMaturityNotice , Validate InsightName",,InvestmentMaturityNotice,InvestmentMaturityNotice,,,,,,,,,,,,200,TRUE
+AT-147376,"getCobrandSubscription - Validate InvestmentMaturityNotice , Validate Supporting container",,InvestmentMaturityNotice,,,INVESTMENT,,,,,,,,,,200,TRUE
+AT-147377,"getCobrandSubscription - Validate InvestmentMaturityNotice , Validate TriggerType",SCHEDULE,InvestmentMaturityNotice,,,,,,,,,,,,,200,TRUE
+AT-147378,"getCobrandSubscription - Validate InvestmentMaturityNotice , Validate applicableEntity",,InvestmentMaturityNotice,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-147379,"getCobrandSubscription - Validate InvestmentMaturityNotice , Validate number of levels and levelObject",,InvestmentMaturityNotice,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-147380,"getCobrandSubscription - Validate InvestmentMaturityNotice , Validate isSubscribed=false",,InvestmentMaturityNotice,,,,,,,,,FALSE,,,,200,TRUE
+AT-147381,"getCobrandSubscription - Validate InvestmentMaturityNotice , Validate insightKeys",,InvestmentMaturityNotice,,,,Account,,,,,,,,,200,TRUE
+AT-147382,"getCobrandSubscription - Validate InvestmentMaturityNotice , Validate description",,InvestmentMaturityNotice,,,,,,Generates an insight when an investment is within a configured number of days from maturity.,,,,,,,200,TRUE
+AT-147383,"getCobrandSubscription - Validate InvestmentMaturityNotice , Validate title",,InvestmentMaturityNotice,,Investment Maturity Notice,,,,,,,,,,,200,TRUE
+AT-147384,"getCobrandSubscription - Validate InvestmentMaturityNotice , Validate total number of keys",,InvestmentMaturityNotice,,,,,10,,,,,,,,200,TRUE
+AT-147385,"getCobrandSubscription - Validate InvestmentMaturityNotice , Validate frequency",,InvestmentMaturityNotice,,,,,,,,,,DAILY,,,200,TRUE

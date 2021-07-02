@@ -1,0 +1,2544 @@
+{
+  "account": [
+    {
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "Deleted Bill Account 2",
+      "accountType": "BILLS",
+      "dueDate": "2017-12-28",
+      "isManual": false,
+      "accountNumber": "xx8888",
+      "frequency": "ANNUALLY",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-26T21:57:00Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "isAsset": false,
+      "createdDate": "2017-11-22T08:13:13Z",
+      "balance": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bill",
+      "id": 2851457,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    {
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "Deleted Bill Account 1",
+      "accountType": "BILLS",
+      "dueDate": "2017-12-28",
+      "isManual": false,
+      "accountNumber": "xx7777",
+      "frequency": "ANNUALLY",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-26T21:57:00Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "isAsset": false,
+      "createdDate": "2017-11-22T08:13:13Z",
+      "balance": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bill",
+      "id": 2851456,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    {
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "Closed Bill Account 2",
+      "accountType": "BILLS",
+      "dueDate": "2017-12-28",
+      "isManual": false,
+      "accountNumber": "xx6666",
+      "frequency": "ANNUALLY",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-26T21:57:00Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "isAsset": false,
+      "createdDate": "2017-11-22T08:13:13Z",
+      "balance": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bill",
+      "id": 2851455,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    {
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "Closed Bill Account 1",
+      "accountType": "BILLS",
+      "dueDate": "2017-12-28",
+      "isManual": false,
+      "accountNumber": "xx5555",
+      "frequency": "ANNUALLY",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-26T21:57:00Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "isAsset": false,
+      "createdDate": "2017-11-22T08:13:13Z",
+      "balance": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bill",
+      "id": 2851454,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    {
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "Inactive Bill Account 2",
+      "accountType": "BILLS",
+      "dueDate": "2017-12-28",
+      "isManual": false,
+      "accountNumber": "xx4444",
+      "frequency": "ANNUALLY",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-26T21:57:00Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "isAsset": false,
+      "createdDate": "2017-11-22T08:13:13Z",
+      "balance": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bill",
+      "id": 2851453,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    {
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "Inactive Bill Account 1",
+      "accountType": "BILLS",
+      "dueDate": "2017-12-28",
+      "isManual": false,
+      "accountNumber": "xx3333",
+      "frequency": "ANNUALLY",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-26T21:57:00Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "isAsset": false,
+      "createdDate": "2017-11-22T08:13:13Z",
+      "balance": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bill",
+      "id": 2851452,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    {
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "Active Bill Account 2",
+      "accountType": "BILLS",
+      "dueDate": "2017-12-28",
+      "isManual": false,
+      "accountNumber": "xx2222",
+      "frequency": "ANNUALLY",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-26T21:57:00Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "isAsset": false,
+      "createdDate": "2017-11-22T08:13:13Z",
+      "balance": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bill",
+      "id": 2851451,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    {
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountName": "Active Bill Account 1",
+      "accountType": "BILLS",
+      "dueDate": "2017-12-28",
+      "isManual": false,
+      "accountNumber": "xx1111",
+      "frequency": "ANNUALLY",
+      "accountStatus": "ACTIVE",
+      "amountDue": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-26T21:57:00Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "isAsset": false,
+      "createdDate": "2017-11-22T08:13:13Z",
+      "balance": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bill",
+      "id": 2851450,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 100,
+        "currency": "USD"
+      }
+    },
+    {
+      "policyEffectiveDate": "2017-01-17",
+      "includeInNetWorth": true,
+      "accountName": "Deleted Insurance Account 2",
+      "policyTerm": "P1Y2M3DT10H30M",
+      "dueDate": "2017-01-07",
+      "policyStatus": "ACTIVE",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-29T11:37:58Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lifeInsuranceType": "OTHER",
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "premium": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "isAsset": false,
+      "balance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "remainingBalance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "id": 2851449,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountType": "INSURANCE",
+      "isManual": false,
+      "cashValue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "accountNumber": "8888888",
+      "amountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyToDate": "2017-01-17",
+      "policyFromDate": "2017-01-17",
+      "createdDate": "2017-11-22T08:13:13Z",
+      "providerAccountId": 11940852,
+      "CONTAINER": "insurance"
+    },
+    {
+      "policyEffectiveDate": "2017-01-17",
+      "includeInNetWorth": true,
+      "accountName": "Deleted Insurance Account 1",
+      "policyTerm": "P1Y2M3DT10H30M",
+      "dueDate": "2017-01-07",
+      "policyStatus": "ACTIVE",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-29T11:37:58Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lifeInsuranceType": "OTHER",
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "premium": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "isAsset": false,
+      "balance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "remainingBalance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "id": 2851448,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountType": "INSURANCE",
+      "isManual": false,
+      "cashValue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "accountNumber": "7777777",
+      "amountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyToDate": "2017-01-17",
+      "policyFromDate": "2017-01-17",
+      "createdDate": "2017-11-22T08:13:13Z",
+      "providerAccountId": 11940852,
+      "CONTAINER": "insurance"
+    },
+    {
+      "policyEffectiveDate": "2017-01-17",
+      "includeInNetWorth": true,
+      "accountName": "Closed Insurance Account 2",
+      "policyTerm": "P1Y2M3DT10H30M",
+      "dueDate": "2017-01-07",
+      "policyStatus": "ACTIVE",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-29T11:37:58Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lifeInsuranceType": "OTHER",
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "premium": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "isAsset": false,
+      "balance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "remainingBalance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "id": 2851447,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountType": "INSURANCE",
+      "isManual": false,
+      "cashValue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "accountNumber": "6666666",
+      "amountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyToDate": "2017-01-17",
+      "policyFromDate": "2017-01-17",
+      "createdDate": "2017-11-22T08:13:13Z",
+      "providerAccountId": 11940852,
+      "CONTAINER": "insurance"
+    },
+    {
+      "policyEffectiveDate": "2017-01-17",
+      "includeInNetWorth": true,
+      "accountName": "Closed Insurance Account 1",
+      "policyTerm": "P1Y2M3DT10H30M",
+      "dueDate": "2017-01-07",
+      "policyStatus": "ACTIVE",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-29T11:37:58Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lifeInsuranceType": "OTHER",
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "premium": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "isAsset": false,
+      "balance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "remainingBalance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "id": 2851446,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountType": "INSURANCE",
+      "isManual": false,
+      "cashValue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "accountNumber": "5555555",
+      "amountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyToDate": "2017-01-17",
+      "policyFromDate": "2017-01-17",
+      "createdDate": "2017-11-22T08:13:13Z",
+      "providerAccountId": 11940852,
+      "CONTAINER": "insurance"
+    },
+    {
+      "policyEffectiveDate": "2017-01-17",
+      "includeInNetWorth": true,
+      "accountName": "Inactive Insurance Account 2",
+      "policyTerm": "P1Y2M3DT10H30M",
+      "dueDate": "2017-01-07",
+      "policyStatus": "ACTIVE",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-29T11:37:58Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lifeInsuranceType": "OTHER",
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "premium": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "isAsset": false,
+      "balance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "remainingBalance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "id": 2851445,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountType": "INSURANCE",
+      "isManual": false,
+      "cashValue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "accountNumber": "4444444",
+      "amountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyToDate": "2017-01-17",
+      "policyFromDate": "2017-01-17",
+      "createdDate": "2017-11-22T08:13:13Z",
+      "providerAccountId": 11940852,
+      "CONTAINER": "insurance"
+    },
+    {
+      "policyEffectiveDate": "2017-01-17",
+      "includeInNetWorth": true,
+      "accountName": "Inactive Insurance Account 1",
+      "policyTerm": "P1Y2M3DT10H30M",
+      "dueDate": "2017-01-07",
+      "policyStatus": "ACTIVE",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-29T11:37:58Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lifeInsuranceType": "OTHER",
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "premium": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "isAsset": false,
+      "balance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "remainingBalance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "id": 2851444,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountType": "INSURANCE",
+      "isManual": false,
+      "cashValue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "accountNumber": "3333333",
+      "amountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyToDate": "2017-01-17",
+      "policyFromDate": "2017-01-17",
+      "createdDate": "2017-11-22T08:13:13Z",
+      "providerAccountId": 11940852,
+      "CONTAINER": "insurance"
+    },
+    {
+      "policyEffectiveDate": "2017-01-17",
+      "includeInNetWorth": true,
+      "accountName": "Active Insurance Account 2",
+      "policyTerm": "P1Y2M3DT10H30M",
+      "dueDate": "2017-01-07",
+      "policyStatus": "ACTIVE",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-29T11:37:58Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lifeInsuranceType": "OTHER",
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "premium": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "isAsset": false,
+      "balance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "remainingBalance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "id": 2851443,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountType": "INSURANCE",
+      "isManual": false,
+      "cashValue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "accountNumber": "2222222",
+      "amountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyToDate": "2017-01-17",
+      "policyFromDate": "2017-01-17",
+      "createdDate": "2017-11-22T08:13:13Z",
+      "providerAccountId": 11940852,
+      "CONTAINER": "insurance"
+    },
+    {
+      "policyEffectiveDate": "2017-01-17",
+      "includeInNetWorth": true,
+      "accountName": "Active Insurance Account 1",
+      "policyTerm": "P1Y2M3DT10H30M",
+      "dueDate": "2017-01-07",
+      "policyStatus": "ACTIVE",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:17Z",
+        "nextRefreshScheduled": "2017-11-29T11:37:58Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:17Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lifeInsuranceType": "OTHER",
+      "lastUpdated": "2017-11-22T08:13:17Z",
+      "premium": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "isAsset": false,
+      "balance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "remainingBalance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "id": 2851442,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAG"
+          }
+        }
+      ],
+      "accountType": "INSURANCE",
+      "isManual": false,
+      "cashValue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "accountNumber": "1111111",
+      "amountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyToDate": "2017-01-17",
+      "policyFromDate": "2017-01-17",
+      "createdDate": "2017-11-22T08:13:13Z",
+      "providerAccountId": 11940852,
+      "CONTAINER": "insurance"
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "Deleted Loan Account 2",
+      "dueDate": "2017-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:16Z",
+        "nextRefreshScheduled": "2017-11-24T17:19:10Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:16Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": false,
+      "balance": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2017-01-25",
+      "id": 2851441,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "originationDate": "2017-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      "createdDate": "2017-11-22T08:13:13Z",
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "providerAccountId": 11940852,
+      "CONTAINER": "loan",
+      "collateral": "ABC"
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "Deleted Loan Account 1",
+      "dueDate": "2017-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:16Z",
+        "nextRefreshScheduled": "2017-11-24T17:19:10Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:16Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": false,
+      "balance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2017-01-25",
+      "id": 2851440,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "originationDate": "2017-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      "createdDate": "2017-11-22T08:13:13Z",
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "providerAccountId": 11940852,
+      "CONTAINER": "loan",
+      "collateral": "ABC"
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "Closed Loan Account 2",
+      "dueDate": "2017-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:16Z",
+        "nextRefreshScheduled": "2017-11-24T17:19:10Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:16Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": false,
+      "balance": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2017-01-25",
+      "id": 2851439,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "originationDate": "2017-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      "createdDate": "2017-11-22T08:13:13Z",
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "providerAccountId": 11940852,
+      "CONTAINER": "loan",
+      "collateral": "ABC"
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "Closed Loan Account 1",
+      "dueDate": "2017-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:16Z",
+        "nextRefreshScheduled": "2017-11-24T17:19:10Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:16Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": false,
+      "balance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2017-01-25",
+      "id": 2851438,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "originationDate": "2017-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      "createdDate": "2017-11-22T08:13:13Z",
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "providerAccountId": 11940852,
+      "CONTAINER": "loan",
+      "collateral": "ABC"
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "Inactive Loan Account 2",
+      "dueDate": "2017-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:16Z",
+        "nextRefreshScheduled": "2017-11-24T17:19:10Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:16Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": false,
+      "balance": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2017-01-25",
+      "id": 2851437,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "originationDate": "2017-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      "createdDate": "2017-11-22T08:13:13Z",
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "providerAccountId": 11940852,
+      "CONTAINER": "loan",
+      "collateral": "ABC"
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "Inactive Loan Account 1",
+      "dueDate": "2017-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:16Z",
+        "nextRefreshScheduled": "2017-11-24T17:19:10Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:16Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": false,
+      "balance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2017-01-25",
+      "id": 2851436,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "originationDate": "2017-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      "createdDate": "2017-11-22T08:13:13Z",
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "providerAccountId": 11940852,
+      "CONTAINER": "loan",
+      "collateral": "ABC"
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "Active Loan Account 2",
+      "dueDate": "2017-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:16Z",
+        "nextRefreshScheduled": "2017-11-24T17:19:10Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:16Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": false,
+      "balance": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2017-01-25",
+      "id": 2851435,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "originationDate": "2017-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      "createdDate": "2017-11-22T08:13:13Z",
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "providerAccountId": 11940852,
+      "CONTAINER": "loan",
+      "collateral": "ABC"
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "Active Loan Account 1",
+      "dueDate": "2017-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:16Z",
+        "nextRefreshScheduled": "2017-11-24T17:19:10Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:16Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": false,
+      "balance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2017-01-25",
+      "id": 2851434,
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "originationDate": "2017-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      "createdDate": "2017-11-22T08:13:13Z",
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "providerAccountId": 11940852,
+      "CONTAINER": "loan",
+      "collateral": "ABC"
+    },
+    {
+      "includeInNetWorth": true,
+      "annuityBalance": {
+        "amount": 1500,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "TyLanis"
+          }
+        }
+      ],
+      "accountName": "Deleted Investment Account 2",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "567890",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:15Z",
+        "nextRefreshScheduled": "2017-11-23T11:43:11Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:15Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:13Z",
+      "balance": {
+        "amount": 79629,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "investment",
+      "id": 2851433,
+      "cash": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "annuityBalance": {
+        "amount": 1500,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "TyLanis"
+          }
+        }
+      ],
+      "accountName": "Deleted Investment Account 1",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "765432",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:15Z",
+        "nextRefreshScheduled": "2017-11-23T11:43:11Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:15Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:13Z",
+      "balance": {
+        "amount": 79629,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "investment",
+      "id": 2851432,
+      "cash": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "annuityBalance": {
+        "amount": 1500,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "TyLanis"
+          }
+        }
+      ],
+      "accountName": "Closed Investment Account 2",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "234234",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:15Z",
+        "nextRefreshScheduled": "2017-11-23T11:43:11Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:15Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:13Z",
+      "balance": {
+        "amount": 79629,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "investment",
+      "id": 2851431,
+      "cash": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "annuityBalance": {
+        "amount": 1500,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "TyLanis"
+          }
+        }
+      ],
+      "accountName": "Closed Investment Account 1",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "111222",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:15Z",
+        "nextRefreshScheduled": "2017-11-23T11:43:11Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:15Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:13Z",
+      "balance": {
+        "amount": 79629,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "investment",
+      "id": 2851430,
+      "cash": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "annuityBalance": {
+        "amount": 1500,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "TyLanis"
+          }
+        }
+      ],
+      "accountName": "Inactive Investment Account 2",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "888888",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:15Z",
+        "nextRefreshScheduled": "2017-11-23T11:43:11Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:15Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:13Z",
+      "balance": {
+        "amount": 79629,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "investment",
+      "id": 2851429,
+      "cash": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "annuityBalance": {
+        "amount": 1500,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "TyLanis"
+          }
+        }
+      ],
+      "accountName": "Inctive Investment Account 1",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "777777",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:15Z",
+        "nextRefreshScheduled": "2017-11-23T11:43:11Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:15Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:13Z",
+      "balance": {
+        "amount": 79629,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "investment",
+      "id": 2851428,
+      "cash": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "annuityBalance": {
+        "amount": 1500,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "TyLanis"
+          }
+        }
+      ],
+      "accountName": "Active Investment Account 2",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "666666",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:15Z",
+        "nextRefreshScheduled": "2017-11-23T11:43:11Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:15Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:12Z",
+      "balance": {
+        "amount": 79629,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "investment",
+      "id": 2851427,
+      "cash": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "annuityBalance": {
+        "amount": 1500,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "TyLanis"
+          }
+        }
+      ],
+      "accountName": "Active Investment Account 1",
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "555551",
+      "accountStatus": "ACTIVE",
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:15Z",
+        "nextRefreshScheduled": "2017-11-23T11:43:11Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:15Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:16Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:12Z",
+      "balance": {
+        "amount": 79629,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "investment",
+      "id": 2851426,
+      "cash": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      }
+    },
+    {
+      "availableCash": {
+        "amount": 13584.09,
+        "currency": "USD"
+      },
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "MB365NEW"
+          }
+        }
+      ],
+      "accountName": "Deleted Credit Card Account 2",
+      "accountType": "CREDIT",
+      "isManual": false,
+      "accountNumber": "767231766",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:14Z",
+        "nextRefreshScheduled": "2017-11-23T08:49:34Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:14Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:14Z",
+      "isAsset": false,
+      "createdDate": "2017-11-22T08:13:12Z",
+      "balance": {
+        "amount": 11000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "creditCard",
+      "id": 2851425,
+      "providerName": "Dag Site"
+    },
+    {
+      "availableCash": {
+        "amount": 13584.09,
+        "currency": "USD"
+      },
+      "includeInNetWorth": true,
+      "accountName": "Deleted Credit Card Account 1",
+      "dueDate": "2017-02-14",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:14Z",
+        "nextRefreshScheduled": "2017-11-23T08:49:34Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:14Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:14Z",
+      "isAsset": false,
+      "balance": {
+        "amount": 12000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "totalCashLimit": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "providerId": "16441",
+      "id": 2851424,
+      "totalCreditLine": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "availableCredit": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAPI-Auto"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "924681357",
+      "amountDue": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "createdDate": "2017-11-22T08:13:12Z",
+      "providerAccountId": 11940852,
+      "CONTAINER": "creditCard"
+    },
+    {
+      "availableCash": {
+        "amount": 13584.09,
+        "currency": "USD"
+      },
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "MB365NEW"
+          }
+        }
+      ],
+      "accountName": "Closed Credit Card Account 2",
+      "accountType": "CREDIT",
+      "isManual": false,
+      "accountNumber": "705813579",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:14Z",
+        "nextRefreshScheduled": "2017-11-23T08:49:34Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:14Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:14Z",
+      "isAsset": false,
+      "createdDate": "2017-11-22T08:13:12Z",
+      "balance": {
+        "amount": 11000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "creditCard",
+      "id": 2851423,
+      "providerName": "Dag Site"
+    },
+    {
+      "availableCash": {
+        "amount": 13584.09,
+        "currency": "USD"
+      },
+      "includeInNetWorth": true,
+      "accountName": "Closed Credit Card Account 1",
+      "dueDate": "2017-02-14",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:14Z",
+        "nextRefreshScheduled": "2017-11-23T08:49:34Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:14Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:14Z",
+      "isAsset": false,
+      "balance": {
+        "amount": 12000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "totalCashLimit": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "providerId": "16441",
+      "id": 2851422,
+      "totalCreditLine": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "availableCredit": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAPI-Auto"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "983455839",
+      "amountDue": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "createdDate": "2017-11-22T08:13:12Z",
+      "providerAccountId": 11940852,
+      "CONTAINER": "creditCard"
+    },
+    {
+      "availableCash": {
+        "amount": 13584.09,
+        "currency": "USD"
+      },
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "MB365NEW"
+          }
+        }
+      ],
+      "accountName": "Inactive Credit Card Account 2",
+      "accountType": "CREDIT",
+      "isManual": false,
+      "accountNumber": "123412366",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:14Z",
+        "nextRefreshScheduled": "2017-11-23T08:49:34Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:14Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:14Z",
+      "isAsset": false,
+      "createdDate": "2017-11-22T08:13:12Z",
+      "balance": {
+        "amount": 11000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "creditCard",
+      "id": 2851421,
+      "providerName": "Dag Site"
+    },
+    {
+      "availableCash": {
+        "amount": 13584.09,
+        "currency": "USD"
+      },
+      "includeInNetWorth": true,
+      "accountName": "Inactive Credit Card Account 1",
+      "dueDate": "2017-02-14",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:14Z",
+        "nextRefreshScheduled": "2017-11-23T08:49:34Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:14Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:14Z",
+      "isAsset": false,
+      "balance": {
+        "amount": 12000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "totalCashLimit": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "providerId": "16441",
+      "id": 2851420,
+      "totalCreditLine": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "availableCredit": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAPI-Auto"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "123475839",
+      "amountDue": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "createdDate": "2017-11-22T08:13:12Z",
+      "providerAccountId": 11940852,
+      "CONTAINER": "creditCard"
+    },
+    {
+      "availableCash": {
+        "amount": 13584.09,
+        "currency": "USD"
+      },
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "MB365NEW"
+          }
+        }
+      ],
+      "accountName": "Active Credit Card Account 2",
+      "accountType": "CREDIT",
+      "isManual": false,
+      "accountNumber": "705881766",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:14Z",
+        "nextRefreshScheduled": "2017-11-23T08:49:34Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:14Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:14Z",
+      "isAsset": false,
+      "createdDate": "2017-11-22T08:13:12Z",
+      "balance": {
+        "amount": 11000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "creditCard",
+      "id": 2851419,
+      "providerName": "Dag Site"
+    },
+    {
+      "availableCash": {
+        "amount": 13584.09,
+        "currency": "USD"
+      },
+      "includeInNetWorth": true,
+      "accountName": "Active Credit Card Account 1",
+      "dueDate": "2017-02-14",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:14Z",
+        "nextRefreshScheduled": "2017-11-23T08:49:34Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:14Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:14Z",
+      "isAsset": false,
+      "balance": {
+        "amount": 12000,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "totalCashLimit": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "providerId": "16441",
+      "id": 2851418,
+      "totalCreditLine": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "availableCredit": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "DAPI-Auto"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "accountNumber": "947775839",
+      "amountDue": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "createdDate": "2017-11-22T08:13:12Z",
+      "providerAccountId": 11940852,
+      "CONTAINER": "creditCard"
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "NStark"
+          }
+        }
+      ],
+      "accountName": "Deleted Bank Account 2",
+      "currentBalance": {
+        "amount": 39229.8,
+        "currency": "USD"
+      },
+      "accountType": "SAVINGS",
+      "isManual": false,
+      "accountNumber": "3549292",
+      "availableBalance": {
+        "amount": 4692.49,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:12Z",
+        "nextRefreshScheduled": "2017-11-24T18:28:26Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:12Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:13Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:12Z",
+      "balance": {
+        "amount": 39229.8,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bank",
+      "id": 2851417,
+      "providerName": "Dag Site"
+    },
+    {
+      "interestRate": 10,
+      "annualPercentageYield": 23234,
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "NStark"
+          }
+        }
+      ],
+      "accountName": "Deleted Bank Account 1",
+      "currentBalance": {
+        "amount": 38279.78,
+        "currency": "USD"
+      },
+      "accountType": "CHECKING",
+      "isManual": false,
+      "accountNumber": "456-xx037",
+      "availableBalance": {
+        "amount": 5962.78,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:12Z",
+        "nextRefreshScheduled": "2017-11-24T18:28:26Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:12Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:13Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:12Z",
+      "balance": {
+        "amount": 38279.78,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2017-02-14",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bank",
+      "id": 2851416,
+      "providerName": "Dag Site",
+      "bankTransferCode": {
+        "id": "12891976"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "NStark"
+          }
+        }
+      ],
+      "accountName": "Closed Bank Account 2",
+      "currentBalance": {
+        "amount": 39299,
+        "currency": "USD"
+      },
+      "accountType": "SAVINGS",
+      "isManual": false,
+      "accountNumber": "3591692",
+      "availableBalance": {
+        "amount": 4699,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:12Z",
+        "nextRefreshScheduled": "2017-11-24T18:28:26Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:12Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:13Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:12Z",
+      "balance": {
+        "amount": 39299,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bank",
+      "id": 2851415,
+      "providerName": "Dag Site"
+    },
+    {
+      "interestRate": 10,
+      "annualPercentageYield": 23234,
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "NStark"
+          }
+        }
+      ],
+      "accountName": "Closed Bank Account 1",
+      "currentBalance": {
+        "amount": 45679.78,
+        "currency": "USD"
+      },
+      "accountType": "CHECKING",
+      "isManual": false,
+      "accountNumber": "777-xx037",
+      "availableBalance": {
+        "amount": 86252.78,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:12Z",
+        "nextRefreshScheduled": "2017-11-24T18:28:26Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:12Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:13Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:12Z",
+      "balance": {
+        "amount": 45679.78,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2017-02-14",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bank",
+      "id": 2851414,
+      "providerName": "Dag Site",
+      "bankTransferCode": {
+        "id": "99891976"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "NStark"
+          }
+        }
+      ],
+      "accountName": "Inactive Bank Account 2",
+      "currentBalance": {
+        "amount": 24699,
+        "currency": "USD"
+      },
+      "accountType": "SAVINGS",
+      "isManual": false,
+      "accountNumber": "1514992",
+      "availableBalance": {
+        "amount": 6699.4,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:12Z",
+        "nextRefreshScheduled": "2017-11-24T18:28:26Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:12Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:13Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:12Z",
+      "balance": {
+        "amount": 24699,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bank",
+      "id": 2851413,
+      "providerName": "Dag Site"
+    },
+    {
+      "interestRate": 10,
+      "annualPercentageYield": 23234,
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "NStark"
+          }
+        }
+      ],
+      "accountName": "Inactive Bank Account 1",
+      "currentBalance": {
+        "amount": 13844.78,
+        "currency": "USD"
+      },
+      "accountType": "CHECKING",
+      "isManual": false,
+      "accountNumber": "774-xx006",
+      "availableBalance": {
+        "amount": 13852.78,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:12Z",
+        "nextRefreshScheduled": "2017-11-24T18:28:26Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:12Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:13Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:12Z",
+      "balance": {
+        "amount": 13844.78,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2017-02-14",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bank",
+      "id": 2851412,
+      "providerName": "Dag Site",
+      "bankTransferCode": {
+        "id": "99987694"
+      }
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "NStark"
+          }
+        }
+      ],
+      "accountName": "Active Bank Account 2",
+      "currentBalance": {
+        "amount": 84699,
+        "currency": "USD"
+      },
+      "accountType": "SAVINGS",
+      "isManual": false,
+      "accountNumber": "1864933",
+      "availableBalance": {
+        "amount": 4699,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:12Z",
+        "nextRefreshScheduled": "2017-11-24T18:28:26Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:12Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:13Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:12Z",
+      "balance": {
+        "amount": 84699,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bank",
+      "id": 2851411,
+      "providerName": "Dag Site"
+    },
+    {
+      "interestRate": 10,
+      "annualPercentageYield": 23234,
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "NStark"
+          }
+        }
+      ],
+      "accountName": "Active Bank Account 1",
+      "currentBalance": {
+        "amount": 16644.78,
+        "currency": "USD"
+      },
+      "accountType": "CHECKING",
+      "isManual": false,
+      "accountNumber": "777-xx007",
+      "availableBalance": {
+        "amount": 19854.78,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "2017-11-22T08:13:12Z",
+        "nextRefreshScheduled": "2017-11-24T18:28:26Z",
+        "lastRefreshAttempt": "2017-11-22T08:13:12Z",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "2017-11-22T08:13:13Z",
+      "isAsset": true,
+      "createdDate": "2017-11-22T08:13:12Z",
+      "balance": {
+        "amount": 16644.78,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "maturityDate": "2017-02-14",
+      "providerAccountId": 11940852,
+      "CONTAINER": "bank",
+      "id": 2851410,
+      "providerName": "Dag Site",
+      "bankTransferCode": {
+        "id": "99979998"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+testcaseID,tcName,dagUser,dagPassword,siteID,formType,resFile,responsePath,defectID,enabled
+AT-42606,check for empty response after deleting the provider account,deleteAccount.site16441.1,site16441.1,16441,loginform,addDeleteAccount.json,../src/test/resources/TestData/JSONFiles/ProviderAccount/,0,TRUE

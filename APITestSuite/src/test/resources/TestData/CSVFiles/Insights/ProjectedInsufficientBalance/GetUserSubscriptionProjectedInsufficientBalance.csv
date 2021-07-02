@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-147386,"getUserSubscription - Validate ProjectedInsufficientBalance , Validate InsightName",,ProjectedInsufficientBalance,ProjectedInsufficientBalance,,,,,,,,,,,,,200,TRUE
+AT-147395,"getUserSubscription - Validate ProjectedInsufficientBalance , Validate Supporting container",,ProjectedInsufficientBalance,,,BANK,,,,,,,,,,,200,TRUE
+AT-147393,"getUserSubscription - Validate ProjectedInsufficientBalance , Validate TriggerType",SCHEDULE,ProjectedInsufficientBalance,,,,,,,,,,,,,,200,TRUE
+AT-147390,"getUserSubscription - Validate ProjectedInsufficientBalance , Validate applicableEntity",,ProjectedInsufficientBalance,,,,,,,ACCOUNT,account,,,,,,200,TRUE
+AT-147385,"getUserSubscription - Validate ProjectedInsufficientBalance , Validate number of levels and levelObject",,ProjectedInsufficientBalance,,,,,,,ACCOUNT,account,,,,,,200,TRUE
+AT-147394,"getUserSubscription - Validate ProjectedInsufficientBalance , Validate isSubscribed=false",,ProjectedInsufficientBalance,,,,,,,,,FALSE,,,,,200,TRUE
+AT-147388,"getUserSubscription - Validate ProjectedInsufficientBalance , Validate threshold Name,Value and Type",,ProjectedInsufficientBalance,,,,,,,ACCOUNT,account,,,"MINIMUM,10,AMOUNT",,account,200,TRUE
+AT-147389,"getUserSubscription - Validate ProjectedInsufficientBalance , Validate insightKeys",,ProjectedInsufficientBalance,,,,Account,,,,,,,,,,200,TRUE
+AT-147384,"getUserSubscription - Validate ProjectedInsufficientBalance , Validate description",,ProjectedInsufficientBalance,,,,,,Generates an insight when an account is projected to have a balance insufficient to cover upcoming bills and subscriptions.,,,,,,,,200,TRUE
+AT-147396,"getUserSubscription - Validate ProjectedInsufficientBalance , Validate title",,ProjectedInsufficientBalance,,Insufficient Balance To Cover Upcoming Bills And Subscriptions,,,,,,,,,,,,200,TRUE
+AT-147391,"getUserSubscription - Validate ProjectedInsufficientBalance , Validate ruleExpression",,ProjectedInsufficientBalance,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-147392,"getUserSubscription - Validate ProjectedInsufficientBalance , Validate total number of keys",,ProjectedInsufficientBalance,,,,,22,,,,,,,,,200,TRUE

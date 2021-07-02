@@ -1,0 +1,8 @@
+tcId,tcName,firstField,secondField,thirdField,status
+AT-65843,,,secondValue,thirdValue,400
+AT-65844,,firstValue,,thirdValue,400
+AT-65845,,firstValue,secondValue,,400
+AT-65846,,firstValue,,,400
+AT-65847,,,secondValue,,400
+AT-65848,,,,thirdValue,400
+AT-65849,Without all three values,,,,400

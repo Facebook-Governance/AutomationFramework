@@ -1,0 +1,4 @@
+testCaseId,TestCase,amount,currency,consumer,baseType,category,categorySource,startDate,memo,accountId,checkNumber,frequency,endDate,transactionType,accountStatus,httpStatus,ResFile,FilePath,Enabled
+AT-115474,CLOSED,100,USD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,BANK,1234,ONE_TIME,,DEPOSIT,CLOSED,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-115475,INACTIVE,100,INR,Description,DEBIT,92,SYSTEM,"0,0,1",memo,CARD,1234,WEEKLY,"0,0,10",DEPOSIT,INACTIVE,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-115476,DELETED,100,INR,Description,CREDIT,92,SYSTEM,"0,0,1",memo,BANK,1234,EVERY_2_WEEKS,"0,1,0",DEPOSIT,DELETED,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE

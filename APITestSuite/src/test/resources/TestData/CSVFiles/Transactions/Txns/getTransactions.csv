@@ -1,0 +1,696 @@
+TestCaseId,container,baseType,categoryType,keyword,category,categoryIds,fromDate,toDate,highLevelCategoryId,type,accountReconType,skip,top,status,filePath,fileName,Enabled,DefectID
+T-GT-01,bank,DEBIT,EXPENSE,a,Other Expenses,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,3,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-01,TRUE,0
+T-GT-02,bank,DEBIT,EXPENSE,a,Other Expenses,,2010-01-01,2017-09-09,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,3,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-02,TRUE,0
+T-GT-03,bank,DEBIT,EXPENSE,a,Other Expenses,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,3,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-03,TRUE,0
+T-GT-04,bank,DEBIT,EXPENSE,a,Other Expenses,,2010-01-01,,,OTHER_WITHDRAWALS,,0,3,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-04,TRUE,0
+T-GT-05,bank,DEBIT,EXPENSE,a,Other Expenses,,2010-01-01,,,,,0,3,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-05,TRUE,0
+T-GT-06,bank,DEBIT,EXPENSE,a,,U10103323,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,3,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-06,TRUE,0
+T-GT-07,bank,DEBIT,EXPENSE,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,-1,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-07,TRUE,0
+T-GT-08,bank,DEBIT,EXPENSE,a,,"1,12,15,19,20,28,32,33,44",2010-01-01,,,OTHER_WITHDRAWALS,,-1,2,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-08,TRUE,0
+T-GT-09,bank,DEBIT,EXPENSE,a,,"1,12,15,19,20,28,32,33,45",2010-01-01,,,,,0,3,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-09,TRUE,0
+T-GT-10,bank,DEBIT,EXPENSE,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,4,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-10,TRUE,0
+T-GT-11,bank,DEBIT,EXPENSE,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,5,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-11,TRUE,0
+T-GT-12,bank,DEBIT,EXPENSE,a,,,2010-01-01,,,OTHER_WITHDRAWALS,,0,6,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-12,TRUE,0
+T-GT-13,bank,DEBIT,EXPENSE,a,,,2010-01-01,,,,,0,7,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-13,TRUE,0
+T-GT-14,bank,DEBIT,EXPENSE,,Other Expenses,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,8,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-14,TRUE,0
+T-GT-15,bank,DEBIT,EXPENSE,,Other Expenses,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,9,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-15,TRUE,0
+T-GT-16,bank,DEBIT,EXPENSE,,Other Expenses,,2010-01-01,,,OTHER_WITHDRAWALS,,0,10,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-16,TRUE,0
+T-GT-17,bank,DEBIT,EXPENSE,,Other Expenses,,2010-01-01,,,,,0,11,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-17,TRUE,0
+T-GT-18,bank,DEBIT,EXPENSE,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,12,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-18,TRUE,0
+T-GT-19,bank,DEBIT,EXPENSE,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,13,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-19,TRUE,0
+T-GT-20,bank,DEBIT,EXPENSE,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,OTHER_WITHDRAWALS,,0,14,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-20,TRUE,0
+T-GT-21,bank,DEBIT,EXPENSE,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,15,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-21,TRUE,0
+T-GT-22,bank,DEBIT,EXPENSE,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,16,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-22,TRUE,0
+T-GT-23,bank,DEBIT,EXPENSE,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,17,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-23,TRUE,0
+T-GT-24,bank,DEBIT,EXPENSE,,,,2010-01-01,,,OTHER_WITHDRAWALS,,0,18,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-24,TRUE,0
+T-GT-25,bank,DEBIT,EXPENSE,,,,2010-01-01,,,,,0,19,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-25,TRUE,0
+T-GT-26,bank,DEBIT,,a,Other Expenses,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,20,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-26,TRUE,0
+T-GT-27,bank,DEBIT,,a,Other Expenses,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,21,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-27,TRUE,0
+T-GT-28,bank,DEBIT,,a,Other Expenses,,2010-01-01,,,OTHER_WITHDRAWALS,,0,22,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-28,TRUE,0
+T-GT-29,bank,DEBIT,,a,Other Expenses,,2010-01-01,,,,,0,23,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-29,TRUE,0
+T-GT-30,bank,DEBIT,,a,Other Expenses,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,24,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-30,TRUE,0
+T-GT-31,bank,DEBIT,,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,25,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-31,TRUE,0
+T-GT-32,bank,DEBIT,,a,,,2010-01-01,,,OTHER_WITHDRAWALS,,0,26,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-32,TRUE,0
+T-GT-33,bank,DEBIT,,a,,,2010-01-01,,,,,0,27,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-33,TRUE,0
+T-GT-34,bank,DEBIT,,,Other Expenses,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,28,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-34,TRUE,0
+T-GT-35,bank,DEBIT,,,Other Expenses,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,29,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-35,TRUE,0
+T-GT-36,bank,DEBIT,,,Other Expenses,,2010-01-01,,,OTHER_WITHDRAWALS,,0,30,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-36,TRUE,0
+T-GT-37,bank,DEBIT,,,Other Expenses,,2010-01-01,,,,,0,31,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-37,TRUE,0
+T-GT-38,bank,DEBIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,32,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-38,TRUE,0
+T-GT-39,bank,DEBIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,33,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-39,TRUE,0
+T-GT-40,bank,DEBIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,OTHER_WITHDRAWALS,,0,34,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-40,TRUE,0
+T-GT-41,bank,DEBIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,35,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-41,TRUE,0
+T-GT-42,bank,DEBIT,,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,36,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-42,TRUE,0
+T-GT-43,bank,DEBIT,,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,37,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-43,TRUE,0
+T-GT-44,bank,DEBIT,,,,,2010-01-01,,,OTHER_WITHDRAWALS,,0,38,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-44,TRUE,0
+T-GT-45,bank,DEBIT,,,,,2010-01-01,,,,,0,39,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-45,TRUE,0
+T-GT-46,bank,CREDIT,INCOME,a,Other Income,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,40,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-46,TRUE,0
+T-GT-47,bank,CREDIT,INCOME,a,Other Income,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,41,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-47,TRUE,0
+T-GT-48,bank,CREDIT,INCOME,a,Other Income,,2010-01-01,,,OTHER_DEPOSITS,,0,42,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-48,TRUE,0
+T-GT-49,bank,CREDIT,INCOME,a,Other Income,,2010-01-01,,,,,0,43,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-49,TRUE,0
+T-GT-50,bank,CREDIT,INCOME,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,44,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-50,TRUE,0
+T-GT-51,bank,CREDIT,INCOME,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,45,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-51,TRUE,0
+T-GT-52,bank,CREDIT,INCOME,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,OTHER_DEPOSITS,,0,46,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-52,TRUE,0
+T-GT-53,bank,CREDIT,INCOME,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,47,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-53,TRUE,0
+T-GT-54,bank,CREDIT,INCOME,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,48,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-54,TRUE,0
+T-GT-55,bank,CREDIT,INCOME,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,49,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-55,TRUE,0
+T-GT-56,bank,CREDIT,INCOME,a,,,2010-01-01,,,OTHER_DEPOSITS,,0,50,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-56,TRUE,0
+T-GT-57,bank,CREDIT,INCOME,a,,,2010-01-01,,,,,0,51,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-57,TRUE,0
+T-GT-58,bank,CREDIT,INCOME,,Other Income,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,52,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-58,TRUE,0
+T-GT-59,bank,CREDIT,INCOME,,Other Income,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,53,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-59,TRUE,0
+T-GT-60,bank,CREDIT,INCOME,,Other Income,,2010-01-01,,,OTHER_DEPOSITS,,0,54,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-60,TRUE,0
+T-GT-61,bank,CREDIT,INCOME,,Other Income,,2010-01-01,,,,,0,55,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-61,TRUE,0
+T-GT-62,bank,CREDIT,INCOME,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,56,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-62,TRUE,0
+T-GT-63,bank,CREDIT,INCOME,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,57,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-63,TRUE,0
+T-GT-64,bank,CREDIT,INCOME,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,OTHER_DEPOSITS,,0,58,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-64,TRUE,0
+T-GT-65,bank,CREDIT,INCOME,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,59,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-65,TRUE,0
+T-GT-66,bank,CREDIT,INCOME,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,60,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-66,TRUE,0
+T-GT-67,bank,CREDIT,INCOME,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,61,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-67,TRUE,0
+T-GT-68,bank,CREDIT,INCOME,,,,2010-01-01,,,OTHER_DEPOSITS,,0,62,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-68,TRUE,0
+T-GT-69,bank,CREDIT,INCOME,,,,2010-01-01,,,,,0,63,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-69,TRUE,0
+T-GT-70,bank,CREDIT,,a,Other Income,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,64,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-70,TRUE,0
+T-GT-71,bank,CREDIT,,a,Other Income,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,65,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-71,TRUE,0
+T-GT-72,bank,CREDIT,,a,Other Income,,2010-01-01,,,OTHER_DEPOSITS,,0,66,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-72,TRUE,0
+T-GT-73,bank,CREDIT,,a,Other Income,,2010-01-01,,,,,0,67,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-73,TRUE,0
+T-GT-74,bank,CREDIT,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,68,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-74,TRUE,0
+T-GT-75,bank,CREDIT,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,69,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-75,TRUE,0
+T-GT-76,bank,CREDIT,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,OTHER_DEPOSITS,,0,70,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-76,TRUE,0
+T-GT-77,bank,CREDIT,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,71,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-77,TRUE,0
+T-GT-78,bank,CREDIT,,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,72,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-78,TRUE,0
+T-GT-79,bank,CREDIT,,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,73,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-79,TRUE,0
+T-GT-80,bank,CREDIT,,a,,,2010-01-01,,,OTHER_DEPOSITS,,0,74,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-80,TRUE,0
+T-GT-81,bank,CREDIT,,a,,,2010-01-01,,,,,0,75,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-81,TRUE,0
+T-GT-82,bank,CREDIT,,,Other Income,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,76,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-82,TRUE,0
+T-GT-83,bank,CREDIT,,,Other Income,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,77,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-83,TRUE,0
+T-GT-84,bank,CREDIT,,,Other Income,,2010-01-01,,,OTHER_DEPOSITS,,0,78,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-84,TRUE,0
+T-GT-85,bank,CREDIT,,,Other Income,,2010-01-01,,,,,0,79,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-85,TRUE,0
+T-GT-86,bank,CREDIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,80,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-86,TRUE,0
+T-GT-87,bank,CREDIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,81,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-87,TRUE,0
+T-GT-88,bank,CREDIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,OTHER_DEPOSITS,,0,82,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-88,TRUE,0
+T-GT-89,bank,CREDIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,83,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-89,TRUE,0
+T-GT-90,bank,CREDIT,,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,84,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-90,TRUE,0
+T-GT-91,bank,CREDIT,,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,85,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-91,TRUE,0
+T-GT-92,bank,CREDIT,,,,,2010-01-01,,,OTHER_DEPOSITS,,0,86,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-92,TRUE,0
+T-GT-93,bank,CREDIT,,,,,2010-01-01,,,,,0,87,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-93,TRUE,0
+T-GT-94,bank,,INCOME,a,Other Income,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,88,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-94,TRUE,0
+T-GT-95,bank,,INCOME,a,Other Income,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,89,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-95,TRUE,0
+T-GT-96,bank,,INCOME,a,Other Income,,2010-01-01,,,OTHER_DEPOSITS,,0,90,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-96,TRUE,0
+T-GT-97,bank,,INCOME,a,Other Income,,2010-01-01,,,,,0,91,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-97,TRUE,0
+T-GT-98,bank,,INCOME,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,92,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-98,TRUE,0
+T-GT-99,bank,,INCOME,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,93,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-99,TRUE,0
+T-GT-100,bank,,INCOME,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,OTHER_DEPOSITS,,0,94,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-100,TRUE,0
+T-GT-101,bank,,INCOME,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,95,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-101,TRUE,0
+T-GT-102,bank,,INCOME,a,,,2010-01-01,,1E+39,OTHER_DEPOSITS,,0,96,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-102,TRUE,0
+T-GT-103,bank,,INCOME,a,,,2010-01-01,,1E+39,,,0,97,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-103,TRUE,0
+T-GT-104,bank,,INCOME,a,,,2010-01-01,,,OTHER_DEPOSITS,,0,98,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-104,TRUE,0
+T-GT-105,bank,,INCOME,a,,,2010-01-01,,,,,0,99,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-105,TRUE,0
+T-GT-106,bank,,EXPENSE,,Other Expenses,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,100,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-106,TRUE,0
+T-GT-107,bank,,EXPENSE,,Other Expenses,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,101,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-107,TRUE,0
+T-GT-108,bank,,EXPENSE,,Other Expenses,,2010-01-01,,,OTHER_WITHDRAWALS,,0,102,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-108,TRUE,0
+T-GT-109,bank,,EXPENSE,,Other Expenses,,2010-01-01,,,,,0,103,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-109,TRUE,0
+T-GT-110,bank,,EXPENSE,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,104,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-110,TRUE,0
+T-GT-111,bank,,EXPENSE,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,105,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-111,TRUE,0
+T-GT-112,bank,,EXPENSE,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,OTHER_WITHDRAWALS,,0,106,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-112,TRUE,0
+T-GT-113,bank,,EXPENSE,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,107,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-113,TRUE,0
+T-GT-114,bank,,EXPENSE,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,108,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-114,TRUE,0
+T-GT-115,bank,,EXPENSE,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,109,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-115,TRUE,0
+T-GT-116,bank,,EXPENSE,,,,2010-01-01,,,OTHER_WITHDRAWALS,,0,110,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-116,TRUE,0
+T-GT-117,bank,,EXPENSE,,,,2010-01-01,,,,,0,111,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-117,TRUE,0
+T-GT-118,bank,,,a,Other Income,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,112,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-118,TRUE,0
+T-GT-119,bank,,,a,Other Income,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,113,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-119,TRUE,0
+T-GT-120,bank,,,a,Other Income,,2010-01-01,,,OTHER_DEPOSITS,,0,114,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-120,TRUE,0
+T-GT-121,bank,,,a,Other Income,,2010-01-01,,,,,0,115,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-121,TRUE,0
+T-GT-122,bank,,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,116,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-122,TRUE,0
+T-GT-123,bank,,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,117,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-123,TRUE,0
+T-GT-124,bank,,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,OTHER_DEPOSITS,,0,118,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-124,TRUE,0
+T-GT-125,bank,,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,119,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-125,TRUE,0
+T-GT-126,bank,,,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,120,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-126,TRUE,0
+T-GT-127,bank,,,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,121,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-127,TRUE,0
+T-GT-128,bank,,,a,,,2010-01-01,,,OTHER_DEPOSITS,,0,122,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-128,TRUE,0
+T-GT-129,bank,,,a,,,2010-01-01,,,,,0,123,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-129,TRUE,0
+T-GT-130,bank,,,,Other Income,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_DEPOSITS,,0,124,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-130,TRUE,0
+T-GT-131,bank,,,,Other Income,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,125,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-131,TRUE,0
+T-GT-132,bank,,,,Other Income,"1,12,15,19,20,28,32,33,43",2010-01-01,,,OTHER_DEPOSITS,,0,126,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-132,TRUE,0
+T-GT-133,bank,,,,Other Income,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,127,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-133,TRUE,0
+T-GT-134,bank,,,,Other Expenses,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,128,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-134,TRUE,0
+T-GT-135,bank,,,,Other Expenses,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,129,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-135,TRUE,0
+T-GT-136,bank,,,,Other Expenses,,2010-01-01,,,OTHER_WITHDRAWALS,,0,130,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-136,TRUE,0
+T-GT-137,bank,,,,Other Expenses,,2010-01-01,,,,,0,131,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-137,TRUE,0
+T-GT-138,bank,,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,132,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-138,TRUE,0
+T-GT-139,bank,,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,133,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-139,TRUE,0
+T-GT-140,bank,,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,OTHER_WITHDRAWALS,,0,134,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-140,TRUE,0
+T-GT-141,bank,,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,135,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-141,TRUE,0
+T-GT-142,bank,,,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",OTHER_WITHDRAWALS,,0,136,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-142,TRUE,0
+T-GT-143,bank,,,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,137,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-143,TRUE,0
+T-GT-144,bank,,,,,,2010-01-01,,,OTHER_WITHDRAWALS,,0,138,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-144,TRUE,0
+T-GT-145,bank,,,,,,2010-01-01,,,,,0,139,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-145,TRUE,0
+T-GT-146,creditCard,DEBIT,EXPENSE,a,Cable/Satellite/Telecom,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,140,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-146,TRUE,0
+T-GT-147,creditCard,DEBIT,EXPENSE,a,Electronics/General Merchandise,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,141,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-147,TRUE,0
+T-GT-148,creditCard,DEBIT,EXPENSE,a,Cable/Satellite/Telecom,,2010-01-01,,,PAYMENT,,0,142,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-148,TRUE,0
+T-GT-149,creditCard,DEBIT,EXPENSE,a,Electronics/General Merchandise,,2010-01-01,,,,,0,143,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-149,TRUE,0
+T-GT-150,creditCard,DEBIT,EXPENSE,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,144,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-150,TRUE,0
+T-GT-151,creditCard,DEBIT,EXPENSE,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,145,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-151,TRUE,0
+T-GT-152,creditCard,DEBIT,EXPENSE,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,PAYMENT,,0,146,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-152,TRUE,0
+T-GT-153,creditCard,DEBIT,EXPENSE,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,147,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-153,TRUE,0
+T-GT-154,creditCard,DEBIT,EXPENSE,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,148,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-154,TRUE,0
+T-GT-155,creditCard,DEBIT,EXPENSE,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,149,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-155,TRUE,0
+T-GT-156,creditCard,DEBIT,EXPENSE,a,,,2010-01-01,,,PAYMENT,,0,150,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-156,TRUE,0
+T-GT-157,creditCard,DEBIT,EXPENSE,a,,,2010-01-01,,,,,0,151,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-157,TRUE,0
+T-GT-158,creditCard,DEBIT,EXPENSE,,Cable/Satellite/Telecom,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,152,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-158,TRUE,0
+T-GT-159,creditCard,DEBIT,EXPENSE,,Electronics/General Merchandise,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,153,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-159,TRUE,0
+T-GT-160,creditCard,DEBIT,EXPENSE,,Cable/Satellite/Telecom,,2010-01-01,,,PAYMENT,,0,154,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-160,TRUE,0
+T-GT-161,creditCard,DEBIT,EXPENSE,,Electronics/General Merchandise,,2010-01-01,,,,,0,155,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-161,TRUE,0
+T-GT-162,creditCard,DEBIT,EXPENSE,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,156,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-162,TRUE,0
+T-GT-163,creditCard,DEBIT,EXPENSE,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,157,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-163,TRUE,0
+T-GT-164,creditCard,DEBIT,EXPENSE,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,PAYMENT,,0,158,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-164,TRUE,0
+T-GT-165,creditCard,DEBIT,EXPENSE,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,159,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-165,TRUE,0
+T-GT-166,creditCard,DEBIT,EXPENSE,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,160,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-166,TRUE,0
+T-GT-167,creditCard,DEBIT,EXPENSE,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,161,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-167,TRUE,0
+T-GT-168,creditCard,DEBIT,EXPENSE,,,,2010-01-01,,,PAYMENT,,0,162,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-168,TRUE,0
+T-GT-169,creditCard,DEBIT,EXPENSE,,,,2010-01-01,,,,,0,163,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-169,TRUE,0
+T-GT-170,creditCard,DEBIT,,a,Cable/Satellite/Telecom,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,164,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-170,TRUE,0
+T-GT-171,creditCard,DEBIT,,a,Electronics/General Merchandise,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,165,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-171,TRUE,0
+T-GT-172,creditCard,DEBIT,,a,Cable/Satellite/Telecom,,2010-01-01,,,PAYMENT,,0,166,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-172,TRUE,0
+T-GT-173,creditCard,DEBIT,,a,Electronics/General Merchandise,,2010-01-01,,,,,0,167,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-173,TRUE,0
+T-GT-174,creditCard,DEBIT,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,168,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-174,TRUE,0
+T-GT-175,creditCard,DEBIT,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,169,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-175,TRUE,0
+T-GT-176,creditCard,DEBIT,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,PAYMENT,,0,170,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-176,TRUE,0
+T-GT-177,creditCard,DEBIT,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,171,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-177,TRUE,0
+T-GT-178,creditCard,DEBIT,,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,172,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-178,TRUE,0
+T-GT-179,creditCard,DEBIT,,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,173,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-179,TRUE,0
+T-GT-180,creditCard,DEBIT,,a,,,2010-01-01,,,PAYMENT,,0,174,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-180,TRUE,0
+T-GT-181,creditCard,DEBIT,,a,,,2010-01-01,,,,,0,175,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-181,TRUE,0
+T-GT-182,creditCard,DEBIT,,,Cable/Satellite/Telecom,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,176,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-182,TRUE,0
+T-GT-183,creditCard,DEBIT,,,Electronics/General Merchandise,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,177,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-183,TRUE,0
+T-GT-184,creditCard,DEBIT,,,Cable/Satellite/Telecom,,2010-01-01,,,PAYMENT,,0,178,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-184,TRUE,0
+T-GT-185,creditCard,DEBIT,,,Electronics/General Merchandise,,2010-01-01,,,,,0,179,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-185,TRUE,0
+T-GT-186,creditCard,DEBIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,180,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-186,TRUE,0
+T-GT-187,creditCard,DEBIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,181,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-187,TRUE,0
+T-GT-188,creditCard,DEBIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,PAYMENT,,0,182,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-188,TRUE,0
+T-GT-189,creditCard,DEBIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,183,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-189,TRUE,0
+T-GT-190,creditCard,DEBIT,,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,184,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-190,TRUE,0
+T-GT-191,creditCard,DEBIT,,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,185,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-191,TRUE,0
+T-GT-192,creditCard,DEBIT,,,,,2010-01-01,,,PAYMENT,,0,186,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-192,TRUE,0
+T-GT-193,creditCard,DEBIT,,,,,2010-01-01,,,,,0,187,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-193,TRUE,0
+T-GT-194,creditCard,CREDIT,INCOME,a,Refunds/Adjustments,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,188,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-194,TRUE,0
+T-GT-195,creditCard,CREDIT,INCOME,a,Refunds/Adjustments,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,189,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-195,TRUE,0
+T-GT-196,creditCard,CREDIT,INCOME,a,Refunds/Adjustments,,2010-01-01,,,REFUND,,0,190,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-196,TRUE,0
+T-GT-197,creditCard,CREDIT,INCOME,a,Refunds/Adjustments,,2010-01-01,,,,,0,191,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-197,TRUE,0
+T-GT-198,creditCard,CREDIT,INCOME,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,192,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-198,TRUE,0
+T-GT-199,creditCard,CREDIT,INCOME,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,193,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-199,TRUE,0
+T-GT-200,creditCard,CREDIT,INCOME,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,REFUND,,0,194,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-200,TRUE,0
+T-GT-201,creditCard,CREDIT,INCOME,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,195,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-201,TRUE,0
+T-GT-202,creditCard,CREDIT,INCOME,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,196,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-202,TRUE,0
+T-GT-203,creditCard,CREDIT,INCOME,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,197,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-203,TRUE,0
+T-GT-204,creditCard,CREDIT,INCOME,a,,,2010-01-01,,,REFUND,,0,198,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-204,TRUE,0
+T-GT-205,creditCard,CREDIT,INCOME,a,,,2010-01-01,,,,,0,199,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-205,TRUE,0
+T-GT-206,creditCard,CREDIT,INCOME,,Refunds/Adjustments,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,200,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-206,TRUE,0
+T-GT-207,creditCard,CREDIT,INCOME,,Refunds/Adjustments,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,201,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-207,TRUE,0
+T-GT-208,creditCard,CREDIT,INCOME,,Refunds/Adjustments,,2010-01-01,,,REFUND,,0,202,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-208,TRUE,0
+T-GT-209,creditCard,CREDIT,INCOME,,Refunds/Adjustments,,2010-01-01,,,,,0,203,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-209,TRUE,0
+T-GT-210,creditCard,CREDIT,INCOME,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,204,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-210,TRUE,0
+T-GT-211,creditCard,CREDIT,INCOME,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,205,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-211,TRUE,0
+T-GT-212,creditCard,CREDIT,INCOME,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,REFUND,,0,206,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-212,TRUE,0
+T-GT-213,creditCard,CREDIT,INCOME,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,207,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-213,TRUE,0
+T-GT-214,creditCard,CREDIT,INCOME,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,208,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-214,TRUE,0
+T-GT-215,creditCard,CREDIT,INCOME,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,209,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-215,TRUE,0
+T-GT-216,creditCard,CREDIT,INCOME,,,,2010-01-01,,,REFUND,,0,210,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-216,TRUE,0
+T-GT-217,creditCard,CREDIT,INCOME,,,,2010-01-01,,,,,0,211,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-217,TRUE,0
+T-GT-218,creditCard,CREDIT,,a,Refunds/Adjustments,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,212,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-218,TRUE,0
+T-GT-219,creditCard,CREDIT,,a,Refunds/Adjustments,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,213,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-219,TRUE,0
+T-GT-220,creditCard,CREDIT,,a,Refunds/Adjustments,,2010-01-01,,,REFUND,,0,214,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-220,TRUE,0
+T-GT-221,creditCard,CREDIT,,a,Refunds/Adjustments,,2010-01-01,,,,,0,215,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-221,TRUE,0
+T-GT-222,creditCard,CREDIT,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,216,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-222,TRUE,0
+T-GT-223,creditCard,CREDIT,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,217,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-223,TRUE,0
+T-GT-224,creditCard,CREDIT,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,REFUND,,0,218,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-224,TRUE,0
+T-GT-225,creditCard,CREDIT,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,219,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-225,TRUE,0
+T-GT-226,creditCard,CREDIT,,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,220,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-226,TRUE,0
+T-GT-227,creditCard,CREDIT,,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,221,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-227,TRUE,0
+T-GT-228,creditCard,CREDIT,,a,,,2010-01-01,,,REFUND,,0,222,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-228,TRUE,0
+T-GT-229,creditCard,CREDIT,,a,,,2010-01-01,,,,,0,223,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-229,TRUE,0
+T-GT-230,creditCard,CREDIT,,,Refunds/Adjustments,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,224,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-230,TRUE,0
+T-GT-231,creditCard,CREDIT,,,Refunds/Adjustments,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,225,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-231,TRUE,0
+T-GT-232,creditCard,CREDIT,,,Refunds/Adjustments,,2010-01-01,,,REFUND,,0,226,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-232,TRUE,0
+T-GT-233,creditCard,CREDIT,,,Refunds/Adjustments,,2010-01-01,,,,,0,227,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-233,TRUE,0
+T-GT-234,creditCard,CREDIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,228,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-234,TRUE,0
+T-GT-235,creditCard,CREDIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,229,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-235,TRUE,0
+T-GT-236,creditCard,CREDIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,REFUND,,0,230,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-236,TRUE,0
+T-GT-237,creditCard,CREDIT,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,231,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-237,TRUE,0
+T-GT-238,creditCard,CREDIT,,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,232,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-238,TRUE,0
+T-GT-239,creditCard,CREDIT,,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,233,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-239,TRUE,0
+T-GT-240,creditCard,CREDIT,,,,,2010-01-01,,,REFUND,,0,234,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-240,TRUE,0
+T-GT-241,creditCard,CREDIT,,,,,2010-01-01,,,,,0,235,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-241,TRUE,0
+T-GT-242,creditCard,,EXPENSE,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,236,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-242,TRUE,0
+T-GT-243,creditCard,,INCOME,a,Cable/Satellite/Telecom,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,237,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-243,TRUE,0
+T-GT-244,creditCard,,EXPENSE,a,Refunds/Adjustments,,2010-01-01,,,REFUND,,0,238,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-244,TRUE,0
+T-GT-245,creditCard,,INCOME,a,Refunds/Adjustments,,2010-01-01,,,,,0,239,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-245,TRUE,0
+T-GT-246,creditCard,,EXPENSE,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,240,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-246,TRUE,0
+T-GT-247,creditCard,,INCOME,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,241,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-247,TRUE,0
+T-GT-248,creditCard,,EXPENSE,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,PAYMENT,,0,242,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-248,TRUE,0
+T-GT-249,creditCard,,INCOME,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,243,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-249,TRUE,0
+T-GT-250,creditCard,,EXPENSE,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,244,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-250,TRUE,0
+T-GT-251,creditCard,,INCOME,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,245,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-251,TRUE,0
+T-GT-252,creditCard,,EXPENSE,a,,,2010-01-01,,,REFUND,,0,246,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-252,TRUE,0
+T-GT-253,creditCard,,INCOME,a,,,2010-01-01,,,,,0,247,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-253,TRUE,0
+T-GT-254,creditCard,,EXPENSE,,Cable/Satellite/Telecom,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,248,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-254,TRUE,0
+T-GT-255,creditCard,,INCOME,,Refunds/Adjustments,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,500,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-255,TRUE,0
+T-GT-256,creditCard,,EXPENSE,,Cable/Satellite/Telecom,,2010-01-01,,,REFUND,,0,2,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-256,TRUE,0
+T-GT-257,creditCard,,INCOME,,Refunds/Adjustments,,2010-01-01,,,,,0,3,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-257,TRUE,0
+T-GT-258,creditCard,,EXPENSE,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,4,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-258,TRUE,0
+T-GT-259,creditCard,,INCOME,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,5,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-259,TRUE,0
+T-GT-260,creditCard,,EXPENSE,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,REFUND,,0,6,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-260,TRUE,0
+T-GT-261,creditCard,,INCOME,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,7,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-261,TRUE,0
+T-GT-262,creditCard,,EXPENSE,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,8,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-262,TRUE,0
+T-GT-263,creditCard,,INCOME,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,9,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-263,TRUE,0
+T-GT-264,creditCard,,EXPENSE,,,,2010-01-01,,,REFUND,,0,10,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-264,TRUE,0
+T-GT-265,creditCard,,INCOME,,,,2010-01-01,,,,,0,11,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-265,TRUE,0
+T-GT-266,creditCard,,,a,Cable/Satellite/Telecom,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,12,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-266,TRUE,0
+T-GT-267,creditCard,,,a,Refunds/Adjustments,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,13,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-267,TRUE,0
+T-GT-268,creditCard,,,a,Cable/Satellite/Telecom,,2010-01-01,,,REFUND,,0,14,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-268,TRUE,0
+T-GT-269,creditCard,,,a,Refunds/Adjustments,,2010-01-01,,,,,0,15,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-269,TRUE,0
+T-GT-270,creditCard,,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,16,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-270,TRUE,0
+T-GT-271,creditCard,,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,17,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-271,TRUE,0
+T-GT-272,creditCard,,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,REFUND,,0,18,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-272,TRUE,0
+T-GT-273,creditCard,,,a,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,,,0,19,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-273,TRUE,0
+T-GT-274,creditCard,,,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,20,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-274,TRUE,0
+T-GT-275,creditCard,,,a,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,21,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-275,TRUE,0
+T-GT-276,creditCard,,,a,,,2010-01-01,,,REFUND,,0,22,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-276,TRUE,0
+T-GT-277,creditCard,,,a,,,2010-01-01,,,,,0,23,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-277,TRUE,0
+T-GT-278,creditCard,,,,Cable/Satellite/Telecom,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,24,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-278,TRUE,0
+T-GT-279,creditCard,,,,Refunds/Adjustments,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,25,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-279,TRUE,0
+T-GT-280,creditCard,,,,Cable/Satellite/Telecom,,2010-01-01,,,REFUND,,0,26,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-280,TRUE,0
+T-GT-281,creditCard,,,,Refunds/Adjustments,,2010-01-01,,,,,0,27,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-281,TRUE,0
+T-GT-282,creditCard,,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,28,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-282,TRUE,0
+T-GT-283,creditCard,,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,29,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-283,TRUE,0
+T-GT-284,creditCard,,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,,,REFUND,,0,30,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-284,TRUE,0
+T-GT-285,creditCard,,,,,"1,12,15,19,20,28,32,33,43",2010-01-01,12.12.12,,,,0,31,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-285,TRUE,0
+T-GT-286,creditCard,,,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,UNRECONCILED,0,32,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-286,TRUE,0
+T-GT-287,creditCard,,,,,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,33,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-287,TRUE,0
+T-GT-288,creditCard,,,,,,2010-01-01,,,REFUND,,0,34,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-288,TRUE,0
+T-GT-289,creditCard,,,,,,2010-01-01,,,,,0,35,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-289,TRUE,0
+T-GT-290,bank,DEBITS@#,UNCATEGORIZE,a,Uncategorized,1,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,36,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-290,TRUE,0
+T-GT-291,bank,,UNCATEGORIZE@!,a,Uncategorized,1,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,37,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-291,TRUE,0
+T-GT-292,bank,,UNCATEGORIZE,a,Uncategorized##,1,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",REFUND,,0,38,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-292,TRUE,0
+T-GT-293,bank,CREDIT,UNCATEGORIZE,a,Uncategorized,-1,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,39,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-293,TRUE,0
+T-GT-294,bank,CREDIT,UNCATEGORIZE,a,Uncategorized,1,12.12.12,,"10000004,10000009,10000012,10000015,10000016,10000017",PAYMENT,,0,40,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-294,TRUE,0
+T-GT-295,bank,CREDIT,UNCATEGORIZE,a,,"1,33,14",,2016-02-20,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,41,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-295,TRUE,0
+T-GT-296,creditCard,CREDIT,UNCATEGORIZE,a,,"1,33,14",2010-01-01,,-1,REFUND,,0,42,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-296,TRUE,0
+T-GT-297,creditCard,CREDIT,UNCATEGORIZE,a,,"1,33,14",2010-09-01,,"10000004,10000009,10000012,10000015,10000016,10000017",EXP##,,0,43,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-297,TRUE,0
+T-GT-298,creditCard,CREDIT,UNCATEGORIZE,a,,"1,33,14",2016-01-01,2015-09-09,"10000004,10000009,10000012,10000015,10000016,10000017",EXP,,0,44,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-298,TRUE,0
+T-GT-299,investment,DEBIT,TRANSFER,a,,"1,17,28,41",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,UNRECONCILED,0,45,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-299,TRUE,0
+T-GT-300,investment,DEBIT,TRANSFER,a,,"1,17,28,41",2010-01-02,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,RECONCILED,0,46,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-300,TRUE,0
+T-GT-301,investment,DEBIT,TRANSFER,a,,"1,17,28,41",2010-01-03,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,,0,47,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-301,TRUE,0
+T-GT-302,investment,DEBIT,TRANSFER,a,,"1,17,28,41",2010-01-04,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,48,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-302,TRUE,0
+T-GT-303,investment,DEBIT,TRANSFER,a,,"1,17,28,41",2010-01-05,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,49,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-303,TRUE,0
+T-GT-304,investment,DEBIT,TRANSFER,a,,"1,17,28,41",2010-01-06,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,50,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-304,TRUE,0
+T-GT-305,investment,DEBIT,TRANSFER,a,,"1,17,28,41",2010-01-07,,,TRANSFER_CASH_OUT,UNRECONCILED,0,51,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-305,TRUE,0
+T-GT-306,investment,DEBIT,TRANSFER,a,,"1,17,28,41",2010-01-08,,,TRANSFER_CASH_OUT,RECONCILED,0,52,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-306,TRUE,0
+T-GT-307,investment,DEBIT,TRANSFER,a,,"1,17,28,41",2010-01-09,,,TRANSFER_CASH_OUT,,0,53,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-307,TRUE,0
+T-GT-308,investment,DEBIT,TRANSFER,a,,"1,17,28,41",2010-01-10,,,,UNRECONCILED,0,54,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-308,TRUE,0
+T-GT-309,investment,DEBIT,TRANSFER,a,,"1,17,28,41",2010-01-11,,,,RECONCILED,0,55,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-309,TRUE,0
+T-GT-310,investment,DEBIT,TRANSFER,a,,"1,17,28,41",2010-01-12,,,,,0,56,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-310,TRUE,0
+T-GT-311,investment,DEBIT,TRANSFER,a,Transfers,,2010-01-13,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,UNRECONCILED,0,57,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-311,TRUE,0
+T-GT-312,investment,DEBIT,TRANSFER,a,Transfers,,2010-01-14,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,RECONCILED,0,58,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-312,TRUE,0
+T-GT-313,investment,DEBIT,TRANSFER,a,Transfers,,2010-01-15,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,,0,59,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-313,TRUE,0
+T-GT-314,investment,DEBIT,TRANSFER,a,Transfers,,2010-01-16,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,60,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-314,TRUE,0
+T-GT-315,investment,DEBIT,TRANSFER,a,Transfers,,2010-01-17,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,61,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-315,TRUE,0
+T-GT-316,investment,DEBIT,TRANSFER,a,Transfers,,2010-01-18,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,62,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-316,TRUE,0
+T-GT-317,investment,DEBIT,TRANSFER,a,Transfers,,2010-01-19,,,TRANSFER_CASH_OUT,UNRECONCILED,0,63,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-317,TRUE,0
+T-GT-318,investment,DEBIT,TRANSFER,a,Transfers,,2010-01-20,,,TRANSFER_CASH_OUT,RECONCILED,0,64,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-318,TRUE,0
+T-GT-319,investment,DEBIT,TRANSFER,a,Transfers,,2010-01-21,,,TRANSFER_CASH_OUT,,0,65,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-319,TRUE,0
+T-GT-320,investment,DEBIT,TRANSFER,a,Transfers,,2010-01-22,,,,UNRECONCILED,0,66,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-320,TRUE,0
+T-GT-321,investment,DEBIT,TRANSFER,a,Transfers,,2010-01-23,,,,RECONCILED,0,67,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-321,TRUE,0
+T-GT-322,investment,DEBIT,TRANSFER,a,Transfers,,2010-01-24,,,,,0,68,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-322,TRUE,0
+T-GT-323,investment,DEBIT,TRANSFER,,,"1,17,28,41",2010-01-25,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,UNRECONCILED,0,69,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-323,TRUE,0
+T-GT-324,investment,DEBIT,TRANSFER,,,"1,17,28,41",2010-01-26,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,RECONCILED,0,70,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-324,TRUE,0
+T-GT-325,investment,DEBIT,TRANSFER,,,"1,17,28,41",2010-01-27,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,,0,71,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-325,TRUE,0
+T-GT-326,investment,DEBIT,TRANSFER,,,"1,17,28,41",2010-01-28,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,72,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-326,TRUE,0
+T-GT-327,investment,DEBIT,TRANSFER,,,"1,17,28,41",2010-01-29,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,73,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-327,TRUE,0
+T-GT-328,investment,DEBIT,TRANSFER,,,"1,17,28,41",2010-01-30,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,74,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-328,TRUE,0
+T-GT-329,investment,DEBIT,TRANSFER,,,"1,17,28,41",2010-01-31,,,TRANSFER_CASH_OUT,UNRECONCILED,0,75,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-329,TRUE,0
+T-GT-330,investment,DEBIT,TRANSFER,,,"1,17,28,41",2010-02-01,,,TRANSFER_CASH_OUT,RECONCILED,0,76,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-330,TRUE,0
+T-GT-331,investment,DEBIT,TRANSFER,,,"1,17,28,41",2010-02-02,,,TRANSFER_CASH_OUT,,0,77,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-331,TRUE,0
+T-GT-332,investment,DEBIT,TRANSFER,,,"1,17,28,41",2010-02-03,,,,UNRECONCILED,0,78,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-332,TRUE,0
+T-GT-333,investment,DEBIT,TRANSFER,,,"1,17,28,41",2010-02-04,,,,RECONCILED,0,79,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-333,TRUE,0
+T-GT-334,investment,DEBIT,TRANSFER,,,"1,17,28,41",2010-02-05,,,,,0,80,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-334,TRUE,0
+T-GT-335,investment,DEBIT,TRANSFER,,Transfers,,2010-02-06,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,UNRECONCILED,0,81,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-335,TRUE,0
+T-GT-336,investment,DEBIT,TRANSFER,,Transfers,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,RECONCILED,0,82,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-336,TRUE,0
+T-GT-337,investment,DEBIT,TRANSFER,,Transfers,,2010-01-02,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,,0,83,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-337,TRUE,0
+T-GT-338,investment,DEBIT,TRANSFER,,Transfers,,2010-01-03,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,84,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-338,TRUE,0
+T-GT-339,investment,DEBIT,TRANSFER,,Transfers,,2010-01-04,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,85,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-339,TRUE,0
+T-GT-340,investment,DEBIT,TRANSFER,,Transfers,,2010-01-05,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,86,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-340,TRUE,0
+T-GT-341,investment,DEBIT,TRANSFER,,Transfers,,2010-01-06,,,TRANSFER_CASH_OUT,UNRECONCILED,0,87,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-341,TRUE,0
+T-GT-342,investment,DEBIT,TRANSFER,,Transfers,,2010-01-07,,,TRANSFER_CASH_OUT,RECONCILED,0,88,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-342,TRUE,0
+T-GT-343,investment,DEBIT,TRANSFER,,Transfers,,2010-01-08,,,TRANSFER_CASH_OUT,,0,89,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-343,TRUE,0
+T-GT-344,investment,DEBIT,TRANSFER,,Transfers,,2010-01-09,,,,UNRECONCILED,0,90,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-344,TRUE,0
+T-GT-345,investment,DEBIT,TRANSFER,,Transfers,,2010-01-10,,,,RECONCILED,0,91,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-345,TRUE,0
+T-GT-346,investment,DEBIT,TRANSFER,,Transfers,,2010-01-11,,,,,0,92,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-346,TRUE,0
+T-GT-347,investment,DEBIT,,a,,"1,17,28,41",2010-01-12,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,UNRECONCILED,0,93,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-347,TRUE,0
+T-GT-348,investment,DEBIT,,a,,"1,17,28,41",2010-01-13,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,RECONCILED,0,94,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-348,TRUE,0
+T-GT-349,investment,DEBIT,,a,,"1,17,28,41",2010-01-14,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,,0,95,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-349,TRUE,0
+T-GT-350,investment,DEBIT,,a,,"1,17,28,41",2010-01-15,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,96,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-350,TRUE,0
+T-GT-351,investment,DEBIT,,a,,"1,17,28,41",2010-01-16,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,97,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-351,TRUE,0
+T-GT-352,investment,DEBIT,,a,,"1,17,28,41",2010-01-17,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,98,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-352,TRUE,0
+T-GT-353,investment,DEBIT,,a,,"1,17,28,41",2010-01-18,,,TRANSFER_CASH_OUT,UNRECONCILED,0,99,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-353,TRUE,0
+T-GT-354,investment,DEBIT,,a,,"1,17,28,41",2010-01-19,,,TRANSFER_CASH_OUT,RECONCILED,0,100,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-354,TRUE,0
+T-GT-355,investment,DEBIT,,a,,"1,17,28,41",2010-01-20,,,TRANSFER_CASH_OUT,,0,101,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-355,TRUE,0
+T-GT-356,investment,DEBIT,,a,,"1,17,28,41",2010-01-21,,,,UNRECONCILED,0,102,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-356,TRUE,0
+T-GT-357,investment,DEBIT,,a,,"1,17,28,41",2010-01-22,,,,RECONCILED,0,103,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-357,TRUE,0
+T-GT-358,investment,DEBIT,,a,,"1,17,28,41",2010-01-23,,,,,0,104,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-358,TRUE,0
+T-GT-359,investment,DEBIT,,a,Transfers,,2010-01-24,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,UNRECONCILED,0,105,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-359,TRUE,0
+T-GT-360,investment,DEBIT,,a,Transfers,,2010-01-25,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,RECONCILED,0,106,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-360,TRUE,0
+T-GT-361,investment,DEBIT,,a,Transfers,,2010-01-26,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,,0,107,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-361,TRUE,0
+T-GT-362,investment,DEBIT,,a,Transfers,,2010-01-27,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,108,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-362,TRUE,0
+T-GT-363,investment,DEBIT,,a,Transfers,,2010-01-28,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,109,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-363,TRUE,0
+T-GT-364,investment,DEBIT,,a,Transfers,,2010-01-29,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,110,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-364,TRUE,0
+T-GT-365,investment,DEBIT,,a,Transfers,,2010-01-30,,,TRANSFER_CASH_OUT,UNRECONCILED,0,111,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-365,TRUE,0
+T-GT-366,investment,DEBIT,,a,Transfers,,2010-01-31,,,TRANSFER_CASH_OUT,RECONCILED,0,112,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-366,TRUE,0
+T-GT-367,investment,DEBIT,,a,Transfers,,2010-02-01,,,TRANSFER_CASH_OUT,,0,113,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-367,TRUE,0
+T-GT-368,investment,DEBIT,,a,Transfers,,2010-02-02,,,,UNRECONCILED,0,114,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-368,TRUE,0
+T-GT-369,investment,DEBIT,,a,Transfers,,2010-02-03,,,,RECONCILED,0,115,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-369,TRUE,0
+T-GT-370,investment,DEBIT,,a,Transfers,,2010-02-04,,,,,0,116,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-370,TRUE,0
+T-GT-371,investment,DEBIT,,,,"1,17,28,41",2010-02-05,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,UNRECONCILED,0,117,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-371,TRUE,0
+T-GT-372,investment,DEBIT,,,,"1,17,28,41",2010-02-06,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,RECONCILED,0,118,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-372,TRUE,0
+T-GT-373,investment,DEBIT,,,,"1,17,28,41",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,,0,119,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-373,TRUE,0
+T-GT-374,investment,DEBIT,,,,"1,17,28,41",2010-01-02,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,120,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-374,TRUE,0
+T-GT-375,investment,DEBIT,,,,"1,17,28,41",2010-01-03,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,121,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-375,TRUE,0
+T-GT-376,investment,DEBIT,,,,"1,17,28,41",2010-01-04,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,122,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-376,TRUE,0
+T-GT-377,investment,DEBIT,,,,"1,17,28,41",2010-01-05,,,TRANSFER_CASH_OUT,UNRECONCILED,0,123,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-377,TRUE,0
+T-GT-378,investment,DEBIT,,,,"1,17,28,41",2010-01-06,,,TRANSFER_CASH_OUT,RECONCILED,0,124,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-378,TRUE,0
+T-GT-379,investment,DEBIT,,,,"1,17,28,41",2010-01-07,,,TRANSFER_CASH_OUT,,0,125,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-379,TRUE,0
+T-GT-380,investment,DEBIT,,,,"1,17,28,41",2010-01-08,,,,UNRECONCILED,0,126,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-380,TRUE,0
+T-GT-381,investment,DEBIT,,,,"1,17,28,41",2010-01-09,,,,RECONCILED,0,127,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-381,TRUE,0
+T-GT-382,investment,DEBIT,,,,"1,17,28,41",2010-01-10,,,,,0,128,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-382,TRUE,0
+T-GT-383,investment,DEBIT,,,Transfers,,2010-01-11,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,UNRECONCILED,0,129,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-383,TRUE,0
+T-GT-384,investment,DEBIT,,,Transfers,,2010-01-12,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,RECONCILED,0,130,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-384,TRUE,0
+T-GT-385,investment,DEBIT,,,Transfers,,2010-01-13,,"10000004,10000009,10000012,10000015,10000016,10000017",TRANSFER_CASH_OUT,,0,131,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-385,TRUE,0
+T-GT-386,investment,DEBIT,,,Transfers,,2010-01-14,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,132,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-386,TRUE,0
+T-GT-387,investment,DEBIT,,,Transfers,,2010-01-15,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,133,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-387,TRUE,0
+T-GT-388,investment,DEBIT,,,Transfers,,2010-01-16,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,134,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-388,TRUE,0
+T-GT-389,investment,DEBIT,,,Transfers,,2010-01-17,,,TRANSFER_CASH_OUT,UNRECONCILED,0,135,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-389,TRUE,0
+T-GT-390,investment,DEBIT,,,Transfers,,2010-01-18,,,TRANSFER_CASH_OUT,RECONCILED,0,136,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-390,TRUE,0
+T-GT-391,investment,DEBIT,,,Transfers,,2010-01-19,,,TRANSFER_CASH_OUT,,0,137,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-391,TRUE,0
+T-GT-392,investment,DEBIT,,,Transfers,,2010-01-20,,,,UNRECONCILED,0,138,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-392,TRUE,0
+T-GT-393,investment,DEBIT,,,Transfers,,2010-01-21,,,,RECONCILED,0,139,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-393,TRUE,0
+T-GT-394,investment,DEBIT,,,Transfers,,2010-01-22,,,,,0,140,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-394,TRUE,0
+T-GT-395,investment,CREDIT,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-23,,"10000004,10000009,10000012,10000015,10000016,10000017",LOAN_PAYMENT,UNRECONCILED,0,141,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-395,TRUE,0
+T-GT-396,investment,CREDIT,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-24,,"10000004,10000009,10000012,10000015,10000016,10000017",LOAN_PAYMENT,RECONCILED,0,142,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-396,TRUE,0
+T-GT-397,investment,CREDIT,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-25,,"10000004,10000009,10000012,10000015,10000016,10000017",LOAN_PAYMENT,,0,143,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-397,TRUE,0
+T-GT-398,investment,CREDIT,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-26,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,144,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-398,TRUE,0
+T-GT-399,investment,CREDIT,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-27,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,145,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-399,TRUE,0
+T-GT-400,investment,CREDIT,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-28,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,146,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-400,TRUE,0
+T-GT-401,investment,CREDIT,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-29,,,LOAN_PAYMENT,UNRECONCILED,0,147,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-401,TRUE,0
+T-GT-402,investment,CREDIT,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-30,,,LOAN_PAYMENT,RECONCILED,0,148,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-402,TRUE,0
+T-GT-403,investment,CREDIT,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-31,,,LOAN_PAYMENT,,0,149,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-403,TRUE,0
+T-GT-404,investment,CREDIT,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-02-01,,,,UNRECONCILED,0,150,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-404,TRUE,0
+T-GT-405,investment,CREDIT,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-02-02,,,,RECONCILED,0,151,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-405,TRUE,0
+T-GT-406,investment,CREDIT,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-02-03,,,,,0,152,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-406,TRUE,0
+T-GT-407,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-02-04,,"10000004,10000009,10000012,10000015,10000016,10000017",LOAN_PAYMENT,UNRECONCILED,0,153,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-407,TRUE,0
+T-GT-408,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-02-05,,"10000004,10000009,10000012,10000015,10000016,10000017",LOAN_PAYMENT,RECONCILED,0,154,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-408,TRUE,0
+T-GT-409,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-02-06,,"10000004,10000009,10000012,10000015,10000016,10000017",LOAN_PAYMENT,,0,155,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-409,TRUE,0
+T-GT-410,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,156,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-410,TRUE,0
+T-GT-411,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-02,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,157,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-411,TRUE,0
+T-GT-412,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-03,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,158,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-412,TRUE,0
+T-GT-413,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-04,,,LOAN_PAYMENT,UNRECONCILED,0,159,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-413,TRUE,0
+T-GT-414,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-05,,,LOAN_PAYMENT,RECONCILED,0,160,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-414,TRUE,0
+T-GT-415,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-06,,,LOAN_PAYMENT,,0,161,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-415,TRUE,0
+T-GT-416,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-07,,,,UNRECONCILED,0,162,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-416,TRUE,0
+T-GT-417,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-08,,,,RECONCILED,0,163,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-417,TRUE,0
+T-GT-418,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-09,,,,,0,164,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-418,TRUE,0
+T-GT-419,investment,CREDIT,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-10,,"10000004,10000009,10000012,10000015,10000016,10000017",LOAN_PAYMENT,UNRECONCILED,0,165,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-419,TRUE,0
+T-GT-420,investment,CREDIT,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-11,,"10000004,10000009,10000012,10000015,10000016,10000017",LOAN_PAYMENT,RECONCILED,0,166,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-420,TRUE,0
+T-GT-421,investment,CREDIT,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-12,,"10000004,10000009,10000012,10000015,10000016,10000017",LOAN_PAYMENT,,0,167,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-421,TRUE,0
+T-GT-422,investment,CREDIT,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-13,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,168,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-422,TRUE,0
+T-GT-423,investment,CREDIT,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-14,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,169,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-423,TRUE,0
+T-GT-424,investment,CREDIT,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-15,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,170,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-424,TRUE,0
+T-GT-425,investment,CREDIT,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-16,,,LOAN_PAYMENT,UNRECONCILED,0,171,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-425,TRUE,0
+T-GT-426,investment,CREDIT,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-17,,,LOAN_PAYMENT,RECONCILED,0,172,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-426,TRUE,0
+T-GT-427,investment,CREDIT,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-18,,,LOAN_PAYMENT,,0,173,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-427,TRUE,0
+T-GT-428,investment,CREDIT,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-19,,,,UNRECONCILED,0,174,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-428,TRUE,0
+T-GT-429,investment,CREDIT,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-20,,,,RECONCILED,0,175,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-429,TRUE,0
+T-GT-430,investment,CREDIT,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-21,,,,,0,176,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-430,TRUE,0
+T-GT-431,investment,CREDIT,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-22,,"10000004,10000009,10000012,10000015,10000016,10000017",LOAN_PAYMENT,UNRECONCILED,0,177,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-431,TRUE,0
+T-GT-432,investment,CREDIT,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-23,,"10000004,10000009,10000012,10000015,10000016,10000017",LOAN_PAYMENT,RECONCILED,0,178,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-432,TRUE,0
+T-GT-433,investment,CREDIT,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-24,,"10000004,10000009,10000012,10000015,10000016,10000017",LOAN_PAYMENT,,0,179,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-433,TRUE,0
+T-GT-434,investment,CREDIT,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-25,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,180,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-434,TRUE,0
+T-GT-435,investment,CREDIT,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-26,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,181,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-435,TRUE,0
+T-GT-436,investment,CREDIT,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-27,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,182,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-436,TRUE,0
+T-GT-437,investment,CREDIT,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-28,,,IRA_CONTRIBUTION,UNRECONCILED,0,183,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-437,TRUE,0
+T-GT-438,investment,CREDIT,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-29,,,IRA_CONTRIBUTION,RECONCILED,0,184,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-438,TRUE,0
+T-GT-439,investment,CREDIT,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-30,,,IRA_CONTRIBUTION,,0,185,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-439,TRUE,0
+T-GT-440,investment,CREDIT,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-31,,,,UNRECONCILED,0,186,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-440,TRUE,0
+T-GT-441,investment,CREDIT,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-02-01,,,,RECONCILED,0,187,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-441,TRUE,0
+T-GT-442,investment,CREDIT,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-02-02,,,,,0,188,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-442,TRUE,0
+T-GT-443,investment,CREDIT,,a,,"1,17,28,41",2010-02-03,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,UNRECONCILED,0,189,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-443,TRUE,0
+T-GT-444,investment,CREDIT,,a,,"1,17,28,41",2010-02-04,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,RECONCILED,0,190,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-444,TRUE,0
+T-GT-445,investment,CREDIT,,a,,"1,17,28,41",2010-02-05,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,,0,191,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-445,TRUE,0
+T-GT-446,investment,CREDIT,,a,,"1,17,28,41",2010-02-06,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,192,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-446,TRUE,0
+T-GT-447,investment,CREDIT,,a,,"1,17,28,41",2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,193,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-447,TRUE,0
+T-GT-448,investment,CREDIT,,a,,"1,17,28,41",2010-01-02,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,194,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-448,TRUE,0
+T-GT-449,investment,CREDIT,,a,,"1,17,28,41",2010-01-03,,,IRA_CONTRIBUTION,UNRECONCILED,0,195,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-449,TRUE,0
+T-GT-450,investment,CREDIT,,a,,"1,17,28,41",2010-01-04,,,IRA_CONTRIBUTION,RECONCILED,0,196,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-450,TRUE,0
+T-GT-451,investment,CREDIT,,a,,"1,17,28,41",2010-01-05,,,IRA_CONTRIBUTION,,0,197,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-451,TRUE,0
+T-GT-452,investment,CREDIT,,a,,"1,17,28,41",2010-01-06,,,,UNRECONCILED,0,198,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-452,TRUE,0
+T-GT-453,investment,CREDIT,,a,,"1,17,28,41",2010-01-07,,,,RECONCILED,0,199,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-453,TRUE,0
+T-GT-454,investment,CREDIT,,a,,"1,17,28,41",2010-01-08,,,,,0,200,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-454,TRUE,0
+T-GT-455,investment,CREDIT,,a,Retirement Contributions,,2010-01-09,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,UNRECONCILED,0,201,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-455,TRUE,0
+T-GT-456,investment,CREDIT,,a,Retirement Contributions,,2010-01-10,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,RECONCILED,0,202,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-456,TRUE,0
+T-GT-457,investment,CREDIT,,a,Retirement Contributions,,2010-01-11,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,,0,203,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-457,TRUE,0
+T-GT-458,investment,CREDIT,,a,Retirement Contributions,,2010-01-12,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,204,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-458,TRUE,0
+T-GT-459,investment,CREDIT,,a,Retirement Contributions,,2010-01-13,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,205,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-459,TRUE,0
+T-GT-460,investment,CREDIT,,a,Retirement Contributions,,2010-01-14,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,206,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-460,TRUE,0
+T-GT-461,investment,CREDIT,,a,Retirement Contributions,,2010-01-15,,,IRA_CONTRIBUTION,UNRECONCILED,0,207,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-461,TRUE,0
+T-GT-462,investment,CREDIT,,a,Retirement Contributions,,2010-01-16,,,IRA_CONTRIBUTION,RECONCILED,0,208,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-462,TRUE,0
+T-GT-463,investment,CREDIT,,a,Retirement Contributions,,2010-01-17,,,IRA_CONTRIBUTION,,0,209,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-463,TRUE,0
+T-GT-464,investment,CREDIT,,a,Retirement Contributions,,2010-01-18,,,,UNRECONCILED,0,210,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-464,TRUE,0
+T-GT-465,investment,CREDIT,,a,Retirement Contributions,,2010-01-19,,,,RECONCILED,0,211,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-465,TRUE,0
+T-GT-466,investment,CREDIT,,a,Retirement Contributions,,2010-01-20,,,,,0,212,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-466,TRUE,0
+T-GT-467,investment,CREDIT,,,,"1,17,28,41",2010-01-21,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,UNRECONCILED,0,213,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-467,TRUE,0
+T-GT-468,investment,CREDIT,,,,"1,17,28,41",2010-01-22,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,RECONCILED,0,214,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-468,TRUE,0
+T-GT-469,investment,CREDIT,,,,"1,17,28,41",2010-01-23,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,,0,215,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-469,TRUE,0
+T-GT-470,investment,CREDIT,,,,"1,17,28,41",2010-01-24,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,216,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-470,TRUE,0
+T-GT-471,investment,CREDIT,,,,"1,17,28,41",2010-01-25,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,217,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-471,TRUE,0
+T-GT-472,investment,CREDIT,,,,"1,17,28,41",2010-01-26,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,218,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-472,TRUE,0
+T-GT-473,investment,CREDIT,,,,"1,17,28,41",2010-01-27,,,IRA_CONTRIBUTION,UNRECONCILED,0,219,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-473,TRUE,0
+T-GT-474,investment,CREDIT,,,,"1,17,28,41",2010-01-28,,,IRA_CONTRIBUTION,RECONCILED,0,220,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-474,TRUE,0
+T-GT-475,investment,CREDIT,,,,"1,17,28,41",2010-01-29,,,IRA_CONTRIBUTION,,0,221,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-475,TRUE,0
+T-GT-476,investment,CREDIT,,,,"1,17,28,41",2010-01-30,,,,UNRECONCILED,0,222,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-476,TRUE,0
+T-GT-477,investment,CREDIT,,,,"1,17,28,41",2010-01-31,,,,RECONCILED,0,223,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-477,TRUE,0
+T-GT-478,investment,CREDIT,,,,"1,17,28,41",2010-02-01,,,,,0,224,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-478,TRUE,0
+T-GT-479,investment,CREDIT,,,Retirement Contributions,,2010-02-02,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,UNRECONCILED,0,225,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-479,TRUE,0
+T-GT-480,investment,CREDIT,,,Retirement Contributions,,2010-02-03,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,RECONCILED,0,226,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-480,TRUE,0
+T-GT-481,investment,CREDIT,,,Retirement Contributions,,2010-02-04,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,,0,227,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-481,TRUE,0
+T-GT-482,investment,CREDIT,,,Retirement Contributions,,2010-02-05,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,228,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-482,TRUE,0
+T-GT-483,investment,CREDIT,,,Retirement Contributions,,2010-02-06,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,229,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-483,TRUE,0
+T-GT-484,investment,CREDIT,,,Retirement Contributions,,2010-01-01,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,230,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-484,TRUE,0
+T-GT-485,investment,CREDIT,,,Retirement Contributions,,2010-01-02,,,IRA_CONTRIBUTION,UNRECONCILED,0,231,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-485,TRUE,0
+T-GT-486,investment,CREDIT,,,Retirement Contributions,,2010-01-03,,,IRA_CONTRIBUTION,RECONCILED,0,232,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-486,TRUE,0
+T-GT-487,investment,CREDIT,,,Retirement Contributions,,2010-01-04,,,IRA_CONTRIBUTION,,0,233,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-487,TRUE,0
+T-GT-488,investment,CREDIT,,,Retirement Contributions,,2010-01-05,,,,UNRECONCILED,0,234,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-488,TRUE,0
+T-GT-489,investment,CREDIT,,,Retirement Contributions,,2010-01-06,,,,RECONCILED,0,235,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-489,TRUE,0
+T-GT-490,investment,CREDIT,,,Retirement Contributions,,2010-01-07,,,,,0,236,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-490,TRUE,0
+T-GT-491,investment,,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-08,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,UNRECONCILED,0,237,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-491,TRUE,0
+T-GT-492,investment,,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-09,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,RECONCILED,0,238,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-492,TRUE,0
+T-GT-493,investment,,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-10,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,,0,239,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-493,TRUE,0
+T-GT-494,investment,,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-11,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,240,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-494,TRUE,0
+T-GT-495,investment,,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-12,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,241,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-495,TRUE,0
+T-GT-496,investment,,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-13,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,242,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-496,TRUE,0
+T-GT-497,investment,,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-14,,,IRA_CONTRIBUTION,UNRECONCILED,0,243,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-497,TRUE,0
+T-GT-498,investment,,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-15,,,IRA_CONTRIBUTION,RECONCILED,0,244,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-498,TRUE,0
+T-GT-499,investment,,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-16,,,IRA_CONTRIBUTION,,0,245,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-499,TRUE,0
+T-GT-500,investment,,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-17,,,,UNRECONCILED,0,246,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-500,TRUE,0
+T-GT-501,investment,,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-18,,,,RECONCILED,0,247,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-501,TRUE,0
+T-GT-502,investment,,DEFERRED_COMPENSATION,a,,"1,17,28,41",2010-01-19,,,,,0,248,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-502,TRUE,0
+T-GT-503,investment,,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-20,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,UNRECONCILED,0,249,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-503,TRUE,0
+T-GT-504,investment,,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-21,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,RECONCILED,0,250,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-504,TRUE,0
+T-GT-505,investment,,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-22,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,,0,251,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-505,TRUE,0
+T-GT-506,investment,,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-23,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,252,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-506,TRUE,0
+T-GT-507,investment,,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-24,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,253,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-507,TRUE,0
+T-GT-508,investment,,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-25,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,254,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-508,TRUE,0
+T-GT-509,investment,,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-26,,,IRA_CONTRIBUTION,UNRECONCILED,0,255,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-509,TRUE,0
+T-GT-510,investment,,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-27,,,IRA_CONTRIBUTION,RECONCILED,0,256,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-510,TRUE,0
+T-GT-511,investment,,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-28,,,IRA_CONTRIBUTION,,0,257,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-511,TRUE,0
+T-GT-512,investment,,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-29,,,,UNRECONCILED,0,258,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-512,TRUE,0
+T-GT-513,investment,,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-30,,,,RECONCILED,0,259,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-513,TRUE,0
+T-GT-514,investment,,DEFERRED_COMPENSATION,a,Retirement Contributions,,2010-01-31,,,,,0,260,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-514,TRUE,0
+T-GT-515,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-02-01,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,UNRECONCILED,0,261,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-515,TRUE,0
+T-GT-516,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-02-02,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,RECONCILED,0,262,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-516,TRUE,0
+T-GT-517,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-02-03,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,,0,263,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-517,TRUE,0
+T-GT-518,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-02-04,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,264,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-518,TRUE,0
+T-GT-519,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-02-05,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,265,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-519,TRUE,0
+T-GT-520,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-02-06,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,266,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-520,TRUE,0
+T-GT-521,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-01,,,IRA_CONTRIBUTION,UNRECONCILED,0,267,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-521,TRUE,0
+T-GT-522,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-02,,,IRA_CONTRIBUTION,RECONCILED,0,268,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-522,TRUE,0
+T-GT-523,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-03,,,IRA_CONTRIBUTION,,0,269,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-523,TRUE,0
+T-GT-524,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-04,,,,UNRECONCILED,0,270,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-524,TRUE,0
+T-GT-525,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-05,,,,RECONCILED,0,271,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-525,TRUE,0
+T-GT-526,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-06,,,,,0,272,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-526,TRUE,0
+T-GT-527,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-07,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,UNRECONCILED,0,273,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-527,TRUE,0
+T-GT-528,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-08,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,RECONCILED,0,274,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-528,TRUE,0
+T-GT-529,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-09,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,,0,275,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-529,TRUE,0
+T-GT-530,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-10,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,276,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-530,TRUE,0
+T-GT-531,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-11,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,277,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-531,TRUE,0
+T-GT-532,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-12,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,278,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-532,TRUE,0
+T-GT-533,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-13,,,IRA_CONTRIBUTION,UNRECONCILED,0,279,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-533,TRUE,0
+T-GT-534,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-14,,,IRA_CONTRIBUTION,RECONCILED,0,280,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-534,TRUE,0
+T-GT-535,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-15,,,IRA_CONTRIBUTION,,0,281,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-535,TRUE,0
+T-GT-536,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-16,,,,UNRECONCILED,0,282,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-536,TRUE,0
+T-GT-537,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-17,,,,RECONCILED,0,283,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-537,TRUE,0
+T-GT-538,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-18,,,,,0,284,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-538,TRUE,0
+T-GT-539,investment,,,a,,"1,17,28,41",2010-01-19,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,UNRECONCILED,0,285,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-539,TRUE,0
+T-GT-540,investment,,,a,,"1,17,28,41",2010-01-20,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,RECONCILED,0,286,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-540,TRUE,0
+T-GT-541,investment,,,a,,"1,17,28,41",2010-01-21,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,,0,287,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-541,TRUE,0
+T-GT-542,investment,,,a,,"1,17,28,41",2010-01-22,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,288,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-542,TRUE,0
+T-GT-543,investment,,,a,,"1,17,28,41",2010-01-23,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,289,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-543,TRUE,0
+T-GT-544,investment,,,a,,"1,17,28,41",2010-01-24,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,290,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-544,TRUE,0
+T-GT-545,investment,,,a,,"1,17,28,41",2010-01-25,,,IRA_CONTRIBUTION,UNRECONCILED,0,291,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-545,TRUE,0
+T-GT-546,investment,,,a,,"1,17,28,41",2010-01-26,,,IRA_CONTRIBUTION,RECONCILED,0,292,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-546,TRUE,0
+T-GT-547,investment,,,a,,"1,17,28,41",2010-01-27,,,IRA_CONTRIBUTION,,0,293,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-547,TRUE,0
+T-GT-548,investment,,,a,,"1,17,28,41",2010-01-28,,,,UNRECONCILED,0,294,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-548,TRUE,0
+T-GT-549,investment,,,a,,"1,17,28,41",2010-01-29,,,,RECONCILED,0,295,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-549,TRUE,0
+T-GT-550,investment,,,a,,"1,17,28,41",2010-01-30,,,,,0,296,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-550,TRUE,0
+T-GT-551,investment,,,a,Retirement Contributions,,2010-01-31,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,UNRECONCILED,0,297,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-551,TRUE,0
+T-GT-552,investment,,,a,Retirement Contributions,,2010-02-01,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,RECONCILED,0,298,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-552,TRUE,0
+T-GT-553,investment,,,a,Retirement Contributions,,2010-02-02,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,,0,299,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-553,TRUE,0
+T-GT-554,investment,,,a,Retirement Contributions,,2010-02-03,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,300,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-554,TRUE,0
+T-GT-555,investment,,,a,Retirement Contributions,,2010-02-04,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,301,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-555,TRUE,0
+T-GT-556,investment,,,a,Retirement Contributions,,2010-02-05,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,302,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-556,TRUE,0
+T-GT-557,investment,,,a,Retirement Contributions,,2010-02-06,,,IRA_CONTRIBUTION,UNRECONCILED,0,303,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-557,TRUE,0
+T-GT-558,investment,,,a,Retirement Contributions,,2010-01-01,,,IRA_CONTRIBUTION,RECONCILED,0,304,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-558,TRUE,0
+T-GT-559,investment,,,a,Retirement Contributions,,2010-01-02,,,IRA_CONTRIBUTION,,0,305,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-559,TRUE,0
+T-GT-560,investment,,,a,Retirement Contributions,,2010-01-03,,,,UNRECONCILED,0,306,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-560,TRUE,0
+T-GT-561,investment,,,a,Retirement Contributions,,2010-01-04,,,,RECONCILED,0,307,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-561,TRUE,0
+T-GT-562,investment,,,a,Retirement Contributions,,2010-01-05,,,,,0,308,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-562,TRUE,0
+T-GT-563,investment,,,,,"1,17,28,41",2010-01-06,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,UNRECONCILED,0,309,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-563,TRUE,0
+T-GT-564,investment,,,,,"1,17,28,41",2010-01-07,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,RECONCILED,0,310,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-564,TRUE,0
+T-GT-565,investment,,,,,"1,17,28,41",2010-01-08,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,,0,311,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-565,TRUE,0
+T-GT-566,investment,,,,,"1,17,28,41",2010-01-09,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,312,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-566,TRUE,0
+T-GT-567,investment,,,,,"1,17,28,41",2010-01-10,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,313,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-567,TRUE,0
+T-GT-568,investment,,,,,"1,17,28,41",2010-01-11,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,314,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-568,TRUE,0
+T-GT-569,investment,,,,,"1,17,28,41",2010-01-12,,,IRA_CONTRIBUTION,UNRECONCILED,0,315,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-569,TRUE,0
+T-GT-570,investment,,,,,"1,17,28,41",2010-01-13,,,IRA_CONTRIBUTION,RECONCILED,0,316,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-570,TRUE,0
+T-GT-571,investment,,,,,"1,17,28,41",2010-01-14,,,IRA_CONTRIBUTION,,0,317,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-571,TRUE,0
+T-GT-572,investment,,,,,"1,17,28,41",2010-01-15,,,,UNRECONCILED,0,318,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-572,TRUE,0
+T-GT-573,investment,,,,,"1,17,28,41",2010-01-16,,,,RECONCILED,0,319,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-573,TRUE,0
+T-GT-574,investment,,,,,"1,17,28,41",2010-01-17,,,,,0,320,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-574,TRUE,0
+T-GT-575,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-18,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,UNRECONCILED,0,321,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-575,TRUE,0
+T-GT-576,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-19,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,RECONCILED,0,322,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-576,TRUE,0
+T-GT-577,investment,,DEFERRED_COMPENSATION,,,"1,17,28,41",2010-01-20,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,,0,323,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-577,TRUE,0
+T-GT-578,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-21,,"10000004,10000009,10000012,10000015,10000016,10000017",,UNRECONCILED,0,324,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-578,TRUE,0
+T-GT-579,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-22,,"10000004,10000009,10000012,10000015,10000016,10000017",,RECONCILED,0,325,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-579,TRUE,0
+T-GT-580,investment,,DEFERRED_COMPENSATION,,Retirement Contributions,,2010-01-23,,"10000004,10000009,10000012,10000015,10000016,10000017",,,0,326,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-580,TRUE,0
+T-GT-581,investment,,,,Retirement Contributions,,2010-01-24,,,IRA_CONTRIBUTION,UNRECONCILED,0,327,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-581,TRUE,0
+T-GT-582,investment,,,,Retirement Contributions,,2010-01-25,,,IRA_CONTRIBUTION,RECONCILED,0,328,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-582,TRUE,0
+T-GT-583,investment,,,,Retirement Contributions,,2010-01-26,,,IRA_CONTRIBUTION,,0,329,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-583,TRUE,0
+T-GT-584,investment,,,,Retirement Contributions,,2010-01-27,,,,UNRECONCILED,0,330,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-584,TRUE,0
+T-GT-585,investment,,,,Retirement Contributions,,2010-01-28,,,,RECONCILED,0,331,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-585,TRUE,0
+T-GT-586,investment,,,,Retirement Contributions,,2010-01-29,,,,,0,332,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-586,TRUE,0
+T-GT-587,investment,DEBITS@#,DEFERRED_COMPENSATION,a,Retirement Contributions,"1,17,28,41",2010-01-30,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,UNRECONCILED,0,333,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-587,TRUE,0
+T-GT-588,investment,,DEFERRED_COMPENSATION,a,Retirement Contributions,"1,17,28,41",2010-01-31,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,RECONCILED,0,334,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-588,TRUE,0
+T-GT-589,investment,,DEFERRED_COMPENSATION,a,Retirement Contributions,"1,17,28,41",2010-02-01,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,,0,335,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-589,TRUE,0
+T-GT-590,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,-1,2010-02-02,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,UNRECONCILED,0,336,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-590,TRUE,0
+T-GT-591,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,"1,17,28,41",2010-02-03,,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,RECONCILED,0,337,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-591,TRUE,0
+T-GT-592,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,"1,17,28,41",2010-02-04,2016-02-20,"10000004,10000009,10000012,10000015,10000016,10000017",IRA_CONTRIBUTION,,0,338,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-592,TRUE,0
+T-GT-593,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,"1,17,28,41",2010-02-05,,-1,IRA_CONTRIBUTION,UNRECONCILED,0,339,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-593,TRUE,0
+T-GT-594,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,"1,17,28,41",2010-02-06,,"10000004,10000009,10000012,10000015,10000016,10000017",EXP##,RECONCILED,0,340,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-594,TRUE,0
+T-GT-595,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,"1,17,28,41",2010-01-01,2015-09-09,"10000004,10000009,10000012,10000015,10000016,10000017",EXP,,0,341,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-595,TRUE,0
+T-GT-596,investment,CREDIT,DEFERRED_COMPENSATION,a,Retirement Contributions,"1,17,28,41",2010-01-02,,"10000004,10000009,10000012,10000015,10000016,10000017",BUY,Nfnfjndsf,0,342,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-596,TRUE,0
+T-GT-597,loan,DEBIT,UNCATEGORIZE,a,,"1,17,28,41",2010-01-03,,10000017,BUY,,0,343,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-597,TRUE,0
+T-GT-598,loan,DEBIT,UNCATEGORIZE,a,,"1,17,28,41",2010-01-04,,,,RECONCILED,0,344,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-598,TRUE,0
+T-GT-599,loan,DEBIT,UNCATEGORIZE,a,Uncategorized,,2010-01-05,,10000017,,UNRECONCILED,0,345,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-599,TRUE,0
+T-GT-600,loan,DEBIT,UNCATEGORIZE,a,Uncategorized,,2010-01-06,,,,,0,346,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-600,TRUE,0
+T-GT-601,loan,DEBIT,UNCATEGORIZE,,,1,2010-01-07,,10000017,,,0,347,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-601,TRUE,0
+T-GT-602,loan,DEBIT,UNCATEGORIZE,,,1,2010-01-08,,,,,0,348,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-602,TRUE,0
+T-GT-603,loan,DEBIT,UNCATEGORIZE,,Uncategorized,,2010-01-09,,10000017,,,0,349,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-603,TRUE,0
+T-GT-604,loan,DEBIT,UNCATEGORIZE,,Uncategorized,,2010-01-10,,,,,0,350,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-604,TRUE,0
+T-GT-605,loan,DEBIT,,a,,1,2010-01-11,,10000017,,,0,351,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-605,TRUE,0
+T-GT-606,loan,DEBIT,,a,,1,2010-01-12,,,,,0,352,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-606,TRUE,0
+T-GT-607,loan,DEBIT,,a,Uncategorized,,2010-01-13,,10000017,,,0,353,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-607,TRUE,0
+T-GT-608,loan,DEBIT,,a,Uncategorized,,2010-01-14,,,,,0,354,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-608,TRUE,0
+T-GT-609,loan,DEBIT,,,,1,2010-01-15,,10000017,,,0,355,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-609,TRUE,0
+T-GT-610,loan,DEBIT,,,,1,2010-01-16,,,,,0,356,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-610,TRUE,0
+T-GT-611,loan,DEBIT,,,Uncategorized,,2010-01-17,,10000017,,,0,357,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-611,TRUE,0
+T-GT-612,loan,DEBIT,,,Uncategorized,,2010-01-18,,,,,0,358,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-612,TRUE,0
+T-GT-613,loan,CREDIT,UNCATEGORIZE,a,,1,2010-01-19,,10000017,,,0,359,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-613,TRUE,0
+T-GT-614,loan,CREDIT,UNCATEGORIZE,a,,1,2010-01-20,,,,,0,360,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-614,TRUE,0
+T-GT-615,loan,CREDIT,UNCATEGORIZE,a,Uncategorized,,2010-01-21,,10000017,,,0,361,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-615,TRUE,0
+T-GT-616,loan,CREDIT,UNCATEGORIZE,a,Uncategorized,,2010-01-22,,,,,0,362,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-616,TRUE,0
+T-GT-617,loan,CREDIT,UNCATEGORIZE,,,1,2010-01-23,,10000017,,,0,363,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-617,TRUE,0
+T-GT-618,loan,CREDIT,UNCATEGORIZE,,,1,2010-01-24,,,,,0,364,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-618,TRUE,0
+T-GT-619,loan,CREDIT,UNCATEGORIZE,,Uncategorized,,2010-01-25,,10000017,,,0,365,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-619,TRUE,0
+T-GT-620,loan,CREDIT,UNCATEGORIZE,,Uncategorized,,2010-01-26,,,,,0,366,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-620,TRUE,0
+T-GT-621,loan,CREDIT,,a,,1,2010-01-27,,10000017,,,0,367,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-621,TRUE,0
+T-GT-622,loan,CREDIT,,a,,1,2010-01-28,,,,,0,368,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-622,TRUE,0
+T-GT-623,loan,CREDIT,,a,Uncategorized,,2010-01-29,,10000017,,,0,369,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-623,TRUE,0
+T-GT-624,loan,CREDIT,,a,Uncategorized,,2010-01-30,,,,,0,370,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-624,TRUE,0
+T-GT-625,loan,CREDIT,,,,1,2010-01-31,,10000017,,,0,371,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-625,TRUE,0
+T-GT-626,loan,CREDIT,,,,1,2010-02-01,,,,,0,372,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-626,TRUE,0
+T-GT-627,loan,CREDIT,,,Uncategorized,,2010-02-02,,10000017,,,0,373,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-627,TRUE,0
+T-GT-628,loan,CREDIT,,,Uncategorized,,2010-02-03,,,,,0,374,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-628,TRUE,0
+T-GT-629,loan,,UNCATEGORIZE,a,,1,2010-02-04,,10000017,,,0,375,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-629,TRUE,0
+T-GT-630,loan,,UNCATEGORIZE,a,,1,2010-02-05,,,,,0,376,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-630,TRUE,0
+T-GT-631,loan,,UNCATEGORIZE,a,Uncategorized,,2010-02-06,,10000017,,,0,377,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-631,TRUE,0
+T-GT-632,loan,,UNCATEGORIZE,a,Uncategorized,,2010-01-01,,,,,0,378,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-632,TRUE,0
+T-GT-633,loan,,UNCATEGORIZE,,,1,2010-01-02,,10000017,,,0,379,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-633,TRUE,0
+T-GT-634,loan,,UNCATEGORIZE,,,1,2010-01-03,,,,,0,380,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-634,TRUE,0
+T-GT-635,loan,,UNCATEGORIZE,,Uncategorized,,2010-01-04,,10000017,,,0,381,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-635,TRUE,0
+T-GT-636,loan,,UNCATEGORIZE,,Uncategorized,,2010-01-05,,,,,0,382,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-636,TRUE,0
+T-GT-637,loan,,,a,,1,2010-01-06,,10000017,,,0,383,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-637,TRUE,0
+T-GT-638,loan,,,a,,1,2010-01-07,,,,,0,384,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-638,TRUE,0
+T-GT-639,loan,,,a,Uncategorized,,2010-01-08,,10000017,,,0,385,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-639,TRUE,0
+T-GT-640,loan,,,a,Uncategorized,,2010-01-09,,,,,0,386,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-640,TRUE,0
+T-GT-641,loan,,,,,1,2010-01-10,,10000017,,,0,387,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-641,TRUE,0
+T-GT-642,loan,,,,,1,2010-01-11,,,,,0,388,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-642,TRUE,0
+T-GT-643,loan,,,,Uncategorized,,2010-01-12,,10000017,,,0,389,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-643,TRUE,0
+T-GT-644,loan,,,,Uncategorized,,2010-01-13,,,,,0,390,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-644,TRUE,0
+T-GT-645,insurance,DEBIT,UNCATEGORIZE,a,,1,2010-01-14,,10000017,,,0,391,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-645,TRUE,0
+T-GT-646,insurance,DEBIT,UNCATEGORIZE,a,,1,2010-01-15,,,,,0,392,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-646,TRUE,0
+T-GT-647,insurance,DEBIT,UNCATEGORIZE,a,Uncategorized,,2010-01-16,,10000017,,,0,393,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-647,TRUE,0
+T-GT-648,insurance,DEBIT,UNCATEGORIZE,a,Uncategorized,,2010-01-17,,,,,0,394,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-648,TRUE,0
+T-GT-649,insurance,DEBIT,UNCATEGORIZE,,,1,2010-01-18,,10000017,,,0,395,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-649,TRUE,0
+T-GT-650,insurance,DEBIT,UNCATEGORIZE,,,1,2010-01-19,,,,,0,396,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-650,TRUE,0
+T-GT-651,insurance,DEBIT,UNCATEGORIZE,,Uncategorized,,2010-01-20,,10000017,,,0,397,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-651,TRUE,0
+T-GT-652,insurance,DEBIT,UNCATEGORIZE,,Uncategorized,,2010-01-21,,,,,0,398,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-652,TRUE,0
+T-GT-653,insurance,DEBIT,,a,,1,2010-01-22,,10000017,,,0,399,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-653,TRUE,0
+T-GT-654,insurance,DEBIT,,a,,1,2010-01-23,,,,,0,400,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-654,TRUE,0
+T-GT-655,insurance,DEBIT,,a,Uncategorized,,2010-01-24,,10000017,,,0,401,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-655,TRUE,0
+T-GT-656,insurance,DEBIT,,a,Uncategorized,,2010-01-25,,,,,0,402,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-656,TRUE,0
+T-GT-657,insurance,DEBIT,,,,1,2010-01-26,,10000017,,,0,403,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-657,TRUE,0
+T-GT-658,insurance,DEBIT,,,,1,2010-01-27,,,,,0,404,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-658,TRUE,0
+T-GT-659,insurance,DEBIT,,,Uncategorized,,2010-01-28,,10000017,,,0,405,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-659,TRUE,0
+T-GT-660,insurance,DEBIT,,,Uncategorized,,2010-01-29,,,,,0,406,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-660,TRUE,0
+T-GT-661,insurance,CREDIT,UNCATEGORIZE,a,,1,2010-01-30,,10000017,,,0,407,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-661,TRUE,0
+T-GT-662,insurance,CREDIT,UNCATEGORIZE,a,,1,2010-01-31,,,,,0,408,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-662,TRUE,0
+T-GT-663,insurance,CREDIT,UNCATEGORIZE,a,Uncategorized,,2010-02-01,,10000017,,,0,409,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-663,TRUE,0
+T-GT-664,insurance,CREDIT,UNCATEGORIZE,a,Uncategorized,,2010-02-02,,,,,0,410,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-664,TRUE,0
+T-GT-665,insurance,CREDIT,UNCATEGORIZE,,,1,2010-02-03,,10000017,,,0,411,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-665,TRUE,0
+T-GT-666,insurance,CREDIT,UNCATEGORIZE,,,1,2010-02-04,,,,,0,412,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-666,TRUE,0
+T-GT-667,insurance,CREDIT,UNCATEGORIZE,,Uncategorized,,2010-02-05,,10000017,,,0,413,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-667,TRUE,0
+T-GT-668,insurance,CREDIT,UNCATEGORIZE,,Uncategorized,,2010-02-06,,,,,0,414,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-668,TRUE,0
+T-GT-669,insurance,CREDIT,,a,,1,2010-01-01,,10000017,,,0,415,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-669,TRUE,0
+T-GT-670,insurance,CREDIT,,a,,1,2010-01-02,,,,,0,416,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-670,TRUE,0
+T-GT-671,insurance,CREDIT,,a,Uncategorized,,2010-01-03,,10000017,,,0,417,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-671,TRUE,0
+T-GT-672,insurance,CREDIT,,a,Uncategorized,,2010-01-04,,,,,0,418,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-672,TRUE,0
+T-GT-673,insurance,CREDIT,,,,1,2010-01-05,,10000017,,,0,419,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-673,TRUE,0
+T-GT-674,insurance,CREDIT,,,,1,2010-01-06,,,,,0,420,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-674,TRUE,0
+T-GT-675,insurance,CREDIT,,,Uncategorized,,2010-01-07,,10000017,,,0,421,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-675,TRUE,0
+T-GT-676,insurance,CREDIT,,,Uncategorized,,2010-01-08,,,,,0,422,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-676,TRUE,0
+T-GT-677,insurance,,UNCATEGORIZE,a,,1,2010-01-09,,10000017,,,0,423,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-677,TRUE,0
+T-GT-678,insurance,,UNCATEGORIZE,a,,1,2010-01-10,,,,,0,424,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-678,TRUE,0
+T-GT-679,insurance,,UNCATEGORIZE,a,Uncategorized,,2010-01-11,,10000017,,,0,425,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-679,TRUE,0
+T-GT-680,insurance,,UNCATEGORIZE,a,Uncategorized,,2010-01-12,,,,,0,426,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-680,TRUE,0
+T-GT-681,insurance,,UNCATEGORIZE,,,1,2010-01-13,,10000017,,,0,427,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-681,TRUE,0
+T-GT-682,insurance,,UNCATEGORIZE,,,1,2010-01-14,,,,,0,428,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-682,TRUE,0
+T-GT-683,insurance,,UNCATEGORIZE,,Uncategorized,,2010-01-15,,10000017,,,0,429,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-683,TRUE,0
+T-GT-684,insurance,,UNCATEGORIZE,,Uncategorized,,2010-01-16,,,,,0,430,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-684,TRUE,0
+T-GT-685,insurance,,,a,,1,2010-01-17,,10000017,,,0,431,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-685,TRUE,0
+T-GT-686,insurance,,,a,,1,2010-01-18,,,,,0,432,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-686,TRUE,0
+T-GT-687,insurance,,,a,Uncategorized,,2010-01-19,,10000017,,,0,433,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-687,TRUE,0
+T-GT-688,insurance,,,a,Uncategorized,,2010-01-20,,,,,0,434,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-688,TRUE,0
+T-GT-689,insurance,,,,,1,2010-01-21,,10000017,,,0,435,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-689,TRUE,0
+T-GT-690,insurance,,,,,1,2010-01-22,,,,RECONCILED,0,436,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-690,TRUE,0
+T-GT-691,insurance,,,,,,2010-01-23,,10000017,,,0,437,200,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-691,TRUE,0
+T-GT-692,insurance,,,,,,2010-01-24,,,,UNRECONCILED,0,438,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-692,TRUE,0
+T-GT-693,fddsfsfdn,,,,,,2010-01-25,,,,,0,439,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-693,TRUE,0
+T-GT-694,insurance,,UNCATEGORIZE,,,,2010-01-26,,adaf#2!,,,0,440,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-694,TRUE,0
+T-GT-695,bank,,UNCATEGORIZE,,,#adfk,2010-01-27,,,,,0,1,400,../src/test/resources/TestData/Transactions/GetTxns/,T-GT-695,TRUE,0

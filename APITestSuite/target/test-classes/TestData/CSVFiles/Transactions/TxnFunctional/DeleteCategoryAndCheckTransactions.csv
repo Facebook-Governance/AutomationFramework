@@ -1,0 +1,2 @@
+TestCaseId,Title,categoryNameKey,categoryNameValue,parentCategoryIdKey,parentCategoryIdValue,status,priority,source,descriptionOperation,descriptionValue,amountOperation,amountValue,statusCode,TransResFile,TransFilePath,defectID,enabled
+AT-59714,DeleteCategorizationRule and check Transactions,categoryName,Telephone Bill Paid subcategory,parentCategoryId,15,200,1,USER,stringContains,DEPOSIT,numberGreaterThan,1000,201,systemDefinedCategorization-Bank.json,../src/test/resources/TestData/Transactions/TxnFunctional/,0,TRUE

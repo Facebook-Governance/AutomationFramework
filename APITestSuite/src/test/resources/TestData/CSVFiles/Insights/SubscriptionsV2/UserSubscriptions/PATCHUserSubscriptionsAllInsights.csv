@@ -1,0 +1,943 @@
+testCaseId,testCaseDescription,negativeTestScenario,insightsName,insightTitle,insightType,triggerType,containers,description,applicableEntities,entityNames,subscription,thresholdNameValueType,frequency,duration,patchEntityId,httpStatus,enabled
+AT-7001,edit InsightName,EditInsightName,BILL_NOT_PAIDEDIT,,,,,,,account view,TRUE FALSE,"DELAY,4,DAYS   DELAY,5,DAYS",,,,400,TRUE
+AT-7002,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,BILL_NOT_PAID,Bill Not Paid,,,,,,,,,,,,400,TRUE
+AT-7003,edit InsightType,UserEditsInsightsType,BILL_NOT_PAID,,OTHER,,,,,,,,,,,400,TRUE
+AT-7004,edit TriggerType,UserEditsTriggerType,BILL_NOT_PAID,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7005,edit Container,UserEditsContainer,BILL_NOT_PAID,,,,"BANK,CARD",,,account view,TRUE FALSE,"DELAY,1,DAYS   DELAY,1,DAYS",,,,400,TRUE
+AT-7006,edit Description,EditDescription,BILL_NOT_PAID,,,,,My Own Description,,account view,TRUE FALSE,"DELAY,1,DAYS   DELAY,1,DAYS",,,,400,TRUE
+AT-7007,edit ApplicableEntity,EditApplicableEntity,BILL_NOT_PAID,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7008,"edit threshold  value to ""q""  DAYS  - Minimum",,BILL_NOT_PAID,,,,,,,account view,TRUE FALSE,"DELAY,1,DAYS   DELAY,1,DAYS",,,,204,TRUE
+AT-7009,edit threshold value to 15 DAYS - Maximum,,BILL_NOT_PAID,,,,,,,account view,TRUE FALSE,"DELAY,15,DAYS   DELAY,15,DAYS",,,,204,TRUE
+AT-7010,edit threshold value to Between MIN and MAX - 15 DAYS,,BILL_NOT_PAID,,,,,,,account view,TRUE FALSE,"DELAY,12,DAYS   DELAY,12,DAYS",,,,204,TRUE
+AT-7011,edit threshold value to less than MIN(1 DAYS)  -  0 DAYS,EditThresholdDELAYMinAndMax,BILL_NOT_PAID,,,,,,,account view,TRUE FALSE,"DELAY,0,DAYS   DELAY,0,DAYS",,,,400,TRUE
+AT-7012,edit threshold value to greater than MAX(15 DAYS) - 16 DAYS,EditThresholdDELAYMinAndMax,BILL_NOT_PAID,,,,,,,account view,TRUE FALSE,"DELAY,16,DAYS   DELAY,16,DAYS",,,,400,TRUE
+AT-7013,edit Invalid threshold  name to DELAYEDIT,EditThresholdNameInvalidDELAY,BILL_NOT_PAID,,,,,,,account view,TRUE FALSE,"DELAYEDIT,10,DAYS   DELAY,10,DAYS",,,,400,TRUE
+AT-7014,edit Invalid threshold  type to DAYSEDIT,EditThresholdNameInvalidDAYS,BILL_NOT_PAID,,,,,,,account view,TRUE FALSE,"DELAY,10,DAYS   DELAY,10,DAYSEDIT",,,,400,TRUE
+AT-7015,edit NOT supported entity,ACCOUNTVIEWEntitySupported,BILL_NOT_PAID,,,,,,,goal,TRUE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7016,editFrequency for account entity,EditFrequency,BILL_NOT_PAID,,,,,,,account,TRUE,"DELAY,12,DAYS",WEEKLY,,,400,TRUE
+AT-7017,editFrequency for view entity,EditFrequency,BILL_NOT_PAID,,,,,,,view,TRUE,"DELAY,12,DAYS",MONTHLY,,,400,TRUE
+AT-7018,editFrequency for account and view entity,EditFrequency,BILL_NOT_PAID,,,,,,,account  view,TRUE FALSE,"DELAY,12,DAYS   DELAY,12,DAYS",DAILY DAILY,,,400,TRUE
+AT-7019,editFrequency for account and view entity - InValid Frequency,EditFrequency,BILL_NOT_PAID,,,,,,,account  view,TRUE FALSE,"DELAY,12,DAYS   DELAY,12,DAYS",MONTHLY  WEEKLY,,,400,TRUE
+AT-7020,edit InsightName,EditInsightName,LARGE_DEPOSITEDIT,,,,,,,account view,TRUE FALSE,"MINIMUM,400,AMOUNT   MINIMUM,450,AMOUNT",,,,400,TRUE
+AT-7021,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,LARGE_DEPOSIT,LargeDeposit,,,,,,account view,TRUE FALSE,"MINIMUM,400,AMOUNT   MINIMUM,450,AMOUNT",,,,400,TRUE
+AT-7022,edit InsightType,UserEditsInsightsType,LARGE_DEPOSIT,,OTHER,,,,,,,,,,,400,TRUE
+AT-7023,edit TriggerType,UserEditsTriggerType,LARGE_DEPOSIT,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7024,edit Container,UserEditsContainer,LARGE_DEPOSIT,,,,LOAN,,,account view,TRUE FALSE,"MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT",,,,400,TRUE
+AT-7025,edit Description,EditDescription,LARGE_DEPOSIT,,,,,My Description,,account view,TRUE FALSE,"MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT",,,,400,TRUE
+AT-7026,edit ApplicableEntity,EditApplicableEntity,LARGE_DEPOSIT,,,,,,VIEW    ACCOUNT,,,,,,,400,TRUE
+AT-7027,"edit threshold value to MIN ""1.00""",,LARGE_DEPOSIT,,,,,,,account view,TRUE FALSE,"MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT",,,,204,TRUE
+AT-7028,edit threshold value to MAX,,LARGE_DEPOSIT,,,,,,,account view,TRUE FALSE,"MINIMUM,1000000,AMOUNT   MINIMUM,1000000,AMOUNT",,,,204,TRUE
+AT-7029,edit threshold value to Between MIN and MAX,,LARGE_DEPOSIT,,,,,,,account view,TRUE FALSE,"MINIMUM,90000,AMOUNT   MINIMUM,90000,AMOUNT",,,,204,TRUE
+AT-7030,edit threshold value to less than MIN,EditThresholdAmountRangeMinAndMax,LARGE_DEPOSIT,,,,,,,account view,TRUE FALSE,"MINIMUM,0,AMOUNT   MINIMUM,0,AMOUNT",,,,400,TRUE
+AT-7031,edit threshold value to greater than MAX,EditThresholdAmountRangeMinAndMax,LARGE_DEPOSIT,,,,,,,account view,TRUE FALSE,"MINIMUM,1000001,AMOUNT   MINIMUM,1000001,AMOUNT",,,,400,TRUE
+AT-7032,edit Invalid threshold  name to MINIMUMEDIT,EditThresholdNameInvalidMINIMUM,LARGE_DEPOSIT,,,,,,,account view,TRUE FALSE,"MINIMUMEDIT,100,AMOUNT   MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-7033,edit Invalid threshold  type to AMOUNTEDIT,EditThresholdTypeInvalidAMOUNT,LARGE_DEPOSIT,,,,,,,account view,TRUE FALSE,"MINIMUM,100,AMOUNT   MINIMUM,100,AMOUNTEDIT",,,,400,TRUE
+AT-7034,edit NOT supported entity,ACCOUNTVIEWEntitySupported,LARGE_DEPOSIT,,,,,,,goal,TRU,"MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-7035,edit InsightName,EditInsightName,UPCOMING_BILLSEDIT,,,,,,,account view,TRUE FALSE,"FUTURE,4,DAYS   FUTURE,5,DAYS",,,,400,TRUE
+AT-7036,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,UPCOMING_BILLS,Upcoming Bills,,,,,,,,,,,,400,TRUE
+AT-7037,edit InsightType,UserEditsInsightsType,UPCOMING_BILLS,,OTHER,,,,,,,,,,,400,TRUE
+AT-7038,edit TriggerType,UserEditsTriggerType,UPCOMING_BILLS,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7039,edit Container,UserEditsContainer,UPCOMING_BILLS,,,,"BANK,CARD",,,account view,TRUE FALSE,"FUTURE,1,DAYS   FUTURE,1,DAYS",,,,400,TRUE
+AT-7040,edit Description,EditDescription,UPCOMING_BILLS,,,,,My Own Description,,account view,TRUE FALSE,"FUTURE,1,DAYS   FUTURE,1,DAYS",,,,400,TRUE
+AT-7041,edit ApplicableEntity,EditApplicableEntity,UPCOMING_BILLS,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7042,"edit threshold  value to ""0"" DAYS  - Minimum",,UPCOMING_BILLS,,,,,,,account view,TRUE FALSE,"FUTURE,0,DAYS   FUTURE,0,DAYS",,,,204,TRUE
+AT-7043,edit threshold value to 31 DAYS - Maximum,,UPCOMING_BILLS,,,,,,,account view,TRUE FALSE,"FUTURE,31,DAYS   FUTURE,31,DAYS",,,,204,TRUE
+AT-7044,edit threshold value to Between MIN and MAX - 15 DAYS,,UPCOMING_BILLS,,,,,,,account view,TRUE FALSE,"FUTURE,15,DAYS   FUTURE,15,DAYS",,,,204,TRUE
+AT-7045,edit threshold value to less than MIN(0 DAYS)  - -1 DAYS,EditThresholdFUTUREMinAndMax,UPCOMING_BILLS,,,,,,,account view,TRUE FALSE,"FUTURE,-1,DAYS   FUTURE,-1,DAYS",,,,400,TRUE
+AT-7046,edit threshold value to greater than MAX(31 DAYS) - 32 DAYS,EditThresholdFUTUREMinAndMax,UPCOMING_BILLS,,,,,,,account view,TRUE FALSE,"FUTURE,32,DAYS   FUTURE,32,DAYS",,,,400,TRUE
+AT-7047,edit Invalid threshold  name to FUTUREEDIT,EditThresholdNameInvalidFUTURE,UPCOMING_BILLS,,,,,,,account view,TRUE FALSE,"FUTUREEDIT,10,DAYS   FUTURE,10,DAYS",,,,400,TRUE
+AT-7048,edit Invalid threshold  type to DAYSEDIT,EditThresholdNameInvalidDAYS,UPCOMING_BILLS,,,,,,,account view,TRUE FALSE,"FUTURE,10,DAYS   FUTURE,10,DAYSEDIT",,,,400,TRUE
+AT-7049,edit NOT supported entity,ACCOUNTVIEWEntitySupported,UPCOMING_BILLS,,,,,,,goal,TRU,"FUTURE,12,DAYS",,,,400,TRUE
+AT-7050,edit InsightName,EditInsightName,UPCOMING_SUBSCRIPTIONSEDIT,,,,,,,account view,TRUE FALSE,"FUTURE,4,DAYS   FUTURE,5,DAYS",,,,400,TRUE
+AT-7051,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,UPCOMING_SUBSCRIPTIONS,Upcoming Subscriptions,,,,,,account view,TRUE FALSE,"FUTURE,4,DAYS   FUTURE,5,DAYS",,,,400,TRUE
+AT-7052,edit InsightType,UserEditsInsightsType,UPCOMING_SUBSCRIPTIONS,,OTHER,,,,,,,,,,,400,TRUE
+AT-7053,edit TriggerType,UserEditsTriggerType,UPCOMING_SUBSCRIPTIONS,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7054,edit Container,UserEditsContainer,UPCOMING_SUBSCRIPTIONS,,,,"BANK,CARD",,,account view,TRUE FALSE,"FUTURE,1,DAYS   FUTURE,1,DAYS",,,,400,TRUE
+AT-7055,edit Description,EditDescription,UPCOMING_SUBSCRIPTIONS,,,,,My Own Description,,account view,TRUE FALSE,"FUTURE,1,DAYS   FUTURE,1,DAYS",,,,400,TRUE
+AT-7056,edit ApplicableEntity,EditApplicableEntity,UPCOMING_SUBSCRIPTIONS,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7057,"edit threshold  value to ""0"" DAYS  - Minimum",,UPCOMING_SUBSCRIPTIONS,,,,,,,account view,TRUE FALSE,"FUTURE,0,DAYS   FUTURE,0,DAYS",,,,204,TRUE
+AT-7058,edit threshold value to 31 DAYS - Maximum,,UPCOMING_SUBSCRIPTIONS,,,,,,,account view,TRUE FALSE,"FUTURE,31,DAYS   FUTURE,31,DAYS",,,,204,TRUE
+AT-7059,edit threshold value to Between MIN and MAX - 15 DAYS,,UPCOMING_SUBSCRIPTIONS,,,,,,,account view,TRUE FALSE,"FUTURE,15,DAYS   FUTURE,15,DAYS",,,,204,TRUE
+AT-7060,edit threshold value to less than MIN(0 DAYS)  - -1 DAYS,EditThresholdFUTUREMinAndMax,UPCOMING_SUBSCRIPTIONS,,,,,,,account view,TRUE FALSE,"FUTURE,-1,DAYS   FUTURE,-1,DAYS",,,,400,TRUE
+AT-7061,edit threshold value to greater than MAX(31 DAYS) - 32 DAYS,EditThresholdFUTUREMinAndMax,UPCOMING_SUBSCRIPTIONS,,,,,,,account view,TRUE FALSE,"FUTURE,32,DAYS   FUTURE,32,DAYS",,,,400,TRUE
+AT-7062,edit Invalid threshold  name to FUTUREEDIT,EditThresholdNameInvalidFUTURE,UPCOMING_SUBSCRIPTIONS,,,,,,,account view,TRUE FALSE,"FUTUREEDIT,10,DAYS   FUTURE,10,DAYS",,,,400,TRUE
+AT-7063,edit Invalid threshold  type to DAYSEDIT,EditThresholdNameInvalidDAYS,UPCOMING_SUBSCRIPTIONS,,,,,,,account view,TRUE FALSE,"FUTURE,10,DAYS   FUTURE,10,DAYSEDIT",,,,400,TRUE
+AT-7064,edit NOT supported entity,ACCOUNTVIEWEntitySupported,UPCOMING_SUBSCRIPTIONS,,,,,,,goal,TRU,"FUTURE,12,DAYS",,,,400,TRUE
+AT-7065,edit InsightName,EditInsightName,SUBSCRIPTION_NOT_PAIDEDIT,,,,,,,account view,TRUE FALSE,"DELAY,4,DAYS   DELAY,5,DAYS",,,,400,TRUE
+AT-7066,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,SUBSCRIPTION_NOT_PAID,Subscription Not  Paid,,,,,,account view,TRUE FALSE,"DELAY,4,DAYS   DELAY,5,DAYS",,,,400,TRUE
+AT-7067,edit InsightType,UserEditsInsightsType,SUBSCRIPTION_NOT_PAID,,OTHER,,,,,,,,,,,400,TRUE
+AT-7068,edit TriggerType,UserEditsTriggerType,SUBSCRIPTION_NOT_PAID,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7069,edit Container,UserEditsContainer,SUBSCRIPTION_NOT_PAID,,,,"BANK,CARD",,,account view,TRUE FALSE,"DELAY,1,DAYS   DELAY,1,DAYS",,,,400,TRUE
+AT-7070,edit Description,EditDescription,SUBSCRIPTION_NOT_PAID,,,,,My Own Description,,account view,TRUE FALSE,"DELAY,1,DAYS   DELAY,1,DAYS",,,,400,TRUE
+AT-7071,edit ApplicableEntity,EditApplicableEntity,SUBSCRIPTION_NOT_PAID,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7072,"edit threshold  value to ""q""  DAYS  - Minimum",,SUBSCRIPTION_NOT_PAID,,,,,,,account view,TRUE FALSE,"DELAY,1,DAYS   DELAY,1,DAYS",,,,204,TRUE
+AT-7073,edit threshold value to 15 DAYS - Maximum,,SUBSCRIPTION_NOT_PAID,,,,,,,account view,TRUE FALSE,"DELAY,15,DAYS   DELAY,15,DAYS",,,,204,TRUE
+AT-7074,edit threshold value to Between MIN and MAX - 15 DAYS,,SUBSCRIPTION_NOT_PAID,,,,,,,account view,TRUE FALSE,"DELAY,12,DAYS   DELAY,12,DAYS",,,,204,TRUE
+AT-7075,edit threshold value to less than MIN(1 DAYS)  -  0 DAYS,EditThresholdDELAYMinAndMax,SUBSCRIPTION_NOT_PAID,,,,,,,account view,TRUE FALSE,"DELAY,0,DAYS   DELAY,0,DAYS",,,,400,TRUE
+AT-7076,edit threshold value to greater than MAX(15 DAYS) - 16 DAYS,EditThresholdDELAYMinAndMax,SUBSCRIPTION_NOT_PAID,,,,,,,account view,TRUE FALSE,"DELAY,16,DAYS   DELAY,16,DAYS",,,,400,TRUE
+AT-7077,edit Invalid threshold  name to DELAYEDIT,EditThresholdNameInvalidDELAY,SUBSCRIPTION_NOT_PAID,,,,,,,account view,TRUE FALSE,"DELAYEDIT,10,DAYS   DELAY,10,DAYS",,,,400,TRUE
+AT-7078,edit Invalid threshold  type to DAYSEDIT,EditThresholdNameInvalidDAYS,SUBSCRIPTION_NOT_PAID,,,,,,,account view,TRUE FALSE,"DELAY,10,DAYS   DELAY,10,DAYSEDIT",,,,400,TRUE
+AT-7079,edit NOT supported entity,ACCOUNTVIEWEntitySupported,SUBSCRIPTION_NOT_PAID,,,,,,,goal,TRUE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7080,editFrequency for account entity,EditFrequency,SUBSCRIPTION_NOT_PAID,,,,,,,account,TRUE,"DELAY,12,DAYS",WEEKLY,,,400,TRUE
+AT-7081,editFrequency for view entity,EditFrequency,SUBSCRIPTION_NOT_PAID,,,,,,,view,TRUE,"DELAY,12,DAYS",MONTHLY,,,400,TRUE
+AT-7082,editFrequency for account and view entity,EditFrequency,SUBSCRIPTION_NOT_PAID,,,,,,,account  view,TRUE FALSE,"DELAY,12,DAYS   DELAY,12,DAYS",DAILY DAILY,,,400,TRUE
+AT-7083,editFrequency for account and view entity - InValid Frequency,EditFrequency,SUBSCRIPTION_NOT_PAID,,,,,,,account  view,TRUE FALSE,"DELAY,12,DAYS   DELAY,12,DAYS",MONTHLY  WEEKLY,,,400,TRUE
+AT-7084,edit InsightName,EditInsightName,BILL_PAIDEDIT,,,,,,,account view,TRUE FALSE,,,,,400,TRUE
+AT-7085,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,BILL_PAID,Bill Paid,,,,,,account view,TRUE FALSE,,,,,400,TRUE
+AT-7086,edit InsightType,UserEditsInsightsType,BILL_PAID,,OTHER,,,,,,,,,,,400,TRUE
+AT-7087,edit TriggerType,UserEditsTriggerType,BILL_PAID,,,EVENT,,,,,,,,,,400,TRUE
+AT-7088,edit Container,UserEditsContainer,BILL_PAID,,,,"BANK,CARD",,,account view,TRUE FALSE,,,,,400,TRUE
+AT-7089,edit Description,EditDescription,BILL_PAID,,,,,My Own Description,,account view,TRUE FALSE,,,,,400,TRUE
+AT-7090,edit ApplicableEntity,EditApplicableEntity,BILL_PAID,,,,,,ACCOUNT   VIEW,account view,TRUE FALSE,,,,,400,TRUE
+AT-7091,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,BILL_PAID,,,,,,,account view,TRUE FALSE,"DELAY,12,DAYS   DELAY,12,DAYS",,,,400,TRUE
+AT-7092,edit InsightName,EditInsightName,SUBSCRIPTION_PAIDEDIT,,,,,,,account view,TRUE FALSE,,,,,400,TRUE
+AT-7093,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,SUBSCRIPTION_PAID,Subscription Paid,,,,,,account view,TRUE FALSE,,,,,400,TRUE
+AT-7094,edit InsightType,UserEditsInsightsType,SUBSCRIPTION_PAID,,OTHER,,,,,,,,,,,400,TRUE
+AT-7095,edit TriggerType,UserEditsTriggerType,SUBSCRIPTION_PAID,,,EVENT,,,,,,,,,,400,TRUE
+AT-7096,edit Container,UserEditsContainer,SUBSCRIPTION_PAID,,,,"BANK,CARD",,,account view,TRUE FALSE,,,,,400,TRUE
+AT-7097,edit Description,EditDescription,SUBSCRIPTION_PAID,,,,,My Own Description,,account view,TRUE FALSE,,,,,400,TRUE
+AT-7098,edit ApplicableEntity,EditApplicableEntity,SUBSCRIPTION_PAID,,,,,,ACCOUNT   VIEW,account view,TRUE FALSE,,,,,400,TRUE
+AT-7099,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,SUBSCRIPTION_PAID,,,,,,,account view,TRUE FALSE,"DELAY,12,DAYS   DELAY,12,DAYS",,,,400,TRUE
+AT-7100,edit InsightName,EditInsightName,CHANGE_IN_NETWORTHEDIT,,,,,,,account,TRUE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7101,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,CHANGE_IN_NETWORTH,abc,,,,,,account,FALSE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7102,edit InsightType,UserEditsInsightsType,CHANGE_IN_NETWORTH,,OTHER,,,,,,,,,,,400,TRUE
+AT-7103,edit TriggerType,UserEditsTriggerType,CHANGE_IN_NETWORTH,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7104,edit Container,UserEditsContainer,CHANGE_IN_NETWORTH,,,,"BANK,CARD,LOAN,INSURANCE,INVESTMENT",,,account,FALSE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7105,edit Description,EditDescription,CHANGE_IN_NETWORTH,,,,,My Own Description,,account,TRUE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7106,edit ApplicableEntity,EditApplicableEntity,CHANGE_IN_NETWORTH,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7107,edit threshold  1 PERCENT  - Minimum,,CHANGE_IN_NETWORTH,,,,,,,account,TRUE,"CHANGE,1,PERCENT",,,,204,TRUE
+AT-7108,edit threshold value to 500 PERCENT- Maximum,,CHANGE_IN_NETWORTH,,,,,,,account,TRUE,"CHANGE,500,PERCENT",,,,204,TRUE
+AT-7109,edit threshold value to Between MIN and MAX - 478 PERCENT,,CHANGE_IN_NETWORTH,,,,,,,account,TRUE,"CHANGE,478,PERCENT",,,,204,TRUE
+AT-7110,edit threshold value to less than MIN(1 PERCENT)  -  0 PERCENT,CHANGE_NetworthMinMax,CHANGE_IN_NETWORTH,,,,,,,account,TRUE,"CHANGE,0,PERCENT",,,,400,TRUE
+AT-7111,edit threshold value to greater than MAX(500 PERCENT) - 501 PERCENT,CHANGE_NetworthMinMax,CHANGE_IN_NETWORTH,,,,,,,account,TRUE,"CHANGE,501,PERCENT",,,,400,TRUE
+AT-7112,edit Invalid threshold  name to CHANGEEDIT,EditNetworthThresholdInvalidName,CHANGE_IN_NETWORTH,,,,,,,account,TRUE,"CHANGEEDIT,3,PERCENT",,,,400,TRUE
+AT-7113,edit Invalid threshold  type to PERCENTEDIT,EditNetworthThresholdInvalidType,CHANGE_IN_NETWORTH,,,,,,,account,TRUE,"CHANGE,3,PERCENTEDIT",,,,400,TRUE
+AT-7114,edit NOT supported entity,ACCOUNTEntitySupported,CHANGE_IN_NETWORTH,,,,,,,goal,TRUE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7115,editFrequency for account entity,,CHANGE_IN_NETWORTH,,,,,,,account,TRUE,"CHANGE,3,PERCENT",WEEKLY,,,204,TRUE
+AT-7116,editFrequency for account and view entity,,CHANGE_IN_NETWORTH,,,,,,,account,TRUE,"CHANGE,3,PERCENT",DAILY,,,204,TRUE
+AT-7117,editFrequency for account and view entity - InValid Frequency,,CHANGE_IN_NETWORTH,,,,,,,account,TRUE,"CHANGE,3,PERCENT",MONTHLY ,,,204,TRUE
+AT-7118,editFrequency for account and view entity - InValid Frequency,EditNetworthNotSupportedFrequency,CHANGE_IN_NETWORTH,,,,,,,account,TRUE,"CHANGE,3,PERCENT",MID_MONTHLY ,,,400,TRUE
+AT-7119,edit InsightName,EditInsightName,CHANGE_IN_ASSETSHEDIT,,,,,,,account,TRUE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7120,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,CHANGE_IN_ASSETS,Change In assets,,,,,,account,FALSE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7121,edit InsightType,UserEditsInsightsType,CHANGE_IN_ASSETS,,OTHER,,,,,,,,,,,400,TRUE
+AT-7122,edit TriggerType,UserEditsTriggerType,CHANGE_IN_ASSETS,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7123,edit Container,UserEditsContainer,CHANGE_IN_ASSETS,,,,"BANK,CARD,LOAN,INSURANCE,INVESTMENT",,,account,FALSE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7124,edit Description,EditDescription,CHANGE_IN_ASSETS,,,,,My Own Description,,account,TRUE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7125,edit ApplicableEntity,EditApplicableEntity,CHANGE_IN_ASSETS,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7126,edit threshold  1 PERCENT  - Minimum,,CHANGE_IN_ASSETS,,,,,,,account,TRUE,"CHANGE,1,PERCENT",,,,204,TRUE
+AT-7127,edit threshold value to 500 PERCENT- Maximum,,CHANGE_IN_ASSETS,,,,,,,account,TRUE,"CHANGE,500,PERCENT",,,,204,TRUE
+AT-7128,edit threshold value to Between MIN and MAX - 478 PERCENT,,CHANGE_IN_ASSETS,,,,,,,account,TRUE,"CHANGE,478,PERCENT",,,,204,TRUE
+AT-7129,edit threshold value to less than MIN(1 PERCENT)  -  0 PERCENT,CHANGE_NetworthMinMax,CHANGE_IN_ASSETS,,,,,,,account,TRUE,"CHANGE,0,PERCENT",,,,400,TRUE
+AT-7130,edit threshold value to greater than MAX(500 PERCENT) - 501 PERCENT,CHANGE_NetworthMinMax,CHANGE_IN_ASSETS,,,,,,,account,TRUE,"CHANGE,501,PERCENT",,,,400,TRUE
+AT-7131,edit Invalid threshold  name to CHANGEEDIT,EditNetworthThresholdInvalidName,CHANGE_IN_ASSETS,,,,,,,account,TRUE,"CHANGEEDIT,3,PERCENT",,,,400,TRUE
+AT-7132,edit Invalid threshold  type to PERCENTEDIT,EditNetworthThresholdInvalidType,CHANGE_IN_ASSETS,,,,,,,account,TRUE,"CHANGE,3,PERCENTEDIT",,,,400,TRUE
+AT-7133,edit NOT supported entity,ACCOUNTEntitySupported,CHANGE_IN_ASSETS,,,,,,,goal,TRUE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7134,editFrequency for account entity,,CHANGE_IN_ASSETS,,,,,,,account,TRUE,"CHANGE,3,PERCENT",WEEKLY,,,204,TRUE
+AT-7135,editFrequency for account and view entity,,CHANGE_IN_ASSETS,,,,,,,account,TRUE,"CHANGE,3,PERCENT",DAILY,,,204,TRUE
+AT-7136,editFrequency for account and view entity - InValid Frequency,,CHANGE_IN_ASSETS,,,,,,,account,TRUE,"CHANGE,3,PERCENT",MONTHLY ,,,204,TRUE
+AT-7137,editFrequency for account and view entity - InValid Frequency,EditNetworthNotSupportedFrequency,CHANGE_IN_ASSETS,,,,,,,account,TRUE,"CHANGE,3,PERCENT",MID_MONTHLY ,,,400,TRUE
+AT-7138,edit InsightName,EditInsightName,CHANGE_IN_LIABILITIESEDIT,,,,,,,account,TRUE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7139,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,CHANGE_IN_LIABILITIES,Change in Liability,,,,,,account,FALSE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7140,edit InsightType,UserEditsInsightsType,CHANGE_IN_LIABILITIES,,OTHER,,,,,,,,,,,400,TRUE
+AT-7141,edit TriggerType,UserEditsTriggerType,CHANGE_IN_LIABILITIES,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7142,edit Container,UserEditsContainer,CHANGE_IN_LIABILITIES,,,,"BANK,CARD,LOAN,INSURANCE,INVESTMENT",,,account,FALSE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7143,edit Description,EditDescription,CHANGE_IN_LIABILITIES,,,,,My Own Description,,account,TRUE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7144,edit ApplicableEntity,EditApplicableEntity,CHANGE_IN_LIABILITIES,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7145,edit threshold  1 PERCENT  - Minimum,,CHANGE_IN_LIABILITIES,,,,,,,account,TRUE,"CHANGE,1,PERCENT",,,,204,TRUE
+AT-7146,edit threshold value to 500 PERCENT- Maximum,,CHANGE_IN_LIABILITIES,,,,,,,account,TRUE,"CHANGE,500,PERCENT",,,,204,TRUE
+AT-7147,edit threshold value to Between MIN and MAX - 478 PERCENT,,CHANGE_IN_LIABILITIES,,,,,,,account,TRUE,"CHANGE,478,PERCENT",,,,204,TRUE
+AT-7148,edit threshold value to less than MIN(1 PERCENT)  -  0 PERCENT,CHANGE_NetworthMinMax,CHANGE_IN_LIABILITIES,,,,,,,account,TRUE,"CHANGE,0,PERCENT",,,,400,TRUE
+AT-7149,edit threshold value to greater than MAX(500 PERCENT) - 501 PERCENT,CHANGE_NetworthMinMax,CHANGE_IN_LIABILITIES,,,,,,,account,TRUE,"CHANGE,501,PERCENT",,,,400,TRUE
+AT-7150,edit Invalid threshold  name to CHANGEEDIT,EditNetworthThresholdInvalidName,CHANGE_IN_LIABILITIES,,,,,,,account,TRUE,"CHANGEEDIT,3,PERCENT",,,,400,TRUE
+AT-7151,edit Invalid threshold  type to PERCENTEDIT,EditNetworthThresholdInvalidType,CHANGE_IN_LIABILITIES,,,,,,,account,TRUE,"CHANGE,3,PERCENTEDIT",,,,400,TRUE
+AT-7152,edit NOT supported entity,ACCOUNTEntitySupported,CHANGE_IN_LIABILITIES,,,,,,,goal,TRUE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7153,editFrequency for account entity,,CHANGE_IN_LIABILITIES,,,,,,,account,TRUE,"CHANGE,3,PERCENT",WEEKLY,,,204,TRUE
+AT-7154,editFrequency for account and view entity,,CHANGE_IN_LIABILITIES,,,,,,,account,TRUE,"CHANGE,3,PERCENT",DAILY,,,204,TRUE
+AT-7155,editFrequency for account and view entity - InValid Frequency,,CHANGE_IN_LIABILITIES,,,,,,,account,TRUE,"CHANGE,3,PERCENT",MONTHLY ,,,204,TRUE
+AT-7156,editFrequency for account and view entity - InValid Frequency,EditNetworthNotSupportedFrequency,CHANGE_IN_LIABILITIES,,,,,,,account,TRUE,"CHANGE,3,PERCENT",MID_MONTHLY ,,,400,TRUE
+AT-7157,edit InsightName,EditInsightName,CHANGE_IN_PROPERTYVALUEEDIT,,,,,,,account,TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7158,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,CHANGE_IN_PROPERTYVALUE,Change Property Value,,,,,,account,FALSE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7159,edit InsightType,UserEditsInsightsType,CHANGE_IN_PROPERTYVALUE,,OTHER,,,,,,,,,,,400,TRUE
+AT-7160,edit TriggerType,UserEditsTriggerType,CHANGE_IN_PROPERTYVALUE,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7161,edit Container,UserEditsContainer,CHANGE_IN_PROPERTYVALUE,,,,"BANK,CARD,LOAN,INSURANCE,INVESTMENT",,,account,FALSE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7162,edit Description,EditDescription,CHANGE_IN_PROPERTYVALUE,,,,,My Own Description,,account,TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7163,edit ApplicableEntity,EditApplicableEntity,CHANGE_IN_PROPERTYVALUE,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7164,edit threshold  1 PERCENT  - Minimum,,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGE,1,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7165,edit threshold value to 500 PERCENT- Maximum,,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGE,500,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7166,edit threshold value to Between MIN and MAX - 478 PERCENT,,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGE,478,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7167,edit threshold value to less than MIN(0 PERCENT)  -  -1 PERCENT,CHANGE_PropertyValueMinMax,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGE,-1,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7168,edit threshold value to greater than MAX(500 PERCENT) - 501 PERCENT,CHANGE_PropertyValueMinMax,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGE,501,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7170,edit threshold value to 10000000 AMOUNT- Maximum,,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGE,500,PERCENT  CHANGE,10000000,AMOUNT",,,,204,TRUE
+AT-7171,edit threshold value to Between MIN and MAX - 1000000 AMOUNT,,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGE,478,PERCENT  CHANGE,1000000,AMOUNT",,,,204,TRUE
+AT-7172,edit threshold value to less than MIN(0 AMOUNT)  -  -1 AMOUNT,MinAndMaxPropertyValueChangeAmount,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGE,10,PERCENT  CHANGE,-1,AMOUNT",,,,400,TRUE
+AT-7173,edit threshold value to greater than MAX(10000000 AMOUNT) - 10000001,MinAndMaxPropertyValueChangeAmount,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGE,50,PERCENT  CHANGE,10000001,AMOUNT",,,,400,TRUE
+AT-7174,edit Invalid threshold  name to CHANGEEDIT,EditNetworthThresholdInvalidName,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGEEDIT,3,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7175,edit Invalid threshold  type to PERCENTEDIT,EditNetworthThresholdInvalidType,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGE,3,PERCENTEDIT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7176,edit NOT supported entity,ACCOUNTEntitySupported,CHANGE_IN_PROPERTYVALUE,,,,,,,goal,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7177,editFrequency for account entity,,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",WEEKLY,,,204,TRUE
+AT-7178,editFrequency for account entity,EditPropValueSupportedFrequency,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGE,3,PERCENT",DAILY,,,400,TRUE
+AT-7179,editFrequency for account and view entity - InValid Frequency,,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",MONTHLY ,,,204,TRUE
+AT-7180,editFrequency for account and view entity - InValid Frequency,EditPropValueSupportedFrequency,CHANGE_IN_PROPERTYVALUE,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",MID_MONTHLY ,,,400,TRUE
+AT-7181,edit InsightName,EditInsightName,INVESTMENT_MATURITY_NOTICEEDIT,,,,,,,account,TRUE FALSE,"FUTURE,4,DAYS",,,,400,TRUE
+AT-7182,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,INVESTMENT_MATURITY_NOTICE,Investment Maturity Notice,,,,,,account,TRUE FALSE,"FUTURE,4,DAYS",,,,400,TRUE
+AT-7183,edit InsightType,UserEditsInsightsType,INVESTMENT_MATURITY_NOTICE,,OTHER,,,,,,,,,,,400,TRUE
+AT-7184,edit TriggerType,UserEditsTriggerType,INVESTMENT_MATURITY_NOTICE,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7185,edit Container,UserEditsContainer,INVESTMENT_MATURITY_NOTICE,,,,"BANK,CARD",,,account,TRUE FALSE,"FUTURE,1,DAYS",,,,400,TRUE
+AT-7186,edit Description,EditDescription,INVESTMENT_MATURITY_NOTICE,,,,,My Own Description,,account,TRUE FALSE,"FUTURE,1,DAYS",,,,400,TRUE
+AT-7187,edit ApplicableEntity,EditApplicableEntity,INVESTMENT_MATURITY_NOTICE,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7188,"edit threshold  value to ""0"" DAYS  - Minimum",,INVESTMENT_MATURITY_NOTICE,,,,,,,account,TRUE FALSE,"FUTURE,0,DAYS",,,,204,TRUE
+AT-7189,edit threshold value to 31 DAYS - Maximum,,INVESTMENT_MATURITY_NOTICE,,,,,,,account,TRUE FALSE,"FUTURE,31,DAYS",,,,204,TRUE
+AT-7190,edit threshold value to Between MIN and MAX - 15 DAYS,,INVESTMENT_MATURITY_NOTICE,,,,,,,account,TRUE FALSE,"FUTURE,15,DAYS",,,,204,TRUE
+AT-7191,edit threshold value to less than MIN(0 DAYS)  - -1 DAYS,EditThresholdFUTUREMinAndMax,INVESTMENT_MATURITY_NOTICE,,,,,,,account,TRUE FALSE,"FUTURE,-1,DAYS",,,,400,TRUE
+AT-7192,edit threshold value to greater than MAX(31 DAYS) - 32 DAYS,EditThresholdFUTUREMinAndMax,INVESTMENT_MATURITY_NOTICE,,,,,,,account,TRUE FALSE,"FUTURE,32,DAYS",,,,400,TRUE
+AT-7193,edit Invalid threshold  name to FUTUREEDIT,EditThresholdNameInvalidFUTURE,INVESTMENT_MATURITY_NOTICE,,,,,,,account,TRUE FALSE,"FUTUREEDIT,10,DAYS",,,,400,TRUE
+AT-7194,edit Invalid threshold  type to DAYSEDIT,EditThresholdNameInvalidDAYS,INVESTMENT_MATURITY_NOTICE,,,,,,,account,TRUE FALSE,"FUTURE,10,DAYSEDIT",,,,400,TRUE
+AT-7195,edit NOT supported entity,ACCOUNTEntitySupported,INVESTMENT_MATURITY_NOTICE,,,,,,,goal,TRUE,"FUTURE,12,DAYS",,,,400,TRUE
+AT-7196,edit Frequency,EditFrequency,INVESTMENT_MATURITY_NOTICE,,,,,,,account,TRUE,"FUTURE,12,DAYS",WEEKLY,,,400,TRUE
+AT-7197,edit InsightName,EditInsightName,LOAN_MATURITY_NOTICEEDIT,,,,,,,account,TRUE FALSE,"FUTURE,4,DAYS",,,,400,TRUE
+AT-7198,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,LOAN_MATURITY_NOTICE,LoanMaturity Notice,,,,,,account,TRUE FALSE,"FUTURE,4,DAYS",,,,400,TRUE
+AT-7199,edit InsightType,UserEditsInsightsType,LOAN_MATURITY_NOTICE,,OTHER,,,,,,,,,,,400,TRUE
+AT-7200,edit TriggerType,UserEditsTriggerType,LOAN_MATURITY_NOTICE,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7201,edit Container,UserEditsContainer,LOAN_MATURITY_NOTICE,,,,"BANK,CARD",,,account,TRUE FALSE,"FUTURE,1,DAYS",,,,400,TRUE
+AT-7202,edit Description,EditDescription,LOAN_MATURITY_NOTICE,,,,,My Own Description,,account,TRUE FALSE,"FUTURE,1,DAYS",,,,400,TRUE
+AT-7203,edit ApplicableEntity,EditApplicableEntity,LOAN_MATURITY_NOTICE,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7204,"edit threshold  value to ""0"" DAYS  - Minimum",,LOAN_MATURITY_NOTICE,,,,,,,account,TRUE FALSE,"FUTURE,0,DAYS",,,,204,TRUE
+AT-7205,edit threshold value to 31 DAYS - Maximum,,LOAN_MATURITY_NOTICE,,,,,,,account,TRUE FALSE,"FUTURE,31,DAYS",,,,204,TRUE
+AT-7206,edit threshold value to Between MIN and MAX - 15 DAYS,,LOAN_MATURITY_NOTICE,,,,,,,account,TRUE FALSE,"FUTURE,15,DAYS",,,,204,TRUE
+AT-7207,edit threshold value to less than MIN(0 DAYS)  - -1 DAYS,EditThresholdFUTUREMinAndMax,LOAN_MATURITY_NOTICE,,,,,,,account,TRUE FALSE,"FUTURE,-1,DAYS",,,,400,TRUE
+AT-7208,edit threshold value to greater than MAX(31 DAYS) - 32 DAYS,EditThresholdFUTUREMinAndMax,LOAN_MATURITY_NOTICE,,,,,,,account,TRUE FALSE,"FUTURE,32,DAYS",,,,400,TRUE
+AT-7209,edit Invalid threshold  name to FUTUREEDIT,EditThresholdNameInvalidFUTURE,LOAN_MATURITY_NOTICE,,,,,,,account,TRUE FALSE,"FUTUREEDIT,10,DAYS",,,,400,TRUE
+AT-7210,edit Invalid threshold  type to DAYSEDIT,EditThresholdNameInvalidDAYS,LOAN_MATURITY_NOTICE,,,,,,,account,TRUE FALSE,"FUTURE,10,DAYSEDIT",,,,400,TRUE
+AT-7211,edit NOT supported entity,ACCOUNTEntitySupported,LOAN_MATURITY_NOTICE,,,,,,,goal,TRUE,"FUTURE,12,DAYS",,,,400,TRUE
+AT-7212,edit Frequency,EditFrequency,LOAN_MATURITY_NOTICE,,,,,,,account,TRUE,"FUTURE,12,DAYS",WEEKLY,,,400,TRUE
+AT-7213,edit InsightName,EditInsightName,SPENDING_BY_CATEGORYEDIT,,,,,,,account view,TRUE FALSE,"TOP,10,NUMBER     TOP,10,NUMBER",,,,400,TRUE
+AT-7214,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,SPENDING_BY_CATEGORY,Spending By Category,,,,,,account view,TRUE FALSE,"TOP,10,NUMBER     TOP,10,NUMBER",,,,400,TRUE
+AT-7215,edit InsightType,UserEditsInsightsType,SPENDING_BY_CATEGORY,,OTHER,,,,,,,,,,,400,TRUE
+AT-7216,edit TriggerType,UserEditsTriggerType,SPENDING_BY_CATEGORY,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7217,edit Container,UserEditsContainer,SPENDING_BY_CATEGORY,,,,"BANK,CARD",,,account view,TRUE FALSE,"TOP,10,NUMBER     TOP,10,NUMBER",,,,400,TRUE
+AT-7218,edit Description,EditDescription,SPENDING_BY_CATEGORY,,,,,My Own Description,,account view,TRUE FALSE,"TOP,10,NUMBER     TOP,10,NUMBER",,,,400,TRUE
+AT-7219,edit ApplicableEntity,EditApplicableEntity,SPENDING_BY_CATEGORY,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7220,"edit threshold  value to ""1"" NUMBER  - Minimum",,SPENDING_BY_CATEGORY,,,,,,,account view,TRUE FALSE,"TOP,1,NUMBER     TOP,1,NUMBER",,,,204,TRUE
+AT-7221,edit threshold value to 100 NUMBER - Maximum,,SPENDING_BY_CATEGORY,,,,,,,account view,TRUE FALSE,"TOP,100,NUMBER     TOP,100,NUMBER",,,,204,TRUE
+AT-7222,edit threshold value to Between MIN and MAX - 15 DAYS,,SPENDING_BY_CATEGORY,,,,,,,account view,TRUE FALSE,"TOP,50,NUMBER     TOP,10,NUMBER",,,,204,TRUE
+AT-7223,edit threshold value to less than MIN(1 DAYS)  - 0 NUMBER,MaxTOPValue,SPENDING_BY_CATEGORY,,,,,,,account view,TRUE FALSE,"TOP,0,NUMBER     TOP,0,NUMBER",,,,400,TRUE
+AT-7224,edit threshold value to greater than MAX(100 TOP) - 101 TOP Value,MaxTOPValue,SPENDING_BY_CATEGORY,,,,,,,account view,TRUE FALSE,"TOP,101,NUMBER     TOP,101,NUMBER",,,,400,TRUE
+AT-7225,edit Invalid threshold  name toTOPEDIT,EditTOPInValidValue,SPENDING_BY_CATEGORY,,,,,,,account view,TRUE FALSE,"TOPEDIT,15,NUMBER     TOP,15,NUMBER",,,,400,TRUE
+AT-7226,edit Invalid threshold  type to NUMBEREDIT,EditNUMBERInValidValue,SPENDING_BY_CATEGORY,,,,,,,account view,TRUE FALSE,"TOP,15,NUMBER     TOP,15,NUMBEREDIT",,,,400,TRUE
+AT-7227,edit NOT supported entity,ACCOUNTVIEWEntitySupported,SPENDING_BY_CATEGORY,,,,,,,goal,TRU,"TOP,10,NUMBER",,,,400,TRUE
+AT-7228,edit Frequency,SupportMaxDurations,SPENDING_BY_CATEGORY,,,,,,,account,TRUE,"TOP,10,NUMBER",,WEEKLY,,400,TRUE
+AT-7229,edit Duration,SupportMaxDurations,SPENDING_BY_CATEGORY,,,,,,,account,FALSE,"TOP,10,NUMBER",,MID_MONTHLY,,400,TRUE
+AT-7230,edit Frequency toTHIS_MONTH,,SPENDING_BY_CATEGORY,,,,,,,account,TRUE,"TOP,10,NUMBER",,THIS_MONTH,,204,TRUE
+AT-7231,edit Frequency toLAST_MONTH,,SPENDING_BY_CATEGORY,,,,,,,account,FALSE,"TOP,10,NUMBER",,LAST_MONTH,,204,TRUE
+AT-7232,edit Frequency to THREE_MONTHS,,SPENDING_BY_CATEGORY,,,,,,,account,TRUE,"TOP,10,NUMBER",,THREE_MONTHS,,204,TRUE
+AT-7233,edit Frequency to SIX_MONTHS,,SPENDING_BY_CATEGORY,,,,,,,account,FALSE,"TOP,10,NUMBER",,SIX_MONTHS,,204,TRUE
+AT-7234,edit Frequency to ONE_YEAR,,SPENDING_BY_CATEGORY,,,,,,,account,FALSE,"TOP,10,NUMBER",,ONE_YEAR,,204,TRUE
+AT-7235,edit InsightName,EditInsightName,FINANCIAL_FEESEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7236,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,FINANCIAL_FEES,Financial Fees,,,,,,account,TRUE,,,,,400,TRUE
+AT-7237,edit InsightType,UserEditsInsightsType,FINANCIAL_FEES,,OTHER,,,,,,,,,,,400,TRUE
+AT-7238,edit TriggerType,UserEditsTriggerType,FINANCIAL_FEES,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7239,edit Container,UserEditsContainer,FINANCIAL_FEES,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7240,edit Description,EditDescription,FINANCIAL_FEES,,,,,My Own Description,,account,TRUE,,,,,400,TRUE
+AT-7241,edit ApplicableEntity,EditApplicableEntity,FINANCIAL_FEES,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7242,edit duration to THREE_MONTHS,,FINANCIAL_FEES,,,,,,,account,TRUE,,MONTHLY,THREE_MONTHS,,204,TRUE
+AT-7243,edit duration to SIX_MONTHS,,FINANCIAL_FEES,,,,,,,account,FALSE,,MONTHLY,THIS_MONTH,,204,TRUE
+AT-7244,edit duration to ONE_YEAR,,FINANCIAL_FEES,,,,,,,account,FALSE,,MONTHLY,LAST_MONTH,,204,TRUE
+AT-7245,edit frequency to DAILY,,FINANCIAL_FEES,,,,,,,account,TRUE,,DAILY,THREE_MONTHS,,204,TRUE
+AT-7246,edit frequency to WEEKLY,,FINANCIAL_FEES,,,,,,,account,TRUE,,WEEKLY,THREE_MONTHS,,204,TRUE
+AT-7247,edit frequency to MID_MONTHLY,SupportFrequencies,FINANCIAL_FEES,,,,,,,account,TRUE,,MID_MONTHLY,,,400,TRUE
+AT-7248,edit NOT supported entity,ACCOUNTVIEWEntitySupported,FINANCIAL_FEES,,,,,,,goal,TRUE,,,,,400,TRUE
+AT-7249,add Invalid Threshold - Though its not supported,Threshold_NOT_Allowed,FINANCIAL_FEES,,,,,,,account,TRUE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7250,edit InsightName,EditInsightName,CARD_STATEMENT_AVAILABLEEDIT,,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,4,DAYS   DAYS_BEFORE,5,DAYS",,,,400,TRUE
+AT-7251,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,CARD_STATEMENT_AVAILABLE,Card Statement Available,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,4,DAYS   DAYS_BEFORE,5,DAYS",,,,400,TRUE
+AT-7252,edit InsightType,UserEditsInsightsType,CARD_STATEMENT_AVAILABLE,,OTHER,,,,,,,,,,,400,TRUE
+AT-7253,edit TriggerType,UserEditsTriggerType,CARD_STATEMENT_AVAILABLE,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7254,edit Container,UserEditsContainer,CARD_STATEMENT_AVAILABLE,,,,"BANK,CARD",,,account view,TRUE FALSE,"DAYS_BEFORE,1,DAYS   DAYS_BEFORE,1,DAYS",,,,400,TRUE
+AT-7255,edit Description,EditDescription,CARD_STATEMENT_AVAILABLE,,,,,My Own Description,,account view,TRUE FALSE,"DAYS_BEFORE,1,DAYS   DAYS_BEFORE,1,DAYS",,,,400,TRUE
+AT-7256,edit ApplicableEntity,EditApplicableEntity,CARD_STATEMENT_AVAILABLE,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7257,"edit threshold  value to ""q""  DAYS  - Minimum",,CARD_STATEMENT_AVAILABLE,,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,1,DAYS   DAYS_BEFORE,1,DAYS",,,,204,TRUE
+AT-7258,edit threshold value to 15 DAYS - Maximum,,CARD_STATEMENT_AVAILABLE,,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,15,DAYS   DAYS_BEFORE,15,DAYS",,,,204,TRUE
+AT-7259,edit threshold value to Between MIN and MAX - 15 DAYS,,CARD_STATEMENT_AVAILABLE,,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,12,DAYS   DAYS_BEFORE,12,DAYS",,,,204,TRUE
+AT-7260,edit threshold value to less than MIN(1 DAYS)  -  0 DAYS,DAYS_BEFORE_MinMax,CARD_STATEMENT_AVAILABLE,,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,-1,DAYS DAYS_BEFORE,-1,DAYS",,,,400,TRUE
+AT-7261,edit threshold value to greater than MAX(15 DAYS) - 16 DAYS,DAYS_BEFORE_MinMax,CARD_STATEMENT_AVAILABLE,,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,35,DAYS   DAYS_BEFORE,35,DAYS",,,,400,TRUE
+AT-7262,edit Invalid threshold  name to DAYS_BEFOREEDIT,EditDELAYBEFORE,CARD_STATEMENT_AVAILABLE,,,,,,,account view,TRUE FALSE,"DAYS_BEFOREEDIT,10,DAYS   DAYS_BEFORE,10,DAYS",,,,400,TRUE
+AT-7263,edit Invalid threshold  type to DAYSEDIT,EditThresholdNameInvalidDAYS,CARD_STATEMENT_AVAILABLE,,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,10,DAYS     DAYS_BEFORE,10,DAYSEDIT",,,,400,TRUE
+AT-7264,edit NOT supported entity,ACCOUNTVIEWEntitySupported,CARD_STATEMENT_AVAILABLE,,,,,,,goal,TRUE,"DAYS_BEFORE,12,DAYS",,,,400,TRUE
+AT-7265,edit Max Threshold Value,,CARD_STATEMENT_AVAILABLE,,,,,,,account,TRUE,"DAYS_BEFORE,31,DAYS",,,,204,TRUE
+AT-7266,edit InsightName,EditInsightName,CARD_PAYMENT_DUE_REMINDEREDIT,,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,4,DAYS   DAYS_BEFORE,5,DAYS",,,,400,TRUE
+AT-7267,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,CARD_PAYMENT_DUE_REMINDER,Card Payment Due Reminder,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,4,DAYS   DAYS_BEFORE,5,DAYS",,,,400,TRUE
+AT-7268,edit InsightType,UserEditsInsightsType,CARD_PAYMENT_DUE_REMINDER,,OTHER,,,,,,,,,,,400,TRUE
+AT-7269,edit TriggerType,UserEditsTriggerType,CARD_PAYMENT_DUE_REMINDER,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7270,edit Container,UserEditsContainer,CARD_PAYMENT_DUE_REMINDER,,,,"BANK,CARD",,,account view,TRUE FALSE,"DAYS_BEFORE,1,DAYS   DAYS_BEFORE,1,DAYS",,,,400,TRUE
+AT-7271,edit Description,EditDescription,CARD_PAYMENT_DUE_REMINDER,,,,,My Own Description,,account view,TRUE FALSE,"DAYS_BEFORE,1,DAYS   DAYS_BEFORE,1,DAYS",,,,400,TRUE
+AT-7272,edit ApplicableEntity,EditApplicableEntity,CARD_PAYMENT_DUE_REMINDER,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7273,"edit threshold  value to ""q""  DAYS  - Minimum",,CARD_PAYMENT_DUE_REMINDER,,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,1,DAYS   DAYS_BEFORE,1,DAYS",,,,204,TRUE
+AT-7274,edit threshold value to 15 DAYS - Maximum,,CARD_PAYMENT_DUE_REMINDER,,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,15,DAYS   DAYS_BEFORE,15,DAYS",,,,204,TRUE
+AT-7275,edit threshold value to Between MIN and MAX - 15 DAYS,,CARD_PAYMENT_DUE_REMINDER,,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,12,DAYS   DAYS_BEFORE,12,DAYS",,,,204,TRUE
+AT-7276,edit threshold value to less than MIN(1 DAYS)  -  0 DAYS,DAYS_BEFORE_MinMax1,CARD_PAYMENT_DUE_REMINDER,,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,-1,DAYS DAYS_BEFORE,-1,DAYS",,,,400,TRUE
+AT-7277,edit threshold value to greater than MAX(15 DAYS) - 16 DAYS,DAYS_BEFORE_MinMax1,CARD_PAYMENT_DUE_REMINDER,,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,35,DAYS   DAYS_BEFORE,35,DAYS",,,,400,TRUE
+AT-7278,edit Invalid threshold  name to DELAYEDIT,EditDELAYBEFORE,CARD_PAYMENT_DUE_REMINDER,,,,,,,account view,TRUE FALSE,"DAYS_BEFOREEDIT,10,DAYS   DAYS_BEFORE,10,DAYS",,,,400,TRUE
+AT-7279,edit Invalid threshold  type to DAYSEDIT,EditThresholdNameInvalidDAYS,CARD_PAYMENT_DUE_REMINDER,,,,,,,account view,TRUE FALSE,"DAYS_BEFORE,10,DAYS     DAYS_BEFORE,10,DAYSEDIT",,,,400,TRUE
+AT-7280,edit NOT supported entity,ACCOUNTVIEWEntitySupported,CARD_PAYMENT_DUE_REMINDER,,,,,,,goal,TRUE,"DAYS_BEFORE,12,DAYS",,,,400,TRUE
+AT-7281,edit Max Threshold Value,,CARD_PAYMENT_DUE_REMINDER,,,,,,,account,TRUE,"DAYS_BEFORE,15,DAYS",,,,204,TRUE
+AT-7282,edit InsightName,EditInsightName,CREDIT_UTILIZATION_SINGLE_CARDEDIT,,,,,,,account,TRUE,"LIMIT,3,PERCENT",,,,400,TRUE
+AT-7283,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,CREDIT_UTILIZATION_SINGLE_CARD,Credit Utilization Warning (single card),,,,,,account,FALSE,"LIMIT,3,PERCENT",,,,400,TRUE
+AT-7284,edit InsightType,UserEditsInsightsType,CREDIT_UTILIZATION_SINGLE_CARD,,OTHER,,,,,,,,,,,400,TRUE
+AT-7285,edit TriggerType,UserEditsTriggerType,CREDIT_UTILIZATION_SINGLE_CARD,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7286,edit Container,UserEditsContainer,CREDIT_UTILIZATION_SINGLE_CARD,,,,"BANK,CARD,LOAN,INSURANCE,INVESTMENT",,,account,FALSE,"LIMIT,3,PERCENT",,,,400,TRUE
+AT-7287,edit Description,EditDescription,CREDIT_UTILIZATION_SINGLE_CARD,,,,,My Own Description,,account,TRUE,"LIMIT,3,PERCENT",,,,400,TRUE
+AT-7288,edit ApplicableEntity,EditApplicableEntity,CREDIT_UTILIZATION_SINGLE_CARD,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7289,edit threshold  1 PERCENT  - Minimum,,CREDIT_UTILIZATION_SINGLE_CARD,,,,,,,account,TRUE,"LIMIT,1,PERCENT",,,,204,TRUE
+AT-7290,edit threshold value to 500 PERCENT- Maximum,,CREDIT_UTILIZATION_SINGLE_CARD,,,,,,,account,TRUE,"LIMIT,100,PERCENT",,,,204,TRUE
+AT-7291,edit threshold value to Between MIN and MAX - 478 PERCENT,,CREDIT_UTILIZATION_SINGLE_CARD,,,,,,,account,TRUE,"LIMIT,78,PERCENT",,,,204,TRUE
+AT-7292,edit threshold value to less than MIN(1 PERCENT)  -  0 PERCENT,CHANGE_CreditUtilizeMinMax,CREDIT_UTILIZATION_SINGLE_CARD,,,,,,,account,TRUE,"LIMIT,0,PERCENT",,,,400,TRUE
+AT-7293,edit threshold value to greater than MAX(100 PERCENT) - 101 PERCENT,CHANGE_CreditUtilizeMinMax,CREDIT_UTILIZATION_SINGLE_CARD,,,,,,,account,TRUE,"LIMIT,101,PERCENT",,,,400,TRUE
+AT-7294,edit Invalid threshold  name to CHANGEEDIT,LIMITEdit,CREDIT_UTILIZATION_SINGLE_CARD,,,,,,,account,TRUE,"LIMITEDIT,3,PERCENT",,,,400,TRUE
+AT-7295,edit Invalid threshold  type to PERCENTEDIT,EditNetworthThresholdInvalidType,CREDIT_UTILIZATION_SINGLE_CARD,,,,,,,account,TRUE,"LIMIT,3,PERCENTEDIT",,,,400,TRUE
+AT-7296,edit NOT supported entity,EditNotSupportedEntityNetLiabilityAsset,CREDIT_UTILIZATION_SINGLE_CARD,,,,,,,goal,TRUE,"LIMIT,3,PERCENT",,,,400,TRUE
+AT-7297,editFrequency for account entity,SpecifyFrequencyAttribute,CREDIT_UTILIZATION_SINGLE_CARD,,,,,,,account,TRUE,"LIMIT,3,PERCENT",WEEKLY,,,400,TRUE
+AT-7298,editFrequency for account and view entity,SpecifyFrequencyAttribute,CREDIT_UTILIZATION_SINGLE_CARD,,,,,,,account,TRUE,"LIMIT,3,PERCENT",DAILY,,,400,TRUE
+AT-7299,editFrequency for account and view entity - InValid Frequency,SpecifyFrequencyAttribute,CREDIT_UTILIZATION_SINGLE_CARD,,,,,,,account,TRUE,"LIMIT,3,PERCENT",MONTHLY ,,,400,TRUE
+AT-7300,editFrequency for account and view entity - InValid Frequency,SpecifyFrequencyAttribute,CREDIT_UTILIZATION_SINGLE_CARD,,,,,,,account,TRUE,"LIMIT,3,PERCENT",MID_MONTHLY ,,,400,TRUE
+AT-7301,edit InsightName,EditInsightName,CREDIT_UTILIZATION_ALL_CARDSEDIT,,,,,,,account,TRUE,"UPPER_LIMIT,3,PERCENT",,,,400,TRUE
+AT-7302,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,CREDIT_UTILIZATION_ALL_CARDS,Credit Utilization all Cards,,,,,,account,FALSE,"UPPER_LIMIT,3,PERCENT",,,,400,TRUE
+AT-7303,edit InsightType,UserEditsInsightsType,CREDIT_UTILIZATION_ALL_CARDS,,AGGREGATE,,,,,,,,,,,400,TRUE
+AT-7304,edit TriggerType,UserEditsTriggerType,CREDIT_UTILIZATION_ALL_CARDS,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7305,edit Container,UserEditsContainer,CREDIT_UTILIZATION_ALL_CARDS,,,,"BANK,CARD,LOAN,INSURANCE,INVESTMENT",,,account,FALSE,"UPPER_LIMIT,3,PERCENT",,,,400,TRUE
+AT-7306,edit Description,EditDescription,CREDIT_UTILIZATION_ALL_CARDS,,,,,My Own Description,,account,TRUE,"UPPER_LIMIT,3,PERCENT",,,,400,TRUE
+AT-7307,edit ApplicableEntity,EditApplicableEntity,CREDIT_UTILIZATION_ALL_CARDS,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7308,edit threshold  1 PERCENT  - Minimum,,CREDIT_UTILIZATION_ALL_CARDS,,,,,,,account,TRUE,"UPPER_LIMIT,1,PERCENT",,,,204,TRUE
+AT-7309,edit threshold value to 500 PERCENT- Maximum,,CREDIT_UTILIZATION_ALL_CARDS,,,,,,,account,TRUE,"UPPER_LIMIT,100,PERCENT",,,,204,TRUE
+AT-7310,edit threshold value to Between MIN and MAX - 478 PERCENT,,CREDIT_UTILIZATION_ALL_CARDS,,,,,,,account,TRUE,"UPPER_LIMIT,78,PERCENT",,,,204,TRUE
+AT-7311,edit Invalid threshold  type to PERCENTEDIT,EditNetworthThresholdInvalidType,CREDIT_UTILIZATION_ALL_CARDS,,,,,,,account,TRUE,"UPPER_LIMIT,3,PERCENTEDIT",,,,400,TRUE
+AT-7312,edit NOT supported entity,ACCOUNTEntitySupported,CREDIT_UTILIZATION_ALL_CARDS,,,,,,,goal,TRUE,"UPPER_LIMIT,3,PERCENT",,,,400,TRUE
+AT-7313,editFrequency for account and view entity - InValid Frequency,SpecifyFrequencyAttribute,CREDIT_UTILIZATION_ALL_CARDS,,,,,,,account,TRUE,"UPPER_LIMIT,3,PERCENT",MID_MONTHLY ,,,400,TRUE
+AT-7314,edit InsightName,EditInsightName,INCOME_THRESHOLDEDIT,,,,,,,view,TRUE,"MINIMUM,400,AMOUNT",,,,400,TRUE
+AT-7315,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,INCOME_THRESHOLD,Income Threshold,,,,,,view,TRUE,"MINIMUM,400,AMOUNT",,,,400,TRUE
+AT-7316,edit InsightType,UserEditsInsightsType,INCOME_THRESHOLD,,OTHER,,,,,,,,,,,400,TRUE
+AT-7317,edit TriggerType,UserEditsTriggerType,INCOME_THRESHOLD,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7318,edit Container,UserEditsContainer,INCOME_THRESHOLD,,,,LOAN,,,view,TRUE,"MINIMUM,400,AMOUNT",,,,400,TRUE
+AT-7319,edit Description,EditDescription,INCOME_THRESHOLD,,,,,My Description,,view,FALSE,"MINIMUM,400,AMOUNT",,,,400,TRUE
+AT-7320,edit ApplicableEntity,EditApplicableEntity,INCOME_THRESHOLD,,,,,,VIEW    ACCOUNT,,,,,,,400,TRUE
+AT-7321,"edit threshold value to MIN ""1.00""",,INCOME_THRESHOLD,,,,,,,view,TRUE,"MINIMUM,400,AMOUNT",,,,204,TRUE
+AT-7322,edit threshold value to MAX,,INCOME_THRESHOLD,,,,,,,view,FALSE,"MINIMUM,400,AMOUNT",,,,204,TRUE
+AT-7323,edit threshold value to Between MIN and MAX,,INCOME_THRESHOLD,,,,,,,view,TRUE,"MINIMUM,400,AMOUNT",,,,204,TRUE
+AT-7324,edit threshold value to less than MIN,EditThresholdAmountRangeMinAndMax,INCOME_THRESHOLD,,,,,,,view,TRUE,"MINIMUM,3,AMOUNT",,,,204,TRUE
+AT-7325,edit threshold value to greater than MAX,EditThresholdAmountRangeMinAndMax,INCOME_THRESHOLD,,,,,,,view,TRUE,"MINIMUM,400,AMOUNT",,,,204,TRUE
+AT-7326,edit Invalid threshold  name to MINIMUMEDIT,EditThresholdNameInvalidMINIMUM,INCOME_THRESHOLD,,,,,,,view,TRUE,"MINIMUMEDIT,100,AMOUNT",,,,400,TRUE
+AT-7327,edit Invalid threshold  type to AMOUNTEDIT,EditThresholdTypeInvalidAMOUNT,INCOME_THRESHOLD,,,,,,,view,TRUE,"MINIMUM,100,AMOUNTEDIT",,,,400,TRUE
+AT-7328,edit NOT supported entity,VIEWEntitySupported,INCOME_THRESHOLD,,,,,,,goal,TRUE,"MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-7329,edit InsightName,EditInsightName,AGGREGATE_MORTGAGE_ACCOUNTEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7330,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,AGGREGATE_MORTGAGE_ACCOUNT,Aggregate Mortgage Account,,,,,,account,TRUE,,,,,400,TRUE
+AT-7331,edit InsightType,UserEditsInsightsType,AGGREGATE_MORTGAGE_ACCOUNT,,OTHER,,,,,,,,,,,400,TRUE
+AT-7332,edit TriggerType,UserEditsTriggerType,AGGREGATE_MORTGAGE_ACCOUNT,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7333,edit Container,UserEditsContainer,AGGREGATE_MORTGAGE_ACCOUNT,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7334,edit Description,EditDescription,AGGREGATE_MORTGAGE_ACCOUNT,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7335,edit ApplicableEntity,EditApplicableEntity,AGGREGATE_MORTGAGE_ACCOUNT,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7336,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,AGGREGATE_MORTGAGE_ACCOUNT,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7337,edit InsightName,EditInsightName,AGGREGATE_REAL_ESTATE_ACCOUNTEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7338,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,AGGREGATE_REAL_ESTATE_ACCOUNT,Aggregate Real Estate Account,,,,,,account,TRUE,,,,,400,TRUE
+AT-7339,edit InsightType,UserEditsInsightsType,AGGREGATE_REAL_ESTATE_ACCOUNT,,OTHER,,,,,,,,,,,400,TRUE
+AT-7340,edit TriggerType,UserEditsTriggerType,AGGREGATE_REAL_ESTATE_ACCOUNT,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7341,edit Container,UserEditsContainer,AGGREGATE_REAL_ESTATE_ACCOUNT,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7342,edit Description,EditDescription,AGGREGATE_REAL_ESTATE_ACCOUNT,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7343,edit ApplicableEntity,EditApplicableEntity,AGGREGATE_REAL_ESTATE_ACCOUNT,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7344,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,AGGREGATE_REAL_ESTATE_ACCOUNT,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7345,edit InsightName,EditInsightName,AGGREGATE_REAL_ESTATE_ACCOUNTEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7346,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,AGGREGATE_INSURANCE_ACCOUNT,Aggregat Insurance account,,,,,,account,TRUE,,,,,400,TRUE
+AT-7347,edit InsightType,UserEditsInsightsType,AGGREGATE_INSURANCE_ACCOUNT,,OTHER,,,,,,,,,,,400,TRUE
+AT-7348,edit TriggerType,UserEditsTriggerType,AGGREGATE_INSURANCE_ACCOUNT,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7349,edit Container,UserEditsContainer,AGGREGATE_INSURANCE_ACCOUNT,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7350,edit Description,EditDescription,AGGREGATE_INSURANCE_ACCOUNT,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7351,edit ApplicableEntity,EditApplicableEntity,AGGREGATE_INSURANCE_ACCOUNT,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7352,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,AGGREGATE_INSURANCE_ACCOUNT,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7353,edit InsightName,EditInsightName,AGGREGATE_CREDIT_CARD_ACCOUNTEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7354,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,AGGREGATE_CREDIT_CARD_ACCOUNT,Aggregate credit card account,,,,,,account,TRUE,,,,,400,TRUE
+AT-7355,edit InsightType,UserEditsInsightsType,AGGREGATE_CREDIT_CARD_ACCOUNT,,OTHER,,,,,,,,,,,400,TRUE
+AT-7356,edit TriggerType,UserEditsTriggerType,AGGREGATE_CREDIT_CARD_ACCOUNT,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7357,edit Container,UserEditsContainer,AGGREGATE_CREDIT_CARD_ACCOUNT,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7358,edit Description,EditDescription,AGGREGATE_CREDIT_CARD_ACCOUNT,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7359,edit ApplicableEntity,EditApplicableEntity,AGGREGATE_CREDIT_CARD_ACCOUNT,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7360,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,AGGREGATE_CREDIT_CARD_ACCOUNT,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7361,edit InsightName,EditInsightName,AGGREGATE_SAVINGS_CHECKING_ACCOUNTEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7362,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,AGGREGATE_SAVINGS_CHECKING_ACCOUNT,Aggregate savings checking account,,,,,,account,TRUE,,,,,400,TRUE
+AT-7363,edit InsightType,UserEditsInsightsType,AGGREGATE_SAVINGS_CHECKING_ACCOUNT,,OTHER,,,,,,,,,,,400,TRUE
+AT-7364,edit TriggerType,UserEditsTriggerType,AGGREGATE_SAVINGS_CHECKING_ACCOUNT,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7365,edit Container,UserEditsContainer,AGGREGATE_SAVINGS_CHECKING_ACCOUNT,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7366,edit Description,EditDescription,AGGREGATE_SAVINGS_CHECKING_ACCOUNT,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7367,edit ApplicableEntity,EditApplicableEntity,AGGREGATE_SAVINGS_CHECKING_ACCOUNT,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7368,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,AGGREGATE_SAVINGS_CHECKING_ACCOUNT,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7369,edit InsightName,EditInsightName,AGGREGATE_INVESTMENT_ACCOUNTEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7370,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,AGGREGATE_INVESTMENT_ACCOUNT,Aggregate Investment account,,,,,,account,TRUE,,,,,400,TRUE
+AT-7371,edit InsightType,UserEditsInsightsType,AGGREGATE_INVESTMENT_ACCOUNT,,OTHER,,,,,,,,,,,400,TRUE
+AT-7372,edit TriggerType,UserEditsTriggerType,AGGREGATE_INVESTMENT_ACCOUNT,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7373,edit Container,UserEditsContainer,AGGREGATE_INVESTMENT_ACCOUNT,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7374,edit Description,EditDescription,AGGREGATE_INVESTMENT_ACCOUNT,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7375,edit ApplicableEntity,EditApplicableEntity,AGGREGATE_INVESTMENT_ACCOUNT,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7376,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,AGGREGATE_INVESTMENT_ACCOUNT,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7377,edit InsightName,EditInsightName,NEW_BILLEDIT,,,,,,,account view,TRUE  FALSE,,,,,400,TRUE
+AT-7378,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,NEW_BILL,New Bill,,,,,,account view,TRUE  FALSE,,,,,400,TRUE
+AT-7379,edit InsightType,UserEditsInsightsType,NEW_BILL,,OTHER,,,,,,,,,,,400,TRUE
+AT-7380,edit TriggerType,UserEditsTriggerType,NEW_BILL,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7381,edit Container,UserEditsContainer,NEW_BILL,,,,"BANK,CARD",,,account view,FALSE TRUE  ,,,,,400,TRUE
+AT-7382,edit Description,EditDescription,NEW_BILL,,,,,My Own Description,,account view,TRUE  FALSE,,,,,400,TRUE
+AT-7383,edit ApplicableEntity,EditApplicableEntity,NEW_BILL,,,,,,ACCOUNT   VIEW,account view,FALSE TRUE  ,,,,,400,TRUE
+AT-7385,edit InsightName,EditInsightName,NEW_SUBSCRIPTIONEDIT,,,,,,,account view,TRUE  FALSE,,,,,400,TRUE
+AT-7386,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,NEW_SUBSCRIPTION,New Subscriptions,,,,,,account view,TRUE  FALSE,,,,,400,TRUE
+AT-7387,edit InsightType,UserEditsInsightsType,NEW_SUBSCRIPTION,,OTHER,,,,,,,,,,,400,TRUE
+AT-7388,edit TriggerType,UserEditsTriggerType,NEW_SUBSCRIPTION,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7389,edit Container,UserEditsContainer,NEW_SUBSCRIPTION,,,,"BANK,CARD",,,account view,FALSE TRUE  ,,,,,400,TRUE
+AT-7390,edit Description,EditDescription,NEW_SUBSCRIPTION,,,,,My Own Description,,account view,TRUE  FALSE,,,,,400,TRUE
+AT-7391,edit ApplicableEntity,EditApplicableEntity,NEW_SUBSCRIPTION,,,,,,ACCOUNT   VIEW,account view,FALSE TRUE  ,,,,,400,TRUE
+AT-7393,edit InsightName,EditInsightName,MISSED_BILLSEDIT,,,,,,,account,TRUE FALSE,"TOP,10,NUMBER ",,,,400,TRUE
+AT-7394,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,MISSED_BILLS,Missed Bills,,,,,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7395,edit InsightType,UserEditsInsightsType,MISSED_BILLS,,OTHER,,,,,,,,,,,400,TRUE
+AT-7396,edit TriggerType,UserEditsTriggerType,MISSED_BILLS,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7397,edit Container,UserEditsContainer,MISSED_BILLS,,,,"BANK,CARD",,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7398,edit Description,EditDescription,MISSED_BILLS,,,,,My Own Description,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7399,edit ApplicableEntity,EditApplicableEntity,MISSED_BILLS,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7400,"edit threshold  value to ""1"" NUMBER  - Minimum",,MISSED_BILLS,,,,,,,account,TRUE FALSE,"TOP,1,NUMBER",,,,204,TRUE
+AT-7401,edit threshold value to 100 NUMBER - Maximum,,MISSED_BILLS,,,,,,,account,TRUE FALSE,"TOP,100,NUMBER",,,,204,TRUE
+AT-7402,edit threshold value to Between MIN and MAX - 15 DAYS,,MISSED_BILLS,,,,,,,account,TRUE FALSE,"TOP,50,NUMBER",,,,204,TRUE
+AT-7403,edit threshold value to less than MIN(1 DAYS)  - 0 NUMBER,MaxTOPValue,MISSED_BILLS,,,,,,,account,TRUE FALSE,"TOP,0,NUMBER",,,,400,TRUE
+AT-7404,edit threshold value to greater than MAX(100 TOP) - 101 TOP Value,MaxTOPValue,MISSED_BILLS,,,,,,,account,TRUE FALSE,"TOP,101,NUMBER ",,,,400,TRUE
+AT-7405,edit Invalid threshold  name toTOPEDIT,EditTOPInValidValue,MISSED_BILLS,,,,,,,account,TRUE FALSE,"TOPEDIT,15,NUMBER",,,,400,TRUE
+AT-7406,edit Invalid threshold  type to NUMBEREDIT,EditNUMBERInValidValue,MISSED_BILLS,,,,,,,account,TRUE FALSE,"TOP,15,NUMBEREDIT",,,,400,TRUE
+AT-7407,edit NOT supported entity,ACCOUNTEntitySupported,MISSED_BILLS,,,,,,,goal,TRUE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7408,edit Frequency,EditFrequency,MISSED_BILLS,,,,,,,account,TRUE,"TOP,10,NUMBER",WEEKLY,,,400,TRUE
+AT-7409,edit Duration,EditFrequency,MISSED_BILLS,,,,,,,account,FALSE,"TOP,10,NUMBER",LAST_MONTH,MID_MONTHLY,,400,TRUE
+AT-7410,edit Frequency toTHIS_MONTH,EditFrequency,MISSED_BILLS,,,,,,,account,TRUE,"TOP,10,NUMBER",LAST_MONTH,THIS_MONTH,,400,TRUE
+AT-7411,edit Frequency toLAST_MONTH,EditFrequency,MISSED_BILLS,,,,,,,account,FALSE,"TOP,10,NUMBER",LAST_MONTH,LAST_MONTH,,400,TRUE
+AT-7412,edit Frequency to THREE_MONTHS,EditFrequency,MISSED_BILLS,,,,,,,account,TRUE,"TOP,10,NUMBER",LAST_MONTH,THREE_MONTHS,,400,TRUE
+AT-7413,edit Frequency to SIX_MONTHS,EditFrequency,MISSED_BILLS,,,,,,,account,FALSE,"TOP,10,NUMBER",LAST_MONTH,SIX_MONTHS,,400,TRUE
+AT-7414,edit Frequency to ONE_YEAR,EditFrequency,MISSED_BILLS,,,,,,,account,FALSE,"TOP,10,NUMBER",WEEKLY,MID_MONTHLY,,400,TRUE
+AT-7415,edit InsightName,EditInsightName,BILL_CHANGEDEDIT,,,,,,,account  view,TRUE  TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT  CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7416,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,BILL_CHANGED,Bill Changes,,,,,,account  view,FALSE TRUE  ,"CHANGE,3,PERCENT CHANGE,3,AMOUNT  CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7417,edit InsightType,UserEditsInsightsType,BILL_CHANGED,,OTHER,,,,,,,,,,,400,TRUE
+AT-7418,edit TriggerType,UserEditsTriggerType,BILL_CHANGED,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7419,edit Container,UserEditsContainer,BILL_CHANGED,,,,"BANK,CARD,LOAN,INSURANCE,INVESTMENT",,,account  view,TRUE  TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT  CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7420,edit Description,EditDescription,BILL_CHANGED,,,,,My Own Description,,account,TRUE  TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT  CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7421,edit ApplicableEntity,EditApplicableEntity,BILL_CHANGED,,,,,,ACCOUNT   VIEW,account  view,,,,,,400,TRUE
+AT-7422,edit threshold  0.01 PERCENT  - Minimum,,BILL_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,1,PERCENT  CHANGE,1,AMOUNT  CHANGE,1,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7423,edit threshold value to 10000.00 AMOUNT,,BILL_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,0.01,PERCENT  CHANGE,10000,AMOUNT  CHANGE,0.01,PERCENT  CHANGE,10000,AMOUNT",,,,204,TRUE
+AT-7424,edit threshold value to Between MIN and MAX - 478 PERCENT,,BILL_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,1,PERCENT  CHANGE,1,AMOUNT  CHANGE,1,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7425,edit threshold value to less than MIN(0.01 PERCENT)  -  -1 PERCENT,CHANGE_PropertyValueMinMax,BILL_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,-1,PERCENT  CHANGE,1,AMOUNT  CHANGE,-1,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7426,edit threshold value to greater than MAX(500 PERCENT) - 501 PERCENT,CHANGE_PropertyValueMinMax,BILL_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,501,PERCENT  CHANGE,1,AMOUNT    CHANGE,501,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7427,edit threshold  0 AMOUNT Minimum,,BILL_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,0.01,PERCENT  CHANGE,1,AMOUNT  CHANGE,0.005,PERCENT  CHANGE,0.075,AMOUNT",,,,204,TRUE
+AT-7428,edit threshold value to 10000000 AMOUNT- Maximum,BillChangeMinMax,BILL_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,500,PERCENT  CHANGE,10000000,AMOUNT   CHANGE,500,PERCENT  CHANGE,10000000,AMOUNT",,,,400,TRUE
+AT-7429,edit threshold value to Between MIN and MAX - 1000000 AMOUNT,,BILL_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,3,PERCENT  CHANGE,1000,AMOUNT  CHANGE,8,PERCENT  CHANGE,100,AMOUNT",,,,204,TRUE
+AT-7430,edit threshold value to less than MIN(0 AMOUNT)  -  -1 AMOUNT,BillChangeMinMax,BILL_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,10,PERCENT  CHANGE,-1,AMOUNT  CHANGE,10,PERCENT  CHANGE,-1,AMOUNT",,,,400,TRUE
+AT-7431,edit threshold value to greater than MAX(10000000 AMOUNT) - 10000001,BillChangeMinMax,BILL_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,50,PERCENT  CHANGE,10000001,AMOUNT  CHANGE,50,PERCENT  CHANGE,10000001,AMOUNT",,,,400,TRUE
+AT-7432,edit Invalid threshold  name to CHANGEEDIT,EditNetworthThresholdInvalidName,BILL_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGEEDIT,3,PERCENT  CHANGE,1,AMOUNT  CHANGEEDIT,3,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7433,edit Invalid threshold  type to PERCENTEDIT,EditNetworthThresholdInvalidType,BILL_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,3,PERCENTEDIT  CHANGE,1,AMOUNT  CHANGE,3,PERCENTEDIT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7434,edit NOT supported entity,ACCOUNTVIEWEntitySupported,BILL_CHANGED,,,,,,,goal,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7435,editFrequency for account entity,SpecifyFrequencyAttribute,BILL_CHANGED,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",WEEKLY,,,400,TRUE
+AT-7436,editFrequency for account entity,SpecifyFrequencyAttribute,BILL_CHANGED,,,,,,,account,TRUE,"CHANGE,3,PERCENT",DAILY,,,400,TRUE
+AT-7437,editFrequency for account and view entity - InValid Frequency,SpecifyFrequencyAttribute,BILL_CHANGED,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",MONTHLY ,,,400,TRUE
+AT-7438,edit InsightName,EditInsightName,SUBSCRIPTION_CHANGEDEDIT,,,,,,,account  view,TRUE  TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT  CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7439,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,SUBSCRIPTION_CHANGED,Subscription Changed,,,,,,account  view,FALSE TRUE  ,"CHANGE,3,PERCENT CHANGE,3,AMOUNT  CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7440,edit InsightType,UserEditsInsightsType,SUBSCRIPTION_CHANGED,,OTHER,,,,,,,,,,,400,TRUE
+AT-7441,edit TriggerType,UserEditsTriggerType,SUBSCRIPTION_CHANGED,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7442,edit Container,UserEditsContainer,SUBSCRIPTION_CHANGED,,,,"BANK,CARD,LOAN,INSURANCE,INVESTMENT",,,account  view,TRUE  TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT  CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7443,edit Description,EditDescription,SUBSCRIPTION_CHANGED,,,,,My Own Description,,account,TRUE  TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT  CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7444,edit ApplicableEntity,EditApplicableEntity,SUBSCRIPTION_CHANGED,,,,,,ACCOUNT   VIEW,account  view,,,,,,400,TRUE
+AT-7445,edit threshold  1 PERCENT  - Minimum,,SUBSCRIPTION_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,1,PERCENT  CHANGE,1,AMOUNT  CHANGE,1,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7446,edit threshold value to 500 PERCENT- Maximum,,SUBSCRIPTION_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,0.01,PERCENT  CHANGE,10000,AMOUNT  CHANGE,0.01,PERCENT  CHANGE,10000,AMOUNT",,,,204,TRUE
+AT-7447,edit threshold value to Between MIN and MAX - 478 PERCENT,,SUBSCRIPTION_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,1,PERCENT  CHANGE,1,AMOUNT  CHANGE,1,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7448,edit threshold value to less than MIN(0 PERCENT)  -  -1 PERCENT,CHANGE_PropertyValueMinMax,SUBSCRIPTION_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,-1,PERCENT  CHANGE,1,AMOUNT  CHANGE,-1,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7449,edit threshold value to greater than MAX(500 PERCENT) - 501 PERCENT,CHANGE_PropertyValueMinMax,SUBSCRIPTION_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,501,PERCENT  CHANGE,1,AMOUNT    CHANGE,501,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7450,edit threshold  0 AMOUNT Minimum,,SUBSCRIPTION_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,0.01,PERCENT  CHANGE,1,AMOUNT  CHANGE,0.005,PERCENT  CHANGE,0.075,AMOUNT",,,,204,TRUE
+AT-7451,edit threshold value to Between MIN and MAX - 1000000 AMOUNT,,SUBSCRIPTION_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,3,PERCENT  CHANGE,1000,AMOUNT  CHANGE,8,PERCENT  CHANGE,100,AMOUNT",,,,204,TRUE
+AT-7452,edit threshold value to less than MIN(0 AMOUNT)  -  -1 AMOUNT,BillChangeMinMax,SUBSCRIPTION_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,10,PERCENT  CHANGE,-1,AMOUNT  CHANGE,10,PERCENT  CHANGE,-1,AMOUNT",,,,400,TRUE
+AT-7453,edit threshold value to greater than MAX(10000000 AMOUNT) - 10000001,BillChangeMinMax,SUBSCRIPTION_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,50,PERCENT  CHANGE,10000001,AMOUNT  CHANGE,50,PERCENT  CHANGE,10000001,AMOUNT",,,,400,TRUE
+AT-7454,edit Invalid threshold  name to CHANGEEDIT,EditNetworthThresholdInvalidName,SUBSCRIPTION_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGEEDIT,3,PERCENT  CHANGE,1,AMOUNT  CHANGEEDIT,3,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7455,edit Invalid threshold  type to PERCENTEDIT,EditNetworthThresholdInvalidType,SUBSCRIPTION_CHANGED,,,,,,,account  view,TRUE  TRUE,"CHANGE,3,PERCENTEDIT  CHANGE,1,AMOUNT  CHANGE,3,PERCENTEDIT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7456,edit NOT supported entity,ACCOUNTVIEWEntitySupported,SUBSCRIPTION_CHANGED,,,,,,,goal,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7458,edit InsightName,EditInsightName,LOW_BALANCE_WARNINGEDIT,,,,,,,account,TRUE,"BALANCE,400,AMOUNT",,,,400,TRUE
+AT-7459,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,LOW_BALANCE_WARNING,Low Balance Warning,,,,,,account,TRUE,"BALANCE,400,AMOUNT",,,,400,TRUE
+AT-7460,edit InsightType,UserEditsInsightsType,LOW_BALANCE_WARNING,,OTHER,,,,,,,,,,,400,TRUE
+AT-7461,edit TriggerType,UserEditsTriggerType,LOW_BALANCE_WARNING,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7462,edit Container,UserEditsContainer,LOW_BALANCE_WARNING,,,,LOAN,,,account,TRUE,"BALANCE,400,AMOUNT",,,,400,TRUE
+AT-7463,edit Description,EditDescription,LOW_BALANCE_WARNING,,,,,My Description,,account,FALSE,"BALANCE,400,AMOUNT",,,,400,TRUE
+AT-7464,edit ApplicableEntity,EditApplicableEntity,LOW_BALANCE_WARNING,,,,,,ACCOUNT,,,,,,,400,TRUE
+AT-7465,"edit threshold value to MIN ""1.00""",,LOW_BALANCE_WARNING,,,,,,,account,TRUE,"BALANCE,400,AMOUNT",,,,204,TRUE
+AT-7466,edit threshold value to MAX,,LOW_BALANCE_WARNING,,,,,,,account,FALSE,"BALANCE,400,AMOUNT",,,,204,TRUE
+AT-7467,edit threshold value to Between MIN and MAX,,LOW_BALANCE_WARNING,,,,,,,account,TRUE,"BALANCE,400,AMOUNT",,,,204,TRUE
+AT-7468,edit threshold value to less than MIN 0,EditThresholdBalanceRangeMinAndMax,LOW_BALANCE_WARNING,,,,,,,account,TRUE,"BALANCE,-1,AMOUNT",,,,400,TRUE
+AT-7469,edit threshold value to greater than MAX,EditThresholdBalanceRangeMinAndMax,LOW_BALANCE_WARNING,,,,,,,account,TRUE,"BALANCE,4000000000000,AMOUNT",,,,400,TRUE
+AT-7470,edit Invalid threshold  type to AMOUNTEDIT,EditThresholdTypeInvalidAMOUNT,LOW_BALANCE_WARNING,,,,,,,account,TRUE,"BALANCE,100,AMOUNTEDIT",,,,400,TRUE
+AT-7471,edit NOT supported entity,ACCOUNTEntitySupported,LOW_BALANCE_WARNING,,,,,,,goal,TRUE,"BALANCE,100,AMOUNT",,,,400,TRUE
+AT-7472,edit InsightName,EditInsightName,BALANCE_ABOVE_THRESHOLDEDIT,,,,,,,account,TRUE,"BALANCE,400,AMOUNT",,,,400,TRUE
+AT-7473,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,BALANCE_ABOVE_THRESHOLD,Balance Above Threshold,,,,,,account,TRUE,"BALANCE,400,AMOUNT",,,,400,TRUE
+AT-7474,edit InsightType,UserEditsInsightsType,BALANCE_ABOVE_THRESHOLD,,OTHER,,,,,,,,,,,400,TRUE
+AT-7475,edit TriggerType,UserEditsTriggerType,BALANCE_ABOVE_THRESHOLD,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7476,edit Container,UserEditsContainer,BALANCE_ABOVE_THRESHOLD,,,,LOAN,,,account,TRUE,"BALANCE,400,AMOUNT",,,,400,TRUE
+AT-7477,edit Description,EditDescription,BALANCE_ABOVE_THRESHOLD,,,,,My Description,,account,FALSE,"BALANCE,400,AMOUNT",,,,400,TRUE
+AT-7478,edit ApplicableEntity,EditApplicableEntity,BALANCE_ABOVE_THRESHOLD,,,,,,ACCOUNT,,,,,,,400,TRUE
+AT-7479,"edit threshold value to MIN ""1.00""",,BALANCE_ABOVE_THRESHOLD,,,,,,,account,TRUE,"BALANCE,400,AMOUNT",,,,204,TRUE
+AT-7480,edit threshold value to MAX,,BALANCE_ABOVE_THRESHOLD,,,,,,,account,FALSE,"BALANCE,400,AMOUNT",,,,204,TRUE
+AT-7481,edit threshold value to Between MIN and MAX,,BALANCE_ABOVE_THRESHOLD,,,,,,,account,TRUE,"BALANCE,400,AMOUNT",,,,204,TRUE
+AT-7482,edit threshold value to less than MIN 0,EditThresholdBalanceRangeMinAndMax,BALANCE_ABOVE_THRESHOLD,,,,,,,account,TRUE,"BALANCE,-1,AMOUNT",,,,400,TRUE
+AT-7483,edit threshold value to greater than MAX,EditThresholdBalanceRangeMinAndMax,BALANCE_ABOVE_THRESHOLD,,,,,,,account,TRUE,"BALANCE,4000000000000,AMOUNT",,,,400,TRUE
+AT-7484,edit Invalid threshold  type to AMOUNTEDIT,EditThresholdTypeInvalidAMOUNT,BALANCE_ABOVE_THRESHOLD,,,,,,,account,TRUE,"BALANCE,100,AMOUNTEDIT",,,,400,TRUE
+AT-7485,edit NOT supported entity,ACCOUNTEntitySupported,BALANCE_ABOVE_THRESHOLD,,,,,,,goal,TRUE,"BALANCE,100,AMOUNT",,,,400,TRUE
+AT-7486,edit InsightName,EditInsightName,RECURRING_DEPOSIT_IS_LATEDIT,,,,,,,account,TRUE,"DELAY,4,DAYS",,,,400,TRUE
+AT-7487,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,RECURRING_DEPOSIT_IS_LATE,Recurring Deposit is Late,,,,,,account,TRUE,"DELAY,4,DAYS",,,,400,TRUE
+AT-7488,edit InsightType,UserEditsInsightsType,RECURRING_DEPOSIT_IS_LATE,,OTHER,,,,,,,,,,,400,TRUE
+AT-7489,edit TriggerType,UserEditsTriggerType,RECURRING_DEPOSIT_IS_LATE,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7490,edit Container,UserEditsContainer,RECURRING_DEPOSIT_IS_LATE,,,,"BANK,CARD",,,account,TRUE,"DELAY,1,DAYS",,,,400,TRUE
+AT-7491,edit Description,EditDescription,RECURRING_DEPOSIT_IS_LATE,,,,,My Own Description,,account,TRUE,"DELAY,1,DAYS",,,,400,TRUE
+AT-7492,edit ApplicableEntity,EditApplicableEntity,RECURRING_DEPOSIT_IS_LATE,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7493,"edit threshold  value to ""q""  DAYS  - Minimum",,RECURRING_DEPOSIT_IS_LATE,,,,,,,account,TRUE,"DELAY,1,DAYS",,,,204,TRUE
+AT-7494,edit threshold value to 15 DAYS - Maximum,,RECURRING_DEPOSIT_IS_LATE,,,,,,,account,TRUE,"DELAY,15,DAYS",,,,204,TRUE
+AT-7495,edit threshold value to Between MIN and MAX - 15 DAYS,,RECURRING_DEPOSIT_IS_LATE,,,,,,,account,TRUE,"DELAY,12,DAYS",,,,204,TRUE
+AT-7496,edit threshold value to less than MIN(1 DAYS)  -  0 DAYS,EditThresholdDELAYMinAndMax1,RECURRING_DEPOSIT_IS_LATE,,,,,,,account,TRUE,"DELAY,-1,DAYS",,,,400,TRUE
+AT-7497,edit threshold value to greater than MAX(15 DAYS) - 16 DAYS,EditThresholdDELAYMinAndMax1,RECURRING_DEPOSIT_IS_LATE,,,,,,,account,TRUE,"DELAY,32,DAYS",,,,400,TRUE
+AT-7498,edit Invalid threshold  name to DELAYEDIT,EditThresholdNameInvalidDELAY,RECURRING_DEPOSIT_IS_LATE,,,,,,,account,TRUE,"DELAYEDIT,10,DAYS",,,,400,TRUE
+AT-7499,edit NOT supported entity,ACCOUNTEntitySupported,RECURRING_DEPOSIT_IS_LATE,,,,,,,goal,TRUE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7500,editFrequency for account entity,EditFrequency,RECURRING_DEPOSIT_IS_LATE,,,,,,,account,TRUE,"DELAY,12,DAYS",WEEKLY,,,400,TRUE
+AT-7501,editFrequency for view entity,EditFrequency,RECURRING_DEPOSIT_IS_LATE,,,,,,,account,TRUE,"DELAY,12,DAYS",MONTHLY,,,400,TRUE
+AT-7502,editFrequency for account and view entity,EditFrequency,RECURRING_DEPOSIT_IS_LATE,,,,,,,account,TRUE,"DELAY,12,DAYS",DAILY DAILY,,,400,TRUE
+AT-7503,editFrequency for account and view entity - InValid Frequency,EditFrequency,RECURRING_DEPOSIT_IS_LATE,,,,,,,account,TRUE,"DELAY,12,DAYS",MONTHLY  WEEKLY,,,400,TRUE
+AT-7504,edit InsightName,EditInsightName,REFUND_DEPOSITEDEDIT,,,,,,,account view,TRUE FALSE,"MINIMUM,400,AMOUNT   MINIMUM,450,AMOUNT",,,,400,TRUE
+AT-7505,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,REFUND_DEPOSITED,Refund Deposited,,,,,,account view,TRUE FALSE,"MINIMUM,400,AMOUNT   MINIMUM,450,AMOUNT",,,,400,TRUE
+AT-7506,edit InsightType,UserEditsInsightsType,REFUND_DEPOSITED,,OTHER,,,,,,,,,,,400,TRUE
+AT-7507,edit TriggerType,UserEditsTriggerType,REFUND_DEPOSITED,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7508,edit Container,UserEditsContainer,REFUND_DEPOSITED,,,,LOAN,,,account view,TRUE FALSE,"MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT",,,,400,TRUE
+AT-7509,edit Description,EditDescription,REFUND_DEPOSITED,,,,,My Description,,account view,TRUE FALSE,"MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT",,,,400,TRUE
+AT-7510,edit ApplicableEntity,EditApplicableEntity,REFUND_DEPOSITED,,,,,,VIEW    ACCOUNT,,,,,,,400,TRUE
+AT-7511,"edit threshold value to MIN ""1.00""",,REFUND_DEPOSITED,,,,,,,account view,TRUE FALSE,"MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT",,,,204,TRUE
+AT-7512,edit threshold value to MAX,,REFUND_DEPOSITED,,,,,,,account view,TRUE FALSE,"MINIMUM,1000000,AMOUNT   MINIMUM,1000000,AMOUNT",,,,204,TRUE
+AT-7513,edit threshold value to Between MIN and MAX,,REFUND_DEPOSITED,,,,,,,account view,TRUE FALSE,"MINIMUM,90000,AMOUNT   MINIMUM,90000,AMOUNT",,,,204,TRUE
+AT-7514,edit threshold value to less than MIN,EditThresholdAmountRangeMinAndMax,REFUND_DEPOSITED,,,,,,,account view,TRUE FALSE,"MINIMUM,0,AMOUNT   MINIMUM,0,AMOUNT",,,,400,TRUE
+AT-7515,edit threshold value to greater than MAX,EditThresholdAmountRangeMinAndMax,REFUND_DEPOSITED,,,,,,,account view,TRUE FALSE,"MINIMUM,1000001,AMOUNT   MINIMUM,1000001,AMOUNT",,,,400,TRUE
+AT-7516,edit Invalid threshold  name to MINIMUMEDIT,EditThresholdNameInvalidMINIMUM,REFUND_DEPOSITED,,,,,,,account view,TRUE FALSE,"MINIMUMEDIT,100,AMOUNT   MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-7517,edit Invalid threshold  type to AMOUNTEDIT,EditThresholdTypeInvalidAMOUNT,REFUND_DEPOSITED,,,,,,,account view,TRUE FALSE,"MINIMUM,100,AMOUNT   MINIMUM,100,AMOUNTEDIT",,,,400,TRUE
+AT-7518,edit NOT supported entity,ACCOUNTVIEWEntitySupported,REFUND_DEPOSITED,,,,,,,goal,TRUE,"MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-7519,edit InsightName,EditInsightName,SPENDING_BY_MERCHANT_ALL_ACCOUNTSEDIT,,,,,,,account,TRUE FALSE,"TOP,10,NUMBER ",,,,400,TRUE
+AT-7520,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,Spending My Merchant all,,,,,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7521,edit InsightType,UserEditsInsightsType,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,,OTHER,,,,,,,,,,,400,TRUE
+AT-7522,edit TriggerType,UserEditsTriggerType,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7523,edit Container,UserEditsContainer,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,,,,"BANK,CARD",,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7524,edit Description,EditDescription,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,,,,,My Own Description,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7525,edit ApplicableEntity,EditApplicableEntity,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7526,"edit threshold  value to ""1"" NUMBER  - Minimum",,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,1,NUMBER",,,,204,TRUE
+AT-7527,edit threshold value to 100 NUMBER - Maximum,,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,10,NUMBER",,,,204,TRUE
+AT-7528,edit threshold value to Between MIN and MAX - 15 DAYS,,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,50,NUMBER",,,,204,TRUE
+AT-7529,edit threshold value to less than MIN(1 DAYS)  - 0 NUMBER,MaxTOPValue1,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,0,NUMBER",,,,400,TRUE
+AT-7530,edit threshold value to greater than MAX(100 TOP) - 101 TOP Value,MaxTOPValue1,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,101,NUMBER ",,,,400,TRUE
+AT-7531,edit Invalid threshold  name toTOPEDIT,EditTOPInValidValue,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOPEDIT,15,NUMBER",,,,400,TRUE
+AT-7532,edit Invalid threshold  type to NUMBEREDIT,EditNUMBERInValidValue,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,15,NUMBEREDIT",,,,400,TRUE
+AT-7533,edit NOT supported entity,ACCOUNTEntitySupported,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,goal,TRUE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7534,edit Frequency,,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE,"TOP,10,NUMBER",WEEKLY,,,204,TRUE
+AT-7535,edit InsightName,EditInsightName,SPENDING_BY_CATEGORY_ALL_ACCOUNTSEDIT,,,,,,,account,TRUE FALSE,"TOP,10,NUMBER ",,,,400,TRUE
+AT-7536,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,SPENDING_BY_CATEGORY_ALL_ACCOUNTS,Spending By Category,,,,,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7537,edit InsightType,UserEditsInsightsType,SPENDING_BY_CATEGORY_ALL_ACCOUNTS,,OTHER,,,,,,,,,,,400,TRUE
+AT-7538,edit TriggerType,UserEditsTriggerType,SPENDING_BY_CATEGORY_ALL_ACCOUNTS,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7539,edit Container,UserEditsContainer,SPENDING_BY_CATEGORY_ALL_ACCOUNTS,,,,"BANK,CARD",,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7540,edit Description,EditDescription,SPENDING_BY_CATEGORY_ALL_ACCOUNTS,,,,,My Own Description,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7541,edit ApplicableEntity,EditApplicableEntity,SPENDING_BY_CATEGORY_ALL_ACCOUNTS,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7542,edit threshold value to 100 NUMBER - Maximum,,SPENDING_BY_CATEGORY_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,100,NUMBER",,,,204,TRUE
+AT-7543,edit threshold value to Between MIN and MAX - 15 DAYS,,SPENDING_BY_CATEGORY_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,50,NUMBER",,,,204,TRUE
+AT-7544,edit threshold value to less than MIN(1 DAYS)  - 0 NUMBER,MaxTOPValue,SPENDING_BY_CATEGORY_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,0,NUMBER",,,,400,TRUE
+AT-7545,edit threshold value to greater than MAX(100 TOP) - 101 TOP Value,MaxTOPValue,SPENDING_BY_CATEGORY_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,101,NUMBER ",,,,400,TRUE
+AT-7546,edit Invalid threshold  name toTOPEDIT,EditTOPInValidValue,SPENDING_BY_CATEGORY_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOPEDIT,15,NUMBER",,,,400,TRUE
+AT-7547,edit Invalid threshold  type to NUMBEREDIT,EditNUMBERInValidValue,SPENDING_BY_CATEGORY_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,15,NUMBEREDIT",,,,400,TRUE
+AT-7548,edit NOT supported entity,ACCOUNTEntitySupported,SPENDING_BY_CATEGORY_ALL_ACCOUNTS,,,,,,,goal,TRUE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7549,edit InsightName,EditInsightName,SALARY_CHANGEDDEDIT,,,,,,,account,TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7550,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,SALARY_CHANGED,abc,,,,,,account,FALSE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7551,edit InsightType,UserEditsInsightsType,SALARY_CHANGED,,OTHER,,,,,,,,,,,400,TRUE
+AT-7552,edit TriggerType,UserEditsTriggerType,SALARY_CHANGED,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7553,edit Container,UserEditsContainer,SALARY_CHANGED,,,,"BANK,CARD,LOAN,INSURANCE,INVESTMENT",,,account,TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7554,edit Description,EditDescription,SALARY_CHANGED,,,,,My Own Description,,account,TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7555,edit ApplicableEntity,EditApplicableEntity,SALARY_CHANGED,,,,,,ACCOUNT   VIEW,account,,,,,,400,TRUE
+AT-7556,edit threshold  0.01 PERCENT  - Minimum,,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGE,1,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7557,edit threshold value to 10000.00 AMOUNT,,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGE,0.01,PERCENT  CHANGE,10000,AMOUNT",,,,204,TRUE
+AT-7558,edit threshold value to Between MIN and MAX - 478 PERCENT,,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGE,1,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7559,edit threshold value to less than MIN(0.01 PERCENT)  -  -1 PERCENT,CHANGE_PropertyValueMinMax,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGE,-1,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7560,edit threshold value to greater than MAX(500 PERCENT) - 501 PERCENT,CHANGE_PropertyValueMinMax,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGE,501,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7561,edit threshold  0 AMOUNT Minimum,,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGE,0.01,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7562,edit threshold value to 10000000 AMOUNT- Maximum,SalaryChangedMinMax,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGE,500,PERCENT  CHANGE,10000000,AMOUNT",,,,400,TRUE
+AT-7563,edit threshold value to Between MIN and MAX - 1000000 AMOUNT,,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1000,AMOUNT",,,,204,TRUE
+AT-7564,edit threshold value to less than MIN(0 AMOUNT)  -  -1 AMOUNT,SalaryChangedMinMax,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGE,10,PERCENT  CHANGE,-1,AMOUNT",,,,400,TRUE
+AT-7565,edit threshold value to greater than MAX(10000000 AMOUNT) - 10000001,SalaryChangedMinMax,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGE,50,PERCENT  CHANGE,10000001,AMOUNT",,,,400,TRUE
+AT-7566,edit Invalid threshold  name to CHANGEEDIT,EditNetworthThresholdInvalidName,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGEEDIT,3,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7567,edit Invalid threshold  type to PERCENTEDIT,EditNetworthThresholdInvalidType,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGE,3,PERCENTEDIT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7568,edit NOT supported entity,ACCOUNTEntitySupported,SALARY_CHANGED,,,,,,,goal,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7569,editFrequency for account entity,SpecifyFrequencyAttribute,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",WEEKLY,,,400,TRUE
+AT-7570,editFrequency for account entity,SpecifyFrequencyAttribute,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",DAILY,,,400,TRUE
+AT-7571,editFrequency for account and view entity - InValid Frequency,SpecifyFrequencyAttribute,SALARY_CHANGED,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",MONTHLY ,,,400,TRUE
+AT-7572,edit InsightName,EditInsightName,PROJECTED_DISCRETIONARY_FUNDSEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7573,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,PROJECTED_DISCRETIONARY_FUNDS,abc,,,,,,account,TRUE,,,,,400,TRUE
+AT-7574,edit InsightType,UserEditsInsightsType,PROJECTED_DISCRETIONARY_FUNDS,,OTHER,,,,,,,,,,,400,TRUE
+AT-7575,edit TriggerType,UserEditsTriggerType,PROJECTED_DISCRETIONARY_FUNDS,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7576,edit Container,UserEditsContainer,PROJECTED_DISCRETIONARY_FUNDS,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7577,edit Description,EditDescription,PROJECTED_DISCRETIONARY_FUNDS,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7578,edit ApplicableEntity,EditApplicableEntity,PROJECTED_DISCRETIONARY_FUNDS,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7579,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,PROJECTED_DISCRETIONARY_FUNDS,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7580,edit InsightName,EditInsightName,SALARY_DEPOSITEDEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7581,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,SALARY_DEPOSITED,abc,,,,,,account,TRUE,,,,,400,TRUE
+AT-7582,edit InsightType,UserEditsInsightsType,SALARY_DEPOSITED,,OTHER,,,,,,,,,,,400,TRUE
+AT-7583,edit TriggerType,UserEditsTriggerType,SALARY_DEPOSITED,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7584,edit Container,UserEditsContainer,SALARY_DEPOSITED,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7585,edit Description,EditDescription,SALARY_DEPOSITED,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7586,edit ApplicableEntity,EditApplicableEntity,SALARY_DEPOSITED,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7587,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,SALARY_DEPOSITED,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7588,edit InsightName,EditInsightName,LARGE_PURCHASEEDIT,,,,,,,account view,TRUE FALSE,"MINIMUM,400,AMOUNT   MINIMUM,450,AMOUNT",,,,400,TRUE
+AT-7589,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,LARGE_PURCHASE,abc,,,,,,account view,TRUE FALSE,"MINIMUM,400,AMOUNT   MINIMUM,450,AMOUNT",,,,400,TRUE
+AT-7590,edit InsightType,UserEditsInsightsType,LARGE_PURCHASE,,OTHER,,,,,,,,,,,400,TRUE
+AT-7591,edit TriggerType,UserEditsTriggerType,LARGE_PURCHASE,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7592,edit Container,UserEditsContainer,LARGE_PURCHASE,,,,LOAN,,,account view,TRUE FALSE,"MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT",,,,400,TRUE
+AT-7593,edit Description,EditDescription,LARGE_PURCHASE,,,,,My Description,,account view,TRUE FALSE,"MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT",,,,400,TRUE
+AT-7594,edit ApplicableEntity,EditApplicableEntity,LARGE_PURCHASE,,,,,,VIEW    ACCOUNT,,,,,,,400,TRUE
+AT-7595,"edit threshold value to MIN ""1.00""",,LARGE_PURCHASE,,,,,,,account view,TRUE FALSE,"MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT",,,,204,TRUE
+AT-7596,edit threshold value to MAX,,LARGE_PURCHASE,,,,,,,account view,TRUE FALSE,"MINIMUM,1000000,AMOUNT   MINIMUM,1000000,AMOUNT",,,,204,TRUE
+AT-7597,edit threshold value to Between MIN and MAX,,LARGE_PURCHASE,,,,,,,account view,TRUE FALSE,"MINIMUM,90000,AMOUNT   MINIMUM,90000,AMOUNT",,,,204,TRUE
+AT-7598,edit threshold value to less than MIN,EditThresholdAmountRangeMinAndMax,LARGE_PURCHASE,,,,,,,account view,TRUE FALSE,"MINIMUM,0,AMOUNT   MINIMUM,0,AMOUNT",,,,400,TRUE
+AT-7599,edit threshold value to greater than MAX,EditThresholdAmountRangeMinAndMax,LARGE_PURCHASE,,,,,,,account view,TRUE FALSE,"MINIMUM,1000001,AMOUNT   MINIMUM,1000001,AMOUNT",,,,400,TRUE
+AT-7600,edit Invalid threshold  name to MINIMUMEDIT,EditThresholdNameInvalidMINIMUM,LARGE_PURCHASE,,,,,,,account view,TRUE FALSE,"MINIMUMEDIT,100,AMOUNT   MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-7601,edit Invalid threshold  type to AMOUNTEDIT,EditThresholdTypeInvalidAMOUNT,LARGE_PURCHASE,,,,,,,account view,TRUE FALSE,"MINIMUM,100,AMOUNT   MINIMUM,100,AMOUNTEDIT",,,,400,TRUE
+AT-7602,edit NOT supported entity,editNotSupportedEntity,LARGE_PURCHASE,,,,,,,goal,TRU,"MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-7603,edit InsightName,EditInsightName,SPENDING_EXCEEDED_AVERAGEEDIT,,,,,,,account,TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7604,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,SPENDING_EXCEEDED_AVERAGE,abc,,,,,,account,FALSE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7605,edit InsightType,UserEditsInsightsType,SPENDING_EXCEEDED_AVERAGE,,OTHER,,,,,,,,,,,400,TRUE
+AT-7606,edit TriggerType,UserEditsTriggerType,SPENDING_EXCEEDED_AVERAGE,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7607,edit Container,UserEditsContainer,SPENDING_EXCEEDED_AVERAGE,,,,"BANK,CARD,LOAN,INSURANCE,INVESTMENT",,,account,FALSE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7608,edit Description,EditDescription,SPENDING_EXCEEDED_AVERAGE,,,,,My Own Description,,account,TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7609,edit ApplicableEntity,EditApplicableEntity,SPENDING_EXCEEDED_AVERAGE,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7610,edit threshold  1 PERCENT  - Minimum,,SPENDING_EXCEEDED_AVERAGE,,,,,,,account,TRUE,"CHANGE,1,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7611,edit threshold value to 500 PERCENT- Maximum,,SPENDING_EXCEEDED_AVERAGE,,,,,,,account,TRUE,"CHANGE,500,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7612,edit threshold value to Between MIN and MAX - 478 PERCENT,,SPENDING_EXCEEDED_AVERAGE,,,,,,,account,TRUE,"CHANGE,478,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7613,edit threshold value to less than MIN(0 PERCENT)  -  -1 PERCENT,CHANGE_PropertyValueMinMax,SPENDING_EXCEEDED_AVERAGE,,,,,,,account,TRUE,"CHANGE,-1,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7614,edit threshold value to greater than MAX(500 PERCENT) - 501 PERCENT,CHANGE_PropertyValueMinMax,SPENDING_EXCEEDED_AVERAGE,,,,,,,account,TRUE,"CHANGE,501,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7615,edit threshold  0 AMOUNT Minimum,,SPENDING_EXCEEDED_AVERAGE,,,,,,,account,TRUE,"CHANGE,1,PERCENT  CHANGE,0,AMOUNT",,,,204,TRUE
+AT-7616,edit threshold value to 10000000 AMOUNT- Maximum,,SPENDING_EXCEEDED_AVERAGE,,,,,,,account,TRUE,"CHANGE,500,PERCENT  CHANGE,3000,AMOUNT",,,,204,TRUE
+AT-7617,edit threshold value to less than MIN(0 AMOUNT)  -  -1 AMOUNT,SalaryChangedMinMax,SPENDING_EXCEEDED_AVERAGE,,,,,,,account,TRUE,"CHANGE,10,PERCENT  CHANGE,-1,AMOUNT",,,,400,TRUE
+AT-7618,edit threshold value to greater than MAX(10000000 AMOUNT) - 10000001,SalaryChangedMinMax,SPENDING_EXCEEDED_AVERAGE,,,,,,,account,TRUE,"CHANGE,50,PERCENT  CHANGE,10000001,AMOUNT",,,,400,TRUE
+AT-7619,edit Invalid threshold  name to CHANGEEDIT,EditNetworthThresholdInvalidName,SPENDING_EXCEEDED_AVERAGE,,,,,,,account,TRUE,"CHANGEEDIT,3,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7620,edit Invalid threshold  type to PERCENTEDIT,EditNetworthThresholdInvalidType,SPENDING_EXCEEDED_AVERAGE,,,,,,,account,TRUE,"CHANGE,3,PERCENTEDIT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7621,edit NOT supported entity,ACCOUNTEntitySupported,SPENDING_EXCEEDED_AVERAGE,,,,,,,goal,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7622,edit InsightName,EditInsightName,NEW_SALARYEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7623,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,NEW_SALARY,abc,,,,,,account,TRUE,,,,,400,TRUE
+AT-7624,edit InsightType,UserEditsInsightsType,NEW_SALARY,,OTHER,,,,,,,,,,,400,TRUE
+AT-7625,edit TriggerType,UserEditsTriggerType,NEW_SALARY,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7626,edit Container,UserEditsContainer,NEW_SALARY,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7627,edit Description,EditDescription,NEW_SALARY,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7628,edit ApplicableEntity,EditApplicableEntity,NEW_SALARY,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7629,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,NEW_SALARY,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7630,edit InsightName,EditInsightName,LOW_CONFIDENCE_PROJECTED_SERIESEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7631,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,LOW_CONFIDENCE_PROJECTED_SERIES,abc,,,,,,account,TRUE,,,,,400,TRUE
+AT-7632,edit InsightType,UserEditsInsightsType,LOW_CONFIDENCE_PROJECTED_SERIES,,OTHER,,,,,,,,,,,400,TRUE
+AT-7633,edit TriggerType,UserEditsTriggerType,LOW_CONFIDENCE_PROJECTED_SERIES,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7634,edit Container,UserEditsContainer,LOW_CONFIDENCE_PROJECTED_SERIES,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7635,edit Description,EditDescription,LOW_CONFIDENCE_PROJECTED_SERIES,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7636,edit ApplicableEntity,EditApplicableEntity,LOW_CONFIDENCE_PROJECTED_SERIES,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7637,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,LOW_CONFIDENCE_PROJECTED_SERIES,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7638,edit InsightName,EditInsightName,CASH_FLOW_SUMMARYEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7639,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,CASH_FLOW_SUMMARY,abc,,,,,,account,TRUE,,,,,400,TRUE
+AT-7640,edit InsightType,UserEditsInsightsType,CASH_FLOW_SUMMARY,,OTHER,,,,,,,,,,,400,TRUE
+AT-7641,edit TriggerType,UserEditsTriggerType,CASH_FLOW_SUMMARY,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7642,edit Container,UserEditsContainer,CASH_FLOW_SUMMARY,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7643,edit Description,EditDescription,CASH_FLOW_SUMMARY,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7644,edit ApplicableEntity,EditApplicableEntity,CASH_FLOW_SUMMARY,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7646,edit InsightName,EditInsightName,NETWORTH_SUMMARYEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7647,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,NETWORTH_SUMMARY,abc,,,,,,account,TRUE,,,,,400,TRUE
+AT-7648,edit InsightType,UserEditsInsightsType,NETWORTH_SUMMARY,,OTHER,,,,,,,,,,,400,TRUE
+AT-7649,edit TriggerType,UserEditsTriggerType,NETWORTH_SUMMARY,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7650,edit Container,UserEditsContainer,NETWORTH_SUMMARY,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7651,edit Description,EditDescription,NETWORTH_SUMMARY,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7652,edit ApplicableEntity,EditApplicableEntity,NETWORTH_SUMMARY,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7653,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,NETWORTH_SUMMARY,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7654,edit InsightName,EditInsightName,EMERGENCY_SAVINGSEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7655,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,EMERGENCY_SAVINGS,abc,,,,,,account,TRUE,,,,,400,TRUE
+AT-7656,edit InsightType,UserEditsInsightsType,EMERGENCY_SAVINGS,,OTHER,,,,,,,,,,,400,TRUE
+AT-7657,edit TriggerType,UserEditsTriggerType,EMERGENCY_SAVINGS,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7658,edit Container,UserEditsContainer,EMERGENCY_SAVINGS,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7659,edit Description,EditDescription,EMERGENCY_SAVINGS,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7660,edit ApplicableEntity,EditApplicableEntity,EMERGENCY_SAVINGS,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7661,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,EMERGENCY_SAVINGS,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7662,edit InsightName,EditInsightName,SPENDING_BY_MERCHANTEDIT,,,,,,,account view,TRUE FALSE,"TOP,10,NUMBER     TOP,10,NUMBER",,,,400,TRUE
+AT-7663,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,SPENDING_BY_MERCHANT,abc,,,,,,account view,TRUE FALSE,"TOP,10,NUMBER     TOP,10,NUMBER",,,,400,TRUE
+AT-7664,edit InsightType,UserEditsInsightsType,SPENDING_BY_MERCHANT,,OTHER,,,,,,,,,,,400,TRUE
+AT-7665,edit TriggerType,UserEditsTriggerType,SPENDING_BY_MERCHANT,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7666,edit Container,UserEditsContainer,SPENDING_BY_MERCHANT,,,,"BANK,CARD",,,account view,TRUE FALSE,"TOP,10,NUMBER     TOP,10,NUMBER",,,,400,TRUE
+AT-7667,edit Description,EditDescription,SPENDING_BY_MERCHANT,,,,,My Own Description,,account view,TRUE FALSE,"TOP,10,NUMBER     TOP,10,NUMBER",,,,400,TRUE
+AT-7668,edit ApplicableEntity,EditApplicableEntity,SPENDING_BY_MERCHANT,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7669,"edit threshold  value to ""1"" NUMBER  - Minimum",,SPENDING_BY_MERCHANT,,,,,,,account view,TRUE FALSE,"TOP,1,NUMBER     TOP,1,NUMBER",,,,204,TRUE
+AT-7670,edit threshold value to 100 NUMBER - Maximum,,SPENDING_BY_MERCHANT,,,,,,,account view,TRUE FALSE,"TOP,100,NUMBER     TOP,100,NUMBER",,,,204,TRUE
+AT-7671,edit threshold value to Between MIN and MAX - 15 DAYS,,SPENDING_BY_MERCHANT,,,,,,,account view,TRUE FALSE,"TOP,50,NUMBER     TOP,10,NUMBER",,,,204,TRUE
+AT-7672,edit threshold value to less than MIN(1 DAYS)  - 0 NUMBER,MaxTOPValue,SPENDING_BY_MERCHANT,,,,,,,account view,TRUE FALSE,"TOP,0,NUMBER     TOP,0,NUMBER",,,,400,TRUE
+AT-7673,edit threshold value to greater than MAX(100 TOP) - 101 TOP Value,MaxTOPValue,SPENDING_BY_MERCHANT,,,,,,,account view,TRUE FALSE,"TOP,101,NUMBER     TOP,101,NUMBER",,,,400,TRUE
+AT-7674,edit Invalid threshold  name toTOPEDIT,EditTOPInValidValue,SPENDING_BY_MERCHANT,,,,,,,account view,TRUE FALSE,"TOPEDIT,15,NUMBER     TOP,15,NUMBER",,,,400,TRUE
+AT-7675,edit Invalid threshold  type to NUMBEREDIT,EditNUMBERInValidValue,SPENDING_BY_MERCHANT,,,,,,,account view,TRUE FALSE,"TOP,15,NUMBER     TOP,15,NUMBEREDIT",,,,400,TRUE
+AT-7676,edit NOT supported entity,ACCOUNTVIEWEntitySupported,SPENDING_BY_MERCHANT,,,,,,,goal,TRU,"TOP,10,NUMBER",,,,400,TRUE
+AT-7677,edit Frequency,SupportMaxDurations,SPENDING_BY_MERCHANT,,,,,,,account,TRUE,"TOP,10,NUMBER",,WEEKLY,,400,TRUE
+AT-7678,edit Duration,SupportMaxDurations,SPENDING_BY_MERCHANT,,,,,,,account,FALSE,"TOP,10,NUMBER",,MID_MONTHLY,,400,TRUE
+AT-7679,edit Frequency toTHIS_MONTH,,SPENDING_BY_MERCHANT,,,,,,,account,TRUE,"TOP,10,NUMBER",,THIS_MONTH,,204,TRUE
+AT-7680,edit Frequency toLAST_MONTH,,SPENDING_BY_MERCHANT,,,,,,,account,FALSE,"TOP,10,NUMBER",,LAST_MONTH,,204,TRUE
+AT-7681,edit Frequency to THREE_MONTHS,,SPENDING_BY_MERCHANT,,,,,,,account,TRUE,"TOP,10,NUMBER",,THREE_MONTHS,,204,TRUE
+AT-7682,edit Frequency to SIX_MONTHS,,SPENDING_BY_MERCHANT,,,,,,,account,FALSE,"TOP,10,NUMBER",,SIX_MONTHS,,204,TRUE
+AT-7683,edit Frequency to ONE_YEAR,,SPENDING_BY_MERCHANT,,,,,,,account,FALSE,"TOP,10,NUMBER",,ONE_YEAR,,204,TRUE
+AT-7684,edit InsightName,EditInsightName,SPENDING_AND_EARNING_COMPARISONEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7685,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,SPENDING_AND_EARNING_COMPARISON,abc,,,,,,account,TRUE,,,,,400,TRUE
+AT-7686,edit InsightType,UserEditsInsightsType,SPENDING_AND_EARNING_COMPARISON,,OTHER,,,,,,,,,,,400,TRUE
+AT-7687,edit TriggerType,UserEditsTriggerType,SPENDING_AND_EARNING_COMPARISON,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7688,edit Container,UserEditsContainer,SPENDING_AND_EARNING_COMPARISON,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7689,edit Description,EditDescription,SPENDING_AND_EARNING_COMPARISON,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7690,edit ApplicableEntity,EditApplicableEntity,SPENDING_AND_EARNING_COMPARISON,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7692,edit InsightName,EditInsightName,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGEEDIT,,,,,,,account,TRUE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7693,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,abc,,,,,,account,FALSE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7694,edit InsightType,UserEditsInsightsType,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,,OTHER,,,,,,,,,,,400,TRUE
+AT-7695,edit TriggerType,UserEditsTriggerType,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7696,edit Container,UserEditsContainer,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,,,,"BANK,CARD,LOAN,INSURANCE,INVESTMENT",,,account,FALSE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7697,edit Description,EditDescription,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,,,,,My Own Description,,account,TRUE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7698,edit ApplicableEntity,EditApplicableEntity,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7699,edit threshold  1 PERCENT  - Minimum,,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,,,,,,,account,TRUE,"CHANGE,1,PERCENT",,,,204,TRUE
+AT-7700,edit threshold value to 500 PERCENT- Maximum,,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,,,,,,,account,TRUE,"CHANGE,500,PERCENT",,,,204,TRUE
+AT-7701,edit threshold value to Between MIN and MAX - 478 PERCENT,,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,,,,,,,account,TRUE,"CHANGE,478,PERCENT",,,,204,TRUE
+AT-7702,edit threshold value to less than MIN(1 PERCENT)  -  0 PERCENT,CHANGE_PropertyValueMinMax,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,,,,,,,account,TRUE,"CHANGE,-1,PERCENT",,,,400,TRUE
+AT-7703,edit threshold value to greater than MAX(500 PERCENT) - 501 PERCENT,CHANGE_PropertyValueMinMax,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,,,,,,,account,TRUE,"CHANGE,501,PERCENT",,,,400,TRUE
+AT-7704,edit Invalid threshold  name to CHANGEEDIT,EditNetworthThresholdInvalidName,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,,,,,,,account,TRUE,"CHANGEEDIT,3,PERCENT",,,,400,TRUE
+AT-7705,edit Invalid threshold  type to PERCENTEDIT,EditNetworthThresholdInvalidType,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,,,,,,,account,TRUE,"CHANGE,3,PERCENTEDIT",,,,400,TRUE
+AT-7706,edit NOT supported entity,ACCOUNTEntitySupported,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,,,,,,,goal,TRUE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7707,edit InsightName,EditInsightName,LONG_TENURE_RECURRING_PAYMENTSEDIT,,,,,,,account,TRUE FALSE,"TOP,10,NUMBER ",,,,400,TRUE
+AT-7708,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,LONG_TENURE_RECURRING_PAYMENTS,abc,,,,,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7709,edit InsightType,UserEditsInsightsType,LONG_TENURE_RECURRING_PAYMENTS,,OTHER,,,,,,,,,,,400,TRUE
+AT-7710,edit TriggerType,UserEditsTriggerType,LONG_TENURE_RECURRING_PAYMENTS,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7711,edit Container,UserEditsContainer,LONG_TENURE_RECURRING_PAYMENTS,,,,"BANK,CARD",,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7712,edit Description,EditDescription,LONG_TENURE_RECURRING_PAYMENTS,,,,,My Own Description,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7713,edit ApplicableEntity,EditApplicableEntity,LONG_TENURE_RECURRING_PAYMENTS,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7714,"edit threshold  value to ""1"" NUMBER  - Minimum",,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,account,TRUE FALSE,"TOP,1,NUMBER",,,,204,TRUE
+AT-7715,edit threshold value to 100 NUMBER - Maximum,,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,account,TRUE FALSE,"TOP,100,NUMBER",,,,204,TRUE
+AT-7716,edit threshold value to Between MIN and MAX - 15 DAYS,,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,account,TRUE FALSE,"TOP,50,NUMBER",,,,204,TRUE
+AT-7717,edit threshold value to less than MIN(1 DAYS)  - 0 NUMBER,MaxTOPValue,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,account,TRUE FALSE,"TOP,0,NUMBER",,,,400,TRUE
+AT-7718,edit threshold value to greater than MAX(100 TOP) - 101 TOP Value,MaxTOPValue,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,account,TRUE FALSE,"TOP,101,NUMBER ",,,,400,TRUE
+AT-7719,edit Invalid threshold  name toTOPEDIT,EditTOPInValidValue,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,account,TRUE FALSE,"TOPEDIT,15,NUMBER",,,,400,TRUE
+AT-7720,edit Invalid threshold  type to NUMBEREDIT,EditNUMBERInValidValue,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,account,TRUE FALSE,"TOP,15,NUMBEREDIT",,,,400,TRUE
+AT-7721,edit NOT supported entity,ACCOUNTEntitySupported,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,goal,TRUE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7722,edit Frequency,EditFrequency,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,account,TRUE,"TOP,10,NUMBER",WEEKLY,,,400,TRUE
+AT-7723,edit Duration,EditFrequency,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,account,FALSE,"TOP,10,NUMBER",LAST_MONTH,MID_MONTHLY,,400,TRUE
+AT-7724,edit Frequency toTHIS_MONTH,EditFrequency,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,account,TRUE,"TOP,10,NUMBER",LAST_MONTH,THIS_MONTH,,400,TRUE
+AT-7725,edit Frequency toLAST_MONTH,EditFrequency,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,account,FALSE,"TOP,10,NUMBER",LAST_MONTH,LAST_MONTH,,400,TRUE
+AT-7726,edit Frequency to THREE_MONTHS,EditFrequency,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,account,TRUE,"TOP,10,NUMBER",LAST_MONTH,THREE_MONTHS,,400,TRUE
+AT-7727,edit Frequency to SIX_MONTHS,EditFrequency,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,account,FALSE,"TOP,10,NUMBER",LAST_MONTH,SIX_MONTHS,,400,TRUE
+AT-7728,edit Frequency to ONE_YEAR,EditFrequency,LONG_TENURE_RECURRING_PAYMENTS,,,,,,,account,FALSE,"TOP,10,NUMBER",WEEKLY,MID_MONTHLY,,400,TRUE
+AT-7729,edit InsightName,EditInsightName,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTSEDIT,,,,,,,account,TRUE FALSE,"TOP,10,NUMBER ",,,,400,TRUE
+AT-7730,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,abc,,,,,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7731,edit InsightType,UserEditsInsightsType,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,OTHER,,,,,,,,,,,400,TRUE
+AT-7732,edit TriggerType,UserEditsTriggerType,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7733,edit Container,UserEditsContainer,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,"BANK,CARD",,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7734,edit Description,EditDescription,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,My Own Description,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7735,edit ApplicableEntity,EditApplicableEntity,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7736,"edit threshold  value to ""1"" NUMBER  - Minimum",,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,1,NUMBER",,,,204,TRUE
+AT-7737,edit threshold value to 100 NUMBER - Maximum,,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,10,NUMBER",,,,204,TRUE
+AT-7738,edit threshold value to Between MIN and MAX - 15 DAYS,,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,50,NUMBER",,,,204,TRUE
+AT-7739,edit threshold value to less than MIN(1 DAYS)  - 0 NUMBER,MaxTOPValue1,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,0,NUMBER",,,,400,TRUE
+AT-7740,edit threshold value to greater than MAX(100 TOP) - 101 TOP Value,MaxTOPValue1,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,101,NUMBER ",,,,400,TRUE
+AT-7741,edit Invalid threshold  name toTOPEDIT,EditTOPInValidValue,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOPEDIT,15,NUMBER",,,,400,TRUE
+AT-7742,edit Invalid threshold  type to NUMBEREDIT,EditNUMBERInValidValue,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE FALSE,"TOP,15,NUMBEREDIT",,,,400,TRUE
+AT-7743,edit NOT supported entity,ACCOUNTEntitySupported,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,goal,TRUE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7744,edit Frequency,,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE,"TOP,10,NUMBER",WEEKLY,,,204,TRUE
+AT-7745,edit Duration,COUNTOFTxnsFrequency,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,FALSE,"TOP,10,NUMBER",LAST_MONTH,MID_MONTHLY,,400,TRUE
+AT-7746,edit Frequency toTHIS_MONTH,COUNTOFTxnsFrequency,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE,"TOP,10,NUMBER",LAST_MONTH,THIS_MONTH,,400,TRUE
+AT-7747,edit Frequency toLAST_MONTH,COUNTOFTxnsFrequency,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,FALSE,"TOP,10,NUMBER",LAST_MONTH,LAST_MONTH,,400,TRUE
+AT-7748,edit Frequency to THREE_MONTHS,COUNTOFTxnsFrequency,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,TRUE,"TOP,10,NUMBER",LAST_MONTH,THREE_MONTHS,,400,TRUE
+AT-7749,edit Frequency to SIX_MONTHS,COUNTOFTxnsFrequency,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,,,,,,,account,FALSE,"TOP,10,NUMBER",LAST_MONTH,SIX_MONTHS,,400,TRUE
+AT-7750,edit InsightName,EditInsightName,COUNT_OF_TRANSACTIONS_BY_MERCHANTEDIT,,,,,,,account,TRUE FALSE,"TOP,10,NUMBER ",,,,400,TRUE
+AT-7751,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,COUNT_OF_TRANSACTIONS_BY_MERCHANT,abc,,,,,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7752,edit InsightType,UserEditsInsightsType,COUNT_OF_TRANSACTIONS_BY_MERCHANT,,OTHER,,,,,,,,,,,400,TRUE
+AT-7753,edit TriggerType,UserEditsTriggerType,COUNT_OF_TRANSACTIONS_BY_MERCHANT,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7754,edit Container,UserEditsContainer,COUNT_OF_TRANSACTIONS_BY_MERCHANT,,,,"BANK,CARD",,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7755,edit Description,EditDescription,COUNT_OF_TRANSACTIONS_BY_MERCHANT,,,,,My Own Description,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7756,edit ApplicableEntity,EditApplicableEntity,COUNT_OF_TRANSACTIONS_BY_MERCHANT,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7758,edit threshold value to 100 NUMBER - Maximum,,COUNT_OF_TRANSACTIONS_BY_MERCHANT,,,,,,,account,TRUE FALSE,"TOP,10,NUMBER",,,,204,TRUE
+AT-7759,edit threshold value to Between MIN and MAX - 15 DAYS,,COUNT_OF_TRANSACTIONS_BY_MERCHANT,,,,,,,account,TRUE FALSE,"TOP,50,NUMBER",,,,204,TRUE
+AT-7760,edit Invalid threshold  name toTOPEDIT,EditTOPInValidValue,COUNT_OF_TRANSACTIONS_BY_MERCHANT,,,,,,,account,TRUE FALSE,"TOPEDIT,15,NUMBER",,,,400,TRUE
+AT-7761,edit Invalid threshold  type to NUMBEREDIT,EditNUMBERInValidValue,COUNT_OF_TRANSACTIONS_BY_MERCHANT,,,,,,,account,TRUE FALSE,"TOP,15,NUMBEREDIT",,,,400,TRUE
+AT-7763,edit Frequency,,COUNT_OF_TRANSACTIONS_BY_MERCHANT,,,,,,,account,TRUE,"TOP,10,NUMBER",WEEKLY,,,204,TRUE
+AT-7764,edit InsightName,EditInsightName,SUGGESTED_SAVING_OPPORTUNITYEDIT,,,,,,,account,TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7765,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,SUGGESTED_SAVING_OPPORTUNITY,abc,,,,,,account,FALSE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7766,edit InsightType,UserEditsInsightsType,SUGGESTED_SAVING_OPPORTUNITY,,OTHER,,,,,,,,,,,400,TRUE
+AT-7767,edit TriggerType,UserEditsTriggerType,SUGGESTED_SAVING_OPPORTUNITY,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7768,edit Container,UserEditsContainer,SUGGESTED_SAVING_OPPORTUNITY,,,,"BANK,CARD,LOAN,INSURANCE,INVESTMENT",,,account,FALSE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7769,edit Description,EditDescription,SUGGESTED_SAVING_OPPORTUNITY,,,,,My Own Description,,account,TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7770,edit ApplicableEntity,EditApplicableEntity,SUGGESTED_SAVING_OPPORTUNITY,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7771,edit threshold  1 PERCENT  - Minimum,,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,1,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7772,edit threshold value to 500 PERCENT- Maximum,,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,500,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7773,edit threshold value to Between MIN and MAX - 478 PERCENT,,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,478,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7774,edit threshold value to less than MIN(0 PERCENT)  -  -1 PERCENT,CHANGE_PropertyValueMinMax,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,-1,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7775,edit threshold value to greater than MAX(500 PERCENT) - 501 PERCENT,CHANGE_PropertyValueMinMax,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,501,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7776,edit threshold  0 AMOUNT Minimum,,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,1,PERCENT  CHANGE,0,AMOUNT",,,,204,TRUE
+AT-7777,edit threshold value to 10000000 AMOUNT- Maximum,,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,500,PERCENT  CHANGE,100,AMOUNT",,,,204,TRUE
+AT-7778,edit threshold value to Between MIN and MAX - 1000000 AMOUNT,,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,478,PERCENT  CHANGE,999,AMOUNT",,,,204,TRUE
+AT-7779,edit threshold value to less than MIN(0 AMOUNT)  -  -1 AMOUNT,SalaryChangedMinMax,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,10,PERCENT  CHANGE,-1,AMOUNT",,,,400,TRUE
+AT-7780,edit threshold value to greater than MAX(10000000 AMOUNT) - 10000001,SalaryChangedMinMax,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,50,PERCENT  CHANGE,10000001,AMOUNT",,,,400,TRUE
+AT-7781,edit Invalid threshold  name to CHANGEEDIT,EditNetworthThresholdInvalidName,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGEEDIT,3,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7782,edit Invalid threshold  type to PERCENTEDIT,EditNetworthThresholdInvalidType,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,3,PERCENTEDIT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7783,edit NOT supported entity,ACCOUNTEntitySupported,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,goal,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7784,editFrequency for account entity,EditFrequency,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",WEEKLY,,,400,TRUE
+AT-7785,editFrequency for account entity,EditFrequency,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,3,PERCENT",DAILY,,,400,TRUE
+AT-7786,editFrequency for account and view entity - InValid Frequency,EditFrequency,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",MONTHLY ,,,400,TRUE
+AT-7787,editFrequency for account and view entity - InValid Frequency,EditFrequency,SUGGESTED_SAVING_OPPORTUNITY,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",MID_MONTHLY ,,,400,TRUE
+AT-7788,edit InsightName,EditInsightName,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERSEDIT,,,,,,,account,TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7789,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,abc,,,,,,account,FALSE,"CHANGE,3,PERCENT",,,,400,TRUE
+AT-7790,edit InsightType,UserEditsInsightsType,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,OTHER,,,,,,,,,,,400,TRUE
+AT-7791,edit TriggerType,UserEditsTriggerType,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7792,edit Container,UserEditsContainer,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,"BANK,CARD,LOAN,INSURANCE,INVESTMENT",,,account,FALSE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7793,edit Description,EditDescription,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,My Own Description,,account,TRUE,"CHANGE,3,PERCENT CHANGE,3,AMOUNT",,,,400,TRUE
+AT-7794,edit ApplicableEntity,EditApplicableEntity,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7795,edit threshold  1 PERCENT  - Minimum,,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,1,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7796,edit threshold value to 500 PERCENT- Maximum,,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,500,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7797,edit threshold value to Between MIN and MAX - 478 PERCENT,,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,478,PERCENT  CHANGE,1,AMOUNT",,,,204,TRUE
+AT-7798,edit threshold value to less than MIN(0 PERCENT)  -  -1 PERCENT,CHANGE_PropertyValueMinMax,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,-1,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7799,edit threshold value to greater than MAX(500 PERCENT) - 501 PERCENT,CHANGE_PropertyValueMinMax,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,501,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7800,edit threshold  0 AMOUNT Minimum,,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,1,PERCENT  CHANGE,0.03,AMOUNT",,,,204,TRUE
+AT-7801,edit threshold value to 10000000 AMOUNT- Maximum,,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,500,PERCENT  CHANGE,100,AMOUNT",,,,204,TRUE
+AT-7802,edit threshold value to Between MIN and MAX - 1000000 AMOUNT,,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,478,PERCENT  CHANGE,999,AMOUNT",,,,204,TRUE
+AT-7803,edit threshold value to less than MIN(0 AMOUNT)  -  -1 AMOUNT,BillChangeMinMax,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,10,PERCENT  CHANGE,-1,AMOUNT",,,,400,TRUE
+AT-7804,edit threshold value to greater than MAX(10000000 AMOUNT) - 10000001,BillChangeMinMax,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,50,PERCENT  CHANGE,10000001,AMOUNT",,,,400,TRUE
+AT-7805,edit Invalid threshold  name to CHANGEEDIT,EditNetworthThresholdInvalidName,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGEEDIT,3,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7806,edit Invalid threshold  type to PERCENTEDIT,EditNetworthThresholdInvalidType,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,3,PERCENTEDIT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7807,edit NOT supported entity,ACCOUNTEntitySupported,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,goal,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",,,,400,TRUE
+AT-7808,editFrequency for account entity,EditFrequency,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",WEEKLY,,,400,TRUE
+AT-7809,editFrequency for account entity,EditFrequency,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,3,PERCENT",DAILY,,,400,TRUE
+AT-7810,editFrequency for account and view entity - InValid Frequency,EditFrequency,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",MONTHLY ,,,400,TRUE
+AT-7811,editFrequency for account and view entity - InValid Frequency,EditFrequency,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,,,,,,,account,TRUE,"CHANGE,3,PERCENT  CHANGE,1,AMOUNT",MID_MONTHLY ,,,400,TRUE
+AT-7812,edit InsightName,EditInsightName,NET_INCOME_SUMMARYEDIT,,,,,,,view,TRUE,,,,,400,TRUE
+AT-7813,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,NET_INCOME_SUMMARY,abc,,,,,,view,TRUE,,,,,400,TRUE
+AT-7814,edit InsightType,UserEditsInsightsType,NET_INCOME_SUMMARY,,OTHER,,,,,,,,,,,400,TRUE
+AT-7815,edit TriggerType,UserEditsTriggerType,NET_INCOME_SUMMARY,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7816,edit Container,UserEditsContainer,NET_INCOME_SUMMARY,,,,"BANK,CARD",,,view,TRUE,,,,,400,TRUE
+AT-7817,edit Description,EditDescription,NET_INCOME_SUMMARY,,,,,My Own Description,,view,FALSE,,,,,400,TRUE
+AT-7818,edit ApplicableEntity,EditApplicableEntity,NET_INCOME_SUMMARY,,,,,,ACCOUNT   VIEW,view,TRUE,,,,,400,TRUE
+AT-7819,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,NET_INCOME_SUMMARY,,,,,,,view,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7820,editFrequency for account entity,Threshold_NOT_Allowed,NET_INCOME_SUMMARY,,,,,,,view,TRUE,"DELAY,12,DAYS",WEEKLY,,,400,TRUE
+AT-7821,editFrequency for account entity,Threshold_NOT_Allowed,NET_INCOME_SUMMARY,,,,,,,view,TRUE,"DELAY,12,DAYS",DAILY,,,400,TRUE
+AT-7822,editFrequency for account and view entity - InValid Frequency,Threshold_NOT_Allowed,NET_INCOME_SUMMARY,,,,,,,view,TRUE,"DELAY,12,DAYS",MONTHLY ,,,400,TRUE
+AT-7823,edit InsightName,EditInsightName,ZERO_CARD_INTEREST_PAIDEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7824,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,ZERO_CARD_INTEREST_PAID,abc,,,,,,account,TRUE,,,,,400,TRUE
+AT-7825,edit InsightType,UserEditsInsightsType,ZERO_CARD_INTEREST_PAID,,OTHER,,,,,,,,,,,400,TRUE
+AT-7826,edit TriggerType,UserEditsTriggerType,ZERO_CARD_INTEREST_PAID,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7827,edit Container,UserEditsContainer,ZERO_CARD_INTEREST_PAID,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7828,edit Description,EditDescription,ZERO_CARD_INTEREST_PAID,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7829,edit ApplicableEntity,EditApplicableEntity,ZERO_CARD_INTEREST_PAID,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7830,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,ZERO_CARD_INTEREST_PAID,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7831,editFrequency for account entity,SpecifyFrequencyAttribute,ZERO_CARD_INTEREST_PAID,,,,,,,account,TRUE,"DELAY,12,DAYS",WEEKLY,,,400,TRUE
+AT-7832,editFrequency for account entity,SpecifyFrequencyAttribute,ZERO_CARD_INTEREST_PAID,,,,,,,account,TRUE,"DELAY,12,DAYS",DAILY,,,400,TRUE
+AT-7833,editFrequency for account and view entity - InValid Frequency,SpecifyFrequencyAttribute,ZERO_CARD_INTEREST_PAID,,,,,,,account,TRUE,"DELAY,12,DAYS",MONTHLY ,,,400,TRUE
+AT-7834,edit InsightName,EditInsightName,PROJECTED_INSUFFICIENT_BALANCEEDIT,,,,,,,account,TRUE,"MINIMUM,400,AMOUNT",,,,400,TRUE
+AT-7835,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,PROJECTED_INSUFFICIENT_BALANCE,abc,,,,,,account,TRUE,"MINIMUM,400,AMOUNT",,,,400,TRUE
+AT-7836,edit InsightType,UserEditsInsightsType,PROJECTED_INSUFFICIENT_BALANCE,,OTHER,,,,,,,,,,,400,TRUE
+AT-7837,edit TriggerType,UserEditsTriggerType,PROJECTED_INSUFFICIENT_BALANCE,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7838,edit Container,UserEditsContainer,PROJECTED_INSUFFICIENT_BALANCE,,,,LOAN,,,account,TRUE,"MINIMUM,400,AMOUNT",,,,400,TRUE
+AT-7839,edit Description,EditDescription,PROJECTED_INSUFFICIENT_BALANCE,,,,,My Description,,account,FALSE,"MINIMUM,400,AMOUNT",,,,400,TRUE
+AT-7840,edit ApplicableEntity,EditApplicableEntity,PROJECTED_INSUFFICIENT_BALANCE,,,,,,VIEW    ACCOUNT,,,,,,,400,TRUE
+AT-7841,"edit threshold value to MIN ""1.00""",,PROJECTED_INSUFFICIENT_BALANCE,,,,,,,account,TRUE,"MINIMUM,400,AMOUNT",,,,204,TRUE
+AT-7842,edit threshold value to MAX,,PROJECTED_INSUFFICIENT_BALANCE,,,,,,,account,FALSE,"MINIMUM,400,AMOUNT",,,,204,TRUE
+AT-7843,edit threshold value to Between MIN and MAX,,PROJECTED_INSUFFICIENT_BALANCE,,,,,,,account,TRUE,"MINIMUM,400,AMOUNT",,,,204,TRUE
+AT-7844,edit threshold value to less than MIN,EditThresholdAmountRangeMinAndMax,PROJECTED_INSUFFICIENT_BALANCE,,,,,,,account,TRUE,"MINIMUM,3,AMOUNT",,,,204,TRUE
+AT-7845,edit threshold value to greater than MAX,EditThresholdAmountRangeMinAndMax,PROJECTED_INSUFFICIENT_BALANCE,,,,,,,account,TRUE,"MINIMUM,400,AMOUNT",,,,204,TRUE
+AT-7846,edit Invalid threshold  name to MINIMUMEDIT,EditThresholdNameInvalidMINIMUM,PROJECTED_INSUFFICIENT_BALANCE,,,,,,,account,TRUE,"MINIMUMEDIT,100,AMOUNT",,,,400,TRUE
+AT-7847,edit Invalid threshold  type to AMOUNTEDIT,EditThresholdTypeInvalidAMOUNT,PROJECTED_INSUFFICIENT_BALANCE,,,,,,,account,TRUE,"MINIMUM,100,AMOUNTEDIT",,,,400,TRUE
+AT-7848,edit NOT supported entity,ACCOUNTEntitySupported,PROJECTED_INSUFFICIENT_BALANCE,,,,,,,goal,TRUE,"MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-7849,edit InsightName,EditInsightName,FINANCIAL_FORECASTEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7850,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,FINANCIAL_FORECAST,abc,,,,,,account,TRUE,,,,,400,TRUE
+AT-7851,edit InsightType,UserEditsInsightsType,FINANCIAL_FORECAST,,OTHER,,,,,,,,,,,400,TRUE
+AT-7852,edit TriggerType,UserEditsTriggerType,FINANCIAL_FORECAST,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7853,edit Container,UserEditsContainer,FINANCIAL_FORECAST,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7854,edit Description,EditDescription,FINANCIAL_FORECAST,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7855,edit ApplicableEntity,EditApplicableEntity,FINANCIAL_FORECAST,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7857,editFrequency for account entity,Threshold_NOT_Allowed,FINANCIAL_FORECAST,,,,,,,account,TRUE,"DELAY,12,DAYS",WEEKLY,,,400,TRUE
+AT-7858,editFrequency for account entity,Threshold_NOT_Allowed,FINANCIAL_FORECAST,,,,,,,account,TRUE,"DELAY,12,DAYS",DAILY,,,400,TRUE
+AT-7859,editFrequency for account and view entity - InValid Frequency,Threshold_NOT_Allowed,FINANCIAL_FORECAST,,,,,,,account,TRUE,"DELAY,12,DAYS",MONTHLY ,,,400,TRUE
+AT-7860,edit InsightName,EditInsightName,CREDIT_CARD_APR_CHANGEEDIT,,,,,,,account,TRUE FALSE,"CHANGE,10,NUMBER ",,,,400,TRUE
+AT-7861,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,CREDIT_CARD_APR_CHANGE,abc,,,,,,account,TRUE FALSE,"CHANGE,10,NUMBER",,,,400,TRUE
+AT-7862,edit InsightType,UserEditsInsightsType,CREDIT_CARD_APR_CHANGE,,OTHER,,,,,,,,,,,400,TRUE
+AT-7863,edit TriggerType,UserEditsTriggerType,CREDIT_CARD_APR_CHANGE,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7864,edit Container,UserEditsContainer,CREDIT_CARD_APR_CHANGE,,,,"BANK,CARD",,,account,TRUE FALSE,"CHANGE,10,NUMBER",,,,400,TRUE
+AT-7865,edit Description,EditDescription,CREDIT_CARD_APR_CHANGE,,,,,My Own Description,,account,TRUE FALSE,"CHANGE,10,NUMBER",,,,400,TRUE
+AT-7866,edit ApplicableEntity,EditApplicableEntity,CREDIT_CARD_APR_CHANGE,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7867,"edit threshold  value to ""1"" NUMBER  - Minimum",,CREDIT_CARD_APR_CHANGE,,,,,,,account,TRUE FALSE,"CHANGE,1,NUMBER",,,,204,TRUE
+AT-7868,edit threshold value to 100 NUMBER - Maximum,,CREDIT_CARD_APR_CHANGE,,,,,,,account,TRUE FALSE,"CHANGE,100,NUMBER",,,,204,TRUE
+AT-7869,edit threshold value to Between MIN and MAX - 15 DAYS,,CREDIT_CARD_APR_CHANGE,,,,,,,account,TRUE FALSE,"CHANGE,50,NUMBER",,,,204,TRUE
+AT-7870,edit threshold value to less than MIN(1 DAYS)  - 0 NUMBER,CHANGE_CreditCardAPRMinMax,CREDIT_CARD_APR_CHANGE,,,,,,,account,TRUE FALSE,"CHANGE,0,NUMBER",,,,400,TRUE
+AT-7871,edit threshold value to greater than MAX(100 TOP) - 101 TOP Value,CHANGE_CreditCardAPRMinMax,CREDIT_CARD_APR_CHANGE,,,,,,,account,TRUE FALSE,"CHANGE,101,NUMBER ",,,,400,TRUE
+AT-7872,edit Invalid threshold  name toTOPEDIT,EditNetworthThresholdInvalidName,CREDIT_CARD_APR_CHANGE,,,,,,,account,TRUE FALSE,"CHANGEEDIT,15,NUMBER",,,,400,TRUE
+AT-7873,edit Invalid threshold  type to NUMBEREDIT,EditNUMBERInValidValue,CREDIT_CARD_APR_CHANGE,,,,,,,account,TRUE FALSE,"CHANGE,15,NUMBEREDIT",,,,400,TRUE
+AT-7874,edit NOT supported entity,ACCOUNTEntitySupported,CREDIT_CARD_APR_CHANGE,,,,,,,goal,TRUE,"CHANGE,10,NUMBER",,,,400,TRUE
+AT-7875,edit Frequency,SpecifyFrequencyAttribute,CREDIT_CARD_APR_CHANGE,,,,,,,account,TRUE,"CHANGE,10,NUMBER",WEEKLY,,,400,TRUE
+AT-7876,edit Duration,SpecifyFrequencyAttribute,CREDIT_CARD_APR_CHANGE,,,,,,,account,FALSE,"CHANGE,10,NUMBER",LAST_MONTH,MID_MONTHLY,,400,TRUE
+AT-7877,edit Frequency toTHIS_MONTH,SpecifyFrequencyAttribute,CREDIT_CARD_APR_CHANGE,,,,,,,account,TRUE,"CHANGE,10,NUMBER",LAST_MONTH,THIS_MONTH,,400,TRUE
+AT-7878,edit Frequency toLAST_MONTH,SpecifyFrequencyAttribute,CREDIT_CARD_APR_CHANGE,,,,,,,account,FALSE,"CHANGE,10,NUMBER",LAST_MONTH,LAST_MONTH,,400,TRUE
+AT-7879,edit Frequency to THREE_MONTHS,SpecifyFrequencyAttribute,CREDIT_CARD_APR_CHANGE,,,,,,,account,TRUE,"CHANGE,10,NUMBER",LAST_MONTH,THREE_MONTHS,,400,TRUE
+AT-7880,edit Frequency to SIX_MONTHS,SpecifyFrequencyAttribute,CREDIT_CARD_APR_CHANGE,,,,,,,account,FALSE,"CHANGE,10,NUMBER",LAST_MONTH,SIX_MONTHS,,400,TRUE
+AT-7881,edit Frequency to ONE_YEAR,SpecifyFrequencyAttribute,CREDIT_CARD_APR_CHANGE,,,,,,,account,FALSE,"CHANGE,10,NUMBER",WEEKLY,MID_MONTHLY,,400,TRUE
+AT-7882,edit InsightName,EditInsightName,UNABLE_TO_REFRESH_ACCOUNTEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7883,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,UNABLE_TO_REFRESH_ACCOUNT,abc,,,,,,account,TRUE,,,,,400,TRUE
+AT-7884,edit InsightType,UserEditsInsightsType,UNABLE_TO_REFRESH_ACCOUNT,,OTHER,,,,,,,,,,,400,TRUE
+AT-7885,edit TriggerType,UserEditsTriggerType,UNABLE_TO_REFRESH_ACCOUNT,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7886,edit Container,UserEditsContainer,UNABLE_TO_REFRESH_ACCOUNT,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7887,edit Description,EditDescription,UNABLE_TO_REFRESH_ACCOUNT,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7888,edit ApplicableEntity,EditApplicableEntity,UNABLE_TO_REFRESH_ACCOUNT,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7889,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,UNABLE_TO_REFRESH_ACCOUNT,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7890,edit Frequency to SIX_MONTHS,SpecifyFrequencyAttribute,UNABLE_TO_REFRESH_ACCOUNT,,,,,,,account,FALSE,"CHANGE,10,NUMBER",LAST_MONTH,SIX_MONTHS,,400,TRUE
+AT-7891,edit Frequency to ONE_YEAR,SpecifyFrequencyAttribute,UNABLE_TO_REFRESH_ACCOUNT,,,,,,,account,FALSE,"CHANGE,10,NUMBER",WEEKLY,MID_MONTHLY,,400,TRUE
+AT-7892,edit InsightName,EditInsightName,PROJECTED_LOW_BALANCEEDIT,,,,,,,account,TRUE FALSE,"FUTURE,4,DAYS   MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-7893,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,PROJECTED_LOW_BALANCE,abc,,,,,,account,TRUE FALSE,"FUTURE,4,DAYS   MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-7894,edit InsightType,UserEditsInsightsType,PROJECTED_LOW_BALANCE,,OTHER,,,,,,,,,,,400,TRUE
+AT-7895,edit TriggerType,UserEditsTriggerType,PROJECTED_LOW_BALANCE,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7896,edit Container,UserEditsContainer,PROJECTED_LOW_BALANCE,,,,"BANK,CARD",,,account,TRUE FALSE,"FUTURE,1,DAYS   MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-7897,edit Description,EditDescription,PROJECTED_LOW_BALANCE,,,,,My Own Description,,account,TRUE FALSE,"FUTURE,1,DAYS   MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-7898,edit ApplicableEntity,EditApplicableEntity,PROJECTED_LOW_BALANCE,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7899,"edit threshold  value to ""0"" DAYS  - Minimum",,PROJECTED_LOW_BALANCE,,,,,,,account,TRUE FALSE,"FUTURE,0,DAYS   MINIMUM,100,AMOUNT",,,,204,TRUE
+AT-7900,edit threshold value to 15 DAYS - Maximum,,PROJECTED_LOW_BALANCE,,,,,,,account,TRUE FALSE,"FUTURE,15,DAYS  MINIMUM,100,AMOUNT",,,,204,TRUE
+AT-7901,edit threshold value to Between MIN and MAX - 15 DAYS,,PROJECTED_LOW_BALANCE,,,,,,,account,TRUE FALSE,"FUTURE,15,DAYS   MINIMUM,100,AMOUNT",,,,204,TRUE
+AT-7902,edit threshold value to less than MIN(0 DAYS)  - -1 DAYS,EditThresholdFUTUREMinAndMax1,PROJECTED_LOW_BALANCE,,,,,,,account,TRUE FALSE,"FUTURE,-1,DAYS  MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-7903,edit threshold value to greater than MAX(31 DAYS) - 32 DAYS,EditThresholdFUTUREMinAndMax1,PROJECTED_LOW_BALANCE,,,,,,,account,TRUE FALSE,"FUTURE,32,DAYS   MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-7904,edit NOT supported entity,ACCOUNTEntitySupported,PROJECTED_LOW_BALANCE,,,,,,,goal,TRU,"FUTURE,12,DAYS",,,,400,TRUE
+AT-7905,edit InsightName,EditInsightName,YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGEEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7906,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE,abc,,,,,,account,TRUE,,,,,400,TRUE
+AT-7907,edit InsightType,UserEditsInsightsType,YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE,,OTHER,,,,,,,,,,,400,TRUE
+AT-7908,edit TriggerType,UserEditsTriggerType,YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7909,edit Container,UserEditsContainer,YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7910,edit Description,EditDescription,YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7911,edit ApplicableEntity,EditApplicableEntity,YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7912,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7913,editFrequency for account and view entity - InValid Frequency,Threshold_NOT_Allowed,YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE,,,,,,,account,TRUE,"DELAY,12,DAYS",MONTHLY ,,,400,TRUE
+AT-7914,edit InsightName,EditInsightName,PEER_SPENDING_COMPARISON_SUMMARYEDIT,,,,,,,account,TRUE FALSE,"TOP,10,NUMBER ",,,,400,TRUE
+AT-7915,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,PEER_SPENDING_COMPARISON_SUMMARY,abc,,,,,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7916,edit InsightType,UserEditsInsightsType,PEER_SPENDING_COMPARISON_SUMMARY,,OTHER,,,,,,,,,,,400,TRUE
+AT-7917,edit TriggerType,UserEditsTriggerType,PEER_SPENDING_COMPARISON_SUMMARY,,,SCHEDULE,,,,,,,,,,400,TRUE
+AT-7918,edit Container,UserEditsContainer,PEER_SPENDING_COMPARISON_SUMMARY,,,,"BANK,CARD",,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7919,edit Description,EditDescription,PEER_SPENDING_COMPARISON_SUMMARY,,,,,My Own Description,,account,TRUE FALSE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7920,edit ApplicableEntity,EditApplicableEntity,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,ACCOUNT   VIEW,,,,,,,400,TRUE
+AT-7921,"edit threshold  value to ""1"" NUMBER  - Minimum",,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,account,TRUE FALSE,"TOP,1,NUMBER",,,,204,TRUE
+AT-7922,edit threshold value to 100 NUMBER - Maximum,,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,account,TRUE FALSE,"TOP,100,NUMBER",,,,204,TRUE
+AT-7923,edit threshold value to Between MIN and MAX - 15 DAYS,,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,account,TRUE FALSE,"TOP,50,NUMBER",,,,204,TRUE
+AT-7924,edit threshold value to less than MIN(1 DAYS)  - 0 NUMBER,MaxTOPValue,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,account,TRUE FALSE,"TOP,0,NUMBER",,,,400,TRUE
+AT-7925,edit threshold value to greater than MAX(100 TOP) - 101 TOP Value,MaxTOPValue,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,account,TRUE FALSE,"TOP,101,NUMBER ",,,,400,TRUE
+AT-7926,edit Invalid threshold  name toTOPEDIT,EditTOPInValidValue,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,account,TRUE FALSE,"TOPEDIT,15,NUMBER",,,,400,TRUE
+AT-7927,edit Invalid threshold  type to NUMBEREDIT,EditNUMBERInValidValue,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,account,TRUE FALSE,"TOP,15,NUMBEREDIT",,,,400,TRUE
+AT-7928,edit NOT supported entity,ACCOUNTEntitySupported,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,goal,TRUE,"TOP,10,NUMBER",,,,400,TRUE
+AT-7929,edit Frequency,EditFrequency,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,account,TRUE,"TOP,10,NUMBER",WEEKLY,,,400,TRUE
+AT-7930,edit Duration,EditFrequency,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,account,FALSE,"TOP,10,NUMBER",LAST_MONTH,MID_MONTHLY,,400,TRUE
+AT-7931,edit Frequency toTHIS_MONTH,EditFrequency,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,account,TRUE,"TOP,10,NUMBER",LAST_MONTH,THIS_MONTH,,400,TRUE
+AT-7932,edit Frequency toLAST_MONTH,EditFrequency,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,account,FALSE,"TOP,10,NUMBER",LAST_MONTH,LAST_MONTH,,400,TRUE
+AT-7933,edit Frequency to THREE_MONTHS,EditFrequency,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,account,TRUE,"TOP,10,NUMBER",LAST_MONTH,THREE_MONTHS,,400,TRUE
+AT-7934,edit Frequency to SIX_MONTHS,EditFrequency,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,account,FALSE,"TOP,10,NUMBER",LAST_MONTH,SIX_MONTHS,,400,TRUE
+AT-7935,edit Frequency to ONE_YEAR,EditFrequency,PEER_SPENDING_COMPARISON_SUMMARY,,,,,,,account,FALSE,"TOP,10,NUMBER",WEEKLY,MID_MONTHLY,,400,TRUE
+AT-7936,edit InsightName,EditInsightName,DUPLICATE_TRANSACTIONEEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7937,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,DUPLICATE_TRANSACTION,abc,,,,,,account,TRUE,,,,,400,TRUE
+AT-7938,edit InsightType,UserEditsInsightsType,DUPLICATE_TRANSACTION,,OTHER,,,,,,,,,,,400,TRUE
+AT-7939,edit TriggerType,UserEditsTriggerType,DUPLICATE_TRANSACTION,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7940,edit Container,UserEditsContainer,DUPLICATE_TRANSACTION,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7941,edit Description,EditDescription,DUPLICATE_TRANSACTION,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7942,edit ApplicableEntity,EditApplicableEntity,DUPLICATE_TRANSACTION,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7943,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,DUPLICATE_TRANSACTION,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE
+AT-7944,edit InsightName,EditInsightName,DEBT_TO_INCOME_RATIOEEDIT,,,,,,,account,TRUE,,,,,400,TRUE
+AT-7945,edit InsightTitle Not allowed for User,UserEditsTitleNOTAllowed,DEBT_TO_INCOME_RATIO,abc,,,,,,account,TRUE,,,,,400,TRUE
+AT-7946,edit InsightType,UserEditsInsightsType,DEBT_TO_INCOME_RATIO,,OTHER,,,,,,,,,,,400,TRUE
+AT-7947,edit TriggerType,UserEditsTriggerType,DEBT_TO_INCOME_RATIO,,,REFRESH,,,,,,,,,,400,TRUE
+AT-7948,edit Container,UserEditsContainer,DEBT_TO_INCOME_RATIO,,,,"BANK,CARD",,,account,TRUE,,,,,400,TRUE
+AT-7949,edit Description,EditDescription,DEBT_TO_INCOME_RATIO,,,,,My Own Description,,account,FALSE,,,,,400,TRUE
+AT-7950,edit ApplicableEntity,EditApplicableEntity,DEBT_TO_INCOME_RATIO,,,,,,ACCOUNT   VIEW,account,TRUE,,,,,400,TRUE
+AT-7951,edit threshold NOT supported for this insight,Threshold_NOT_Allowed,DEBT_TO_INCOME_RATIO,,,,,,,account,FALSE,"DELAY,12,DAYS",,,,400,TRUE

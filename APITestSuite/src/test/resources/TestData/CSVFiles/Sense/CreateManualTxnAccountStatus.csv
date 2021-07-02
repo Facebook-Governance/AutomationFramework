@@ -1,0 +1,3 @@
+testCaseId,TestCase,amount,currency,consumer,baseType,category,categorySource,date,memo,accountId,checkNumber,transactionType,accountStatus,httpStatus,ResFile,FilePath,Enabled
+1,INACTIVE,0,USD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,DEPOSIT,INACTIVE,400,InvalidValueForAccountId.json,../src/test/resources/TestData/ErrorMessage/,TRUE
+2,CLOSED,100,USD,Description,DEBIT,29,SYSTEM,"0,0,0",memo,bank,1234,WITHDRAWAL,CLOSED,400,InvalidValueForAccountId.json,../src/test/resources/TestData/ErrorMessage/,TRUE

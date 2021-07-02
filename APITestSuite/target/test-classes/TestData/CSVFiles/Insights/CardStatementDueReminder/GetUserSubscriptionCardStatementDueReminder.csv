@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-143237,"Validate CardStatementDue , Validate InsightName",,CardStatementDue,CreditLimitWarning,,,,,,,,,,,,,200,TRUE
+AT-143238,"Validate CardStatementDue , Validate Supporting container",,CardStatementDue,,,CARD,,,,,,,,,,,200,TRUE
+AT-143239,"Validate CardStatementDue , Validate TriggerType",REFRESH,CardStatementDue,,,,,,,,,,,,,,200,TRUE
+AT-143240,"Validate CardStatementDue , Validate applicableEntity",,CardStatementDue,,,,,,,"ACCOUNT,VIEW",,,,,,,200,TRUE
+AT-143241,"Validate CardStatementDue , Validate number of levels and levelObject",,CardStatementDue,,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-143242,"Validate CardStatementDue , Validate isSubscribed=true",,CardStatementDue,,,,,,,,account,TRUE,,,,,200,TRUE
+AT-143243,"Validate CardStatementDue , Validate threshold Name,Value and Type for Account entity",,CardStatementDue,,,,,,,,account,,,"DAYS_BEFORE,5,DAYS",,,200,TRUE
+AT-143243,"Validate CardStatementDue , Validate threshold Name,Value and Type for View entity",,CardStatementDue,,,,,,,,view,,,"DAYS_BEFORE,5,DAYS",,,200,TRUE
+AT-143244,"Validate CardStatementDue , Validate insightKeys Account",,CardStatementDue,,,,Account,,,,,,,,,,200,TRUE
+AT-143244,"Validate CardStatementDue , Validate insightKeys View",,CardStatementDue,,,,View,,,,,,,,,,200,TRUE
+AT-143245,"Validate CardStatementDue , Validate description",,CardStatementDue,,,,,,Generates an insight when a credit card payment is due in the coming days based on a configured threshold.,,,,,,,,200,TRUE
+AT-143246,"Validate CardStatementDue , Validate title",,CardStatementDue,,Card Payment Due Reminder,,,,,,,,,,,,200,TRUE
+AT-143247,"Validate CardStatementDue , Validate total number of keys",,CardStatementDue,,,,,10,,,,,,,,,200,TRUE
+AT-143248,"Validate CardStatementDue , Validate if ruleExpression present",,CardStatementDue,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE

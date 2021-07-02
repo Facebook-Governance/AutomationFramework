@@ -1,0 +1,27 @@
+{
+    "userData": [
+        {
+            "user": {
+                "loginName": ""
+            },
+            "providerAccount": [
+                {
+                    "refreshInfo": {
+                        "statusCode": 414,
+                        "lastRefreshAttempt": "${json-unit.ignore}",
+                        "status": "FAILED",
+                        "lastRefreshed": "${json-unit.ignore}",
+                        "nextRefreshScheduled": "${json-unit.ignore}",
+                        "statusMessage": "NO_ACCOUNT_FOUND"
+                    },
+                    "id": "${json-unit.any-number}",
+                    "aggregationSource": "USER",
+                    "isManual": false,
+                    "providerId": 16441,
+                    "isDeleted": false,
+                    "createdDate": "${json-unit.ignore}"
+                }
+            ]
+        }
+    ]
+}

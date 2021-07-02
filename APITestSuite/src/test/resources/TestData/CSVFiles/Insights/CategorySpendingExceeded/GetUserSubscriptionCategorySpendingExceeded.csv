@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-148833,"getUserSubscription - Validate CategorySpendingExceeded , Validate InsightName",,CategorySpendingExceeded,CategorySpendingExceeded,,,,,,,,,,,,200,TRUE
+AT-148834,"getUserSubscription - Validate CategorySpendingExceeded , Validate Supporting container",,CategorySpendingExceeded,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-148835,"getUserSubscription - Validate CategorySpendingExceeded , Validate TriggerType",REFRESH,CategorySpendingExceeded,,,,,,,,,,,,,200,TRUE
+AT-148836,"getUserSubscription - Validate CategorySpendingExceeded , Validate applicableEntity",,CategorySpendingExceeded,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-148837,"getUserSubscription - Validate CategorySpendingExceeded , Validate number of levels and levelObject",,CategorySpendingExceeded,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-148838,"getUserSubscription - Validate CategorySpendingExceeded , Validate isSubscribed=false",,CategorySpendingExceeded,,,,,,,,FALSE,,,,,200,TRUE
+AT-148839,"getUserSubscription - Validate CategorySpendingExceeded , Validate threshold Name,Value and Type",,CategorySpendingExceeded,,,,,,,account,,,"CHANGE,50,AMOUNT  CHANGE,10,PERCENT",,,200,TRUE
+AT-148840,"getUserSubscription - Validate CategorySpendingExceeded , Validate insightKeys",,CategorySpendingExceeded,,,,Account,,,,,,,,,200,TRUE
+AT-148841,"getUserSubscription - Validate CategorySpendingExceeded , Validate description",,CategorySpendingExceeded,,,,,"Generates an insight when the difference, per category, between current spending and average spending over the previous three months is more than a configured threshold.",,,,,,,,200,TRUE
+AT-148842,"getUserSubscription - Validate CategorySpendingExceeded , Validate title",,CategorySpendingExceeded,,Spending Exceeded Average,,,,,,,,,,,200,TRUE
+AT-148843,"getUserSubscription - Validate CategorySpendingExceeded , Validate ruleExpression",,CategorySpendingExceeded,,,,,,,,,,,,,200,TRUE
+AT-148844,"getUserSubscription - Validate CategorySpendingExceeded , verify entityParameter and configMeta are same",,CategorySpendingExceeded,,,,,,,,,,,,TRUE,200,TRUE

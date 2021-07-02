@@ -1,0 +1,5 @@
+{
+  "errorCode": "${json-unit.any-string}",
+  "errorMessage": "Invalid value for credentialsParam",
+  "referenceCode": "${json-unit.any-string}"
+}

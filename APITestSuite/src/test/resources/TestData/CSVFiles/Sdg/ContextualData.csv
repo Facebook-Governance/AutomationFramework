@@ -1,0 +1,10 @@
+UsTestcaseId,TcId,TcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,TRUE,priority,formType
+ AT-61909,1,ContextData Add Account,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/ContextualData/,AddAccount.xml,NO,YES,TRUE,P1,Simplified
+AT-61907,2,ContextDataAdd Accounts_nullRequestID,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/ContextualData/,Account_NoReqID.xml,NO,YES,TRUE,P1,Simplified
+AT-61905,3,ContextDataAdd Accounts_noProvideID,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/ContextualData/,Account_NoPvAcID.xml,NO,YES,TRUE,P1,Simplified
+AT-61910,4,Edit Account,ADD_PROVIDER_ACCOUNT#UPDATE_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/ContextualData/,EditAccount.xml,NO,YES,TRUE,P1,Simplified
+AT-61924,5,Edit Account_noProviderID,ADD_PROVIDER_ACCOUNT#UPDATE_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/ContextualData/,EditAccount_NoPvAcID.xml,NO,YES,TRUE,P1,Simplified
+AT-61907,6,Edit Account_nullRequestID,ADD_PROVIDER_ACCOUNT#UPDATE_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/ContextualData/,EditAccount_NoReqID.xml,NO,YES,TRUE,P1,Simplified
+ AT-61911,7,Refresh Account,ADD_PROVIDER_ACCOUNT#UPDATE_PROVIDER_ACCOUNT_REFRESH#GET_ACCOUNTS,../src/test/resources/TestData/XML/ContextualData/,RefreshAccount.xml,NO,YES,TRUE,P1,Simplified
+ AT-61925,8,Refresh Account_nullRequestID,ADD_PROVIDER_ACCOUNT#UPDATE_PROVIDER_ACCOUNT_REFRESH#GET_ACCOUNTS,../src/test/resources/TestData/XML/ContextualData/,RefreshAccount_NoReqID.xml,NO,YES,TRUE,P1,Simplified
+AT-61905,9,Refresh Account_noProviderID,ADD_PROVIDER_ACCOUNT#UPDATE_PROVIDER_ACCOUNT_REFRESH#GET_ACCOUNTS,../src/test/resources/TestData/XML/ContextualData/,RefreshAccount_NoPvAcID.xml,NO,YES,TRUE,P1,Simplified

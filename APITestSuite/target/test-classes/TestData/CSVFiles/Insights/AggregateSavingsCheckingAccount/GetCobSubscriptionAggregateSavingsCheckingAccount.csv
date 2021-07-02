@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-126924,"Validate AggregateSavingsCheckingAccount , check if Insight is unSubscribed to OR isSubscribed=false ",,AggregateSavingsCheckingAccount,AggregateSavingsCheckingAccount,,,,,,account,FALSE,,,,200,TRUE
+AT-126925,"Validate AggregateSavingsCheckingAccount , Validate InsightName",,AggregateSavingsCheckingAccount,AggregateSavingsCheckingAccount,,,,,,,,,,,200,TRUE
+AT-126926,"Validate AggregateSavingsCheckingAccount , Validate Supporting container",,AggregateSavingsCheckingAccount,,,CARD,,,,,,,,,200,TRUE
+AT-126927,"Validate AggregateSavingsCheckingAccount , Validate TriggerType",REFRESH,AggregateSavingsCheckingAccount,,,,,,,,,,,,200,TRUE
+AT-126928,"Validate AggregateSavingsCheckingAccount , Validate applicableEntity",,AggregateSavingsCheckingAccount,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-126929,"Validate AggregateSavingsCheckingAccount , Validate number of levels and levelObject",,AggregateSavingsCheckingAccount,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-126930,"Validate AggregateSavingsCheckingAccount , Validate isSubscribed=false",,AggregateSavingsCheckingAccount,,,,,,,,FALSE,,,,200,TRUE
+AT-126931,"Validate AggregateSavingsCheckingAccount , Validate insightKeys",,AggregateSavingsCheckingAccount,,,,Account,,,,,,,,200,TRUE
+AT-126932,"Validate AggregateSavingsCheckingAccount , Validate description",,AggregateSavingsCheckingAccount,,,,,Generates an insight when a credit card account is identified but no corresponding bank account was found for the user.,,,,,,,200,TRUE
+AT-126933,"Validate AggregateSavingsCheckingAccount , Validate title",,AggregateSavingsCheckingAccount,,Aggregate Savings/Checking Account,,,,,,,,,,200,TRUE
+AT-126934,"Validate AggregateSavingsCheckingAccount , Validate ruleExpression",,AggregateSavingsCheckingAccount,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE

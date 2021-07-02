@@ -1,0 +1,6 @@
+UsTestcaseId,tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,priority,formType,enabled
+InactiveAccounts,50,Dedup details,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#UPDATE_ACCOUNT#ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/Dedup/AccountDedup/,InactiveAccounts.xml,YES,NO,p1,Simplified,TRUE
+ClosedAccounts,54,Dedup details,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#UPDATE_ACCOUNT#ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/Dedup/AccountDedup/,ClosedAccounts.xml,YES,NO,p1,Simplified,TRUE
+Inactive,12c,Dedup details,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#UPDATE_ACCOUNT#ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/Dedup/TransactionDedup/,InactiveAccounts.xml,YES,NO,p1,Simplified,TRUE
+Closed,12c,Dedup details,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#UPDATE_ACCOUNT#ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/Dedup/TransactionDedup/,ClosedAccounts.xml,YES,NO,p1,Simplified,TRUE
+SameDoc,53,Dedup details,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#GET_DOCUMENTS,../src/test/resources/TestData/XML/Dedup/TransactionDedup/,Account_SameDoc.xml,YES,NO,p1,Simplified,TRUE

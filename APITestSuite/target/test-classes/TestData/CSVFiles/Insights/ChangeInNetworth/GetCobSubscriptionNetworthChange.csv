@@ -1,0 +1,14 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-146193,"Validate NetworthChange , Validate InsightName",,NetworthChange,NetworthChange,,,,,,,,,,,200,TRUE
+AT-146194,"Validate NetworthChange , Validate Supporting container",,NetworthChange,,,"BANK,CARD,LOAN,INVESTMENT",,,,,,,,,200,TRUE
+AT-146195,"Validate NetworthChange , Validate TriggerType",SCHEDULE,NetworthChange,,,,,,,,,,,,200,TRUE
+AT-146196,"Validate NetworthChange , Validate applicableEntity",,NetworthChange,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-146197,"Validate NetworthChange , Validate number of levels and levelObject",,NetworthChange,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-146198,"Validate NetworthChange , Validate isSubscribed=false",,NetworthChange,,,,,,,account,FALSE,,,,200,TRUE
+AT-146199,"Validate NetworthChange , Validate threshold Name,Value and Type",,NetworthChange,,,,,,,account,,,"CHANGE,3,PERCENT",,200,TRUE
+AT-146200,"Validate NetworthChange , Validate insightKeys for networths info",,NetworthChange,,,,Account,,,,,,,,200,TRUE
+AT-146201,"Validate NetworthChange , Validate description",,NetworthChange,,,,,Generates an insight when net worth changes by more than a configured threshold.,,,,,,,200,TRUE
+AT-146202,"Validate NetworthChange , Validate title",,NetworthChange,,Change in Net Worth,,,,,,,,,,200,TRUE
+AT-146203,"Validate NetworthChange , Validate ruleExpression",,NetworthChange,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-146204,"Validate NetworthChange , Validate frequency=MONTHLY",,NetworthChange,,,,,,,account,,MONTHLY,,,200,TRUE
+AT-146205,"Validate NetworthChange , Validate total number of keys ",,NetworthChange,,,,,,,,,,,,200,TRUE

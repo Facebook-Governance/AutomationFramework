@@ -1,0 +1,95 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>AutoContainerLookUp.site16441.1</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.1</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<instantRefresh>true</instantRefresh>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+				<ignoreGetProviderAccountFailure>true
+				</ignoreGetProviderAccountFailure>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+
+		<cacheRequest-multiple>
+			<cacheRequest order="1">
+				<lastNewContianerUpdate>sysdate-31</lastNewContianerUpdate>
+				<containers>
+					<container>
+						<sumInfoId>20549</sumInfoId>
+						<datasetAttributes>
+							<datasetAttribute>5</datasetAttribute>
+						</datasetAttributes>
+					</container>
+					<container>
+						<sumInfoId>20560</sumInfoId>
+						<datasetAttributes>
+							<datasetAttribute>5</datasetAttribute>
+						</datasetAttributes>
+					</container>
+					<container>
+						<sumInfoId>20562</sumInfoId>
+						<datasetAttributes>
+							<datasetAttribute>5</datasetAttribute>
+						</datasetAttributes>
+					</container>
+					<container>
+						<sumInfoId>20563</sumInfoId>
+						<datasetAttributes>
+							<datasetAttribute>5</datasetAttribute>
+						</datasetAttributes>
+					</container>
+				</containers>
+			</cacheRequest>
+		</cacheRequest-multiple>
+
+		<refresh-provider-accounts-multiple>
+			<refresh-provider-accounts order="1">
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>bank,creditCard,loan</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</refresh-provider-accounts>
+		</refresh-provider-accounts-multiple>
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<accountId />
+				<noOfAccounts>2</noOfAccounts>
+				<status>ACTIVE</status>
+				<include />
+				<container>bank</container>
+				<accountReconType />
+			</get-accounts>
+		</get-accounts-multiple>
+
+	</request>
+	<response>
+		<siteRefreshStats-multiple>
+			<siteRefreshStats order="1">
+				<datasetDetails>[{"container":"bank","dataset":[{"datasetId":1,"attributeIds":[5,13]}]},{"container":"credits","dataset":[{"datasetId":1,"attributeIds":[5,13]}]},{"container":"stocks","dataset":[{"datasetId":1,"attributeIds":[5,13]}]},{"container":"loans","dataset":[{"datasetId":1,"attributeIds":[5,13]}]},{"container":"insurance","dataset":[{"datasetId":1,"attributeIds":[5,13]}]},{"container":"bills","dataset":[{"datasetId":1,"attributeIds":[5,13]}]}]
+				</datasetDetails>
+				<memSiteAccExtnJson>[{"datasetId":1,"refreshStatus":7,"errorCode":0,"attribDetails":[{"attributeId":5,"refreshStatus":7,"errorCode":0},{"attributeId":13,"refreshStatus":7,"errorCode":0}]}]
+				</memSiteAccExtnJson>
+			</siteRefreshStats>
+		</siteRefreshStats-multiple>
+	</response>
+</entity>

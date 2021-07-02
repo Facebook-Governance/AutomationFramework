@@ -1,0 +1,11 @@
+testCaseId,Testcase,Income,IncomeCurrency,IncomeRange,City,State,Country,ZipCode,Age,NetworthValue,NetworthCurrency,HomeOwnership,LifeStage,deleteUserSegment,statusCode,Enabled
+AT-169506,Update above netWorthValue range,123,USD,,,,,,,,,,,TRUE,204,TRUE
+AT-169507,Update Age Allowed Values,214124,USD,,Los Angeles,California,US,90011,33,76272,USD,TRUE,Employed,TRUE,204,TRUE
+AT-169508,Update Age to NOT Allowed values,,,$0K - $35K,Los Angeles,California,US,90011,99,76272,USD,TRUE,Retired,TRUE,204,TRUE
+AT-169509,Update allowed income range,15000,USD,,,,,,,,,,,TRUE,204,TRUE
+AT-169509_1,Update allowed netWorthValue currency,,,$0K - $35K,,,,,,,,,,TRUE,204,TRUE
+AT-169509_2,Update below netWorthValue range,,,$35K - $50K,,,,,,,,,,TRUE,204,TRUE
+AT-169509_3,Update City above MAX characters allowed,,,$50K - $75K,,,,,,,,,,TRUE,204,TRUE
+AT-169509_4,Update City below MIN characters allowed,,,$75K - $100K,,,,,,,,,,TRUE,204,TRUE
+AT-169509_5,Update City between 0-100 charcters,,,$100K - $150K,,,,,,,,,,TRUE,204,TRUE
+AT-169509_6,Update Country above MAX characters allowed,,,$150K+,,,,,,,,,,TRUE,204,TRUE

@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-126924,"Validate AggregateCreditCardAccount , check if Insight is unSubscribed to OR isSubscribed=false ",,AggregateCreditCardAccount,AggregateCreditCardAccount,,,,,,account,FALSE,,,,200,TRUE
+AT-126925,"Validate AggregateCreditCardAccount , Validate InsightName",,AggregateCreditCardAccount,AggregateCreditCardAccount,,,,,,,,,,,200,TRUE
+AT-126926,"Validate AggregateCreditCardAccount , Validate Supporting container",,AggregateCreditCardAccount,,,BANK,,,,,,,,,200,TRUE
+AT-126927,"Validate AggregateCreditCardAccount , Validate TriggerType",REFRESH,AggregateCreditCardAccount,,,,,,,,,,,,200,TRUE
+AT-126928,"Validate AggregateCreditCardAccount , Validate applicableEntity",,AggregateCreditCardAccount,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-126929,"Validate AggregateCreditCardAccount , Validate number of levels and levelObject",,AggregateCreditCardAccount,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-126930,"Validate AggregateCreditCardAccount , Validate isSubscribed=false",,AggregateCreditCardAccount,,,,,,,,FALSE,,,,200,TRUE
+AT-126931,"Validate AggregateCreditCardAccount , Validate insightKeys",,AggregateCreditCardAccount,,,,Account,,,,,,,,200,TRUE
+AT-126932,"Validate AggregateCreditCardAccount , Validate description",,AggregateCreditCardAccount,,,,,Generates an insight when a credit card payment is identified but no corresponding credit card account was found for the user.,,,,,,,200,TRUE
+AT-126933,"Validate AggregateCreditCardAccount , Validate title",,AggregateCreditCardAccount,,Aggregate Credit Card Account,,,,,,,,,,200,TRUE
+AT-126934,"Validate AggregateCreditCardAccount , Validate ruleExpression",,AggregateCreditCardAccount,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE

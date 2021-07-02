@@ -1,0 +1,22 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-143021,subscribe to LargeDepositNotice,LargeDepositNotice,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,500,AMOUNT",204,TRUE
+AT-143022,updateTriggerType,LargeDepositNotice,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143023, update insightName by same name,LargeDepositNotice,negTestScenario17,,LargeDepositNotice,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143024, update insightName edit InsightName,LargeDepositNotice,negTestScenario2,,LargeDepositNoticeEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143025,update insightTitle,LargeDepositNotice,negTestScenario33,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-143026,update container,LargeDepositNotice,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-143027,update keys,LargeDepositNotice,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-143028,update description,LargeDepositNotice,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-143029,update applicableEntity,LargeDepositNotice,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-143030,update entityParameter,LargeDepositNotice,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,1000,AMOUNT",204,TRUE
+AT-143031, update entityParameter->account[0]->id - Valid ItemAccountId,LargeDepositNotice,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,600,AMOUNT",204,TRUE
+AT-143032, update entityParameter->account[0]->id - InValid ItemAccountId,LargeDepositNotice,negTestScenario20,,,,,,,,,,1,,account,1,76823,,TRUE,,,"MINIMUM,999,AMOUNT",400,TRUE
+AT-143033, update entityParameter->account[0]->isSubscribed=false,LargeDepositNotice,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-143034,update duration  -  entityParameter->account[0]->duration ,LargeDepositNotice,negTestScenario48,,,,,,,,,,1,,account,1,,,TRUE,LAST_MONHT,,"MINIMUM,1000,AMOUNT",400,TRUE
+AT-143035,update insightType to AGGREGATE - entityParameter->account[0]->insightType,LargeDepositNotice,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,AGGREGATE,"MINIMUM,1000,AMOUNT",400,TRUE
+AT-143036,update insightType to INVALID - entityParameter->account[0]->insightType,LargeDepositNotice,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"MINIMUM,1000,AMOUNT",400,TRUE
+AT-143037,update threshold name  - entityParameter->account[0]->threshold[0]->name,LargeDepositNotice,negTestScenario27,,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,1000,AMOUNT",400,TRUE
+AT-143038,update threshold values - entityParameter->account[0]->threshold[0]->value,LargeDepositNotice,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,1455,AMOUNT",204,TRUE
+AT-143039,update threshold type - entityParameter->account[0]->threshold[0]->type,LargeDepositNotice,negTestScenario28,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,1455,PERCENT",400,TRUE
+AT-143040,"update threshold name ,value and type to MINIMUM,200,AMOUNT",LargeDepositNotice,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,200,AMOUNT",204,TRUE
+AT-143041,update configMeta - subscrption Info - configMeta->account[0]->id,LargeDepositNotice,negTestScenario19,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"MINIMUM,499,AMOUNT",400,TRUE

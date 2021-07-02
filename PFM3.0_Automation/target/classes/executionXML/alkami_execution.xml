@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+
+<test description="Login" id="TC1">
+
+<populate pageName='SAML_LOGIN'>
+	<element name='SAML_LOGIN.issuer' value=''/>
+	<element name='SAML_LOGIN.SubjectName' value=''/>
+	<element name='SAML_LOGIN.ConsumerUrl' value=''/>
+	<element name='SAML_LOGIN.TargetUrl' value='https://alkamifl.alkamipfm.corp.yodlee.com:9443/appscenter/linkAccount.alkamipfm.action' />
+	<element name='SAML_LOGIN.AttributeString' value='' />
+	<element name='SAML_LOGIN.SamlVersion' />
+	<element name='SAML_LOGIN.EncryptFlag' />
+	<element name='SAML_LOGIN.EncodeFlag' />
+	<element name='SAML_LOGIN.SignResponse' />
+	<element name='SAML_LOGIN.SignAssertion' />
+	<element name='SAML_LOGIN.LinkIntegrityToken' />
+</populate>
+
+<click pageName='SAML_LOGIN'>
+	<element name='SAML_LOGIN.Submit1'/>
+	<element name='SAML_LOGIN.Submit2'/>
+</click>
+
+<assertEquals pageName='SAML_LOGIN'>
+	<title>- Add Accounts</title>
+</assertEquals>
+</test>
+
+<test description='AddAccounts' id='TC2' args='arg0;arg1;arg2;arg3;arg4'>
+
+<populate pageName='FastLink'>
+	<element name='SearchBox' value='arg0' />
+</populate>
+
+<click pageName='FastLink'>
+	<element name='SearchSubmitButton' />
+</click>
+
+<click pageName='FastLink'>
+	<element name='DagSiteLink'/>
+</click>
+
+<populate pageName='FastLink'>
+	<element name='UserName' value='arg1' />
+	<element name='containerPassword' value='arg2' />
+	<element name='containerConfirmPass' value='arg3' />
+</populate>
+
+<click pageName='FastLink'>
+	<element name='containerSubmit' />
+</click>
+
+<waitForElementInvisible pageName='FastLink'>
+	<element name='progressMessage' />
+</waitForElementInvisible>
+
+<assertEquals pageName='FastLink'>
+	<element name='SuccessMsg' value='We have successfully gathered your account details' />
+</assertEquals>
+
+<click pageName='FastLink'>
+	<element name='addOtherAccount' />
+</click>
+
+</test> 
+
+<test description='CALL_METHOD' id='call' >
+
+<call method='FunctionUtil.testMethod'>
+	<params>
+	<String>
+		Hello
+	</String>
+	<String>
+		World
+	</String>
+	<int>
+		3
+	</int>
+	</params>
+</call>
+</test>
+
+</tests>

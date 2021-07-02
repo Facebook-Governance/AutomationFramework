@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  GET Feeds - HighBillsAndSubscriptions</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GET Feeds - HighBillsAndSubscriptions</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 29 12:10:26 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>1437 seconds (1437867 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS01, Validate HighBillsAndSubscriptionsCost Insight when cobrand is not Subscribed, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, , 0, TRUE, FALSE, , , , , 0, , 201, TRUE</td>
+<td></td>
+<td>87</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS02, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is not Subscribed, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, , 0, TRUE, TRUE, FALSE, , , , 0, , 201, TRUE</td>
+<td></td>
+<td>86</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS03, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is not Subscribed(Inheriting Cobrand Thresholds), HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, , 0, TRUE, FALSE, , , , , 0, , 201, TRUE</td>
+<td></td>
+<td>86</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS04, Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is Subscribed, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, , 1, TRUE, TRUE, TRUE, , , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>56</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS05, Validate HighBillsAndSubscriptionsCost Insight when cobrand is subscribed  for different threshold user overides cobrand threshold, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,100,AMOUNT CHANGE,10,PERCENT, 1, TRUE, TRUE, TRUE, , , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>59</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS06, Validate HighBillsAndSubscriptionsCost Insight when cobrand is subscribed and User is also Subscribed threshold as different, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,100,AMOUNT CHANGE,10,PERCENT, 1, TRUE, TRUE, TRUE, , , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>61</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS07, Validate HighBillsAndSubscriptionsCost Insight when user changes threshold value to 10 Percent using PATCH, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,10,PERCENT, 1, TRUE, TRUE, TRUE, , , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>56</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS08, Validate HighBillsAndSubscriptionsCost Insight when user changes threshold value to original threshold using PATCH, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,100,AMOUNT CHANGE,10,PERCENT, 1, TRUE, TRUE, TRUE, , , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>61</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS09, Validate HighBillsAndSubscriptionsCost Insight when user patch Threshold only AMOUNt and Duration, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,100,AMOUNT, 1, TRUE, , TRUE, LAST_THREE_MONTHS, , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>63</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS10, Validate HighBillsAndSubscriptionsCost Insight when Threshold is patched and with user Subscriptions as false, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,100,AMOUNT CHANGE,10,PERCENT, 0, TRUE, , FALSE, , , , 0, , 201, TRUE</td>
+<td></td>
+<td>90</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS11, Validate HighBillsAndSubscriptionsCost Insight when threshold is 1000 as AMOUNT and 101 PERCENT with diff duration, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,1000,AMOUNT CHANGE,101,PERCENT, 1, TRUE, , TRUE, LAST_SIX_MONTHS, , , 0, , 201, TRUE</td>
+<td></td>
+<td>25</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS12, Validate HighBillsAndSubscriptionsCost Insight when threshold is 1 as AMOUNT and 1 PERCENT with diff duration, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,1,AMOUNT CHANGE,1,PERCENT, 1, TRUE, , TRUE, LAST_TWELVE_MONTHS, , , 0, , 201, TRUE</td>
+<td></td>
+<td>61</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS13, Validate HighBillsAndSubscriptionsCost Insight when threshold is 11 as AMOUNT and 12 PERCENT with diff duration, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,11,AMOUNT CHANGE,12,PERCENT, 1, TRUE, , TRUE, LAST_SIX_MONTHS, , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>56</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS14, Validate HighBillsAndSubscriptionsCost Insight when threshold is 500 as AMOUNT and 50 PERCENT with diff duration, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,500,AMOUNT CHANGE,50,PERCENT, 1, TRUE, , TRUE, LAST_MONTH, , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>62</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS15, Validate HighBillsAndSubscriptionsCost Insight when default thresholdand diff duration Patched using user Patch, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,100,AMOUNT CHANGE,10,PERCENT, 1, TRUE, , TRUE, LAST_THREE_MONTHS, , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>61</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS16, Validate HighBillsAndSubscriptionsCost Insight when default thresholdand diff duration Patched using user Patch, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,100,AMOUNT CHANGE,10,PERCENT, 1, TRUE, , TRUE, LAST_SIX_MONTHS, , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>56</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS17, Validate HighBillsAndSubscriptionsCost Insight when default thresholdand diff duration Patched using user Patch, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,100,AMOUNT CHANGE,10,PERCENT, 1, TRUE, , TRUE, LAST_TWELVE_MONTHS, , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>61</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS18, Validate HighBillsAndSubscriptionsCost Insight when default thresholdand diff duration Patched using user Patch, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, EDIT,-20, SCHEDULE, 1, account, CHANGE,100,AMOUNT CHANGE,10,PERCENT, 1, TRUE, , TRUE, LAST_MONTH, , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>56</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS19, Validate HighBillsAndSubscriptionsCost Insight when default thresholdand diff duration Patched using user Patch, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,100,AMOUNT CHANGE,10,PERCENT, 1, TRUE, , TRUE, LAST_THREE_MONTHS, , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>86</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCost()'><b>testGetNotificationsForHighBillsAndSubscriptionsCost</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost<br>Parameters: AT-HBnS20, Reset HighBIlls and Subscription to default values, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, FALSE, SCHEDULE, 1, account, CHANGE,100,AMOUNT CHANGE,10,PERCENT, 0, TRUE, FALSE, , LAST_THREE_MONTHS, , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>86</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost@55536d9e</td></tr>
+</table><p>
+</body>
+</html>

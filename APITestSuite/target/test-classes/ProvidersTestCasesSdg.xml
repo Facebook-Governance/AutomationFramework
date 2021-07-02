@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="methods" thread-count="1"
+	preserve-order="true">
+
+	<parameter name="suiteName" value="YSLAutoAmelia" />
+
+	<listeners>
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+
+	</listeners>
+	
+   <test name="Providers">
+      <classes>
+         <class name="com.yodlee.yodleeApi.Providers.TestGetProviders">
+            <methods>
+               <include name="testGetProviderDetails" />
+            </methods>
+         </class>
+         <class name="com.yodlee.yodleeApi.Providers.GetProviderODataCompare">
+            <methods>
+               <include name="validateCount" />
+            </methods>
+         </class>
+      </classes>
+   </test>
+   
+</suite>

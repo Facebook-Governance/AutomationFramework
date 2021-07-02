@@ -1,0 +1,69 @@
+{
+    "account": [
+        {
+            "includeInNetWorth": false,
+            "accountName": "Super CD Plus",
+            "dueDate": "2012-01-25",
+            "interestPaidLastYear": {
+                "amount": 14000,
+                "currency": "USD"
+            },
+            "frequency": "WEEKLY",
+            "accountStatus": "CLOSED",
+            "lastUpdated": "${json-unit.ignore}",
+            "associatedProviderAccountId": "#{path:/account[0].associatedProviderAccountId;value:;condition:(associatedProviderAccountId==true && associatedProviderAccountId!=providerAccountIdResponse)}",
+            "isAsset": false,
+            "aggregationSource": "USER",
+            "balance": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "providerId": "16441",
+            "maturityDate": "2013-01-25",
+            "term": "P30Y",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "providerName": "Dag Site",
+            "minimumAmountDue": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "interestRate": 7,
+            "availableCredit": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "accountType": "OTHER",
+            "isManual": false,
+            "displayedName": "Bill Gates",
+            "originationDate": "2013-01-22",
+            "accountNumber": "354-2334",
+            "interestRateType": "VARIABLE",
+            "amountDue": {
+                "amount": 14000,
+                "currency": "USD"
+            },
+            "originalLoanAmount": {
+                "amount": 3000,
+                "currency": "USD"
+            },
+            "createdDate": "${json-unit.ignore}",
+            "interestPaidYTD": {
+                "amount": 5000,
+                "currency": "USD"
+            },
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "loan",
+            "collateral": "ABC",
+            "dataset": [
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+testCaseId,TestCase,amount,currency,consumer,baseType,category,categorySource,date,memo,accountId,checkNumber,reconStatus,sourceType,transactionType,accountStatus,httpStatus,Enabled
+1,CLOSED,100,USD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,CARD,1234,,MANUAL,DEPOSIT,CLOSED,204,TRUE
+2,INACTIVE,0,USD,Description,CREDIT,29,SYSTEM,"0,10,0",memo,BANK,1234,,MANUAL,WITHDRAWAL,INACTIVE,204,TRUE

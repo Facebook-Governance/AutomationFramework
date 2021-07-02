@@ -1,0 +1,53 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>simpleDescRule.site16441.2</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.2</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>TRANSACTIONS</name>
+							<container>bank</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<get-transactions-multiple>
+		<get-transactions order="1">
+			<fromDate>2000-01-01</fromDate>
+			<toDate>2020-01-01</toDate>
+			<container>bank</container>
+			<detailCategoryId>1145,1154</detailCategoryId>
+		</get-transactions>
+		</get-transactions-multiple>
+	</request>
+
+	<response>
+		<get-provider-accounts-multiple>
+		<get-provider-accounts order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/KalamTDE_ResponseJson
+				</filePath>
+				<responseFile>getProviderAccount.json</responseFile>
+			</row>
+		</get-provider-accounts>
+		</get-provider-accounts-multiple>
+		<transaction-multiple>
+		<transaction order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/KalamTDE_ResponseJson/
+				</filePath>
+				<responseFile>getTransactions1.json</responseFile>
+			</row>
+		</transaction>
+		</transaction-multiple>
+	</response>
+</entity>

@@ -1,0 +1,2482 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "insightName": {
+      "type": "string"
+    },
+    "insightTitle": {
+      "type": "string"
+    },
+    "insightType": {
+      "type": "string"
+    },
+    "triggerType": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "string"
+    },
+    "subscription": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "entityType": {
+              "type": "string"
+            },
+            "frequency": {
+              "type": "string"
+            },
+            "duration": {
+              "type": "string"
+            },
+            "threshold": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "value",
+                    "type"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "entityType",
+            "frequency",
+            "duration",
+            "threshold"
+          ]
+        }
+      ]
+    },
+    "basicAccount": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountNumber": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountNumber",
+            "accountType",
+            "container",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountNumber": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountNumber",
+            "accountType",
+            "container",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountNumber": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountNumber",
+            "accountType",
+            "container",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountNumber": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountNumber",
+            "accountType",
+            "container",
+            "link"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountNumber": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountNumber",
+            "accountType",
+            "container",
+            "link"
+          ]
+        }
+      ]
+    },
+    "basicTrend": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "debitTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "creditTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "averageNetTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "merchantTrend": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "basicMerchant": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name"
+                      ]
+                    },
+                    "debitTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "creditTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "netTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "averageNetTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "details": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "debitTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "creditTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "netTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "debitTotal",
+                            "creditTotal",
+                            "netTotal"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "debitTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "creditTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "netTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "debitTotal",
+                            "creditTotal",
+                            "netTotal"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "debitTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "creditTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "netTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "debitTotal",
+                            "creditTotal",
+                            "netTotal"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "basicMerchant",
+                    "debitTotal",
+                    "creditTotal",
+                    "netTotal",
+                    "averageNetTotal",
+                    "details"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "basicMerchant": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name"
+                      ]
+                    },
+                    "debitTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "creditTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "netTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "averageNetTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "basicPeerDetails": {
+                      "type": "object",
+                      "properties": {
+                        "dateRange": {
+                          "type": "object",
+                          "properties": {
+                            "fromDate": {
+                              "type": "string"
+                            },
+                            "toDate": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "fromDate",
+                            "toDate"
+                          ]
+                        },
+                        "benchmarkAsOf": {
+                          "type": "string"
+                        },
+                        "benchmark": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "geo": {
+                                  "type": "object",
+                                  "properties": {
+                                    "level": {
+                                      "type": "string"
+                                    },
+                                    "value": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "level",
+                                    "value"
+                                  ]
+                                },
+                                "isIncome": {
+                                  "type": "boolean"
+                                },
+                                "netTotal": {
+                                  "type": "object",
+                                  "properties": {
+                                    "amount": {
+                                      "type": "number"
+                                    },
+                                    "currency": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "amount",
+                                    "currency"
+                                  ]
+                                },
+                                "numberOfPeers": {
+                                  "type": "integer"
+                                }
+                              },
+                              "required": [
+                                "geo",
+                                "isIncome",
+                                "netTotal",
+                                "numberOfPeers"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dateRange",
+                        "benchmarkAsOf",
+                        "benchmark"
+                      ]
+                    },
+                    "details": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "debitTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "creditTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "netTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "debitTotal",
+                            "creditTotal",
+                            "netTotal"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "basicMerchant",
+                    "debitTotal",
+                    "creditTotal",
+                    "netTotal",
+                    "averageNetTotal",
+                    "basicPeerDetails",
+                    "details"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "basicMerchant": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name"
+                      ]
+                    },
+                    "debitTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "creditTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "netTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "averageNetTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "basicPeerDetails": {
+                      "type": "object",
+                      "properties": {
+                        "dateRange": {
+                          "type": "object",
+                          "properties": {
+                            "fromDate": {
+                              "type": "string"
+                            },
+                            "toDate": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "fromDate",
+                            "toDate"
+                          ]
+                        },
+                        "benchmarkAsOf": {
+                          "type": "string"
+                        },
+                        "benchmark": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "geo": {
+                                  "type": "object",
+                                  "properties": {
+                                    "level": {
+                                      "type": "string"
+                                    },
+                                    "value": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "level",
+                                    "value"
+                                  ]
+                                },
+                                "isIncome": {
+                                  "type": "boolean"
+                                },
+                                "netTotal": {
+                                  "type": "object",
+                                  "properties": {
+                                    "amount": {
+                                      "type": "number"
+                                    },
+                                    "currency": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "amount",
+                                    "currency"
+                                  ]
+                                },
+                                "numberOfPeers": {
+                                  "type": "integer"
+                                }
+                              },
+                              "required": [
+                                "geo",
+                                "isIncome",
+                                "netTotal",
+                                "numberOfPeers"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dateRange",
+                        "benchmarkAsOf",
+                        "benchmark"
+                      ]
+                    },
+                    "details": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "debitTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "creditTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "netTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "debitTotal",
+                            "creditTotal",
+                            "netTotal"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "basicMerchant",
+                    "debitTotal",
+                    "creditTotal",
+                    "netTotal",
+                    "averageNetTotal",
+                    "basicPeerDetails",
+                    "details"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "basicMerchant": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name"
+                      ]
+                    },
+                    "debitTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "creditTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "netTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "averageNetTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "basicPeerDetails": {
+                      "type": "object",
+                      "properties": {
+                        "dateRange": {
+                          "type": "object",
+                          "properties": {
+                            "fromDate": {
+                              "type": "string"
+                            },
+                            "toDate": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "fromDate",
+                            "toDate"
+                          ]
+                        },
+                        "benchmarkAsOf": {
+                          "type": "string"
+                        },
+                        "benchmark": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "geo": {
+                                  "type": "object",
+                                  "properties": {
+                                    "level": {
+                                      "type": "string"
+                                    },
+                                    "value": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "level",
+                                    "value"
+                                  ]
+                                },
+                                "isIncome": {
+                                  "type": "boolean"
+                                },
+                                "netTotal": {
+                                  "type": "object",
+                                  "properties": {
+                                    "amount": {
+                                      "type": "number"
+                                    },
+                                    "currency": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "amount",
+                                    "currency"
+                                  ]
+                                },
+                                "numberOfPeers": {
+                                  "type": "integer"
+                                }
+                              },
+                              "required": [
+                                "geo",
+                                "isIncome",
+                                "netTotal",
+                                "numberOfPeers"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dateRange",
+                        "benchmarkAsOf",
+                        "benchmark"
+                      ]
+                    },
+                    "details": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "debitTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "creditTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "netTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "debitTotal",
+                            "creditTotal",
+                            "netTotal"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "basicMerchant",
+                    "debitTotal",
+                    "creditTotal",
+                    "netTotal",
+                    "averageNetTotal",
+                    "basicPeerDetails",
+                    "details"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "basicMerchant": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name"
+                      ]
+                    },
+                    "debitTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "creditTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "netTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "averageNetTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "basicPeerDetails": {
+                      "type": "object",
+                      "properties": {
+                        "dateRange": {
+                          "type": "object",
+                          "properties": {
+                            "fromDate": {
+                              "type": "string"
+                            },
+                            "toDate": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "fromDate",
+                            "toDate"
+                          ]
+                        },
+                        "benchmarkAsOf": {
+                          "type": "string"
+                        },
+                        "benchmark": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "geo": {
+                                  "type": "object",
+                                  "properties": {
+                                    "level": {
+                                      "type": "string"
+                                    },
+                                    "value": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "level",
+                                    "value"
+                                  ]
+                                },
+                                "isIncome": {
+                                  "type": "boolean"
+                                },
+                                "netTotal": {
+                                  "type": "object",
+                                  "properties": {
+                                    "amount": {
+                                      "type": "number"
+                                    },
+                                    "currency": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "amount",
+                                    "currency"
+                                  ]
+                                },
+                                "numberOfPeers": {
+                                  "type": "integer"
+                                }
+                              },
+                              "required": [
+                                "geo",
+                                "isIncome",
+                                "netTotal",
+                                "numberOfPeers"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dateRange",
+                        "benchmarkAsOf",
+                        "benchmark"
+                      ]
+                    },
+                    "details": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "debitTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "creditTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "netTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "debitTotal",
+                            "creditTotal",
+                            "netTotal"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "basicMerchant",
+                    "debitTotal",
+                    "creditTotal",
+                    "netTotal",
+                    "averageNetTotal",
+                    "basicPeerDetails",
+                    "details"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "basicMerchant": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name"
+                      ]
+                    },
+                    "debitTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "creditTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "netTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "averageNetTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "details": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "debitTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "creditTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "netTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "debitTotal",
+                            "creditTotal",
+                            "netTotal"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "basicMerchant",
+                    "debitTotal",
+                    "creditTotal",
+                    "netTotal",
+                    "averageNetTotal",
+                    "details"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "basicMerchant": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name"
+                      ]
+                    },
+                    "debitTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "creditTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "netTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "averageNetTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "basicPeerDetails": {
+                      "type": "object",
+                      "properties": {
+                        "dateRange": {
+                          "type": "object",
+                          "properties": {
+                            "fromDate": {
+                              "type": "string"
+                            },
+                            "toDate": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "fromDate",
+                            "toDate"
+                          ]
+                        },
+                        "benchmarkAsOf": {
+                          "type": "string"
+                        },
+                        "benchmark": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "geo": {
+                                  "type": "object",
+                                  "properties": {
+                                    "level": {
+                                      "type": "string"
+                                    },
+                                    "value": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "level",
+                                    "value"
+                                  ]
+                                },
+                                "isIncome": {
+                                  "type": "boolean"
+                                },
+                                "netTotal": {
+                                  "type": "object",
+                                  "properties": {
+                                    "amount": {
+                                      "type": "number"
+                                    },
+                                    "currency": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "amount",
+                                    "currency"
+                                  ]
+                                },
+                                "numberOfPeers": {
+                                  "type": "integer"
+                                }
+                              },
+                              "required": [
+                                "geo",
+                                "isIncome",
+                                "netTotal",
+                                "numberOfPeers"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dateRange",
+                        "benchmarkAsOf",
+                        "benchmark"
+                      ]
+                    },
+                    "details": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "debitTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "creditTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "netTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "debitTotal",
+                            "creditTotal",
+                            "netTotal"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "basicMerchant",
+                    "debitTotal",
+                    "creditTotal",
+                    "netTotal",
+                    "averageNetTotal",
+                    "basicPeerDetails",
+                    "details"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "basicMerchant": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name"
+                      ]
+                    },
+                    "debitTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "creditTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "netTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "averageNetTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "basicPeerDetails": {
+                      "type": "object",
+                      "properties": {
+                        "dateRange": {
+                          "type": "object",
+                          "properties": {
+                            "fromDate": {
+                              "type": "string"
+                            },
+                            "toDate": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "fromDate",
+                            "toDate"
+                          ]
+                        },
+                        "benchmarkAsOf": {
+                          "type": "string"
+                        },
+                        "benchmark": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "geo": {
+                                  "type": "object",
+                                  "properties": {
+                                    "level": {
+                                      "type": "string"
+                                    },
+                                    "value": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "level",
+                                    "value"
+                                  ]
+                                },
+                                "isIncome": {
+                                  "type": "boolean"
+                                },
+                                "netTotal": {
+                                  "type": "object",
+                                  "properties": {
+                                    "amount": {
+                                      "type": "number"
+                                    },
+                                    "currency": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "amount",
+                                    "currency"
+                                  ]
+                                },
+                                "numberOfPeers": {
+                                  "type": "integer"
+                                }
+                              },
+                              "required": [
+                                "geo",
+                                "isIncome",
+                                "netTotal",
+                                "numberOfPeers"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dateRange",
+                        "benchmarkAsOf",
+                        "benchmark"
+                      ]
+                    },
+                    "details": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "debitTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "creditTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "netTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "debitTotal",
+                            "creditTotal",
+                            "netTotal"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "debitTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "creditTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "netTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "debitTotal",
+                            "creditTotal",
+                            "netTotal"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "basicMerchant",
+                    "debitTotal",
+                    "creditTotal",
+                    "netTotal",
+                    "averageNetTotal",
+                    "basicPeerDetails",
+                    "details"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "basicMerchant": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name"
+                      ]
+                    },
+                    "debitTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "creditTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "netTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "averageNetTotal": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "basicPeerDetails": {
+                      "type": "object",
+                      "properties": {
+                        "dateRange": {
+                          "type": "object",
+                          "properties": {
+                            "fromDate": {
+                              "type": "string"
+                            },
+                            "toDate": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "fromDate",
+                            "toDate"
+                          ]
+                        },
+                        "benchmarkAsOf": {
+                          "type": "string"
+                        },
+                        "benchmark": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "geo": {
+                                  "type": "object",
+                                  "properties": {
+                                    "level": {
+                                      "type": "string"
+                                    },
+                                    "value": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "level",
+                                    "value"
+                                  ]
+                                },
+                                "isIncome": {
+                                  "type": "boolean"
+                                },
+                                "netTotal": {
+                                  "type": "object",
+                                  "properties": {
+                                    "amount": {
+                                      "type": "number"
+                                    },
+                                    "currency": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "amount",
+                                    "currency"
+                                  ]
+                                },
+                                "numberOfPeers": {
+                                  "type": "integer"
+                                }
+                              },
+                              "required": [
+                                "geo",
+                                "isIncome",
+                                "netTotal",
+                                "numberOfPeers"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "dateRange",
+                        "benchmarkAsOf",
+                        "benchmark"
+                      ]
+                    },
+                    "details": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "debitTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "creditTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "netTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "debitTotal",
+                            "creditTotal",
+                            "netTotal"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "basicMerchant",
+                    "debitTotal",
+                    "creditTotal",
+                    "netTotal",
+                    "averageNetTotal",
+                    "basicPeerDetails",
+                    "details"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "debitTotal",
+            "creditTotal",
+            "netTotal",
+            "averageNetTotal",
+            "merchantTrend"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "insightName",
+    "insightTitle",
+    "insightType",
+    "triggerType",
+    "createdDate",
+    "subscription",
+    "basicAccount",
+    "basicTrend"
+  ]
+}

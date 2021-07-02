@@ -1,0 +1,631 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "insightName": {
+      "type": "string"
+    },
+    "insightTitle": {
+      "type": "string"
+    },
+    "insightType": {
+      "type": "string"
+    },
+    "triggerType": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "string"
+    },
+    "subscription": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "entityId": {
+              "type": "string"
+            },
+            "entityType": {
+              "type": "string"
+            },
+            "frequency": {
+              "type": "string"
+            },
+            "duration": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "entityId",
+            "entityType",
+            "frequency",
+            "duration"
+          ]
+        }
+      ]
+    },
+    "basicAccount": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "isAsset": {
+              "type": "boolean"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            },
+            "basicTrend": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "dateRange": {
+                      "type": "object",
+                      "properties": {
+                        "fromDate": {
+                          "type": "string"
+                        },
+                        "toDate": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "fromDate",
+                        "toDate"
+                      ]
+                    },
+                    "cashFlowTrend": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "cashInFlow": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "cashOutFlow": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "transferIn": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "transferOut": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "netTransfer": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "averageNetCashFlow": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "totalCashFlow": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "detail": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "dateRange": {
+                                      "type": "object",
+                                      "properties": {
+                                        "fromDate": {
+                                          "type": "string"
+                                        },
+                                        "toDate": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "fromDate",
+                                        "toDate"
+                                      ]
+                                    },
+                                    "cashInFlow": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "cashOutFlow": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "transferIn": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "transferOut": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "netTransfer": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "totalCashFlow": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    }
+                                  },
+                                  "required": [
+                                    "dateRange",
+                                    "cashInFlow",
+                                    "cashOutFlow",
+                                    "transferIn",
+                                    "transferOut",
+                                    "netTransfer",
+                                    "totalCashFlow"
+                                  ]
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "dateRange": {
+                                      "type": "object",
+                                      "properties": {
+                                        "fromDate": {
+                                          "type": "string"
+                                        },
+                                        "toDate": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "fromDate",
+                                        "toDate"
+                                      ]
+                                    },
+                                    "cashInFlow": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "cashOutFlow": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "transferIn": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "transferOut": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "netTransfer": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "totalCashFlow": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    }
+                                  },
+                                  "required": [
+                                    "dateRange",
+                                    "cashInFlow",
+                                    "cashOutFlow",
+                                    "transferIn",
+                                    "transferOut",
+                                    "netTransfer",
+                                    "totalCashFlow"
+                                  ]
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "dateRange": {
+                                      "type": "object",
+                                      "properties": {
+                                        "fromDate": {
+                                          "type": "string"
+                                        },
+                                        "toDate": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "fromDate",
+                                        "toDate"
+                                      ]
+                                    },
+                                    "cashInFlow": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "cashOutFlow": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "transferIn": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "transferOut": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "netTransfer": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    },
+                                    "totalCashFlow": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    }
+                                  },
+                                  "required": [
+                                    "dateRange",
+                                    "cashInFlow",
+                                    "cashOutFlow",
+                                    "transferIn",
+                                    "transferOut",
+                                    "netTransfer",
+                                    "totalCashFlow"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "cashInFlow",
+                            "cashOutFlow",
+                            "transferIn",
+                            "transferOut",
+                            "netTransfer",
+                            "averageNetCashFlow",
+                            "totalCashFlow",
+                            "detail"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "dateRange",
+                    "cashFlowTrend"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "isAsset",
+            "container",
+            "link",
+            "basicTrend"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "insightName",
+    "insightTitle",
+    "insightType",
+    "triggerType",
+    "createdDate",
+    "subscription",
+    "basicAccount"
+  ]
+}

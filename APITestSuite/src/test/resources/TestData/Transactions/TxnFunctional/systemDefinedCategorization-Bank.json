@@ -1,0 +1,360 @@
+{
+    "transaction": [
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "type": "DEPOSITS_CREDITS",
+            "subType": "DIRECT_DEPOSIT_SALARY",
+            "amount": {
+                "amount": 2526.17,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 2,
+            "category": "Automotive/Fuel",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000003,
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "VIASAT INC DIRECT DEP",
+                "simple": "Direct Deposit/Salary"
+            },
+            "date": "2018-01-17",
+            "postDate": "2018-01-17",
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 10310.16,
+                "currency": "USD"
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "type": "DEPOSITS_CREDITS",
+            "subType": "DEPOSIT",
+            "amount": {
+                "amount": 112.57,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "categoryType": "INCOME",
+            "categoryId": 27,
+            "category": "Deposits",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000012,
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "DEPOSIT",
+                "simple": "Deposit"
+            },
+            "date": "2018-01-16",
+            "postDate": "2018-01-16",
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 7783.99,
+                "currency": "USD"
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "type": "DEPOSITS_CREDITS",
+            "subType": "DIRECT_DEPOSIT_SALARY",
+            "amount": {
+                "amount": 15000,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "categoryType": "INCOME",
+            "categoryId": 29,
+            "category": "Salary/Regular Income",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000012,
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "Salary deposited",
+                "simple": "Direct Deposit/Salary"
+            },
+            "date": "2018-01-15",
+            "postDate": "2018-01-15",
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 25000,
+                "currency": "USD"
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "type": "PURCHASE",
+            "subType": "PURCHASE",
+            "amount": {
+                "amount": 100,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 45,
+            "category": "Office Expenses",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000007,
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "Advertising in Yellow Pages",
+                "simple": "Advertising in Yellow Pages"
+            },
+            "date": "2018-01-14",
+            "postDate": "2018-01-14",
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 3097.92,
+                "currency": "USD"
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "type": "PAYMENT",
+            "subType": "LOAN",
+            "amount": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 17,
+            "category": "Loans",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000004,
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "LOAN PAYMENT",
+                "simple": "Loan"
+            },
+            "date": "2018-01-13",
+            "postDate": "2018-01-13",
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 6997.92,
+                "currency": "USD"
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "type": "WITHDRAWAL",
+            "subType": "ATM_CASH_WITHDRAWAL",
+            "amount": {
+                "amount": 5000.18,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 25,
+            "category": "ATM/Cash Withdrawals",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000010,
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "ATM Cash Withdrawal",
+                "simple": "ATM/Cash Withdrawal"
+            },
+            "date": "2018-01-12",
+            "postDate": "2018-01-12",
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 3197.92,
+                "currency": "USD"
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "type": "PAYMENT",
+            "subType": "RECURRING_SUBSCRIPTION_PAYMENT",
+            "amount": {
+                "amount": 1890.18,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 15,
+            "category": "Cable/Satellite/Telecom",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000004,
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "Telephone Bill Paid",
+                "simple": "Fido Solutions"
+            },
+            "date": "2018-01-11",
+            "postDate": "2018-01-11",
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 8197.92,
+                "currency": "USD"
+            },
+            "merchant": {
+                "id": "fidosolutions",
+                "name": "Fido Solutions",
+                "source": "FACTUAL",
+                "categoryLabel": [
+                    "Cable/Satellite/Telecom"
+                ],
+                "coordinates": {
+                    "latitude": "${json-unit.ignore}",
+                    "longitude": "${json-unit.ignore}"
+                }
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "type": "PURCHASE",
+            "subType": "PURCHASE",
+            "amount": {
+                "amount": 500.18,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 2,
+            "category": "Automotive/Fuel",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000003,
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "SHELL OIL",
+                "simple": "Shell"
+            },
+            "date": "2018-01-10",
+            "postDate": "2018-01-10",
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 2600.92,
+                "currency": "USD"
+            },
+            "merchant": {
+                "id": "shell",
+                "name": "Shell",
+                "source": "FACTUAL",
+                "categoryLabel": [
+                    "Automotive/Fuel"
+                ],
+                "coordinates": {
+                    "latitude": "${json-unit.ignore}",
+                    "longitude": "${json-unit.ignore}"
+                }
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "type": "PAYMENT",
+            "subType": "PAYMENT",
+            "amount": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 21,
+            "category": "Rent",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000004,
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "Rent Paid",
+                "simple": "Rent Paid"
+            },
+            "date": "2018-01-09",
+            "postDate": "2018-01-09",
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 2197.92,
+                "currency": "USD"
+            }
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "type": "PURCHASE",
+            "subType": "PURCHASE",
+            "amount": {
+                "amount": 42.96,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 22,
+            "category": "Restaurants",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000011,
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "McDonalds",
+                "simple": "McDonald's"
+            },
+            "date": "2018-01-08",
+            "postDate": "2018-01-08",
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 11488.1,
+                "currency": "USD"
+            },
+            "merchant": {
+                "id": "mcdonald's",
+                "name": "McDonald's",
+                "source": "FACTUAL",
+                "categoryLabel": [
+                    "Restaurants"
+                ],
+                "coordinates": {
+                    "latitude": "${json-unit.ignore}",
+                    "longitude": "${json-unit.ignore}"
+                }
+            }
+        }
+    ]
+}

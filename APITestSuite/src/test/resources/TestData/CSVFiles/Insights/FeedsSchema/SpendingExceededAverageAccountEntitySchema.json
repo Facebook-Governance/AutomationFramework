@@ -1,0 +1,337 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "insightName": {
+      "type": "string"
+    },
+    "insightTitle": {
+      "type": "string"
+    },
+    "insightType": {
+      "type": "string"
+    },
+    "triggerType": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "string"
+    },
+    "subscription": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "entityId": {
+              "type": "string"
+            },
+            "entityType": {
+              "type": "string"
+            },
+            "threshold": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "value",
+                    "type"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "value",
+                    "type"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "entityId",
+            "entityType",
+            "threshold"
+          ]
+        }
+      ]
+    },
+    "basicAccount": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "isAsset": {
+              "type": "boolean"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            },
+            "basicTrend": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "dateRange": {
+                      "type": "object",
+                      "properties": {
+                        "fromDate": {
+                          "type": "string"
+                        },
+                        "toDate": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "fromDate",
+                        "toDate"
+                      ]
+                    },
+                    "categoryTrend": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "categoryId": {
+                              "type": "integer"
+                            },
+                            "category": {
+                              "type": "string"
+                            },
+                            "netTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "categoryDerived": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "dateRange": {
+                                      "type": "object",
+                                      "properties": {
+                                        "fromDate": {
+                                          "type": "string"
+                                        },
+                                        "toDate": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "fromDate",
+                                        "toDate"
+                                      ]
+                                    },
+                                    "averageNetTotal": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    }
+                                  },
+                                  "required": [
+                                    "dateRange",
+                                    "averageNetTotal"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "categoryId",
+                            "category",
+                            "netTotal",
+                            "categoryDerived"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "categoryId": {
+                              "type": "integer"
+                            },
+                            "category": {
+                              "type": "string"
+                            },
+                            "netTotal": {
+                              "type": "object",
+                              "properties": {
+                                "amount": {
+                                  "type": "number"
+                                },
+                                "currency": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "amount",
+                                "currency"
+                              ]
+                            },
+                            "categoryDerived": {
+                              "type": "array",
+                              "items": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "dateRange": {
+                                      "type": "object",
+                                      "properties": {
+                                        "fromDate": {
+                                          "type": "string"
+                                        },
+                                        "toDate": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "fromDate",
+                                        "toDate"
+                                      ]
+                                    },
+                                    "averageNetTotal": {
+                                      "type": "object",
+                                      "properties": {
+                                        "amount": {
+                                          "type": "number"
+                                        },
+                                        "currency": {
+                                          "type": "string"
+                                        }
+                                      },
+                                      "required": [
+                                        "amount",
+                                        "currency"
+                                      ]
+                                    }
+                                  },
+                                  "required": [
+                                    "dateRange",
+                                    "averageNetTotal"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "required": [
+                            "categoryId",
+                            "category",
+                            "netTotal",
+                            "categoryDerived"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "dateRange",
+                    "categoryTrend"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "isAsset",
+            "container",
+            "link",
+            "basicTrend"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "insightName",
+    "insightTitle",
+    "insightType",
+    "triggerType",
+    "createdDate",
+    "subscription",
+    "basicAccount"
+  ]
+}

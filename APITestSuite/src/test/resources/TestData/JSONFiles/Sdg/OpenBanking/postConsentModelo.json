@@ -1,0 +1,38 @@
+{
+    "consent": [
+        {
+            "consentId": "${json-unit.ignore}",
+            "title": "${json-unit.ignore}",
+            "titleBody": "${json-unit.ignore}",
+            "expirationDate": "${json-unit.ignore}",
+            "dataAccessFrequency": "RECURRING",
+            "consentStatus": "ACTIVE",
+            "providerId": 24016,
+            "scope": [
+                {
+                    "scopeId": "ACCOUNT_DETAILS",
+                    "title": "Your Account Details",
+                    "titleBody": [
+                        "Your account name, type, number and sort code",
+                        "Your account balance"
+                    ],
+                    "datasetAttributes": [
+                        "BASIC_AGG_DATA.ACCOUNT_DETAILS",
+                        "BASIC_AGG_DATA.BASIC_ACCOUNT_INFO"
+                    ]
+                },
+                {
+                    "scopeId": "TRANSACTION_DETAILS",
+                    "title": "Your Account Transactions for the Last 365 months",
+                    "titleBody": [
+                        "Details of your incoming transactions",
+                        "Details of your outgoing transactions"
+                    ],
+                    "datasetAttributes": [
+                        "BASIC_AGG_DATA.TRANSACTIONS"
+                    ]
+                }
+            ]
+        }
+    ]
+}

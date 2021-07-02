@@ -1,0 +1,18 @@
+{
+	"providerAccount": [{
+		"createdDate": "${json-unit.ignore}",
+		"aggregationSource": "USER",
+		"providerId": 19686,
+		"isManual": false,
+		"id": "${json-unit.ignore}",
+		"dataset": [{
+			"updateEligibility": "ALLOW_UPDATE",
+			"additionalStatus": "PARTIAL_DATA_RETRIEVED",
+			"nextUpdateScheduled": "${json-unit.ignore}",
+			"name": "BASIC_AGG_DATA",
+  			"lastUpdated": "2019-04-11T05:28:23Z",
+			"lastUpdateAttempt": "${json-unit.ignore}"
+		}],
+		"status": "PARTIAL_SUCCESS"
+	}]
+}

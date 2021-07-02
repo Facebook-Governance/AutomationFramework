@@ -1,0 +1,814 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll" parallel="methods" thread-count="1" preserve-order="true">
+    <parameter name="hybrid" value="false" />
+    <parameter name="release_name" value="Nov 2018" />
+    <parameter name="isFirstRun" value="false" />
+    <parameter name="isStaticComparable" value="false" />
+    <parameter name="isDiffyEnabled" value="false" />
+    <parameter name="getApiVersion" value="1.0" />
+    <parameter name="isUserStatic" value="false" />
+    <parameter name="updateApiVersion" value="1.0" />
+    <parameter name="healthCheckUp" value="false" />
+    <parameter name="config_file" value="Config_Sense.Properties" />
+    <parameter name="suiteName" value="YSLAutoAmelia" />
+    <listeners>
+        <listener class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+        <listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+        <listener class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+    </listeners>
+    <test name="BillNotPaid">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForBillNotPaid" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForBillNotPaid" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionBillNotPaid" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionBillNotPaid" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForBillNotPaid"></class>
+        </classes>
+    </test>
+    <test name="UpcomingBills">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForUpcomingBills" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForUpcomingBills" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserUpcomingBills" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionUpcomingBills" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForUpcomingBills"></class>
+        </classes>
+    </test>
+    <test name="UpcomingSubscription">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForUpcomingSubscription" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForUpcomingSubcription" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserUpcomingSubscription" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionUpcomingSubscription" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForUpcomingSubscription"></class>
+        </classes>
+    </test>
+    <test name="NewBillEventDetected">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForNewBillEventDetected" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForNewBillEventDetected" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserNewBill" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionNewBill" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForNewBill"></class>
+        </classes>
+    </test>
+    <test name="NewSubscriptionEventDetected">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForNewSubscriptionEventDetected" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForNewSubscriptionEventDetected" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserNewSubscription" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionNewSubscription" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForNewSubscription"></class>
+        </classes>
+    </test>
+    <test name="IncomeExpenseOverview">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForIncomeExpenseOverview" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForIncomeExpenseOverview" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserIncomeExpenseOverview" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionIncomeExpenseOverview" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForIncomeExpenseOverview"></class>
+        </classes>
+    </test>
+    <test name="BudgetProgress">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForBudgetProgress" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForBudgetProgress" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserBudgetProgress" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionBudgetProgress" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForBudgetProgressView"></class>
+        </classes>
+    </test>
+    <test name="RefundDepositNotice">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForRefundDeposit" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForRefundDeposit" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserRefundDeposit" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionRefundDeposit" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForRefundDepositNotice"></class>
+        </classes>
+    </test>
+    <test name="MostFrequentPurchases-TopMerchantCount">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForMostFrequentPurchases" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForMostFrequentPurchases" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserMostFrequentPurchases" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionMostFrequentPurchases" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForMostFrequentPurchases"></class>
+        </classes>
+    </test>
+    <test name="ProjectedLowBalance">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForProjectedLowBalance" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForProjectedLowBalance" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionProjectedLowBalance" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionProjectedLowBalance" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForProjectedLowBalance"></class>
+        </classes>
+    </test>
+    <test name="CameInUnderBudget">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForCameInUnderBudget" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForCameinUnderBudget" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionCameinUnderBudget" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionCameinUnderBudget" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForCameinUnderBudget"></class>
+        </classes>
+    </test>
+    <test name="CreditLimitWarning">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForCreditLimitWarning" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForCreditLimitWarning" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionCreditLimitWarning" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionCreditLimitWarning" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForCreditLimitWarninng"></class>
+        </classes>
+    </test>
+    <test name="CreditUtilization">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForCreditUtilization" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForCreditUtilization" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionCreditUtilization" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionCreditUtilization" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForCreditUtilization"></class>
+        </classes>
+    </test>
+    <test name="FinancialFees">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForFinancialFees" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForFinancialFees" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionFinancialFees" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionFinancialFees" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForFinancialFees"></class>
+        </classes>
+    </test>
+    <test name="GoalsSavingsOffTrack">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForGoalOffTrack" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForGoalOffTrack" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionGoalOffTrack" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionGoalOffTrack" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForGoalsSavingsOffTrack"></class>
+        </classes>
+    </test>
+    <test name="LargeDepositNotice">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForLargeDepositNotice" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForLargeDepositNotice" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionLargeDepositNotice" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionLargeDepositNotice" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForLargeDepositNotice"></class>
+        </classes>
+    </test>
+    <test name="LowBalanceWarning">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForLowBalWarning" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForLowBalanceWarning" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionLowBalWarning" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionLowBalanceWarning" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForLowBalanceWarning"></class>
+        </classes>
+    </test>
+    <test name="NetworthChange">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForNetworthChange" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForNetworthChange" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionNetworthChange" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionNetworthChange" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForNetworthChange"></class>
+        </classes>
+    </test>
+    <test name="SalaryDeposited">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForSalaryDeposit" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForSalaryDeposited" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionSalaryDeposited" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionSalaryDeposited" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForSalaryDeposited"></class>
+        </classes>
+    </test>
+    <test name="CategorySpendingExceeded">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForCategorySpendingExceeded" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForCategorySpendingExceeded" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionCategorySpendingExceeded" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionCategorySpendingExceeded" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForCategorySpendingExceeded"></class>
+        </classes>
+    </test>
+    <test name="ProjectedInsufficientBalance">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForProjectedInsufficientBalance" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForProjectedInsufficientBalance" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionProjectedInsufficientBalance" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionProjectedInsufficientBalance" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForProjectedInsufficientBalance"></class>
+        </classes>
+    </test>
+    <test name="LargePurchase">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForLargePurchase" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForLargePurchase" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserLargePurchase" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionLargePurchase" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForLargePurchaseInsight"></class>
+        </classes>
+    </test>
+    <test name="CardStatementAvailable">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForCardStatementAvailable" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForCardStatementAvailable" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserCardStatementAvailable" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionCardStatementAvailable" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForCardStatementAvailable"></class>
+        </classes>
+    </test>
+    <test name="PropertyValueChange">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForPropertyValueChange" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForPropertyValueChange" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionPropertyValueChange" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionPropertyValueChange" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForPropertyValueChange"></class>
+        </classes>
+    </test>
+    <test name="BillPaid">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForBillPaid" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForBillPaid" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionBillPaid" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionBillPaid" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForBillPaid"></class>
+        </classes>
+    </test>
+    <test name="SubscriptionPaid">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForSubscriptionPaid" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForSubscriptionPaid" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionSubscriptionPaid" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionSubscriptionPaid" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForSubscriptionPaid"></class>
+        </classes>
+    </test>
+   <test name="AssetChange">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+				<methods>
+					<include name="testGetCobrandSubscriptionForAssetChange" />
+				</methods>
+			</class>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+				<methods>
+					<include name="testPatchCobrandSubscriptionForAssetChange" />
+				</methods>
+			</class>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+				<methods>
+					<include name="testGetUserSubscriptionAssetChange" />
+				</methods>
+			</class>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+				<methods>
+					<include name="testPatchUserSubscriptionAssetChange" />
+				</methods>
+			</class>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForAssetChange"></class>
+		</classes>
+	</test>
+
+	<test name="LiabilityChange">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+				<methods>
+					<include
+						name="testGetCobrandSubscriptionForLiabilityChange" />
+				</methods>
+			</class>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+				<methods>
+					<include
+						name="testPatchCobrandSubscriptionForLiabilityChange" />
+				</methods>
+			</class>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+				<methods>
+					<include name="testGetUserSubscriptionLiabilityChange" />
+				</methods>
+			</class>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+				<methods>
+					<include name="testPatchUserSubscriptionLiabilityChange" />
+				</methods>
+			</class>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForLiabilityChange"></class>
+		</classes>
+	</test>
+    <test name="Card Statement Due Reminder ">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForCardStatementDueReminder" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForCardStatementDueReminder" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionCardStatementDueReminder" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionCardStatementDueReminder" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForCardStatementDueReminder"></class>
+        </classes>
+    </test>
+    <test name="SpendingbyCategory">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+                <methods>
+                    <include name="testGetCobrandSubscriptionForSpendingbyCategory" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+                <methods>
+                    <include name="testPatchCobrandSubscriptionForSpendingbyCategory" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+                <methods>
+                    <include name="testGetUserSubscriptionSpendingbyCategory" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+                <methods>
+                    <include name="testPatchUserSubscriptionSpendingbyCategory" />
+                </methods>
+            </class>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForSpendingbyCategory"></class>
+        </classes>
+    </test>
+    <test name="Expenses Approaching Budget">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest">
+				<methods>
+					<include
+						name="testGetCobrandSubscriptionForExpensesApproachingBudget" />
+				</methods>
+			</class>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest">
+				<methods>
+					<include
+						name="testPatchCobrandSubscriptionForExpensesApproachingBudget" />
+				</methods>
+			</class>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest">
+				<methods>
+					<include
+						name="testGetUserSubscriptionExpensesApproachingBudget" />
+				</methods>
+			</class>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest">
+				<methods>
+					<include
+						name="testPatchUserSubscriptionExpensesApproachingBudget" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+</suite>

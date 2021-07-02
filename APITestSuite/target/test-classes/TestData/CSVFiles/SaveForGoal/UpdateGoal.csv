@@ -1,0 +1,58 @@
+TestCaseId,TestCase,GoalName,CategoryID,TargetAmount,TargetAmountCurency,RecurringAmount,RecurringAmountCurrency,Frequency,StartDate,TargetDate,Status,FundSetupStatus,isFTSelected,Enabled,StatusCode,ErrorCode,ErrorMessage
+AT-104388,updating goal name with existing name.,GoalName500,,,,,,,,,,,,TRUE,400,Y811,goalName value already exists
+"AT-104387,AT-104392",updating goal name with all valid parameters,GoalName510,3,1500,USD,200,USD,MONTHLY,,,,,TRUE,TRUE,204,,
+AT-104391,updating goal without goalname.,,1,1300,USD,100,USD,MONTHLY,,,,NONE,FALSE,TRUE,204,,
+AT-104389,updating goal name that is over 40 characters.,CreatingGoalWithGoalNameMoreThenFourtyCharacters,,,,,,,,,,,,TRUE,400,Y800,Invalid value for goalName.goalName should not exceed 40 characters
+AT-104390,"updating goal name,that contains special characters.",Goal@#%&*^!$,,,,,,,,,,,,TRUE,400,Y800,Invalid value for goalName. Special characters not allowed in goalName.
+AT-104393,updating category id to 2,,2,,,,,,,,,,,TRUE,204,,
+AT-104394,updating category id to 3,,3,1160,USD,400,USD,WEEKLY,,,,PARTIAL,,TRUE,204,,
+AT-104395,updating category id to 4,,4,1300,USD,100,USD,MONTHLY,,,,NONE,,TRUE,204,,
+AT-104396,updating category id to 5,,5,,,,,,,,,,,TRUE,204,,
+AT-104397,updating category id to 6,,6,,,,,,,,,,,TRUE,204,,
+AT-104398,updating category id to 7,,7,,,,,,,,,,,TRUE,204,,
+AT-104399,updating category id to 8,,8,,,,,,,,,,,TRUE,204,,
+AT-104400,updating category id to 9,,9,,,,,,,,,,,TRUE,204,,
+AT-104401,updating category id to 10,,10,,,,,,,,,,,TRUE,204,,
+AT-104402,updating category id to 11,,11,,,,,,,,,,,TRUE,204,,
+AT-104403,updating category id to 12,,12,,,,,,,,,,,TRUE,204,,
+AT-104404,updating category id to 13,,13,,,,,,,,,,,TRUE,204,,
+AT-104405,updating category id to 14,,14,,,,,,,,,,,TRUE,204,,
+AT-104406,updating category id to 15,,15,,,,,,,,,,,TRUE,204,,
+AT-104406,updating category to invalid category,,17,,,,,,,,,,,TRUE,400,Y800,Invalid value for categoryId
+AT-105149,updating fund setup status to PARTIAL.,,1,,,,,,,,,PARTIAL,,TRUE,204,,
+"AT-104407,AT-105150",updating fund setup status to COMPLETE.,,,,,,,,,,,COMPLETE,,TRUE,204,,
+AT-105149,updating fund setup status to INVALID value.,,,,,,,,,,,INVALID,,TRUE,400,Y800,Invalid value for fundSetupStatus
+AT-104408,updating target amount to zero,,,0,USD,100,USD,MONTHLY,,,,NONE,,TRUE,400,Y804,"Permitted values of targetAmount between 1 - 99,999,999,999.99"
+AT-104408,updating target currency to negative digit and  recurring to 0.,,,-20,USD,0,USD,WEEKLY,,,,,,TRUE,400,Y804,"Permitted values of targetAmount between 1 - 99,999,999,999.99"
+AT-104408,updating target currency and recurring  to negative number. ,,,-30,USD,-30,USD,QUARTERLY,,,,,,TRUE,400,Y804,"Permitted values of targetAmount between 1 - 99,999,999,999.99"
+AT-104408,updating target amount to  more than 11 digit.,,,8.98E+11,USD,100,USD,ANNUALLY,,,,,,TRUE,400,Y804,"Permitted values of targetAmount between 1 - 99,999,999,999.99"
+AT-104409,updating target amount with invalid value.,,,Ab100,USD,,USD,,,,,,,TRUE,400,Y800,Invalid value for targetAmount
+AT-104410,updating target amount with null value and Target currency also null.,,,,,100,USD,MONTHLY,,,,NONE,,TRUE,204,,
+AT-104411,updating currency to invalid currency value,,,1300,SAK,100,SAK,WEEKLY,,,,NONE,,TRUE,400,Y800,Invalid value for targetCurrency
+AT-104411,updating target amount currency.,,,1300,INR,100,USD,QUARTERLY,,,,,,TRUE,400,Y800,Invalid value for  targetAmount/recurringAmount.targetAmount currency should  be same as recurringAmount currency
+AT-104411,updating recurring amount currency.,,,1300,INR,100,INR,ANNUALLY,,,,,,TRUE,204,,
+"AT-104421,AT-104417",updating goal start date when status is not started.,GoalName50,,,,,,,"0,0,-2","1,0,0",,,,TRUE,400,Y800,Invalid value for startDate.startDate is a past/currentDate
+"AT-104419,AT-104422","updating goal start date,which is  later than target date.",GoalName50,,,,,,,"1,0,5","1,0,0",,,,TRUE,400,Y800,Invalid value for startDate.startDate should be earlier than targetDate
+"AT-104420,AT-104423",updating goal end date which is earlier than start date,GoalName50,,,,,,,"0,0,1","0,0,-2",,,,TRUE,400,Y800,Invalid value for targetDate.targetDate is a past/currentDate
+AT-104425,updating frequency with invalid frequency value,,,1500,USD,290,USD,INVALID,,,,,,TRUE,400,Y800,Invalid value for frequency
+AT-104425,updating goal frequency to one time.,,,1300,USD,100,USD,ONE_TIME,,,,,,TRUE,204,,
+AT-104425,updating goal frequency to weekly.,,,,,100,USD,WEEKLY,,,,,,TRUE,204,,
+AT-104425,updating goal frequency to Every 2 weeks,,,,,100,USD,EVERY_2_WEEKS,,,,,,TRUE,204,,
+AT-104425,updating goal frequency to Every 2 months.,,,,,100,USD,EVERY_2_MONTHS,,,,,,TRUE,204,,
+AT-104425,updating goal frequency to quarterly.,,,,,100,USD,QUARTERLY,,,,,,TRUE,204,,
+AT-104425,updating goal frequency to semi annually.,,,,,100,USD,SEMI_ANNUALLY,,,,,,TRUE,204,,
+AT-104425,updating goal status with invalid status value,,,,,,,,,,INVALID,,,,400,Y800,Invalid value for status
+AT-104425,updating goal frequency to annually.,,,,,100,USD,ANNUALLY,,,,,,TRUE,204,,
+AT-112177,"If the goal is in NOT_STARTED state, the user should be allowed to update both his targetDate and his recurringAmount + frequency.",GoalName550,4,1500,USD,,,,,"1,0,0",,,,TRUE,204,,
+AT-112178,"If the goal is in IN_PROGRESS state, the user should not be allowed to edit his recurringAmount.",GoalName550Edit,4,,,100,USD,MONTHLY,,,,,,TRUE,204,,
+AT-112179,"If the goal is in IN_PROGRESS state, on updating the targetDate, the recurringAmount should get updated accordingly.",GoalName550Edit1,4,13000,USD,,,,,,,,,TRUE,204,,
+AT-112180,All calculations should be the same when the goal is in NOT_STARTED state as create goal.,GoalName550Edit2,,,,,,,,"1,1,0",,,,TRUE,204,,
+AT-104412,updating goal status from not_started to inprogress.,,2,,,,,MONTHLY,,,IN_PROGRESS,,,TRUE,204,,
+AT-104424,updating goal status from Inprogress to Not started.,,1,,,230,USD,WEEKLY,,,NOT_STARTED,,,TRUE,400,Y825,"Update not allowed Goal is in IN_PROGRESS status , cannot update recurringAmount"
+"AT-104415,AT-104416",updating goal start date when status is inprogress.,,,13000,USD,,,,,,IN_PROGRESS,,,TRUE,400,Y825,Update not allowed Goal status is IN_PROGRESS
+AT-104418,"updating goalname, category and target amount when status is inprogress.",GoalName520,3,1600,USD,,,,,,,,,TRUE,204,,
+AT-104413,updating goal status from Inprogress to complete.,,1,1300,USD,,,,,,COMPLETED,,,TRUE,204,,
+AT-104413,updating goal name and target amount and category when goal status is completed,GoalName530,4,1500,USD,,,,,,,,,TRUE,400,Y825,Update not allowed Goal is in COMPLETED status
+AT-104414,updating goal status to accomplished.,,,,,,,,,,REALIZED,,,TRUE,204,,
+AT-104419,"updating goal name, category , target amount when status is realised",GoalName540,1,1700,USD,100,USD,MONTHLY,,,,,,TRUE,400,Y825,Update not allowed Goal is in REALIZED status
+AT-104419,updating goal name and target amount and category when goal status is Accomplished.,GoalName550,4,1500,USD,100,USD,MONTHLY,,,COMPLETED,,,TRUE,400,Y825,Update not allowed Goal is in REALIZED status

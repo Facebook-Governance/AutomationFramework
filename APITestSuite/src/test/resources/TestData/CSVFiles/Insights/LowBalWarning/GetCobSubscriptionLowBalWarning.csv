@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-146914,"Validate LowBalanceWarning , check if Insight is unSubscribed to OR isSubscribed=false ",,LowBalanceWarning,LowBalanceWarning,,,,,,account,FALSE,,,,200,TRUE
+AT-146915,"Validate LowBalanceWarning , Validate InsightName",,LowBalanceWarning,LowBalanceWarning,,,,,,,,,,,200,TRUE
+AT-146916,"Validate LowBalanceWarning , Validate Supporting container",,LowBalanceWarning,,,BANK,,,,,,,,,200,TRUE
+AT-146917,"Validate LowBalanceWarning , Validate TriggerType",REFRESH,LowBalanceWarning,,,,,,,,,,,,200,TRUE
+AT-146918,"Validate LowBalanceWarning , Validate applicableEntity",,LowBalanceWarning,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-146919,"Validate LowBalanceWarning , Validate number of levels and levelObject",,LowBalanceWarning,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-146920,"Validate LowBalanceWarning , Validate isSubscribed=false",,LowBalanceWarning,,,,,,,,FALSE,,,,200,TRUE
+AT-146921,"Validate LowBalanceWarning , Validate threshold Name,default Value 60000 and Type",,LowBalanceWarning,,,,,,,account,,,"BALANCE,200,AMOUNT",,200,TRUE
+AT-146922,"Validate LowBalanceWarning , Validate insightKeys",,LowBalanceWarning,,,,Account,,,,,,,,200,TRUE
+AT-146923,"Validate LowBalanceWarning , Validate description",,LowBalanceWarning,,,,,Generates an insight when the balance on a bank account is below a configured threshold.,,,,,,,200,TRUE
+AT-146924,"Validate LowBalanceWarning , Validate title",,LowBalanceWarning,,Low Balance Warning,,,,,,,,,,200,TRUE
+AT-146925,"Validate LowBalanceWarning , Validate ruleExpression",,LowBalanceWarning,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE

@@ -1,0 +1,14 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-BillCh01,"Validate BillChanged , Validate InsightName",,BillChanged,BillChanged,,,,,,,,,,,,200,TRUE
+AT-BillCh02,"Validate BillChanged , Validate Supporting container",,BillChanged,,,BANK,,,,,,,,,,200,TRUE
+AT-BillCh03,"Validate BillChanged , Validate TriggerType",EVENT,BillChanged,,,,,,,,,,,,,200,TRUE
+AT-BillCh04,"Validate BillChanged , Validate applicableEntity",,BillChanged,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-BillCh05,"Validate BillChanged , Validate number of levels and levelObject",,BillChanged,,,,,,,ACOCUNT,"account, view",,,,,200,TRUE
+AT-BillCh06,"Validate BillChanged , Validate isSubscribed=false",,BillChanged,,,,View,22,,,view,FALSE,,,,200,TRUE
+AT-BillCh07,"Validate BillChanged , Validate threshold Name,Value and Type",,BillChanged,,,,Account,22,,,account,,,"CHANGE,10,AMOUNT    CHANGE,10,PERCENT",,200,TRUE
+AT-BillCh08,"Validate BillChanged , Validate insightKeys for BillChanged info",,BillChanged,,,,,,,,,,,,,200,TRUE
+AT-BillCh09,"Validate BillChanged , Validate insightKeys for historicalBalances info",,BillChanged,,,,,,,,,,,,,200,TRUE
+AT-BillCh10,"Validate BillChanged , Validate description",,BillChanged,,,,,,Generates an insight when a recurring bill changes by more than a configured threshold.,,,,,,,200,TRUE
+AT-BillCh11,"Validate BillChanged , Validate title",,BillChanged,,Bill Changed,,,,,,,,,,,200,TRUE
+AT-BillCh12,"Validate BillChanged , Validate ruleExpression",,BillChanged,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-BillCh13,"Validate BillChanged , Validate total number of keys ",,BillChanged,,,,Account,,,,,,,,,200,TRUE

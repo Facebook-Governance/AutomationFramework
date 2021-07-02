@@ -1,0 +1,21 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147400,patchCobrandSubscription - subscribe to LongTenureRecurringPayments isSubscribed=true,LongTenureRecurringPayments,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-147405,patchCobrandSubscription - update insightName to same name,LongTenureRecurringPayments,negTestScenario53,LongTenureRecurringPayments,,,,,,,,,,,,,,,,,,500,TRUE
+AT-147402,patchCobrandSubscription -  update insightName to different name,LongTenureRecurringPayments,negTestScenario2,LongTenureRecurringPaymentsEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147403,patchCobrandSubscription - update insightTitle chars between 3 and 100 ,LongTenureRecurringPayments,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-147398,patchCobrandSubscription -  update insightTitle chars are only 3,LongTenureRecurringPayments,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-147419,patchCobrandSubscription - update insightTitle chars are only 100,LongTenureRecurringPayments,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-147417,patchCobrandSubscription - update insightTitle chars are less than 3,LongTenureRecurringPayments,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-147418,patchCobrandSubscription -  update insightTitle chars are greater 100,LongTenureRecurringPayments,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-147414,patchCobrandSubscription - update insightTitle chars are special characters,LongTenureRecurringPayments,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-147423,patchCobrandSubscription -  update container,LongTenureRecurringPayments,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-147411,patchCobrandSubscription -  update keys,LongTenureRecurringPayments,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147422,patchCobrandSubscription -  update description,LongTenureRecurringPayments,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147413,patchCobrandSubscription -  update applicableEntity,LongTenureRecurringPayments,negTestScenario9,,,,,,,,INVESTMENT,,,,,,,,,,,400,TRUE
+AT-147407,patchCobrandSubscription - update entityParameter->account[0]->insightType,LongTenureRecurringPayments,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-147401,patchCobrandSubscription - update entityParameter->account[0]->insightType - Invalid Name,LongTenureRecurringPayments_Invalid,negTestScenario2,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",400,TRUE
+AT-147410,patchCobrandSubscription - update entityParameter->account[0]->isSubscribed=false,LongTenureRecurringPayments,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-147408,patchCobrandSubscription - update entityParameter->account[0]->threshold[0]->value,LongTenureRecurringPayments,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,6,NUMBER",204,TRUE
+AT-147406,patchCobrandSubscription -  update entityParameter->account[0]->threshold[0]->type,LongTenureRecurringPayments,negTestScenario28,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,PERCENT",400,TRUE
+AT-147409,patchCobrandSubscription -  update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,LongTenureRecurringPayments,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-147604,patchCobrandSubscription - update insightTitle to Long Tenure Recurring Payments,LongTenureRecurringPayments,,,Long Tenure Recurring Payments,,,,,,,,,,,,,,,,,204,TRUE

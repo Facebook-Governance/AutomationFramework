@@ -1,0 +1,11 @@
+tcId,testCase,resFilePath,resFile,Enabled,recurringEventStatus,sourceType,userAprovalStatus,accountId
+AT-114701,GetPredictedEvent-With all Filters,../src/test/resources/TestData/GetRecurringEvents/,System.json,TRUE,ACTIVE,SYSTEM_PREDICTED,PENDING,bank
+AT-114702,GetPredictedEvent-With RecurringEvent status,../src/test/resources/TestData/GetRecurringEvents/,System.json,TRUE,ACTIVE,SYSTEM_PREDICTED,,card
+AT-114703,GetPredictedEvent-With Source Type,../src/test/resources/TestData/GetRecurringEvents/,System.json,TRUE,,SYSTEM_PREDICTED,,bank
+AT-114704,GetPredictedEvent-With User Approval Status,../src/test/resources/TestData/GetRecurringEvents/,Manual.json,TRUE,,MANUAL,APPROVED,card
+AT-114705,GetPredictedEvent-With recurringEvent status and sourceType,../src/test/resources/TestData/GetRecurringEvents/,System.json,TRUE,ACTIVE,SYSTEM_PREDICTED,,bank
+AT-114706,GetPredictedEvent-With  sourceType and userApproval,../src/test/resources/TestData/GetRecurringEvents/,System.json,TRUE,,SYSTEM_PREDICTED,PENDING,card
+AT-114707,GetPredictedEvent-With  recurringEvent and userApproval,../src/test/resources/TestData/GetRecurringEvents/,System.json,TRUE,ACTIVE,SYSTEM_PREDICTED,PENDING,bank
+AT-114708,GetPredictedEvent-APPROVED,../src/test/resources/TestData/GetRecurringEvents/,Manual.json,TRUE,ACTIVE,MANUAL,APPROVED,card
+AT-114709,GetPredictedEvent-MANUAL,../src/test/resources/TestData/GetRecurringEvents/,Manual.json,TRUE,ACTIVE,MANUAL,APPROVED,bank
+AT-114710,GetPredictedEvent-STOPPED,../src/test/resources/TestData/JSONFiles/GetRecurringEvents/,Manual.json,TRUE,STOPPED,MANUAL,,card

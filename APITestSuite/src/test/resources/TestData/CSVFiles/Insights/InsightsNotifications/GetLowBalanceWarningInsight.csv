@@ -1,0 +1,2 @@
+testCaseId,Testcase,InsightName,SupportedContainers,triggerType,InsightType,dataLevels,entityParameterName,thresholdNameValueType,noumberOfInsights,editSubscription,isCobrandSubscribed,isUserSubscribed,status,enabled
+AT-1101,Validate LowBalanceWarning Insight when cobrand is not Subscribed,LowBalanceWarning,BANK,REFRESH,OTHER,ACCOUNT,account,"BALANCE,400,AMOUNT",0,TRUE,FALSE,,200,TRUE

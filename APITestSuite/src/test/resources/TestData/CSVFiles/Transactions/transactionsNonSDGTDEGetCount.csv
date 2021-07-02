@@ -1,0 +1,5 @@
+TestCaseId,TestCaseName,container,fromDate,enabled
+AT-94719,Validate response code and functionality of getTransactionCount(NonSDGTDE) for bank container,bank,2001-01-01,TRUE
+AT-94719,Validate response code and functionality of getTransactionCount(NonSDGTDE) for creditCard container,creditCard,2001-01-01,TRUE
+AT-94719,Validate response code and functionality of getTransactionCount(NonSDGTDE) for loan container,loan,2001-01-01,TRUE
+AT-94719,Validate response code and functionality of getTransactionCount(NonSDGTDE) for investment container,investment,2001-01-01,TRUE

@@ -1,0 +1,44 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>SdgAutoCatalog.site16441.7</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.7</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>ACCT_PROFILE</name>
+						<attributeList>
+							<attribute>
+								<name>HOLDER_DETAILS</name>
+								<container>bank,investment</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<accountId />
+				<status>ACTIVE</status>
+				<include>holder</include>
+				<accountReconType />
+			</get-accounts>
+		</get-accounts-multiple>
+	</request>
+	<response>
+		<accountDetails-multiple>
+			<accountDetails order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/PII/
+					</filePath>
+					<responseFile>pii_companyName.json</responseFile>
+				</row>
+			</accountDetails>
+		</accountDetails-multiple>
+	</response>
+</entity>

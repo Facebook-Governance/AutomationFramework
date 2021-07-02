@@ -1,0 +1,67 @@
+{
+    "networth": [
+        {
+            "date": "${json-unit.ignore}",
+            "asset": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "liability": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "networth": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            }
+        },
+        {
+            "historicalBalances": [
+                {
+                    "accountId": "${json-unit.ignore}",
+                    "isAsset": false,
+                    "date": "${json-unit.ignore}",
+                    "asOfDate": "${json-unit.ignore}",
+                    "balance": {
+                        "amount": "${json-unit.ignore}",
+                        "currency": "USD"
+                    },
+                    "dataSourceType": "S"
+                },
+                {
+                    "accountId": "${json-unit.ignore}",
+                    "isAsset": true,
+                    "date": "${json-unit.ignore}",
+                    "asOfDate": "${json-unit.ignore}",
+                    "balance": {
+                        "amount": "${json-unit.ignore}",
+                        "currency": "USD"
+                    },
+                    "dataSourceType": "S"
+                },
+                {
+                    "accountId": "${json-unit.ignore}",
+                    "isAsset": true,
+                    "date": "${json-unit.ignore}",
+                    "asOfDate": "${json-unit.ignore}",
+                    "balance": {
+                        "amount": "${json-unit.ignore}",
+                        "currency": "USD"
+                    },
+                    "dataSourceType": "S"
+                },
+                {
+                    "accountId": "${json-unit.ignore}",
+                    "isAsset": false,
+                    "date": "${json-unit.ignore}",
+                    "asOfDate": "${json-unit.ignore}",
+                    "balance": {
+                        "amount": "${json-unit.ignore}",
+                        "currency": "USD"
+                    },
+                    "dataSourceType": "S"
+                }
+            ]
+        }
+    ]
+}

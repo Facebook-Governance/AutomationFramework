@@ -1,0 +1,83 @@
+{
+  "account": [
+    {
+      "includeInNetWorth": true,
+      "accountName": "Super CD Plus2",
+      "dueDate": "2012-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "frequency": "SEMI_MONTHLY",
+      "accountStatus": "INACTIVE",
+      "refreshinfo": {
+        "lastRefreshed": "${json-unit.ignore}",
+        "nextRefreshScheduled": "${json-unit.ignore}",
+        "lastRefreshAttempt": "${json-unit.ignore}",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "lastUpdated": "${json-unit.ignore}",
+      "isAsset": false,
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "principalBalance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "providerId": "16441",
+      "maturityDate": "2013-01-25",
+      "lastPaymentDate": "2013-01-25",
+      "lastPaymentAmount": {
+        "amount": 10000,
+        "currency": "USD"
+      },
+      "id": "${json-unit.ignore}",
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "isManual": false,
+      "accountType": "OTHER",
+      "originationDate": "2013-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      "createdDate": "${json-unit.ignore}",
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "loan",
+      "collateral": "ABC",
+      "recurringPayment": {
+        "amount": 200,
+        "currency": "USD"
+      }
+    }
+  ]
+}

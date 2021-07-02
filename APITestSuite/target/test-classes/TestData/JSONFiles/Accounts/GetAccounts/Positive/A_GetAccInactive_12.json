@@ -1,0 +1,108 @@
+{
+	"account": [
+		{
+			"includeInNetWorth": true,
+			"accountName": "Super CD Plus",
+			"dueDate": "2013-02-14",
+			"refreshinfo": {
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "INACTIVE",
+			"associatedProviderAccountId": [
+				11796355
+			],
+			"isAsset": false,
+			"balance": {
+				"amount": 0,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"totalCashLimit": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			"totalCreditLine": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"providerName": "Dag Site",
+			"minimumAmountDue": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"availableCredit": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "Bill Gates"
+					}
+				}
+			],
+			"isManual": false,
+			"accountType": "CREDIT",
+			"accountNumber": "354-2334",
+			"amountDue": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"CONTAINER": "creditCard"
+		},
+		{
+			"includeInNetWorth": true,
+			"accountName": "Super CD Plus1",
+			"dueDate": "2013-02-14",
+			"refreshinfo": {
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "INACTIVE",
+			"associatedProviderAccountId": [
+				11796355
+			],
+			"isAsset": false,
+			"balance": {
+				"amount": 0,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"totalCashLimit": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			"totalCreditLine": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"providerName": "Dag Site",
+			"minimumAmountDue": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"availableCredit": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "Bill Gates"
+					}
+				}
+			],
+			"isManual": false,
+			"accountType": "CHARGE",
+			"accountNumber": "354-2334",
+			"amountDue": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"CONTAINER": "creditCard"
+		}
+	]
+}

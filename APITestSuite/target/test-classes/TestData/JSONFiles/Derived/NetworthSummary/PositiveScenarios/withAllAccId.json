@@ -1,0 +1,19 @@
+{
+    "networth": [
+        {
+            "date": "${json-unit.ignore}",
+            "asset": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "liability": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "networth": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            }
+        }
+    ]
+}

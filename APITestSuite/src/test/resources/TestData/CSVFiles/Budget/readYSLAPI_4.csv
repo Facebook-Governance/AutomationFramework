@@ -1,0 +1,4 @@
+TestCaseId,TestCase,enabled,Url,TestCase no
+AT-101232,"Verify the API response by passing  ""group Id"" as null or invalid in URL query parameters",TRUE,/ysl/ymc/v1/budgets?groupId=1234,10
+AT-101229,Verify the API response by passing  CategoryType as null or invalid in URL query parameters,TRUE,/ysl/ymc/v1/budgets?include=categoryData&categoryType=234,11
+AT-101234,Verify the API response by passing  CategoryId as null or invalid in URL query parameters,TRUE,/ysl/ymc/v1/budgets?include=summary&categoryId=289,12

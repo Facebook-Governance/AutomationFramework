@@ -1,0 +1,20 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-154240,PatchUser - subscribe to IncomeThreshold,IncomeThreshold,,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,500,AMOUNT",204,TRUE
+AT-154241,PatchUser - change the frequency,IncomeThreshold,negTestScenario32,,,,,,,,,,1,,view,1,,WEEKLY,TRUE,,,"MINIMUM,500,AMOUNT",400,TRUE
+AT-154242,PatchUser - change the duration,IncomeThreshold,negTestScenario34,,,,,,,,,,1,,view,1,,,TRUE,SIX_MONTHS,,"MINIMUM,500,AMOUNT",400,TRUE
+AT-154243,PatchUser - IncomeThreshold - updateTriggerType,IncomeThreshold,negTestScenario16,REFRESH,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-154244,PatchUser -  IncomeThreshold - update insightName by same name,IncomeThreshold,negTestScenario17,,IncomeThreshold,,,,,,,,,,,,,,,,,,400,TRUE
+AT-154245,PatchUser -  IncomeThreshold - update insightName edit InsightName,IncomeThreshold,negTestScenario2,,IncomeThresholdEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-154246,PatchUser - IncomeThreshold - update insightTitle,IncomeThreshold,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-154247,PatchUser - IncomeThreshold - update container,IncomeThreshold,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-154248,PatchUser - IncomeThreshold - update keys,IncomeThreshold,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-154249,PatchUser - IncomeThreshold - update description,IncomeThreshold,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-154250,PatchUser - IncomeThreshold - update applicableEntity,IncomeThreshold,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-154251,PatchUser-View -  IncomeThreshold - update entityParameter->account[0]->id - InValid ItemAccountId,IncomeThreshold,negTestScenario26,,,,,,,,,,1,,view,1,76823,,TRUE,,,"MINIMUM,500,AMOUNT",400,TRUE
+AT-154252,PatchUser -  View - IncomeThreshold - update entityParameter->account[0]->isSubscribed=false,IncomeThreshold,,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-154253,PatchUser -View- IncomeThreshold - update insightType to AGGREGATE - entityParameter->account[0]->insightType,IncomeThreshold,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,AGGREGATE,"MINIMUM,500,AMOUNT",400,TRUE
+AT-154254,PatchUser - View- IncomeThreshold - update insightType to INVALID - entityParameter->account[0]->insightType,IncomeThreshold,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,INVALID,"MINIMUM,500,AMOUNT",400,TRUE
+AT-154255,PatchUser - View- IncomeThreshold - update threshold name  - entityParameter->account[0]->threshold[0]->name,IncomeThreshold,negTestScenario27,,,,,,,,,,1,,view,1,,,FALSE,,,"LIMIT,50,AMOUNT",400,TRUE
+AT-154256,PatchUser -View -  IncomeThreshold - update threshold values - entityParameter->account[0]->threshold[0]->value,IncomeThreshold,,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,99999,AMOUNT",204,TRUE
+AT-154257,PatchUser - View - IncomeThreshold - update threshold type - entityParameter->account[0]->threshold[0]->type,IncomeThreshold,negTestScenario28,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,50,PERCENT",400,TRUE
+AT-154258,PatchUser - View - IncomeThreshold - update configMeta - subscrption Info - configMeta->account[0]->id,IncomeThreshold,negTestScenario19,,,,,,,,,,1,TRUE,view,1,,,FALSE,,,"MINIMUM,500,AMOUNT",400,TRUE

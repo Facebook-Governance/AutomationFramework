@@ -1,0 +1,2 @@
+TestCaseId,TestCase,Name,CategoryID,TargetAmount,TargetAmountCurency,RecurringAmount,RecurringAmountCurrency,Frequency,StartDate,TargetDate,Status,FundSetupStatus,isFTSelected,httpStatus,ResFile,FilePath,Enabled
+"AT-101286,AT-101288",delete valid Goal and verify goal Status,Purchase Car,1,800000,USD,10000,USD,MONTHLY,"0,0,2","0,3,0",NOT_STARTED,NONE,FALSE,204,DeleteGoal,../src/test/resources/TestData/JSONFiles/SaveForGoal/,TRUE

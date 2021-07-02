@@ -1,0 +1,125 @@
+{
+	"account": [
+		{
+			"includeInNetWorth": true,
+			"accountName": "Super CD Plus",
+			"dueDate": "2012-01-25",
+			"interestPaidLastYear": {
+				"amount": 14000,
+				"currency": "USD"
+			},
+			"frequency": "SEMI_MONTHLY",
+			"refreshinfo": {
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "INACTIVE",
+			"associatedProviderAccountId": [
+				11796355
+			],
+			"isAsset": false,
+			"balance": {
+				"amount": 0,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"maturityDate": "2013-01-25",
+			"providerId": "16441",
+			"providerName": "Dag Site",
+			"minimumAmountDue": {
+				"amount": 200,
+				"currency": "USD"
+			},
+			"interestRate": 7,
+			"availableCredit": {
+				"amount": 200,
+				"currency": "USD"
+			},
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "Bill Gates"
+					}
+				}
+			],
+			"isManual": false,
+			"accountType": "OTHER",
+			"originationDate": "2013-01-22",
+			"accountNumber": "354-2334",
+			"interestRateType": "VARIABLE",
+			"originalLoanAmount": {
+				"amount": 3000,
+				"currency": "USD"
+			},
+			"amountDue": {
+				"amount": 14000,
+				"currency": "USD"
+			},
+			"interestPaidYTD": {
+				"amount": 5000,
+				"currency": "USD"
+			},
+			"CONTAINER": "loan",
+			"collateral": "ABC"
+		},
+		{
+			"includeInNetWorth": true,
+			"accountName": "Super CD Plus",
+			"dueDate": "2012-01-25",
+			"interestPaidLastYear": {
+				"amount": 14000,
+				"currency": "USD"
+			},
+			"frequency": "SEMI_MONTHLY",
+			"refreshinfo": {
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "INACTIVE",
+			"isAsset": false,
+			"balance": {
+				"amount": 0,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"maturityDate": "2013-01-25",
+			"providerId": "16441",
+			"providerName": "Dag Site",
+			"minimumAmountDue": {
+				"amount": 200,
+				"currency": "USD"
+			},
+			"interestRate": 7,
+			"availableCredit": {
+				"amount": 200,
+				"currency": "USD"
+			},
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "Bill Gates"
+					}
+				}
+			],
+			"isManual": false,
+			"accountType": "INSTALLMENT_LOAN",
+			"originationDate": "2013-01-22",
+			"accountNumber": "354-2334",
+			"interestRateType": "VARIABLE",
+			"originalLoanAmount": {
+				"amount": 3000,
+				"currency": "USD"
+			},
+			"amountDue": {
+				"amount": 14000,
+				"currency": "USD"
+			},
+			"interestPaidYTD": {
+				"amount": 5000,
+				"currency": "USD"
+			},
+			"CONTAINER": "loan",
+			"collateral": "ABC"
+		}
+	]
+}

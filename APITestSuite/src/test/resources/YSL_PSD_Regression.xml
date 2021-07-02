@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="methods" thread-count="1"
+	preserve-order="true">
+
+	<parameter name="suiteName" value="PSD_YSL_REGRESSION" />
+
+	<parameter name="hybrid" value="true" />
+	<parameter name="release_name" value="Nov 2018" />
+	<parameter name="isFirstRun" value="false" />
+	<parameter name="isStaticComparable" value="false" />
+	<parameter name="isDiffyEnabled" value="false" />
+	<parameter name="getApiVersion" value="1.1" />
+	<parameter name="isUserStatic" value="true" />
+	<parameter name="updateApiVersion" value="1.1" />
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="config_file"
+		value="Config_NextGen.Properties" />
+
+
+	<listeners>
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+
+		<listener
+			class-name="com.automation.rdashboard.ReportDashboardPlugin"></listener>
+
+	</listeners>
+	<test name="OpenBanking_YSL_Tests">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestOBPureApiFlow" />
+		</classes>
+	</test>
+</suite>

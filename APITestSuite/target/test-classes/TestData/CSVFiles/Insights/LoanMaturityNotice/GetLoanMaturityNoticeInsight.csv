@@ -1,0 +1,13 @@
+testCaseId,Testcase,InsightName,triggerType,entityParameterCount,entityParameterName,ThresholdNameValueType,noumberOfInsights,editSubscription,isCobrandSubscribed,isUserSubscribed,noOfDays,patchAccountIds,isPatchedEntityIdsInsightsGenerated,expNoOfPatchedEntityIdsInsights,validateKeys,status,enabled
+AT-143052,Validate LoanMaturityNotice Insight when cobrand is not Subscribed,LoanMaturityNotice,SCHEDULE,1,account,,0,TRUE,FALSE,,2,,,0,Account,201,TRUE
+AT-143053,Validate LoanMaturityNotice Insight when cobrand is  Subscribed and User is not Subscribed,LoanMaturityNotice,SCHEDULE,1,account,,0,TRUE,TRUE,FALSE,2,,,0,Account,201,TRUE
+AT-143054,Validate LoanMaturityNotice Insight when cobrand is  Subscribed and User is not Subscribed(Inheriting Cobrand Thresholds),LoanMaturityNotice,SCHEDULE,1,account,"FUTURE,14,DAYS",2,TRUE,TRUE,,2,,,0,Account,201,TRUE
+AT-143055,Validate LoanMaturityNotice Insight when cobrand is  Subscribed and User is Subscribed,LoanMaturityNotice,SCHEDULE,1,account,"FUTURE,14,DAYS",2,TRUE,TRUE,TRUE,2,,,0,Account,201,TRUE
+AT-143056,Validate LoanMaturityNotice Insight when cobrand is subscribed  for different threshold user overides cobrand threshold,LoanMaturityNotice,SCHEDULE,1,account,"FUTURE,14,DAYS",2,TRUE,TRUE,TRUE,2,,,0,Account,201,TRUE
+AT-143057,Validate LoanMaturityNotice Inisight generation when cobrand is not subscribed to an account - Insights shouldn't be generated,LoanMaturityNotice,SCHEDULE,1,account,"FUTURE,14,DAYS",0,TRUE,FALSE,,2,,,0,Account,201,TRUE
+AT-143058,Validate LoanMaturityNotice Inisight generation when  user changed the thresold,LoanMaturityNotice,SCHEDULE,1,account,"FUTURE,20,DAYS",2,TRUE,TRUE,TRUE,10,,,1,Account,201,TRUE
+AT-143059,Validate LoanMaturityNotice Inisight generation when  maturity date  is greater than thresold ,LoanMaturityNotice,SCHEDULE,1,account,"FUTURE,14,DAYS",0,TRUE,TRUE,TRUE,20,,,1,Account,201,TRUE
+AT-143062,Validate LoanMaturityNotice Inisight generation when  maturity date  is on  thresold ,LoanMaturityNotice,SCHEDULE,1,account,"FUTURE,14,DAYS",2,TRUE,TRUE,TRUE,14,,,1,Account,201,TRUE
+AT-143063,Validate LoanMaturityNotice Inisight generation when  maturity date  is past date (less than current date) ,LoanMaturityNotice,SCHEDULE,1,account,"FUTURE,14,DAYS",0,TRUE,TRUE,TRUE,-2,,,1,Account,201,TRUE
+AT-143064,Validate LoanMaturityNotice Inisight generation for patching loan account id,LoanMaturityNotice,SCHEDULE,1,account,"FUTURE,14,DAYS",1,TRUE,TRUE,TRUE,14,loanaccount1,TRUE,1,Account,201,TRUE
+AT-143065,Validate LoanMaturityNotice Inisight generation for patching loan account id,LoanMaturityNotice,SCHEDULE,1,account,"FUTURE,14,DAYS",1,TRUE,TRUE,TRUE,14,loanaccount,TRUE,1,Account,201,TRUE

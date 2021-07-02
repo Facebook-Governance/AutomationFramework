@@ -1,0 +1,37 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "symbol": "LCEIX",
+      "amount": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "cusipNumber": "001413194",
+      "quantity": 2345,
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "transdescription",
+        "consumer": "12345678"
+      },
+      "settleDate": "2013-01-17",
+      "type": "BUY",
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "CREDIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "price": {
+        "amount": 123,
+        "currency": "USD"
+      },
+      "CONTAINER": "investment",
+      "id": "${json-unit.ignore}",
+      "category": "Rent",
+      "categoryId": 21,
+      "holdingDescription": "Stocks NSE Sell",
+      "status": "POSTED"
+    }
+  ]
+}

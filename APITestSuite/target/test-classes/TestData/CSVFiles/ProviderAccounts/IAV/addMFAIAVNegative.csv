@@ -1,0 +1,10 @@
+testCaseId,testCaseName,providerId,loginFormType,dagUserName,dagPassword,includeDataSet,isincludeDataSet,status,addAccountResFile,filePath,enabled
+AT-65791,adding IAV account with different holder name,16442,loginform,iavms11.site16442.2,site16441.2,ACCT_PROFILE.HOLDER_NAME1,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65792,adding IAV account with different RTN number,16442,loginform,iavms11.site16442.2,site16441.2,ACCT_PROFILE.BANK_TRANSFER_CODE123,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65793,adding IAV account with invalid full account number,16442,loginform,iavms11.site16442.2,site16441.2,ACCT_PROFILE.FULL_ACCT_NUMBER22,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65794,adding IAV account with invalid full account number,16442,loginform,iavms11.site16442.2,site16441.2,null,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65795,adding IAV account with different holder name,16442,fieldarray,iavms11.site16442.2,site16441.2,ACCT_PROFILE.HOLDER_NAME1,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65796,adding IAV account with different RTN number,16442,fieldarray,iavms11.site16442.2,site16441.2,ACCT_PROFILE.BANK_TRANSFER_CODE123,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65797,adding IAV account with invalid full account number,16442,fieldarray,iavms11.site16442.2,site16441.2,ACCT_PROFILE.FULL_ACCT_NUMBER22,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65798,adding IAV account with invalid full account number,16442,fieldarray,iavms11.site16442.2,site16441.2,null,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65799,adding IAV container,8995,loginform,container66.Multilevel2,Multilevel2,ACCT_PROFILE.BANK_TRANSFER_CODE123,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE

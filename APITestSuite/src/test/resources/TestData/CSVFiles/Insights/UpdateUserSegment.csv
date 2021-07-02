@@ -1,0 +1,40 @@
+testCaseId,Testcase,Income,IncomeCurrency,IncomeRange,City,State,Country,ZipCode,Age,NetworthValue,NetworthCurrency,HomeOwnership,LifeStage,deleteUserSegment,statusCode,Enabled
+AT-169488,Update above netWorthValue range,123,USD,,,,,,,,,,,TRUE,204,TRUE
+AT-169496,Update Age Allowed Values,214124,USD,,Los Angeles,California,US,90011,33,76272,USD,TRUE,Employed,TRUE,204,TRUE
+AT-169497,Update Age to NOT Allowed values,,,$0K - $35K,Los Angeles,California,US,90011,99,76272,USD,TRUE,Retired,TRUE,204,TRUE
+AT-169472,Update allowed income range,15000,USD,,,,,,,,,,,TRUE,204,TRUE
+AT-169489,Update allowed netWorthValue currency,,,$0K - $35K,,,,,,,,,,TRUE,204,TRUE
+AT-169487,Update below netWorthValue range,,,$35K - $50K,,,,,,,,,,TRUE,204,TRUE
+AT-169476,Update City above MAX characters allowed,,,$50K - $75K,,,,,,,,,,TRUE,204,TRUE
+AT-169475,Update City below MIN characters allowed,,,$75K - $100K,,,,,,,,,,TRUE,204,TRUE
+AT-169474,Update City between 0-100 charcters,,,$100K - $150K,,,,,,,,,,TRUE,204,TRUE
+AT-169482,Update Country above MAX characters allowed,,,$150K+,,,,,,,,,,TRUE,204,TRUE
+AT-169481,Update Country below MIN characters allowed,20000,USD,,Los Angeles,California,US,90011,,,,,,TRUE,204,TRUE
+AT-169480,Update Country between 0-100 charcters,25000,USD,,,,,,100,,,,,TRUE,204,TRUE
+AT-169492,Update homeOwnerShip to false,25000,USD,,,,,,,100000000,USD,,,TRUE,204,TRUE
+AT-169493,Update homeOwnerShip to other than boolean values,25000,USD,,,,,,,,,TRUE,,TRUE,204,TRUE
+AT-169491,Update homeOwnerShip to true,25000,USD,,,,,,,,,FALSE,,TRUE,204,TRUE
+AT-169468,"Update income allowed currency ""USD""",25000,USD,,Los Angeles,California,US,90011,25,,,,Student,TRUE,204,TRUE
+AT-169471,"Update income NOT allowed currency ""INR""",25000,USD,,Los Angeles,California,US,90011,35,,,,Employed,TRUE,204,TRUE
+AT-169467,Update income within the range,25000,USD,,Los Angeles,California,US,90011,40,,,,Unemployed,TRUE,204,TRUE
+AT-169470,Update income within the range(above max range),25000,USD,,Los Angeles,California,US,90011,80,,,,Retired,TRUE,204,TRUE
+AT-169469,Update income within the range(below min range),,,$150K+,Los Angeles,California,US,90011,,99999.71011,USD,TRUE,Student,TRUE,204,TRUE
+AT-169494,Update lifeStage Allowed Values,66666.76,USD,,Los Angeles,California,US,90011,46.89,,,FALSE,Employed,TRUE,204,TRUE
+AT-169495,Update lifeStage to NOT Allowed values,189999.1111,USD,,Los Angeles,California,US,90011,,,,FALSE,Retired,TRUE,204,TRUE
+AT-169486,Update netWorthValue allowed range,34552,USD,,invalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinva,California,US,90011,,,,,,TRUE,204,TRUE
+AT-169473,Update NOT allowed income range,34554,USD,,Los Angeles,invalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinva,US,90011,,,,,,TRUE,204,TRUE
+AT-169490,"Update NOT allowed netWorthValue currency ""INR""",34556,USD,,Los Angeles,California,null,90011,,,,,,TRUE,204,TRUE
+AT-169479,Update State above MAX characters allowed,34557,USD,,Los Angeles,California,invalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinva,90011,,,,,,TRUE,204,TRUE
+AT-169478,Update State below MIN characters allowed,34559,USD,,Los Angeles,California,US,null,,,,,,TRUE,204,TRUE
+AT-169477,Update State between 0-100 charcters,34560,USD,,Los Angeles,California,US,123456789,,,,,,TRUE,204,TRUE
+AT-169499,Update Strings with NOT allowed Special characters,555556,USD,,,,,,,-100000000,USD,,,TRUE,204,TRUE
+AT-169498,Update Strings with allowed Special characters,5678,USD,,Los Angeles,California,,90011,,,,,,TRUE,204,TRUE
+AT-169500,Update When both Income or Income Range is provided,214124,USD,,Los Angeles,California,US,90011,33,76272,USD,TRUE,Employed,TRUE,204,TRUE
+AT-169501,Update When either of Income or Income Range is not provided,,,$150K+,Los Angeles,California,US,90011,,99999.71011,USD,TRUE,Student,TRUE,204,TRUE
+AT-169485,Update ZipCode above MAX characters allowed,,,$150K+,!@#$&*(),!@#$&*(),!@#$&*(),!@#$&*(),,99999.71011,USD,TRUE,Student,TRUE,204,TRUE
+AT-169484,Update both Income and IncomeRange,214124,USD,$150K+,Los Angeles,California,US,90011,33,76272,USD,TRUE,Employed,TRUE,400,TRUE
+AT-169483,Update City more than 100 characters,214124,USD,,hundredcharshundredcharshundredcharshundredcharshundredcharshundredcharshundredcharshundredcharshu102,,,,,,,,,TRUE,400,TRUE
+AT-169502,When user enters Income but not incomeCurrency,214124,,,,,,,,,,,,TRUE,400,TRUE
+AT-169503,When user enters incomeCurrency but not Income,,USD,,Los Angeles,California,US,90011,33,76272,USD,TRUE,Employed,TRUE,400,TRUE
+AT-169504,When user enters NetWorth but not NetWorth Currency,,,,Los Angeles,California,US,90011,33,76272,,TRUE,Employed,TRUE,400,TRUE
+AT-169505,When user enters NetWorth Currency but not Networth,,,,Los Angeles,California,US,90011,33,,USD,TRUE,Employed,TRUE,400,TRUE

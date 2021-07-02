@@ -1,0 +1,28 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-148737,PatchUser - subscribe to MostFrequentPurchases,MostFrequentPurchases,,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-148738,PatchUser - MostFrequentPurchases - updateTriggerType,MostFrequentPurchases,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148739,PatchUser -  MostFrequentPurchases - update insightName by same name,MostFrequentPurchases,negTestScenario17,,MostFrequentPurchases,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148740,PatchUser -  MostFrequentPurchases - update insightName edit InsightName,MostFrequentPurchases,negTestScenario2,,MostFrequentPurchasesEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148741,PatchUser - MostFrequentPurchases - update insightTitle,MostFrequentPurchases,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-148742,PatchUser - MostFrequentPurchases - update container,MostFrequentPurchases,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-148743,PatchUser - MostFrequentPurchases - update keys,MostFrequentPurchases,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-148744,PatchUser - MostFrequentPurchases - update description,MostFrequentPurchases,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-148745,PatchUser - MostFrequentPurchases - update applicableEntity,MostFrequentPurchases,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-148746,PatchUser - MostFrequentPurchases - update entityParameter,MostFrequentPurchases,,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-148747,PatchUser -  MostFrequentPurchases - update entityParameter->account[0]->id - Valid ItemAccountId,MostFrequentPurchases,,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-148748,PatchUser -  MostFrequentPurchases - update entityParameter->account[0]->id - InValid ItemAccountId,MostFrequentPurchases,negTestScenario20,,,,,,,,,,1,,account,1,76823,,TRUE,,,"TOP,5,NUMBER",400,TRUE
+AT-148749,PatchUser -  MostFrequentPurchases - update entityParameter->account[0]->isSubscribed=false,MostFrequentPurchases,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-148750,PatchUser - MostFrequentPurchases - update insightType to AGGREGATE - entityParameter->account[0]->insightType,MostFrequentPurchases,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,AGGREGATE,"TOP,5,NUMBER",400,TRUE
+AT-148751,PatchUser - MostFrequentPurchases - update insightType to INVALID - entityParameter->account[0]->insightType,MostFrequentPurchases,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"TOP,5,NUMBER",400,TRUE
+AT-148752,PatchUser - MostFrequentPurchases - update threshold name  - entityParameter->account[0]->threshold[0]->name,MostFrequentPurchases,negTestScenario27,,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,5,NUMBER",400,TRUE
+AT-148753,PatchUser - MostFrequentPurchases - update threshold values - entityParameter->account[0]->threshold[0]->value,MostFrequentPurchases,negTestScenario52,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,99999,NUMBER",400,TRUE
+AT-148754,PatchUser - MostFrequentPurchases - update threshold type - entityParameter->account[0]->threshold[0]->type,MostFrequentPurchases,negTestScenario28,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,PERCENT",400,TRUE
+AT-148755,PatchUser - MostFrequentPurchases - update configMeta - subscrption Info - configMeta->account[0]->id,MostFrequentPurchases,negTestScenario19,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"TOP,5,AMOUNT",400,TRUE
+AT-148756,PatchUser-View -  MostFrequentPurchases - update entityParameter->account[0]->id - InValid ItemAccountId,MostFrequentPurchases,negTestScenario26,,,,,,,,,,1,,view,1,76823,,TRUE,,,"TOP,5,NUMBER",400,TRUE
+AT-148757,PatchUser -  View - MostFrequentPurchases - update entityParameter->account[0]->isSubscribed=false,MostFrequentPurchases,,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-148758,PatchUser -View- MostFrequentPurchases - update insightType to AGGREGATE - entityParameter->account[0]->insightType,MostFrequentPurchases,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,AGGREGATE,"TOP,5,NUMBER",400,TRUE
+AT-148759,PatchUser - View- MostFrequentPurchases - update insightType to INVALID - entityParameter->account[0]->insightType,MostFrequentPurchases,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,INVALID,"TOP,5,NUMBER",400,TRUE
+AT-148760,PatchUser - View- MostFrequentPurchases - update threshold name  - entityParameter->account[0]->threshold[0]->name,MostFrequentPurchases,negTestScenario27,,,,,,,,,,1,,view,1,,,FALSE,,,"LIMIT,5,NUMBER",400,TRUE
+AT-148761,PatchUser -View -  MostFrequentPurchases - update threshold values - entityParameter->account[0]->threshold[0]->value,MostFrequentPurchases,negTestScenario52,,,,,,,,,,1,,view,1,,,TRUE,,,"TOP,99999,NUMBER",400,TRUE
+AT-148762,PatchUser - View - MostFrequentPurchases - update threshold type - entityParameter->account[0]->threshold[0]->type,MostFrequentPurchases,negTestScenario28,,,,,,,,,,1,,view,1,,,TRUE,,,"TOP,5,PERCENT",400,TRUE
+AT-148763,PatchUser - View - MostFrequentPurchases - update configMeta - subscrption Info - configMeta->account[0]->id,MostFrequentPurchases,negTestScenario19,,,,,,,,,,1,TRUE,view,1,,,FALSE,,,"TOP,5,AMOUNT",400,TRUE

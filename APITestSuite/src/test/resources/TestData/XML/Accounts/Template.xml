@@ -1,0 +1,30 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>bill,creditCard,bank,insurance,investment,loan
+								</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>TRANSACTIONS</name>
+								<container>bill,creditCard,insurance,investment,loan,bank
+								</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+	</request>
+</entity>

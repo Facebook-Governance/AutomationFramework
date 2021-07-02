@@ -1,0 +1,11 @@
+tcId,testCase,resFilePath,resFile,Enabled,recurringEventStatus,sourceType,userAprovalStatus,accountId
+1,GetRecurringEvent-With all Filters,../src/test/resources/TestData/GetRecurringEvents/,System.json,TRUE,ACTIVE,SYSTEM_PREDICTED,PENDING,bank
+2,GetRecurringEvent-With RecurringEvent status,../src/test/resources/TestData/GetRecurringEvents/,System.json,TRUE,ACTIVE,SYSTEM_PREDICTED,,creditCard
+3,GetRecurringEvent-With Source Type,../src/test/resources/TestData/GetRecurringEvents/,System.json,TRUE,,SYSTEM_PREDICTED,,bank
+4,GetRecurringEvent-With User Approval Status,../src/test/resources/TestData/GetRecurringEvents/,Manual.json,TRUE,,MANUAL,APPROVED,creditCard
+5,GetRecurringEvent-With recurringEvent status and sourceType,../src/test/resources/TestData/GetRecurringEvents/,System.json,TRUE,ACTIVE,SYSTEM_PREDICTED,,bank
+6,GetRecurringEvent-With  sourceType and userApproval,../src/test/resources/TestData/GetRecurringEvents/,System.json,TRUE,,SYSTEM_PREDICTED,PENDING,creditCard
+7,GetRecurringEvent-With  recurringEvent and userApproval,../src/test/resources/TestData/GetRecurringEvents/,System.json,TRUE,ACTIVE,SYSTEM_PREDICTED,PENDING,bank
+8,GetRecurringEvent-APPROVED,../src/test/resources/TestData/GetRecurringEvents/,Manual.json,TRUE,ACTIVE,MANUAL,APPROVED,creditCard
+9,GetRecurringEvent-MANUAL,../src/test/resources/TestData/GetRecurringEvents/,Manual.json,TRUE,ACTIVE,MANUAL,APPROVED,bank
+10,GetRecurringEvent-STOPPED,../src/test/resources/TestData/JSONFiles/GetRecurringEvents/,Manual.json,TRUE,STOPPED,MANUAL,,creditCard

@@ -1,0 +1,21 @@
+{
+    "verification": [
+        {
+            "accountId": "${json-unit.ignore}",
+            "reason": "INSTRUCTION_GENERATION_ERROR",
+            "verificationType": "CHALLENGE_DEPOSIT",
+            "account": {
+                "accountName": "${json-unit.ignore}",
+                "accountNumber": "${json-unit.ignore}",
+                "accountType": "SAVINGS",
+                "bankTransferCode": {
+                    "id": "${json-unit.ignore}",
+                    "type": "ROUTING_NUMBER"
+                }
+            },
+            "verificationStatus": "FAILED",
+            "providerAccountId": "${json-unit.ignore}",
+            "verificationId": "${json-unit.ignore}"
+        }
+    ]
+}

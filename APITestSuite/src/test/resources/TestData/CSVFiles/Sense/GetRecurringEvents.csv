@@ -1,0 +1,3 @@
+testCase,dagUsername,dagPassword,providerId,resFilePath,resFile,Enabled,recurringEventStatus,sourceType,userAprovalStatus
+GetRecurringEvents-SiteAccount,sense_site.site16441.1,site16441.1,16441,../src/test/resources/TestData/GetRecurringEvents/,SiteAccount.json,TRUE,ACTIVE,SYSTEM_PREDICTED,PENDING
+GetRecurringEvents-BankAccount,senseguttenberg.bank10,bank10,8995,../src/test/resources/TestData/GetRecurringEvents/,BankAccount.json,FALSE,ACTIVE,SYSTEM_PREDICTED,PENDING

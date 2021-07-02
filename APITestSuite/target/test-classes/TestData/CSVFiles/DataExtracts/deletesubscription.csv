@@ -1,0 +1,3 @@
+testCaseId,tcname,status,cobSession,eventname,callbackURL,filePath,resFile,defectId,enabled
+AT-58254,created successfully,201,valid,DATA_UPDATES,http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/DeleteSubscription/,successfuldelete.json,0,TRUE
+1,invalid callbackURL,400,valid,DATA_UPDATES,"http://yslrocks.com/notify,http://yslrocks.com/notify",../src/test/resources/TestData/JSONFiles/DataExtracts/DeleteSubscription/,invalidCallbackUrl.json,0,TRUE

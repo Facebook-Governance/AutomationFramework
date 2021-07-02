@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-146234,"Validate NetworthChange , Validate InsightName",,NetworthChange,NetworthChange,,,,,,,,,,,,,200,TRUE
+AT-146235,"Validate NetworthChange , Validate Supporting container",,NetworthChange,,,"BANK,CARD,LOAN,INVESTMENT",,,,,,,,,,,200,TRUE
+AT-146236,"Validate NetworthChange , Validate TriggerType",SCHEDULE,NetworthChange,,,,,,,,,,,,,,200,TRUE
+AT-146237,"Validate NetworthChange , Validate applicableEntity",,NetworthChange,,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-146238,"Validate NetworthChange , Validate number of levels and levelObject",,NetworthChange,,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-146239,"Validate NetworthChange , Validate isSubscribed=false",,NetworthChange,,,,,,,,account,FALSE,,,,,200,TRUE
+AT-146240,"Validate NetworthChange , Validate threshold Name,Value and Type",,NetworthChange,,,,,,,,account,,,"CHANGE,10,PERCENT",,,200,TRUE
+AT-146241,"Validate NetworthChange , Validate insightKeys for networths info",,NetworthChange,,,,Account,,,,,,,,,,200,TRUE
+AT-146242,"Validate NetworthChange , Validate insightKeys for historicalBalances info",,NetworthChange,,,,Account,,,,,,,,,,200,TRUE
+AT-146243,"Validate NetworthChange , Validate description",,NetworthChange,,,,,,"Notification generated when a consumer's overall net worth value has increased by a system or consumer configured threshold.  The calculation can be run weekly, monthly, and quarterly.",,,,,,,,200,TRUE
+AT-146244,"Validate NetworthChange , Validate title",,NetworthChange,,Networth Change,,,,,,,,,,,,200,TRUE
+AT-146245,"Validate NetworthChange , Validate ruleExpression",,NetworthChange,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-146246,"Validate NetworthChange , Validate frequency=MONTHLY",,NetworthChange,,,,,,,,account,,MONTHLY,,,,200,TRUE
+AT-146247,"Validate NetworthChange , Validate total number of keys ",,NetworthChange,,,,,9,,,,,,,,,200,TRUE

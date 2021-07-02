@@ -1,0 +1,81 @@
+{
+    "statement": [
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "billingPeriodStart": "${json-unit.ignore}",
+            "billingPeriodEnd": "${json-unit.ignore}",
+            "dueDate": "${json-unit.ignore}",
+            "lastPaymentDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "minimumPayment": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "newCharges": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "amountDue": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "lastPaymentAmount": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "interestAmount": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "principalAmount": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "loanBalance": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "isLatest": true
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "statementDate": "${json-unit.ignore}",
+            "billingPeriodStart":"${json-unit.ignore}",
+            "billingPeriodEnd": "${json-unit.ignore}",
+            "dueDate": "${json-unit.ignore}",
+            "lastPaymentDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "minimumPayment": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "newCharges": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "amountDue": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "lastPaymentAmount": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "interestAmount": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "principalAmount": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "loanBalance": {
+                "amount": "${json-unit.ignore}",
+                "currency": "USD"
+            },
+            "isLatest": true
+        }
+    ]
+}

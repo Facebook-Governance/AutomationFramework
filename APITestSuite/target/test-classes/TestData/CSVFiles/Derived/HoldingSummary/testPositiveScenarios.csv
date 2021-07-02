@@ -1,0 +1,17 @@
+tcId,tcName,include,accountIds,classificationType,accountReconType,resFile,defectId,enabled
+AT-58278,Without Any filters,,,,,withoutFilter.json,0,TRUE
+AT-58279,With include=details,details,,,,withDetails.json,0,TRUE
+HoldingSummary_3,withOneAccountId,,ONE,,,withOneAccId.json,0,TRUE
+HoldingSummary_4,withTwoAccountId,,TWO,,,withTwoAccId.json,0,TRUE
+HoldingSummary_5,withThreeAccountId,,THREE,,,withThreeAId.json,0,TRUE
+AT-58280,withAllAccountId,,ALL,,,withAllAccId.json,0,TRUE
+AT-58281,withCountryClassificationType,,,Country,,CountryClassification.json,0,TRUE
+HoldingSummary_8,withSectorClassficationType,,,Sector,,SectorClassification.json,0,TRUE
+HoldingSummary_9,WithAssetClassificationType,,,Asset class,,AssetClassification.json,0,TRUE
+HoldingSummary_10,withonedetails,details,ONE,,,withOnedetails.json,0,TRUE
+HoldingSummary_11,withtwodetails,details,TWO,,,withTwodetails.json,0,TRUE
+HoldingSummary_12,withthreedetails,details,THREE,,,withThreedetails.json,0,TRUE
+HoldingSummary_13,withalldetails,details,ALL,,,withAlldetails.json,0,TRUE
+HoldingSummary_14,withdetailsCountry,details,,Country,,withDetailsCountry.json,0,TRUE
+HoldingSummary_15,withdetailsSector,details,,Sector,,witheDtailsSector.json,0,TRUE
+HoldingSummary_16,withdetailsAsset class,details,,Asset class,,withDetailsAsset class.json,0,TRUE

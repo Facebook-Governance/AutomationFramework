@@ -1,0 +1,36 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "symbol": "LCEVX",
+      "amount": {
+        "amount": 123456,
+        "currency": "USD"
+      },
+      "cusipNumber": "001413525",
+      "quantity": 2345,
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "Pizza Party"
+      },
+      "settleDate": "2013-02-25",
+      "type": "DEPOSIT",
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "price": {
+        "amount": 123,
+        "currency": "USD"
+      },
+      "CONTAINER": "investment",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "categoryId": 27,
+      "holdingDescription": "Mutual Fund Payment",
+      "status": "POSTED"
+    }
+  ]
+}

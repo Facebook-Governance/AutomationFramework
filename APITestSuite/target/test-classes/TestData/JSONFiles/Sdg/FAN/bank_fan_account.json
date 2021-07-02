@@ -1,0 +1,145 @@
+{
+	"account": [
+		{
+			"fullAccountNumber": "1234567892",
+			"CONTAINER": "bank",
+			"isManual": false,
+			"isAsset": true,
+			"lastUpdated": "${json-unit.ignore}",
+			"currentBalance": {
+				"amount": "${json-unit.ignore}",
+				"currency": "USD"
+			},
+			"availableBalance": {
+				"amount": "${json-unit.ignore}",
+				"currency": "USD"
+			},
+			"id": "${json-unit.ignore}",
+			"userClassification": "PERSONAL",
+			"balance": {
+				"amount": "${json-unit.ignore}",
+				"currency": "USD"
+			},
+			"accountName": "${json-unit.ignore}",
+			"accountNumber": "${json-unit.ignore}",
+			"aggregationSource": "${json-unit.ignore}",
+			"dataset": [
+				{
+					"lastUpdateAttempt": "${json-unit.ignore}",
+					"updateEligibility": "${json-unit.ignore}",
+					"name": "ACCT_PROFILE",
+					"lastUpdated": "${json-unit.ignore}",
+					"additionalStatus": "${json-unit.ignore}"
+				},
+				{
+					"lastUpdateAttempt": "${json-unit.ignore}",
+					"updateEligibility": "${json-unit.ignore}",
+					"name": "BASIC_AGG_DATA",
+					"lastUpdated": "${json-unit.ignore}",
+					"additionalStatus": "${json-unit.ignore}"
+				}
+			],
+			"providerName": "Wells Fargo",
+			"accountStatus": "${json-unit.ignore}",
+			"accountType": "SAVINGS",
+			"providerId": "5",
+			"includeInNetWorth": true,
+			"createdDate": "${json-unit.ignore}",
+			"providerAccountId": "${json-unit.ignore}"
+		},
+		{
+			"fullAccountNumber": "1234567891",
+			"CONTAINER": "bank",
+			"isManual": false,
+			"isAsset": true,
+			"lastUpdated": "${json-unit.ignore}",
+			"currentBalance": {
+				"amount": "${json-unit.ignore}",
+				"currency": "USD"
+			},
+			"availableBalance": {
+				"amount": "${json-unit.ignore}",
+				"currency": "USD"
+			},
+			"id": "${json-unit.ignore}",
+			"userClassification": "PERSONAL",
+			"balance": {
+				"amount": "${json-unit.ignore}",
+				"currency": "USD"
+			},
+			"accountName": "${json-unit.ignore}",
+			"accountNumber": "${json-unit.ignore}",
+			"aggregationSource": "${json-unit.ignore}",
+			"dataset": [
+				{
+					"lastUpdateAttempt": "${json-unit.ignore}",
+					"updateEligibility": "${json-unit.ignore}",
+					"name": "ACCT_PROFILE",
+					"lastUpdated": "${json-unit.ignore}",
+					"additionalStatus": "${json-unit.ignore}"
+				},
+				{
+					"lastUpdateAttempt": "${json-unit.ignore}",
+					"updateEligibility": "${json-unit.ignore}",
+					"name": "BASIC_AGG_DATA",
+					"lastUpdated": "${json-unit.ignore}",
+					"additionalStatus": "${json-unit.ignore}"
+				}
+			],
+			"providerName": "Wells Fargo",
+			"accountStatus": "${json-unit.ignore}",
+			"accountType": "${json-unit.ignore}",
+			"providerId": "5",
+			"includeInNetWorth": true,
+			"createdDate": "${json-unit.ignore}",
+			"providerAccountId": "${json-unit.ignore}"
+		},
+		{
+			"fullAccountNumber": "1234567890",
+			"CONTAINER": "bank",
+			"isManual": false,
+			"isAsset": true,
+			"lastUpdated": "${json-unit.ignore}",
+			"currentBalance": {
+				"amount": "${json-unit.ignore}",
+				"currency": "USD"
+			},
+			"availableBalance": {
+				"amount": "${json-unit.ignore}",
+				"currency": "USD"
+			},
+			"id": "${json-unit.ignore}",
+			"userClassification": "PERSONAL",
+			"balance": {
+				"amount": "${json-unit.ignore}",
+				"currency": "USD"
+			},
+			"accountName": "${json-unit.ignore}",
+			"accountNumber": "${json-unit.ignore}",
+			"aggregationSource": "USER",
+			"dataset": [
+				{
+					"lastUpdateAttempt": "${json-unit.ignore}",
+					"updateEligibility": "${json-unit.ignore}",
+					"name": "ACCT_PROFILE",
+					"lastUpdated": "${json-unit.ignore}",
+					"additionalStatus": "${json-unit.ignore}"
+				},
+				{
+					"lastUpdateAttempt": "${json-unit.ignore}",
+					"updateEligibility": "${json-unit.ignore}",
+					"name": "BASIC_AGG_DATA",
+					"lastUpdated": "${json-unit.ignore}",
+					"additionalStatus": "${json-unit.ignore}"
+				}
+			],
+			"providerName": "Wells Fargo",
+			"accountStatus": "ACTIVE",
+			"accountType": "SAVINGS",
+			"providerId": "5",
+			"includeInNetWorth": true,
+			"createdDate": "${json-unit.ignore}",
+			"providerAccountId": "${json-unit.ignore}"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Zero Card Interest Paid"
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="601.356">
+  <properties />
+  
+  
+            <testcase name="testGetNotificationsForZeroCardInterestPaid" time="67.065" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForZeroCardInterestPaid" />
+                <testcase name="testGetNotificationsForZeroCardInterestPaid" time="51.967" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForZeroCardInterestPaid" />
+                <testcase name="testGetNotificationsForZeroCardInterestPaid" time="52.332" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForZeroCardInterestPaid" />
+                <testcase name="testGetNotificationsForZeroCardInterestPaid" time="68.190" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForZeroCardInterestPaid" />
+                <testcase name="testGetNotificationsForZeroCardInterestPaid" time="51.288" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForZeroCardInterestPaid" />
+                <testcase name="testGetNotificationsForZeroCardInterestPaid" time="83.517" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForZeroCardInterestPaid" />
+                <testcase name="testGetNotificationsForZeroCardInterestPaid" time="68.459" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForZeroCardInterestPaid" />
+                <testcase name="testGetNotificationsForZeroCardInterestPaid" time="54.183" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForZeroCardInterestPaid" />
+                <testcase name="testGetNotificationsForZeroCardInterestPaid" time="52.445" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForZeroCardInterestPaid" />
+                <testcase name="testGetNotificationsForZeroCardInterestPaid" time="51.910" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForZeroCardInterestPaid" />
+      
+</testsuite>

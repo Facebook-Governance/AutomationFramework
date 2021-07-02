@@ -1,0 +1,31 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147400,patchCobrandSubscription - subscribe to BillNotPaid isSubscribed=true,BillNotPaid,,,,,,,,,,2,,account  view,1,,,TRUE TRUE,,,"DELAY,3,DAYS  DELAY,3,DAYS",204,TRUE
+AT-147405,patchCobrandSubscription - update insightName to same name,BillNotPaid,negTestScenario1,BillNotPaid,,,,,,,,,,,,,,,,,,500,TRUE
+AT-147402,patchCobrandSubscription -  update insightName to different name,BillNotPaid,negTestScenario2,BillNotPaidEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147403,patchCobrandSubscription - update insightTitle chars between 3 and 100 ,BillNotPaid,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-147398,patchCobrandSubscription -  update insightTitle chars are only 3,BillNotPaid,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-147419,patchCobrandSubscription - update insightTitle chars are only 100,BillNotPaid,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-147417,patchCobrandSubscription - update insightTitle chars are less than 3,BillNotPaid,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-147418,patchCobrandSubscription -  update insightTitle chars are greater 100,BillNotPaid,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-147414,patchCobrandSubscription - update insightTitle chars are special characters,BillNotPaid,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-147423,patchCobrandSubscription -  update container,BillNotPaid,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-147411,patchCobrandSubscription -  update keys,BillNotPaid,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147422,patchCobrandSubscription -  update description,BillNotPaid,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147413,patchCobrandSubscription -  update applicableEntity,BillNotPaid,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-147412,patchCobrandSubscription -  update entityParameter,BillNotPaid,,,,,,,,,,2,,account  view,1,,,TRUE TRUE,,,"DELAY,3,DAYS DELAY,3,DAYS",204,TRUE
+AT-147397,patchCobrandSubscription - update entityParameter->account[0]->isSubscribed=false,BillNotPaid,,,,,,,,,,2,,account  view,1,,,FALSE FALSE,,,,204,TRUE
+AT-147407,patchCobrandSubscription - update entityParameter->account[0]->insightType,BillNotPaid,,,,,,,,,,2,,account  view,1,,,TRUE TRUE,,,"DELAY,3,DAYS DELAY,3,DAYS",204,TRUE
+AT-147401,patchCobrandSubscription - update entityParameter->account[0]->insightType - Invalid Name,BillNotPaid_Invalid,negTestScenario2,,,,,,,,,2,,account  view,1,,,TRUE TRUE,,,"DELAY,3,DAYS DELAY,3,DAYS",400,TRUE
+AT-147404,patchCobrandSubscription - update entityParameter->account[0]->threshold[0]->value,BillNotPaid,,,,,,,,,,2,,account  view,1,,,TRUE TRUE,,,"DELAY,10,DAYS  DELAY,10,DAYS",204,TRUE
+AT-147399,patchCobrandSubscription -  update entityParameter->account[0]->threshold[0]->type,BillNotPaid,negTestScenario28,,,,,,,,,2,,account  view,1,,,TRUE TRUE,,,"DELAY,3,PERCENT  DELAY,3,PERCENT",400,TRUE
+AT-147420,patchCobrandSubscription -  update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,BillNotPaid,,,,,,,,,,2,,account  view,1,,,TRUE TRUE,,,"DELAY,3,DAYS  DELAY,3,DAYS",204,TRUE
+AT-147415,patchCobrandSubscription - update entityParameter->view[0]->isSubscribed=false,BillNotPaid,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-147424,patchCobrandSubscription - update entityParameter->view[0]->insightType,BillNotPaid,,,,,,,,,,1,,view,1,,,TRUE,,,"DELAY,3,DAYS",204,TRUE
+AT-147421,patchCobrandSubscription - update entityParameter->view[0]->threshold[0]->value,BillNotPaid,,,,,,,,,,1,,view,1,,,TRUE,,,"DELAY,10,DAYS",204,TRUE
+AT-147416,patchCobrandSubscription -  update entityParameter->view[0]->threshold[0]->type,BillNotPaid,negTestScenario28,,,,,,,,,1,,view,1,,,TRUE,,,"DELAY,3,PERCENT",400,TRUE
+AT-147425,patchCobrandSubscription -  update entityParameter ->view[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,BillNotPaid,,,,,,,,,,1,,view,1,,,TRUE,,,"DELAY,3,DAYS",204,TRUE
+AT-147410,patchCobrandSubscription - update entityParameter->account[0]->isSubscribed=false,BillNotPaid,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-147408,patchCobrandSubscription - update entityParameter->account[0]->threshold[0]->value,BillNotPaid,,,,,,,,,,1,,account,1,,,TRUE,,,"DELAY,10,DAYS",204,TRUE
+AT-147406,patchCobrandSubscription -  update entityParameter->account[0]->threshold[0]->type,BillNotPaid,negTestScenario28,,,,,,,,,1,,account,1,,,TRUE,,,"DELAY,3,PERCENT",400,TRUE
+AT-147409,patchCobrandSubscription -  update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,BillNotPaid,,,,,,,,,,1,,account,1,,,TRUE,,,"DELAY,3,DAYS",204,TRUE
+AT-147604,patchCobrandSubscription - update insightTitle to Bill Not Paid,BillNotPaid,,,Bill Not Paid,,,,,,,,,,,,,,,,,204,TRUE

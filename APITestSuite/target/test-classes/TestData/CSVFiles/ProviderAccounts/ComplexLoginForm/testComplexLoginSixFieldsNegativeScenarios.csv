@@ -1,0 +1,12 @@
+tcId,tcName,firstField,secondField,thirdField,fourthField,fifthField,sixthField,status
+AT-65832,without first value,,secondValue,thirdValue,fourthValue,fifthValue,sixthValue,400
+AT-65833,without second value,firstValue,,thirdValue,fourthValue,fifthValue,sixthValue,400
+AT-65834,without third value,firstValue,secondValue,,fourthValue,fifthValue,sixthValue,400
+AT-65835,without fourth value,firstValue,secondValue,thirdValue,,fifthValue,sixthValue,400
+AT-65836,without fifth value,firstValue,secondValue,thirdValue,fourthValue,,sixthValue,400
+AT-65837,without sixth value,firstValue,secondValue,thirdValue,fourthValue,fifthValue,,400
+AT-65838,without first two values,,,thirdValue,fourthValue,fifthValue,sixthValue,400
+AT-65839,without first three values,,,,fourthValue,fifthValue,sixthValue,400
+AT-65840,without first four values,,,,,fifthValue,sixthValue,400
+AT-65841,without first five values,,,,,,sixthValue,400
+AT-65842,Without any values,,,,,,,400

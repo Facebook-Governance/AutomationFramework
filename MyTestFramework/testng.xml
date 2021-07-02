@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestFramework">
+  <parameter name="Environment" value="MMT" />
+  <parameter name="Browser" value="Chrome" />
+  
+  <test thread-count="5" name="MMTValidations">
+    <classes>
+      <class name="com.TestClasses.HomePage"/>
+    </classes>
+  </test> <!-- MMTValidations -->
+</suite> <!-- TestFramework -->

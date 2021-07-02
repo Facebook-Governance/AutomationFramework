@@ -1,0 +1,19 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147401,patchCobrandSubscription - subscribe to LoanMaturityNotice isSubscribed=true,LoanMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-147402,patchCobrandSubscription - update insightName to same name,LoanMaturityNotice,negTestScenario53,LoanMaturityNotice,,,,,,,,,,,1,,,,,,,500,TRUE
+AT-147403,patchCobrandSubscription -  update insightName to different name,LoanMaturityNotice,negTestScenario2,LoanMaturityNoticeEdit,,,,,,,,,,,1,,,,,,,400,TRUE
+AT-147404,patchCobrandSubscription - update insightTitle chars between 3 and 100 ,LoanMaturityNotice,,,changeTitle,,,,,,,,,,1,,,,,,,204,TRUE
+AT-147405,patchCobrandSubscription -  update insightTitle chars are only 3,LoanMaturityNotice,,,Low,,,,,,,,,,1,,,,,,,204,TRUE
+AT-147406,patchCobrandSubscription - update insightTitle chars are only 100,LoanMaturityNotice,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,1,,,,,,,204,TRUE
+AT-147407,patchCobrandSubscription - update insightTitle chars are less than 3,LoanMaturityNotice,negTestScenario3,,hi,,,,,,,,,,1,,,,,,,400,TRUE
+AT-147408,patchCobrandSubscription -  update insightTitle chars are greater 100,LoanMaturityNotice,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,1,,,,,,,400,TRUE
+AT-147409,patchCobrandSubscription - update insightTitle chars are special characters,LoanMaturityNotice,,,()&*#),,,,,,,,,,1,,,,,,,204,TRUE
+AT-147410,patchCobrandSubscription - update insightTitle chars are special characters,LoanMaturityNotice,negTestScenario6,,,INVESTMENT,,,,,,,,,1,,,,,,,400,TRUE
+AT-147411,patchCobrandSubscription -  update keys,LoanMaturityNotice,negTestScenario7,,,,,keys,,,,,,,1,,,,,,,400,TRUE
+AT-147412,patchCobrandSubscription -  update description,LoanMaturityNotice,negTestScenario8,,,,,,,changeDescription,,,,,1,,,,,,,400,TRUE
+AT-147413,patchCobrandSubscription -  update applicableEntity,LoanMaturityNotice,negTestScenario9,,,,,,,,CARD,,,,1,,,,,,,400,TRUE
+AT-147414,patchCobrandSubscription -  update entityParameter,LoanMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-147415,patchCobrandSubscription - update entityParameter->account[0]->isSubscribed=false,LoanMaturityNotice,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-147416,patchCobrandSubscription -  update frequency,LoanMaturityNotice,,,,,,,,,,1,,account,1,,WEEKLY,TRUE,,,,204,TRUE
+AT-147417,patchCobrandSubscription -  update frequency-revert,LoanMaturityNotice,,,,,,,,,,1,,account,1,,DAILY,TRUE,,,,204,TRUE
+AT-147418,patchCobrandSubscription - update insightTitle to LoanMaturityNotice,LoanMaturityNotice,,,Loan Maturity Notice,,,,,,,,,,,,,TRUE,,,,204,TRUE

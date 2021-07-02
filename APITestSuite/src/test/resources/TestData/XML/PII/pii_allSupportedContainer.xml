@@ -1,0 +1,59 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>SdgAutoCatalog.site16441.1</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.1</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>ACCT_PROFILE</name>
+						<attributeList>
+							<attribute>
+								<name>HOLDER_DETAILS</name>
+								<container>investment,bank</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<get-accountDetials-multiple>
+			<get-accountDetials order="1">
+				<container>investment</container>
+				<include>holder,profile</include>
+			</get-accountDetials>
+		</get-accountDetials-multiple>
+
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<status>ACTIVE</status>
+				<include>holder,profile</include>
+				<container>bank</container>
+				<accountReconType />
+			</get-accounts>
+		</get-accounts-multiple>
+	</request>
+	<response>
+		<accountDetails-multiple>
+			<accountDetails order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/CSVFiles/Sdg/PII/
+					</filePath>
+					<responseFile>pii_allSupportedDetails.json</responseFile>
+				</row>
+			</accountDetails>
+		</accountDetails-multiple>
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/PII/
+					</filePath>
+					<responseFile>pii_allSupported.json</responseFile>
+				</row>
+			</get-accounts>
+		</get-accounts-multiple>
+	</response>
+</entity>

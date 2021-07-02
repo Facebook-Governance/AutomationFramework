@@ -1,0 +1,93 @@
+{
+	"account": [{
+			"CONTAINER": "loan",
+			"isManual": false,
+			"isAsset": false,
+			"lastUpdated": "${json-unit.ignore}",
+			"displayedName": "Bhawana Verma",
+			"url": "file:///opt/sdp/dap/TestSite/Generic_TestSite/LoanAccountDetailsPage3.html",
+			"dataSet": [{
+				"lastUpdateAttempt": "${json-unit.ignore}",
+				"updateEligibility": "ALLOW_UPDATE",
+				"name": "ACCT_PROFILE",
+				"additionalStatus": "AVAILABLE_DATA_RETRIEVED"
+			}],
+			"id": "${json-unit.ignore}",
+			"balance": {
+				"amount": 2000,
+				"currency": "USD"
+			},
+			"accountName": "LoanAccount3",
+			"aggregationSource": "USER",
+			"accountNumber": "xxx9483",
+			"interestRateType": "UNKNOWN",
+			"providerName": "HSBC",
+			"accountStatus": "ACTIVE",
+			"accountType": "OTHER",
+			"providerId": "19686",
+			"includeInNetWorth": true,
+			"createdDate": "${json-unit.ignore}",
+			"providerAccountId": "${json-unit.ignore}"
+		},
+		{
+			"CONTAINER": "loan",
+			"isManual": false,
+			"isAsset": false,
+			"lastUpdated": "${json-unit.ignore}",
+			"displayedName": "Bhawana Verma",
+			"url": "file:///opt/sdp/dap/TestSite/Generic_TestSite/LoanAccountDetailsPage2.html",
+			"dataSet": [{
+				"lastUpdateAttempt": "${json-unit.ignore}",
+				"updateEligibility": "ALLOW_UPDATE",
+				"name": "ACCT_PROFILE",
+				"additionalStatus": "AVAILABLE_DATA_RETRIEVED"
+			}],
+			"id": "${json-unit.ignore}",
+			"balance": {
+				"amount": 200,
+				"currency": "USD"
+			},
+			"accountName": "LoanAccount2",
+			"aggregationSource": "USER",
+			"accountNumber": "xxx2333",
+			"interestRateType": "UNKNOWN",
+			"providerName": "HSBC",
+			"accountStatus": "ACTIVE",
+			"accountType": "OTHER",
+			"providerId": "19686",
+			"includeInNetWorth": true,
+			"createdDate": "${json-unit.ignore}",
+			"providerAccountId": "${json-unit.ignore}"
+		},
+		{
+			"CONTAINER": "loan",
+			"isManual": false,
+			"isAsset": false,
+			lastUpdateAttemptUpdated": "${json-unit.ignore}",
+			"displayedName": "Bhawana Verma",
+			"url": "file:///opt/sdp/dap/TestSite/Generic_TestSite/LoanAccountDetailsPage1.html",
+			"dataSet": [{
+				"lastUpdateAttempt":"${json-unit.ignore}",
+				"updateEligibility": "ALLOW_UPDATE",
+				"name": "ACCT_PROFILE",
+				"additionalStatus": "AVAILABLE_DATA_RETRIEVED"
+			}],
+			"id": "${json-unit.ignore}",
+			"balance": {
+				"amount": 11000,
+				"currency": "USD"
+			},
+			"accountName": "LoanAccount1",
+			"aggregationSource": "USER",
+			"accountNumber": "xx6098",
+			"interestRateType": "UNKNOWN",
+			"providerName": "HSBC",
+			"accountStatus": "ACTIVE",
+			"accountType": "OTHER",
+			"providerId": "19686",
+			"includeInNetWorth": true,
+			"createdDate": "${json-unit.ignore}",
+			"providerAccountId": "${json-unit.ignore}"
+		}
+	]
+}

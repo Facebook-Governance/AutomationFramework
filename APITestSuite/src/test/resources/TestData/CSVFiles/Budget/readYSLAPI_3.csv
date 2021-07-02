@@ -1,0 +1,3 @@
+TestCaseId,TestCase,enabled,Url,TestCase no
+"AT-101224,AT-101226",Input params group Id's and include categoryData ,TRUE,/ysl/ymc/v1/budgets?groupId=*&include=categoryData,7
+"AT-101225,AT-101233",Input params group Id's and include categoryTypeData ,TRUE,/ysl/ymc/v1/budgets?groupId=*&include=categoryTypeData,8

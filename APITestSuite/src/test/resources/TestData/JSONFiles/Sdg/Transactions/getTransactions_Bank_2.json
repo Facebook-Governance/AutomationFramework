@@ -1,0 +1,36 @@
+{
+    "transaction": [
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "amount": {
+                "amount": 3103,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "${json-unit.ignore}",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": "${json-unit.ignore}",
+           "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "${json-unit.ignore}",
+                "simple": "${json-unit.ignore}"
+            },
+            "date": "2013-01-14",
+            "postDate": "2013-01-14",
+            "transactionDate": "2013-01-12",
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "accountId": 2413521,
+            "runningBalance": {
+                "amount": 59,
+                "currency": "USD"
+            },
+            "checkNumber": "DAG-333"
+        }
+    ]
+}

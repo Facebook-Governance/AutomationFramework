@@ -1,0 +1,13 @@
+{
+    "verification": [
+        {
+            "accountId":  "${json-unit.ignore}",
+            "verificationDate":  "${json-unit.ignore}",
+            "reason": "ACCOUNT_HOLDER_MISMATCH",
+            "verificationType": "MATCHING",
+            "verificationStatus": "FAILED",
+            "providerAccountId":  "${json-unit.ignore}",
+            "verificationId":  "${json-unit.ignore}"
+        }
+    ]
+}

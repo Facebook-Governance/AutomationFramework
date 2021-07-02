@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-146950,"Validate AggregateSavingsCheckingAccount , Validate InsightName",,AggregateSavingsCheckingAccount,AggregateSavingsCheckingAccount,,,,,,,,,,,,200,TRUE
+AT-146951,"Validate AggregateSavingsCheckingAccount , Validate Supporting container",,AggregateSavingsCheckingAccount,,,CARD,,,,,,,,,,200,TRUE
+AT-146952,"Validate AggregateSavingsCheckingAccount , Validate TriggerType",REFRESH,AggregateSavingsCheckingAccount,,,,,,,,,,,,,200,TRUE
+AT-146953,"Validate AggregateSavingsCheckingAccount , Validate applicableEntity",,AggregateSavingsCheckingAccount,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-146954,"Validate AggregateSavingsCheckingAccount , Validate number of levels and levelObject",,AggregateSavingsCheckingAccount,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-146955,"Validate AggregateSavingsCheckingAccount , Validate isSubscribed=false",,AggregateSavingsCheckingAccount,,,,,,,,FALSE,,,,,200,TRUE
+AT-146957,"Validate AggregateSavingsCheckingAccount , Validate insightKeys",,AggregateSavingsCheckingAccount,,,,Account,,,,,,,,,200,TRUE
+AT-146958,"Validate AggregateSavingsCheckingAccount , Validate description",,AggregateSavingsCheckingAccount,,,,,Generates an insight when a credit card account is identified but no corresponding bank account was found for the user.,,,,,,,,200,TRUE
+AT-146959,"Validate AggregateSavingsCheckingAccount , Validate title",,AggregateSavingsCheckingAccount,,Aggregate Savings/Checking Account,,,,,,,,,,,200,TRUE
+AT-146960,"Validate AggregateSavingsCheckingAccount , Validate ruleExpression",,AggregateSavingsCheckingAccount,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-146961,"Validate AggregateSavingsCheckingAccount , verify entityParameter and configMeta are same",,AggregateSavingsCheckingAccount,,,,,,,,,,,,TRUE,200,TRUE

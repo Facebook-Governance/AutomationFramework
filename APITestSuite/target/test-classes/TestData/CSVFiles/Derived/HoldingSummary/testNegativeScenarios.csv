@@ -1,0 +1,5 @@
+tcId,tcName,include,accountIds,classificationType,accountReconType,resFile
+HoldingSummary_Negative_1,invalid value for include - number,12345,,,,invalidInclude.json
+HoldingSummary_Negative_2,invalid value for include - string,classification,,,,invalidInclude.json
+HoldingSummary_Negative_3,invalid value for accountId,,INVALID,,,invalidAccId.json
+HoldingSummary_Negative_4,invalid value for classificatoinType,,,faksldjga,,invalidClassType.json

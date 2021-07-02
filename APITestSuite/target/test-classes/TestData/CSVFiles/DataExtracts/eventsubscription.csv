@@ -1,0 +1,12 @@
+tcid,tcname,status,cobSession,eventname,callbackURL,filePath,resFile,defectID,enabled
+AT-58251,created successfully,201,valid,DATA_UPDATES,http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/EventSubscription/,successful.json,0,TRUE
+3,invalid eventname,400,valid,SDGF1343!@#,http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/EventSubscription/,invalidEventName.json,0,TRUE
+4,invalid callbackURL,400,valid,DATA_UPDATES,SDGF1343!@#,../src/test/resources/TestData/JSONFiles/DataExtracts/EventSubscription/,invalidCallbackUrl.json,0,TRUE
+5,already subscribed,400,valid,DATA_UPDATES,http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/EventSubscription/,alreadySubscribed.json,0,TRUE
+6,error message,405,valid,,http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/EventSubscription/,emptyEventName.json,0,TRUE
+7,error message:872465,400,valid,DATA_UPDATES,,../src/test/resources/TestData/JSONFiles/DataExtracts/EventSubscription/,emptyCallbackUrl.json,0,TRUE
+8,empty cobsession,401,,DATA_UPDATES,http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/EventSubscription/,invalidCobSession.json,0,TRUE
+9,invalid arguments:872465,401,SDGF1343!@#,SDGF1343!@#,SDGF1343!@#,../src/test/resources/TestData/JSONFiles/DataExtracts/EventSubscription/,invalidCobSession.json,0,TRUE
+10,Invalid cobSession,401,SDGF1343!@#,DATA_UPDATES,http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/EventSubscription/,invalidCobSession.json,0,TRUE
+12,invalid eventname,400,valid,"DATA_UPDATES,REFRESH",http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/EventSubscription/,invalidEventName.json,0,TRUE
+15,invalid eventname,400,valid,data_updates,http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/EventSubscription/,invalidEventName.json,0,TRUE

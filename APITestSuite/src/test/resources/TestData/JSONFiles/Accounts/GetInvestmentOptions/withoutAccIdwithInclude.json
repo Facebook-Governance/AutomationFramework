@@ -1,0 +1,490 @@
+{
+  "account": [
+    {
+      "investmentPlan": {
+        "lastUpdated": "${json-unit.ignore}",
+        "providerId": "16441",
+        "investmentOption": [
+          {
+            "symbol": "010",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 29.9363,
+              "currency": "USD"
+            },
+            "description": "JJ Stock Contributions",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 17.26,
+              "threeMonthReturn": 6.91,
+              "threeYearReturn": 12.96
+            }
+          },
+          {
+            "symbol": "009",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 29.441,
+              "currency": "USD"
+            },
+            "description": "JJ Stock",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 17.1,
+              "threeMonthReturn": 6.85,
+              "threeYearReturn": 12.83
+            }
+          },
+          {
+            "symbol": "006",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 27.6054,
+              "currency": "USD"
+            },
+            "description": "International Equity",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 10.07,
+              "threeMonthReturn": 7.34,
+              "threeYearReturn": 4.6
+            }
+          },
+          {
+            "symbol": "007",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 35.4778,
+              "currency": "USD"
+            },
+            "description": "U.S. Small Cap",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 15.27,
+              "threeMonthReturn": 3.28,
+              "threeYearReturn": 10.9
+            }
+          },
+          {
+            "symbol": "008",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 29.5341,
+              "currency": "USD"
+            },
+            "description": "Russell XXXX Index",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 14.78,
+              "threeMonthReturn": 3,
+              "threeYearReturn": 10.51
+            }
+          },
+          {
+            "symbol": "005",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 32.0483,
+              "currency": "USD"
+            },
+            "description": "Diversified Equity",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 16.41,
+              "threeMonthReturn": 4.3,
+              "threeYearReturn": 11.19
+            }
+          },
+          {
+            "symbol": "004",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 33.0956,
+              "currency": "USD"
+            },
+            "description": "Balanced",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 11.89,
+              "threeMonthReturn": 4.07,
+              "threeYearReturn": 8.19
+            }
+          },
+          {
+            "symbol": "003",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 22.6486,
+              "currency": "USD"
+            },
+            "description": "Intermediate Bond",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 2.87,
+              "threeMonthReturn": 1.54,
+              "threeYearReturn": 3.05
+            }
+          },
+          {
+            "symbol": "002",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 17.9137,
+              "currency": "USD"
+            },
+            "description": "Fixed Interest",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 1.65,
+              "threeMonthReturn": 0.46,
+              "threeYearReturn": 1.59
+            }
+          },
+          {
+            "symbol": "001",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 12.4633,
+              "currency": "USD"
+            },
+            "description": "U.S. Government Securities",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 0.11,
+              "threeMonthReturn": 0.17,
+              "threeYearReturn": 0.19
+            }
+          }
+        ],
+        "planName": "Salaried Savings Plan 3",
+        "id": "${json-unit.ignore}",
+        "providerName": "Dag Site"
+      },
+      "id": "${json-unit.ignore}"
+    },
+    {
+      "investmentPlan": {
+        "lastUpdated": "${json-unit.ignore}",
+        "providerId": "16441",
+        "investmentOption": [
+          {
+            "symbol": "010",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 29.9363,
+              "currency": "USD"
+            },
+            "description": "JJ Stock Contributions",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 17.26,
+              "threeMonthReturn": 6.91,
+              "threeYearReturn": 12.96
+            }
+          },
+          {
+            "symbol": "009",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 29.441,
+              "currency": "USD"
+            },
+            "description": "JJ Stock",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 17.1,
+              "threeMonthReturn": 6.85,
+              "threeYearReturn": 12.83
+            }
+          },
+          {
+            "symbol": "006",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 27.6054,
+              "currency": "USD"
+            },
+            "description": "International Equity",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 10.07,
+              "threeMonthReturn": 7.34,
+              "threeYearReturn": 4.6
+            }
+          },
+          {
+            "symbol": "007",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 35.4778,
+              "currency": "USD"
+            },
+            "description": "U.S. Small Cap",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 15.27,
+              "threeMonthReturn": 3.28,
+              "threeYearReturn": 10.9
+            }
+          },
+          {
+            "symbol": "008",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 29.5341,
+              "currency": "USD"
+            },
+            "description": "Russell XXXX Index",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 14.78,
+              "threeMonthReturn": 3,
+              "threeYearReturn": 10.51
+            }
+          },
+          {
+            "symbol": "005",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 32.0483,
+              "currency": "USD"
+            },
+            "description": "Diversified Equity",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 16.41,
+              "threeMonthReturn": 4.3,
+              "threeYearReturn": 11.19
+            }
+          },
+          {
+            "symbol": "004",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 33.0956,
+              "currency": "USD"
+            },
+            "description": "Balanced",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 11.89,
+              "threeMonthReturn": 4.07,
+              "threeYearReturn": 8.19
+            }
+          },
+          {
+            "symbol": "003",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 22.6486,
+              "currency": "USD"
+            },
+            "description": "Intermediate Bond",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 2.87,
+              "threeMonthReturn": 1.54,
+              "threeYearReturn": 3.05
+            }
+          },
+          {
+            "symbol": "002",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 17.9137,
+              "currency": "USD"
+            },
+            "description": "Fixed Interest",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 1.65,
+              "threeMonthReturn": 0.46,
+              "threeYearReturn": 1.59
+            }
+          },
+          {
+            "symbol": "001",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 12.4633,
+              "currency": "USD"
+            },
+            "description": "U.S. Government Securities",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 0.11,
+              "threeMonthReturn": 0.17,
+              "threeYearReturn": 0.19
+            }
+          }
+        ],
+        "planName": "Salaried Savings Plan 2",
+        "id": "${json-unit.ignore}",
+        "providerName": "Dag Site"
+      },
+      "id": "${json-unit.ignore}"
+    },
+    {
+      "investmentPlan": {
+        "lastUpdated": "${json-unit.ignore}",
+        "providerId": "16441",
+        "investmentOption": [
+          {
+            "symbol": "010",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 29.9363,
+              "currency": "USD"
+            },
+            "description": "JJ Stock Contributions",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 17.26,
+              "threeMonthReturn": 6.91,
+              "threeYearReturn": 12.96
+            }
+          },
+          {
+            "symbol": "009",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 29.441,
+              "currency": "USD"
+            },
+            "description": "JJ Stock",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 17.1,
+              "threeMonthReturn": 6.85,
+              "threeYearReturn": 12.83
+            }
+          },
+          {
+            "symbol": "006",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 27.6054,
+              "currency": "USD"
+            },
+            "description": "International Equity",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 10.07,
+              "threeMonthReturn": 7.34,
+              "threeYearReturn": 4.6
+            }
+          },
+          {
+            "symbol": "007",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 35.4778,
+              "currency": "USD"
+            },
+            "description": "U.S. Small Cap",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 15.27,
+              "threeMonthReturn": 3.28,
+              "threeYearReturn": 10.9
+            }
+          },
+          {
+            "symbol": "008",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 29.5341,
+              "currency": "USD"
+            },
+            "description": "Russell XXXX Index",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 14.78,
+              "threeMonthReturn": 3,
+              "threeYearReturn": 10.51
+            }
+          },
+          {
+            "symbol": "005",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 32.0483,
+              "currency": "USD"
+            },
+            "description": "Diversified Equity",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 16.41,
+              "threeMonthReturn": 4.3,
+              "threeYearReturn": 11.19
+            }
+          },
+          {
+            "symbol": "004",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 33.0956,
+              "currency": "USD"
+            },
+            "description": "Balanced",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 11.89,
+              "threeMonthReturn": 4.07,
+              "threeYearReturn": 8.19
+            }
+          },
+          {
+            "symbol": "003",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 22.6486,
+              "currency": "USD"
+            },
+            "description": "Intermediate Bond",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 2.87,
+              "threeMonthReturn": 1.54,
+              "threeYearReturn": 3.05
+            }
+          },
+          {
+            "symbol": "002",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 17.9137,
+              "currency": "USD"
+            },
+            "description": "Fixed Interest",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 1.65,
+              "threeMonthReturn": 0.46,
+              "threeYearReturn": 1.59
+            }
+          },
+          {
+            "symbol": "001",
+            "holdingType": "mutualFund",
+            "price": {
+              "amount": 12.4633,
+              "currency": "USD"
+            },
+            "description": "U.S. Government Securities",
+            "id": "${json-unit.ignore}",
+            "historicReturns": {
+              "fiveYearReturn": 0.11,
+              "threeMonthReturn": 0.17,
+              "threeYearReturn": 0.19
+            }
+          }
+        ],
+        "planName": "Salaried Savings Plan 1",
+        "id": "${json-unit.ignore}",
+        "providerName": "Dag Site"
+      },
+      "id": "${json-unit.ignore}"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-146914,"Validate TopMerchantsConsumerLevel , check if Insight is unSubscribed to OR isSubscribed=false ",,TopMerchantsConsumerLevel,TopMerchantsConsumerLevel,,,,,,account,TRUE,,,,200,TRUE
+AT-146915,"Validate TopMerchantsConsumerLevel , Validate InsightName",,TopMerchantsConsumerLevel,TopMerchantsConsumerLevel,,,,,,,,,,,200,TRUE
+AT-146916,"Validate TopMerchantsConsumerLevel , Validate Supporting container",,TopMerchantsConsumerLevel,,,BANK CARD INVESTMENT,,,,,,,,,200,TRUE
+AT-146917,"Validate TopMerchantsConsumerLevel , Validate TriggerType",SCHEDULE,TopMerchantsConsumerLevel,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-146918,"Validate TopMerchantsConsumerLevel , Validate applicableEntity",,TopMerchantsConsumerLevel,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-146919,"Validate TopMerchantsConsumerLevel , Validate number of levels and levelObject",,TopMerchantsConsumerLevel,,,,,,ACCOUNT,account,,,,,200,TRUE
+AT-146920,"Validate TopMerchantsConsumerLevel , Validate isSubscribed=false",,TopMerchantsConsumerLevel,,,,,,,,FALSE,,,,200,TRUE
+AT-146922,"Validate TopMerchantsConsumerLevel , Validate insightKeys",,TopMerchantsConsumerLevel,,,,Account,,ACCOUNT,,,,,,200,TRUE
+AT-146923,"Validate TopMerchantsConsumerLevel , Validate description",,TopMerchantsConsumerLevel,,,,,Generates an insight that provides spending trends (based on $ amount) by merchant over a configured time period across all the eligible accounts for the user.,,,,,,,200,TRUE
+AT-146924,"Validate TopMerchantsConsumerLevel , Validate title",,TopMerchantsConsumerLevel,,Spending By Merchant : All Accounts,,,,,,,,,,200,TRUE

@@ -1,0 +1,5 @@
+Test ID,Enabled,Test Name
+AT-000001,TRUE,EmptySubBrandDomainNameIPAddress
+AT-000002,TRUE,DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters
+AT-000003,TRUE,MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters
+AT-000004,TRUE,InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed

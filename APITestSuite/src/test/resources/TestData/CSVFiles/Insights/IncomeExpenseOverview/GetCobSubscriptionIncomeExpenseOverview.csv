@@ -1,0 +1,14 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,insightType,frequency,duration,thresholdDetails,ruleExpression,status,enabled
+AT-148069,"getCobrandSubscription - Validate IncomeExpenseOverview , check if Insight is unSubscribed to OR isSubscribed=false ",,IncomeExpenseOverview,IncomeExpenseOverview,,,,,,,,FALSE,OTHER,DAILY,THIS_MONTH,,,200,TRUE
+AT-148070,"getCobrandSubscription - Validate IncomeExpenseOverview , Validate InsightName",,IncomeExpenseOverview,IncomeExpenseOverview,,,,,,,,,OTHER,DAILY,THIS_MONTH,,,200,TRUE
+AT-148071,"getCobrandSubscription - Validate IncomeExpenseOverview , Validate Supporting container",,IncomeExpenseOverview,,,"BANK,CARD",,,,,,,OTHER,DAILY,THIS_MONTH,,,200,TRUE
+AT-148072,"getCobrandSubscription - Validate IncomeExpenseOverview , Validate TriggerType",SCHEDULE,IncomeExpenseOverview,,,,,,,,,,OTHER,DAILY,THIS_MONTH,,,200,TRUE
+AT-148073,"getCobrandSubscription - Validate IncomeExpenseOverview , Validate applicableEntity",,IncomeExpenseOverview,,,,,,,VIEW,,,OTHER,DAILY,THIS_MONTH,,,200,TRUE
+AT-148074,"getCobrandSubscription - Validate IncomeExpenseOverview , Validate number of levels and levelObject",,IncomeExpenseOverview,,,,,,,VIEW,view,,OTHER,DAILY,THIS_MONTH,,,200,TRUE
+AT-148075,"getCobrandSubscription - Validate IncomeExpenseOverview , Validate isSubscribed=false",,IncomeExpenseOverview,,,,,,,,,FALSE,OTHER,DAILY,THIS_MONTH,,,200,TRUE
+AT-148076,"getCobrandSubscription - Validate IncomeExpenseOverview , Validate threshold Name,default Value  and Type",,IncomeExpenseOverview,,,,,,,,view,,OTHER,DAILY,THIS_MONTH,,,200,TRUE
+AT-148077,"getCobrandSubscription - Validate IncomeExpenseOverview , Validate insightKeys",,IncomeExpenseOverview,,,,View,,,,,,OTHER,DAILY,THIS_MONTH,,,200,TRUE
+AT-148078,"getCobrandSubscription - Validate IncomeExpenseOverview , Validate description",,IncomeExpenseOverview,,,,,,Generates an insight that provides net income trends over a configured time period.,,,,OTHER,DAILY,THIS_MONTH,,,200,TRUE
+AT-148079,"getCobrandSubscription - Validate IncomeExpenseOverview , Validate title",,IncomeExpenseOverview,,Net Income Summary,,,,,,,,OTHER,DAILY,THIS_MONTH,,,200,TRUE
+AT-148080,"getCobrandSubscription - Validate IncomeExpenseOverview , Validate ruleExpression",,IncomeExpenseOverview,,,,,,,,,,OTHER,DAILY,THIS_MONTH,,checkRuleExpressionIfPresent,200,TRUE
+AT-148081,"getCobrandSubscription - Validate IncomeExpenseOverview , Validate total number of keys",,IncomeExpenseOverview,,,,,15,,,,,OTHER,DAILY,THIS_MONTH,,,200,TRUE

@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-146950,"Validate SpendingByCategoryConsumerLevel , Validate InsightName",,SpendingByCategoryConsumerLevel,SpendingByCategoryConsumerLevel,,,,,,,,,,,,200,TRUE
+AT-146951,"Validate SpendingByCategoryConsumerLevel , Validate Supporting container",,SpendingByCategoryConsumerLevel,,,BANK CARD INVESTMENT,,,,,,,,,,200,TRUE
+AT-146952,"Validate SpendingByCategoryConsumerLevel , Validate TriggerType",SCHEDULE,SpendingByCategoryConsumerLevel,,,,,,,,,,,,,200,TRUE
+AT-146953,"Validate SpendingByCategoryConsumerLevel , Validate applicableEntity",,SpendingByCategoryConsumerLevel,,,,,,Account,,,,,,,200,TRUE
+AT-146954,"Validate SpendingByCategoryConsumerLevel , Validate number of levels and levelObject",,SpendingByCategoryConsumerLevel,,,,,,Account,account,,,,,,200,TRUE
+AT-146955,"Validate SpendingByCategoryConsumerLevel , Validate isSubscribed=false",,SpendingByCategoryConsumerLevel,,,,,,,,FALSE,,,,,200,TRUE
+AT-146956,"Validate SpendingByCategoryConsumerLevel , Validate threshold Name,Value and Type",,SpendingByCategoryConsumerLevel,,,,,,,account,,,,,,200,TRUE
+AT-146957,"Validate SpendingByCategoryConsumerLevel , Validate insightKeys",,SpendingByCategoryConsumerLevel,,,,Account,,,,,,,,,200,TRUE
+AT-146958,"Validate SpendingByCategoryConsumerLevel , Validate description",,SpendingByCategoryConsumerLevel,,,,,Let the user know how much money is available as emergency savings.,,,,,,,,200,TRUE
+AT-146959,"Validate SpendingByCategoryConsumerLevel , Validate title",,SpendingByCategoryConsumerLevel,,Spending By Category: All Accounts,,,,,,,,,,,200,TRUE
+AT-146960,"Validate SpendingByCategoryConsumerLevel , Validate ruleExpression",,SpendingByCategoryConsumerLevel,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-146961,"Validate SpendingByCategoryConsumerLevel , verify entityParameter and configMeta are same",,SpendingByCategoryConsumerLevel,,,,,,,,,,,,TRUE,200,TRUE

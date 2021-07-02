@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="5">
+	<!-- <parameter name="coBrand" value="YCOM_L1" /> <parameter name="loginType" 
+		value="L1NODE" /> -->
+	<parameter name="browser" value="chrome" />
+	<parameter name="runOnBrowserStack" value="false" />
+	<parameter name="bs_username" value="yodleebrowsersta1" />
+	<parameter name="bs_automate_key"
+		value="pzyoTJ6embZ48zsufsF2" />
+	<parameter name="browser_version" value="43" />
+	<parameter name="platformName" value="OS X" />
+	<parameter name="platformVersion" value="YOSEMITE" />
+	<parameter name="elpamEnabled" value="true" />
+	<parameter name="appFlag" value="false" />
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="suiteName"
+		value="Investment Holdings Regression" />
+	<parameter name="dashboardrun" value="L1" />
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.omni.pfm.listeners.CustomListener" />
+		<listener
+			class-name="com.automation.rdashboard.ReportDashboardPlugin" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+	</listeners>
+
+	<test name="Investment Holdings Landing Page">
+		<classes>
+			<class
+				name="com.omni.pfm.InvestmentHoldings.InvestmentHolding_LandingPage_Test"></class>
+		</classes>
+	</test>
+
+	 <test name="Investment Holdings Alert Settings">
+		<classes>
+			<class
+				name="com.omni.pfm.InvestmentHoldings.InvestmentHolding_AlertSettings_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Investment Holdings Total holdings">
+		<classes>
+			<class
+				name="com.omni.pfm.InvestmentHoldings.InvestmentHoldings_TotalHoldings_Test"></class>
+		</classes>
+	</test>
+
+	
+	<test name="Investment Holdings Scrapped holdings">
+		<classes>
+			<class
+				name="com.omni.pfm.InvestmentHoldings.ScrappedHoldingsTest"></class>
+		</classes>
+	</test>
+</suite>

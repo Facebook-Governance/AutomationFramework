@@ -1,0 +1,385 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 349.04,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000009,
+      "description": {
+        "original": "Expense Reimbursement",
+        "simple": "Expense Reimbursement"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Other Expenses",
+      "categoryId": 19,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000009,
+      "description": {
+        "original": "Wages Paid",
+        "simple": "Wages Paid"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Other Expenses",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 19,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000009,
+      "description": {
+        "original": "Other Bills",
+        "simple": "Other Bills"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Other Expenses",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 19,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000009,
+      "description": {
+        "original": "Other Bills",
+        "simple": "Other Bills"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Other Expenses",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 19,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000009,
+      "description": {
+        "original": "Other Expenses",
+        "simple": "Other Expenses"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Other Expenses",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 19,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000009,
+      "description": {
+        "original": "Other Bills",
+        "simple": "Other Bills"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Other Expenses",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 19,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 360,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000009,
+      "description": {
+        "original": "Expense Reimbursement",
+        "simple": "Expense Reimbursement"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Other Expenses",
+      "categoryId": 19,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000009,
+      "description": {
+        "original": "Other Bills",
+        "simple": "Other Bills"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Other Expenses",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 19,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000009,
+      "description": {
+        "original": "Expense Reimbursement",
+        "simple": "Expense Reimbursement"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Other Expenses",
+      "categoryId": 19,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000009,
+      "description": {
+        "original": "Other Expenses",
+        "simple": "Other Expenses"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Other Expenses",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 19,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "checkNumber": "998",
+      "isManual": false,
+      "highLevelCategoryId": 10000009,
+      "description": {
+        "original": "ACH Withdrawal-Debit 0000000000 - PPD US BANK - LOAN A BILL PAYMT",
+        "simple": "ACH Withdrawal-Debit XXXXXXXX00 - US BANK - LOAN A BILL PAYMT"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Other Expenses",
+      "runningBalance": {
+        "amount": 59,
+        "currency": "USD"
+      },
+      "categoryId": 19,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 900,
+        "currency": "USD"
+      },
+      "checkNumber": "DAG-333",
+      "isManual": false,
+      "highLevelCategoryId": 10000009,
+      "description": {
+        "original": "ACH Withdrawal-Debit 0000000000 - PPD COMMONWEALTH EDI BILL PAYMT",
+        "simple": "Commonwealth Edison"
+      },
+      "merchant": {
+        "name": "Commonwealth Edison",
+        "id": "9637",
+        "source": "YODLEE"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Other Expenses",
+      "runningBalance": {
+        "amount": 59,
+        "currency": "USD"
+      },
+      "categoryId": 19,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 920,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000009,
+      "description": {
+        "original": "ACH Withdrawal-Debit 0000000000 - PPD  US BANK - LOAN A BILL PAYMT",
+        "simple": "ACH Withdrawal-Debit XXXXXXXX00 - US BANK - LOAN A BILL PAYMT"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Other Expenses",
+      "categoryId": 19,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 920,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000009,
+      "description": {
+        "original": "ACH Withdrawal-Debit 0000000000 - PPD  COMMONWEALTH EDI BILL PAYMT",
+        "simple": "Commonwealth Edison"
+      },
+      "merchant": {
+        "name": "Commonwealth Edison",
+        "id": "9637",
+        "source": "YODLEE"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Other Expenses",
+      "categoryId": 19,
+      "status": "POSTED"
+    }
+  ]
+}

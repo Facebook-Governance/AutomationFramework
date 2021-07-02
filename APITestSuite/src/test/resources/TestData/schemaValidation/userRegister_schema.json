@@ -1,0 +1,135 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "user": {
+      "$id": "/properties/user",
+      "type": "object",
+      "properties": {
+        "id": {
+          "$id": "/properties/user/properties/id",
+          "type": "number",
+          "minimum": -9223372036854775807,
+          "maximum": 9223372036854775807,
+          "title": "The Id Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            32132023285
+          ]
+        },
+        "loginName": {
+          "$id": "/properties/user/properties/loginName",
+          "type": "string",
+          "title": "The Loginname Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "newAut06"
+          ]
+        },
+        "name": {
+          "$id": "/properties/user/properties/name",
+          "type": "object",
+          "properties": {
+            "first": {
+              "$id": "/properties/user/properties/name/properties/first",
+              "type": "string",
+              "title": "The First Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "FNAME"
+              ]
+            },
+            "last": {
+              "$id": "/properties/user/properties/name/properties/last",
+              "type": "string",
+              "title": "The Last Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "LNAME"
+              ]
+            }
+          }
+        },
+        "roleType": {
+          "$id": "/properties/user/properties/roleType",
+          "type": "string",
+          "title": "The Roletype Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "INDIVIDUAL"
+          ]
+        },
+        "session": {
+          "$id": "/properties/user/properties/session",
+          "type": "object",
+          "properties": {
+            "userSession": {
+              "$id": "/properties/user/properties/session/properties/userSession",
+              "type": "string",
+              "title": "The Usersession Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "01162009_0:d364fc72f8f2ce0a26d951b1efc42280c23927bddb6024f1572c11d1a4b8a825a7cf3b73289bb83f3f96b6d28c7c6c79eaa9fa6557a97ee1c2e5d272bddd0d07"
+              ]
+            }
+          }
+        },
+        "preferences": {
+          "$id": "/properties/user/properties/preferences",
+          "type": "object",
+          "properties": {
+            "currency": {
+              "$id": "/properties/user/properties/preferences/properties/currency",
+              "type": "string",
+              "title": "The Currency Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "GBP"
+              ]
+            },
+            "timeZone": {
+              "$id": "/properties/user/properties/preferences/properties/timeZone",
+              "type": "string",
+              "title": "The Timezone Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "PST"
+              ]
+            },
+            "dateFormat": {
+              "$id": "/properties/user/properties/preferences/properties/dateFormat",
+              "type": "string",
+              "title": "The Dateformat Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "MM/dd/yyyy"
+              ]
+            },
+            "locale": {
+              "$id": "/properties/user/properties/preferences/properties/locale",
+              "type": "string",
+              "format": "locale",
+              "title": "The Locale Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "en_GB"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

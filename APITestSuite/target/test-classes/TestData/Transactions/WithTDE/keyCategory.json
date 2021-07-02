@@ -1,0 +1,62 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 400,
+        "currency": "USD"
+      },
+      "checkNumber": "DAG-333",
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "ACH Withdrawal-Debit 0000000000 - PPD BAC HOME LOAN SE BILL PAYMT",
+        "simple": "Bank of America"
+      },
+      "merchant": {
+        "name": "Bank of America",
+        "id": "4098",
+        "source": "YODLEE"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Loans",
+      "runningBalance": {
+        "amount": 59,
+        "currency": "USD"
+      },
+      "categoryId": 17,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 920,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "ACH Withdrawal-Debit 0000000000 - PPD  BAC HOME LOAN SE BILL PAYMT",
+        "simple": "ACH Withdrawal-Debit XXXXXXXX00 - BAC HOME LOAN SE BILL PAYMT"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Home Improvement",
+      "categoryId": 13,
+      "status": "POSTED"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+tcId,oldStatus,updateStatus,container,accountName,accountReconType,providerAccountId,statusCode,detailsStatusCode,defectId,resFile,filePath,enabled,ignoreKeys,specific
+A-UpdateStatus-1,EMPTY,ACTIVE,bill,DAG_BILLING3,EMPTY,VALID,204,200,0,A-UpdateStatus-1,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-2,ACTIVE,INACTIVE,bill,DAG_BILLING3,EMPTY,VALID,204,200,0,A-UpdateStatus-2,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-3,INACTIVE,INACTIVE,bill,DAG_BILLING3,EMPTY,VALID,204,200,0,A-UpdateStatus-3,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48130,INACTIVE,CLOSED,bill,DAG_BILLING3,EMPTY,VALID,204,200,0,A-UpdateStatus-4,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48133,CLOSED,CLOSED,bill,DAG_BILLING3,EMPTY,VALID,204,200,0,A-UpdateStatus-5,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-5,CLOSED,INACTIVE,bill,DAG_BILLING3,EMPTY,VALID,204,200,0,A-UpdateStatus-6,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-6,INACTIVE,ACTIVE,bill,DAG_BILLING3,EMPTY,VALID,204,200,0,A-UpdateStatus-7,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-7,ACTIVE,ACTIVE,bill,DAG_BILLING3,EMPTY,VALID,204,200,0,A-UpdateStatus-8,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48129,ACTIVE,CLOSED,bill,DAG_BILLING3,EMPTY,VALID,204,200,0,A-UpdateStatus-9,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+,CLOSED,ACTIVE,bill,DAG_BILLING3,EMPTY,VALID,204,200,0,A-UpdateStatus-10,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-10,ACTIVE,DELETED,bill,DAG_BILLING3,EMPTY,VALID,204,400,0,A-UpdateStatus-11,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-11,,ACTIVE,bill,DAG_BILLING3,EMPTY,VALID,400,400,0,A-UpdateStatus-12,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-11,,INACTIVE,bill,DAG_BILLING3,EMPTY,VALID,400,400,0,A-UpdateStatus-13,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-11,,CLOSED,bill,DAG_BILLING3,EMPTY,VALID,400,400,0,A-UpdateStatus-14,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-53158,ACTIVE,INACTIVE,bill,DAG_BILLING2,EMPTY,VALID,204,200,0,A-UpdateStatus-15,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FIRST
+AT-53159,ACTIVE,CLOSED,bill,DAG_BILLING1,EMPTY,VALID,204,200,0,A-UpdateStatus-16,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FIRST
+A-UpdateStatus-1,EMPTY,ACTIVE,bank,TESTDATA2,EMPTY,VALID,204,200,0,A-UpdateStatus-17,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-2,ACTIVE,INACTIVE,bank,TESTDATA2,EMPTY,VALID,204,200,0,A-UpdateStatus-18,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-3,INACTIVE,INACTIVE,bank,TESTDATA2,EMPTY,VALID,204,200,0,A-UpdateStatus-19,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48130,INACTIVE,CLOSED,bank,TESTDATA2,EMPTY,VALID,204,200,0,A-UpdateStatus-20,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48133,CLOSED,CLOSED,bank,TESTDATA2,EMPTY,VALID,204,200,0,A-UpdateStatus-21,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-5,CLOSED,INACTIVE,bank,TESTDATA2,EMPTY,VALID,204,200,0,A-UpdateStatus-22,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-6,INACTIVE,ACTIVE,bank,TESTDATA2,EMPTY,VALID,204,200,0,A-UpdateStatus-23,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-7,ACTIVE,ACTIVE,bank,TESTDATA2,EMPTY,VALID,204,200,0,A-UpdateStatus-24,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48129,ACTIVE,CLOSED,bank,TESTDATA2,EMPTY,VALID,204,200,0,A-UpdateStatus-25,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+,CLOSED,ACTIVE,bank,TESTDATA2,EMPTY,VALID,204,200,0,A-UpdateStatus-26,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-10,ACTIVE,DELETED,bank,TESTDATA2,EMPTY,VALID,204,400,0,A-UpdateStatus-27,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-11,,CLOSED,bank,TESTDATA2,EMPTY,VALID,400,400,0,A-UpdateStatus-28,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-53158,ACTIVE,INACTIVE,bank,TESTDATA1,EMPTY,VALID,204,200,0,A-UpdateStatus-29,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FIRST
+AT-53159,ACTIVE,CLOSED,bank,TESTDATA,EMPTY,VALID,204,200,0,A-UpdateStatus-30,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FIRST
+A-UpdateStatus-1,EMPTY,ACTIVE,creditCard,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-31,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-2,ACTIVE,INACTIVE,creditCard,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-32,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-3,INACTIVE,INACTIVE,creditCard,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-33,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48130,INACTIVE,CLOSED,creditCard,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-34,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48133,CLOSED,CLOSED,creditCard,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-35,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-5,CLOSED,INACTIVE,creditCard,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-36,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-6,INACTIVE,ACTIVE,creditCard,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-37,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-7,ACTIVE,ACTIVE,creditCard,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-38,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48129,ACTIVE,CLOSED,creditCard,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-39,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+,CLOSED,ACTIVE,creditCard,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-40,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-10,ACTIVE,DELETED,creditCard,Super CD Plus2,EMPTY,VALID,204,400,0,A-UpdateStatus-41,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-11,,CLOSED,creditCard,Super CD Plus2,EMPTY,VALID,400,400,0,A-UpdateStatus-42,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-53158,ACTIVE,INACTIVE,creditCard,Super CD Plus1,EMPTY,VALID,204,200,0,A-UpdateStatus-43,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FIRST
+AT-53159,ACTIVE,CLOSED,creditCard,Super CD Plus,EMPTY,VALID,204,200,0,A-UpdateStatus-44,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FIRST
+A-UpdateStatus-1,EMPTY,ACTIVE,insurance,DAG INSURANCE2,EMPTY,VALID,204,200,0,A-UpdateStatus-45,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-2,ACTIVE,INACTIVE,insurance,DAG INSURANCE2,EMPTY,VALID,204,200,0,A-UpdateStatus-46,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-3,INACTIVE,INACTIVE,insurance,DAG INSURANCE2,EMPTY,VALID,204,200,0,A-UpdateStatus-47,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48130,INACTIVE,CLOSED,insurance,DAG INSURANCE2,EMPTY,VALID,204,200,0,A-UpdateStatus-48,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48133,CLOSED,CLOSED,insurance,DAG INSURANCE2,EMPTY,VALID,204,200,0,A-UpdateStatus-49,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-5,CLOSED,INACTIVE,insurance,DAG INSURANCE2,EMPTY,VALID,204,200,0,A-UpdateStatus-50,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-6,INACTIVE,ACTIVE,insurance,DAG INSURANCE2,EMPTY,VALID,204,200,0,A-UpdateStatus-51,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-7,ACTIVE,ACTIVE,insurance,DAG INSURANCE2,EMPTY,VALID,204,200,0,A-UpdateStatus-52,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48129,ACTIVE,CLOSED,insurance,DAG INSURANCE2,EMPTY,VALID,204,200,0,A-UpdateStatus-53,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+,CLOSED,ACTIVE,insurance,DAG INSURANCE2,EMPTY,VALID,204,200,0,A-UpdateStatus-54,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-10,ACTIVE,DELETED,insurance,DAG INSURANCE2,EMPTY,VALID,204,400,0,A-UpdateStatus-55,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-11,,CLOSED,insurance,DAG INSURANCE2,EMPTY,VALID,400,400,0,A-UpdateStatus-56,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-53158,ACTIVE,INACTIVE,insurance,DAG INSURANCE1,EMPTY,VALID,204,200,0,A-UpdateStatus-57,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FIRST
+AT-53159,ACTIVE,CLOSED,insurance,DAG INSURANCE,EMPTY,VALID,204,200,0,A-UpdateStatus-58,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FIRST
+A-UpdateStatus-1,EMPTY,ACTIVE,investment,brokerageMarginOption,EMPTY,VALID,204,200,0,A-UpdateStatus-59,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-2,ACTIVE,INACTIVE,investment,brokerageMarginOption,EMPTY,VALID,204,200,0,A-UpdateStatus-60,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-3,INACTIVE,INACTIVE,investment,brokerageMarginOption,EMPTY,VALID,204,200,0,A-UpdateStatus-61,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48130,INACTIVE,CLOSED,investment,brokerageMarginOption,EMPTY,VALID,204,200,0,A-UpdateStatus-62,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48133,CLOSED,CLOSED,investment,brokerageMarginOption,EMPTY,VALID,204,200,0,A-UpdateStatus-63,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-5,CLOSED,INACTIVE,investment,brokerageMarginOption,EMPTY,VALID,204,200,0,A-UpdateStatus-64,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-6,INACTIVE,ACTIVE,investment,brokerageMarginOption,EMPTY,VALID,204,200,0,A-UpdateStatus-65,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-7,ACTIVE,ACTIVE,investment,brokerageMarginOption,EMPTY,VALID,204,200,0,A-UpdateStatus-66,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48129,ACTIVE,CLOSED,investment,brokerageMarginOption,EMPTY,VALID,204,200,0,A-UpdateStatus-67,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+,CLOSED,ACTIVE,investment,brokerageMarginOption,EMPTY,VALID,204,200,0,A-UpdateStatus-68,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-10,ACTIVE,DELETED,investment,brokerageMarginOption,EMPTY,VALID,204,400,0,A-UpdateStatus-69,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-11,,CLOSED,investment,brokerageMarginOption,EMPTY,VALID,400,400,0,A-UpdateStatus-70,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-53158,ACTIVE,INACTIVE,investment,trust,EMPTY,VALID,204,200,0,A-UpdateStatus-71,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FIRST
+AT-53159,ACTIVE,CLOSED,investment,moneyMarket,EMPTY,VALID,204,200,0,A-UpdateStatus-72,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FIRST
+A-UpdateStatus-1,EMPTY,ACTIVE,reward,YODLEE,EMPTY,VALID,204,200,0,A-UpdateStatus-73,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-2,ACTIVE,INACTIVE,reward,YODLEE,EMPTY,VALID,204,200,0,A-UpdateStatus-74,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-3,INACTIVE,INACTIVE,reward,YODLEE,EMPTY,VALID,204,200,0,A-UpdateStatus-75,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48130,INACTIVE,CLOSED,reward,YODLEE,EMPTY,VALID,204,200,0,A-UpdateStatus-76,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48133,CLOSED,CLOSED,reward,YODLEE,EMPTY,VALID,204,200,0,A-UpdateStatus-77,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-5,CLOSED,INACTIVE,reward,YODLEE,EMPTY,VALID,204,200,0,A-UpdateStatus-78,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-6,INACTIVE,ACTIVE,reward,YODLEE,EMPTY,VALID,204,200,0,A-UpdateStatus-79,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-7,ACTIVE,ACTIVE,reward,YODLEE,EMPTY,VALID,204,200,0,A-UpdateStatus-80,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48129,ACTIVE,CLOSED,reward,YODLEE,EMPTY,VALID,204,200,0,A-UpdateStatus-81,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+,CLOSED,ACTIVE,reward,YODLEE,EMPTY,VALID,204,200,0,A-UpdateStatus-82,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-10,ACTIVE,DELETED,reward,YODLEE,EMPTY,VALID,204,400,0,A-UpdateStatus-83,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-1,EMPTY,ACTIVE,loan,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-85,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-2,ACTIVE,INACTIVE,loan,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-86,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-3,INACTIVE,INACTIVE,loan,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-87,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48130,INACTIVE,CLOSED,loan,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-88,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48133,CLOSED,CLOSED,loan,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-89,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-5,CLOSED,INACTIVE,loan,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-90,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-6,INACTIVE,ACTIVE,loan,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-91,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-7,ACTIVE,ACTIVE,loan,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-92,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-48129,ACTIVE,CLOSED,loan,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-93,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+,CLOSED,ACTIVE,loan,Super CD Plus2,EMPTY,VALID,204,200,0,A-UpdateStatus-94,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-10,ACTIVE,DELETED,loan,Super CD Plus2,EMPTY,VALID,204,400,0,A-UpdateStatus-95,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+A-UpdateStatus-11,,CLOSED,loan,Super CD Plus2,EMPTY,VALID,400,400,0,A-UpdateStatus-96,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-53160,ACTIVE,,,annuity,EMPTY,VALID,204,400,0,A-UpdateStatus-97,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FALSE
+AT-53158,ACTIVE,INACTIVE,loan,Super CD Plus1,EMPTY,VALID,204,200,0,A-UpdateStatus-98,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FIRST
+AT-53159,ACTIVE,CLOSED,loan,Super CD Plus,EMPTY,VALID,204,200,0,A-UpdateStatus-99,../src/test/resources/TestData/JSONFiles/Accounts/GetUpdateStatus/,TRUE,,FIRST

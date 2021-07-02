@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-146950,"Validate AggregateInvestmentAccount , Validate InsightName",,AggregateInvestmentAccount,AggregateInvestmentAccount,,,,,,,,,,,,200,TRUE
+AT-146951,"Validate AggregateInvestmentAccount , Validate Supporting container",,AggregateInvestmentAccount,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-146952,"Validate AggregateInvestmentAccount , Validate TriggerType",REFRESH,AggregateInvestmentAccount,,,,,,,,,,,,,200,TRUE
+AT-146953,"Validate AggregateInvestmentAccount , Validate applicableEntity",,AggregateInvestmentAccount,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-146954,"Validate AggregateInvestmentAccount , Validate number of levels and levelObject",,AggregateInvestmentAccount,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-146955,"Validate AggregateInvestmentAccount , Validate isSubscribed=false",,AggregateInvestmentAccount,,,,,,,,FALSE,,,,,200,TRUE
+AT-146957,"Validate AggregateInvestmentAccount , Validate insightKeys",,AggregateInvestmentAccount,,,,Account,,,,,,,,,200,TRUE
+AT-146958,"Validate AggregateInvestmentAccount , Validate description",,AggregateInvestmentAccount,,,,,Generates an insight when an investment transaction is identified but no corresponding investment account was found for the user,,,,,,,,200,TRUE
+AT-146959,"Validate AggregateInvestmentAccount , Validate title",,AggregateInvestmentAccount,,Aggregate Investment Account,,,,,,,,,,,200,TRUE
+AT-146960,"Validate AggregateInvestmentAccount , Validate ruleExpression",,AggregateInvestmentAccount,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-146961,"Validate AggregateInvestmentAccount , verify entityParameter and configMeta are same",,AggregateInvestmentAccount,,,,,,,,,,,,TRUE,200,TRUE

@@ -1,0 +1,112 @@
+{
+  "account": [
+    {
+      "CONTAINER": "bank",
+      "accountName": "TESTDATA",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx5623",
+      "aggregationSource": "USER",
+      "isAsset": true,
+      "balance": {
+        "amount": 44.78,
+        "currency": "USD"
+      },
+      "profile": {
+        "address": [
+          {
+            "address1": "Address1",
+            "address2": "Address2",
+            "address3": "Address3",
+            "city": "City1",
+            "state": "state1",
+            "zip": "Zip1",
+            "type": "HOME"
+          }
+        ],
+        "phoneNumber": [
+          {
+            "type": "HOME",
+            "value": "HomePhone1"
+          },
+          {
+            "type": "WORK",
+            "value": "WorkPhone1"
+          },
+          {
+            "type": "LANDLINE",
+            "value": "Phone1"
+          },
+          {
+            "type": "MOBILE",
+            "value": "MobilePhone1"
+          }
+        ],
+        "identifier": [
+          {
+            "type": "AADHAR",
+            "value": "7576565567"
+          },
+          {
+            "type": "NRIC",
+            "value": "454765876876"
+          }
+        ],
+        "email": [
+          {
+            "type": "PRIMARY",
+            "value": "PrimaryEmail1"
+          },
+          {
+            "type": "SECONDARY",
+            "value": "SecondaryEmail1"
+          },
+          {
+            "type": "PERSONAL",
+            "value": "PersonalEmail1"
+          },
+          {
+            "type": "WORK",
+            "value": "workEmail1"
+          },
+          {
+            "type": "OTHERS",
+            "value": "OthersEmail1"
+          },
+          {
+            "type": "OTHERS",
+            "value": "AccountEmail1"
+          }
+        ],
+        "company": "AccountCompany1"
+      },
+      "includeInNetWorth": true,
+      "providerId": "16441",
+      "providerName": "Dag Site",
+      "isManual": false,
+      "availableBalance": {
+        "amount": 54.78,
+        "currency": "USD"
+      },
+      "currentBalance": {
+        "amount": 44.78,
+        "currency": "USD"
+      },
+      "accountType": "CHECKING",
+      "classification": "PERSONAL",
+      "displayedName": "accountHolder",
+      "userClassification": "PERSONAL",
+      "dataset": [
+        {
+          "name": "ACCT_PROFILE",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "DISALLOW_UPDATE"
+       },
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "DISALLOW_UPDATE"
+       }
+      ]
+    }
+  ]
+}

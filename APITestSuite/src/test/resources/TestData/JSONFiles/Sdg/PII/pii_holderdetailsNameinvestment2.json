@@ -1,0 +1,175 @@
+{
+  "account": [
+    {
+      "includeInNetWorth": true,
+      "accountName": "InvestmentAccount3",
+      "profile": {
+        "address": [
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          },
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          },
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          },
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          },
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          }
+        ],
+        "company": "fidelity_investments_0",
+        "email": [
+          {
+            "type": "PRIMARY",
+            "value": "primaryprofile@email.com"
+          },
+          {
+            "type": "SECONDARY",
+            "value": "secondaryemailprofile@gmail.com"
+          },
+          {
+            "type": "PERSONAL",
+            "value": "personalprofile@gmail.com"
+          },
+          {
+            "type": "WORK",
+            "value": "unique1profile@gmail.com"
+          },
+          {
+            "type": "OTHERS",
+            "value": "othersEmailprofile@gmail.com"
+          },
+          {
+            "type": "OTHERS",
+            "value": "uniquePROFILE@gmail.com"
+          }
+        ]
+      },
+      "accountType": "OTHER",
+      "isManual": false,
+      "displayedName": "sitha mahalakshmi",
+      "holder": [
+        {
+          "address": [
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            },
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            },
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            },
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            },
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            }
+          ],
+          "ownership": "OTHERS",
+          "name": {
+            "last": "mahalakshmi",
+            "fullName": "sitha mahalakshmi",
+            "first": "sitha"
+          },
+          "company": "fidelity_investments_0",
+          "email": [
+            {
+              "type": "PRIMARY",
+              "value": "primary@email.com"
+            },
+            {
+              "type": "SECONDARY",
+              "value": "secondaryemail@gmail.com"
+            },
+            {
+              "type": "PERSONAL",
+              "value": "personal@gmail.com"
+            },
+            {
+              "type": "WORK",
+              "value": "unique1@gmail.com"
+            },
+            {
+              "type": "OTHERS",
+              "value": "othersEmail@gmail.com"
+            },
+            {
+              "type": "OTHERS",
+              "value": "unique@gmail.com"
+            }
+          ]
+        }
+      ],
+      "accountNumber": "xxxx7890",
+      "accountStatus": "ACTIVE",
+      "lastUpdated": "${json-unit.ignore}",
+      "isAsset": true,
+      "createdDate": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 620,
+        "currency": "USD"
+      },
+      "providerId": "19705",
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "investment",
+      "id": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "name": "ACCT_PROFILE",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "HongLeong Bank"
+    }
+  ]
+}

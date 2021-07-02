@@ -1,0 +1,308 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>RestGenDocDown.site16441.7</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.7</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataSetForm>{
+
+					"name": "DOCUMENT",
+					"attribute": [{
+					"name": "TAX",
+					"container": ["bank"],
+					"fromFinYear": "2016",
+					"toFinYear": "2015"
+
+					}]
+					}
+				</dataSetForm>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+
+
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<status>ACTIVE</status>
+				<container>bank</container>
+				<accountReconType>UNRECONCILED</accountReconType>
+			</get-accounts>
+
+			<get-accountDetials-multiple>
+				<get-accountDetials order="1">
+					<container>bank</container>
+				</get-accountDetials>
+			</get-accountDetials-multiple>
+
+			<get-Historical_Balance-multiple>
+				<get-Historical_Balance order="1">
+					<accountId>YES</accountId>
+					<skip>1</skip>
+					<top>1</top>
+					<interval>d</interval>
+					<includeCF>true</includeCF>
+					<fromDate>2013-01-01</fromDate>
+					<toDate>2017-03-28</toDate>
+					<accountReconType>UNRECONCILED</accountReconType>
+				</get-Historical_Balance>
+			</get-Historical_Balance-multiple>
+
+			<get-Inv_Opt-multiple>
+				<get-Inv_Opt order="1">
+					<accountId>YES</accountId>
+					<accountReconType>UNRECONCILED</accountReconType>
+					<include>assetClassification</include>
+				</get-Inv_Opt>
+			</get-Inv_Opt-multiple>
+
+			<get-nw_summary-multiple>
+				<get-nw_summary order="1">
+					<accountId>YES</accountId>
+					<accountReconType>UNRECONCILED</accountReconType>
+					<include>details</include>
+					<fromDate>2013-01-01</fromDate>
+					<toDate>2017-03-28</toDate>
+					<interval>d</interval>
+					<top>2</top>
+					<skip>1</skip>
+				</get-nw_summary>
+			</get-nw_summary-multiple>
+
+			<get-providers-multiple>
+				<get-providers order="1">
+					<priority>COBRAND</priority>
+					<capability>CHALLENGE_DEPOSIT_VERIFICATION</capability>
+					<dataSet>ACCT_PROFILE.FULL_ACCT_NUMBER</dataSet>
+					<name></name>
+					<skip>1</skip>
+					<top>10</top>
+				</get-providers>
+			</get-providers-multiple>
+
+			<get-txn_summary-multiple>
+				<get-txn_summary order="1">
+					<groupBy></groupBy>
+					<categoryType></categoryType>
+					<categoryId></categoryId>
+					<fromDate></fromDate>
+					<toDate></toDate>
+					<include></include>
+					<interval></interval>
+				</get-txn_summary>
+			</get-txn_summary-multiple>
+
+			<get-transactions-multiple>
+				<get-transactions order="1">
+					<txnAccountId>YES</txnAccountId>
+					<fromDate>2000-01-01</fromDate>
+					<toDate></toDate>
+					<container>bank</container>
+					<baseType>DEBIT</baseType>
+					<keyword></keyword>
+					<category></category>
+					<categoryId></categoryId>
+					<highLevelCategoryId></highLevelCategoryId>
+					<type></type>
+					<categoryType></categoryType>
+					<accountReconType></accountReconType>
+					<skip></skip>
+					<top></top>
+				</get-transactions>
+			</get-transactions-multiple>
+
+			<get-statements-multiple>
+				<get-statements order="1">
+					<accountId>YES</accountId>
+					<container>creditCard</container>
+					<isLatest></isLatest>
+					<status></status>
+					<fromDate></fromDate>
+				</get-statements>
+			</get-statements-multiple>
+
+			<get-holdings-multiple>
+				<get-holdings order="1">
+					<accountId>YES</accountId>
+					<container>investment</container>
+					<holdingType></holdingType>
+					<include></include>
+					<classificationType></classificationType>
+					<classificationValue></classificationValue>
+					<accountReconType></accountReconType>
+				</get-holdings>
+			</get-holdings-multiple>
+
+			<get-holdingSummary-multiple>
+				<get-holdingSummary order="1">
+					<accountId>YES</accountId>
+					<container>investment</container>
+					<include></include>
+					<classificationType></classificationType>
+					<accountReconType></accountReconType>
+				</get-holdingSummary>
+			</get-holdingSummary-multiple>
+
+			<get-documents-multiple>
+				<get-documents order="1">
+					<docAccountId></docAccountId>
+					<docType></docType>
+					<keyword></keyword>
+					<fromDate></fromDate>
+					<toDate></toDate>
+				</get-documents>
+			</get-documents-multiple>
+
+	</request>
+
+	<response>
+		<account-multiple>
+			<account order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/GetAccounts/
+					</filePath>
+					<responseFile>getAccounts.json</responseFile>
+				</row>
+			</account>
+		</account-multiple>
+		<accountDetails-multiple>
+			<accountDetails order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/GetAccountsDetails/
+					</filePath>
+					<responseFile>getAccountsforIAV+PFM+PII.json</responseFile>
+				</row>
+			</accountDetails>
+		</accountDetails-multiple>
+		<investmentOption-multiple>
+			<investmentOption order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/GetInvestmentOption/
+					</filePath>
+					<responseFile>getAccountsforIAV+PFM+PII.json</responseFile>
+				</row>
+			</investmentOption>
+		</investmentOption-multiple>
+		<historicalBalance-multiple>
+			<historicalBalance order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/GetHistoricalBalance/
+					</filePath>
+					<responseFile>getAccountsforIAV+PFM+PII.json</responseFile>
+				</row>
+			</historicalBalance>
+		</historicalBalance-multiple>
+		<transaction-multiple>
+			<transaction order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/GetTransactions/
+					</filePath>
+					<responseFile>nullResponse.json</responseFile>
+				</row>
+			</transaction>
+		</transaction-multiple>
+		<transactionSummary-multiple>
+			<transactionSummary order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/GetTransactions/
+					</filePath>
+					<responseFile>nullResponse.json</responseFile>
+				</row>
+			</transactionSummary>
+		</transactionSummary-multiple>
+		<transactionCount-multiple>
+			<transactionCount order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/GetTransactionsCount/
+					</filePath>
+					<responseFile>getTransactionsforIAV+PFM+PII.json</responseFile>
+				</row>
+			</transactionCount>
+		</transactionCount-multiple>
+		<networthSummary-multiple>
+			<networthSummary order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/GetNetworthSummary/
+					</filePath>
+					<responseFile>getTransactionsforIAV+PFM+PII.json</responseFile>
+				</row>
+			</networthSummary>
+		</networthSummary-multiple>
+		<holding-multiple>
+			<holding order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/GetHoldings/
+					</filePath>
+					<responseFile>nullResponse.json</responseFile>
+				</row>
+			</holding>
+		</holding-multiple>
+		<holdingSummary-multiple>
+			<holdingSummary order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/GetHoldings/
+					</filePath>
+					<responseFile>nullResponse.json</responseFile>
+				</row>
+			</holdingSummary>
+		</holdingSummary-multiple>
+		<statement-multiple>
+			<statement order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/GetStatements/
+					</filePath>
+					<responseFile>getStatements.json</responseFile>
+				</row>
+			</statement>
+		</statement-multiple>
+		<document-multiple>
+			<document order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/
+					</filePath>
+					<responseFile>getDocumentsLatestTax -loan - dateRange.json
+					</responseFile>
+				</row>
+			</document>
+		</document-multiple>
+		<documentDetails-multiple>
+			<documentDetails order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/
+					</filePath>
+					<responseFile>downloadDocument.json</responseFile>
+				</row>
+			</documentDetails>
+		</documentDetails-multiple>
+		<provider-multiple>
+			<provider order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/
+					</filePath>
+					<responseFile>nullResponse.json</responseFile>
+				</row>
+			</provider>
+		</provider-multiple>
+		<providerDetails-multiple>
+			<providerDetails order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/
+					</filePath>
+					<responseFile>getProviderDetailsDocumentDownload.json
+					</responseFile>
+				</row>
+			</providerDetails>
+		</providerDetails-multiple>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/NegativeResults/
+					</filePath>
+					<responseFile>InvalidDateRange.json</responseFile>
+				</row>
+			</addProviderAccounts>
+			</add-provider-accounts>
+
+	</response>
+</entity>

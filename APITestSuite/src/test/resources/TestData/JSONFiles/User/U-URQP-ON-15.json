@@ -1,0 +1,16 @@
+{
+  "user": {
+    "preferences": {
+      "dateFormat": "MM/dd/yyyy",
+      "timeZone": "PST",
+      "currency": "USD",
+      "locale": "en_US"
+    },
+    "session": {
+      "userSession": "${json-unit.ignore}"
+    },
+    "loginName": "${json-unit.ignore}",
+    "id": "${json-unit.ignore}",
+    "roleType": "INDIVIDUAL"
+  }
+}

@@ -1,0 +1,46 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>SdgSanitySuite.site16442.1</siteUser>
+			<siteUserId>65501</siteUserId>
+			<sitePwd>site16442.1</sitePwd>
+			<sitePwdId>65502</sitePwdId>
+			<siteId>16442</siteId>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<update-provider-accounts-multiple>
+		<update-provider-accounts order="1">
+			<siteUser>SdgSanitySuite.site16442.2</siteUser>
+			<siteUserId>65501</siteUserId>
+			<sitePwd>site16442.2</sitePwd>
+			<sitePwdId>65502</sitePwdId>
+			<siteId>16442</siteId>
+			<token>123456</token>
+			<answer1>Texas</answer1>
+			<answer2>w3schools</answer2>
+		</update-provider-accounts>
+		</update-provider-accounts-multiple>
+	</request>
+	<response>
+		<accounts-multiple>
+		<accounts order="1">
+			<row>
+				<filePath>..\src\test\resources\TestData\SingleDataGathering\SdgSanityFlow\
+				</filePath>
+				<responseFile>DefaultDataSet.json</responseFile>
+			</row>
+		</accounts>
+		</accounts-multiple>
+
+		<get-provider-accounts-multiple>
+		<get-provider-accounts order="1">
+			<row>
+				<filePath>..\src\test\resources\TestData\SingleDataGathering\SdgSanityFlow\
+				</filePath>
+				<responseFile>AllDataSets_Success.json</responseFile>
+			</row>
+		</get-provider-accounts>
+		</get-provider-accounts-multiple>
+	</response>
+</entity>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<entity type="multiple">
+	<request>
+		<add-provider-accounts order="1">
+			<siteUser>testtEbillAuto.site16441.7</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.7</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+			<dataset>
+				<name>BASIC_AGG_DATA</name>
+				<attributeList>
+					<attribute>
+						<name>ACCOUNT_DETAILS</name>
+						<container>bill,creditCard,insurance,investment,loan,bank
+						</container>
+					</attribute>
+				</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		<refresh-provider-accounts>
+			<dataList>
+				<dataset>
+					<name>DOCUMENT</name>
+					<attributeList>
+						<attribute>
+							<name>EBILL</name>
+							<container>creditCard,insurance,bill</container>
+							<fromDate>;getModifiedDate(-2m,false)</fromDate>
+							<toDate>;getModifiedYear(-1m,false)</toDate>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</refresh-provider-accounts>
+		<get-documents>
+			<docAccountId></docAccountId>
+			<docType></docType>
+			<keyword></keyword>
+			<fromDate></fromDate>
+			<toDate></toDate>
+		</get-documents>
+	</request>
+
+	<response>
+		<document>
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/
+				</filePath>
+				<responseFile>getDocumentsEbillRefresh.json</responseFile>
+			</row>
+		</document>
+		<get-provider-accounts order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/
+				</filePath>
+				<responseFile>getProviderDetailsDocumentDownload.json</responseFile>
+			</row>
+		</get-provider-accounts>
+	</response>
+</entity>

@@ -1,0 +1,11 @@
+{
+  "user": {
+    "accessTokens": [
+      {
+        "appId": "10003106",
+        "value": "${json-unit.ignore}",
+        "url": "https://192.168.57.139:7100/authenticate/nodesmb/"
+      }
+    ]
+  }
+}

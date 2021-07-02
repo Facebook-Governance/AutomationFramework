@@ -1,0 +1,284 @@
+{
+  "userData": [
+    {
+      "user": {
+        "loginName": "YSLDE1500371639745"
+      },
+      "account": [
+        {
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "accountHolder"
+              }
+            }
+          ],
+          "accountName": "SAVING_ACCOUNT_1",
+          "isManual": false,
+          "currentBalance": {
+            "amount": 9044.78,
+            "currency": "USD"
+          },
+          "accountType": "SAVINGS",
+          "accountNumber": "503-5623xxx",
+          "availableBalance": {
+            "amount": 65454.78,
+            "currency": "USD"
+          },
+          "refreshinfo": {
+            "lastRefreshed": "${json-unit.ignore}",
+            "nextRefreshScheduled": "${json-unit.ignore}",
+            "lastRefreshAttempt": "${json-unit.ignore}",
+            "statusMessage": "OK",
+            "statusCode": 0
+          },
+          "accountStatus": "ACTIVE",
+          "lastUpdated": "${json-unit.ignore}",
+          "isAsset": true,
+          "createdDate": "${json-unit.ignore}",
+          "isDeleted": false,
+          "balance": {
+            "amount": 9044.78,
+            "currency": "USD"
+          },
+          "providerId": "16441",
+          "providerAccountId": "${json-unit.ignore}",
+          "CONTAINER": "bank",
+          "id": "${json-unit.ignore}",
+          "providerName": "Dag Site"
+        },
+        {
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "accountHolder"
+              }
+            }
+          ],
+          "accountName": "CHECKING_ACCOUNT_1",
+          "isManual": false,
+          "currentBalance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "accountType": "CHECKING",
+          "accountNumber": "503-1123xxx",
+          "classification": "PERSONAL",
+          "availableBalance": {
+            "amount": 54.78,
+            "currency": "USD"
+          },
+          "refreshinfo": {
+            "lastRefreshed": "${json-unit.ignore}",
+            "nextRefreshScheduled": "${json-unit.ignore}",
+            "lastRefreshAttempt": "${json-unit.ignore}",
+            "statusMessage": "OK",
+            "statusCode": 0
+          },
+          "accountStatus": "ACTIVE",
+          "lastUpdated": "${json-unit.ignore}",
+          "isAsset": true,
+          "createdDate": "${json-unit.ignore}",
+          "isDeleted": false,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "providerId": "16441",
+          "providerAccountId": "${json-unit.ignore}",
+          "CONTAINER": "bank",
+          "id": "${json-unit.ignore}",
+          "providerName": "Dag Site"
+        }
+      ],
+      "transaction": [
+        {
+          "date": "2017-05-26",
+          "checkNumber": "DAG-233",
+          "amount": {
+            "amount": 5646,
+            "currency": "USD"
+          },
+          "isManual": false,
+          "highLevelCategoryId": "${json-unit.ignore}",
+          "description": {
+            "original": "transaction_2",
+            "simple": "transaction_2"
+          },
+          "type": "OTHER_DEPOSITS",
+          "transactionDate": "2017-05-26",
+          "baseType": "CREDIT",
+          "categoryType": "INCOME",
+          "categorySource": "SYSTEM",
+          "accountId": "${json-unit.ignore}",
+          "lastUpdated": "${json-unit.ignore}",
+          "isDeleted": false,
+          "CONTAINER": "bank",
+          "postDate": "2017-05-26",
+          "subType": "CREDIT",
+          "id": "${json-unit.ignore}",
+          "category": "Other Income",
+          "runningBalance": {
+            "amount": 59,
+            "currency": "USD"
+          },
+          "categoryId": 32,
+          "status": "POSTED"
+        },
+        {
+          "date": "2017-05-26",
+          "checkNumber": "DAG-333",
+          "amount": {
+            "amount": 9846,
+            "currency": "USD"
+          },
+          "isManual": false,
+          "highLevelCategoryId": "${json-unit.ignore}",
+          "description": {
+            "original": "transaction_4",
+            "simple": "transaction_4"
+          },
+          "type": "OTHER_DEPOSITS",
+          "transactionDate": "2017-05-26",
+          "baseType": "CREDIT",
+          "categoryType": "INCOME",
+          "categorySource": "SYSTEM",
+          "accountId": "${json-unit.ignore}",
+          "lastUpdated": "${json-unit.ignore}",
+          "isDeleted": false,
+          "CONTAINER": "bank",
+          "postDate": "2017-05-26",
+          "subType": "CREDIT",
+          "id": "${json-unit.ignore}",
+          "category": "Other Income",
+          "runningBalance": {
+            "amount": 59,
+            "currency": "USD"
+          },
+          "categoryId": 32,
+          "status": "POSTED"
+        },
+        {
+          "date": "2017-05-26",
+          "checkNumber": "DAG-333",
+          "amount": {
+            "amount": 3103,
+            "currency": "USD"
+          },
+          "isManual": false,
+          "highLevelCategoryId": 10000009,
+          "description": {
+            "original": "transaction_3",
+            "simple": "transaction_3"
+          },
+          "type": "OTHER_WITHDRAWALS",
+          "transactionDate": "2017-05-26",
+          "baseType": "DEBIT",
+          "categoryType": "EXPENSE",
+          "categorySource": "SYSTEM",
+          "accountId": "${json-unit.ignore}",
+          "lastUpdated": "${json-unit.ignore}",
+          "isDeleted": false,
+          "CONTAINER": "bank",
+          "postDate": "2017-05-26",
+          "subType": "DEBIT",
+          "id": "${json-unit.ignore}",
+          "category": "Other Expenses",
+          "runningBalance": {
+            "amount": 59,
+            "currency": "USD"
+          },
+          "categoryId": 19,
+          "status": "POSTED"
+        },
+        {
+          "date": "2017-05-26",
+          "checkNumber": "998",
+          "amount": {
+            "amount": 59,
+            "currency": "USD"
+          },
+          "isManual": false,
+          "highLevelCategoryId": 10000009,
+          "description": {
+            "original": "transaction_1",
+            "simple": "transaction_1"
+          },
+          "type": "OTHER_WITHDRAWALS",
+          "transactionDate": "2017-05-26",
+          "baseType": "DEBIT",
+          "categoryType": "EXPENSE",
+          "categorySource": "SYSTEM",
+          "accountId": "${json-unit.ignore}",
+          "lastUpdated": "${json-unit.ignore}",
+          "isDeleted": false,
+          "CONTAINER": "bank",
+          "postDate": "2017-05-26",
+          "subType": "DEBIT",
+          "id": "${json-unit.ignore}",
+          "category": "Other Expenses",
+          "runningBalance": {
+            "amount": 59,
+            "currency": "USD"
+          },
+          "categoryId": 19,
+          "status": "POSTED"
+        },
+        {
+          "date": "2017-05-26",
+          "checkNumber": "DAG-333",
+          "amount": {
+            "amount": 343465,
+            "currency": "USD"
+          },
+          "isManual": false,
+          "highLevelCategoryId": "${json-unit.ignore}",
+          "description": {
+            "original": "transaction_2",
+            "simple": "transaction_2"
+          },
+          "type": "OTHER_DEPOSITS",
+          "transactionDate": "2017-05-26",
+          "baseType": "CREDIT",
+          "categoryType": "INCOME",
+          "categorySource": "SYSTEM",
+          "accountId": "${json-unit.ignore}",
+          "lastUpdated": "${json-unit.ignore}",
+          "isDeleted": false,
+          "CONTAINER": "bank",
+          "postDate": "2017-05-26",
+          "subType": "CREDIT",
+          "id": "${json-unit.ignore}",
+          "category": "Other Income",
+          "runningBalance": {
+            "amount": 59,
+            "currency": "USD"
+          },
+          "categoryId": 32,
+          "status": "POSTED"
+        }
+      ],
+      "providerAccount": [
+        {
+          "lastUpdated": "${json-unit.ignore}",
+          "refreshInfo": {
+            "lastRefreshed": "${json-unit.ignore}",
+            "nextRefreshScheduled": "${json-unit.ignore}",
+            "lastRefreshAttempt": "${json-unit.ignore}",
+            "statusMessage": "OK",
+            "statusCode": 0,
+            "status": "SUCCESS"
+          },
+          "createdDate": "${json-unit.ignore}",
+          "aggregationSource": "USER",
+          "isDeleted": false,
+          "providerId": 16441,
+          "isManual": false,
+          "id": "${json-unit.ignore}"
+        }
+      ]
+    }
+  ]
+}

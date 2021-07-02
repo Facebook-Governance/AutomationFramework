@@ -1,0 +1,6 @@
+tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,enabled,UsTestcaseId,priority,formType
+1,Delete User,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#UNREGISTER,../src/test/resources/TestData/XML/DataPurge/,AddAccount.xml,YES,NO,TRUE,AT-31227,P1,Simplified
+2,Delete Provider Account,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#DELETE_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DataPurge/,AddAccount.xml,YES,NO,TRUE,AT-48343,P1,Simplified
+3,Delete Account,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#DELETE_ACCOUNT_ID,../src/test/resources/TestData/XML/DataPurge/,AddAccount.xml,YES,NO,TRUE,AT-48346,P1,Simplified
+4,PII Delete User,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#UNREGISTER,../src/test/resources/TestData/XML/DataPurge/,AddAccount.xml,YES,NO,TRUE,AT-31227,P1,Simplified
+5,PII Delete Provider Account,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS#DELETE_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/DataPurge/,AddAccount.xml,YES,NO,TRUE,AT-48343,P1,Simplified

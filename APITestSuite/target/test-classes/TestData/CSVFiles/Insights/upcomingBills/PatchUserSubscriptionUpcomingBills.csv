@@ -1,0 +1,30 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-138633,PatchUser - subscribe to UpcomingBills,UpcomingBills,,,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,DAYS",204,TRUE
+AT-138634,PatchUser - UpcomingBills - updateTriggerType,UpcomingBills,negTestScenario16,REFRESH,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-138635,PatchUser -  UpcomingBills - update insightName by same name,UpcomingBills,negTestScenario17,,UpcomingBills,,,,,,,,,,,,,,,,,,400,TRUE
+AT-138636,PatchUser -  UpcomingBills - update insightName edit InsightName,UpcomingBills,negTestScenario2,,UpcomingBillsEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-138637,PatchUser - UpcomingBills - update insightTitle,UpcomingBills,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-138638,PatchUser - UpcomingBills - update container,UpcomingBills,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-138639,PatchUser - UpcomingBills - update keys,UpcomingBills,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-138640,PatchUser - UpcomingBills - update description,UpcomingBills,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-138641,PatchUser - UpcomingBills - update applicableEntity,UpcomingBills,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-138642,PatchUser - UpcomingBills - update entityParameter,UpcomingBills,,,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,DAYS",204,TRUE
+AT-138643,PatchUser -  UpcomingBills - update entityParameter->account[0]->id - Valid ItemAccountId,UpcomingBills,,,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,DAYS",204,TRUE
+AT-138644,PatchUser -  UpcomingBills - update entityParameter->account[0]->id - InValid ItemAccountId,UpcomingBills,negTestScenario20,,,,,,,,,,1,,account,1,76823,,TRUE,,,"FUTURE,7,DAYS",400,TRUE
+AT-138645,PatchUser -  UpcomingBills - update entityParameter->account[0]->isSubscribed=false,UpcomingBills,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-138646,PatchUser - UpcomingBills - update duration  -  entityParameter->account[0]->duration ,UpcomingBills,negTestScenario48,,,,,,,,,,1,,account,1,,,TRUE,LAST_MONHT,,"FUTURE,7,DAYS",400,TRUE
+AT-138647,PatchUser - UpcomingBills - update insightType to AGGREGATE - entityParameter->account[0]->insightType,UpcomingBills,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,AGGREGATE,"FUTURE,7,DAYS",400,TRUE
+AT-138648,PatchUser - UpcomingBills - update insightType to INVALID - entityParameter->account[0]->insightType,UpcomingBills,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"FUTURE,7,DAYS",400,TRUE
+AT-138649,PatchUser - UpcomingBills - update threshold name  - entityParameter->account[0]->threshold[0]->name,UpcomingBills,negTestScenario27,,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,7,DAYS",400,TRUE
+AT-138650,PatchUser - UpcomingBills - update threshold values - entityParameter->account[0]->threshold[0]->value,UpcomingBills,negTestScenario42,,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7777,DAYS",400,TRUE
+AT-138651,PatchUser - UpcomingBills - update threshold type - entityParameter->account[0]->threshold[0]->type,UpcomingBills,negTestScenario28,,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,PERCENT",400,TRUE
+AT-138652,PatchUser - UpcomingBills - update configMeta - subscrption Info - configMeta->account[0]->id,UpcomingBills,negTestScenario19,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"FUTURE,7,DAYS",400,TRUE
+AT-138644,PatchUser-View -  UpcomingBills - update entityParameter->account[0]->id - InValid ItemAccountId,UpcomingBills,negTestScenario26,,,,,,,,,,1,,view,1,76823,,TRUE,,,"FUTURE,7,DAYS",400,TRUE
+AT-138645,PatchUser -  View - UpcomingBills - update entityParameter->account[0]->isSubscribed=false,UpcomingBills,,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-138646,PatchUser - View- UpcomingBills - update duration  -  entityParameter->account[0]->duration ,UpcomingBills,negTestScenario48,,,,,,,,,,1,,view,1,,,TRUE,LAST_MONHT,,"FUTURE,7,DAYS",400,TRUE
+AT-138647,PatchUser -View- UpcomingBills - update insightType to AGGREGATE - entityParameter->account[0]->insightType,UpcomingBills,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,AGGREGATE,"FUTURE,7,DAYS",400,TRUE
+AT-138648,PatchUser - View- UpcomingBills - update insightType to INVALID - entityParameter->account[0]->insightType,UpcomingBills,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,INVALID,"FUTURE,7,DAYS",400,TRUE
+AT-138649,PatchUser - View- UpcomingBills - update threshold name  - entityParameter->account[0]->threshold[0]->name,UpcomingBills,negTestScenario27,,,,,,,,,,1,,view,1,,,FALSE,,,"LIMIT,7,DAYS",400,TRUE
+AT-138650,PatchUser -View -  UpcomingBills - update threshold values - entityParameter->account[0]->threshold[0]->value,UpcomingBills,negTestScenario42,,,,,,,,,,1,,view,1,,,TRUE,,,"FUTURE,7777,DAYS",400,TRUE
+AT-138651,PatchUser - View - UpcomingBills - update threshold type - entityParameter->account[0]->threshold[0]->type,UpcomingBills,negTestScenario28,,,,,,,,,,1,,view,1,,,TRUE,,,"FUTURE,7,PERCENT",400,TRUE
+AT-138652,PatchUser - View - UpcomingBills - update configMeta - subscrption Info - configMeta->account[0]->id,UpcomingBills,negTestScenario19,,,,,,,,,,1,TRUE,view,1,,,FALSE,,,"FUTURE,7,DAYS",400,TRUE

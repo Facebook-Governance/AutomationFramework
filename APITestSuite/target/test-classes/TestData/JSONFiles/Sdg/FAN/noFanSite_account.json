@@ -1,0 +1,82 @@
+{
+    "account": [
+        {
+            "CONTAINER": "bank",
+            "isManual": false,
+            "isAsset": true,
+            "lastUpdated": "${json-unit.ignore}",
+            "currentBalance": {
+                "amount": 9044.78,
+                "currency": "USD"
+            },
+            "availableBalance": {
+                "amount": 65454.78,
+                "currency": "USD"
+            },
+            "displayedName": "accountHolder",
+            "dataSet": [
+                {
+                    "lastUpdateAttempt": "${json-unit.ignore}",
+                    "updateEligibility": "${json-unit.ignore}",
+                    "name": "ACCT_PROFILE",
+                    "additionalStatus": "DATA_NOT_AVAILABLE"
+                }
+            ],
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "balance": {
+                "amount": 9044.78,
+                "currency": "USD"
+            },
+            "accountName": "TESTDATA1",
+            "accountNumber": "xxxxxxx3xxx",
+            "aggregationSource": "USER",
+            "providerName": "Dag Site",
+            "accountStatus": "ACTIVE",
+            "accountType": "SAVINGS",
+            "providerId": "16441",
+            "includeInNetWorth": true,
+            "createdDate": "2017-07-26T03:46:17Z",
+            "providerAccountId": "${json-unit.ignore}"
+        },
+        {
+            "CONTAINER": "bank",
+            "isManual": false,
+            "isAsset": true,
+            "lastUpdated": "${json-unit.ignore}",
+            "currentBalance": {
+                "amount": 44.78,
+                "currency": "USD"
+            },
+            "availableBalance": {
+                "amount": 54.78,
+                "currency": "USD"
+            },
+            "displayedName": "accountHolder",
+            "dataSet": [
+                {
+                    "lastUpdateAttempt": "2017-07-26T03:46:39Z",
+                    "updateEligibility": "${json-unit.ignore}",
+                    "name": "ACCT_PROFILE",
+                    "additionalStatus": "DATA_NOT_AVAILABLE"
+                }
+            ],
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "balance": {
+                "amount": 44.78,
+                "currency": "USD"
+            },
+            "accountName": "TESTDATA",
+            "accountNumber": "xxxxxxx3xxx",
+            "aggregationSource": "USER",
+            "providerName": "Dag Site",
+            "accountStatus": "ACTIVE",
+            "accountType": "CHECKING",
+            "providerId": "16441",
+            "includeInNetWorth": true,
+            "createdDate": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}"
+        }
+    ]
+}

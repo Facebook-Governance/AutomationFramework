@@ -1,0 +1,53 @@
+{
+    "account": [
+        {
+            "includeInNetWorth": true,
+            "accountName": "${json-unit.ignore}",
+            "isManual": false,
+            "currentBalance": {
+                "amount": 305,
+                "currency": "USD"
+            },
+            "accountType": "SAVINGS",
+            "displayedName": "Robin",
+            "accountNumber": "${json-unit.ignore}",
+            "classification": "PERSONAL",
+            "availableBalance": {
+                "amount": 105,
+                "currency": "USD"
+            },
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "aggregationSource": "USER",
+            "balance": {
+                "amount": 305,
+                "currency": "USD"
+            },
+            "providerId": "16441",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+	    "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "${json-unit.ignore}",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "nextUpdateScheduled": "${json-unit.ignore}",
+                    "name": "${json-unit.ignore}",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Dag Site"
+        }
+    ]
+}

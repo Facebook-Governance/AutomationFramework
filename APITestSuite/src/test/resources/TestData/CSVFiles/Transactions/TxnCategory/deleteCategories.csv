@@ -1,0 +1,8 @@
+testCaseId,TestCase,iterateCategories,deleteStatus,fileName,filePath,Enabled
+AT-66331,valid categoryID,227,400,DEL-CT-01,../src/test/resources/TestData/Transactions/TxnCategory/,TRUE
+AT-66332,Delete sub-category 5,-5,400,DEL-CT-01,../src/test/resources/TestData/Transactions/TxnCategory/,TRUE
+AT-66333,Delete sub-category 6,-4,400,DEL-CT-01,../src/test/resources/TestData/Transactions/TxnCategory/,TRUE
+AT-66334,Delete sub-category 7,-3,400,DEL-CT-01,../src/test/resources/TestData/Transactions/TxnCategory/,TRUE
+AT-66335,Delete sub-category 8,-2,400,DEL-CT-01,../src/test/resources/TestData/Transactions/TxnCategory/,TRUE
+AT-66336,Delete sub-category 9,-1,400,DEL-CT-01,../src/test/resources/TestData/Transactions/TxnCategory/,TRUE
+AT-66337,Delete sub-category 10,39,400,DEL-CT-01,../src/test/resources/TestData/Transactions/TxnCategory/,TRUE

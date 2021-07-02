@@ -1,0 +1,22 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-146962,subscribe to LowBalanceWarning,LowBalanceWarning,,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,500,AMOUNT",204,TRUE
+AT-146963,updateTriggerType,LowBalanceWarning,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-146964, update insightName by same name,LowBalanceWarning,negTestScenario17,,LowBalanceWarning,,,,,,,,,,,,,,,,,,400,TRUE
+AT-146965, update insightName edit InsightName,LowBalanceWarning,negTestScenario2,,LowBalanceWarningEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-146966,update insightTitle,LowBalanceWarning,negTestScenario33,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-146967,update container,LowBalanceWarning,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-146968,update keys,LowBalanceWarning,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-146969,update description,LowBalanceWarning,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-146970,update applicableEntity,LowBalanceWarning,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-146971,update entityParameter,LowBalanceWarning,,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1000,AMOUNT",204,TRUE
+AT-146972, update entityParameter->account[0]->id - Valid ItemAccountId,LowBalanceWarning,,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,600,AMOUNT",204,TRUE
+AT-146973, update entityParameter->account[0]->id - InValid ItemAccountId,LowBalanceWarning,negTestScenario20,,,,,,,,,,1,,account,1,76823,,TRUE,,,"BALANCE,999,AMOUNT",400,TRUE
+AT-146974, update entityParameter->account[0]->isSubscribed=false,LowBalanceWarning,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-146975,update duration  -  entityParameter->account[0]->duration ,LowBalanceWarning,negTestScenario48,,,,,,,,,,1,,account,1,,,TRUE,LAST_MONHT,,"BALANCE,1000,AMOUNT",400,TRUE
+AT-146976,update insightType to AGGREGATE - entityParameter->account[0]->insightType,LowBalanceWarning,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,AGGREGATE,"BALANCE,1000,AMOUNT",400,TRUE
+AT-146977,update insightType to INVALID - entityParameter->account[0]->insightType,LowBalanceWarning,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"BALANCE,1000,AMOUNT",400,TRUE
+AT-146978,update threshold name  - entityParameter->account[0]->threshold[0]->name,LowBalanceWarning,negTestScenario27,,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,1000,AMOUNT",400,TRUE
+AT-146979,update threshold values - entityParameter->account[0]->threshold[0]->value,LowBalanceWarning,,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1455,AMOUNT",204,TRUE
+AT-146980,update threshold type - entityParameter->account[0]->threshold[0]->type,LowBalanceWarning,negTestScenario28,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1455,PERCENT",400,TRUE
+AT-146981,"update threshold name ,value and type to BALANCE,200,AMOUNT",LowBalanceWarning,,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,200,AMOUNT",204,TRUE
+AT-146982,update configMeta - subscrption Info - configMeta->account[0]->id,LowBalanceWarning,negTestScenario19,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"BALANCE,499,AMOUNT",400,TRUE

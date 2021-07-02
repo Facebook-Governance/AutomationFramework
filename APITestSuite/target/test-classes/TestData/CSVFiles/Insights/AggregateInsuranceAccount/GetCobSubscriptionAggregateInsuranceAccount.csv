@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-126924,"Validate AggregateInsuranceAccount , check if Insight is unSubscribed to OR isSubscribed=false ",,AggregateInsuranceAccount,AggregateInsuranceAccount,,,,,,account,FALSE,,,,200,TRUE
+AT-126925,"Validate AggregateInsuranceAccount , Validate InsightName",,AggregateInsuranceAccount,AggregateInsuranceAccount,,,,,,,,,,,200,TRUE
+AT-126926,"Validate AggregateInsuranceAccount , Validate Supporting container",,AggregateInsuranceAccount,,,"BANK,CARD",,,,,,,,,200,TRUE
+AT-126927,"Validate AggregateInsuranceAccount , Validate TriggerType",REFRESH,AggregateInsuranceAccount,,,,,,,,,,,,200,TRUE
+AT-126928,"Validate AggregateInsuranceAccount , Validate applicableEntity",,AggregateInsuranceAccount,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-126929,"Validate AggregateInsuranceAccount , Validate number of levels and levelObject",,AggregateInsuranceAccount,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-126930,"Validate AggregateInsuranceAccount , Validate isSubscribed=false",,AggregateInsuranceAccount,,,,,,,,FALSE,,,,200,TRUE
+AT-126931,"Validate AggregateInsuranceAccount , Validate insightKeys",,AggregateInsuranceAccount,,,,Account,,,,,,,,200,TRUE
+AT-126932,"Validate AggregateInsuranceAccount , Validate description",,AggregateInsuranceAccount,,,,,Generates an insight when an insurance payment is identified but no corresponding insurance account was found for the user.,,,,,,,200,TRUE
+AT-126933,"Validate AggregateInsuranceAccount , Validate title",,AggregateInsuranceAccount,,Aggregate Insurance Account,,,,,,,,,,200,TRUE
+AT-126934,"Validate AggregateInsuranceAccount , Validate ruleExpression",,AggregateInsuranceAccount,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE

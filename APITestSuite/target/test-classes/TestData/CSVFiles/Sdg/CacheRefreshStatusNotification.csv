@@ -1,0 +1,10 @@
+TestcaseId,testCaseName,isMFA,key,updateItemAcct,triggerCacheRefresh,statsEntry,status,state,statusUpdate,StateUpdate,datasetAttrId,priority,enabled,filePath,providerId,dagSiteUserName,dagSitePassword,dataSetTemplateFile
+AT-106145,Change in both state and additional status - Refresh Stats should be populated,,,TRUE,TRUE,TRUE,0,1,1,2,5,P1,TRUE,..\\src\\test\\resources\\TestData\\XML\\Cache_refresh\\,16441,cacheRefreshDis.site16441.1,site16441.1,bank.xml
+AT-106144,No Change in State but changed in additional status - Refresh Stats should be populated,,,TRUE,TRUE,TRUE,0,1,6,1,5,P1,TRUE,..\\src\\test\\resources\\TestData\\XML\\Cache_refresh\\,16441,cacheRefreshDis.site16441.1,site16441.1,bank.xml
+AT-106143,No Change in State and additional status - Refresh Stats should not be populated,,,FALSE,TRUE,FALSE,0,1,,,5,P1,TRUE,..\\src\\test\\resources\\TestData\\XML\\Cache_refresh\\,16441,cacheRefreshDis.site16441.1,site16441.1,bank.xml
+AT-106138,Add Account,,,FALSE,FALSE,FALSE,0,1,,,5,P1,TRUE,..\\src\\test\\resources\\TestData\\XML\\Cache_refresh\\,16441,cacheRefreshDis.site16441.1,site16441.1,bank.xml
+AT-106139,Add MFA account,TRUE,,FALSE,FALSE,FALSE,4,2,,,5,P1,TRUE,..\\src\\test\\resources\\TestData\\XML\\Cache_refresh\\,16442,cacheRefreshDis.site16442.1,site16442.1,bank1.xml
+AT-106140,Add MFA QA account,TRUE,,FALSE,FALSE,FALSE,0,1,,,5,P1,TRUE,..\\src\\test\\resources\\TestData\\XML\\Cache_refresh\\,16486,cacheRefreshDis.site16486.1,site16486.1,bank2.xml
+AT-106150,Cache refresh for inactive account,,Inactive,TRUE,TRUE,FALSE,1,2,1,2,5,P1,TRUE,..\\src\\test\\resources\\TestData\\XML\\Cache_refresh\\,16441,cacheRefreshDis.site16441.1,site16441.1,bank.xml
+AT-106149,Cache refresh for closed account,,Closed,TRUE,TRUE,FALSE,1,2,1,2,5,P1,TRUE,..\\src\\test\\resources\\TestData\\XML\\Cache_refresh\\,16441,cacheRefreshDis.site16441.1,site16441.1,bank.xml
+AT-106157,Cache refresh for custom account,,Custom,TRUE,TRUE,FALSE,1,2,1,2,5,P1,TRUE,..\\src\\test\\resources\\TestData\\XML\\Cache_refresh\\,16441,cacheRefreshDis.site16441.1,site16441.1,bank.xml

@@ -1,0 +1,26 @@
+{
+    "user": {
+        "id": "${json-unit.ignore}",
+        "loginName": "${json-unit.ignore}",
+        "email": "test@yodlee.com",
+        "name": {
+            "first": "Envestnet",
+            "last": "yodlee"
+        },
+        "roleType": "INDIVIDUAL",
+        "preferences": {
+            "currency": "USD",
+            "timeZone": "AEST",
+            "dateFormat": "MM/dd/yyyy",
+            "locale": "en_AN"
+        },
+        "address": {
+            "address1": "Address One",
+            "state": "Kar",
+            "city": "Bengaluru",
+            "zip": "560079",
+            "country": "INDIA"
+        },
+        "segmentName": "${json-unit.ignore}"
+    }
+}

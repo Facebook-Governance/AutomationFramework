@@ -1,0 +1,136 @@
+{
+  "userData": [
+    {
+      "user": {
+        "loginName": "YSLDE1497420630190"
+      },
+      "account": [
+        {
+          "includeInNetWorth": true,
+          "accountName": "Super Loan",
+          "dueDate": "2017-05-25",
+          "refreshinfo": {
+            "lastRefreshed": "${json-unit.ignore}",
+            "nextRefreshScheduled": "${json-unit.ignore}",
+            "lastRefreshAttempt": "${json-unit.ignore}",
+            "statusMessage": "OK",
+            "statusCode": 0
+          },
+          "accountStatus": "ACTIVE",
+          "lastUpdated": "${json-unit.ignore}",
+          "isAsset": false,
+          "principalBalance": {
+            "amount": 2000,
+            "currency": "USD"
+          },
+          "balance": {
+            "amount": 2000,
+            "currency": "USD"
+          },
+          "isDeleted": false,
+          "maturityDate": "2017-05-26",
+          "providerId": "16441",
+          "lastPaymentDate": "2017-05-29",
+          "lastPaymentAmount": {
+            "amount": 10000,
+            "currency": "USD"
+          },
+          "id": "${json-unit.any-number}",
+          "providerName": "Dag Site",
+          "minimumAmountDue": {
+            "amount": 200,
+            "currency": "USD"
+          },
+          "interestRate": 7,
+          "availableCredit": {
+            "amount": 200,
+            "currency": "USD"
+          },
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "Bill Gates"
+              }
+            }
+          ],
+          "isManual": false,
+          "accountType": "OTHER",
+          "originationDate": "2017-05-22",
+          "accountNumber": "354-2334",
+          "url": "http://abc.com",
+          "originalLoanAmount": {
+            "amount": 3000,
+            "currency": "USD"
+          },
+          "amountDue": 14000,
+          "createdDate": "${json-unit.ignore}",
+          "providerAccountId": "${json-unit.any-number}",
+          "CONTAINER": "loan",
+          "recurringPayment": {
+            "amount": 200,
+            "currency": "USD"
+          }
+        }
+      ],
+      "transaction": [
+        {
+          "date": "2017-05-29",
+          "amount": {
+            "amount": 13500,
+            "currency": "USD"
+          },
+          "isManual": false,
+          "highLevelCategoryId": 10000012,
+          "merchant": {
+            "name": "Deposit",
+            "id": "11303",
+            "source": "YODLEE"
+          },
+          "description": {
+            "original": "Deposit - Check 45568"
+          },
+          "transactionDate": "2017-05-29",
+          "baseType": "CREDIT",
+          "categoryType": "INCOME",
+          "principal": {
+            "amount": 12345.99,
+            "currency": "USD"
+          },
+          "categorySource": "SYSTEM",
+          "accountId": "${json-unit.any-number}",
+          "lastUpdated": "${json-unit.ignore}",
+          "isDeleted": false,
+          "interest": {
+            "amount": 15,
+            "currency": "USD"
+          },
+          "CONTAINER": "loan",
+          "postDate": "2017-05-29",
+          "id": "${json-unit.any-number}",
+          "category": "Deposits",
+          "categoryId": 27,
+          "status": "POSTED"
+        }
+      ],
+      "providerAccount": [
+        {
+          "lastUpdated": "${json-unit.ignore}",
+          "refreshInfo": {
+            "lastRefreshed": "${json-unit.ignore}",
+            "nextRefreshScheduled": "${json-unit.ignore}",
+            "lastRefreshAttempt": "${json-unit.ignore}",
+            "statusMessage": "OK",
+            "statusCode": 0,
+            "status": "SUCCESS"
+          },
+          "createdDate": "2017-06-14",
+          "aggregationSource": "USER",
+          "isDeleted": false,
+          "providerId": 16441,
+          "isManual": false,
+          "id": "${json-unit.any-number}"
+        }
+      ]
+    }
+  ]
+}

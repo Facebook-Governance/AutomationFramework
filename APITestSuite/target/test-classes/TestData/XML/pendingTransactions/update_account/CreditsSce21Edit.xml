@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <cardAccount accountClassification="personal" acctType="charge">
+      <accountName>Dag Charge Card</accountName>
+      <nickName>Traditional Gharge</nickName>
+      <accountHolder>Jacob</accountHolder>
+      <accountNumber>XXXX-XXXX-XXXX-3600</accountNumber>
+      <balance balType="runningBalance">
+         <curAmt curCode="USD">10928.00</curAmt>
+      </balance>
+      <asOf localFormat="yyyyMMdd">2018-10-20T00:00:00</asOf>
+      <balance balType="amountDue">
+         <curAmt curCode="USD">10418.00</curAmt>
+      </balance>
+      <balance balType="minPayment">
+         <curAmt curCode="USD">550.00</curAmt>
+      </balance>
+      <balance balType="lastPayment">
+         <curAmt curCode="USD">122.00</curAmt>
+      </balance>
+      <lastPaymentDate localFormat="yyyyMMdd">2018-09-18T00:00:00</lastPaymentDate>
+      <balance balType="availableCredit">
+         <curAmt curCode="USD">1657.00</curAmt>
+      </balance>
+      <balance balType="totalCreditLine">
+         <curAmt curCode="USD">12000.00</curAmt>
+      </balance>
+      <dueDate localFormat="yyyyMMdd">2018-11-07T00:00:00</dueDate>
+      <apr>19.99</apr>
+      <transactionList>
+                <transaction uniqueId="1531111" baseType="debit" transactionStatus="posted" type="debit">
+            <description>Debit Card Purchase XX/XX XX:XXp #XXXXUW HUSKYTEAMBKSTORE XXX-XXX-XXXX WA XXXXX</description>
+            <transDate localFormat="yyyy-MM-dd">;getModifiedDate(-79d)</transDate>
+			<postDate localFormat="yyyy-MM-dd">;getModifiedDate(-78d)</postDate>
+            <amount curCode="USD">200.00</amount>
+            <transactionRunningBalance curCode="USD">1500.00</transactionRunningBalance>
+         </transaction>
+         <transaction uniqueId="1531112" transactionStatus="posted" baseType="debit">
+            <description>AUTOZONE 1299</description>
+            <transDate localFormat="yyyy-MM-dd">;getModifiedDate(-39d)</transDate>
+			<postDate localFormat="yyyy-MM-dd">;getModifiedDate(-37d)</postDate>
+            <amount curCode="USD">100.00</amount>
+            <transactionRunningBalance curCode="USD">1700.00</transactionRunningBalance>
+         </transaction>
+         <transaction uniqueId="1531113" baseType="credit" transactionStatus="posted" type="deposit">
+            <description>ACH Electronic CreditPERSONAL CAPITAL DEPOSIT</description>
+            <checkNumber>777</checkNumber>
+            <transDate localFormat="yyyy-MM-dd">;getModifiedDate(-20d)</transDate>
+			<postDate localFormat="yyyy-MM-dd">;getModifiedDate(-19d)</postDate>
+            <amount curCode="USD">350.00</amount>
+            <transactionRunningBalance curCode="USD">1800.00</transactionRunningBalance>
+         </transaction>
+		 </transactionList>
+
+		 
+   </cardAccount>
+</site>

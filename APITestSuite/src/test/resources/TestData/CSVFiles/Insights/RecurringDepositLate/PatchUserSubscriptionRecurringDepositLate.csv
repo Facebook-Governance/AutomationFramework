@@ -1,0 +1,23 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147427,patchUserSubscrionption - subscribe to RecurringDepositLate,RecurringDepositLate,,,,,,,,,,,1,,account,1,,,TRUE,,,"DELAY,3,DAYS",204,TRUE
+AT-147428,patchUserSubscrionption - updateTriggerType,RecurringDepositLate,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147429,patchUserSubscrionption -  update insightName by same name,RecurringDepositLate,negTestScenario17,,RecurringDepositLate,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147430,patchUserSubscrionption -  update insightName edit InsightName,RecurringDepositLate,negTestScenario2,,RecurringDepositLateEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147431,patchUserSubscrionption - update insightTitle,RecurringDepositLate,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-147432,patchUserSubscrionption - update container,RecurringDepositLate,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-147433,patchUserSubscrionption - update keys,RecurringDepositLate,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147434,patchUserSubscrionption - update description,RecurringDepositLate,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147435,patchUserSubscrionption - update applicableEntity,RecurringDepositLate,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-147436,patchUserSubscrionption - update entityParameter,RecurringDepositLate,,,,,,,,,,,1,,account,1,,,TRUE,,,"DELAY,3,DAYS",204,TRUE
+AT-147437,patchUserSubscrionption -  update entityParameter->account[0]->id - Valid ItemAccountId,RecurringDepositLate,,,,,,,,,,,1,,account,1,,,TRUE,,,"DELAY,3,DAYS",204,TRUE
+AT-147438,patchUserSubscrionption -  update entityParameter->account[0]->id - InValid ItemAccountId,RecurringDepositLate,negTestScenario20,,,,,,,,,,1,,account,1,76823,,TRUE,,,"DELAY,3,DAYS",400,TRUE
+AT-147439,patchUserSubscrionption -  update entityParameter->account[0]->isSubscribed=false,RecurringDepositLate,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-147440,patchUserSubscrionption - update duration  -  entityParameter->account[0]->duration ,RecurringDepositLate,negTestScenario48,,,,,,,,,,1,,account,1,,,TRUE,LAST_MONHT,,"DELAY,3,DAYS",400,TRUE
+AT-147441,patchUserSubscrionption - update insightType to AGGREGATE - entityParameter->account[0]->insightType,RecurringDepositLate,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,AGGREGATE,"DELAY,3,DAYS",400,TRUE
+AT-147442,patchUserSubscrionption - update insightType to INVALID - entityParameter->account[0]->insightType,RecurringDepositLate,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"DELAY,3,DAYS",400,TRUE
+AT-147443,patchUserSubscrionption - update threshold name  - entityParameter->account[0]->threshold[0]->name,RecurringDepositLate,negTestScenario43,,,,,,,,,,1,,account,1,,,FALSE,,,"AMOUNT,3,DAYS",400,TRUE
+AT-147444,patchUserSubscrionption - update threshold values - entityParameter->account[0]->threshold[0]->value,RecurringDepositLate,negTestScenario35,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1455,AMOUNT",400,TRUE
+AT-147445,patchUserSubscrionption - update threshold type - entityParameter->account[0]->threshold[0]->type,RecurringDepositLate,negTestScenario35,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1455,PERCENT",400,TRUE
+AT-147446,"patchUserSubscrionption - update threshold name ,value and type to BALANCE,200,AMOUNT",RecurringDepositLate,negTestScenario35,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,200,AMOUNT",400,TRUE
+AT-147447,patchUserSubscrionption - update configMeta - subscrption Info - configMeta->account[0]->id,RecurringDepositLate,negTestScenario19,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"DELAY,3,DAYS",400,TRUE
+AT-147448,patchUserSubscrionption - update frequency,RecurringDepositLate,negTestScenario32,,,,,,,,,,1,,account,1,,DAILY,FALSE,,,"DELAY,3,DAYS",400,TRUE

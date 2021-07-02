@@ -1,0 +1,7 @@
+testCase,httpStatusCode,resFile,resFilePath,Enabled,accountId,recurringEventStatus,sourceType,userAprovalStatus
+GetRecurringEvents-InvalidAccountId,400,InvalidValueForAccountId.json,../src/test/resources/TestData/ErrorMessage/,TRUE,123,ACTIVE,MANUAL,APPROVED
+GetRecurringEvents-InvalidRecurringEventStatus,400,InvalidValueForRecurringEventStatus.json,../src/test/resources/TestData/ErrorMessage/,TRUE,,ABC,,
+GetRecurringEvents-InvalidSourceType,400,InvalidValueForSourceType.json,../src/test/resources/TestData/ErrorMessage/,TRUE,,,XYZ,
+GetRecurringEvents-InvaliduserApprovalStatus,400,InvalidValueForUserApproval.json,../src/test/resources/TestData/ErrorMessage/,TRUE,,,,DEF
+GetRecurringEvents-AccountIdOfOtherUser,400,InvalidValueForAccountId.json,../src/test/resources/TestData/ErrorMessage/,TRUE,OTHER_USER,,,
+GetRecurringEvents-AlphabetsForAccountId,400,InvalidValueForAccountId.json,../src/test/resources/TestData/ErrorMessage/,TRUE,ABC,,,

@@ -1,0 +1,5097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="43" passed="40">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sub Brand Management Portal Automation" duration-ms="4135996" started-at="2021-06-14T08:10:29Z" finished-at="2021-06-14T09:19:25Z">
+    <groups>
+    </groups>
+    <test name="Sub Brand Management Tool Publish Workflows" duration-ms="4047752" started-at="2021-06-14T08:10:29Z" finished-at="2021-06-14T09:17:57Z">
+      <class name="com.yodlee.customizationtool.Login">
+        <test-method status="PASS" signature="testValidateLoginPageContents()[pri:0, instance:com.yodlee.customizationtool.Login@703580bf]" name="testValidateLoginPageContents" duration-ms="2367" started-at="2021-06-14T13:40:30Z" finished-at="2021-06-14T13:40:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateLoginPageContents -->
+        <test-method status="PASS" signature="testValidateMessageOnClickingForgotPasswordLink()[pri:1, instance:com.yodlee.customizationtool.Login@703580bf]" name="testValidateMessageOnClickingForgotPasswordLink" duration-ms="272" started-at="2021-06-14T13:40:34Z" finished-at="2021-06-14T13:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateMessageOnClickingForgotPasswordLink -->
+        <test-method status="PASS" signature="testValidateLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.yodlee.customizationtool.Login@703580bf]" name="testValidateLogin" duration-ms="8051" started-at="2021-06-14T13:40:35Z" data-provider="feeder" finished-at="2021-06-14T13:40:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-113117]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidInput]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid@pfml1stage]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yodlee@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Invalid user credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateLogin -->
+        <test-method status="PASS" signature="testValidateLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.yodlee.customizationtool.Login@703580bf]" name="testValidateLogin" duration-ms="4576" started-at="2021-06-14T13:40:43Z" data-provider="feeder" finished-at="2021-06-14T13:40:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-113127]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NoInput]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Uh-oh! You've entered wrong username/ password. Please re-enter credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateLogin -->
+        <test-method status="PASS" signature="testValidateLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.yodlee.customizationtool.Login@703580bf]" name="testValidateLogin" duration-ms="6868" started-at="2021-06-14T13:40:48Z" data-provider="feeder" finished-at="2021-06-14T13:40:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-113116]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidInput]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rajeev@pfml1stage]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yodlee@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateLogin -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.yodlee.customizationtool.Login@703580bf]" name="logout" is-config="true" duration-ms="385" started-at="2021-06-14T13:40:55Z" finished-at="2021-06-14T13:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.yodlee.customizationtool.Login -->
+      <class name="com.yodlee.customizationtool.EditSubBrand">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.yodlee.customizationtool.EditSubBrand@1622f1b]" name="init" is-config="true" duration-ms="7574" started-at="2021-06-14T14:07:51Z" finished-at="2021-06-14T14:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testEditFlowStepperLinksAndBackLinksAndButton()[pri:0, instance:com.yodlee.customizationtool.EditSubBrand@1622f1b]" name="testEditFlowStepperLinksAndBackLinksAndButton" duration-ms="25004" started-at="2021-06-14T14:07:59Z" finished-at="2021-06-14T14:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditFlowStepperLinksAndBackLinksAndButton -->
+        <test-method status="FAIL" signature="testCreateAndEditSubBrandAndViewSubBrandOverview(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.yodlee.customizationtool.EditSubBrand@1622f1b]" name="testCreateAndEditSubBrandAndViewSubBrandOverview" duration-ms="1293474" started-at="2021-06-14T14:08:24Z" data-provider="feeder" finished-at="2021-06-14T14:29:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CreateChannelPartnerWithSingleJWTAndEditChangeToSubBrandEnableSAMLDisableJWT]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Channel Partner]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Aggregation]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Accounts;Transactions;Budget]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9989726351]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[rshrivastav]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9882192783]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[riyer]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[3.3.3.3;4.4.4.4]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[Sub-brand]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[SAML]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[testCredPrivateEdit]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[testCredPublicEdit]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[Aggregation]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[7892831730]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[rshrivastavEdit]]>
+              </value>
+            </param>
+            <param index="60">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="61">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="62">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="63">
+              <value>
+                <![CDATA[7896351531]]>
+              </value>
+            </param>
+            <param index="64">
+              <value>
+                <![CDATA[riyerEdit]]>
+              </value>
+            </param>
+            <param index="65">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="66">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="67">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="68">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="69">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Edit Flow: View List of Sub-Brands Page: Publish Not Completed Even After 5 Minutes. Deployment Status Still Shows:Publish initiated in Public For Sub Brand Lumin14062021140827 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Edit Flow: View List of Sub-Brands Page: Publish Not Completed Even After 5 Minutes. Deployment Status Still Shows:Publish initiated in Public For Sub Brand Lumin14062021140827 expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.yodlee.customizationtool.EditSubBrand.testCreateAndEditSubBrandAndViewSubBrandOverview(EditSubBrand.java:1597)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview -->
+        <test-method status="FAIL" signature="testCreateAndEditSubBrandAndViewSubBrandOverview(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.yodlee.customizationtool.EditSubBrand@1622f1b]" name="testCreateAndEditSubBrandAndViewSubBrandOverview" duration-ms="1014927" started-at="2021-06-14T14:29:59Z" data-provider="feeder" finished-at="2021-06-14T14:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CreateChannelPartnerWithSAMLAndEditChangeToSubBrandAndEnableJWTDisableSAML]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sub-brand]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Verification]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Transactions;Fincheck]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Fincheck]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9735173173]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[rshrivastav]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9889361731]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[riyer]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[3.3.3.3;4.4.4.4]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[Sub-brand]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[SAML]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[testCredPrivateEdit]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[testCredPublicEdit]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[Aggregation]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[7892831730]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[rshrivastavEdit]]>
+              </value>
+            </param>
+            <param index="60">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="61">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="62">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="63">
+              <value>
+                <![CDATA[7896351531]]>
+              </value>
+            </param>
+            <param index="64">
+              <value>
+                <![CDATA[riyerEdit]]>
+              </value>
+            </param>
+            <param index="65">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="66">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="67">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="68">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="69">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+	Edit Sub-Brand: Contact Details Page: Contact One User Id Text Box Is Enabled In Contact Details Page. expected [true] but found [false],
+	Edit Sub-Brand: Review Page: The Actual And Expected Aggregation Sub Products Do Not Match. Actual is: enabled Expected Is: Document Download enabled expected [Document Download enabled] but found [enabled],
+	Edit Sub-Brand: Review Page: The Actual And Expected Selected Contact 1 Details Do Not Match. Actual is: First Name : RaviRanjan;Last Name : Shrivastav;Contact Number : 9735173173;Email Address : rshrivastav@yodlee.com;User ID : Lumin14062021143002rshrivastav Expected Is: First Name : RaviRanjan;Last Name : Shrivastav;Contact Number : 9735173173;Email Address : rshrivastav@yodlee.com;User ID : Lumin14062021143002rshrivastavEdit expected [First Name : RaviRanjan;Last Name : Shrivastav;Contact Number : 9735173173;Email Address : rshrivastav@yodlee.com;User ID : Lumin14062021143002rshrivastavEdit] but found [First Name : RaviRanjan;Last Name : Shrivastav;Contact Number : 9735173173;Email Address : rshrivastav@yodlee.com;User ID : Lumin14062021143002rshrivastav]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+	Edit Sub-Brand: Contact Details Page: Contact One User Id Text Box Is Enabled In Contact Details Page. expected [true] but found [false],
+	Edit Sub-Brand: Review Page: The Actual And Expected Aggregation Sub Products Do Not Match. Actual is: enabled Expected Is: Document Download enabled expected [Document Download enabled] but found [enabled],
+	Edit Sub-Brand: Review Page: The Actual And Expected Selected Contact 1 Details Do Not Match. Actual is: First Name : RaviRanjan;Last Name : Shrivastav;Contact Number : 9735173173;Email Address : rshrivastav@yodlee.com;User ID : Lumin14062021143002rshrivastav Expected Is: First Name : RaviRanjan;Last Name : Shrivastav;Contact Number : 9735173173;Email Address : rshrivastav@yodlee.com;User ID : Lumin14062021143002rshrivastavEdit expected [First Name : RaviRanjan;Last Name : Shrivastav;Contact Number : 9735173173;Email Address : rshrivastav@yodlee.com;User ID : Lumin14062021143002rshrivastavEdit] but found [First Name : RaviRanjan;Last Name : Shrivastav;Contact Number : 9735173173;Email Address : rshrivastav@yodlee.com;User ID : Lumin14062021143002rshrivastav]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.yodlee.customizationtool.EditSubBrand.testCreateAndEditSubBrandAndViewSubBrandOverview(EditSubBrand.java:2149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview -->
+        <test-method status="PASS" signature="testCreateAndEditSubBrandAndViewSubBrandOverview(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.yodlee.customizationtool.EditSubBrand@1622f1b]" name="testCreateAndEditSubBrandAndViewSubBrandOverview" duration-ms="2497" started-at="2021-06-14T14:46:56Z" data-provider="feeder" finished-at="2021-06-14T14:46:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CreateChannelPartnerWithSingleJWTAndEditChangeToSubBrandAndAddAnotherJWTEnableSAML]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Channel Partner]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[JWT]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Aggregation]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Accounts;Transactions;Budget]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9989726351]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[rshrivastav]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9882192783]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[riyer]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[3.3.3.3;4.4.4.4]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[Sub-brand]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[testCredPrivateEdit]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[testCredPublicEdit]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[Aggregation]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[7892831730]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[rshrivastavEdit]]>
+              </value>
+            </param>
+            <param index="60">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="61">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="62">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="63">
+              <value>
+                <![CDATA[7896351531]]>
+              </value>
+            </param>
+            <param index="64">
+              <value>
+                <![CDATA[riyerEdit]]>
+              </value>
+            </param>
+            <param index="65">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="66">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="67">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="68">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="69">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview -->
+        <test-method status="PASS" signature="testCreateAndEditSubBrandAndViewSubBrandOverview(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.yodlee.customizationtool.EditSubBrand@1622f1b]" name="testCreateAndEditSubBrandAndViewSubBrandOverview" duration-ms="2444" started-at="2021-06-14T14:46:58Z" data-provider="feeder" finished-at="2021-06-14T14:47:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CreateChannelPartnerWIithSAMLAndSingleJWTAndEditChangeToSubBrandAndAddAnotherJWT]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Channel Partner]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Verification]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Accounts;Transactions;Budget]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9735173173]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[rshrivastav]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9889361731]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[riyer]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[3.3.3.3;4.4.4.4]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[Sub-brand]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[testCredPrivateEdit]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[testCredPublicEdit]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[Aggregation]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[7892831730]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[rshrivastavEdit]]>
+              </value>
+            </param>
+            <param index="60">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="61">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="62">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="63">
+              <value>
+                <![CDATA[7896351531]]>
+              </value>
+            </param>
+            <param index="64">
+              <value>
+                <![CDATA[riyerEdit]]>
+              </value>
+            </param>
+            <param index="65">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="66">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="67">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="68">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="69">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview -->
+        <test-method status="PASS" signature="testCreateAndEditSubBrandAndViewSubBrandOverview(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.yodlee.customizationtool.EditSubBrand@1622f1b]" name="testCreateAndEditSubBrandAndViewSubBrandOverview" duration-ms="2416" started-at="2021-06-14T14:47:01Z" data-provider="feeder" finished-at="2021-06-14T14:47:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CreateSubBrandWithSingleJWTAndEditChangeToChannelPartnerEnableSAMLDisableJWT]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sub-brand]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[JWT]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Aggregation]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Accounts;Transactions;Budget]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9735173173]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[rshrivastav]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9889361731]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[riyer]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[3.3.3.3;4.4.4.4]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[Channel Partner]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[SAML]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[testCredPrivateEdit]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[testCredPublicEdit]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[Aggregation]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[7892831730]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[rshrivastavEdit]]>
+              </value>
+            </param>
+            <param index="60">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="61">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="62">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="63">
+              <value>
+                <![CDATA[7896351531]]>
+              </value>
+            </param>
+            <param index="64">
+              <value>
+                <![CDATA[riyerEdit]]>
+              </value>
+            </param>
+            <param index="65">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="66">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="67">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="68">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="69">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview -->
+        <test-method status="PASS" signature="testCreateAndEditSubBrandAndViewSubBrandOverview(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.yodlee.customizationtool.EditSubBrand@1622f1b]" name="testCreateAndEditSubBrandAndViewSubBrandOverview" duration-ms="2487" started-at="2021-06-14T14:47:03Z" data-provider="feeder" finished-at="2021-06-14T14:47:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CreateSubBrandWithSAMLAndEditChangeToChannelPartnerAndEnableJWTDisableSAML]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Channel Partner]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SAML]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Verification]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Transactions;Fincheck]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Fincheck]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9735173173]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[rshrivastav]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9889361731]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[riyer]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[3.3.3.3;4.4.4.4]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[Channel Partner]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[JWT]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[testCredPrivateEdit]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[testCredPublicEdit]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[Aggregation]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[7892831730]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[rshrivastavEdit]]>
+              </value>
+            </param>
+            <param index="60">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="61">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="62">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="63">
+              <value>
+                <![CDATA[7896351531]]>
+              </value>
+            </param>
+            <param index="64">
+              <value>
+                <![CDATA[riyerEdit]]>
+              </value>
+            </param>
+            <param index="65">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="66">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="67">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="68">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="69">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview -->
+        <test-method status="PASS" signature="testCreateAndEditSubBrandAndViewSubBrandOverview(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.yodlee.customizationtool.EditSubBrand@1622f1b]" name="testCreateAndEditSubBrandAndViewSubBrandOverview" duration-ms="2711" started-at="2021-06-14T14:47:06Z" data-provider="feeder" finished-at="2021-06-14T14:47:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000007]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CreateSubBrandWIithSingleJWTAndEditChangeToChannelPartnerAndAddAnotherJWTEnableSAML]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sub-brand]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[JWT]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Aggregation]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Accounts;Transactions;Budget]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9735173173]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[rshrivastav]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9889361731]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[riyer]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[3.3.3.3;4.4.4.4]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[Channel Partner]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[testCredPrivateEdit]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[testCredPublicEdit]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[Aggregation]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[7892831730]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[rshrivastavEdit]]>
+              </value>
+            </param>
+            <param index="60">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="61">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="62">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="63">
+              <value>
+                <![CDATA[7896351531]]>
+              </value>
+            </param>
+            <param index="64">
+              <value>
+                <![CDATA[riyerEdit]]>
+              </value>
+            </param>
+            <param index="65">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="66">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="67">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="68">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="69">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview -->
+        <test-method status="PASS" signature="testCreateAndEditSubBrandAndViewSubBrandOverview(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.yodlee.customizationtool.EditSubBrand@1622f1b]" name="testCreateAndEditSubBrandAndViewSubBrandOverview" duration-ms="2710" started-at="2021-06-14T14:47:09Z" data-provider="feeder" finished-at="2021-06-14T14:47:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000008]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CreateSubBrandWIithSAMLAndSingleJWTAndEditChangeToChannelPartnerAndAddAnotherJWT]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sub-brand]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Verification]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Accounts;Transactions;Budget]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9735173173]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[rshrivastav]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9889361731]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[riyer]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="36">
+              <value>
+                <![CDATA[3.3.3.3;4.4.4.4]]>
+              </value>
+            </param>
+            <param index="37">
+              <value>
+                <![CDATA[Channel Partner]]>
+              </value>
+            </param>
+            <param index="38">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="39">
+              <value>
+                <![CDATA[testCredPrivateEdit]]>
+              </value>
+            </param>
+            <param index="40">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="41">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="42">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="43">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="44">
+              <value>
+                <![CDATA[testCredPublicEdit]]>
+              </value>
+            </param>
+            <param index="45">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="46">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="47">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="48">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="49">
+              <value>
+                <![CDATA[Aggregation]]>
+              </value>
+            </param>
+            <param index="50">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="51">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="52">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="53">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="54">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="55">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="56">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="57">
+              <value>
+                <![CDATA[rshrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="58">
+              <value>
+                <![CDATA[7892831730]]>
+              </value>
+            </param>
+            <param index="59">
+              <value>
+                <![CDATA[rshrivastavEdit]]>
+              </value>
+            </param>
+            <param index="60">
+              <value>
+                <![CDATA[Rajeev]]>
+              </value>
+            </param>
+            <param index="61">
+              <value>
+                <![CDATA[AIyer]]>
+              </value>
+            </param>
+            <param index="62">
+              <value>
+                <![CDATA[riyer@yodlee.com]]>
+              </value>
+            </param>
+            <param index="63">
+              <value>
+                <![CDATA[7896351531]]>
+              </value>
+            </param>
+            <param index="64">
+              <value>
+                <![CDATA[riyerEdit]]>
+              </value>
+            </param>
+            <param index="65">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="66">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="67">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="68">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="69">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndEditSubBrandAndViewSubBrandOverview -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.yodlee.customizationtool.EditSubBrand@1622f1b]" name="logout" is-config="true" duration-ms="476" started-at="2021-06-14T14:47:12Z" finished-at="2021-06-14T14:47:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.yodlee.customizationtool.EditSubBrand -->
+      <class name="com.yodlee.customizationtool.ViewListOfSubBrands">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.yodlee.customizationtool.ViewListOfSubBrands@72a7c7e0]" name="init" is-config="true" duration-ms="7835" started-at="2021-06-14T14:47:12Z" finished-at="2021-06-14T14:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testValidateViewListOfSubBrandPageContents()[pri:0, instance:com.yodlee.customizationtool.ViewListOfSubBrands@72a7c7e0]" name="testValidateViewListOfSubBrandPageContents" duration-ms="728" started-at="2021-06-14T14:47:20Z" finished-at="2021-06-14T14:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateViewListOfSubBrandPageContents -->
+        <test-method status="PASS" signature="testValidateSearchForNonExistantSubBrand()[pri:1, instance:com.yodlee.customizationtool.ViewListOfSubBrands@72a7c7e0]" name="testValidateSearchForNonExistantSubBrand" duration-ms="1301" started-at="2021-06-14T14:47:21Z" finished-at="2021-06-14T14:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSearchForNonExistantSubBrand -->
+        <test-method status="PASS" signature="testValidateSearchForExistingSubBrand()[pri:2, instance:com.yodlee.customizationtool.ViewListOfSubBrands@72a7c7e0]" name="testValidateSearchForExistingSubBrand" duration-ms="1096" started-at="2021-06-14T14:47:22Z" finished-at="2021-06-14T14:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSearchForExistingSubBrand -->
+        <test-method status="PASS" signature="testValidateSearchFilterWorksOnlyWhenMinimum3CharacterAreEnteredInSearchFilter()[pri:3, instance:com.yodlee.customizationtool.ViewListOfSubBrands@72a7c7e0]" name="testValidateSearchFilterWorksOnlyWhenMinimum3CharacterAreEnteredInSearchFilter" duration-ms="469" started-at="2021-06-14T14:47:23Z" finished-at="2021-06-14T14:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSearchFilterWorksOnlyWhenMinimum3CharacterAreEnteredInSearchFilter -->
+        <test-method status="PASS" signature="testValidateSortingByColumnNames()[pri:4, instance:com.yodlee.customizationtool.ViewListOfSubBrands@72a7c7e0]" name="testValidateSortingByColumnNames" duration-ms="31842" started-at="2021-06-14T14:47:24Z" finished-at="2021-06-14T14:47:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSortingByColumnNames -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.yodlee.customizationtool.ViewListOfSubBrands@72a7c7e0]" name="logout" is-config="true" duration-ms="1021" started-at="2021-06-14T14:47:56Z" finished-at="2021-06-14T14:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.yodlee.customizationtool.ViewListOfSubBrands -->
+      <class name="com.yodlee.customizationtool.CreateSubBrand">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="setup" is-config="true" duration-ms="920" started-at="2021-06-14T13:40:29Z" finished-at="2021-06-14T13:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yodlee.customizationtool.EditSubBrand@1622f1b]" name="setup" is-config="true" duration-ms="66" started-at="2021-06-14T13:40:30Z" finished-at="2021-06-14T13:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yodlee.customizationtool.Login@703580bf]" name="setup" is-config="true" duration-ms="0" started-at="2021-06-14T13:40:30Z" finished-at="2021-06-14T13:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yodlee.customizationtool.ViewListOfSubBrands@72a7c7e0]" name="setup" is-config="true" duration-ms="0" started-at="2021-06-14T13:40:30Z" finished-at="2021-06-14T13:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="init" is-config="true" duration-ms="8695" started-at="2021-06-14T13:40:55Z" finished-at="2021-06-14T13:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testGeneralConfigurationNegativeValidations(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testGeneralConfigurationNegativeValidations" duration-ms="15032" started-at="2021-06-14T13:41:04Z" data-provider="feeder" finished-at="2021-06-14T13:41:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EmptySubBrandDomainNameIPAddress]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGeneralConfigurationNegativeValidations -->
+        <test-method status="PASS" signature="testGeneralConfigurationNegativeValidations(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testGeneralConfigurationNegativeValidations" duration-ms="48306" started-at="2021-06-14T13:41:19Z" data-provider="feeder" finished-at="2021-06-14T13:42:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGeneralConfigurationNegativeValidations -->
+        <test-method status="PASS" signature="testGeneralConfigurationNegativeValidations(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testGeneralConfigurationNegativeValidations" duration-ms="18366" started-at="2021-06-14T13:42:07Z" data-provider="feeder" finished-at="2021-06-14T13:42:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGeneralConfigurationNegativeValidations -->
+        <test-method status="PASS" signature="testGeneralConfigurationNegativeValidations(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testGeneralConfigurationNegativeValidations" duration-ms="14331" started-at="2021-06-14T13:42:26Z" data-provider="feeder" finished-at="2021-06-14T13:42:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGeneralConfigurationNegativeValidations -->
+        <test-method status="PASS" signature="testPrivateAuthSetupNegativeValidations(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testPrivateAuthSetupNegativeValidations" duration-ms="21170" started-at="2021-06-14T13:42:40Z" data-provider="feeder" finished-at="2021-06-14T13:43:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NoLoginMechanism]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrivateAuthSetupNegativeValidations -->
+        <test-method status="PASS" signature="testPrivateAuthSetupNegativeValidations(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testPrivateAuthSetupNegativeValidations" duration-ms="27029" started-at="2021-06-14T13:43:02Z" data-provider="feeder" finished-at="2021-06-14T13:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EmptyDetails]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrivateAuthSetupNegativeValidations -->
+        <test-method status="PASS" signature="testPrivateAuthSetupNegativeValidations(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testPrivateAuthSetupNegativeValidations" duration-ms="32596" started-at="2021-06-14T13:43:29Z" data-provider="feeder" finished-at="2021-06-14T13:44:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrivateAuthSetupNegativeValidations -->
+        <test-method status="PASS" signature="testPrivateAuthSetupNegativeValidations(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testPrivateAuthSetupNegativeValidations" duration-ms="27052" started-at="2021-06-14T13:44:01Z" data-provider="feeder" finished-at="2021-06-14T13:44:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrivateAuthSetupNegativeValidations -->
+        <test-method status="PASS" signature="testPublicAuthSetupNegativeValidations(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testPublicAuthSetupNegativeValidations" duration-ms="40475" started-at="2021-06-14T13:44:28Z" data-provider="feeder" finished-at="2021-06-14T13:45:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EmptyDetails]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testcredPrivate]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[testPrivate]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPublicAuthSetupNegativeValidations -->
+        <test-method status="PASS" signature="testPublicAuthSetupNegativeValidations(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testPublicAuthSetupNegativeValidations" duration-ms="45844" started-at="2021-06-14T13:45:09Z" data-provider="feeder" finished-at="2021-06-14T13:45:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testcredPrivate]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[testPrivate]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPublicAuthSetupNegativeValidations -->
+        <test-method status="PASS" signature="testPublicAuthSetupNegativeValidations(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testPublicAuthSetupNegativeValidations" duration-ms="40416" started-at="2021-06-14T13:45:55Z" data-provider="feeder" finished-at="2021-06-14T13:46:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testcredPrivate]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[testPrivate]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPublicAuthSetupNegativeValidations -->
+        <test-method status="PASS" signature="testProductsAndAppSelectionNegativeValidations(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testProductsAndAppSelectionNegativeValidations" duration-ms="33400" started-at="2021-06-14T13:46:35Z" data-provider="feeder" finished-at="2021-06-14T13:47:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DefaultSettings]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testcredpublic]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testpublic]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[testrpublic]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductsAndAppSelectionNegativeValidations -->
+        <test-method status="PASS" signature="testProductsAndAppSelectionNegativeValidations(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testProductsAndAppSelectionNegativeValidations" duration-ms="35053" started-at="2021-06-14T13:47:09Z" data-provider="feeder" finished-at="2021-06-14T13:47:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NothingEnabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testcredpublic]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testpublic]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[testrpublic]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductsAndAppSelectionNegativeValidations -->
+        <test-method status="PASS" signature="testContactDetailsNegativeValidations(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testContactDetailsNegativeValidations" duration-ms="37786" started-at="2021-06-14T13:47:44Z" data-provider="feeder" finished-at="2021-06-14T13:48:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EmptyContactDetails]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactDetailsNegativeValidations -->
+        <test-method status="PASS" signature="testContactDetailsNegativeValidations(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testContactDetailsNegativeValidations" duration-ms="41313" started-at="2021-06-14T13:48:22Z" data-provider="feeder" finished-at="2021-06-14T13:49:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ContactDetailsExceedCharacterLimit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactDetailsNegativeValidations -->
+        <test-method status="PASS" signature="testContactDetailsNegativeValidations(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testContactDetailsNegativeValidations" duration-ms="37259" started-at="2021-06-14T13:49:03Z" data-provider="feeder" finished-at="2021-06-14T13:49:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactDetailsNegativeValidations -->
+        <test-method status="PASS" signature="testContactDetailsNegativeValidations(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testContactDetailsNegativeValidations" duration-ms="23726" started-at="2021-06-14T13:49:41Z" data-provider="feeder" finished-at="2021-06-14T13:50:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ContactUserIdNoSpecialCharacters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactDetailsNegativeValidations -->
+        <test-method status="PASS" signature="testCreateAndViewSubBrandOverView(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testCreateAndViewSubBrandOverView" duration-ms="3231" started-at="2021-06-14T13:50:04Z" data-provider="feeder" finished-at="2021-06-14T13:50:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SubBrand-JWT-Aggregation-DD-Verification-DD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sub-brand]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[JWT]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Aggregation;Verification]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Ravi Ranjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[RShrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9989726351]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Jnanesh]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[CM]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[jnanesh.m@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9872536251]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndViewSubBrandOverView -->
+        <test-method status="PASS" signature="testCreateAndViewSubBrandOverView(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testCreateAndViewSubBrandOverView" duration-ms="2749" started-at="2021-06-14T13:50:08Z" data-provider="feeder" finished-at="2021-06-14T13:50:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ChannelPartner-JWT-Aggregation-DD-Verification-DD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Channel Partner]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[JWT]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Aggregation;Verification]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Ravi Ranjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[RShrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9989726351]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Jnanesh]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[CM]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[jnanesh.m@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9872536251]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndViewSubBrandOverView -->
+        <test-method status="PASS" signature="testCreateAndViewSubBrandOverView(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testCreateAndViewSubBrandOverView" duration-ms="3026" started-at="2021-06-14T13:50:11Z" data-provider="feeder" finished-at="2021-06-14T13:50:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SubBrand-SAML-Aggregation-DD-Verification-DD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sub-brand]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SAML]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Aggregation;Verification]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Ravi Ranjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[RShrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9989726351]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Jnanesh]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[CM]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[jnanesh.m@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9872536251]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndViewSubBrandOverView -->
+        <test-method status="PASS" signature="testCreateAndViewSubBrandOverView(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testCreateAndViewSubBrandOverView" duration-ms="2529" started-at="2021-06-14T13:50:14Z" data-provider="feeder" finished-at="2021-06-14T13:50:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ChannelPartner-SAML-Aggregation-DD-Verification-DD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Channel Partner]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SAML]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Aggregation;Verification]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Ravi Ranjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[RShrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9989726351]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Jnanesh]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[CM]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[jnanesh.m@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9872536251]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndViewSubBrandOverView -->
+        <test-method status="PASS" signature="testCreateAndViewSubBrandOverView(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testCreateAndViewSubBrandOverView" duration-ms="647974" started-at="2021-06-14T13:50:16Z" data-provider="feeder" finished-at="2021-06-14T14:01:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SubBrand-SAML-JWT-Aggregation-DD-Verification-DD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sub-brand]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Aggregation;Verification]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Ravi Ranjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[RShrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9989726351]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Jnanesh]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[CM]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[jnanesh.m@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9872536251]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndViewSubBrandOverView -->
+        <test-method status="PASS" signature="testCreateAndViewSubBrandOverView(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="testCreateAndViewSubBrandOverView" duration-ms="406206" started-at="2021-06-14T14:01:04Z" data-provider="feeder" finished-at="2021-06-14T14:07:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ChannelPartner-SAML-JWT-Aggregation-DD-Verification-DD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Channel Partner]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Aggregation;Verification]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Ravi Ranjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[RShrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9989726351]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Jnanesh]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[CM]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[jnanesh.m@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9872536251]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAndViewSubBrandOverView -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.yodlee.customizationtool.CreateSubBrand@3e92efc3]" name="logout" is-config="true" duration-ms="762" started-at="2021-06-14T14:07:51Z" finished-at="2021-06-14T14:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.yodlee.customizationtool.CreateSubBrand -->
+    </test> <!-- Sub Brand Management Tool Publish Workflows -->
+    <test name="Sub Brand Management Tool -Customization Workflows" duration-ms="87776" started-at="2021-06-14T09:17:57Z" finished-at="2021-06-14T09:19:25Z">
+      <class name="com.yodlee.customizationtool.CreateSubBrandAndCustomize">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.yodlee.customizationtool.CreateSubBrandAndCustomize@636be97c]" name="setup" is-config="true" duration-ms="11512" started-at="2021-06-14T13:40:18Z" finished-at="2021-06-14T13:40:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[L1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.yodlee.customizationtool.CreateSubBrandAndCustomize@636be97c]" name="setup" is-config="true" duration-ms="7388" started-at="2021-06-14T14:47:57Z" finished-at="2021-06-14T14:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="testCreateSubBrandCustomizePublishAndViewSubBrandOverview(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.yodlee.customizationtool.CreateSubBrandAndCustomize@636be97c]" name="testCreateSubBrandCustomizePublishAndViewSubBrandOverview" duration-ms="77392" started-at="2021-06-14T14:48:05Z" data-provider="feeder" finished-at="2021-06-14T14:49:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT-000001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SubBrand-SAML-JWT-Aggregation-DD-Verification-DD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.1.1.1;2.2.2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sub-brand]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SAML;JWT]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testCredPrivate]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Private_Issuer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Private_sso]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[testCredPublic]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[saml]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Public_issuer]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Public_sso]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1800]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Aggregation;Verification]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Document Download]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Yodlee FastLink;Yodlee Financial Wellness FinApps]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[RaviRanjan]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Shrivastav]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[RShrivastav@yodlee.com]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9989726351]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Jnanesh]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[CM]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[Jnanesh.M@yodlee.com]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[9872536251]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="35">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=91.0.4472.77)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-L2504', ip: '192.168.150.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\RSHRIV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d8b6d3ef45f0378431fe1ec7ea2ba34]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=91.0.4472.77)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-L2504', ip: '192.168.150.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\RSHRIV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d8b6d3ef45f0378431fe1ec7ea2ba34
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.yodlee.customizationtool.CreateSubBrandAndCustomize.customizeSubBrand(CreateSubBrandAndCustomize.java:1411)
+	at com.yodlee.customizationtool.CreateSubBrandAndCustomize.testCreateSubBrandCustomizePublishAndViewSubBrandOverview(CreateSubBrandAndCustomize.java:462)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateSubBrandCustomizePublishAndViewSubBrandOverview -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.yodlee.customizationtool.CreateSubBrandAndCustomize@636be97c]" name="logout" is-config="true" duration-ms="811" started-at="2021-06-14T14:49:24Z" finished-at="2021-06-14T14:49:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.yodlee.customizationtool.CreateSubBrandAndCustomize@636be97c]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-06-14T14:49:25Z" finished-at="2021-06-14T14:49:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.yodlee.customizationtool.CreateSubBrandAndCustomize -->
+    </test> <!-- Sub Brand Management Tool -Customization Workflows -->
+  </suite> <!-- Sub Brand Management Portal Automation -->
+</testng-results>

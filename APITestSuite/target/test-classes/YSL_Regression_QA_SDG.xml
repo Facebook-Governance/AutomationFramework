@@ -1,0 +1,238 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="methods" thread-count="1"
+	preserve-order="true">
+
+
+	<parameter name="suiteName" value="YSLAutoAmelia" />
+
+	<listeners>
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+
+	</listeners>
+
+	<test name="AutoContainerLookUp">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestAutoContainerLookUp" />
+		</classes>
+	</test>
+	<test name="CacheRefreshSdg">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestCacheRefreshSdg" />
+		</classes>
+	</test>
+	<test name="ChallengeDepositVerification">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestChallengeDepositVerification" />
+		</classes>
+	</test>
+	<test name="TestContextualData">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestContextualData" />
+		</classes>
+	</test>
+	<test name="TestDataPurge">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestDataPurge" />
+		</classes>
+	</test>
+
+	<test name="Dedup">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestDedup" />
+		</classes>
+	</test>
+
+	<test name="TransactionDedup">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestDedupForTransactions" />
+		</classes>
+	</test>
+
+	<test name="AccountDedup">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestDedupForAccounts" />
+		</classes>
+	</test>
+
+	<test name="TestDeleteItemAccount">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestDeleteItemAccount" />
+		</classes>
+	</test>
+	<test name="TestEditMFA">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestEditMFA" />
+		</classes>
+	</test>
+	<test name="TestEnrollAccounts">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestEnrollAccounts" />
+		</classes>
+	</test>
+	<test name="TestErrorCodes">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestErrorCodes" />
+		</classes>
+	</test>
+	<test name="TestGetAccounts">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestGetAccounts" />
+		</classes>
+	</test>
+
+	<test name="TestGetProviderAccountsViewCredentials">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestGetProviderAccountsViewCredentials" />
+		</classes>
+	</test>
+	<test name="TestGetProviderAccountsViewCredentialsPassword">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestGetProviderAccountsViewCredentialsPassword" />
+		</classes>
+	</test>
+	<test name="TestGetTransactionsTde">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestGetTransactionsTde" />
+		</classes>
+	</test>
+	<test name="TestImplicitDatasets">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestImplicitDatasets" />
+		</classes>
+	</test>
+	<test name="TestMatchingServiceFirstNameLastName">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestMatchingServiceFirstNameLastName" />
+		</classes>
+	</test>
+	<test name="TestMatchingServiceLastName">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestMatchingServiceLastName" />
+		</classes>
+	</test>
+	<test name="TestNoTimeGap">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestNoTimeGap" />
+		</classes>
+	</test>
+	<test name="TestPassingOnlyDataSets">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPassingOnlyDataSets" />
+		</classes>
+	</test>
+
+	<test name="PIIGranualConfig">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPIIGranularConfigs" />
+		</classes>
+	</test>
+	<test name="PIIGranualConfig2">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPIIGranularConfigs2" />
+		</classes>
+	</test>
+	<test name="PIIGranualConfigDefault">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPIIGranularConfigsDefault" />
+		</classes>
+	</test>
+	<test name="PIIProfileConfig">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPIIProfilesSdg" />
+		</classes>
+	</test>
+	<test name="SDGBasicDD2">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestSingleDataGatheringBasicDD_2" />
+		</classes>
+	</test>
+	<test name="SDGBasicDD">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestSingleDataGatheringBasicDD" />
+		</classes>
+	</test>
+
+	<test name="ProgressiveRefresh">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestProgressiveRefresh" />
+		</classes>
+	</test>
+	<test name="SDGBasicAggrgartion">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestSingleDataGatheringBasicAggregation" />
+		</classes>
+	</test>
+	<test name="RTNInvestment">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestRtnInvestment" />
+		</classes>
+	</test>
+	<test name="RefreshStatus">
+		<classes>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestRefreshStatus" />
+		</classes>
+	</test>
+	<test name="RefreshStatus2">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestRefreshStatus_2" />
+		</classes>
+	</test>
+
+	<test name="TestSanityForCobrand">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestSanityForCobrand" />
+		</classes>
+	</test>
+	<test name="TestSdgHealthCheck">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestSdgHealthCheck" />
+		</classes>
+	</test>
+	<test name="TestTxnCategoriesTDE">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestTxnCategoriesTDE" />
+		</classes>
+	</test>
+	<test name="TestYSLIntegrationBugs">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestYSLIntegrationBugs" />
+		</classes>
+	</test>
+
+</suite>
+

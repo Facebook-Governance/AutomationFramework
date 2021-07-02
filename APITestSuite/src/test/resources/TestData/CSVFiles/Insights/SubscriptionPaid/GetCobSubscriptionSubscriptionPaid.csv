@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-SubscriptionPaid01," GET Cobrand Subscription SubscriptionPaid, validate InsightName",,SubscriptionPaid,SubscriptionPaid,,,,,,,,,,,,200,TRUE
+AT-SubscriptionPaid02," GET Cobrand Subscription SubscriptionPaid, validate container",,SubscriptionPaid,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-SubscriptionPaid03," GET Cobrand Subscription SubscriptionPaid, validate triggerType",EVENT,SubscriptionPaid,,,,,,,,,,,,,200,TRUE
+AT-SubscriptionPaid04," GET Cobrand Subscription SubscriptionPaid, validate applicableEntity",,SubscriptionPaid,,,,,,,"ACCOUNT,VIEW",,,,,,200,TRUE
+AT-SubscriptionPaid05," GET Cobrand Subscription SubscriptionPaid, validate number of levels and levelObject",,SubscriptionPaid,,,,,,,"ACCOUNT,VIEW","account,view",,,,,200,TRUE
+AT-SubscriptionPaid06," GET Cobrand Subscription SubscriptionPaid, validate isSubscribed=false by default",,SubscriptionPaid,,,,,,,,"account,view",,,,,200,TRUE
+AT-SubscriptionPaid07," GET Cobrand Subscription SubscriptionPaid, validate insightKeys",,SubscriptionPaid,,,,Account,,,,,,,,,200,TRUE
+AT-SubscriptionPaid08," GET Cobrand Subscription SubscriptionPaid, validate description",,SubscriptionPaid,,,,,,Generates an insight when a recurring subscription is paid.,,,,,,,200,TRUE
+AT-SubscriptionPaid09," GET Cobrand Subscription SubscriptionPaid, validate title",,SubscriptionPaid,,Subscription Paid,,,,,,,,,,,200,TRUE
+AT-SubscriptionPaid10," GET Cobrand Subscription SubscriptionPaid, validate total number of keys",,SubscriptionPaid,,,,,17,,,,,,,,200,TRUE
+AT-SubscriptionPaid11," GET Cobrand Subscription SubscriptionPaid, validate insightKeys",,SubscriptionPaid,,,,View,,,,,,,,,200,TRUE

@@ -1,0 +1,70 @@
+<entity type="multiple">
+   <request>
+      <add-provider-accounts-multiple>
+         <add-provider-accounts order="1">
+            <siteUser>testDeleteAccount.site16441.3</siteUser>
+            <siteUserId>65499</siteUserId>
+            <sitePwd>site16441.3</sitePwd>
+            <sitePwdId>65500</sitePwdId>
+            <siteId>16441</siteId>
+            <instantRefresh>true</instantRefresh>
+            <dataList>
+               <dataset>
+                  <name>BASIC_AGG_DATA</name>
+                  <attributeList>
+                     <attribute>
+                        <name>ACCOUNT_DETAILS</name>
+                        <container>bank</container>
+                     </attribute>
+                  </attributeList>
+               </dataset>
+            </dataList>
+            <ignoreGetProviderAccountFailure>true</ignoreGetProviderAccountFailure>
+         </add-provider-accounts>
+      </add-provider-accounts-multiple>
+     
+      <deleteAccounts-multiple>
+      <deleteAccounts order="1">
+         <container>bank</container>
+       </deleteAccounts>
+      </deleteAccounts-multiple>
+      <refresh-provider-accounts-multiple>
+      <refresh-provider-accounts order="1">
+      <dataList>
+               <dataset>
+                  <name>BASIC_AGG_DATA</name>
+                  <attributeList>
+                     <attribute>
+                        <name>ACCOUNT_DETAILS</name>
+                        <container>bank</container>
+                     </attribute>
+                  </attributeList>
+               </dataset>
+            </dataList>
+      </refresh-provider-accounts>
+      
+      </refresh-provider-accounts-multiple>	
+          <get-accounts-multiple>
+         <get-accounts order="1">
+            <accountId />
+            <noOfAccounts>2</noOfAccounts>
+            <status>ACTIVE</status>
+            <include />
+            <container>bank</container>
+            <accountReconType />
+         </get-accounts>
+      </get-accounts-multiple>
+      
+   </request>
+   <response>
+   <get-accounts-multiple>
+      <get-accounts order="1">
+         <row>
+            <filePath>../src/test/resources/TestData/JSONFiles/Sdg/DeleteItemAccount/</filePath>
+            <responseFile>1BReAddChecking.json</responseFile>
+            <associatedProviderAccountId></associatedProviderAccountId>
+         </row>
+      </get-accounts>
+      </get-accounts-multiple>
+   </response>
+</entity>

@@ -1,0 +1,27 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-143172,Update entityParameter->account[0]->insightType,TopMerchants,negTestScenario24,,,,,,,,,2,,account view,,,,TRUE TRUE,,OTHER OTHER ,,400,TRUE
+AT-143172,Update entityParameter->account[0]->insightType - Invalid Name,TopMerchants,negTestScenario24,,,,,,,,,2,,account view,,,,TRUE TRUE,,INVALID INVALID,,400,TRUE
+AT-143165,Update entityParameter->account[0]->duration,TopMerchants,negTestScenario23,,,,,,,,,2,,account view,,,,TRUE TRUE,LASW_MONHT LASW_MONHT ,,,400,TRUE
+AT-143129,Update entityParameter->account[0]->valid duration,TopMerchants,,,,,,,,,,2,,account view,,,,TRUE TRUE,LAST_MONTH LAST_MONTH,,,204,TRUE
+AT-143165,Subscribe TopMerchants to isSubscribed=true,TopMerchants,,,,,,,,,,2,,account view,,,,TRUE TRUE,,,,204,TRUE
+AT-143165,Update insightName to same name,TopMerchants,negTestScenario53,TopMerchants,,,,,,,,,,,,,,,,,,500,TRUE
+AT-143161,Update insightName to different name,TopMerchants,negTestScenario2,TopMerchantsEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143165,Update insightTitle chars are less than 3,TopMerchants,negTestScenario3,,kk,,,,,,,,,,,,,,,,,400,TRUE
+AT-143165,Update insightTitle chars are greater 100,TopMerchants,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-143165,Update insightTitle chars between 3 and 100 ,TopMerchants,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-143165,Update insightTitle chars are only 3,TopMerchants,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-143165,Update insightTitle chars are only 100,TopMerchants,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-143165,Update insightTitle chars are special characters,TopMerchants,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-143165,Update entityParameter,TopMerchants,,,,,,,,,,2,,account view,,,,TRUE TRUE,,,,204,TRUE
+AT-143165,Update entityParameter->account[0]->frequency,TopMerchants,negTestScenario22,,,,,,,,,2,,account view,,,Month Month,TRUE TRUE,,,,400,TRUE
+AT-143165,Update entityParameter->account[0]->isSubscribed=false,TopMerchants,,,,,,,,,,2,,account view,,,,FALSE FALSE,,,,204,TRUE
+AT-143165,Update container,TopMerchants,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-143165,Update keys,TopMerchants,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-143165,Update description,TopMerchants,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-143170,Update entityParameter->account[0]->threshold[0]->name,TopMerchants,negTestScenario54,,,,,,,,,1,,account,1,,,FALSE,,,"BELOW,10,NUMBER",400,TRUE
+AT-143163,Update entityParameter->account[0]->threshold[0]->value,TopMerchants,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-143170,Update entityParameter->account[0]->threshold[0]->type,TopMerchants,negTestScenario55,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",400,TRUE
+AT-143162,Update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,TopMerchants,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-143165,Update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,TopMerchants,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-143169,Update applicableEntity,TopMerchants,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-143165,Changing to Default,TopMerchants,,,Spending by Merchant,,,,,,,2,,account view,,,DAILY DAILY,TRUE TRUE,THREE_MONTHS THREE_MONTHS,,,204,TRUE

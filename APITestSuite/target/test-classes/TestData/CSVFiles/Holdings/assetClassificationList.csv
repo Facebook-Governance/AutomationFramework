@@ -1,0 +1,37 @@
+testCaseId,TestCase,API,cobSessionKey,cobSessionValue,userSessionKey,userSessionValue,resFile,filePath,status,enabled,method
+AT-53035,with valid Values,AssetClassificationList,cobSession,VALID,null,NO,Valid.json,../src/test/resources/TestData/JSONFiles/Holdings/,200,TRUE,GET
+AT-53026,Invalid Cobsession Value,AssetClassificationList,cobSession,INVALID,,,Invalid.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53024,Null Cobsession Value,AssetClassificationList,cobSession,NULL,,,invalidAuthHeader.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53034,Empty Cobsession Value,AssetClassificationList,cobSession,Empty,,,Empty.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53025,Expired Cobsession,AssetClassificationList,cobSession,Expired,,,Expired.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+"AT-53033,AT-53043",with valid cobSession and Invalid userSession,AssetClassificationList,cobSession,VALID,userSession,INVALID,UserSessionNotPassed.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53161,with valid cobSession and Null userSession,AssetClassificationList,cobSession,VALID,nullTest,NULL,UserSessionNotPassed.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53162,with valid cobSession and Empty userSession,AssetClassificationList,cobSession,VALID,userSession,Empty,Empty.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53041,with valid cobSession and Expired userSession,AssetClassificationList,cobSession,VALID,userSession,EXPIRED,UserSessionNotPassed.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53016,with invalid cobSession and Valid userSession,AssetClassificationList,cobSession,INVALID,userSession,VALID,UserSessionNotPassed.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53163,with invalid cobSession and Invalid userSession,AssetClassificationList,cobSession,INVALID,userSession,INVALID,UserSessionNotPassed.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53164,with invalid cobSession and Null userSession,AssetClassificationList,cobSession,INVALID,nullTest,NULL,invalidAuthHeader.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53165,with invalid cobSession and Empty userSession,AssetClassificationList,cobSession,INVALID,userSession,Empty,Empty.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53166,with invalid cobSession and Expired userSession,AssetClassificationList,cobSession,INVALID,userSession,EXPIRED,UserSessionNotPassed.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53014,with null cobSession and Valid userSession,AssetClassificationList,cobSession,NULL,userSession,VALID,invalidAuthHeader.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53167,with null cobSession and Invalid userSession,AssetClassificationList,cobSession,NULL,userSession,INVALID,invalidAuthHeader.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53168,with null cobSession and Null userSession,AssetClassificationList,cobSession,NULL,nullTest,NULL,SessionTokensMissing.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53169,with null cobSession and Empty userSession,AssetClassificationList,cobSession,NULL,userSession,Empty,invalidAuthHeader.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53170,with null cobSession and Expired userSession,AssetClassificationList,cobSession,NULL,userSession,EXPIRED,invalidAuthHeader.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53171,with Empty cobSession and Valid userSession,AssetClassificationList,cobSession,Empty,userSession,VALID,Empty.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53172,with Empty cobSession and Invalid userSession,AssetClassificationList,cobSession,Empty,userSession,INVALID,Empty.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53173,with Empty cobSession and Null userSession,AssetClassificationList,cobSession,Empty,nullTest,NULL,Empty.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53036,with Empty cobSession and Empty userSession,AssetClassificationList,cobSession,Empty,userSession,Empty,Empty.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53174,with Empty cobSession and Expired userSession,AssetClassificationList,cobSession,Empty,userSession,EXPIRED,Empty.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53015,with Expired cobSession and Valid userSession,AssetClassificationList,cobSession,Empty,userSession,VALID,Empty.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53175,with Expired cobSession and Invalid userSession,AssetClassificationList,cobSession,Expired,userSession,INVALID,Empty.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53176,with Expired cobSession and Null userSession,AssetClassificationList,cobSession,Expired,nullTest,NULL,Empty.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53177,with Expired cobSession and Empty userSession,AssetClassificationList,cobSession,Expired,userSession,Empty,Empty.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53178,with Expired cobSession and Expired userSession,AssetClassificationList,cobSession,Expired,userSession,EXPIRED,Empty.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53021,Passing UserSessionKey,AssetClassificationListInvalid,cobSession,VALID,userSession,VALID,UserSessionNotPassed.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53031,Invalid CobSessionKey Name,AssetClassificationList,cobrand,VALID,userSession,VALID,UserSessionNotPassed.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53032,Null CobSessionKey Name,AssetClassificationList,NULL,VALID,userSession,VALID,UserSessionNotPassed.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53037,Invalid UserSessionKeyName,AssetClassificationList,cobSession,VALID,USERToken,VALID,Valid.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53038,Invalid CobSessionKeyName and UserSessionKeyName,AssetClassificationList,cobrand,VALID,USERToken,VALID,UserSessionNotPassed.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53039,Null UserSessionKey Name,AssetClassificationList,cobSession,VALID,NULL,VALID,UserSessionNotPassed.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET
+AT-53040,Null CobSessionKey Name and UserSessionKeyName,AssetClassificationList,NULL,VALID,NULL,VALID,UserSessionNotPassed.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE,GET

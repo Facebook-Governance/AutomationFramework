@@ -1,0 +1,14 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-147374,"getCobrandSubscription - Validate SubscriptionNotPaid , check if Insight is unSubscribed to OR isSubscribed=false ",,SubscriptionNotPaid,SubscriptionNotPaid,,,,,,,,FALSE,,,,200,TRUE
+AT-147382,"getCobrandSubscription - Validate SubscriptionNotPaid , Validate InsightName",,SubscriptionNotPaid,SubscriptionNotPaid,,,,,,,,,,,,200,TRUE
+AT-147381,"getCobrandSubscription - Validate SubscriptionNotPaid , Validate Supporting container",,SubscriptionNotPaid,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-147378,"getCobrandSubscription - Validate SubscriptionNotPaid , Validate TriggerType",SCHEDULE,SubscriptionNotPaid,,,,,,,,,,,,,200,TRUE
+AT-147373,"getCobrandSubscription - Validate SubscriptionNotPaid , Validate applicableEntity",,SubscriptionNotPaid,,,,,,,ACCOUNT  VIEW,,,,,,200,TRUE
+AT-147376,"getCobrandSubscription - Validate SubscriptionNotPaid , Validate number of levels and levelObject",,SubscriptionNotPaid,,,,,,,ACOCUNT  VIEW,account view,,,,,200,TRUE
+AT-147377,"getCobrandSubscription - Validate SubscriptionNotPaid , Validate isSubscribed=false",,SubscriptionNotPaid,,,,,,,,,FALSE,,,,200,TRUE
+AT-147372,"getCobrandSubscription - Validate SubscriptionNotPaid , Validate threshold Name,default Value 3 and Type",,SubscriptionNotPaid,,,,,,,ACOCUNT  VIEW,"account,view",,,"DELAY,3,DAYS  DELAY,3,DAYS",,200,TRUE
+AT-147379,"getCobrandSubscription - Validate SubscriptionNotPaid , Validate insightKeys",,SubscriptionNotPaid,,,,Account,,,,,,,,,200,TRUE
+AT-147383,"getCobrandSubscription - Validate SubscriptionNotPaid , Validate description",,SubscriptionNotPaid,,,,,,Generates an insight if a recurring subscription has not been paid for more than a configured number of days.,,,,,,,200,TRUE
+AT-147380,"getCobrandSubscription - Validate SubscriptionNotPaid , Validate title",,SubscriptionNotPaid,,Subscription Not Paid,,,,,,,,,,,200,TRUE
+AT-147375,"getCobrandSubscription - Validate SubscriptionNotPaid , Validate total number of keys",,SubscriptionNotPaid,,,,,17,,,,,,,,200,TRUE
+AT-147371,"getCobrandSubscription - Validate SubscriptionNotPaid , Validate insightKeys",,SubscriptionNotPaid,,,,View,,,,,,,,,200,TRUE

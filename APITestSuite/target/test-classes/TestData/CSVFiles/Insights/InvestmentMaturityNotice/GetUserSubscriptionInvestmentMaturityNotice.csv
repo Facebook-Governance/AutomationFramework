@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-147386,"getUserSubscription - Validate InvestmentMaturityNotice , Validate InsightName",,InvestmentMaturityNotice,InvestmentMaturityNotice,,,,,,,,,,,,,200,TRUE
+AT-147387,"getUserSubscription - Validate InvestmentMaturityNotice , Validate Supporting container",,InvestmentMaturityNotice,,,LOAN,,,,,,,,,,,200,TRUE
+AT-147388,"getUserSubscription - Validate InvestmentMaturityNotice , Validate TriggerType",SCHEDULE,InvestmentMaturityNotice,,,,,,,,,,,,,,200,TRUE
+AT-147389,"getUserSubscription - Validate InvestmentMaturityNotice , Validate applicableEntity",,InvestmentMaturityNotice,,,,,,,ACCOUNT,account,,,,,,200,TRUE
+AT-147390,"getUserSubscription - Validate InvestmentMaturityNotice , Validate number of levels and levelObject",,InvestmentMaturityNotice,,,,,,,ACCOUNT,account,,,,,,200,TRUE
+AT-147391,"getUserSubscription - Validate InvestmentMaturityNotice , Validate isSubscribed=false",,InvestmentMaturityNotice,,,,,,,,,FALSE,,,,,200,TRUE
+AT-147392,"getUserSubscription - Validate InvestmentMaturityNotice , Validate insightKeys",,InvestmentMaturityNotice,,,,Account,,,,,,,,,,200,TRUE
+AT-147393,"getUserSubscription - Validate InvestmentMaturityNotice , Validate description",,InvestmentMaturityNotice,,,,,,Generates an insight when an investment is within a configured number of days from maturity.,,,,,,,,200,TRUE
+AT-147394,"getUserSubscription - Validate InvestmentMaturityNotice , Validate title",,InvestmentMaturityNotice,,Investment Maturity Notice,,,,,,,,,,,,200,TRUE
+AT-147395,"getUserSubscription - Validate InvestmentMaturityNotice , Validate ruleExpression",,InvestmentMaturityNotice,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-147396,"getUserSubscription - Validate InvestmentMaturityNotice , Validate total number of keys",,InvestmentMaturityNotice,,,,,,,,,,,,,,200,TRUE
+AT-147397,"getUserSubscription - Validate InvestmentMaturityNotice , Validate frequency",,InvestmentMaturityNotice,,,,,10,,,,,DAILY,,,,200,TRUE

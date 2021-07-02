@@ -1,0 +1,6 @@
+testCaseId,testCaseName,seg,updateSeg,DBValidations,enabled
+"AT-98032,AT-97968,AT-97976",add with a seg and update with different segment,segName1,segName2,notNull,TRUE
+"AT-98034,AT-98041,AT-98005",add with a seg and update with same segment,segName1,segName1,alwaysNull,TRUE
+"AT-98036,AT-97969,AT-97996",add with a seg and update with empty segment,segName1,,notNull,TRUE
+"AT-98037,AT-97959,AT-97974",add with a empty and update with a segment,,segName1,Null,TRUE
+"AT-98037,AT-97959,AT-97974",add without segmentName and update without segmentName,,,Null,TRUE

@@ -1,0 +1,16 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-154196,"getUserSubscription - Validate LargePurchase , Validate InsightName",,LargePurchase,LargePurchase,,,,,,,,,,,,,200,TRUE
+AT-154197,"getUserSubscription - Validate LargePurchase , Validate Supporting container",,LargePurchase,,,"BANK,CARD",,,,,,,,,,,200,TRUE
+AT-154198,"getUserSubscription - Validate LargePurchase , Validate TriggerType",REFRESH,LargePurchase,,,,,,,,,,,,,,200,TRUE
+AT-154199,"getUserSubscription - Validate LargePurchase , Validate applicableEntity",,LargePurchase,,,,,,,"ACCOUNT,VIEW",,,,,,,200,TRUE
+AT-154200,"getUserSubscription - Validate LargePurchase , Validate number of levels and levelObject",,LargePurchase,,,,,,,"ACCOUNT,VIEW",account,,,,,,200,TRUE
+AT-154201,"getUserSubscription - Validate LargePurchase , Validate isSubscribed=false",,LargePurchase,,,,,,,,,FALSE,,,,,200,TRUE
+AT-154202,"getUserSubscription - Validate LargePurchase , Validate threshold Name,Value and Type",,LargePurchase,,,,,,,,account,,,"MINIMUM,50,AMOUNT",,,200,TRUE
+AT-154203,"getUserSubscription - Validate LargePurchase , Validate insightKeys",,LargePurchase,,,,Account,,,,,,,,,,200,TRUE
+AT-154204,"getUserSubscription - Validate LargePurchase , Validate description",,LargePurchase,,,,,,Generates an insight when an expense is posted that is more than a configured threshold.,,,,,,,,200,TRUE
+AT-154205,"getUserSubscription - Validate LargePurchase , Validate title",,LargePurchase,,Large Purchase,,,,,,,,,,,,200,TRUE
+AT-154206,"getUserSubscription - Validate LargePurchase , Validate ruleExpression",,LargePurchase,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-154207,"getUserSubscription - Validate LargePurchase , Validate total number of keys-ACCOUNT",,LargePurchase,,,,Account,15,,,,,,,,,200,TRUE
+AT-154208,"getUserSubscription - Validate LargePurchase , verify entityParameter and configMeta are same",,LargePurchase,,,,,,,,,,,,,TRUE,200,TRUE
+AT-154209,"getUserSubscription - Validate LargePurchase , Validate threshold Name,Value and Type-view",,LargePurchase,,,,,,,,view,,,"MINIMUM,50,AMOUNT",,,200,TRUE
+AT-154210,"getUserSubscription - Validate LargePurchase , Validate total number of keys - VIEW",,LargePurchase,,,,View,17,,,,,,,,,200,TRUE

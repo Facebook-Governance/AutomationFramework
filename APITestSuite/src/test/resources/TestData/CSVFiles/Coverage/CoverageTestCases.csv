@@ -1,0 +1,9 @@
+tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,enabled,UsTestcaseId,priority,formType
+"AT-99034, AT-99035, AT-99036, AT-99037, AT-99038, AT-99039, AT-99040,AT-99041",Covegae attribute for investment,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/CoverageXML/,coverage_investment.xml,YES,NO,FALSE,a6,p1,Simplified
+AT-99044,Covegae attribute for life insurance,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/CoverageXML/,coverage_lifeInsurance.xml,YES,NO,FALSE,a6,p1,Simplified
+AT-99050,Coverage attribute for health insurance,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/CoverageXML/,coverage_healthInsurance.xml,YES,NO,FALSE,a6,p1,Simplified
+AT-99049,Coverage only for ADVANCE_AGG_DATA for all enabled containers,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/CoverageXML/,coverage_AdvAggDataWithAllContainers.xml,YES,NO,FALSE,a6,p1,Simplified
+AT-99048,Coverage only for ADVANCE_AGG_DATA ,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/CoverageXML/,coverage_AdvAggDataOnly.xml,YES,NO,FALSE,a6,p1,Simplified
+AT-99047,Coverage only for All Dataset for all enabled containers,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/CoverageXML/,coverage_AllDatasets.xml,YES,NO,FALSE,a6,p1,Simplified
+"AT-99042,AT-99043,AT-99045,AT-99046",Coverage for edit/update flow,ADD_PROVIDER_ACCOUNT#UPDATE_PROVIDER_ACCOUNT#GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/CoverageXML/,coverage_updateflow.xml,YES,NO,FALSE,a6,p1,Simplified
+"AT-99051, AT-99052,AT-99053",Coverage with non supported container,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/CoverageXML/,coverage_loanNotSupported.xml,YES,NO,FALSE,a6,p1,Simplified

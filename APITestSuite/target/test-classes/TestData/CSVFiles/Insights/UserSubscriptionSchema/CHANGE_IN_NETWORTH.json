@@ -1,0 +1,167 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "insightName": {
+      "type": "string"
+    },
+    "insightTitle": {
+      "type": "string"
+    },
+    "insightType": {
+      "type": "string"
+    },
+    "triggerType": {
+      "type": "string"
+    },
+    "container": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "applicableEntity": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "userConfiguration": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "entityType": {
+              "type": "string"
+            },
+            "isSubscribed": {
+              "type": "boolean"
+            },
+            "frequency": {
+              "type": "string"
+            },
+            "threshold": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "value",
+                    "type"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "entityType",
+            "isSubscribed",
+            "frequency",
+            "threshold"
+          ]
+        }
+      ]
+    },
+    "customerConfiguration": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "entityType": {
+              "type": "string"
+            },
+            "isSubscribed": {
+              "type": "boolean"
+            },
+            "frequency": {
+              "type": "string"
+            },
+            "threshold": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "value",
+                    "type"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "entityType",
+            "isSubscribed",
+            "frequency",
+            "threshold"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "insightName",
+    "insightTitle",
+    "insightType",
+    "triggerType",
+    "container",
+    "description",
+    "applicableEntity",
+    "userConfiguration",
+    "customerConfiguration"
+  ]
+}

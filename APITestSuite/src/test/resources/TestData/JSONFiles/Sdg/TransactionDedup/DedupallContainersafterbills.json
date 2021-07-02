@@ -1,0 +1,392 @@
+{
+    "account": [
+        {
+            "accountName": "DAG BILLING",
+            "accountType": "BILLS",
+            "dueDate": "2013-12-28",
+            "isManual": false,
+            "displayedName": "DAG",
+            "accountNumber": "555555",
+            "frequency": "ANNUALLY",
+            "accountStatus": "ACTIVE",
+            "amountDue": {
+                "amount": 1200,
+                "currency": "USD"
+            },
+            "lastUpdated": "${json-unit.ignore}",
+			"associatedProviderAccountId": "#{path:/account[0].associatedProviderAccountId;value:;condition:(associatedProviderAccountId==false)}",
+            "isAsset": false,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 1200,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "16441",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "bill",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "ALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Dag Site",
+            "minimumAmountDue": {
+                "amount": 100,
+                "currency": "USD"
+            }
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "Super CD Plus",
+            "dueDate": "2012-01-25",
+            "interestPaidLastYear": {
+                "amount": 14000,
+                "currency": "USD"
+            },
+            "frequency": "WEEKLY",
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+            "associatedProviderAccountId": "#{path:/account[1].associatedProviderAccountId;value:;condition:(associatedProviderAccountId==true && associatedProviderAccountId!=providerAccountIdResponse)}",
+            "isAsset": false,
+            "balance": {
+                "amount": 2000,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "16441",
+            "maturityDate": "2013-01-25",
+            "term": "P30Y",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "providerName": "Dag Site",
+            "minimumAmountDue": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "interestRate": 7,
+            "availableCredit": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "accountType": "OTHER",
+            "isManual": false,
+            "displayedName": "Bill Gates",
+            "originationDate": "2013-01-22",
+            "accountNumber": "354-2334",
+            "interestRateType": "VARIABLE",
+            "amountDue": {
+                "amount": 14000,
+                "currency": "USD"
+            },
+            "originalLoanAmount": {
+                "amount": 3000,
+                "currency": "USD"
+            },
+            "createdDate": "2018-08-03T05:45:17Z",
+            "interestPaidYTD": {
+                "amount": 5000,
+                "currency": "USD"
+            },
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "loan",
+            "collateral": "ABC",
+            "dataset": [
+                {
+                    "updateEligibility": "ALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ]
+        },
+        {
+            "policyEffectiveDate": "2013-01-17",
+            "includeInNetWorth": false,
+            "accountName": "DAG INSURANCE",
+            "dueDate": "2013-01-07",
+            "policyStatus": "ACTIVE",
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+           "associatedProviderAccountId": "#{path:/account[2].associatedProviderAccountId;value:;condition:(associatedProviderAccountId==true && associatedProviderAccountId!=providerAccountIdResponse)}",
+            "premium": {
+                "amount": 5000,
+                "currency": "USD"
+            },
+            "isAsset": false,
+            "balance": {
+                "amount": 5000,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "16441",
+            "remainingBalance": {
+                "amount": 5000,
+                "currency": "USD"
+            },
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "providerName": "Dag Site",
+            "minimumAmountDue": {
+                "amount": 5000,
+                "currency": "USD"
+            },
+            "accountType": "INSURANCE",
+            "isManual": false,
+            "displayedName": "DAG",
+            "cashValue": {
+                "amount": 5000,
+                "currency": "USD"
+            },
+            "accountNumber": "5555556",
+            "amountDue": {
+                "amount": 5000,
+                "currency": "USD"
+            },
+            "policyToDate": "2013-01-17",
+            "policyFromDate": "2013-01-17",
+            "createdDate": "2018-08-03T05:45:16Z",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "insurance",
+            "dataset": [
+                {
+                    "updateEligibility": "ALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ]
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "Super CD Plus",
+            "dueDate": "2013-02-14",
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+           "associatedProviderAccountId": "#{path:/account[3].associatedProviderAccountId;value:;condition:(associatedProviderAccountId==true && associatedProviderAccountId!=providerAccountIdResponse)}",
+            "isAsset": false,
+            "balance": {
+                "amount": 11756.88,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "totalCashLimit": {
+                "amount": 100,
+                "currency": "USD"
+            },
+            "providerId": "16441",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "totalCreditLine": {
+                "amount": 100,
+                "currency": "USD"
+            },
+            "providerName": "Dag Site",
+            "minimumAmountDue": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "availableCredit": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "accountType": "CREDIT",
+            "isManual": false,
+            "displayedName": "Bill Gates",
+            "accountNumber": "354-2334",
+            "amountDue": {
+                "amount": 100,
+                "currency": "USD"
+            },
+            "createdDate": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "creditCard",
+            "dataset": [
+                {
+                    "updateEligibility": "ALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ]
+        },
+        {
+            "accountName": "DAG BILLING",
+            "accountType": "BILLS",
+            "dueDate": "2013-12-28",
+            "isManual": false,
+            "displayedName": "DAG",
+            "accountNumber": "555555",
+            "frequency": "ANNUALLY",
+            "accountStatus": "ACTIVE",
+            "amountDue": {
+                "amount": 1200,
+                "currency": "USD"
+            },
+            "lastUpdated": "${json-unit.ignore}",
+			"associatedProviderAccountId": "#{path:/account[4].associatedProviderAccountId;value:;condition:(associatedProviderAccountId==true)}",
+            "isAsset": false,
+            "createdDate": "2018-08-03T05:45:16Z",
+            "balance": {
+                "amount": 1200,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "16441",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "bill",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "ALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Dag Site",
+            "minimumAmountDue": {
+                "amount": 100,
+                "currency": "USD"
+            }
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "TESTDATA1",
+            "currentBalance": {
+                "amount": 9044.78,
+                "currency": "USD"
+            },
+            "accountType": "SAVINGS",
+            "isManual": false,
+            "displayedName": "accountHolder",
+            "accountNumber": "503-5623xxx",
+            "availableBalance": {
+                "amount": 65454.78,
+                "currency": "USD"
+            },
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+            "associatedProviderAccountId": "#{path:/account[5].associatedProviderAccountId;value:;condition:(associatedProviderAccountId==true && associatedProviderAccountId!=providerAccountIdResponse)}",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 9044.78,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "16441",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "ALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Dag Site"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "TESTDATA",
+            "currentBalance": {
+                "amount": 44.78,
+                "currency": "USD"
+            },
+            "accountType": "CHECKING",
+            "isManual": false,
+            "displayedName": "accountHolder",
+            "accountNumber": "503-1123xxx",
+            "availableBalance": {
+                "amount": 54.78,
+                "currency": "USD"
+            },
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+           "associatedProviderAccountId": "#{path:/account[6].associatedProviderAccountId;value:;condition:(associatedProviderAccountId==true && associatedProviderAccountId!=providerAccountIdResponse)}",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 44.78,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "16441",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "ALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Dag Site"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "DAG INVESTMENT",
+            "accountType": "OTHER",
+            "isManual": false,
+            "displayedName": "DAG",
+            "accountNumber": "555555",
+            "accountStatus": "ACTIVE",
+            "shortBalance": {
+                "amount": 15000,
+                "currency": "USD"
+            },
+            "lastUpdated": "${json-unit.ignore}",
+           "associatedProviderAccountId": "#{path:/account[7].associatedProviderAccountId;value:;condition:(associatedProviderAccountId==true && associatedProviderAccountId!=providerAccountIdResponse)}",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 79629,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "16441",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "investment",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "cash": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "dataset": [
+                {
+                    "updateEligibility": "ALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Dag Site",
+            "marginBalance": {
+                "amount": 2369,
+                "currency": "USD"
+            }
+        }
+    ]
+}

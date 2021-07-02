@@ -1,0 +1,516 @@
+{
+	"definitions": {
+		
+	},
+	"$schema": "http://json-schema.org/draft-06/schema#",
+	"$id": "http://example.com/example.json",
+	"type": "object",
+	"properties": {
+		"provider": {
+			"$id": "/properties/provider",
+			"type": "array",
+			"items": {
+				"$id": "/properties/provider/items",
+				"type": "object",
+				"properties": {
+					"id": {
+						"$id": "/properties/provider/items/properties/id",
+						"type": "number",
+						"minimum": -9223372036854775807,
+						"maximum": 9223372036854775807,
+						"title": "The Id Schema.",
+						"description": "An explanation about the purpose of this instance.",
+						"default": 0,
+						"examples": [
+							16441
+						]
+					},
+					"name": {
+						"$id": "/properties/provider/items/properties/name",
+						"type": "string",
+						"title": "The Name Schema.",
+						"description": "An explanation about the purpose of this instance.",
+						"default": "",
+						"examples": [
+							"Dag Site"
+						]
+					},
+					"loginUrl": {
+						"$id": "/properties/provider/items/properties/loginUrl",
+						"type": "string",
+						"title": "The Loginurl Schema.",
+						"description": "An explanation about the purpose of this instance.",
+						"default": "",
+						"examples": [
+							"http://64.14.28.129/dag/index.do"
+						]
+					},
+					"baseUrl": {
+						"$id": "/properties/provider/items/properties/baseUrl",
+						"type": "string",
+						"title": "The Baseurl Schema.",
+						"description": "An explanation about the purpose of this instance.",
+						"default": "",
+						"examples": [
+							"http://64.14.28.129/dag/index.do"
+						]
+					},
+					"favicon": {
+						"$id": "/properties/provider/items/properties/favicon",
+						"type": "string",
+						"title": "The Favicon Schema.",
+						"description": "An explanation about the purpose of this instance.",
+						"default": "",
+						"examples": [
+							"http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_16441.PNG"
+						]
+					},
+					"logo": {
+						"$id": "/properties/provider/items/properties/logo",
+						"type": "string",
+						"title": "The Logo Schema.",
+						"description": "An explanation about the purpose of this instance.",
+						"default": "",
+						"examples": [
+							"http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_16441_1_1.PNG"
+						]
+					},
+					"status": {
+						"$id": "/properties/provider/items/properties/status",
+						"type": "string",
+						"format":"providerStatus",
+						"title": "The Status Schema.",
+						"description": "An explanation about the purpose of this instance.",
+						"default": "",
+						"examples": [
+							"Supported"
+						]
+					},
+					"isAutoRefreshEnabled": {
+						"$id": "/properties/provider/items/properties/isAutoRefreshEnabled",
+						"type": "boolean",
+						"title": "The Isautorefreshenabled Schema.",
+						"description": "An explanation about the purpose of this instance.",
+						"default": false,
+						"examples": [
+							true
+						]
+					},
+					"containerAttributes": {
+						"$id": "/properties/provider/items/properties/containerAttributes",
+						"type": "object",
+						"properties": {
+							"CREDITCARD": {
+								"$id": "/properties/provider/items/properties/containerAttributes/properties/CREDITCARD",
+								"type": "object",
+								"properties": {
+									"numberOfTransactionDays": {
+										"$id": "/properties/provider/items/properties/containerAttributes/properties/CREDITCARD/properties/numberOfTransactionDays",
+										"type": "integer",
+										"title": "The Numberoftransactiondays Schema.",
+										"description": "An explanation about the purpose of this instance.",
+										"default": 0,
+										"examples": [
+											90
+										]
+									}
+								}
+							},
+							"INSURANCE": {
+								"$id": "/properties/provider/items/properties/containerAttributes/properties/INSURANCE",
+								"type": "object",
+								"properties": {
+									"numberOfTransactionDays": {
+										"$id": "/properties/provider/items/properties/containerAttributes/properties/INSURANCE/properties/numberOfTransactionDays",
+										"type": "integer",
+										"title": "The Numberoftransactiondays Schema.",
+										"description": "An explanation about the purpose of this instance.",
+										"default": 0,
+										"examples": [
+											90
+										]
+									}
+								}
+							},
+							"BANK": {
+								"$id": "/properties/provider/items/properties/containerAttributes/properties/BANK",
+								"type": "object",
+								"properties": {
+									"numberOfTransactionDays": {
+										"$id": "/properties/provider/items/properties/containerAttributes/properties/BANK/properties/numberOfTransactionDays",
+										"type": "integer",
+										"title": "The Numberoftransactiondays Schema.",
+										"description": "An explanation about the purpose of this instance.",
+										"default": 0,
+										"examples": [
+											90
+										]
+									}
+								}
+							},
+							"LOAN": {
+								"$id": "/properties/provider/items/properties/containerAttributes/properties/LOAN",
+								"type": "object",
+								"properties": {
+									"numberOfTransactionDays": {
+										"$id": "/properties/provider/items/properties/containerAttributes/properties/LOAN/properties/numberOfTransactionDays",
+										"type": "integer",
+										"title": "The Numberoftransactiondays Schema.",
+										"description": "An explanation about the purpose of this instance.",
+										"default": 0,
+										"examples": [
+											90
+										]
+									}
+								}
+							},
+							"INVESTMENT": {
+								"$id": "/properties/provider/items/properties/containerAttributes/properties/INVESTMENT",
+								"type": "object",
+								"properties": {
+									"numberOfTransactionDays": {
+										"$id": "/properties/provider/items/properties/containerAttributes/properties/INVESTMENT/properties/numberOfTransactionDays",
+										"type": "integer",
+										"title": "The Numberoftransactiondays Schema.",
+										"description": "An explanation about the purpose of this instance.",
+										"default": 0,
+										"examples": [
+											90
+										]
+									}
+								}
+							}
+						}
+					},
+					"help": {
+						"$id": "/properties/provider/items/properties/help",
+						"type": "string",
+						"title": "The Help Schema.",
+						"description": "An explanation about the purpose of this instance.",
+						"default": "",
+						"examples": [
+							"help"
+						]
+					},
+					"oAuthSite": {
+						"$id": "/properties/provider/items/properties/oAuthSite",
+						"type": "boolean",
+						"title": "The Oauthsite Schema.",
+						"description": "An explanation about the purpose of this instance.",
+						"default": false,
+						"examples": [
+							false
+						]
+					},
+					"lastModified": {
+						"$id": "/properties/provider/items/properties/lastModified",
+						"type": "string",
+						"title": "The Lastmodified Schema.",
+						"description": "An explanation about the purpose of this instance.",
+						"default": "",
+						"examples": [
+							"2017-11-28T12:38:10Z"
+						]
+					},
+					"languageISOCode": {
+						"$id": "/properties/provider/items/properties/languageISOCode",
+						"type": "string",
+						"title": "The Languageisocode Schema.",
+						"description": "An explanation about the purpose of this instance.",
+						"default": "",
+						"examples": [
+							"EN"
+						]
+					},
+					"primaryLanguageISOCode": {
+						"$id": "/properties/provider/items/properties/primaryLanguageISOCode",
+						"type": "string",
+						"title": "The Primarylanguageisocode Schema.",
+						"description": "An explanation about the purpose of this instance.",
+						"default": "",
+						"examples": [
+							"EN"
+						]
+					},
+					"containerNames": {
+						"$id": "/properties/provider/items/properties/containerNames",
+						"type": "array",
+						"format":"container",
+						"items": {
+							"$id": "/properties/provider/items/properties/containerNames/items",
+							"type": "string",
+							"format":"container",
+							"title": "The 0 Schema.",
+							"description": "An explanation about the purpose of this instance.",
+							"default": "",
+							"examples": [
+								"insurance"
+							]
+						}
+					},
+					"loginForm": {
+						"$id": "/properties/provider/items/properties/loginForm",
+						"type": "object",
+						"properties": {
+							"id": {
+								"$id": "/properties/provider/items/properties/loginForm/properties/id",
+								"type": "integer",
+								"title": "The Id Schema.",
+								"description": "An explanation about the purpose of this instance.",
+								"default": 0,
+								"examples": [
+									16103
+								]
+							},
+							"forgetPasswordURL": {
+								"$id": "/properties/provider/items/properties/loginForm/properties/forgetPasswordURL",
+								"type": "string",
+								"title": "The Forgetpasswordurl Schema.",
+								"description": "An explanation about the purpose of this instance.",
+								"default": "",
+								"examples": [
+									"http://64.14.28.129/dag/index.do"
+								]
+							},
+							"formType": {
+								"$id": "/properties/provider/items/properties/loginForm/properties/formType",
+								"type": "string",
+								"title": "The Formtype Schema.",
+								"description": "An explanation about the purpose of this instance.",
+								"default": "",
+								"examples": [
+									"login"
+								]
+							},
+							"row": {
+								"$id": "/properties/provider/items/properties/loginForm/properties/row",
+								"type": "array",
+								"items": {
+									"$id": "/properties/provider/items/properties/loginForm/properties/row/items",
+									"type": "object",
+									"properties": {
+										"id": {
+											"$id": "/properties/provider/items/properties/loginForm/properties/row/items/properties/id",
+											"type": "number",
+											"minimum": -9223372036854775807,
+											"maximum": 9223372036854775807,
+											"title": "The Id Schema.",
+											"description": "An explanation about the purpose of this instance.",
+											"default": 0,
+											"examples": [
+												150862
+											]
+										},
+										"label": {
+											"$id": "/properties/provider/items/properties/loginForm/properties/row/items/properties/label",
+											"type": "string",
+											"title": "The Label Schema.",
+											"description": "An explanation about the purpose of this instance.",
+											"default": "",
+											"examples": [
+												"Catalog"
+											]
+										},
+										"form": {
+											"$id": "/properties/provider/items/properties/loginForm/properties/row/items/properties/form",
+											"type": "string",
+											"title": "The Form Schema.",
+											"description": "An explanation about the purpose of this instance.",
+											"default": "",
+											"examples": [
+												"0001"
+											]
+										},
+										"fieldRowChoice": {
+											"$id": "/properties/provider/items/properties/loginForm/properties/row/items/properties/fieldRowChoice",
+											"type": "string",
+											"title": "The Fieldrowchoice Schema.",
+											"description": "An explanation about the purpose of this instance.",
+											"default": "",
+											"examples": [
+												"0001"
+											]
+										},
+										"field": {
+											"$id": "/properties/provider/items/properties/loginForm/properties/row/items/properties/field",
+											"type": "array",
+											"items": {
+												"$id": "/properties/provider/items/properties/loginForm/properties/row/items/properties/field/items",
+												"type": "object",
+												"properties": {
+													"id": {
+														"$id": "/properties/provider/items/properties/loginForm/properties/row/items/properties/field/items/properties/id",
+														"type": "number",
+														"minimum": -9223372036854775807,
+														"maximum": 9223372036854775807,
+														"title": "The Id Schema.",
+														"description": "An explanation about the purpose of this instance.",
+														"default": 0,
+														"examples": [
+															65499
+														]
+													},
+													"name": {
+														"$id": "/properties/provider/items/properties/loginForm/properties/row/items/properties/field/items/properties/name",
+														"type": "string",
+														"title": "The Name Schema.",
+														"description": "An explanation about the purpose of this instance.",
+														"default": "",
+														"examples": [
+															"LOGIN"
+														]
+													},
+													"type": {
+														"$id": "/properties/provider/items/properties/loginForm/properties/row/items/properties/field/items/properties/type",
+														"type": "string",
+														"title": "The Type Schema.",
+														"description": "An explanation about the purpose of this instance.",
+														"default": "",
+														"examples": [
+															"text"
+														]
+													},
+													"value": {
+														"$id": "/properties/provider/items/properties/loginForm/properties/row/items/properties/field/items/properties/value",
+														"type": "string",
+														"title": "The Value Schema.",
+														"description": "An explanation about the purpose of this instance.",
+														"default": "",
+														"examples": [
+															""
+														]
+													},
+													"isOptional": {
+														"$id": "/properties/provider/items/properties/loginForm/properties/row/items/properties/field/items/properties/isOptional",
+														"type": "boolean",
+														"title": "The Isoptional Schema.",
+														"description": "An explanation about the purpose of this instance.",
+														"default": false,
+														"examples": [
+															false
+														]
+													},
+													"valueEditable": {
+														"$id": "/properties/provider/items/properties/loginForm/properties/row/items/properties/field/items/properties/valueEditable",
+														"type": "boolean",
+														"title": "The Valueeditable Schema.",
+														"description": "An explanation about the purpose of this instance.",
+														"default": false,
+														"examples": [
+															true
+														]
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"capability": {
+						"$id": "/properties/provider/items/properties/capability",
+						"type": "array",
+						"items": {
+							"$id": "/properties/provider/items/properties/capability/items",
+							"type": "object",
+							"properties": {
+								"name": {
+									"$id": "/properties/provider/items/properties/capability/items/properties/name",
+									"type": "string",
+									"title": "The Name Schema.",
+									"description": "An explanation about the purpose of this instance.",
+									"default": "",
+									"examples": [
+										"CHALLENGE_DEPOSIT_VERIFICATION"
+									]
+								},
+								"container": {
+									"$id": "/properties/provider/items/properties/capability/items/properties/container",
+									"type": "array",
+									"items": {
+										"$id": "/properties/provider/items/properties/capability/items/properties/container/items",
+										"type": "string",
+										"format":"container",
+										"title": "The 0 Schema.",
+										"description": "An explanation about the purpose of this instance.",
+										"default": "",
+										"examples": [
+											"bank"
+										]
+									}
+								}
+							}
+						}
+					},
+					"additionalDataSet": {
+						"$id": "/properties/provider/items/properties/additionalDataSet",
+						"type": "array",
+						"items": {
+							"$id": "/properties/provider/items/properties/additionalDataSet/items",
+							"type": "object",
+							"properties": {
+								"name": {
+									"$id": "/properties/provider/items/properties/additionalDataSet/items/properties/name",
+									"type": "string",
+									"title": "The Name Schema.",
+									"description": "An explanation about the purpose of this instance.",
+									"default": "",
+									"examples": [
+										"ACCT_PROFILE"
+									]
+								},
+								"attribute": {
+									"$id": "/properties/provider/items/properties/additionalDataSet/items/properties/attribute",
+									"type": "array",
+									"items": {
+										"$id": "/properties/provider/items/properties/additionalDataSet/items/properties/attribute/items",
+										"type": "object",
+										"properties": {
+											"name": {
+												"$id": "/properties/provider/items/properties/additionalDataSet/items/properties/attribute/items/properties/name",
+												"type": "string",
+												"title": "The Name Schema.",
+												"description": "An explanation about the purpose of this instance.",
+												"default": "",
+												"examples": [
+													"FULL_ACCT_NUMBER"
+												]
+											},
+											"container": {
+												"$id": "/properties/provider/items/properties/additionalDataSet/items/properties/attribute/items/properties/container",
+												"type": "array",
+												"items": {
+													"$id": "/properties/provider/items/properties/additionalDataSet/items/properties/attribute/items/properties/container/items",
+													"type": "string",
+													"format":"container",
+													"title": "The 0 Schema.",
+													"description": "An explanation about the purpose of this instance.",
+													"default": "",
+													"examples": [
+														"bank"
+													]
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					},
+					"authType": {
+						"$id": "/properties/provider/items/properties/authType",
+						"type": "string",
+						"format":"AuthType",
+						"title": "The Authtype Schema.",
+						"description": "An explanation about the purpose of this instance.",
+						"default": "",
+						"examples": [
+							"CREDENTIALS"
+						]
+					}
+				}
+			}
+		}
+	}
+}

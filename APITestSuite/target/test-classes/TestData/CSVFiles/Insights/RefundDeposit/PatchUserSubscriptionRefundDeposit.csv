@@ -1,0 +1,28 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-148642,PatchUser - subscribe to RefundDepositNotice,RefundDepositNotice,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,1.00,AMOUNT",204,TRUE
+AT-148643,PatchUser - RefundDepositNotice - updateTriggerType,RefundDepositNotice,negTestScenario16,REFRESH,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148644,PatchUser -  RefundDepositNotice - update insightName by same name,RefundDepositNotice,negTestScenario17,,RefundDepositNotice,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148645,PatchUser -  RefundDepositNotice - update insightName edit InsightName,RefundDepositNotice,negTestScenario2,,RefundDepositNoticeEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148646,PatchUser - RefundDepositNotice - update insightTitle,RefundDepositNotice,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-148647,PatchUser - RefundDepositNotice - update container,RefundDepositNotice,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-148648,PatchUser - RefundDepositNotice - update keys,RefundDepositNotice,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-148649,PatchUser - RefundDepositNotice - update description,RefundDepositNotice,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-148650,PatchUser - RefundDepositNotice - update applicableEntity,RefundDepositNotice,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-148651,PatchUser - RefundDepositNotice - update entityParameter,RefundDepositNotice,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,1.00,AMOUNT",204,TRUE
+AT-148652,PatchUser -  RefundDepositNotice - update entityParameter->account[0]->id - Valid ItemAccountId,RefundDepositNotice,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,1.00,AMOUNT",204,TRUE
+AT-148653,PatchUser -  RefundDepositNotice - update entityParameter->account[0]->id - InValid ItemAccountId,RefundDepositNotice,negTestScenario20,,,,,,,,,,1,,account,1,76823,,TRUE,,,"MINIMUM,1.00,AMOUNT",400,TRUE
+AT-148654,PatchUser -  RefundDepositNotice - update entityParameter->account[0]->isSubscribed=false,RefundDepositNotice,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-148655,PatchUser - RefundDepositNotice - update insightType to AGGREGATE - entityParameter->account[0]->insightType,RefundDepositNotice,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,AGGREGATE,"MINIMUM,1.00,AMOUNT",400,TRUE
+AT-148656,PatchUser - RefundDepositNotice - update insightType to INVALID - entityParameter->account[0]->insightType,RefundDepositNotice,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"MINIMUM,1.00,AMOUNT",400,TRUE
+AT-148657,PatchUser - RefundDepositNotice - update threshold name  - entityParameter->account[0]->threshold[0]->name,RefundDepositNotice,negTestScenario27,,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,1.00,AMOUNT",400,TRUE
+AT-148658,PatchUser - RefundDepositNotice - update threshold values - entityParameter->account[0]->threshold[0]->value,RefundDepositNotice,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,99999,AMOUNT",204,TRUE
+AT-148659,PatchUser - RefundDepositNotice - update threshold type - entityParameter->account[0]->threshold[0]->type,RefundDepositNotice,negTestScenario28,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,1.00,PERCENT",400,TRUE
+AT-148660,PatchUser - RefundDepositNotice - update configMeta - subscrption Info - configMeta->account[0]->id,RefundDepositNotice,negTestScenario19,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"MINIMUM,1.00,AMOUNT",400,TRUE
+AT-148661,PatchUser-View -  RefundDepositNotice - update entityParameter->account[0]->id - InValid ItemAccountId,RefundDepositNotice,negTestScenario26,,,,,,,,,,1,,view,1,76823,,TRUE,,,"MINIMUM,1.00,AMOUNT",400,TRUE
+AT-148662,PatchUser -  View - RefundDepositNotice - update entityParameter->account[0]->isSubscribed=false,RefundDepositNotice,,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-148663,PatchUser -View- RefundDepositNotice - update insightType to AGGREGATE - entityParameter->account[0]->insightType,RefundDepositNotice,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,AGGREGATE,"MINIMUM,1.00,AMOUNT",400,TRUE
+AT-148664,PatchUser - View- RefundDepositNotice - update insightType to INVALID - entityParameter->account[0]->insightType,RefundDepositNotice,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,INVALID,"MINIMUM,1.00,AMOUNT",400,TRUE
+AT-148665,PatchUser - View- RefundDepositNotice - update threshold name  - entityParameter->account[0]->threshold[0]->name,RefundDepositNotice,negTestScenario27,,,,,,,,,,1,,view,1,,,FALSE,,,"LIMIT,1.00,AMOUNT",400,TRUE
+AT-148666,PatchUser -View -  RefundDepositNotice - update threshold values - entityParameter->account[0]->threshold[0]->value,RefundDepositNotice,,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,99999,AMOUNT",204,TRUE
+AT-148667,PatchUser - View - RefundDepositNotice - update threshold type - entityParameter->account[0]->threshold[0]->type,RefundDepositNotice,negTestScenario28,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,1.00,PERCENT",400,TRUE
+AT-148668,PatchUser - View - RefundDepositNotice - update configMeta - subscrption Info - configMeta->account[0]->id,RefundDepositNotice,negTestScenario19,,,,,,,,,,1,TRUE,view,1,,,FALSE,,,"MINIMUM,1.00,AMOUNT",400,TRUE

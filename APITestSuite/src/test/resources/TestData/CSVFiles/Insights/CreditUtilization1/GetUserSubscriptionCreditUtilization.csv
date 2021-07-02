@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-147659,"Validate CreditUtilization , Validate InsightName",,CreditUtilization,CreditUtilization,,,,,,,,,,,,,200,TRUE
+AT-147660,"Validate CreditUtilization , Validate Supporting container",,CreditUtilization,,,CARD,,,,,,,,,,,200,TRUE
+AT-147661,"Validate CreditUtilization , Validate TriggerType",REFRESH,CreditUtilization,,,,,,,,,,,,,,200,TRUE
+AT-147662,"Validate CreditUtilization , Validate applicableEntity",,CreditUtilization,,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-147663,"Validate CreditUtilization , Validate number of levels and levelObject",,CreditUtilization,,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-147664,"Validate CreditUtilization , Validate isSubscribed=true",,CreditUtilization,,,,,,,,account,TRUE,,,,,200,TRUE
+AT-147665,"Validate CreditUtilization , Validate threshold Name,Value and Type",,CreditUtilization,,,,,,,,account,,,"UPPER_LIMIT,30,PERCENT",,,200,TRUE
+AT-147666,"Validate CreditUtilization , Validate insightKeys",,CreditUtilization,,,,Account,,,,,,,,,,200,TRUE
+AT-147667,"Validate CreditUtilization , Validate description",,CreditUtilization,,,,,,Generates an insight when the balance on all credit cards is more than a configured threshold.,,,,,,,,200,TRUE
+AT-147668,"Validate CreditUtilization , Validate title",,CreditUtilization,,Credit Utilization Warning (all cards),,,,,,,,,,,,200,TRUE
+AT-147669,"Validate CreditUtilization , Validate total number of keys",,CreditUtilization,,,,,10,,,,,,,,,200,TRUE
+AT-147670,"Validate CreditUtilization , Validate if ruleExpression present",,CreditUtilization,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE

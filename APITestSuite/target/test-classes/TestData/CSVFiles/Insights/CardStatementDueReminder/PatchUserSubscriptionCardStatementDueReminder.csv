@@ -1,0 +1,28 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-143249,subscribe to CardStatementDue Account,CardStatementDue,,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,8,DAYS",204,TRUE
+AT-143249,subscribe to CardStatementDue View,CardStatementDue,,,,,,,,,,,1,,view,1,,,TRUE,,,"DAYS_BEFORE,8,DAYS",204,TRUE
+AT-143250,updateTriggerType,CardStatementDue,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143251, update insightName by same name,CardStatementDue,negTestScenario17,,CardStatementDue,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143252, update insightName edit InsightName,CardStatementDue,negTestScenario2,,CardStatementDueEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143253,update insightTitle,CardStatementDue,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-143254,update container,CardStatementDue,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-143255,update keys,CardStatementDue,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-143256,update description,CardStatementDue,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-143257,update applicableEntity,CardStatementDue,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-143258,update entityParameter,CardStatementDue,,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,10,DAYS",204,TRUE
+AT-143259, update entityParameter->account[0]->id - Valid ItemAccountId,CardStatementDue,,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,5,DAYS",204,TRUE
+AT-143260, update entityParameter->account[0]->id - InValid ItemAccountId,CardStatementDue,negTestScenario20,,,,,,,,,,1,,account,1,76823,,TRUE,,,"DAYS_BEFORE,9,DAYS",400,TRUE
+AT-143261, update entityParameter->account[0]->isSubscribed=false,CardStatementDue,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-143262,update duration  -  entityParameter->account[0]->duration ,CardStatementDue,negTestScenario48,,,,,,,,,,1,,account,1,,,TRUE,LAST_MONHT,,"DAYS_BEFORE,16,DAYS",400,TRUE
+AT-143263,update insightType to AGGREGATE - entityParameter->account[0]->insightType,CardStatementDue,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,AGGREGATE,"DAYS_BEFORE,16,DAYS",400,TRUE
+AT-143264,update insightType to INVALID - entityParameter->account[0]->insightType,CardStatementDue,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"DAYS_BEFORE,16,DAYS",400,TRUE
+AT-143265,update threshold name  - entityParameter->account[0]->threshold[0]->name,CardStatementDue,negTestScenario35,,,,,,,,,,1,,account,1,,,FALSE,,,"BALANCE,1,DAYS_BEFORE",400,TRUE
+AT-143266,update threshold values - entityParameter->account[0]->threshold[0]->value,CardStatementDue,,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,20,DAYS",204,TRUE
+AT-143267,update threshold type - entityParameter->account[0]->threshold[0]->type,CardStatementDue,,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,20,DAYS",204,TRUE
+AT-143268,"update threshold name ,value and type to BALANCE,200,AMOUNT",CardStatementDue,,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,5,DAYS",204,TRUE
+AT-143269,update configMeta - subscrption Info - configMeta->account[0]->id,CardStatementDue,negTestScenario41,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"DAYS_BEFORE,0,DAYS",400,TRUE
+AT-143270,update subscription to board and account,CardStatementDue,,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,5,DAYS",204,TRUE
+AT-143270,update subscription to board and view,CardStatementDue,,,,,,,,,,,1,,view,1,,,TRUE,,,"DAYS_BEFORE,5,DAYS",204,TRUE
+AT-143271,update subscription to board and account include frequency,CardStatementDue,negTestScenario32,,,,,,,,,,1,,account,1,,MONTHLY WEEKLY,TRUE,,,"DAYS_BEFORE,7,DAYS",400,TRUE
+AT-143272,update subscription to board and account include duration,CardStatementDue,negTestScenario48,,,,,,,,,,1,,account,1,,,TRUE,LAST_MONTH,,"DAYS_BEFORE,2,DAYS",400,TRUE
+AT-143273,update  unsubscribe from board and account,CardStatementDue,negTestScenario56,,,,,,,,,,1,,account,1,,,FALSE,,,"DAYS_BEFORE,95,DAYS",400,TRUE

@@ -1,0 +1,35 @@
+{
+  "account": [
+    {
+      "balances": [
+        {
+          "date": 10,
+          "balance": {
+            "amount": 17744.79,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 41,
+          "balance": {
+            "amount": 21844.8,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        },
+        {
+          "date": 71,
+          "balance": {
+            "amount": 26944.81,
+            "currency": "USD"
+          },
+          "asOfDate": "${json-unit.ignore}"
+        }
+      ],
+      "isAsset": true,
+      "CONTAINER": "bank",
+      "id": "${json-unit.ignore}"
+    }
+  ]
+}

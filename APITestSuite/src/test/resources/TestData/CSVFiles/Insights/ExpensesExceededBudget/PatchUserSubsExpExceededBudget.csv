@@ -1,0 +1,18 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-146962,subscribe to ExpensesExceededBudget,ExpensesExceededBudget,,,,,,,,,,,1,,accountGroup,1,,,TRUE,,,,204,TRUE
+AT-146963,updateTriggerType,ExpensesExceededBudget,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-146964, update insightName by same name,ExpensesExceededBudget,negTestScenario17,,ExpensesExceededBudget,,,,,,,,,,,,,,,,,,400,TRUE
+AT-146965, update insightName edit InsightName,ExpensesExceededBudget,negTestScenario2,,ExpensesExceededBudgetEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-146966,update insightTitle,ExpensesExceededBudget,negTestScenario33,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-146967,update container,ExpensesExceededBudget,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-146968,update keys,ExpensesExceededBudget,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-146969,update description,ExpensesExceededBudget,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-146970,update applicableEntity,ExpensesExceededBudget,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-146971,update entityParameter,ExpensesExceededBudget,,,,,,,,,,,1,,accountGroup,1,,,TRUE,,,,204,TRUE
+AT-146972, update entityParameter->account[0]->id - Valid ItemAccountId,ExpensesExceededBudget,,,,,,,,,,,1,,accountGroup,1,,,TRUE,,,,204,TRUE
+AT-146973, update entityParameter->account[0]->id - InValid ItemAccountId,ExpensesExceededBudget,negTestScenario42,,,,,,,,,,1,,accountGroup,1,76823,,TRUE,,,,400,TRUE
+AT-146974, update entityParameter->account[0]->isSubscribed=false,ExpensesExceededBudget,,,,,,,,,,,1,,accountGroup,1,,,FALSE,,,,204,TRUE
+AT-146975,update duration  -  entityParameter->account[0]->duration ,ExpensesExceededBudget,negTestScenario48,,,,,,,,,,1,,accountGroup,1,,,TRUE,LAST_MONHT,,,400,TRUE
+AT-146976,update insightType to AGGREGATE - entityParameter->account[0]->insightType,ExpensesExceededBudget,negTestScenario24,,,,,,,,,,1,,accountGroup,1,,,TRUE,,AGGREGATE,,400,TRUE
+AT-146977,update insightType to INVALID - entityParameter->account[0]->insightType,ExpensesExceededBudget,negTestScenario24,,,,,,,,,,1,,accountGroup,1,,,TRUE,,INVALID,,400,TRUE
+AT-146982,update configMeta - subscrption Info - configMeta->account[0]->id,ExpensesExceededBudget,negTestScenario19,,,,,,,,,,1,TRUE,accountGroup,1,,,FALSE,,,,400,TRUE

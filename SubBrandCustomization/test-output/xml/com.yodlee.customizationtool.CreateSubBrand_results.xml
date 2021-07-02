@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sub Brand Management Tool Publish Workflows"
+           tests="23"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1604.869">
+  <properties />
+  
+  
+            <testcase name="testContactDetailsNegativeValidations" time="37.259" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testGeneralConfigurationNegativeValidations" time="48.306" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testCreateAndViewSubBrandOverView" time="3.231" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testPrivateAuthSetupNegativeValidations" time="21.170" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testContactDetailsNegativeValidations" time="41.313" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testCreateAndViewSubBrandOverView" time="406.206" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testGeneralConfigurationNegativeValidations" time="14.331" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testPrivateAuthSetupNegativeValidations" time="27.029" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testPrivateAuthSetupNegativeValidations" time="32.596" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testCreateAndViewSubBrandOverView" time="647.974" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testGeneralConfigurationNegativeValidations" time="18.366" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testPrivateAuthSetupNegativeValidations" time="27.052" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testCreateAndViewSubBrandOverView" time="2.749" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testProductsAndAppSelectionNegativeValidations" time="35.053" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testPublicAuthSetupNegativeValidations" time="45.844" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testProductsAndAppSelectionNegativeValidations" time="33.400" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testContactDetailsNegativeValidations" time="37.786" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testCreateAndViewSubBrandOverView" time="3.026" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testGeneralConfigurationNegativeValidations" time="15.032" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testPublicAuthSetupNegativeValidations" time="40.475" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testPublicAuthSetupNegativeValidations" time="40.416" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testCreateAndViewSubBrandOverView" time="2.529" classname="com.yodlee.customizationtool.CreateSubBrand" />
+                <testcase name="testContactDetailsNegativeValidations" time="23.726" classname="com.yodlee.customizationtool.CreateSubBrand" />
+      
+</testsuite>

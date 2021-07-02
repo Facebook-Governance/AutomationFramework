@@ -1,0 +1,3 @@
+TestCaseId,TestCase,UniqueNo,CategoryId,CategoryIdAmount,CateogryType,CateogryTypeAmount,CurrencyType,Goal,GoalStartDate,GoalEndDate,enabled
+AT-115685,Verify that user must be able to associate Single Goal id to a Multiple Budget,102,,,INCOME,201,"ANG,AOA,ARS,AUD,AWG,ZM,BAM,BBD,BDT,BGL","Purchase Home1,1,800000,USD,10000,USD,MONTHLY,NOT_STARTED,NONE,FALSE,1,FALSE","0,0,2","0,3,0",TRUE
+"AT-115686,AT-115687",Verify that user must be able to associate Mulitple Goal id to a Single Budget,102,10,200,,,"ANG,AOA,ARS,AUD,AWG,ZM,BAM,BBD,BDT,BGL","Purchase Home1,1,800000,USD,10000,USD,MONTHLY,NOT_STARTED,NONE,FALSE,1,FALSE","0,0,2","0,3,0",TRUE

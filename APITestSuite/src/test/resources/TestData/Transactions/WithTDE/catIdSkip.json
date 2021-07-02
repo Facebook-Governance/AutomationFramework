@@ -1,0 +1,83 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000011,
+      "description": {
+        "original": "Travel",
+        "simple": "Travel"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Travel",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 23,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000011,
+      "description": {
+        "original": "Travel",
+        "simple": "Travel"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Travel",
+      "runningBalance": {
+        "amount": 1259,
+        "currency": "USD"
+      },
+      "categoryId": 23,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 101,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000011,
+      "description": {
+        "original": "Parking Fees and Tolls",
+        "simple": "Parking Fees and Tolls"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Travel",
+      "categoryId": 23,
+      "status": "POSTED"
+    }
+  ]
+}

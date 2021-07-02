@@ -1,0 +1,50 @@
+<entity type="multiple">
+    <request>
+        <add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+            <siteUser>SdgAutoCatalog.site16441.1</siteUser>
+            <siteUserId>65499</siteUserId>
+            <sitePwd>site16441.1</sitePwd>
+            <sitePwdId>65500</sitePwdId>
+            <siteId>16441</siteId>
+            <instantRefresh>true</instantRefresh>
+            <dataList>
+                <dataset>
+                    <name>BASIC_AGG_DATA</name>
+                    <attributeList>
+                        <attribute>
+                            <name>ACCOUNT_DETAILS</name>
+                            <container>bank</container>
+                        </attribute>
+                    </attributeList>
+                </dataset>
+            </dataList>
+        </add-provider-accounts>
+		</add-provider-accounts-multiple>
+        <refresh-provider-accounts-multiple>
+		<refresh-provider-accounts order="1">
+            <dataList>
+                <dataset>
+                    <name>ACCT_PROFILE</name>
+                    <attributeList>
+                        <attribute>
+                            <name>FULL_ACCT_NUMBER</name>
+                            <container>bank</container>
+                        </attribute>
+                    </attributeList>
+                </dataset>
+            </dataList>
+        </refresh-provider-accounts>
+		</refresh-provider-accounts-multiple>
+    </request>
+    <response>
+        <update-provider-accounts-multiple>
+		<update-provider-accounts order="1">
+            <row>
+                <filePath>../src/test/resources/TestData/JSONFiles/Sdg/NoTimeGap/</filePath>
+                <responseFile>DiffDataSetAttr_BAA_APBTC.json</responseFile>
+            </row>
+        </update-provider-accounts>
+		</update-provider-accounts-multiple>
+    </response>
+</entity>

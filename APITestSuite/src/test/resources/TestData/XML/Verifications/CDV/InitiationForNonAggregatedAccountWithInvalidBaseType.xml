@@ -1,0 +1,57 @@
+<entity type="multiple">
+	<request>
+		<verification-multiple>
+		<verification order="1">
+			<accountId>true</accountId>
+			<dbUpdate>true</dbUpdate>
+			<verificationType>CHALLENGE_DEPOSIT</verificationType>
+			<account>
+					<accountNumber>123456789</accountNumber>
+					<accountName>Citi Bank</accountName>
+					<accountType>SAVINGS</accountType>
+					<bankTransferCode>
+							<id>031311878</id>
+							<type>ROUTING_NUMBER</type>
+					</bankTransferCode>
+				</account><cdVerificationStatus>2</cdVerificationStatus><isExpired>No</isExpired>
+			</verification>
+			</verification-multiple>
+			<completion-multiple>
+			<completion order="1">
+			<verificationType>CHALLENGE_DEPOSIT</verificationType>
+			<accountId>null</accountId>
+			<providerAccountId>null</providerAccountId>
+			<transaction>
+				
+					<firstAmount>
+						<firstCreditValue>db</firstCreditValue>
+						<firstCurrency>USD</firstCurrency>
+					</firstAmount>	
+					<firstCreditBaseType>abc</firstCreditBaseType>
+					
+					<secondAmount>
+						<secondCreditValue>db</secondCreditValue>
+						<secondCurrency>USD</secondCurrency>
+					</secondAmount>	
+					<secondCreditBaseType>CREDIT</secondCreditBaseType>
+					
+					<thirdAmount>
+						<thirdDebitValue>db</thirdDebitValue>
+						<thirdCurrency>USD</thirdCurrency>
+					</thirdAmount>	
+					<thirdDebitBaseType>DEBIT</thirdDebitBaseType>
+				</transaction>
+			</completion>
+			</completion-multiple>
+		</request>
+	 <response>
+		<completionaccounts-multiple>
+		<completionaccounts order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/Verification/CDV/</filePath>
+				<responseFile>CompletionForNonAggregatedAccountWithInvalidBaseType.json</responseFile>
+			</row>
+		</completionaccounts>
+		</completionaccounts-multiple>
+	</response>
+</entity>

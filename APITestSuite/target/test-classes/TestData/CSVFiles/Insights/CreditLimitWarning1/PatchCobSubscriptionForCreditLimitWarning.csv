@@ -1,0 +1,32 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-143206,subscribe to CreditLimitWarning isSubscribed=true,CreditLimitWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,88,PERCENT",204,TRUE
+AT-143207,update insightName to same name,CreditLimitWarning,negTestScenario1,CreditLimitWarning,,,,,,,,,,,,,,,,,,500,TRUE
+AT-143208, update insightName to different name,CreditLimitWarning,negTestScenario2,CreditLimitWarningEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-143209,update insightTitle chars between 3 and 100 ,CreditLimitWarning,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-143210, update insightTitle chars are only 3,CreditLimitWarning,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-143211,update insightTitle chars are only 100,CreditLimitWarning,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-143212,update insightTitle chars are less than 3,CreditLimitWarning,negTestScenario3,,mm,,,,,,,,,,,,,,,,,400,TRUE
+AT-143213, update insightTitle chars are greater 100,CreditLimitWarning,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-143214,update insightTitle chars are special characters,CreditLimitWarning,negTestScenario5,,{}}#4@@,,,,,,,,,,,,,,,,,400,TRUE
+AT-143215, update container,CreditLimitWarning,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-143216, update keys,CreditLimitWarning,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-143217, update description,CreditLimitWarning,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-143218, update applicableEntity,CreditLimitWarning,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-143219, update entityParameter,CreditLimitWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,10,PERCENT",204,TRUE
+AT-143220,update entityParameter->account[0]->frequency,CreditLimitWarning,negTestScenario10,,,,,,,,,1,,account,1,,M,TRUE,,,"LIMIT,30,PERCENT",400,TRUE
+AT-143221,update entityParameter->account[0]->isSubscribed=false,CreditLimitWarning,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-143222,update entityParameter->account[0]->duration,CreditLimitWarning,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"LIMIT,50,PERCENT",400,TRUE
+AT-143223,update entityParameter->account[0]->insightType,CreditLimitWarning,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"LIMIT,98,PERCENT",400,TRUE
+AT-143224,update entityParameter->account[0]->insightType - Invalid Name,CreditLimitWarning,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"LIMIT,33,PERCENT",400,TRUE
+AT-143225,update entityParameter->account[0]->threshold[0]->name,CreditLimitWarning,negTestScenario35,,,,,,,,,1,,account,1,,,FALSE,,,"BALANCE,6,PERCENT",400,TRUE
+AT-143226,update entityParameter->account[0]->threshold[0]->value,CreditLimitWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,6,PERCENT",204,TRUE
+AT-143227, update entityParameter->account[0]->threshold[0]->type,CreditLimitWarning,negTestScenario30,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,6,AMOUNT",400,TRUE
+AT-143228, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,CreditLimitWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,6,PERCENT",204,TRUE
+AT-143229, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,CreditLimitWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,60,PERCENT",204,TRUE
+AT-143230,set threshold value to -1 PERCENT,CreditLimitWarning,negTestScenario39,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,-1,PERCENT",400,TRUE
+AT-143231,set threshold value to 0 PERCENT,CreditLimitWarning,negTestScenario39,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,0,PERCENT",400,TRUE
+AT-143232,set threshold value to 10000 PERCENT,CreditLimitWarning,negTestScenario39,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,10000,PERCENT",400,TRUE
+AT-143233,subscribe to board,CreditLimitWarning,negTestScenario1,,,,,,,,,1,,view,1,,,TRUE,,,"LIMIT,99,PERCENT",500,TRUE
+AT-143234,unsubscribe account and board,CreditLimitWarning,,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,99,PERCENT",204,TRUE
+AT-143235,subscribe account and unsubscribe view,CreditLimitWarning,,,,,,,,,,1,,account ,1,,,TRUE,,,"LIMIT,81,PERCENT",204,TRUE
+AT-143236,Subscribe  both account and   view,CreditLimitWarning,,,,,,,,,,1,,account ,1,,,TRUE,,,"LIMIT,91,PERCENT",204,TRUE

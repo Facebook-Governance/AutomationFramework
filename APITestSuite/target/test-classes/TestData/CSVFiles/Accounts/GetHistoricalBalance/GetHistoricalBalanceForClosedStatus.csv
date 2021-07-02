@@ -1,0 +1,11 @@
+TcId,TestCaseName,accountIdContainer,accountName,status,includeCF,fromDate,toDate,interval,skip,top,statusCode,respFile,filePath,enabled,isAccId
+AT-48141,bankClosedWithOutAccId,bank,TESTDATA,CLOSED,TRUE,2010-09-02,"0,0,0",D,,,200,bankClosedWithOutAccId,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,TRUE,FALSE
+AT-48142,bankClosedWithAccId,bank,TESTDATA,CLOSED,FALSE,2010-09-03,"0,0,0",M,,,200,bankClosedWithAccId,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,TRUE,TRUE
+AT-48141,loanClosedWithOutAccId,loan,Super CD Plus,CLOSED,TRUE,2010-09-06,"0,0,0",M,,,200,loanClosedWithOutAccId,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,TRUE,FALSE
+AT-48142,loanClosedWithAccId,loan,Super CD Plus,CLOSED,FALSE,2010-09-07,"0,0,0",W,,,200,loanClosedWithAccId,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,TRUE,TRUE
+AT-48141,insuranceClosedWithOutAccId,insurance,DAG INSURANCE,CLOSED,TRUE,2010-09-08,"0,0,0",D,,,200,insuranceClosedWithOutAccId,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,TRUE,FALSE
+AT-48142,insuranceClosedWithAccId,insurance,DAG INSURANCE,CLOSED,FALSE,2010-09-09,"0,0,0",M,,,200,insuranceClosedWithAccId,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,TRUE,TRUE
+AT-48141,investmentClosedWithOutAccId,investment,DAG INVESTMENT,CLOSED,TRUE,2010-09-10,"0,0,0",W,,,200,investmentClosedWithOutAccId,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,TRUE,FALSE
+AT-48142,investmentClosedWithAccId,investment,DAG INVESTMENT,CLOSED,FALSE,2010-09-11,"0,0,0",,,,200,investmentClosedWithAccId,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,TRUE,TRUE
+AT-48141,cardClosedWithOutAccId,creditCard,Super CD Plus,CLOSED,TRUE,2010-09-12,"0,0,0",,,,200,cardClosedWithOutAccId,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,TRUE,FALSE
+AT-48142,cardClosedWithAccId,creditCard,Super CD Plus,CLOSED,FALSE,2010-09-13,"0,0,0",,,,200,cardClosedWithAccId,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,TRUE,TRUE

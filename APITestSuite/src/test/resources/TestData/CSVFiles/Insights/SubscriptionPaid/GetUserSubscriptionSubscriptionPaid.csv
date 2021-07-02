@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,insightType,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-SubscriptionPaid28,getUserSubscription PaidValidate InsightName,,SubscriptionPaid,SubscriptionPaid,,,,,,,,,,,,,,200,TRUE
+AT-SubscriptionPaid29,getUserSubscription PaidValidate Supporting container,,SubscriptionPaid,,,"BANK,CARD",,,,,,,,,,,,200,TRUE
+AT-SubscriptionPaid30,getUserSubscription PaidValidate TriggerType,EVENT,SubscriptionPaid,,,,,,,,,,,,,,,200,TRUE
+AT-SubscriptionPaid31,getUserSubscription PaidValidate applicableEntity,,SubscriptionPaid,,,,,,,ACCOUNT VIEW,,,,,,,,200,TRUE
+AT-SubscriptionPaid32,getUserSubscription  PaidValidate number of levels and levelObject,,SubscriptionPaid,,,,,,,ACCOUNT VIEW,"account,view",,,,,,,200,TRUE
+AT-SubscriptionPaid33,getUserSubscription PaidValidate isSubscribed=false,,SubscriptionPaid,,,,,,,,"account,view",FALSE,,,,,,200,TRUE
+AT-SubscriptionPaid34,getUserSubscription-PaidValidate insightKeys,,SubscriptionPaid,,,,Account,,,,,,,,,,,200,TRUE
+AT-SubscriptionPaid35,getUserSubscription PaidValidate description,,SubscriptionPaid,,,,,,Generates an insight when a recurring subscription is paid.,,,,,,,,,200,TRUE
+AT-SubscriptionPaid36,getUserSubscription PaidValidate title,,SubscriptionPaid,,Subscription Paid,,,,,,,,,,,,,200,TRUE
+AT-SubscriptionPaid37,getUserSubscription PaidValidate total number of keys,,SubscriptionPaid,,,,,17,,,,,,,,,,200,TRUE
+AT-SubscriptionPaid38,getUserSubscription PaidValidate InsightType,,SubscriptionPaid,SubscriptionPaid,,,,,,,,,,OTHER,,,,200,TRUE
+AT-SubscriptionPaid39,getUserSubscriptionPaid Validate insightKeys,,SubscriptionPaid,,,,View,,,,,,,,,,,200,TRUE

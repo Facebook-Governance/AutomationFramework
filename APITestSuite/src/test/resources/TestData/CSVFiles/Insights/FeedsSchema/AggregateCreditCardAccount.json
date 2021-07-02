@@ -1,0 +1,446 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "insightName": {
+      "type": "string"
+    },
+    "insightTitle": {
+      "type": "string"
+    },
+    "insightType": {
+      "type": "string"
+    },
+    "triggerType": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "string"
+    },
+    "subscription": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "entityType": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "entityType"
+          ]
+        }
+      ]
+    },
+    "basicAccount": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "isAsset": {
+              "type": "boolean"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            },
+            "basicTransaction": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "amount": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "date": {
+                      "type": "string"
+                    },
+                    "link": {
+                      "type": "object",
+                      "properties": {
+                        "entityName": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "entityName",
+                        "url"
+                      ]
+                    },
+                    "categoryId": {
+                      "type": "integer"
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "categoryType": {
+                      "type": "string"
+                    },
+                    "baseType": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "object",
+                      "properties": {
+                        "original": {
+                          "type": "string"
+                        },
+                        "simple": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "original",
+                        "simple"
+                      ]
+                    },
+                    "sourceType": {
+                      "type": "string"
+                    },
+                    "merchantType": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "amount",
+                    "date",
+                    "link",
+                    "categoryId",
+                    "category",
+                    "categoryType",
+                    "baseType",
+                    "description",
+                    "sourceType",
+                    "merchantType"
+                  ]
+                }
+              ]
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "messageText": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "messageText"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "isAsset",
+            "container",
+            "link",
+            "basicTransaction",
+            "message"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "providerName": {
+              "type": "string"
+            },
+            "accountName": {
+              "type": "string"
+            },
+            "accountType": {
+              "type": "string"
+            },
+            "isAsset": {
+              "type": "boolean"
+            },
+            "container": {
+              "type": "string"
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "entityName": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "entityName",
+                "url"
+              ]
+            },
+            "basicTransaction": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "amount": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "date": {
+                      "type": "string"
+                    },
+                    "link": {
+                      "type": "object",
+                      "properties": {
+                        "entityName": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "entityName",
+                        "url"
+                      ]
+                    },
+                    "categoryId": {
+                      "type": "integer"
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "categoryType": {
+                      "type": "string"
+                    },
+                    "baseType": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "object",
+                      "properties": {
+                        "original": {
+                          "type": "string"
+                        },
+                        "simple": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "original",
+                        "simple"
+                      ]
+                    },
+                    "sourceType": {
+                      "type": "string"
+                    },
+                    "merchantType": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "amount",
+                    "date",
+                    "link",
+                    "categoryId",
+                    "category",
+                    "categoryType",
+                    "baseType",
+                    "description",
+                    "sourceType",
+                    "merchantType"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "amount": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "date": {
+                      "type": "string"
+                    },
+                    "link": {
+                      "type": "object",
+                      "properties": {
+                        "entityName": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "entityName",
+                        "url"
+                      ]
+                    },
+                    "categoryId": {
+                      "type": "integer"
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "categoryType": {
+                      "type": "string"
+                    },
+                    "baseType": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "object",
+                      "properties": {
+                        "original": {
+                          "type": "string"
+                        },
+                        "simple": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "original",
+                        "simple"
+                      ]
+                    },
+                    "sourceType": {
+                      "type": "string"
+                    },
+                    "merchantType": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "amount",
+                    "date",
+                    "link",
+                    "categoryId",
+                    "category",
+                    "categoryType",
+                    "baseType",
+                    "description",
+                    "sourceType",
+                    "merchantType"
+                  ]
+                }
+              ]
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "messageText": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "messageText"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "providerName",
+            "accountName",
+            "accountType",
+            "isAsset",
+            "container",
+            "link",
+            "basicTransaction",
+            "message"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "insightName",
+    "insightTitle",
+    "insightType",
+    "triggerType",
+    "createdDate",
+    "subscription",
+    "basicAccount"
+  ]
+}

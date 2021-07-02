@@ -1,0 +1,30 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 2500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "trans desc",
+        "consumer": "update consumer 4"
+      },
+      "memo": "updated memo4",
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "CREDIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "postingOrder": 5,
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "insurance",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    }
+  ]
+}

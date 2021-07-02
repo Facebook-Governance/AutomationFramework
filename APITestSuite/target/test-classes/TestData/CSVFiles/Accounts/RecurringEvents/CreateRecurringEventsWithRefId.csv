@@ -1,0 +1,5 @@
+testCaseId,TestCase,referenceId,startDate,accountId,frequency,endDate,httpStatusCode,resFile,resFilePath,enabled,sDate,eDate
+AT-18914,BankContainer,bank,"0,0,0",bank,ONE_TIME,"0,0,5",201,CreateTransactions_Success.json,../src/test/resources/TestData/JSONFiles/CreateTransactions/,TRUE,"-1,-1,0","0,0,0"
+AT-18916,RefIdOfOtherAccount,creditCard,"0,0,1",BANK,WEEKLY,"0,1,0",400,InvalidValueForReferenceId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE,"-1,-1,0","0,0,0"
+AT-18914,CardContainer,creditCard,"0,0,2",CARD,MONTHLY,"0,4,0",201,CreateTransactions_Success.json,../src/test/resources/TestData/JSONFiles/CreateTransactions/,TRUE,"-1,-1,0","0,0,0"
+AT-18912,Invalid,invalid,"0,0,2",CARD,MONTHLY,"0,4,0",400,InvalidValueForReferenceId.json,../src/test/resources/TestData/JSONFiles/CreateTransactions/,TRUE,"-1,-1,0","0,0,0"

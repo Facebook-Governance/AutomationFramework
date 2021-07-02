@@ -1,0 +1,2 @@
+tcID,tcName,priority,capability,dataSet,name,skip,top,topSuggested,filePath,responseFile,enabled
+1,GET_PROVIDER,popular,,ACCT_PROFILE[HOLDER_DETAILS.container[bank] OR HOLDER_NAME.container[bank]],AccountProfile,0,10,null,CSV,path,to,be,mentioned,../src/test/resources/XML/RTN/,TRUE

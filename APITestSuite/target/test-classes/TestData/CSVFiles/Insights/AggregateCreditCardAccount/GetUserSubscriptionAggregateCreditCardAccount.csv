@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-146950,"Validate AggregateCreditCardAccount , Validate InsightName",,AggregateCreditCardAccount,AggregateCreditCardAccount,,,,,,,,,,,,200,TRUE
+AT-146951,"Validate AggregateCreditCardAccount , Validate Supporting container",,AggregateCreditCardAccount,,,BANK,,,,,,,,,,200,TRUE
+AT-146952,"Validate AggregateCreditCardAccount , Validate TriggerType",REFRESH,AggregateCreditCardAccount,,,,,,,,,,,,,200,TRUE
+AT-146953,"Validate AggregateCreditCardAccount , Validate applicableEntity",,AggregateCreditCardAccount,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-146954,"Validate AggregateCreditCardAccount , Validate number of levels and levelObject",,AggregateCreditCardAccount,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-146955,"Validate AggregateCreditCardAccount , Validate isSubscribed=false",,AggregateCreditCardAccount,,,,,,,,FALSE,,,,,200,TRUE
+AT-146957,"Validate AggregateCreditCardAccount , Validate insightKeys",,AggregateCreditCardAccount,,,,Account,,,,,,,,,200,TRUE
+AT-146958,"Validate AggregateCreditCardAccount , Validate description",,AggregateCreditCardAccount,,,,,Generates an insight when a credit card payment is identified but no corresponding credit card account was found for the user.,,,,,,,,200,TRUE
+AT-146959,"Validate AggregateCreditCardAccount , Validate title",,AggregateCreditCardAccount,,Aggregate Credit Card Account,,,,,,,,,,,200,TRUE
+AT-146960,"Validate AggregateCreditCardAccount , Validate ruleExpression",,AggregateCreditCardAccount,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-146961,"Validate AggregateCreditCardAccount , verify entityParameter and configMeta are same",,AggregateCreditCardAccount,,,,,,,,,,,,TRUE,200,TRUE

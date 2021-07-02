@@ -1,0 +1,20 @@
+{
+  "providerAccount": [
+    {
+      "id": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "providerId": 5,
+      "lastUpdated": "${json-unit.ignore}",
+      "isManual": false,
+      "createdDate": "${json-unit.ignore}",
+      "status": "LOGIN_IN_PROGRESS",
+      "requestId": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "name": "ACCT_PROFILE",
+          "updateEligibility": "DISALLOW_UPDATE"
+        }
+      ]
+    }
+  ]
+}

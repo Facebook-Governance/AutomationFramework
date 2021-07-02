@@ -1,0 +1,5 @@
+testCaseId,TestCase,passwordName,email,firstName,lastName,address1,address2,state,city,zip,country,currency,timeZone,dateFormat,locale,status,ResFile,FilePath,Enabled
+AT-98049,Only address1,Test@123,test@yodlee.com,Envestnet,yodlee,Address One,Address Two,Kar,Bengaluru,560079,INDIA,USD,PST,MM/dd/yyyy,en_DE,200,getUserSegDE.json,../src/test/resources/TestData/Segmentation/,TRUE
+AT-98049,Only address1,Test@123,test@yodlee.com,Envestnet,yodlee,Address One,Address Two,Kar,Bengaluru,560079,INDIA,USD,AEST,MM/dd/yyyy,en_AN,200,getUserSegAN.json,../src/test/resources/TestData/Segmentation/,TRUE
+AT-98049,Only address1,Test@123,test@yodlee.com,Envestnet,yodlee,Address One,Address Two,Kar,Bengaluru,560079,INDIA,USD,UTC,MM/dd/yyyy,en_BE,200,getUserSegBE.json,../src/test/resources/TestData/Segmentation/,TRUE
+AT-98049,Only address1,Test@123,test@yodlee.com,Envestnet,yodlee,Address One,Address Two,Kar,Bengaluru,560079,INDIA,USD,GMT,MM/dd/yyyy,zh_CN,200,getUserSegCN.json,../src/test/resources/TestData/Segmentation/,TRUE

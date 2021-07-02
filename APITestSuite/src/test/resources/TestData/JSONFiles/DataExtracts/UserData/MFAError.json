@@ -1,0 +1,30 @@
+{
+    "userData": [
+        {
+            "user": {
+                "loginName": ""
+            },
+            "providerAccount": [
+                {
+                    "refreshInfo": {
+                        "message": "INVOKE_UPDATE_PROVIDER_ACCOUNT_WITH_CREDENTIALS_PARAM",
+                        "statusCode": 522,
+                        "lastRefreshAttempt":  "${json-unit.ignore}",
+                        "actionRequired": "UPDATE_CREDENTIALS",
+                        "status": "FAILED",
+                        "lastRefreshed":  "${json-unit.ignore}",
+                        "nextRefreshScheduled":  "${json-unit.ignore}",
+                        "additionalStatus": "LOGIN_FAILED",
+                        "statusMessage": "MFA_INFO_NOT_PROVIDED_IN_REAL_TIME_BY_USER_VIA_APP"
+                    },
+                    "id": "${json-unit.any-number}",
+                    "aggregationSource": "USER",
+                    "isManual": false,
+                    "providerId": 16442,
+                    "isDeleted": false,
+                    "createdDate":  "${json-unit.ignore}"
+                }
+            ]
+        }
+    ]
+}

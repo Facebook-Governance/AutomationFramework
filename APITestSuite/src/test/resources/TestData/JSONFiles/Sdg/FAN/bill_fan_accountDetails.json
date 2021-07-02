@@ -1,0 +1,50 @@
+{
+    "account": [
+        {
+            "CONTAINER": "bill",
+            "providerAccountId": "${json-unit.ignore}",
+            "accountName": "DAG BILLING",
+            "accountStatus": "ACTIVE",
+            "aggregationSource": "USER",
+            "url": "http://www.altova.com",
+            "accountNumber": "xxxxxx2345",
+            "fullAccountNumber": "5678912345",
+            "isAsset": false,
+            "balance": {
+                "amount": 1200,
+                "currency": "USD"
+            },
+            "id": 1112170637,
+            "userClassification": "PERSONAL",
+            "lastUpdated": "${json-unit.ignore}",
+            "frequency": "ANNUALLY",
+            "providerId": "16441",
+            "providerName": "Dag Site",
+            "amountDue": {
+                "amount": 1200,
+                "currency": "USD"
+            },
+            "dueDate": "${json-unit.ignore}",
+            "lastPaymentAmount": {
+                "amount": 5600,
+                "currency": "USD"
+            },
+            "minimumAmountDue": {
+                "amount": 100,
+                "currency": "USD"
+            },
+            "accountType": "BILLS",
+            "isManual": false,
+            "displayedName": "DAG",
+            "createdDate": "${json-unit.ignore}",
+            "dataSet": [
+                {
+                    "name": "ACCT_PROFILE",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ]
+        }
+    ]
+}

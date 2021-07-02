@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-143194,"Validate ExpensesApproachingBudget , Validate InsightName",,ExpensesApproachingBudget,ExpensesApproachingBudget,,,,,,,,,,,200,TRUE
+AT-143195,"Validate ExpensesApproachingBudget , Validate Supporting container",,ExpensesApproachingBudget,,,"BANK,CARD,LOAN,INVESTMENT",,,,,,,,,200,TRUE
+AT-143196,"Validate ExpensesApproachingBudget , Validate TriggerType",REFRESH,ExpensesApproachingBudget,,,,,,,,,,,,200,TRUE
+AT-143197,"Validate ExpensesApproachingBudget , Validate applicableEntity",,ExpensesApproachingBudget,,,,,,ACCOUNT_GROUP,,,,,,200,TRUE
+AT-143198,"Validate ExpensesApproachingBudget , Validate number of levels and levelObject",,ExpensesApproachingBudget,,,,,,ACCOUNT_GROUP,accountGroup,,,,,200,TRUE
+AT-143199,"Validate ExpensesApproachingBudget , Validate isSubscribed=false",,ExpensesApproachingBudget,,,,,,,accountGroup,FALSE,,,,200,TRUE
+AT-143200,"Validate ExpensesApproachingBudget , Validate threshold Name,Value and Type",,ExpensesApproachingBudget,,,,,,,accountGroup,,,"UPPER_LIMIT,75,PERCENT",,200,TRUE
+AT-143201,"Validate ExpensesApproachingBudget , Validate insightKeys",,ExpensesApproachingBudget,,,,AccountGroup,,,,,,,,200,TRUE
+AT-143202,"Validate ExpensesApproachingBudget , Validate description",,ExpensesApproachingBudget,,,,,Generates an insight when actual spending is more than a configured threshold % of budgeted spending for the current month.,,,,,,,200,TRUE
+AT-143203,"Validate ExpensesApproachingBudget , Validate title",,ExpensesApproachingBudget,,Spending Approaching Budget,,,,,,,,,,200,TRUE
+AT-143204,"Validate ExpensesApproachingBudget , Validate total number of keys",,ExpensesApproachingBudget,,,,,,,,,,,,200,TRUE
+AT-143205,"Validate ExpensesApproachingBudget , Validate if ruleExpression present",,ExpensesApproachingBudget,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE

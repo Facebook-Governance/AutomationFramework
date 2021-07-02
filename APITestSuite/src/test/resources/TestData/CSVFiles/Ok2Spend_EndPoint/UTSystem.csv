@@ -1,0 +1,13 @@
+testCaseId,TestCase,amount,currency,consumer,baseType,category,categorySource,date,memo,accountId,checkNumber,reconStatus,sourceType,transactionType,httpStatus,Enabled
+"AT-114854,AT-114866",CardAccount-creditcard,100,USD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,SYSTEM_PREDICTED,DEPOSIT,204,TRUE
+AT-114855,AmountZero,0,USD,Description,CREDIT,29,SYSTEM,"0,10,0",memo,bank,1234,,SYSTEM_PREDICTED,WITHDRAWAL,204,TRUE
+"AT-114856,AT-114867",AmountZero-0.01-creditcard,0.01,USD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,SYSTEM_PREDICTED,WITHDRAWAL,204,TRUE
+AT-114857,AmountZero-0.001,0.001,USD,Description,CREDIT,29,SYSTEM,"0,0,1",memo,bank,1234,,SYSTEM_PREDICTED,DEPOSIT,204,TRUE
+AT-114858,WithoutCheckNumber,100,USD,Description,CREDIT,29,SYSTEM,"0,0,1",memo,bank,,,SYSTEM_PREDICTED,WITHDRAWAL,400,TRUE
+"AT-114859,",WithoutDescription-creditcard,100,USD,,DEBIT,92,SYSTEM,"0,0,1",memo,bank,1234,,SYSTEM_PREDICTED,WITHDRAWAL,204,TRUE
+AT-114860,Decription3Chars-creditcard,100,USD,Des,DEBIT,92,SYSTEM,"0,0,1",memo,bank,1234,,SYSTEM_PREDICTED,WITHDRAWAL,204,TRUE
+AT-114861,WithoutMemo,100,USD,Description,CREDIT,92,SYSTEM,"0,0,1",,bank,1234,,SYSTEM_PREDICTED,DEPOSIT,204,TRUE
+AT-114862,Description200chars-creditcard,100,USD,DescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDesDescriptioDes12,CREDIT,92,SYSTEM,"0,0,1",,bank,1234,,SYSTEM_PREDICTED,DEPOSIT,204,TRUE
+AT-114863,Memo200chars,100,USD,Description,CREDIT,92,SYSTEM,"0,0,1",DescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDesDescriptioDes12,bank,1234,,SYSTEM_PREDICTED,WITHDRAWAL,204,TRUE
+AT-114864,MarkAsPaid,100,USD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,USER_RECONCILED_AGAINST_CASH,SYSTEM_PREDICTED,WITHDRAWAL,204,TRUE
+AT-114865,AmountMaximum,99999999999,USD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,bank,1234,,SYSTEM_PREDICTED,DEPOSIT,204,TRUE

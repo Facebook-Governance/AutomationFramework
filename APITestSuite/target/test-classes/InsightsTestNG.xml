@@ -1,0 +1,47 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="methods" thread-count="1"
+	preserve-order="true">
+
+
+	<parameter name="hybrid" value="false" />
+	<parameter name="release_name" value="Nov 2020" />
+	<parameter name="isFirstRun" value="false" />
+	<parameter name="isStaticComparable" value="false" />
+	<parameter name="isDiffyEnabled" value="false" />
+	<parameter name="getApiVersion" value="1.1" />
+	<parameter name="isUserStatic" value="false" />
+	<parameter name="updateApiVersion" value="1.1" />
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="config_file" value="Config-Sense.properties" />
+	<parameter name="InsightsAutomation" value="Insights" />
+	<listeners>
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+	</listeners>
+	<test name="IndividualInsightsAutomation Test">
+		<classes>
+			<class name="com.yodlee.app.yodleeApi.Insights.InsightsGetCobrandSubscriptionTest"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchCobrandSubscriptionTest"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.InsightsGetUserSubscriptionsTest"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.InsightsPatchUserSubscriptionTest"></class>			
+			<class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForBillNotPaid"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForCameinUnderBudget"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForCreditLimitWarninng"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForCreditUtilization"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForFinancialFees"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForGoalsSavingsOffTrack"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForLargeDepositNotice"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForLowBalanceWarning"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForNetworthChange"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForNewBill"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForNewSubscription"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForSalaryDeposited"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForUpcomingBills"></class>
+			<class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForUpcomingSubscription"></class>
+		</classes>
+	</test>
+</suite>
+

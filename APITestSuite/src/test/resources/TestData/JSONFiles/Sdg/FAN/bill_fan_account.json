@@ -1,0 +1,29 @@
+{
+    "account": [
+        {
+            "CONTAINER": "bill",
+            "isManual": false,
+            "isAsset": false,
+            "lastUpdated": "${json-unit.ignore}",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "balance": {
+                "amount": 1200,
+                "currency": "USD"
+            },
+            "accountName": "DAG BILLING",
+            "accountNumber": "xxxxxx2345",
+            "aggregationSource": "USER",
+            "providerName": "Dag Site",
+            "accountStatus": "ACTIVE",
+            "accountType": "BILLS",
+            "providerId": "16441",
+            "amountDue": {
+                "amount": 1200,
+                "currency": "USD"
+            },
+            "createdDate": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}"
+        }
+    ]
+}

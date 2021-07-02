@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll" parallel="methods" thread-count="1" preserve-order="true">
+    <parameter name="hybrid" value="false" />
+    <parameter name="release_name" value="Nov 2018" />
+    <parameter name="isFirstRun" value="false" />
+    <parameter name="isStaticComparable" value="false" />
+    <parameter name="isDiffyEnabled" value="false" />
+    <parameter name="getApiVersion" value="1.0" />
+    <parameter name="isUserStatic" value="false" />
+    <parameter name="updateApiVersion" value="1.0" />
+    <parameter name="healthCheckUp" value="false" />
+    <parameter name="config_file" value="InsightsConfigV1.properties" />
+    <parameter name="suiteName" value="Event Based Insights" />
+    <listeners>
+        <listener class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+        <listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+        <listener class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+    </listeners>
+     <test name="UnableToRefreshAccount - Accounts In Error">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForUnableToRefreshAccount"></class>
+        </classes>
+    </test>
+    <test name="SalaryChanged">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForSalaryChanged" />
+        </classes>
+    </test>
+    <test name="SalaryDeposited">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForSalaryDeposited" />
+        </classes>
+    </test>
+    <test name="NewBill">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForNewBill" />
+        </classes>
+    </test>
+    <test name="SubscriptionPaid">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForSubscriptionPaid" />
+        </classes>
+    </test>
+    <test name="BillPaid">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForBillPaid" />
+        </classes>
+    </test>
+    <test name="BillChanged">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForBillChanged" />
+        </classes>
+    </test>
+     <test name="NewSubscription">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForNewSubscription" />
+        </classes>
+    </test>
+    <test name="SubscriptionChanged">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForSubscriptionChanged" />
+        </classes>
+    </test>
+    <test name="NewSalary">
+        <classes>
+            <class name="com.yodlee.app.yodleeApi.Insights.TestGetInsightsForNewSalary"></class>
+        </classes>
+    </test>
+</suite>

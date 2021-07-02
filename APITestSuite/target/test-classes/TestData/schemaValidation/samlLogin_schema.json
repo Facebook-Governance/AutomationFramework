@@ -1,0 +1,99 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "user": {
+      "$id": "/properties/user",
+      "type": "object",
+      "properties": {
+        "id": {
+          "$id": "/properties/user/properties/id",
+          "type": "number",
+          "minimum": -9223372036854775807,
+          "maximum": 9223372036854775807,
+          "title": "The Id Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": 0,
+          "examples": [
+            32132023344
+          ]
+        },
+        "loginName": {
+          "$id": "/properties/user/properties/loginName",
+          "type": "string",
+          "title": "The Loginname Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "samlautomation1511867111940"
+          ]
+        },
+        "roleType": {
+          "$id": "/properties/user/properties/roleType",
+          "type": "string",
+          "title": "The Roletype Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "INDIVIDUAL"
+          ]
+        },
+        "session": {
+          "$id": "/properties/user/properties/session",
+          "type": "object",
+          "properties": {
+            "userSession": {
+              "$id": "/properties/user/properties/session/properties/userSession",
+              "type": "string",
+              "title": "The Usersession Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "10272016_0:d37ea14f0f099a3ed8c30f796742c9f70e4b07df9b919a736bbe1c231ad0ffb5c758a46668c9ef86d7be0d7a676402df4ea4f6bca5c28d6d8a3ba55f2842e0b7"
+              ]
+            }
+          }
+        },
+        "preferences": {
+          "$id": "/properties/user/properties/preferences",
+          "type": "object",
+          "properties": {
+            "currency": {
+              "$id": "/properties/user/properties/preferences/properties/currency",
+              "type": "string",
+              "format": "money",
+              "title": "The Currency Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "USD"
+              ]
+            },
+            "timeZone": {
+              "$id": "/properties/user/properties/preferences/properties/timeZone",
+              "type": "string",
+              "title": "The Timezone Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "PST"
+              ]
+            },
+            "dateFormat": {
+              "$id": "/properties/user/properties/preferences/properties/dateFormat",
+              "type": "string",
+              "title": "The Dateformat Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "MM/dd/yyyy"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

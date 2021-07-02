@@ -1,0 +1,2 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,transactionId,container,enabled
+1,Invalid transaction id,400,Invalidinput.json,../src/test/resources/TestData/ErrorMessage/,abc,bank,TRUE

@@ -1,0 +1,118 @@
+{
+  "account": [
+    {
+      "includeInNetWorth": true,
+      "accountName": "TestCard3_All_570",
+      "accountType": "CREDIT",
+      "isManual": false,
+      "accountNumber": "xxxxxxxx",
+      "accountStatus": "ACTIVE",
+      "lastUpdated": "${json-unit.ignore}",
+      "fullAccountNumber": "2345678912",
+      "isAsset": false,
+      "createdDate": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 30000,
+        "currency": "USD"
+      },
+      "providerId": "5",
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "id": "${json-unit.ignore}",
+      "userClassification": "PERSONAL",
+      "dataset": [
+        {
+          "updateEligibility": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        },
+        {
+          "updateEligibility": "${json-unit.ignore}",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}",
+          "name": "ACCT_PROFILE",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "Wells Fargo"
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "TestCard2_ALl_403",
+      "accountType": "CREDIT",
+      "isManual": false,
+      "accountNumber": "xxxxxxxx",
+      "accountStatus": "ACTIVE",
+      "lastUpdated": "${json-unit.ignore}",
+      "fullAccountNumber": "2345678911",
+      "isAsset": false,
+      "createdDate": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "providerId": "5",
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "id": "${json-unit.ignore}",
+      "userClassification": "PERSONAL",
+      "dataset": [
+        {
+          "updateEligibility": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        },
+        {
+          "updateEligibility": "${json-unit.ignore}",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}",
+          "name": "ACCT_PROFILE",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "Wells Fargo"
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "TestCard1_All_Success",
+      "accountType": "CREDIT",
+      "isManual": false,
+      "accountNumber": "xxxxxxxx",
+      "accountStatus": "ACTIVE",
+      "lastUpdated": "${json-unit.ignore}",
+      "fullAccountNumber": "2345678910",
+      "isAsset": false,
+      "createdDate": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 10000,
+        "currency": "USD"
+      },
+      "providerId": "5",
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "id": "${json-unit.ignore}",
+      "userClassification": "PERSONAL",
+      "dataset": [
+        {
+          "updateEligibility": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        },
+        {
+          "updateEligibility": "${json-unit.ignore}",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}",
+          "name": "ACCT_PROFILE",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "Wells Fargo"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+TestCaseId,TestScenario,container,enabled,status,resFile,resFilePath
+1,Without Container,,TRUE,200,iavTransactions.json,../src/test/resources/TestData/ProviderAccounts/AddAccountIAV/GetTransactions/
+2,with only bank container,bank,TRUE,200,iavTransactions.json,../src/test/resources/TestData/ProviderAccounts/AddAccountIAV/GetTransactions/
+3,with only insurance container,insurance,TRUE,200,nullResponse.json,../src/test/resources/TestData/ProviderAccounts/AddAccountIAV/GetTransactions/
+4,with only creditCard container,creditCard,TRUE,200,nullResponse.json,../src/test/resources/TestData/ProviderAccounts/AddAccountIAV/GetTransactions/
+5,with only bills container,bill,TRUE,200,nullResponse.json,../src/test/resources/TestData/ProviderAccounts/AddAccountIAV/GetTransactions/
+6,with only loan container,loan,TRUE,200,nullResponse.json,../src/test/resources/TestData/ProviderAccounts/AddAccountIAV/GetTransactions/

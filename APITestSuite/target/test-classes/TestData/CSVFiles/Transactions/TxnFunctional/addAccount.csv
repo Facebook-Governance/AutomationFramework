@@ -1,0 +1,2 @@
+testCaseId,testCaseName,providerId,loginFormType,dagUserName,dagPassword,status,includeDataSet,isincludeDataSet,addAccountResFile,filePath,defectID,enabled
+1,add account,16441,loginForm, yslAutomation.site16441.19,site16441.19,200,,FALSE,iavacctaddn.json,../src/test/resources/TestData/Transactions,0,TRUE

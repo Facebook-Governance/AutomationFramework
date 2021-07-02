@@ -1,0 +1,14 @@
+{
+    "providerAccount": {
+        "id": "${json-unit.any-number}",
+        "aggregationSource": "USER",
+        "refreshInfo": {
+            "statusCode": 802,
+            "statusMessage": "CREDENTIALS_UPDATE_IN_PROGRESS",
+            "status": "IN_PROGRESS",
+            "additionalStatus": "LOGIN_IN_PROGRESS",
+            "lastRefreshed": "${json-unit.any-string}",
+            "lastRefreshAttempt": "${json-unit.any-string}"
+        }
+    }
+}

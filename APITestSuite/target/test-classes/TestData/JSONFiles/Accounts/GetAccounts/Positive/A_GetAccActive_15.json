@@ -1,0 +1,27 @@
+{
+	"account": [
+		{
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "YODLEE"
+					}
+				}
+			],
+			"accountName": "YODLEE",
+			"accountType": "REWARD_POINTS",
+			"isManual": false,
+			"accountStatus": "ACTIVE",
+			"refreshinfo": {
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"isAsset": true,
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"CONTAINER": "reward",
+			"primaryRewardUnit": "Rew Unit",
+			"providerName": "Dag Site"
+		}
+	]
+}

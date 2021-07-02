@@ -1,0 +1,355 @@
+ tcID,tcName,priority,name,capability,dataSet,query,top,enabled
+AT-70434,Test the taotal count displayed by default,null,null,null,null,"select count(distinct(st.site_id))  
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, site st,tag t
+where a.def_tab_id=b.def_tab_id 
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.site_id = st.site_id
+and (st.site_search_visibility is null OR st.site_search_visibility = 1) 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and st.is_ready=1
+and s.tag_id=t.tag_id
+and t.merged_container_name is not null
+and a.cobrand_id=10003156
+",null,TRUE
+AT-70438,Ensure that all popular sites count is displyed when we pass priority=popular in the API,popular,null,null,null,"select count(distinct(st.site_id))  
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, site st,tag t
+where a.def_tab_id=b.def_tab_id 
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.site_id = st.site_id
+and (st.site_search_visibility is null OR st.site_search_visibility = 1) 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and st.is_ready=1
+and s.tag_id=t.tag_id
+and t.merged_container_name is not null
+and a.cobrand_id=10003156
+",null,TRUE
+AT-70439,Ensure that all ACCT_PROFILE[FULL_ACCT_NUMBER] supported sites count is displyed when we pass ACCT_PROFILE[FULL_ACCT_NUMBER] in the API,null,null,null,ACCT_PROFILE[FULL_ACCT_NUMBER],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,sum_info_param_value sipv,site st,agent_info ai
+where a.def_tab_id=b.def_tab_id 
+and ai.agent_name=s.class_name
+and ai.agent_impl_type_id=5
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.site_id = st.site_id
+and sipv.sum_info_param_key_id = 45
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and upper(sipv.param_value) = 'TRUE'
+and sipv.sum_info_id = s.sum_info_id
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70440,Ensure that all ACCT_PROFILE[FULL_ACCT_NUMBER.container[ bank ]] supported sites count is displyed when we pass ACCT_PROFILE[FULL_ACCT_NUMBER.container[ bank ]] in the API,null,null,null,ACCT_PROFILE[FULL_ACCT_NUMBER.container[ bank ]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,sum_info_param_value sipv,site st,agent_info ai
+where a.def_tab_id=b.def_tab_id 
+and ai.agent_name=s.class_name
+and ai.agent_impl_type_id=5
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.site_id = st.site_id
+and s.tag_id=5
+and sipv.sum_info_param_key_id = 45
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and upper(sipv.param_value) = 'TRUE'
+and sipv.sum_info_id = s.sum_info_id
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70441,Ensure that all BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ bank ]] AND DOCUMENT[STATEMENTS.container[ bank ]] supported sites count is displyed when we pass BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ bank ]] AND DOCUMENT[STATEMENTS.container[ bank ]] in the API,null,null,null,BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ bank ]] AND DOCUMENT[STATEMENTS.container[ bank ]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,site st,doc_type_suminfo_config dtsc
+where a.def_tab_id=b.def_tab_id 
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.tag_id = 5
+and s.site_id = st.site_id
+and s.sum_info_id = dtsc.sum_info_id
+and dtsc.doc_type_id=2
+and dtsc.is_doc_dwnld_en = 1
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70442,Ensure that all BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ investment ]] AND DOCUMENT[STATEMENTS.container[ investment ]] supported sites count is displyed when we pass BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ bank ]] AND DOCUMENT[STATEMENTS.container[ bank ]] in the API,null,null,null,BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ investment ]] AND DOCUMENT[STATEMENTS.container[ investment ]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,site st,doc_type_suminfo_config dtsc
+where a.def_tab_id=b.def_tab_id 
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.tag_id = 12
+and s.site_id = st.site_id
+and s.sum_info_id = dtsc.sum_info_id
+and dtsc.doc_type_id=2
+and dtsc.is_doc_dwnld_en = 1
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70444,Ensure that all BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ bank ]] AND DOCUMENT[TAX.container[ bank ]] supported sites count is displyed when we pass BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ bank ]] AND DOCUMENT[STATEMENTS.container[ bank ]] in the API,null,null,null,BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ bank ]] AND DOCUMENT[TAX.container[ bank ]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,site st,doc_type_suminfo_config dtsc
+where a.def_tab_id=b.def_tab_id 
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.tag_id = 5
+and s.site_id = st.site_id
+and s.sum_info_id = dtsc.sum_info_id
+and dtsc.doc_type_id=1
+and dtsc.is_doc_dwnld_en = 1
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70445,Ensure that all BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ loan ]] AND DOCUMENT[TAX.container[ loan ]] supported sites count is displyed when we pass BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ bank ]] AND DOCUMENT[STATEMENTS.container[ bank ]] in the API,null,null,null,BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ loan ]] AND DOCUMENT[TAX.container[ loan ]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,site st,doc_type_suminfo_config dtsc
+where a.def_tab_id=b.def_tab_id 
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.tag_id = 21
+and s.site_id = st.site_id
+and s.sum_info_id = dtsc.sum_info_id
+and dtsc.doc_type_id=1
+and dtsc.is_doc_dwnld_en = 1
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70446,Ensure that all BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ investment ]] AND DOCUMENT[TAX.container[ investment ]] supported sites count is displyed when we pass BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ bank ]] AND DOCUMENT[STATEMENTS.container[ bank ]] in the API,null,null,null,BASIC_AGG_DATA[ACCOUNT_DETAILS.container[ investment ]] AND DOCUMENT[TAX.container[ investment ]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,site st,doc_type_suminfo_config dtsc
+where a.def_tab_id=b.def_tab_id 
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.tag_id = 12
+and s.site_id = st.site_id
+and s.sum_info_id = dtsc.sum_info_id
+and dtsc.doc_type_id=1
+and dtsc.is_doc_dwnld_en = 1
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70447,Ensure that all the sites which support Statemet documents is displayed,null,null,null,DOCUMENT[STATEMENTS],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,site st,doc_type_suminfo_config dtsc
+where a.def_tab_id=b.def_tab_id 
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.site_id = st.site_id
+and s.sum_info_id = dtsc.sum_info_id
+and dtsc.doc_type_id=2
+and dtsc.is_doc_dwnld_en = 1
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70448,Ensure that all the sites which support Statemet documents with bank is displayed,null,null,null,DOCUMENT[STATEMENTS.container[bank]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,site st,doc_type_suminfo_config dtsc,tag t
+where a.def_tab_id=b.def_tab_id 
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.site_id = st.site_id
+and s.sum_info_id = dtsc.sum_info_id
+and dtsc.doc_type_id=2
+and s.tag_id=t.tag_id
+and t.tag_id=5
+and dtsc.is_doc_dwnld_en = 1
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70449,Ensure that all the sites which support Statemet documents with investment is displayed,null,null,null,DOCUMENT[STATEMENTS.container[investment]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,site st,doc_type_suminfo_config dtsc,tag t
+where a.def_tab_id=b.def_tab_id 
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.site_id = st.site_id
+and s.sum_info_id = dtsc.sum_info_id
+and dtsc.doc_type_id=2
+and s.tag_id=t.tag_id
+and t.tag_id=12
+and dtsc.is_doc_dwnld_en = 1
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70450,Ensure that all the sites which support Tax documents is displayed,null,null,null,DOCUMENT[TAX],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,site st,doc_type_suminfo_config dtsc
+where a.def_tab_id=b.def_tab_id 
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+--and s.tag_id = 5
+and s.site_id = st.site_id
+and s.sum_info_id = dtsc.sum_info_id
+and dtsc.doc_type_id=1
+and dtsc.is_doc_dwnld_en = 1
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70451,Ensure that all the sites which support Tax documents with bank is displayed,null,null,null,DOCUMENT[TAX.container[investment]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,site st,doc_type_suminfo_config dtsc,tag t
+where a.def_tab_id=b.def_tab_id 
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and s.tag_id=t.tag_id
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.tag_id = 12
+and s.site_id = st.site_id
+and s.sum_info_id = dtsc.sum_info_id
+and dtsc.doc_type_id=1
+and dtsc.is_doc_dwnld_en = 1
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70452,Ensure that all the sites which support Tax documents with investment is displayed,null,null,null,DOCUMENT[TAX.container[loan]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,site st,doc_type_suminfo_config dtsc,tag t
+where a.def_tab_id=b.def_tab_id 
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and s.tag_id=t.tag_id
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.tag_id = 21
+and s.site_id = st.site_id
+and s.sum_info_id = dtsc.sum_info_id
+and dtsc.doc_type_id=1
+and dtsc.is_doc_dwnld_en = 1
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70453,Ensure that all the sites which support Full Account Number is displayed,null,null,null,ACCT_PROFILE[FULL_ACCT_NUMBER.container[bank]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,sum_info_param_value sipv,site st,agent_info ai
+where a.def_tab_id=b.def_tab_id 
+and ai.agent_name=s.class_name
+and ai.agent_impl_type_id=5
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.site_id = st.site_id
+and s.tag_id=5
+and sipv.sum_info_param_key_id = 45
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and upper(sipv.param_value) = 'TRUE'
+and sipv.sum_info_id = s.sum_info_id
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70454,Ensure that all the sites which support Bank Transfer Code is displayed,null,null,null,ACCT_PROFILE[BANK_TRANSFER_CODE.container[bank]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,sum_info_param_value sipv,site st,agent_info ai
+where a.def_tab_id=b.def_tab_id 
+and ai.agent_name=s.class_name
+and ai.agent_impl_type_id=5
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.tag_id = 5
+and s.site_id = st.site_id
+and sipv.sum_info_param_key_id = 33
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and upper(sipv.param_value) = 'ON'
+and sipv.sum_info_id = s.sum_info_id
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70455,Ensure that all the sites which support Full Account Number is displayed,null,null,null,ACCT_PROFILE[FULL_ACCT_NUMBER.container[investment]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,sum_info_param_value sipv,site st,agent_info ai
+where a.def_tab_id=b.def_tab_id 
+and ai.agent_name=s.class_name
+and ai.agent_impl_type_id=5
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.site_id = st.site_id
+and s.tag_id=12
+and sipv.sum_info_param_key_id = 45
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and upper(sipv.param_value) = 'TRUE'
+and sipv.sum_info_id = s.sum_info_id
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70456,Ensure that all the sites which support HolderName is displayed,null,null,null,ACCT_PROFILE[HOLDER_NAME.container[investment]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,sum_info_param_value sipv,site st,agent_info ai
+where a.def_tab_id=b.def_tab_id 
+and ai.agent_name=s.class_name
+and ai.agent_impl_type_id=5
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.tag_id = 12
+and s.site_id = st.site_id
+and sipv.sum_info_param_key_id = 44
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and upper(sipv.param_value) = 'TRUE'
+and sipv.sum_info_id = s.sum_info_id
+and dmc.mc_key=s.mc_key",null,TRUE
+AT-70457,Ensure that all the sites which support Bank Transfer Code is displayed,null,null,null,ACCT_PROFILE[BANK_TRANSFER_CODE.container[investment]],"select count(distinct(s.site_id))
+from def_tab a, def_cat b, sum_info_def_cat c, sum_info s, DB_MESSAGE_CATALOG dmc,sum_info_param_value sipv,site st,agent_info ai
+where a.def_tab_id=b.def_tab_id 
+and ai.agent_name=s.class_name
+and ai.agent_impl_type_id=5
+and b.def_cat_id=c.def_cat_id 
+and c.sum_info_id=s.sum_info_id 
+and s.IS_READY=1 
+and a.is_ready=1 
+and b.is_ready=1 
+and c.is_ready=1 
+and a.cobrand_id=10003156
+and s.tag_id = 12
+and s.site_id = st.site_id
+and sipv.sum_info_param_key_id = 33
+and (st.site_search_visibility is null OR st.site_search_visibility = 1)
+and upper(sipv.param_value) = 'ON'
+and sipv.sum_info_id = s.sum_info_id
+and dmc.mc_key=s.mc_key",null,TRUE

@@ -1,0 +1,23 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-SalCh54,subscribe toSalaryChanged,SalaryChanged,,,,,,,,,,account,1,,account,,,,TRUE,,,,204,TRUE
+AT-SalCh55,updateTriggerType,SalaryChanged,negTestScenario16,EVENT,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-SalCh56, update insightName by same name,SalaryChanged,negTestScenario17,,SalaryChanged,,,,,,,,,,,,,,,,,,400,TRUE
+AT-SalCh57, update insightName edit InsightName,SalaryChanged,negTestScenarioPvc01,,SalaryChangedEditkfd,,,,,,,,,,,,,,,,,,400,TRUE
+AT-SalCh58,update insightTitle,SalaryChanged,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-SalCh59,update container,SalaryChanged,negTestScenario6,,,,BILLS,,,,,,,,,,,,,,,,400,TRUE
+AT-SalCh60,update keys,SalaryChanged,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-SalCh61,update description,SalaryChanged,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-SalCh62,update applicableEntity,SalaryChanged,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-SalCh63,update entityParameter,SalaryChanged,,,,,,,,,,,1,,account,2,,,TRUE,,,"CHANGE,501,AMOUNT   CHANGE,10,PERCENT",204,TRUE
+AT-SalCh64, update entityParameter->account[0]->id - Valid ItemAccountId,SalaryChanged,,,,,,,,,,,1,,account,2,,,TRUE,,,"CHANGE,5001,AMOUNT    CHANGE,75,PERCENT",204,TRUE
+AT-SalCh65, update entityParameter->account[0]->id - InValid ItemAccountId,SalaryChanged,,,,,,,,,,,1,,account,2,,,TRUE,,,"CHANGE,5201,AMOUNT   CHANGE,99,PERCENT",204,TRUE
+AT-SalCh66, update entityParameter->account[0]->isSubscribed=false,SalaryChanged,,,,,,,,,,,1,,account,2,,,FALSE,,,"CHANGE,5201,AMOUNT   CHANGE,99,PERCENT",204,TRUE
+AT-SalCh67,update duration  -  entityParameter->account[0]->duration ,SalaryChanged,negTestScenario11,,,,,,,,,,1,,account,2,,,TRUE,LAST_MONTH,,"CHANGE,50,AMOUNT    CHANGE,58,PERCENT",400,TRUE
+AT-SalCh68,update insightType to AGGREGATE - entityParameter->account[0]->insightType,SalaryChanged,negTestScenarioPvc02,,,,,,,,,,1,,account,2,,,TRUE,,AGGREGATE,"CHANGE,5901,AMOUNT   CHANGE,58,PERCENT",400,TRUE
+AT-SalCh69,update insightType to INVALID - entityParameter->account[0]->insightType,SalaryChanged,negTestScenarioPvc02,,,,,,,,,,1,,account,2,,,TRUE,,INVALID,"CHANGE,501,AMOUNT   CHANGE,58,PERCENT",400,TRUE
+AT-SalCh70,update threshold name  - entityParameter->account[0]->threshold[0]->name,SalaryChanged,negTestScenario35,,,,,,,,,,1,,account,2,,,FALSE,,,"CHANGE,501,AMOUNT  BALANCE,1000,PERCENT",400,TRUE
+AT-SalCh71,update threshold values - entityParameter->account[0]->threshold[0]->value,SalaryChanged,,,,,,,,,,,1,,account,2,,,TRUE,,,"CHANGE,501,AMOUNT  CHANGE,58,PERCENT",204,TRUE
+AT-SalCh72,update threshold type - entityParameter->account[0]->threshold[0]->type,SalaryChanged,negTestScenario30,,,,,,,,,,1,,account,2,,,TRUE,,,"CHANGE,501,AMOUNT  CHANGE,58,AMOUNT",400,TRUE
+AT-SalCh73,"update threshold name ,value and type to BALANCE,200,AMOUNT",SalaryChanged,,,,,,,,,,,1,,account,2,,,TRUE,,,"CHANGE,501,AMOUNT  CHANGE,23,PERCENT",204,TRUE
+AT-SalCh74,update configMeta - subscrption Info - configMeta->account[0]->id,SalaryChanged,negTestScenario19,,,,,,,,,,1,TRUE,account,2,,,FALSE,,,"CHANGE,501,AMOUNT CHANGE,23,PERCENT",400,TRUE
+AT-SalCh75,Reset To Default,SalaryChanged,,,,,,,,,,,1,,account,2,,,TRUE,,,"CHANGE,100,AMOUNT   CHANGE,10,PERCENT",204,TRUE

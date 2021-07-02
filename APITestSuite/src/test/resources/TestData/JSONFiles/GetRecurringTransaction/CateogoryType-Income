@@ -1,0 +1,119 @@
+{
+  "transaction": [
+    {
+      "id": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "recurringEventId": "${json-unit.ignore}",
+      "amount": {
+        "amount": 100.01,
+        "currency": "USD"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categoryId": "${json-unit.ignore}",
+      "category": "${json-unit.ignore}",
+      "categorySource": "SYSTEM",
+      "status": "SCHEDULED",
+      "date": "${json-unit.ignore}",
+      "transactionDate": "${json-unit.ignore}",
+      "postDate": "${json-unit.ignore}",
+      "description": {
+        "original": "MANUAL TXN",
+        "consumer": "MANUAL TXN"
+      },
+      "isManual": true,
+      "sourceType": "MANUAL",
+      "reconStatus": "SYS_UNRECONCILED",
+      "highLevelCategoryId": 10000012
+    },
+    {
+      "CONTAINER": "bank",
+      "id": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "category": "${json-unit.ignore}",
+      "categoryId": "${json-unit.ignore}",
+      "categorySource": "SYSTEM",
+      "description": {
+        "original": "Deposit",
+        "consumer": "Deposit",
+        "simple": "Deposit"
+      },
+      "isManual": false,
+      "date": "${json-unit.ignore}",
+      "transactionDate": "${json-unit.ignore}",
+      "postDate": "${json-unit.ignore}",
+      "status": "POSTED",
+      "postingOrder": 5,
+      "accountId": "${json-unit.ignore}",
+      "runningBalance": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "checkNumber": "DAG-333",
+      "merchant": {
+        "name": "Deposit"
+      },
+      "highLevelCategoryId": 10000012
+    },
+    {
+      "id": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "recurringEventId": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categoryId": "${json-unit.ignore}",
+      "category": "${json-unit.ignore}",
+      "categorySource": "SYSTEM",
+      "status": "SCHEDULED",
+      "date": "${json-unit.ignore}",
+      "transactionDate": "${json-unit.ignore}",
+      "description": {
+        "consumer": "Deposit",
+        "simple": "Deposit"
+      },
+      "isManual": false,
+      "sourceType": "SYSTEM_PREDICTED",
+      "reconStatus": "SYS_UNRECONCILED",
+      "merchant": {
+        "id": "${json-unit.ignore}",
+        "name": "Deposit"
+      },
+      "highLevelCategoryId": 10000012
+    },
+    {
+      "id": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "recurringEventId": "${json-unit.ignore}",
+      "amount": {
+        "amount": 100.01,
+        "currency": "USD"
+      },
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categoryId": "${json-unit.ignore}",
+      "category": "${json-unit.ignore}",
+      "categorySource": "SYSTEM",
+      "status": "SCHEDULED",
+      "date": "${json-unit.ignore}",
+      "transactionDate": "${json-unit.ignore}",
+      "postDate": "${json-unit.ignore}",
+      "description": {
+        "original": "MANUAL TXN",
+        "consumer": "MANUAL TXN"
+      },
+      "isManual": true,
+      "sourceType": "MANUAL",
+      "reconStatus": "SYS_UNRECONCILED",
+      "highLevelCategoryId": 10000012
+    }
+  ]
+}

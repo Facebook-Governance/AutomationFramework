@@ -1,0 +1,18 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147554,patchCobrandNewSubscription - subscribe to NewSubscription isSubscribed=true,NewSubscription,,,,,,,,,,2,,account view,,,,TRUE TRUE,,,,204,TRUE
+AT-147559,patchCobrandNewSubscription - update insightName to same name,NewSubscription,negTestScenario1,NewSubscription,,,,,,,,,,,,,,,,,,500,TRUE
+AT-147556,patchCobrandNewSubscription -  update insightName to different name,NewSubscription,negTestScenario2,NewSubscriptionEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147557,patchCobrandNewSubscription - update insightTitle chars between 3 and 100 ,NewSubscription,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-147552,patchCobrandNewSubscription -  update insightTitle chars are only 3,NewSubscription,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-147566,patchCobrandNewSubscription - update insightTitle chars are only 100,NewSubscription,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-147565,patchCobrandNewSubscription - update insightTitle chars are less than 3,NewSubscription,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-147551,patchCobrandNewSubscription -  update insightTitle chars are greater 100,NewSubscription,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-147561,patchCobrandNewSubscription - update insightTitle chars are special characters,NewSubscription,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-147555,patchCobrandNewSubscription -  update container,NewSubscription,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-147558,patchCobrandNewSubscription -  update keys,NewSubscription,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147553,patchCobrandNewSubscription -  update description,NewSubscription,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147564,patchCobrandNewSubscription -  update applicableEntity,NewSubscription,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-147562,patchCobrandNewSubscription -  update entityParameter,NewSubscription,,,,,,,,,,2,,account view,,,,TRUE TRUE,,,,204,TRUE
+AT-147560,patchCobrandNewSubscription - update entityParameter->view->insightType,NewSubscription,negTestScenario24,,,,,,,,,2,,account view,,,,TRUE TRUE,,OTHER   OTHER,,400,TRUE
+AT-147563,patchCobrandNewSubscription - update entityParameter->view->insightType - Invalid Name,NewSubscription,negTestScenario24,,,,,,,,,2,,account view,,,,TRUE TRUE,,INVALID  INVALID,,400,TRUE
+AT-147606,patchCobrandNewSubscription - update title update subscription,NewSubscription,,,New Subscription,,,,,,,,,,,,,,,,,204,TRUE

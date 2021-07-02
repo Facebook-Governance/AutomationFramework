@@ -1,0 +1,132 @@
+{
+    "transaction": [
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "amount": {
+                "amount": 3465,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "categoryType": "${json-unit.ignore}",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "${json-unit.ignore}",
+                "simple": "${json-unit.ignore}"
+            },
+            "date": "2013-01-16",
+            "postDate": "2013-01-16",
+            "transactionDate": "2013-01-16",
+            "isManual": false,
+            "status": "POSTED",
+             "sourceType": "AGGREGATED",
+            "accountId": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 59,
+                "currency": "USD"
+            },
+            "checkNumber": "DAG-133"
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "amount": {
+                "amount": 3103,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "${json-unit.ignore}",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "${json-unit.ignore}",
+                "simple": "${json-unit.ignore}"
+            },
+            "date": "2013-01-14",
+            "postDate": "2013-01-14",
+            "transactionDate": "2013-01-12",
+            "isManual": false,
+            "status": "POSTED",
+             "sourceType": "AGGREGATED",
+            "accountId": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 59,
+                "currency": "USD"
+            },
+            "checkNumber": "DAG-333"
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "amount": {
+                "amount": 5646,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "categoryType": "${json-unit.ignore}",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "DESC",
+                "simple": "DESC"
+            },
+            "date": "2013-01-10",
+            "postDate": "2013-01-10",
+            "transactionDate": "2013-01-11",
+            "isManual": false,
+            "status": "POSTED",
+             "sourceType": "AGGREGATED",
+            "accountId": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 59,
+                "currency": "USD"
+            },
+            "checkNumber": "DAG-233"
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "amount": {
+                "amount": 9846,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "categoryType": "${json-unit.ignore}",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "${json-unit.ignore}",
+                "simple": "${json-unit.ignore}"
+            },
+            "date": "2013-01-02",
+            "postDate": "2013-01-02",
+            "transactionDate": "2013-01-16",
+            "isManual": false,
+            "status": "POSTED",
+             "sourceType": "AGGREGATED",
+            "accountId": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 59,
+                "currency": "USD"
+            },
+            "checkNumber": "DAG-333"
+        }
+    ]
+}

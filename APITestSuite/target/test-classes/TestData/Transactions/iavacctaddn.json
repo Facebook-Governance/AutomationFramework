@@ -1,0 +1,12 @@
+{
+  "providerAccount": {
+    "id": "${json-unit.any-number}",
+    "aggregationSource": "USER",
+    "refreshInfo": {
+      "statusCode": 801,
+      "statusMessage": "ADD_IN_PROGRESS",
+      "status": "IN_PROGRESS",
+      "additionalStatus": "LOGIN_IN_PROGRESS"
+    }
+  }
+}

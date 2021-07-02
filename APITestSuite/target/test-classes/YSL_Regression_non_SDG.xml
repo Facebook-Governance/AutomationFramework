@@ -1,0 +1,367 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="classes" thread-count="1"
+	preserve-order="true">
+
+	<parameter name="suiteName" value="YSLAutoAmelia" />
+
+	<listeners>
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+
+	</listeners>
+	
+	
+	
+	 <test name="Accounts">
+	<classes>
+		<class name="com.yodlee.yodleeApi.Accounts.TestDeleteAccountsNegative" />
+		
+  <class name="com.yodlee.yodleeApi.Accounts.TestGetAccounts">
+            <methods>
+               <include name="testGetAccountsPositiveScenariosForActiveStatus" /> 
+             <include name="testGetAccountsForBankContainer" />
+                <include name="testGetAccountsForInsuranceContainer" />
+               <include name="testGetAccountsForBillsContainer" />
+               <include name="testGetAccountsForCreditCardContainer" />
+             <include name="testGetAccountsForLoanContainer" />
+               <include name="testGetAccountsForRewardContainer" />
+                 <include name="testGetAccountDetailsNegativeScenarios" /> 
+               <include name="testGetAccountsNegativeScenarios" />
+             <include name="testGetAccountsPositiveScenariosForInactiveStatus" /> 
+            </methods>
+         </class>
+         
+   	 	    <class name="com.yodlee.yodleeApi.Accounts.TestGetAccountSust">
+            <methods>
+               <include name="testGetAccountsPositiveScenariosForActiveStatus" />
+               <include name="testGetAccountsForLoanContainer" />
+            </methods>
+         </class>
+           <class name="com.yodlee.yodleeApi.Accounts.TestGetAccountDetails">
+            <methods>
+          
+               <include name="testDeleteAccountForChangedStatus" />
+            </methods>
+         </class>
+          <class name="com.yodlee.yodleeApi.Accounts.TestGetInvestmentOptions">
+            <methods>
+               <include name="testGetInvestmentOptionsForDifferentCobAndUserSession" />
+            </methods>
+         </class>  
+	</classes>
+	</test>
+  <test name="Cobrand">
+      <classes>
+         <class name="com.yodlee.yodleeApi.Cobrand.PKI_CobLogin">
+            <methods>
+               <include name="PKICobLogin" />
+            </methods>
+         </class>
+         	<class name="com.yodlee.yodleeApi.Cobrand.TestCobLogin">
+            <methods>
+               <include name="cobrandLoginUsingBodyParam" />
+            </methods>
+         </class>
+      </classes>
+   </test> 
+   
+   
+   <test name="Groups">
+      <classes>
+      
+      <class name="com.yodlee.yodleeApi.Groups.TestReadGroup">
+            <methods>
+               <include name="readGroupTest"/>
+                <include name="readGroups_67681"/>
+                <include name="readGroups_67682"/>
+                  <include name="readGroups_67683"/>
+                   <include name="readGroups_67684"/>
+                    <include name="readGroups_67685"/>
+                     <include name="readGroups_67686"/>
+                    <include name="readGroups_67687"/>
+                    <include name="readGroups_67688"/>
+            </methods>
+         </class>
+          <class name="com.yodlee.yodleeApi.Groups.TestUpdateGroup">
+            <methods>
+               <include name="updateGroupTest" /> 
+               <include name="updateGroupTest_67713" />
+            <include name="updateGroupTest_67709" />  
+            <include name="updateGroupTest_67710" />
+                   <include name="updateGroupTestCases" />
+            </methods>
+     </class> 
+         <class name="com.yodlee.yodleeApi.Groups.TestCreateGroup">
+            <methods>
+               <include name="createGroupTest" />
+            </methods>
+         </class>
+         
+         <class name="com.yodlee.yodleeApi.Groups.TestAddAccountsGroup">
+            <methods>
+               <include name="addAccountsToGroupTest" />
+            </methods>
+         </class>
+        <class name="com.yodlee.yodleeApi.Groups.TestDeleteGroup">
+            <methods>
+            <include name="DeleteGroupsFunction_user_session" />
+            <include name="DeleteGroups_67638" />
+            <include name="DeleteGroups_67639" />
+            <include name="DeleteGroupsFunction" />
+            </methods>
+         </class>
+          <class name="com.yodlee.yodleeApi.Groups.TestDeleteAccounts">
+            <methods>
+               <include name="deleteAccountTest" />
+               <include name="deleteGroups_67658" />
+               <include name="deleteGroups_67660" />
+               <include name="deleteGroups_67659" />
+               <include name="deleteGroups_67662" />
+               <include name="deleteGroups_67664" />
+               <include name="deleteAccountTests" />
+            </methods>
+         </class> 
+      </classes>
+   </test>  
+   
+    <test name="DataExtracts">
+      <classes>
+         <class name="com.yodlee.yodleeApi.DataExtracts.UpdateUserLogin">
+            <methods>
+               <include name="testAdd" />
+            </methods>
+         </class>
+         <class name="com.yodlee.yodleeApi.DataExtracts.DataExtractsPaginationNonSDGTest">
+            <methods>
+               <include name="validateDataExtractsPaginationOnNonSDGAfterAccountAddition" />
+            </methods>
+         </class>
+         <class name="com.yodlee.yodleeApi.DataExtracts.TestEventSubscription">
+            <methods>
+               <include name="DeleteSubscriptionWithQueryParam" /> 
+              <include name="eventSubscriptionWithPathandQuery" />
+              <include name="DeleteSubscriptionWithBodyParam" />
+                 <include name="eventSubscriptionWithPathandBody" />
+              <include name="UpdateSubScriptionWithPathAndQueryParam" />
+              <include name="UpdateSubscriptionWithPathandBodyParam" />
+               <include name="DeleteEventSubscription" />
+            </methods>
+             </class>
+      </classes>
+   </test>
+   
+     <test name="Statements">
+      <classes>
+         <class name="com.yodlee.yodleeApi.Statements.TestStatements">
+            <methods>
+               <include name="testGetStatements" />
+            </methods>
+         </class>
+      </classes>
+   </test>
+   
+  <test name="Holding">
+      <classes>
+         <class name="com.yodlee.yodleeApi.Holdings.TestHoldingTypeList">
+            <methods>
+               <include name="HoldingType" />
+            </methods>
+         </class>
+         <class name="com.yodlee.yodleeApi.Holdings.TestAssetClassificationsList">
+            <methods>
+               <include name="assetClassificationList" />
+            </methods>
+         </class>
+      </classes>
+   </test>   
+   
+   <test name="schemaValidation">
+      <classes>
+         <class name="com.yodlee.app.yodleeApi.schemaValidation.testSchema">
+            <methods>
+               <include name="verifySchema" />
+            </methods>
+         </class>
+      </classes>
+   </test> 
+  <test name="User">
+      <classes>
+       <class name="com.yodlee.yodleeApi.User.TestUserDetails">
+            <methods>
+               <include name="testUserDetails" />
+            </methods>
+         </class>
+         
+          <class name="com.yodlee.yodleeApi.User.TestAccessToken">
+            <methods>
+               <include name="testAccessTokenNonSDG" />
+            </methods>
+         </class>
+       <class name="com.yodlee.yodleeApi.User.TestUserLogin">
+            <methods>
+               <include name="testUpdateUserDetailsForLocale" />
+               <include name="testUserLoginUsingBodyParam" />
+               <include name="testUserLoginUsingBodyParamForSubCategory" />
+               <include name="testUserLoginUsingQueryParam" />
+               <include name="testUserLogout" />
+            </methods>
+         </class>
+            <class name="com.yodlee.yodleeApi.User.TestUpdatePassword">
+            <methods>
+               <include name="updatePassword" />
+               <include name="resetPasswordParameterName" />
+                <include name="changePasswordWithoutCobAndUserkey"/>
+            </methods>
+         </class>
+          <class name="com.yodlee.yodleeApi.User.TestUserRegistration">
+            <methods>
+               <include name="testUserRegister" />
+               <include name="testUserRegisterWithQueryParams" />
+               <include name="unRegisterUserUsingQueryParam" />
+            </methods>
+         </class>
+      </classes>
+   </test> 
+   
+   <!-- <test name="Teaca">
+      <classes>
+         <class name="com.yodlee.yodleeApi.Teaca.TestTeacaProviderAccounts">
+            <methods>
+               <include name="teacaAddAndUpdateAccountLoginForm"/>
+               <include name="teacaAddAndUpdateAccountLoginFormIAV"/>
+               <include name="teacaAddLoanAccount"/>
+               <include name="teacaAdddCredtCardAccount"/>
+               <include name="teacaPFMToIVAWithoutCred"/>
+               <include name="teacaProviderAccountsMFAMissingLABEL"/> 
+            </methods>
+         </class>
+         
+         <class name="com.yodlee.yodleeApi.Teaca.TestTeacaTransaction">
+            <methods>
+               <include name="teacaGetSkipAndTopTransaction"/>
+                 <include name="teacaGetTransaction"/>
+                 <include name="teacaGetTransactionStatement"/>
+                 <include name="addAccountForTransactonStatement"/> 
+            </methods>
+         </class> 
+         
+       <class name="com.yodlee.yodleeApi.Teaca.TestTeacaProviders">
+            <methods>
+               <include name="teacaGetProvidersSkipAndTop"/>
+                <include name="teacaGetProvidersBarclay"/>
+                  <include name="teacaGetProvidersBetaStatus"/>
+                  <include name="teacaGetProvidersContainerNames"/>       
+               <include name="teacaGetProvidersCount"/> 
+                  <include name="teacaGetProvidersCustomFeildsBarclaysAndNatwest"/> 
+                   <include name="teacaGetProvidersHSBC"/> 
+                    <include name="teacaGetProvidersInvalidProviderId"/> 
+                     <include name="teacaGetProvidersLabelHSBC"/> 
+                      <include name="teacaGetProvidersSkipAndTop"/> 
+                       <include name="teacaProvidersDuplicateContainerName"/> 
+                        <include name="teacaProvidersLogoVerification"/>  
+            </methods>
+         </class>
+         
+           <class name="com.yodlee.yodleeApi.Teaca.TestTeacaAcountsYsl">
+            <methods>
+               <include name="testAddMfaIAVAccount"/>
+                <include name="testMFAUsingSimplifiedLoginForm"/>
+                 <include name="teacaAddAccount8999"/>
+                   <include name="teacaAccoundAdd_16291"/>
+                  <include name="teacaAccountProviderObject"/>                          
+            </methods>	
+         </class> 
+   
+			<class name="com.yodlee.yodleeApi.Teaca.TestTeacaExceptional">
+				<methods>
+					<include name="teacaUserRegistrationWithdifferentTimeZone"/>
+					<include name="teacaGetTransactionforOldDate"/>
+					<include name="teacaAddAccountAndUpdateWithWrongIDValue"/>
+					<include name="teacaUserRegWithUsaAndContentType"/>
+					<include name="teacaGetHoldingsIsinAndSedol"/>   
+					<include name="teacaVerifyUTCTime"/>
+					<include name="teacaGetProvidersWithSkip"/>                        
+				</methods>
+			</class> 
+		</classes>
+	</test>  -->
+   
+    <test name="Transactions">
+      <classes>
+         <class name="com.yodlee.yodleeApi.Transactions.TestCreateCategories">
+            <methods>
+               <include name="testCreateSubCategoriesPositiveFlow" />
+               <include name="testCreateSubCategories" />
+               <include name="testUpdateSubCategories" />
+               <include name="testDeleteSubCategories" />
+            </methods>
+         </class>
+         <class name="com.yodlee.yodleeApi.Transactions.TestCreateCategoryRuleOrtho">
+            <methods>
+               <include name="CreateTxnRule" />
+               <include name="updateTranxCategorizationRule" />
+               <include name="updateTranxCategorizationRuleNegetive" />
+               <include name="CreateTxnRule_Sessions_Test" />
+               <include name="UpdateTxnRule_Sessions_Test" />
+               <include name="GetTxnRules_Sessions_Test" />
+               <include name="DeleteTxnRules_Sessions_Test" />
+               <include name="RunOneTxnRule_Sessions_Test" />
+               <include name="RunAllTxnRules_Sessions_Test" />
+            </methods>
+         </class> 
+  		<class name="com.yodlee.yodleeApi.Transactions.TestTransactionsCategoryOrtho">
+            <methods>
+               <include name="testCreateSubCategories_Ortho" />
+               <include name="testUpdateSubCategories_Ortho" />
+               <include name="createCategorySession_test" />
+               <include name="getCategorySession_test" />
+               <include name="updateCategorySession_test" />
+               <include name="testDeleteSubCategories" />
+            </methods>
+         </class>
+         <class name="com.yodlee.yodleeApi.Transactions.TestUpdateTxnCategory">
+            <methods>
+               <include name="updateTransaction" />
+            </methods>
+         </class>
+         <class name="com.yodlee.yodleeApi.Transactions.TestTransactionOrtho">
+            <methods>
+               <include name="getTransactionsReconciliation" />
+               <include name="getTxnCounts_Sessions_Test" />
+               <include name="getTransactionsCountNegative" />
+               <include name="getTxns_Sessions_Test" />
+            </methods>
+         </class> 
+      </classes>
+   </test>
+   
+    <test name="ManualAccounts">
+      <classes>
+         <class name="com.yodlee.yodleeApi.ManualAccounts.TestManualAccounts">
+            <methods>
+               <include name="testAddManualAccountBankAndInvestment" />
+               <include name="testAddManualAccountBankAndInvestmentNegative" />
+            </methods>
+         </class>
+      </classes>
+   </test>  
+   
+    <test name="HistoricalBalance">
+      <classes>
+         <class name="com.yodlee.yodleeApi.HistoricalBalance.TestHistoricalBalance">
+            <methods>
+              <include name="testGetHistoricalBalanceNegativeScenarios" />
+               <include name="testGetHistoricalBalancePositiveScenarios" />
+             
+            </methods>
+         </class>
+      </classes>
+   </test>
+  
+</suite>

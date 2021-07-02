@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,insightType,status,enabled
+AT-142962,Validate Large Deposit Notice Insight is NOT subscribed for cobrand - verify isSubscribed = false,,LargeDepositNotice,,,,,,,account,FALSE,,,,,200,TRUE
+AT-142963,Validate Large Deposit Notice Insight is a REFRESH Based insight,REFRESH,LargeDepositNotice,,,,,,,,,,,,,200,TRUE
+AT-142964,"Validate Large Deposit Notice Insight name displayed as ""LargeDepositNotice"".",,LargeDepositNotice,LargeDepositNotice,,,,,,,,,,,,200,TRUE
+AT-142965,"Validate Large Deposit Notice Insight title shown as ""Large Deposit"".",,LargeDepositNotice,,Large Deposit,,,,,,,,,,,200,TRUE
+AT-142966,"Validate Large Deposit Notice Insight supports ""BANK"" container only",,LargeDepositNotice,,,BANK,,,,,,,,,,200,TRUE
+AT-142967,Validate Large Deposit Notice Insight entityConfigurations's accountsLevel keys,,LargeDepositNotice,,,,Account,,,,,,,,,200,TRUE
+AT-142968,Validate Large Deposit Notice Insight entityConfigurations's viewLevel keys,,LargeDepositNotice,,,,View,,,,,,,,,200,TRUE
+AT-142969,"Validate Large Deposit Notice Insight's description displayed as ""Generates an insight when a deposit is posted that is more than a configured threshold.""",,LargeDepositNotice,,,,,Generates an insight when a deposit is posted that is more than a configured threshold.,,,,,,,,200,TRUE
+AT-142970,Validate Large Deposit Notice Insight's supported applicableEntity's are ACCOUNT  and VIEW,,LargeDepositNotice,,,,,,"ACCOUNT,VIEW",,,,,,,200,TRUE
+AT-142971,"Validate Large Deposit Notice Insight's account entityParameter default threshold name,value and type are MINIMUM,500 and AMOUNT respectively",,LargeDepositNotice,,,,,,,account,,,"MINIMUM,500,AMOUNT",,,200,TRUE
+AT-142972,"Validate Large Deposit Notice Insight's insightType within account entityParameter is displayed as ""OTHER""",,LargeDepositNotice,,,,,,,account,,,,,OTHER,200,TRUE
+AT-142973,"Validate Large Deposit Notice Insight's view entityParameter default threshold name,value and type are MINIMUM,500 and AMOUNT respectively",,LargeDepositNotice,,,,,,,view,,,"MINIMUM,500,AMOUNT",,,200,TRUE
+AT-142974,"Validate Large Deposit Notice Insight's insightType within view entityParameter is displayed as ""OTHER""",,LargeDepositNotice,,,,,,,view,,,,,OTHER,200,TRUE
+AT-142975,Validate Large Deposit Notice Insight rule expression is NOT displayed,,LargeDepositNotice,,,,,,,,,,,checkRuleExpression,,200,TRUE

@@ -1,0 +1,10 @@
+testCaseId,Testcase,InsightName,SupportedContainers,triggerType,InsightType,entityParameterCount,entityParameterName,noumberOfInsights,editSubscription,isCobrandSubscribed,isUserSubscribed,entityDetails,noOfBoards,validateKeys,status,enabled
+"AT-137431,AT-137440",Validate Subscription Paid event detection form Bank container,SubscriptionPaid,BANK,EVENT,,1,account,0,TRUE,TRUE,TRUE,,,Account,201,TRUE
+"AT-137432,AT-137450",Validate Subscription Paid event detection form card container,SubscriptionPaid,CARD,EVENT,,1,account,0,TRUE,TRUE,TRUE,InsightsCard,,Account,201,TRUE
+"AT-136829,AT-137476",Validate Subscription Paid event detection based on valid account_ID,SubscriptionPaid,BANK,EVENT,,1,account,0,TRUE,TRUE,TRUE,SubscriptionPaid,,Account,201,TRUE
+"AT-137445,AT-137477",Validate Subscription Paid event detection based on Invalid Account_ID,SubscriptionPaid,BANK,EVENT,,1,account,0,TRUE,TRUE,TRUE,InvalidId,,Account,201,TRUE
+"AT-137448,AT-137478,AT-137435",Validate Subscription Paid event detection based on Invalid container (sum_info),SubscriptionPaid,INVESTMENT,EVENT,,1,account,0,TRUE,TRUE,TRUE,investmentAccount,,Account,201,TRUE
+"AT-137436,AT-137479",Validate response for isSubscribed as True when user has subscribed insights for Subscription Paid Event,SubscriptionPaid,BANK,EVENT,,1,account,0,TRUE,TRUE,TRUE,,,Account,201,TRUE
+"AT-137437,AT-137480",Validate response for isSubscribed as FALSE when user has not subscribed insights for Subscription Paid Event,SubscriptionPaid,BANK,EVENT,,1,account,0,TRUE,TRUE,FALSE,,,Account,201,TRUE
+"AT-136831,AT-137481",Validate Subscription Paid event detection with account ID,SubscriptionPaid,BANK,EVENT,,1,account,0,TRUE,TRUE,TRUE,SubscriptionPaid,,Account,201,TRUE
+AT-137438,Validate Subscription Paid event detection without account ID,SubscriptionPaid,BANK,EVENT,,1,account,1,TRUE,TRUE,TRUE,,,Account,201,TRUE

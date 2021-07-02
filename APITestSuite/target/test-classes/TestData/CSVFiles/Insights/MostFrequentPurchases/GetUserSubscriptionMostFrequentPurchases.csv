@@ -1,0 +1,18 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,duration,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-148685,"getUserSubscription - Validate MostFrequentPurchases , Validate InsightName",,MostFrequentPurchases,MostFrequentPurchases,,,,,,,,,,,,,,200,TRUE
+AT-148686,"getUserSubscription - Validate MostFrequentPurchases , Validate Supporting container",,MostFrequentPurchases,,,"BANK,CARD",,,,,,,,,,,,200,TRUE
+AT-148687,"getUserSubscription - Validate MostFrequentPurchases , Validate TriggerType",REFRESH,MostFrequentPurchases,,,,,,,,,,,,,,,200,TRUE
+AT-148688,"getUserSubscription - Validate MostFrequentPurchases , Validate applicableEntity",,MostFrequentPurchases,,,,,,,"ACCOUNT,VIEW",,,,,,,,200,TRUE
+AT-148689,"getUserSubscription - Validate MostFrequentPurchases , Validate number of levels and levelObject",,MostFrequentPurchases,,,,,,,"ACCOUNT,VIEW","account,view",,,,,,,200,TRUE
+AT-148690,"getUserSubscription - Validate MostFrequentPurchases , Validate isSubscribed=false",,MostFrequentPurchases,,,,,,,,,FALSE,,,,,,200,TRUE
+AT-148691,"getUserSubscription - Validate MostFrequentPurchases , Validate threshold Name,Value and Type",,MostFrequentPurchases,,,,,,,ACCOUNT,account,,,,"TOP,5,NUMBER",,,200,TRUE
+AT-148692,"getUserSubscription - Validate MostFrequentPurchases , Validate insightKeys",,MostFrequentPurchases,,,,Account,,,,,,,,,,,200,TRUE
+AT-148693,"getUserSubscription - Validate MostFrequentPurchases , Validate description",,MostFrequentPurchases,,,,,,Generates an insight that provides spending trends (based on transaction count) by merchant over a configured time period.,,,,,,,,,200,TRUE
+AT-148694,"getUserSubscription - Validate MostFrequentPurchases , Validate title",,MostFrequentPurchases,,Count of Transactions by Merchant,,,,,,,,,,,,,200,TRUE
+AT-148695,"getUserSubscription - Validate MostFrequentPurchases , Validate ruleExpression",,MostFrequentPurchases,,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-148696,"getUserSubscription - Validate MostFrequentPurchases , Validate total number of keys-ACCOUNT",,MostFrequentPurchases,,,,Account,32,,,,,,,,,,200,TRUE
+AT-148697,"getUserSubscription - Validate MostFrequentPurchases , verify entityParameter and configMeta are same",,MostFrequentPurchases,,,,,,,,,,,,,,TRUE,200,TRUE
+AT-148698,"getUserSubscription - Validate MostFrequentPurchases , Validate threshold Name,Value and Type-view",,MostFrequentPurchases,,,,,,,View,view,,,,"TOP,5,NUMBER",,,200,TRUE
+AT-148699,"getUserSubscription - Validate MostFrequentPurchases , Validate total number of keys - VIEW",,MostFrequentPurchases,,,,View,29,,,,,,,,,,200,TRUE
+AT-148700,"getUserSubscription - Validate MostFrequentPurchases , Validate frequency",,MostFrequentPurchases,MostFrequentPurchases,,,,,,,,,WEEKLY,,,,,200,TRUE
+AT-148701,"getUserSubscription - Validate MostFrequentPurchases , Validate Duration",,MostFrequentPurchases,MostFrequentPurchases,,,,,,,,,,THREE_MONTHS,,,,200,TRUE

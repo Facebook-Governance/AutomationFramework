@@ -1,0 +1,37 @@
+{
+  "holdingSummary": [
+    {
+      "classificationType": "Sector",
+      "classificationValue": "Cash And Equivalents",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dSector\u0026classificationValue\u003dCash%20And%20Equivalents\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 1865.92,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "Sector",
+      "classificationValue": "Corporate bonds",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dSector\u0026classificationValue\u003dCorporate%20bonds\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 20534.08,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "Sector",
+      "classificationValue": "Other",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dSector\u0026classificationValue\u003dOther\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 4097.46,
+        "currency": "USD"
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GET Feeds - Cash Flow Summary Insight"
+           tests="19"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="1101.198">
+  <properties />
+            <testcase name="testGetNotificationsForCashFlowSummary" time="68.013" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary">
+                <failure type="java.lang.AssertionError"
+                  message="There is no CASH_FLOW_SUMMARY insight generated in the given scheduled time"
+              >
+<![CDATA[java.lang.AssertionError: There is no CASH_FLOW_SUMMARY insight generated in the given scheduled time
+  org.testng.Assert.fail(Assert.java:94)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary.testGetNotificationsForCashFlowSummary(TestGetInsightsForCashFlowSummary.java:298)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForCashFlowSummary" time="68.986" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary">
+                <failure type="java.lang.AssertionError"
+                  message="There is no CASH_FLOW_SUMMARY insight generated in the given scheduled time"
+              >
+<![CDATA[java.lang.AssertionError: There is no CASH_FLOW_SUMMARY insight generated in the given scheduled time
+  org.testng.Assert.fail(Assert.java:94)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary.testGetNotificationsForCashFlowSummary(TestGetInsightsForCashFlowSummary.java:298)
+  sun.reflect.GeneratedMethodAccessor275.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="testGetNotificationsForCashFlowSummary" time="49.744" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="11.565" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="63.371" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="13.302" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="102.050" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="152.418" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="60.797" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="17.656" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="101.309" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="54.162" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="49.709" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="52.072" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="57.060" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="11.474" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="52.143" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="58.913" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+                <testcase name="testGetNotificationsForCashFlowSummary" time="56.454" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCashFlowSummary" />
+      
+</testsuite>

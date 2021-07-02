@@ -1,0 +1,80 @@
+{
+  "userData": [
+    {
+      "user": {
+        "loginName": "YSLDE1505454151537"
+      },
+      "account": [
+        {
+          "includeInNetWorth": true,
+          "totalUnvestedBalance": {
+            "amount": 23242,
+            "currency": "USD"
+          },
+          "moneyMarketBalance": {
+            "amount": 1000,
+            "currency": "USD"
+          },
+          "accountName": "DAG INVESTMENT",
+          "refreshinfo": {
+            "lastRefreshed": "${json-unit.ignore}",
+            "nextRefreshScheduled": "${json-unit.ignore}",
+            "lastRefreshAttempt": "${json-unit.ignore}",
+            "statusMessage": "OK",
+            "statusCode": 0
+          },
+          "accountStatus": "ACTIVE",
+          "shortBalance": {
+            "amount": 15000,
+            "currency": "USD"
+          },
+          "lastUpdated": "${json-unit.ignore}",
+          "isAsset": true,
+          "balance": {
+            "amount": 79629,
+            "currency": "USD"
+          },
+          "isDeleted": false,
+          "providerId": "16441",
+          "id": "${json-unit.ignore}",
+          "cash": {
+            "amount": 1000,
+            "currency": "USD"
+          },
+          "providerName": "Dag Site",
+          "marginBalance": {
+            "amount": 2369,
+            "currency": "USD"
+          },
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "DAG"
+              }
+            }
+          ],
+          "isManual": false,
+          "accountType": "OTHER",
+          "401kLoan": {
+            "amount": 100,
+            "currency": "USD"
+          },
+          "totalVestedBalance": {
+            "amount": 2432,
+            "currency": "USD"
+          },
+          "accountNumber": "${json-unit.ignore}",
+          "classification": "PERSONAL",
+          "url": "http://www.altova.com",
+          "createdDate": "${json-unit.ignore}",
+          "providerAccountId": "${json-unit.ignore}",
+          "availableLoan": {
+            "amount": 55000,
+            "currency": "USD"
+          },
+          "CONTAINER": "investment"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+testCaseId,TestCase,iterateCategories,getStatus,deleteStatus,enabled
+AT-67102,valid categoryID,-1,200,204,TRUE
+AT-67103,Delete sub-category 1,-2,200,204,TRUE
+AT-67104,Delete sub-category 2,-3,200,204,TRUE
+AT-67105,Delete sub-category 3,-4,200,204,TRUE
+AT-67106,Delete sub-category 4,-5,200,204,TRUE
+AT-67107,Delete sub-category 5,-1,200,204,TRUE
+AT-67108,Delete sub-category 6,-2,200,204,TRUE
+AT-67109,Delete sub-category 7,-1,200,204,TRUE
+AT-67110,Delete sub-category 8,-1,200,204,TRUE
+AT-67111,Delete system defined category,2,200,400,TRUE
+AT-67112,Delete system defined category,3,200,400,TRUE
+AT-67113,Delete MLC,1,200,400,TRUE

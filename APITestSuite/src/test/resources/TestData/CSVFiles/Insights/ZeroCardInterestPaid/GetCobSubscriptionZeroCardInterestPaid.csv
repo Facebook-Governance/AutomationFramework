@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-187374,"getCobrandSubscription - Validate ZeroCardInterestPaid , check if Insight is unSubscribed to OR isSubscribed=false ",,ZeroCardInterestPaid,ZeroCardInterestPaid,,,,,,,,FALSE,,,,200,TRUE
+AT-187375,"getCobrandSubscription - Validate ZeroCardInterestPaid , Validate InsightName",,ZeroCardInterestPaid,ZeroCardInterestPaid,,,,,,,,,,,,200,TRUE
+AT-187376,"getCobrandSubscription - Validate ZeroCardInterestPaid , Validate Supporting container",,ZeroCardInterestPaid,,,CARD,,,,,,,,,,200,TRUE
+AT-187377,"getCobrandSubscription - Validate ZeroCardInterestPaid , Validate TriggerType",SCHEDULE,ZeroCardInterestPaid,,,,,,,,,,,,,200,TRUE
+AT-187378,"getCobrandSubscription - Validate ZeroCardInterestPaid , Validate applicableEntity",,ZeroCardInterestPaid,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-187379,"getCobrandSubscription - Validate ZeroCardInterestPaid , Validate number of levels and levelObject",,ZeroCardInterestPaid,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-187380,"getCobrandSubscription - Validate ZeroCardInterestPaid , Validate isSubscribed=false",,ZeroCardInterestPaid,,,,,,,,,FALSE,,,,200,TRUE
+AT-187381,"getCobrandSubscription - Validate ZeroCardInterestPaid , Validate insightKeys",,ZeroCardInterestPaid,,,,Account,,,,,,,,,200,TRUE
+AT-187382,"getCobrandSubscription - Validate ZeroCardInterestPaid , Validate description",,ZeroCardInterestPaid,,,,,,Congratulate the user for not paying any interest across all the user's card accounts for the last month.,,,,,,,200,TRUE
+AT-187383,"getCobrandSubscription - Validate ZeroCardInterestPaid , Validate title",,ZeroCardInterestPaid,,Zero Card Interest Paid,,,,,,,,,,,200,TRUE
+AT-187384,"getCobrandSubscription - Validate ZeroCardInterestPaid , Validate total number of keys",,ZeroCardInterestPaid,,,,,5,,,,,,,,200,TRUE
+AT-187385,getCobrandSubscription - Validate ZeroCardInterestPaid  - default frequency,,ZeroCardInterestPaid,ZeroCardInterestPaid,,,,,,,,,MONTHLY,,,200,TRUE

@@ -1,0 +1,28 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "keyAlias": {
+      "$id": "/properties/keyAlias",
+      "type": "string",
+      "title": "The Keyalias Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "03072_9"
+      ]
+    },
+    "keyAsPemString": {
+      "$id": "/properties/keyAsPemString",
+      "type": "string",
+      "title": "The Keyaspemstring Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOC\n-----END PUBLIC KEY-----\n"
+      ]
+    }
+  }
+}

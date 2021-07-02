@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-SubscriptionCh32,"Validate SubscriptionChanged , Validate InsightName",,SubscriptionChanged,SubscriptionChanged,Subscription Changed,"BANK, CARD",,,,"ACCOUNT, VIEW","account, view","FALSE, FALSE",,"CHANGE,10,AMOUNT   CHANGE,10,PERCENT CHANGE,10,AMOUNT   CHANGE,10,PERCENT",,,200,TRUE
+AT-SubscriptionCh33,"Validate SubscriptionChanged , Validate Supporting container",,SubscriptionChanged,,,BANK,,,,,,,,,,,200,TRUE
+AT-SubscriptionCh34,"Validate SubscriptionChanged , Validate TriggerType",EVENT,SubscriptionChanged,,,,,,,,,,,,,,200,TRUE
+AT-SubscriptionCh35,"Validate SubscriptionChanged , Validate applicableEntity",,SubscriptionChanged,,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-SubscriptionCh36,"Validate SubscriptionChanged , Validate number of levels and levelObject",,SubscriptionChanged,,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-SubscriptionCh37,"Validate SubscriptionChanged , Validate isSubscribed=false",,SubscriptionChanged,,,,,,,,account,FALSE,,,,,200,TRUE
+AT-SubscriptionCh38,"Validate SubscriptionChanged , Validate threshold Name,Value and Type",,SubscriptionChanged,,,,,,,,account,,,"CHANGE,100,AMOUNT   CHANGE,10,PERCENT",,,200,TRUE
+AT-SubscriptionCh39,"Validate SubscriptionChanged , Validate description",,SubscriptionChanged,,,,,,Generates an insight when a recurring Subscription changes by more than a configured threshold.,,,,,,,,200,TRUE
+AT-SubscriptionCh40,"Validate SubscriptionChanged , Validate title",,SubscriptionChanged,,Subscription Changed,,,,,,,,,,,,200,TRUE
+AT-SubscriptionCh41,"Validate SubscriptionChanged , Validate ruleExpression",,SubscriptionChanged,,,,,,,,,,,,,,200,TRUE
+AT-SubscriptionCh42,"Validate SubscriptionChanged , Validate total number of keys ",,SubscriptionChanged,,,,,17,,,,,,,,,200,TRUE
+AT-SubscriptionCh43,getUserSubscription-Subscription PaidValidate insightKeys,,SubscriptionPaid,,,,View,,,,,,,,,,,200

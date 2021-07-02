@@ -1,0 +1,18 @@
+testCaseId,testcasenum,TestCase,Parameters,SuccessScenario,Enabled
+AT-106250,1,Eligibility check for user with Accounts and Holdings,"isAccountEligible:true,isHoldingEligible:true,CUSIP:591520200",TRUE,TRUE
+AT-106251,2,Validating Account Data for a successful request,"isAccountEligible:true,isHoldingEligible:true,CUSIP:49803T300",TRUE,TRUE
+AT-106280,3,Validating Holding Data for a successful request,"isAccountEligible:true,isHoldingEligible:true,CUSIP:49803T300",TRUE,TRUE
+AT-106262,4,POST request with a account not linked with the logged in user,"errorCode:Y807,accountId:1111111",FALSE,TRUE
+AT-106265,5,POST request with alphanumeric accountId,"errorCode:Y800,accountId:abc1111",FALSE,TRUE
+AT-106323,6,Base Rule having priority,"isAccountEligible:true,isHoldingEligible:true,CUSIP:591520200",TRUE,TRUE
+AT-106324,7,Clearing firm Rule having eligibilty as false,"isAccountEligible:true,isHoldingEligible:true,CUSIP:591520200",TRUE,TRUE
+AT-106325,8,Cobrand Rule having eligibilty as false,"isAccountEligible:true,isHoldingEligible:true,CUSIP:591520200",TRUE,TRUE
+AT-106327,9,Sublevel Rule having eligibilty as false,"isAccountEligible:true,isHoldingEligible:true,CUSIP:591520200",TRUE,TRUE
+AT-106263,10,POST request with invalid input,"errorCode:Y805,request:invalid",FALSE,TRUE
+AT-106270,11,GET request with  accountId not associated to user,"errorCodeGet:Y807,invalidRequestId:100000059",TRUE,TRUE
+AT-106271,12,GET request with invalid requestId,"errorCodeGet:Y807,invalidRequestId:1111",TRUE,TRUE
+AT-106272,13,GET request with alphanumeric requestId,"errorCodeGet:Y806,invalidRequestId:abc111",TRUE,TRUE
+AT-106273,14,Eligibilty False for a Holding,"isAccountEligible:true,isHoldingEligible:false,CUSIP:Q39179108",TRUE,TRUE
+AT-106274,15,GET api response validation for isAssetTransferELigibility false for holding,"isAccountEligible:true,isHoldingEligible:false,CUSIP:Q39179108",TRUE,TRUE
+AT-106266,16,POST request for Eligible account and not eligible holding,"isAccountEligible:true,isHoldingEligible:false,CUSIP:Q39179108",TRUE,TRUE
+AT-106267,17,Valid POST Input  with account ID  of container other than investment,"errorCode:Y807,accountId:1112676159",FALSE,TRUE

@@ -1,0 +1,14 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-SalCh01,"Validate SalaryChanged , Validate InsightName",,SalaryChanged,SalaryChanged,,,,,,,,,,,,200,TRUE
+AT-SalCh02,"Validate SalaryChanged , Validate Supporting container",,SalaryChanged,,,BANK,,,,,,,,,,200,TRUE
+AT-SalCh03,"Validate SalaryChanged , Validate TriggerType",EVENT,SalaryChanged,,,,,,,,,,,,,200,TRUE
+AT-SalCh04,"Validate SalaryChanged , Validate applicableEntity",,SalaryChanged,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-SalCh05,"Validate SalaryChanged , Validate number of levels and levelObject",,SalaryChanged,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-SalCh06,"Validate SalaryChanged , Validate isSubscribed=false",,SalaryChanged,,,,,,,,account,FALSE,,,,200,TRUE
+AT-SalCh07,"Validate SalaryChanged , Validate threshold Name,Value and Type",,SalaryChanged,,,,,,,,account,,,"CHANGE,100,AMOUNT    CHANGE,10,PERCENT",,200,TRUE
+AT-SalCh08,"Validate SalaryChanged , Validate insightKeys for networths info",,SalaryChanged,,,,"networths,networth.amount,networth.currency,date,_change",,,,,,,,,200,TRUE
+AT-SalCh09,"Validate SalaryChanged , Validate insightKeys for historicalBalances info",,SalaryChanged,,,,"historicalBalances,balance.amount,balance.currency,asOfDate,accountId,isAsset",,,,,,,,,200,TRUE
+AT-SalCh10,"Validate SalaryChanged , Validate description",,SalaryChanged,,,,,,Generates an insight when a recurring salary changes by more than a configured threshold.,,,,,,,200,TRUE
+AT-SalCh11,"Validate SalaryChanged , Validate title",,SalaryChanged,,Salary Changed,,,,,,,,,,,200,TRUE
+AT-SalCh12,"Validate SalaryChanged , Validate ruleExpression",,SalaryChanged,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-SalCh13,"Validate SalaryChanged , Validate total number of keys ",,SalaryChanged,,,,Account,,,,,,,,,200,TRUE

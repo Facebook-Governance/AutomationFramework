@@ -1,0 +1,21 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-137605,Update entityParameter->account[0]->insightType,FinancialFees,negTestScenario24,,,,,,,,,2,,account view,,,,TRUE TRUE,,OTHER OTHER ,,400,TRUE
+AT-137605,Update entityParameter->account[0]->insightType - Invalid Name,FinancialFees,negTestScenario24,,,,,,,,,2,,account view,,,,TRUE TRUE,,INVALID INVALID,,400,TRUE
+AT-137607,Update entityParameter->account[0]->duration,FinancialFees,negTestScenario23,,,,,,,,,2,,account view,,,,TRUE TRUE,LASW_MONHT LASW_MONHT ,,,400,TRUE
+AT-137609,Subscribe FinancialFees to isSubscribed=true,FinancialFees,,,,,,,,,,2,,account view,,,,TRUE TRUE,,,,204,TRUE
+AT-137609,Update insightName to same name,FinancialFees,negTestScenario53,FinancialFees,,,,,,,,,,,,,,,,,,500,TRUE
+AT-137609,Update insightName to different name,FinancialFees,negTestScenario2,FinancialFeesEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-137609,Update insightTitle chars are less than 3,FinancialFees,negTestScenario3,,kk,,,,,,,,,,,,,,,,,400,TRUE
+AT-137609,Update insightTitle chars are greater 100,FinancialFees,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-137613,Update insightTitle chars between 3 and 100 ,FinancialFees,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-137613,Update insightTitle chars are only 3,FinancialFees,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-137613,Update insightTitle chars are only 100,FinancialFees,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-137613,Update insightTitle chars are special characters,FinancialFees,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-137618,Update entityParameter,FinancialFees,,,,,,,,,,2,,account view,,,,TRUE TRUE,,,,204,TRUE
+AT-137618,Update entityParameter->account[0]->frequency,FinancialFees,negTestScenario22,,,,,,,,,2,,account view,,,Month Month,TRUE TRUE,,,,400,TRUE
+AT-137618,Update entityParameter->account[0]->isSubscribed=false,FinancialFees,,,,,,,,,,2,,account view,,,,FALSE FALSE,,,,204,TRUE
+AT-147096,Update container,FinancialFees,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-147096,Update keys,FinancialFees,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147096,Update description,FinancialFees,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147096,Update applicableEntity,FinancialFees,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-147096,Changing to Default,FinancialFees,,,Financial Fees,,,,,,,2,,account view,,,DAILY DAILY,TRUE TRUE,THREE_MONTHS THREE_MONTHS,,,204,TRUE

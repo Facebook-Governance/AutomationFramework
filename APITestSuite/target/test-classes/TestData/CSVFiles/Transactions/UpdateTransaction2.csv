@@ -1,0 +1,44 @@
+testCaseId,testCase,container,categoryId,consumer,memo,ResFile,filePath,enabled
+AT-58023,with valid consumer_bank,bank,2,updating transactions,,validConsumerBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,TRUE
+2,with min consumer_bank,bank,3,aaa,,minConsumerBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+3,with max consumer_bank,bank,3,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,maxConsumerBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+4,with consumer has numbers_bank,bank,16,12345678,,consumerNumbersBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+5,with consumer has alphanumeric_bank,bank,6,!@#$,,consumerAlphanumericBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+6,with consumer has numbers and alphabets_bank,bank,7,123abcd,,consumerAlphabetsBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+7,with consumer has numbers and specialCharacters_bank,bank,7,123!@#,,num&specialcharConsumerBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+8,with consumer has alphabets and specialCharacters_bank,bank,9,abcd!@#$,,alpha&specialcharConsumerBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+9,"with consumer has alphabets , numbers and specialCharacters_bank",bank,10,abc123!@#,,alphaNum&specialcharConsumerBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+10,with valid consumer_creditCard,creditCard,11,updating transactions,,validConsumerCreditcard.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+11,with min consumer_creditCard,creditCard,39,aaa,,minConsumerCreditcard.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+12,with max consumer_investment,investment,13,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,,maxConsumerInvestment.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+13,with consumer has numbers_investment,investment,14,12345678,,consumerNumbersInvestment.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+14,with consumer has alphanumeric_insurance,insurance,15,!@#$,,consumerAlphanumericInsurance.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+15,with consumer has numbers and alphabets_insurance,insurance,16,123abcd,,consumerAlphabetsInsurance.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+16,with consumer has numbers and specialCharacters_loan,loan,17,123!@#,,num&specialcharConsumerLoan.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+17,with consumer has alphabets and specialCharacters_loan,loan,18,abcd!@#$,,alpha&specialcharConsumerLoan.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+18,"with consumer has alphabets , numbers and specialCharacters_investment",investment,19,abc123!@#,,alphaNum&specialcharConsumerInv.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+19,with consumer has null,creditCard,20,,,nullConsumer.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+20,null memo,investment,21,,,nullMemo.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+21,with valid memo_bank,bank,22,,updated memo,validMemoBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+22,with min memo_bank,bank,23,,a,minMemoBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+23,with max memo_bank,bank,24,,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,maxMemoBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+24,with memo has numbers_bank,bank,25,,12345678,memoNumbersBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+25,with memo has alphanumeric_bank,bank,26,,!@#$,memoAlphanumericBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+26,with memo has numbers and alphabets_bank,bank,27,,123abcd,memoAlphabetsBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+27,with memo has numbers and specialCharacters_bank,bank,28,,123!@#,num&specialcharMemoBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+28,with memo has alphabets and specialCharacters_bank,bank,29,,abcd!@#$,alpha&specialcharMemoBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+29,"with memo has alphabets , numbers and specialCharacters_bank",bank,30,,abc123!@#,alphaNum&specialcharMemoBank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+30,with valid memo_creditCard,creditCard,43,,updated memo,validMemoCreditcard.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+31,with min memo_creditCard,creditCard,32,,a,minMemoCreditcard.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+32,with max memo_investment,investment,33,,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,maxMemoInvestment.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+33,with memo has numbers_investment,investment,39,,12345678,memoNumbersInvestment.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+34,with memo has alphanumeric_insurance,insurance,9,abdcf,!@#$,memoAlphanumericInsurance.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+35,with memo has numbers and alphabets_insurance,insurance,36,,123abcd,memoAlphabetsInsurance.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+36,with memo has numbers and specialCharacters_loan,loan,37,,123!@#,num&specialcharMemoLoan.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+37,with memo has alphabets and specialCharacters_loan,loan,16,,abcd!@#$,alpha&specialcharMemoLoan.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+38,"with memo has alphabets , numbers and specialCharacters_insurance",insurance,39,,abc123!@#,alphaNum&specialcharMemoInv.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+39,with both consumer and memo_bank,bank,40,update consumer 1,updated memo1,Bank.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+40,with both consumer and memo_creditCard,creditCard,41,update consumer 2,updated memo2,Creditcard.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+41,with both consumer and memo_loan,loan,42,update consumer 3,updated memo3,Loan.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+42,with both consumer and memo_insurance,insurance,43,update consumer 4,updated memo4,Insurance.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE
+43,with both consumer and memo_investment,investment,7,update consumer 5,updated memo5,Investment.json,../src/test/resources/TestData/Transactions/updateTransactions/,FALSE

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - GET Feeds - High Bills And Subscriptions</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>GET Feeds - High Bills And Subscriptions</h1>
+<p>
+  Test duration: 856.067s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  testGetNotificationsForHighBillsAndSubscriptionsCostInsight
+      </td>
+  <td class="duration">
+    66.379s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"AT-HBnS03", "Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is not Subscribed(Inheriting Cobrand Thresholds)", "HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS", "FALSE", "BANK, CARD", "SCHEDULE", 16441, "", "", "", "1", "account", "", "", "", "", "1", "TRUE", "TRUE", "", "HighBillsAndSubscriptionCost.json", "", "", "", "", "", "", "Account", "201", "TRUE"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: TEST FAILED</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:94)<br />
+              com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCostInsight(TestGetInsightsForHighBillsAndSubscriptionsCost.java:296)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:645)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testGetNotificationsForHighBillsAndSubscriptionsCostInsight
+      </td>
+  <td class="duration">
+    66.164s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"AT-HBnS05", "Validate HighBillsAndSubscriptionsCost Insight when user patch Threshold only AMOUNt and Duration", "HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS", "FALSE", "BANK, CARD", "SCHEDULE", 16441, "", "", "", "1", "account", "CHANGE,300,AMOUNT", "", "", "", "1", "TRUE", "", "TRUE", "HighBillsAndSubscriptionCost.json", "LAST_THREE_MONTHS", "", "", "", "", "", "Account", "201", "TRUE"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: TEST FAILED</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              org.testng.Assert.fail(Assert.java:94)<br />
+              com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCostInsight(TestGetInsightsForHighBillsAndSubscriptionsCost.java:296)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:645)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testGetNotificationsForHighBillsAndSubscriptionsCostInsight
+      </td>
+  <td class="duration">
+    66.364s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"AT-HBnS09", "Validate HighBillsAndSubscriptionsCost Insight when threshold is 500 as AMOUNT and 50 PERCENT with diff duration", "HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS", "FALSE", "BANK, CARD", "SCHEDULE", 16441, "", "", "", "1", "account", "CHANGE,500,AMOUNT CHANGE,50,PERCENT", "", "", "", "1", "TRUE", "", "TRUE", "HighBillsAndSubscriptionCost.json", "LAST_MONTH", "", "", "", "", "", "Account", "201", "TRUE"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: TEST FAILED</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.testng.Assert.fail(Assert.java:94)<br />
+              com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCostInsight(TestGetInsightsForHighBillsAndSubscriptionsCost.java:296)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:645)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testGetNotificationsForHighBillsAndSubscriptionsCostInsight
+      </td>
+  <td class="duration">
+    65.826s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"AT-HBnS08", "Validate HighBillsAndSubscriptionsCost Insight when threshold is 1 as AMOUNT and 1 PERCENT with diff duration", "HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS", "FALSE", "BANK, CARD", "SCHEDULE", 16441, "", "", "", "1", "account", "CHANGE,1,AMOUNT CHANGE,1,PERCENT", "", "", "", "1", "TRUE", "", "TRUE", "HighBillsAndSubscriptionCost.json", "LAST_TWELVE_MONTHS", "", "", "", "", "", "Account", "201", "TRUE"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: TEST FAILED</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              org.testng.Assert.fail(Assert.java:94)<br />
+              com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCostInsight(TestGetInsightsForHighBillsAndSubscriptionsCost.java:296)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:645)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testGetNotificationsForHighBillsAndSubscriptionsCostInsight
+      </td>
+  <td class="duration">
+    65.430s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"AT-HBnS04", "Validate HighBillsAndSubscriptionsCost Insight when cobrand is subscribed  for different threshold user overides cobrand threshold", "HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS", "FALSE", "BANK, CARD", "SCHEDULE", 16441, "", "", "", "1", "account", "CHANGE,200,AMOUNT CHANGE,20,PERCENT", "", "", "", "1", "TRUE", "TRUE", "TRUE", "HighBillsAndSubscriptionCost.json", "", "", "", "", "", "", "Account", "201", "TRUE"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: TEST FAILED</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              org.testng.Assert.fail(Assert.java:94)<br />
+              com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCostInsight(TestGetInsightsForHighBillsAndSubscriptionsCost.java:296)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:645)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testGetNotificationsForHighBillsAndSubscriptionsCostInsight
+      </td>
+  <td class="duration">
+    71.887s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"AT-HBnS07", "Validate HighBillsAndSubscriptionsCost Insight when threshold is 1000 as AMOUNT and 101 PERCENT with diff duration", "HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS", "FALSE", "BANK, CARD", "SCHEDULE", 16441, "", "", "", "1", "account", "CHANGE,1000,AMOUNT CHANGE,101,PERCENT", "", "", "", "1", "TRUE", "", "TRUE", "HighBillsAndSubscriptionCost.json", "LAST_SIX_MONTHS", "", "", "", "", "", "Account", "201", "TRUE"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: TEST FAILED</b></a><br />
+    <div class="stackTrace" id="exception-5">
+              org.testng.Assert.fail(Assert.java:94)<br />
+              com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost.testGetNotificationsForHighBillsAndSubscriptionsCostInsight(TestGetInsightsForHighBillsAndSubscriptionsCost.java:296)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:645)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)<br />
+              java.lang.Thread.run(Unknown Source)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  testGetNotificationsForHighBillsAndSubscriptionsCostInsight
+      </td>
+  <td class="duration">
+    100.103s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"AT-HBnS02", "Validate HighBillsAndSubscriptionsCost Insight when cobrand is  Subscribed and User is not Subscribed", "HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS", "FALSE", "BANK, CARD", "SCHEDULE", 16441, "", "", "", "1", "account", "", "", "", "", "0", "TRUE", "TRUE", "FALSE", "HighBillsAndSubscriptionCost.json", "", "", "", "", "", "", "Account", "201", "TRUE"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testGetNotificationsForHighBillsAndSubscriptionsCostInsight
+      </td>
+  <td class="duration">
+    98.392s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"AT-HBnS10", "Reset HighBIlls and Subscription to default values", "HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS", "FALSE", "BANK, CARD", "SCHEDULE", 16441, "", "", "", "1", "account", "CHANGE,550,AMOUNT CHANGE,150,PERCENT", "", "", "", "0", "TRUE", "FALSE", "", "HighBillsAndSubscriptionCost.json", "LAST_THREE_MONTHS", "", "", "", "", "", "Account", "201", "TRUE"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testGetNotificationsForHighBillsAndSubscriptionsCostInsight
+      </td>
+  <td class="duration">
+    149.059s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"AT-HBnS01", "Validate HighBillsAndSubscriptionsCost Insight when cobrand is not Subscribed", "HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS", "FALSE", "BANK, CARD", "SCHEDULE", 16441, "InsightPDV.bank15", "bank15", "", "1", "account", "", "", "", "", "0", "TRUE", "FALSE", "", "HighBillsAndSubscriptionCost.json", "", "", "", "", "", "", "Account", "201", "TRUE"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testGetNotificationsForHighBillsAndSubscriptionsCostInsight
+      </td>
+  <td class="duration">
+    99.704s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"AT-HBnS06", "Validate HighBillsAndSubscriptionsCost Insight when Threshold is patched and with user Subscriptions as false", "HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS", "FALSE", "BANK, CARD", "SCHEDULE", 16441, "", "", "", "1", "account", "CHANGE,400,AMOUNT CHANGE,90,PERCENT", "", "", "", "0", "TRUE", "", "FALSE", "HighBillsAndSubscriptionCost.json", "", "", "", "", "", "", "Account", "201", "TRUE"</span><br />
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

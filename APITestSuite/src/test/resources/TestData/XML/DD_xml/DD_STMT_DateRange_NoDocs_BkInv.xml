@@ -1,0 +1,60 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>yslAutomation.site16441.12</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.12</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>DOCUMENT</name>
+						<attributeList>
+							<attribute>
+								<name>STATEMENT</name>
+								<container>bank</container>
+								<container>investment</container>
+								<fromDate>;getModifiedDate(-2m,false)</fromDate>
+								<toDate>;getModifiedDate(0d,false)</toDate>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+
+		<get-documents-multiple>
+			<get-documents order="1">
+				<docAccountId></docAccountId>
+				<docType></docType>
+				<keyword></keyword>
+				<fromDate></fromDate>
+				<toDate></toDate>
+			</get-documents>
+		</get-documents-multiple>
+
+	</request>
+
+	<response>
+		<documentDetails-multiple>
+			<documentDetails order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/
+					</filePath>
+					<responseFile>GetDocuments_NoDocs.json</responseFile>
+				</row>
+			</documentDetails>
+		</documentDetails-multiple>
+		<get-provider-accounts-multiple>
+			<get-provider-accounts order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/
+					</filePath>
+					<responseFile>getProviderDetails_PartialSuccess.json</responseFile>
+				</row>
+			</get-provider-accounts>
+		</get-provider-accounts-multiple>
+
+	</response>
+</entity>

@@ -1,0 +1,8 @@
+userStoryID,testcaseName,userSession,cobrandSession,appId,status,defectID,enable
+"AT-87266,AT-87566",Call Get Access Token by Passing Valid APP ID ,VALID,VALID,VALID,200,0,TRUE
+"AT-87267,AT-87566",Call Get Access Token by Passing Multiple APP ID's ,VALID,VALID,MULTIPLE,200,0,TRUE
+"AT-87268,AT-87269,AT-87566",Call Get AccessToken by passing Invalid AppId,VALID,VALID,INVALID,400,0,TRUE
+"AT-87270,AT-87566",Call Get AccessToken by passing No AppId,VALID,VALID,NOAPPID,400,0,TRUE
+"AT-87271,AT-87566",Call Get AccessToken by passing Invalid FilterName,VALID,VALID,INVALIDAPPSTRING,400,0,TRUE
+"AT-87272,AT-87566",Call Get AccessToken by passing No FilterName,VALID,VALID,NOAPPSTRING,400,0,TRUE
+"AT-87273,AT-87566",Call Get AccessToken by passing more than 20 appIds,VALID,VALID,20STRING,400,0,TRUE

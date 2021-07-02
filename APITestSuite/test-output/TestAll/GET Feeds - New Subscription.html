@@ -1,0 +1,536 @@
+<html>
+<head>
+<title>TestNG:  GET Feeds - New Subscription</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GET Feeds - New Subscription</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/15/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 18 20:19:19 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>598 seconds (598917 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.prepareAutomationReport()'><b>prepareAutomationReport</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.yodlee.insights.yodleeApi.utils.InsightsHelper.printSummaryOfTests(InsightsHelper.java:1966)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.prepareAutomationReport(TestGetInsightsForNewSubscription.java:296)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace200863006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace200863006'><pre>java.lang.NullPointerException
+	at com.yodlee.insights.yodleeApi.utils.InsightsHelper.printSummaryOfTests(InsightsHelper.java:1966)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.prepareAutomationReport(TestGetInsightsForNewSubscription.java:296)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141054, Validate NEW_SUBSCRIPTION Inisight generation when cobrand is not subscribe to a view - Insights shouldn't be generated, NEW_SUBSCRIPTION, FALSE, EVENT, , 1, view, 5, TRUE, TRUE, , , , 0, View, viewsRulesExpenseMerchantTypes, , , , , BILLERS#SUBSCRIPTION, EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Expected Number of Insights are not generated for All Accounts, Expected = 5 Insights Actual = 3 Insights
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1066131440", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1066131440'><pre>java.lang.AssertionError: Expected Number of Insights are not generated for All Accounts, Expected = 5 Insights Actual = 3 Insights
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>25</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141055, Validate NEW_SUBSCRIPTION Inisight generation when cobrand is subscribed for account's default threshold - Insights must be generated, NEW_SUBSCRIPTION, FALSE, EVENT, , 1, account, 5, TRUE, TRUE, , , , 0, Account, , , , , , , EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1768547133", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1768547133'><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>24</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141056, Validate NEW_SUBSCRIPTION Inisight generation when cobrand is subscribed for view's with same thresold for account and view - Insights must be generated, NEW_SUBSCRIPTION, FALSE, EVENT, , 2, account view, 5, TRUE, FALSE  TRUE, , , , 0, View, viewsRulesExpenseMerchantTypes, , , , , BILLERS#SUBSCRIPTION, EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Expected Number of Insights are not generated for All Accounts, Expected = 5 Insights Actual = 3 Insights
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace328020308", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace328020308'><pre>java.lang.AssertionError: Expected Number of Insights are not generated for All Accounts, Expected = 5 Insights Actual = 3 Insights
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>41</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141057, Validate NEW_SUBSCRIPTION Inisight generation when cobrand and user are both subscribed for an view user changes threshold values from cobrand default threshold - Insights must be generated(VIEW), NEW_SUBSCRIPTION, FALSE, EVENT, , 2, account view, 10, TRUE, TRUE  TRUE, FALSE  TRUE, , FALSE  TRUE, 0, View, viewsRulesExpenseMerchantTypes, , , , , BILLERS#SUBSCRIPTION, EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Expected  10 insights triggered But found Empty {}
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace388737830", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace388737830'><pre>java.lang.AssertionError: Expected  10 insights triggered But found Empty {}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>42</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141058, Validate NEW_SUBSCRIPTION Inisight generation when cobrand and user are both subscribed for an account having "Salary (Salary/Paycheck)" category - Insight Must not be generated, NEW_SUBSCRIPTION, FALSE, EVENT, , 1, account, 3, TRUE, TRUE, TRUE, ExpenseIncomeAccount, TRUE, 1, Account, , , , , , , EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1943664771", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1943664771'><pre>java.lang.NullPointerException
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:264)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>41</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141059, Validate NEW_SUBSCRIPTION Inisight generation for an user is subscribed future day is 20 and for account entiti, NEW_SUBSCRIPTION, FALSE, EVENT, , 1, account, 5, TRUE, TRUE, TRUE, , TRUE, 0, Account, , , , , , , EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace194097969", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace194097969'><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>29</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141060, Validate NEW_SUBSCRIPTION Inisight generation for an user will PATCH one account Id (isSubscribed = true) - one Insight should be generated for that PATCHed account, NEW_SUBSCRIPTION, FALSE, EVENT, , 1, account, 5, TRUE, TRUE, TRUE, InvestmentIncomeAccount, TRUE, 0, Account, , , , , , , EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1901771304", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1901771304'><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>26</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141061, Validate NEW_SUBSCRIPTION Inisight generation for an user will PATCH one account Id having Income Expense txns (isSubscribed = true) - 1 Insight should  be generated for the income Txn PATCHed accounts, NEW_SUBSCRIPTION, FALSE, EVENT, , 1, account, 3, TRUE, TRUE, TRUE, ExpenseIncomeAccount, TRUE, 1, Account, , , , , , , EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace208196015", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace208196015'><pre>java.lang.NullPointerException
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:264)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>26</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141062, Validate NEW_SUBSCRIPTION Inisight generate inisghts for all accounts - 11 insghts should be generated, NEW_SUBSCRIPTION, TRUE, EVENT, , 2, account view, 5, TRUE, TRUE  TRUE, TRUE FALSE, , TRUE FALSE, 0, Account, , , , , , , EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace24335702", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace24335702'><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>43</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141063, Validate NEW_SUBSCRIPTION Inisight generate inisghts by triggering one moretime  for all accounts (Verify trigger check for all accounts)- Already created insights should be retained, NEW_SUBSCRIPTION, FALSE, EVENT, , 2, account view, 5, TRUE, TRUE  TRUE, TRUE FALSE, , TRUE FALSE, 0, Account, , , , , , , EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1352204492", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1352204492'><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>41</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141064, Validate NEW_SUBSCRIPTION Inisight generate inisghts for a specific accountId - Insights should be generated, NEW_SUBSCRIPTION, TRUE, EVENT, , 1, account, 3, TRUE, TRUE, TRUE, MultipleCatsAccount, TRUE, 1, Account, , , , , , , EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace740601810", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace740601810'><pre>java.lang.NullPointerException
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:264)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>26</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141065, Validate NEW_SUBSCRIPTION Inisight generate inisghts for a specific accountId(verify trgger check for specific accountId) - Already created insights should be retained, NEW_SUBSCRIPTION, FALSE, EVENT, , 1, account, 5, FALSE, TRUE, TRUE, , TRUE, 0, Account, , , , , , , EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1667858969", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1667858969'><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>40</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141066, Validate NEW_SUBSCRIPTION Inisight generate inisghts by triggering one moretime  for created views (Verify trigger check for created view)- Already created insights should be retained, NEW_SUBSCRIPTION, FALSE, EVENT, , 2, account view, 5, TRUE, TRUE  TRUE, FALSE  TRUE, , FALSE  TRUE, 0, View, , , , , , BILLERS#SUBSCRIPTION, EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace449972015", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace449972015'><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>25</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141067, Validate NEW_SUBSCRIPTION Inisight generate inisghts for account's  edit createdDate to past 32 days and re trigger invoker only for the modified insight new insight  should be generated , NEW_SUBSCRIPTION, EDIT,-32, EVENT, , 2, account view, 5, TRUE, TRUE  TRUE, TRUE FALSE, , TRUE FALSE, 0, Account, , , , , , , EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace663844738", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace663844738'><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>24</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141068, Validate NEW_SUBSCRIPTION Inisight generate inisghts for account's  edit createdDate to past -15 days and re trigger invoker no new  insight   should be generated , NEW_SUBSCRIPTION, EDIT,-15, EVENT, , 2, account view, 5, TRUE, TRUE  TRUE, TRUE FALSE, , TRUE FALSE, 0, Account, , , , , , , EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td><div><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace814177305", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace814177305'><pre>java.lang.AssertionError: Expected  5 insights triggered But found Empty {}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription(TestGetInsightsForNewSubscription.java:289)
+	at sun.reflect.GeneratedMethodAccessor283.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>42</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141052, Validate NEW_SUBSCRIPTION Inisight generation when cobrand is not subscribed to an account - Insights shouldn't be generated, NEW_SUBSCRIPTION, FALSE, EVENT, , 1, account, 0, TRUE, FALSE, , , , 0, , , , , , , , EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td></td>
+<td>41</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription.testGetNotificationsForNewSubscription()'><b>testGetNotificationsForNewSubscription</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription<br>Parameters: AT-141053, Validate NEW_SUBSCRIPTION Inisight generation when cobrand is not subscribe to a view - Insights shouldn't be generated, NEW_SUBSCRIPTION, FALSE, EVENT, , 1, view, 0, TRUE, FALSE, , , , 0, View, viewsRulesExpenseMerchantTypes, , , , , BILLERS#SUBSCRIPTION, EventSub.site16441.2,site16441.2, 201, TRUE</td>
+<td></td>
+<td>42</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNewSubscription@306f16f3</td></tr>
+</table><p>
+</body>
+</html>

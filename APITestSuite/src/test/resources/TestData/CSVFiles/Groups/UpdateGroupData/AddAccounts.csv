@@ -1,0 +1,2 @@
+TestCaseId,TestCaseName,containerKey,container,groupKey,group,resFile,filePath,cobsessionTokenKey,cobsessionToken,userSessionTokenKey,userSessionToken,status ,enabledTest,defectID
+AT-67591,Add Account with valid data,containerKey,bank,group,test123,AccAddAccountsGrp.json,../src/test/resources/TestData/JSONFiles/AccountGroups/AddAccountsGroupJson/,cobsession,VALID,userSession,VALID,204,TRUE,0

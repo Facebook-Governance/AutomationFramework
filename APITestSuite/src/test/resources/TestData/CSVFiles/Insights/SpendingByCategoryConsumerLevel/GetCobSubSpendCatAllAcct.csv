@@ -1,0 +1,11 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-146914,"Validate SpendingByCategoryConsumerLevel , check if Insight is unSubscribed to OR isSubscribed=false ",,SpendingByCategoryConsumerLevel,SpendingByCategoryConsumerLevel,,,,,,account,TRUE,,,,200,TRUE
+AT-146915,"Validate SpendingByCategoryConsumerLevel , Validate InsightName",,SpendingByCategoryConsumerLevel,SpendingByCategoryConsumerLevel,,,,,,,,,,,200,TRUE
+AT-146916,"Validate SpendingByCategoryConsumerLevel , Validate Supporting container",,SpendingByCategoryConsumerLevel,,,BANK CARD INVESTMENT,,,,,,,,,200,TRUE
+AT-146917,"Validate SpendingByCategoryConsumerLevel , Validate TriggerType",SCHEDULE,SpendingByCategoryConsumerLevel,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-146918,"Validate SpendingByCategoryConsumerLevel , Validate applicableEntity",,SpendingByCategoryConsumerLevel,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-146919,"Validate SpendingByCategoryConsumerLevel , Validate number of levels and levelObject",,SpendingByCategoryConsumerLevel,,,,,,ACCOUNT,account,,,,,200,TRUE
+AT-146920,"Validate SpendingByCategoryConsumerLevel , Validate isSubscribed=false",,SpendingByCategoryConsumerLevel,,,,,,,,FALSE,,,,200,TRUE
+AT-146922,"Validate SpendingByCategoryConsumerLevel , Validate insightKeys",,SpendingByCategoryConsumerLevel,,,,Account,,ACCOUNT,,,,,,200,TRUE
+AT-146923,"Validate SpendingByCategoryConsumerLevel , Validate description",,SpendingByCategoryConsumerLevel,,,,,Generates an insight that provides spending trends (based on $ amount) by category over a configured time period.,,,,,,,200,TRUE
+AT-146924,"Validate SpendingByCategoryConsumerLevel , Validate title",,SpendingByCategoryConsumerLevel,,Spending By Category: All Accounts,,,,,,,,,,200,TRUE

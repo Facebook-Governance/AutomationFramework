@@ -1,0 +1,16 @@
+{
+    "providerAccount": {
+        "id": "${json-unit.any-string}",
+        "account": [
+            {
+                "accountType": "CHECKING",
+                "accountNumber": "${json-unit.any-string}",
+                "verification": {
+                    "type": "MATCHING",
+                    "status": "FAILED",
+                    "reason": "ACCT_NUMBER_LENGTH_RULE_FAILED"
+                }
+            }
+        ]
+    }
+}

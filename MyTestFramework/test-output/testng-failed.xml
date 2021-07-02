@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestFramework]">
+  <parameter name="Environment" value="MMT"/>
+  <parameter name="Browser" value="Chrome"/>
+  <test thread-count="5" name="MMTValidations(failed)">
+    <classes>
+      <class name="com.TestClasses.HomePage">
+        <methods>
+          <include name="planTravel"/>
+          <include name="beforeSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.TestClasses.HomePage -->
+    </classes>
+  </test> <!-- MMTValidations(failed) -->
+</suite> <!-- Failed suite [TestFramework] -->

@@ -1,0 +1,10 @@
+testCaseId,TestCase,categoryNameKey,categoryNameValue,parentCategoryIdKey,parentCategoryIdValue,status,enabled
+AT-67093,Valid JSON,categoryName,Sub1 - Automotive Expenses,parentCategoryId,2,201,TRUE
+AT-67094,Create 2nd Sub-category,categoryName,Sub2 - Automotive Expenses,parentCategoryId,2,201,TRUE
+AT-67095,Create 3rd Sub-category,categoryName,Sub3 - Automotive Expenses,parentCategoryId,2,201,TRUE
+AT-67096,Create 4th Sub-category,categoryName,Sub4 - Automotive Expenses,parentCategoryId,2,201,TRUE
+AT-67097,Create 5th Sub-category,categoryName,Sub5- Automotive Expenses,parentCategoryId,2,201,TRUE
+AT-67098,Create with 1 character,categoryName,s,parentCategoryId,3,201,TRUE
+AT-67099,Create with 50 characters,categoryName,abcdefghij1234567890abcdefghij1234567890abcdefghij,parentCategoryId,3,201,TRUE
+AT-67100,Create with space,categoryName,Sub Charitable Giving,parentCategoryId,3,201,TRUE
+AT-67101,With double-quotes,categoryName,"Sub Cha\""ritable Giving",parentCategoryId,3,201,TRUE

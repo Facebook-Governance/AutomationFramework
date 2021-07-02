@@ -1,0 +1,40 @@
+{
+  "userData": [
+    {
+      "user": {
+        "loginName": "YSLDE1500313457984"
+      },
+      "account": [
+        {
+          "memo": "this is bill account",
+          "CONTAINER": "bill",
+          "nickname": "Flood Cash",
+          "isManual": true,
+          "isAsset": false,
+          "lastUpdated": "${json-unit.ignore}",
+          "frequency": "DAILY",
+          "isDeleted": true,
+          "url": "https://www.icici.com/",
+          "id": "${json-unit.ignore}",
+          "balance": {
+            "amount": 85699,
+            "currency": "USD"
+          },
+          "accountName": "BNP Account",
+          "accountNumber": "1004",
+          "providerName": "Custom Bank",
+          "accountStatus": "DELETED",
+          "accountType": "BILLS",
+          "providerId": "7634",
+          "amountDue": {
+            "amount": 85699,
+            "currency": "USD"
+          },
+          "dueDate": "${json-unit.ignore}",
+          "createdDate": "${json-unit.ignore}",
+          "providerAccountId": "${json-unit.ignore}"
+        }
+      ]
+    }
+  ]
+}

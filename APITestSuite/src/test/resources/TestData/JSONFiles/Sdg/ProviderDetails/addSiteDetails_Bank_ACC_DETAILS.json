@@ -1,0 +1,18 @@
+{
+    "providerAccount": [
+        {
+            "id": "${json-unit.ignore}",
+            "aggregationSource": "USER",
+            "status": "REFRESH_TRIGGERED",
+            "requestId": "${json-unit.ignore}",
+            "dataSet": [
+                {
+                    "name": "BASIC_AGG_DATA",
+                    "additionalStatus": "DATA_RETRIEVAL_IN_PROGRESS",
+                    "suggestedAction": "DISALLOW_REFRESH",
+                    "lastRefreshAttempt": "${json-unit.ignore}"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+testCaseId,testCaseName,segmentNameKey,segmentNameValue,responseFile,status,filePath,enabled
+AT-97963,register  comma seprated segmentName,segmentName,"Subrand Segment,Subrand Segment",invalidSegmentName.json,400,../src/test/resources/TestData/Segmentation/,TRUE
+AT-97963,register invalid segmentName value,segmentName,invalid,invalidSegmentName.json,400,../src/test/resources/TestData/Segmentation/,TRUE
+AT-97963,register invalid segmentName value as alphanumeric characters,segmentName,invalid!12,invalidSegmentName.json,400,../src/test/resources/TestData/Segmentation/,TRUE
+AT-97963,register invalid segmentName from  channel,segmentName,Small Business Segment,invalidSegmentName.json,400,../src/test/resources/TestData/Segmentation/,TRUE
+AT-97963,register invalid value by  providing as case sensitive,segmentName,subrand segment 01,invalidSegmentName.json,400,../src/test/resources/TestData/Segmentation/,TRUE
+AT-97963,register  with deleted segmentName,segmentName,Deleted Segment,invalidSegmentName.json,400,../src/test/resources/TestData/Segmentation/,TRUE
+AT-97963,register invalid segmentName from  different subrand,segmentName,SegmentName for Automation1,invalidSegmentName.json,400,../src/test/resources/TestData/Segmentation/,TRUE
+AT-97963,register with invalid segment Key,segment_Name,Subrand Segment,,200,../src/test/resources/TestData/Segmentation/,TRUE
+AT-97963,register with invalid segment Key,segmentName123,Subrand Segment,,200,../src/test/resources/TestData/Segmentation/,TRUE
+AT-97963,register with invalid segment Key,,Subrand Segment,,200,../src/test/resources/TestData/Segmentation/,TRUE

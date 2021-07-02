@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll" parallel="methods" thread-count="1"
+	preserve-order="true">
+	<parameter name="hybrid" value="false" />
+	<parameter name="release_name" value="Version2" />
+	<parameter name="isFirstRun" value="false" />
+	<parameter name="isStaticComparable" value="false" />
+	<parameter name="isDiffyEnabled" value="false" />
+	<parameter name="getApiVersion" value="2" />
+	<parameter name="isUserStatic" value="false" />
+	<parameter name="updateApiVersion" value="2" />
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="config_file"
+		value="Config_NonDocker_Insights_V2.properties" />
+	<parameter name="suiteName"
+		value="Insights REFRESH Feeds Suite" />
+	<parameter name="environment" value="NonDocker" />
+	<listeners>
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+	</listeners>
+	
+	 <test name="CRUD User Segment APIs">
+		<classes>
+			<class name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestCreateUserSegment">	</class>
+			<class name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestDeleteUserSegment">	</class>
+			<class name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetUserSegment">	</class>
+			<class name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestUpdateUserSegment">	</class>
+		</classes>
+	</test>
+
+	 <test name="LargeDepositNotice">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLargeDepositNotice">
+			</class>
+		</classes>
+	</test>
+	<test name="LowBalanceWarning">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLowBalanceWarning">
+			</class>
+		</classes>
+	</test>
+	<test name="Balance Above Threshold">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForBalanceAboveThreshold">
+			</class>
+		</classes>
+	</test>
+	<test name="Refund Deposit Notice">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForRefundDepositNotice">
+			</class>
+		</classes>
+	</test>
+	<test name="Credit Card Apr Change">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCreditCardAPRChange">
+			</class>
+		</classes>
+	</test>
+	<test name="Card Statement Available">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementAvailable">
+			</class>
+		</classes>
+	</test>
+	<test name="Card Statement Due">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCardStatementDueReminder">
+			</class>
+		</classes>
+	</test>
+	<test name="Aggregate Credit Card Account">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForAggregateCreditCardAccount">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Aggregate Insurance Account">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForAggregateInsuranceAccount">
+			</class>
+		</classes>
+	</test>
+	<test name="Aggregate Investment Account">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForAggregateInvestmentAccount">
+			</class>
+		</classes>
+	</test> 
+	<test name="Aggregate Mortgage Account">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForAggregateMortgageAccount">
+			</class>
+		</classes>
+	</test>
+	<test name="Aggregate Real Estate Account">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForAggregateRealEstateAccount">
+			</class>
+		</classes>
+	</test>
+	<test name="Aggregate Savings Checking Account">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForAggregateSavingsCheckingAccount">
+			</class>
+		</classes>
+	</test>
+	<test name="Credit Utilization Single Card">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCreditUtilizationSingleCard">
+			</class>
+		</classes>
+	</test>
+	<test name="Credit Utilization All Cards">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCreditUtilizationAllCards">
+			</class>
+		</classes>
+	</test> 
+	<test name="Large Purchase">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLargePurchaseInsight">
+			</class>
+		</classes>
+	</test>	
+	<test name="Projected Low Balance">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedLowBalance">
+			</class>
+		</classes>
+	</test>	
+	<test name="GET Feeds - Duplicate Transactions">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForDuplicateTransactions">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GET Feeds - Spending Exceeded Average">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSpendingExceededAverage">
+			</class>
+		</classes>
+	</test>
+</suite>

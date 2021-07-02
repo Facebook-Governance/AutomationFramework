@@ -1,0 +1,7 @@
+TestCaseId,TestCaseName,containerKey,container,groupKey,group,resFile,filePath,cobsessionTokenKey,cobsessionToken,userSessionTokenKey,userSessionToken,status ,enabledTest,defectID
+AT-67705,Group name with less than char,containerKey,bank,group,te,updateGrouplesschar.json,../src/test/resources/TestData/JSONFiles/AccountGroups/UpdateGroupJson/,cobsession,VALID,userSession,VALID,400,TRUE,0
+AT-67706,Group name exceeds 40 charr,containerKey,bank,group,testgrouptestgrouptestgrouptestgrouptestgrouptestgroup,Groupmorechar.json,../src/test/resources/TestData/JSONFiles/AccountGroups/UpdateGroupJson/,cobsession,VALID,userSession,VALID,400,TRUE,0
+AT-67707,Group name with listed spl char,containerKey,bank,group,test^^^---,updatePecialChar.json,../src/test/resources/TestData/JSONFiles/AccountGroups/UpdateGroupJson/,cobsession,VALID,userSession,VALID,400,TRUE,0
+AT-67708,Duplicate group name,containerKey,bank,group,test123,updateduplicateGroup.json,../src/test/resources/TestData/JSONFiles/AccountGroups/UpdateGroupJson/,cobsession,VALID,userSession,VALID,400,TRUE,0
+AT-67711,Group name - Null,containerKey,bank,group,,nullGroupUpdate.json,../src/test/resources/TestData/JSONFiles/AccountGroups/UpdateGroupJson/,cobsession,VALID,userSession,VALID,400,TRUE,0
+AT-67712,Group name - Empty,containerKey,bank,group,,EmptyupdateGroup.json,../src/test/resources/TestData/JSONFiles/AccountGroups/UpdateGroupJson/,cobsession,VALID,userSession,VALID,400,TRUE,0

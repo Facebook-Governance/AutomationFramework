@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suites" verbose="5">
+
+	<!-- <parameter name="coBrand" value="YCOM_L1" />
+	<parameter name="loginType" value="L1NODE"/> -->
+	<parameter name="runOnBrowserStack" value="false" />
+	<parameter name="bs_username" value="yodleebrowsersta1" />
+	<parameter name="bs_automate_key"
+		value="pzyoTJ6embZ48zsufsF2" />
+	<parameter name="browser" value="chrome" />
+	<parameter name="browser_version" value="48" />
+	<parameter name="platformName" value="windows" />
+	<parameter name="platformVersion" value="7" />
+	<parameter name="elpamEnabled" value="true" />
+	<parameter name="theme" value="new"></parameter>
+	<parameter name="appFlag" value="false"></parameter>
+	<parameter name="suiteName" value="Save For Goal Regression" />
+
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.omni.pfm.listeners.CustomListener" />
+		<listener
+			class-name="com.automation.rdashboard.ReportDashboardPlugin" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+	</listeners>
+
+	<test verbose="2" name="Feature - SFG FTUE" preserve-order="true">
+		<classes>
+			<class name="com.omni.pfm.SFG.SFG_CreateGoal_GetStarted"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - SFG Create Goal Frequency Amount Flow"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.SFG.SFG_CreateGoal_FrequencyAmountFlow_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - SFG Create Goal Fund Transfer Flow"
+		preserve-order="true">
+		<classes>
+
+			<class
+				name="com.omni.pfm.SFG.SFG_CreateGoal_FrqAmount_FundTransferFlow_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - SFG Target Date Flow"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.SFG.SFG_CreateGoal_TargetDateFlow_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - SFG Target Date Fund Transfer Flow"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.SFG.SFG_CreateGoal_TargetDate_FundTransferFlow_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - SFG Custome Goald Edit"
+		preserve-order="true">
+		<classes>
+			<class name="com.omni.pfm.SFG.SFG_CustomGoalsEdit_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - SFG Dashboard Integration"
+		preserve-order="true">
+		<classes>
+			<class name="com.omni.pfm.SFG.SFG_DashBoard_Integeration"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - SFG Account Integration"
+		preserve-order="true">
+		<classes>
+			<class name="com.omni.pfm.SFG.SFG_Account_Integration_Test"></class>
+		</classes>
+	</test>
+
+	<test name="SFG Alerts" preserve-order="true">
+		<classes>
+			<class name="com.omni.pfm.SFG.SFG_Alerts_Test"></class>
+		</classes>
+	</test>
+
+	<test name="SFG Error in Accounts" preserve-order="true">
+		<classes>
+			<class name="com.omni.pfm.SFG.SFG_ErrorInAccounts_Test"></class>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>TestNG:  GET Feeds - Your spending last month    compared to your historical average</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GET Feeds - Your spending last month    compared to your historical average</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 04 11:02:51 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>785 seconds (785488 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage.testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight()'><b>testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage<br>Parameters: AT-YSCtMA01, Validate YourSpendingLastMonthComparedToAverage Insight when cobrand is not Subscribed, YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE, FALSE, BANK, CARD, SCHEDULE, 16441, InsightPDV.bank15, bank15, , 1, account, , , , , 0, TRUE, FALSE, , YourSpendingLastMonthComparedToYourHistoricalAverage.json, , , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>146</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage@6babf3bf</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage.testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight()'><b>testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage<br>Parameters: AT-YSCtMA02, Validate YourSpendingLastMonthComparedToAverage Insight when cobrand is  Subscribed and User is not Subscribed, YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, , , , , 0, TRUE, TRUE, FALSE, YourSpendingLastMonthComparedToYourHistoricalAverage.json, , , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>99</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage@6babf3bf</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage.testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight()'><b>testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage<br>Parameters: AT-YSCtMA03, Validate YourSpendingLastMonthComparedToAverage Insight when cobrand is  Subscribed and User is not Subscribed(Inheriting Cobrand Thresholds), YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, TRUE, , YourSpendingLastMonthComparedToYourHistoricalAverage.json, , , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>59</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage@6babf3bf</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage.testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight()'><b>testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage<br>Parameters: AT-YSCtMA04, Validate YourSpendingLastMonthComparedToAverage Insight when cobrand is subscribed  for different threshold user overides cobrand threshold, YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, TRUE, TRUE, YourSpendingLastMonthComparedToYourHistoricalAverage.json, , , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>60</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage@6babf3bf</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage.testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight()'><b>testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage<br>Parameters: AT-YSCtMA05, Validate YourSpendingLastMonthComparedToAverage Insight when user patch Threshold only AMOUNt and Duration, YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, , TRUE, YourSpendingLastMonthComparedToYourHistoricalAverage.json, LAST_THREE_MONTHS, , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>60</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage@6babf3bf</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage.testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight()'><b>testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage<br>Parameters: AT-YSCtMA06, Validate YourSpendingLastMonthComparedToAverage Insight when Threshold is patched and with user Subscriptions as false, YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, , , , , 0, TRUE, , FALSE, YourSpendingLastMonthComparedToYourHistoricalAverage.json, , , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>100</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage@6babf3bf</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage.testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight()'><b>testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage<br>Parameters: AT-YSCtMA07, Validate YourSpendingLastMonthComparedToAverage Insight when threshold is 1000 as AMOUNT and 101 PERCENT with diff duration, YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, , TRUE, YourSpendingLastMonthComparedToYourHistoricalAverage.json, LAST_SIX_MONTHS, , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>15</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage@6babf3bf</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage.testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight()'><b>testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage<br>Parameters: AT-YSCtMA08, Validate YourSpendingLastMonthComparedToAverage Insight when threshold is 1 as AMOUNT and 1 PERCENT with diff duration, YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, , TRUE, YourSpendingLastMonthComparedToYourHistoricalAverage.json, LAST_TWELVE_MONTHS, , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>61</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage@6babf3bf</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage.testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight()'><b>testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage<br>Parameters: AT-YSCtMA09, Validate YourSpendingLastMonthComparedToAverage Insight when threshold is 500 as AMOUNT and 50 PERCENT with diff duration, YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, , TRUE, YourSpendingLastMonthComparedToYourHistoricalAverage.json, , , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>60</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage@6babf3bf</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage.testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight()'><b>testGetNotificationsForYourSpendingLastMonthComparedToYourAverageInsight</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage<br>Parameters: AT-YSCtMA10, Reset HighBIlls and Subscription to default values, YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE, FALSE, BANK, CARD, SCHEDULE, 16441, , , , 1, account, , , , , 0, TRUE, FALSE, , YourSpendingLastMonthComparedToYourHistoricalAverage.json, LAST_THREE_MONTHS, , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>99</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForYourSpendingLastMonthComparedToYourAverage@6babf3bf</td></tr>
+</table><p>
+</body>
+</html>

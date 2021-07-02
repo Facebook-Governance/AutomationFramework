@@ -1,0 +1,8 @@
+tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,enabled,UsTestcaseId,priority
+"AT-106954,AT-106955,AT-106956",PostConsentWithAddnlDataSet,POST_CONSENT#CLEAR_LIST,../src/test/resources/TestData/XML/OpenBanking/,PostConsentWithAddnlDataSet.xml,YES,NO,true,a6,p1
+"AT-106957,AT-106958,AT-106959",PostConsentWithInvalidDataSet,POST_CONSENT#CLEAR_LIST,../src/test/resources/TestData/XML/OpenBanking/,PostConsentWithInvalidDataSet.xml,YES,NO,true,a6,p1
+"AT-106960,AT-106961,AT-106962",PutConsentWithInvalidConsentId,POST_CONSENT#UPDATE_CONSENT#CLEAR_LIST,../src/test/resources/TestData/XML/OpenBanking/,PutConsentWithInvalidConsentId.xml,YES,NO,true,a6,p1
+"AT-106963,AT-106964,AT-106965",PutConsentWithInvalidScopeIds,POST_CONSENT#UPDATE_CONSENT#CLEAR_LIST,../src/test/resources/TestData/XML/OpenBanking/,PutConsentWithInvalidScopeIds.xml,YES,NO,true,a6,p1
+"AT-106966",PostOBProviderAccwithInvalidConsentId,POST_CONSENT#UPDATE_CONSENT#ADD_OB_PROVIDER_ACCOUNT#CLEAR_LIST,../src/test/resources/TestData/XML/OpenBanking/,PostOBProviderAccwithInvalidConsentId.xml,YES,NO,true,a6,p1
+"AT-106967",PostOBProviderAccwithInvalidAuthCode,POST_CONSENT#UPDATE_CONSENT#ADD_OB_PROVIDER_ACCOUNT#CLEAR_LIST,../src/test/resources/TestData/XML/OpenBanking/,PostOBProviderAccwithInvalidAuthCode.xml,YES,NO,true,a6,p1
+"AT-106968",GetConsentWithInvalidConsentId,POST_CONSENT#UPDATE_CONSENT#ADD_OB_PROVIDER_ACCOUNT#GET_CONSENT_DETAILS#CLEAR_LIST,../src/test/resources/TestData/XML/OpenBanking/,GetConsentWithInvalidConsentId.xml,YES,NO,true,a6,p1

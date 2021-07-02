@@ -1,0 +1,202 @@
+{
+  "account": [
+    {
+      "includeInNetWorth": true,
+      "accountName": "Super CD Plus2",
+      "dueDate": "2012-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "frequency": "SEMI_MONTHLY",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": false,
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "providerId": "16441",
+      "maturityDate": "2013-01-25",
+      
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "originationDate": "2013-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      
+      "CONTAINER": "loan",
+      "collateral": "ABC"
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "Super CD Plus1",
+      "dueDate": "2012-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "frequency": "SEMI_MONTHLY",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": false,
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "providerId": "16441",
+      "maturityDate": "2013-01-25",
+      
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "originationDate": "2013-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      
+      "CONTAINER": "loan",
+      "collateral": "ABC"
+    },
+    {
+      "includeInNetWorth": true,
+      "accountName": "Super CD Plus",
+      "dueDate": "2012-01-25",
+      "interestPaidLastYear": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "frequency": "SEMI_MONTHLY",
+      "accountStatus": "ACTIVE",
+      "refreshinfo": {
+        
+        
+        
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      
+      "isAsset": false,
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "providerId": "16441",
+      "maturityDate": "2013-01-25",
+      
+      "providerName": "Dag Site",
+      "minimumAmountDue": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "interestRate": 7,
+      "availableCredit": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "Bill Gates"
+          }
+        }
+      ],
+      "accountType": "OTHER",
+      "isManual": false,
+      "originationDate": "2013-01-22",
+      "accountNumber": "354-2334",
+      "interestRateType": "VARIABLE",
+      "amountDue": {
+        "amount": 14000,
+        "currency": "USD"
+      },
+      "originalLoanAmount": {
+        "amount": 3000,
+        "currency": "USD"
+      },
+      
+      "interestPaidYTD": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      
+      "CONTAINER": "loan",
+      "collateral": "ABC"
+    }
+  ]
+}

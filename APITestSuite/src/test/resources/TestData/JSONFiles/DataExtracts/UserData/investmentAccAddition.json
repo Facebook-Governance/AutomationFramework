@@ -1,0 +1,200 @@
+{
+    "userData": [
+        {
+            "user": {
+                "loginName": ""
+            },
+            "providerAccount": [
+                {
+                    "refreshInfo": {
+                        "statusCode": 0,
+                        "lastRefreshAttempt": "${json-unit.ignore}",
+                        "status": "SUCCESS",
+                        "lastRefreshed": "${json-unit.ignore}",
+                        "nextRefreshScheduled": "${json-unit.ignore}",
+                        "statusMessage": "OK"
+                    },
+                    "id": 10865434,
+                    "aggregationSource": "USER",
+                    "isManual": false,
+                    "lastUpdated": "${json-unit.ignore}",
+                    "providerId": 16441,
+                    "isDeleted": false,
+                    "createdDate": "2017-06-15"
+                }
+            ],
+            "account": [
+                {
+                    "refreshinfo": {
+                        "statusCode": 0,
+                        "lastRefreshAttempt": "${json-unit.ignore}",
+                        "lastRefreshed": "${json-unit.ignore}",
+                        "nextRefreshScheduled": "${json-unit.ignore}",
+                        "statusMessage": "OK"
+                    },
+                    "isManual": false,
+                    "isAsset": true,
+                    "id": 1112128935,
+                    "balance": {
+                        "amount": 79629,
+                        "currency": "USD"
+                    },
+                    "accountNumber": "555555",
+                    "401kLoan": {
+                        "amount": 100,
+                        "currency": "USD"
+                    },
+                    "accountStatus": "ACTIVE",
+                    "totalVestedBalance": {
+                        "amount": 2432,
+                        "currency": "USD"
+                    },
+                    "includeInNetWorth": true,
+                    "holderProfile": [
+                        {
+                            "name": {
+                                "displayed": "DAG"
+                            }
+                        }
+                    ],
+                    "availableLoan": {
+                        "amount": 55000,
+                        "currency": "USD"
+                    },
+                    "providerAccountId": 10865434,
+                    "createdDate": "${json-unit.ignore}",
+                    "CONTAINER": "investment",
+                    "totalUnvestedBalance": {
+                        "amount": 23242,
+                        "currency": "USD"
+                    },
+                    "lastUpdated": "${json-unit.ignore}",
+                    "marginBalance": {
+                        "amount": 2369,
+                        "currency": "USD"
+                    },
+                    "isDeleted": false,
+                    "url": "http://www.altova.com",
+                    "accountName": "investment_account_1",
+                    "shortBalance": {
+                        "amount": 15000,
+                        "currency": "USD"
+                    },
+                    "providerName": "Dag Site",
+                    "classification": "PERSONAL",
+                    "accountType": "OTHER",
+                    "cash": {
+                        "amount": 1000,
+                        "currency": "USD"
+                    },
+                    "moneyMarketBalance": {
+                        "amount": 1000,
+                        "currency": "USD"
+                    },
+                    "providerId": "16441"
+                }
+            ],
+            "transaction": [
+                {
+                    "cusipNumber": "999999999",
+                    "accountId": 1112128935,
+                    "symbol": "Transaction2",
+                    "status": "POSTED",
+                    "CONTAINER": "investment",
+                    "isManual": false,
+                    "categoryType": "EXPENSE",
+                    "categoryId": 17,
+                    "lastUpdated": "${json-unit.ignore}",
+                    "settleDate": "2017-05-27",
+                    "isDeleted": false,
+                    "type": "LOAN_PAYMENT",
+                    "date": "2017-05-27",
+                    "transactionDate": "2017-05-27",
+                    "id": 1572251,
+                    "amount": {
+                        "amount": 123456,
+                        "currency": "USD"
+                    },
+                    "category": "Loans",
+                    "price": {
+                        "amount": 123,
+                        "currency": "USD"
+                    },
+                    "highLevelCategoryId": 10000004,
+                    "baseType": "CREDIT",
+                    "description": {
+                        "original": "investment_transaction"
+                    },
+                    "quantity": 2345,
+                    "categorySource": "SYSTEM"
+                },
+                {
+                    "cusipNumber": "999999999",
+                    "accountId": 1112128935,
+                    "symbol": "Transaction2",
+                    "status": "POSTED",
+                    "CONTAINER": "investment",
+                    "isManual": false,
+                    "categoryType": "TRANSFER",
+                    "categoryId": 36,
+                    "lastUpdated": "${json-unit.ignore}",
+                    "settleDate": "2017-05-27",
+                    "isDeleted": false,
+                    "type": "SELL",
+                    "date": "2017-05-27",
+                    "transactionDate": "2017-05-27",
+                    "id": 1572250,
+                    "amount": {
+                        "amount": 123456,
+                        "currency": "USD"
+                    },
+                    "category": "Securities Trades",
+                    "price": {
+                        "amount": 123,
+                        "currency": "USD"
+                    },
+                    "highLevelCategoryId": 10000015,
+                    "baseType": "CREDIT",
+                    "description": {
+                        "original": "investment_transaction"
+                    },
+                    "quantity": 2345,
+                    "categorySource": "SYSTEM"
+                },
+                {
+                    "cusipNumber": "999999999",
+                    "accountId": 1112128935,
+                    "symbol": "Transaction2",
+                    "status": "POSTED",
+                    "CONTAINER": "investment",
+                    "isManual": false,
+                    "categoryType": "TRANSFER",
+                    "categoryId": 36,
+                    "lastUpdated": "${json-unit.ignore}",
+                    "settleDate": "2017-05-27",
+                    "isDeleted": false,
+                    "type": "BUY",
+                    "date": "2017-05-27",
+                    "transactionDate": "2017-05-27",
+                    "id": 1572249,
+                    "amount": {
+                        "amount": 123456,
+                        "currency": "USD"
+                    },
+                    "category": "Securities Trades",
+                    "price": {
+                        "amount": 123,
+                        "currency": "USD"
+                    },
+                    "highLevelCategoryId": 10000015,
+                    "baseType": "CREDIT",
+                    "description": {
+                        "original": "investment_buytransaction_1"
+                    },
+                    "quantity": 2345,
+                    "categorySource": "SYSTEM"
+                }
+            ]
+        }
+    ]
+}

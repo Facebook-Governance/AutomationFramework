@@ -1,0 +1,65 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>RestGenDocDown.site16441.7</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.7</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>DOCUMENT</name>
+						<attributeList>
+							<attribute>
+								<name>STATEMENT</name>
+								<container>bank,investment</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<get-documents-multiple>
+			<get-documents order="1">
+				<docAccountId></docAccountId>
+				<docType></docType>
+				<keyword></keyword>
+				<fromDate></fromDate>
+				<toDate></toDate>
+			</get-documents>
+		</get-documents-multiple>
+
+	</request>
+
+	<response>
+		<document-multiple>
+			<document order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/
+					</filePath>
+					<responseFile>getDocumentsLatestSTMT - BankInv.json</responseFile>
+				</row>
+			</document>
+		</document-multiple>
+		<documentDetails-multiple>
+			<documentDetails order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/
+					</filePath>
+					<responseFile>downloadDocument.json</responseFile>
+				</row>
+			</documentDetails>
+		</documentDetails-multiple>
+		<update-provider-accounts-multiple>
+			<update-provider-accounts order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/DocumentDownload/
+					</filePath>
+					<responseFile>getProviderDetailsDocumentDownload.json
+					</responseFile>
+				</row>
+			</update-provider-accounts>
+		</update-provider-accounts-multiple>
+	</response>
+</entity>

@@ -1,0 +1,36 @@
+{
+	"account": [{
+		"includeInNetWorth": true,
+		"holderProfile": [{
+			"name": {
+				"displayed": "DAG"
+			}
+		}],
+		"accountName": "trust",
+		"accountType": "OTHER",
+		"isManual": false,
+		"accountNumber": "989898139",
+		"accountStatus": "INACTIVE",
+		"shortBalance": {
+			"amount": 15000,
+			"currency": "USD"
+		},
+		"refreshinfo": {
+			"statusMessage": "OK",
+			"statusCode": 0
+		},
+		"isAsset": true,
+		"aggregationSource": "USER",
+		"balance": {
+			"amount": 123456,
+			"currency": "USD"
+		},
+		"providerId": "16441",
+		"CONTAINER": "investment",
+		"providerName": "Dag Site",
+		"marginBalance": {
+			"amount": 2369,
+			"currency": "USD"
+		}
+	}]
+}

@@ -1,0 +1,16 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,duration,thresholdDetails,ruleExpression,status,enabled
+AT-154178,"Validate getCobrandSubscription for IncomeThreshold , check if Insight is unSubscribed to OR isSubscribed=false ",,IncomeThreshold,IncomeThreshold,,,,,,,,FALSE,,,,,200,TRUE
+AT-154179,"Validate  getCobrandSubscription for  IncomeThreshold , Validate InsightName",,IncomeThreshold,IncomeThreshold,,,,,,,,,,,,,200,TRUE
+AT-154180,"Validate getCobrandSubscription for  IncomeThreshold , Validate Supporting container",,IncomeThreshold,,,BANK,,,,,,,,,,,200,TRUE
+AT-154181,"Validate getCobrandSubscription for  IncomeThreshold , Validate TriggerType",SCHEDULE,IncomeThreshold,,,,,,,,,,,,,,200,TRUE
+AT-154182,"Validate getCobrandSubscription for  IncomeThreshold , Validate applicableEntity",,IncomeThreshold,,,,,,,VIEW,,,,,,,200,TRUE
+AT-154183,"Validate getCobrandSubscription for  IncomeThreshold , Validate number of levels and levelObject",,IncomeThreshold,,,,,,,VIEW,view,,,,,,200,TRUE
+AT-154184,"Validate getCobrandSubscription for  IncomeThreshold , Validate isSubscribed=false",,IncomeThreshold,,,,,,,,,FALSE,,,,,200,TRUE
+AT-154185,"Validate getCobrandSubscription for  IncomeThreshold , Validate threshold Name,default Value  and Type",,IncomeThreshold,,,,,,,,view,,,,"MINIMUM,500,AMOUNT",,200,TRUE
+AT-154186,"Validate getCobrandSubscription for  IncomeThreshold , validate default frequency",,IncomeThreshold,,,,,,,,view,,DAILY,,,,200,TRUE
+AT-154187,"Validate getCobrandSubscription for  IncomeThreshold , validate default duration",,IncomeThreshold,,,,,,,,view,,,THIS_MONTH,,,200,TRUE
+AT-154188,"Validate getCobrandSubscription for  IncomeThreshold , Validate description",,IncomeThreshold,,,,,,Generates an insight when income for the current month is more than a configured threshold.,,,,,,,,200,TRUE
+AT-154189,"Validate getCobrandSubscription for  IncomeThreshold , Validate title",,IncomeThreshold,,Income Exceeded Threshold,,,,,,,,,,,,200,TRUE
+AT-154190,"Validate getCobrandSubscription for  IncomeThreshold , Validate ruleExpression",,IncomeThreshold,,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-154191,"Validate getCobrandSubscription for  IncomeThreshold , Validate total number of keys",,IncomeThreshold,,,,,16,,,,,,,,,200,TRUE
+AT-154192,"Validate getCobrandSubscription for  IncomeThreshold , Validate insightKeys for View",,IncomeThreshold,IncomeThreshold,,,View,,,,,,,,,,200,TRUE

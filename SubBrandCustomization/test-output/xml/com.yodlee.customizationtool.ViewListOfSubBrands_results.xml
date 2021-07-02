@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sub Brand Management Tool Publish Workflows"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="35.436">
+  <properties />
+  
+  
+            <testcase name="testValidateSearchForExistingSubBrand" time="1.096" classname="com.yodlee.customizationtool.ViewListOfSubBrands" />
+                <testcase name="testValidateViewListOfSubBrandPageContents" time="0.728" classname="com.yodlee.customizationtool.ViewListOfSubBrands" />
+                <testcase name="testValidateSearchFilterWorksOnlyWhenMinimum3CharacterAreEnteredInSearchFilter" time="0.469" classname="com.yodlee.customizationtool.ViewListOfSubBrands" />
+                <testcase name="testValidateSearchForNonExistantSubBrand" time="1.301" classname="com.yodlee.customizationtool.ViewListOfSubBrands" />
+                <testcase name="testValidateSortingByColumnNames" time="31.842" classname="com.yodlee.customizationtool.ViewListOfSubBrands" />
+      
+</testsuite>

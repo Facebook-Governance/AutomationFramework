@@ -1,0 +1,32 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147427,patchUserSubscrionption - subscribe to BillNotPaid,BillNotPaid,,,,,,,,,,,1,,account,1,,,TRUE,,,"DELAY,3,DAYS",204,TRUE
+AT-147453,patchUserSubscrionption - updateTriggerType,BillNotPaid,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147454,patchUserSubscrionption -  update insightName by same name,BillNotPaid,negTestScenario17,,BillNotPaid,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147455,patchUserSubscrionption -  update insightName edit InsightName,BillNotPaid,negTestScenario2,,BillNotPaidEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147452,patchUserSubscrionption - update insightTitle,BillNotPaid,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-147451,patchUserSubscrionption - update container,BillNotPaid,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-147450,patchUserSubscrionption - update keys,BillNotPaid,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147449,patchUserSubscrionption - update description,BillNotPaid,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147456,patchUserSubscrionption - update applicableEntity,BillNotPaid,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-147443,patchUserSubscrionption - update entityParameter,BillNotPaid,,,,,,,,,,,1,,account,1,,,TRUE,,,"DELAY,3,DAYS",204,TRUE
+AT-147444,patchUserSubscrionption -  update entityParameter->account[0]->id - Valid ItemAccountId,BillNotPaid,,,,,,,,,,,1,,account,1,,,TRUE,,,"DELAY,3,DAYS",204,TRUE
+AT-147445,patchUserSubscrionption -  update entityParameter->account[0]->id - InValid ItemAccountId,BillNotPaid,negTestScenario20,,,,,,,,,,1,,account,1,76823,,TRUE,,,"DELAY,3,DAYS",400,TRUE
+AT-147442,patchUserSubscrionption -  update entityParameter->account[0]->isSubscribed=false,BillNotPaid,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-147432,patchUserSubscrionption - update duration  -  entityParameter->account[0]->duration ,BillNotPaid,negTestScenario48,,,,,,,,,,1,,account,1,,,TRUE,LAST_MONHT,,"DELAY,3,DAYS",400,TRUE
+AT-147441,patchUserSubscrionption - update insightType to AGGREGATE - entityParameter->account[0]->insightType,BillNotPaid,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,AGGREGATE,"DELAY,3,DAYS",400,TRUE
+AT-147440,patchUserSubscrionption - update insightType to INVALID - entityParameter->account[0]->insightType,BillNotPaid,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"DELAY,3,DAYS",400,TRUE
+AT-147430,patchUserSubscrionption - update threshold name  - entityParameter->account[0]->threshold[0]->name,BillNotPaid,negTestScenario43,,,,,,,,,,1,,account,1,,,FALSE,,,"AMOUNT,3,DAYS",400,TRUE
+AT-147435,patchUserSubscrionption - update threshold values - entityParameter->account[0]->threshold[0]->value,BillNotPaid,negTestScenario35,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1455,AMOUNT",400,TRUE
+AT-147439,patchUserSubscrionption - update threshold type - entityParameter->account[0]->threshold[0]->type,BillNotPaid,negTestScenario35,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1455,PERCENT",400,TRUE
+AT-147433,"patchUserSubscrionption - update threshold name ,value and type to BALANCE,200,AMOUNT",BillNotPaid,negTestScenario35,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,200,AMOUNT",400,TRUE
+AT-147431,patchUserSubscrionption - update configMeta - subscrption Info - configMeta->account[0]->id,BillNotPaid,negTestScenario19,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"DELAY,3,DAYS",400,TRUE
+AT-147446,patchUserSubscrionption -  update view entityParameter->account[0]->id - InValid ItemAccountId,BillNotPaid,negTestScenario26,,,,,,,,,,1,,view,1,76823,,TRUE,,,"DELAY,3,DAYS",400,TRUE
+AT-147434,patchUserSubscrionption -  update view entityParameter->account[0]->isSubscribed=false,BillNotPaid,,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-147426,patchUserSubscrionption - update View duration  -  entityParameter->account[0]->duration ,BillNotPaid,negTestScenario48,,,,,,,,,,1,,view,1,,,TRUE,LAST_MONHT,,"DELAY,3,DAYS",400,TRUE
+AT-147448,patchUserSubscrionption - update View insightType to AGGREGATE - entityParameter->account[0]->insightType,BillNotPaid,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,AGGREGATE,"DELAY,3,DAYS",400,TRUE
+AT-147447,patchUserSubscrionption - update View insightType to INVALID - entityParameter->account[0]->insightType,BillNotPaid,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,INVALID,"DELAY,3,DAYS",400,TRUE
+AT-147429,patchUserSubscrionption - update View threshold name  - entityParameter->account[0]->threshold[0]->name,BillNotPaid,negTestScenario43,,,,,,,,,,1,,view,1,,,FALSE,,,"AMOUNT,3,DAYS",400,TRUE
+AT-147428,patchUserSubscrionption - update View threshold values - entityParameter->account[0]->threshold[0]->value,BillNotPaid,negTestScenario35,,,,,,,,,,1,,view,1,,,TRUE,,,"BALANCE,1455,AMOUNT",400,TRUE
+AT-147438,patchUserSubscrionption - update View threshold type - entityParameter->account[0]->threshold[0]->type,BillNotPaid,negTestScenario35,,,,,,,,,,1,,view,1,,,TRUE,,,"BALANCE,1455,PERCENT",400,TRUE
+AT-147436,"patchUserSubscrionption - update View threshold name ,value and type to BALANCE,200,AMOUNT",BillNotPaid,negTestScenario35,,,,,,,,,,1,,view,1,,,TRUE,,,"BALANCE,200,AMOUNT",400,TRUE
+AT-147437,patchUserSubscrionption - update View configMeta - subscrption Info - configMeta->account[0]->id,BillNotPaid,negTestScenario19,,,,,,,,,,1,TRUE,view,1,,,FALSE,,,"DELAY,3,DAYS",400,TRUE

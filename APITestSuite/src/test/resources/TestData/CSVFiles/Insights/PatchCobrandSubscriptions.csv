@@ -1,0 +1,336 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-8001,subscribe to LowBalanceWarning isSubscribed=true,LowBalanceWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,500,AMOUNT",204,TRUE
+AT-8002,update insightName to same name,LowBalanceWarning,negTestScenario1,LowBalanceWarning,,,,,,,,,,,,,,,,,,500,TRUE
+AT-8003, update insightName to different name,LowBalanceWarning,negTestScenario2,LowBalanceWarningEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-8004,update insightTitle chars between 3 and 100 ,LowBalanceWarning,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-8005, update insightTitle chars are only 3,LowBalanceWarning,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-8006,update insightTitle chars are only 100,LowBalanceWarning,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-8007,update insightTitle chars are less than 3,LowBalanceWarning,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-8008, update insightTitle chars are greater 100,LowBalanceWarning,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-8009,update insightTitle chars are special characters,LowBalanceWarning,negTestScenario5,,()&*#),,,,,,,,,,,,,,,,,400,TRUE
+AT-8010, update container,LowBalanceWarning,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-8011, update keys,LowBalanceWarning,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-8012, update description,LowBalanceWarning,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-8013, update applicableEntity,LowBalanceWarning,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-8014, update entityParameter,LowBalanceWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1000,AMOUNT",204,TRUE
+AT-8015,update entityParameter->account[0]->frequency,LowBalanceWarning,negTestScenario10,,,,,,,,,1,,account,1,,M,TRUE,,,"BALANCE,1000,AMOUNT",400,TRUE
+AT-8016,update entityParameter->account[0]->isSubscribed=false,LowBalanceWarning,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-8017,update entityParameter->account[0]->duration,LowBalanceWarning,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"BALANCE,1000,AMOUNT",400,TRUE
+AT-8018,update entityParameter->account[0]->insightType,LowBalanceWarning,,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"BALANCE,1000,AMOUNT",204,TRUE
+AT-8019,update entityParameter->account[0]->insightType - Invalid Name,LowBalanceWarning,negTestScenario12,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"BALANCE,1000,AMOUNT",400,TRUE
+AT-8020,update entityParameter->account[0]->threshold[0]->name,LowBalanceWarning,negTestScenario13,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,1000,AMOUNT",400,TRUE
+AT-8021,update entityParameter->account[0]->threshold[0]->value,LowBalanceWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1455,AMOUNT",204,TRUE
+AT-8022, update entityParameter->account[0]->threshold[0]->type,LowBalanceWarning,negTestScenario14,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1455,PERCENT",400,TRUE
+AT-8023, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,LowBalanceWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,200,AMOUNT",204,TRUE
+AT-8024, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,LowBalanceWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,200,AMOUNT",204,TRUE
+AT-9001,subscribe to CreditLimitWarning isSubscribed=true,CreditLimitWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,88,PERCENT",204,TRUE
+AT-9002,update insightName to same name,CreditLimitWarning,negTestScenario1,CreditLimitWarning,,,,,,,,,,,,,,,,,,500,TRUE
+AT-9003, update insightName to different name,CreditLimitWarning,negTestScenario2,CreditLimitWarningEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-9004,update insightTitle chars between 3 and 100 ,CreditLimitWarning,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-9005, update insightTitle chars are only 3,CreditLimitWarning,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-9006,update insightTitle chars are only 100,CreditLimitWarning,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-9007,update insightTitle chars are less than 3,CreditLimitWarning,negTestScenario3,,mm,,,,,,,,,,,,,,,,,400,TRUE
+AT-9008, update insightTitle chars are greater 100,CreditLimitWarning,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-9009,update insightTitle chars are special characters,CreditLimitWarning,negTestScenario5,,()&*#),,,,,,,,,,,,,,,,,400,TRUE
+AT-9010, update container,CreditLimitWarning,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-9011, update keys,CreditLimitWarning,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-9012, update description,CreditLimitWarning,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-9013, update applicableEntity,CreditLimitWarning,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-9014, update entityParameter,CreditLimitWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,10,PERCENT",204,TRUE
+AT-9015,update entityParameter->account[0]->frequency,CreditLimitWarning,negTestScenario10,,,,,,,,,1,,account,1,,M,TRUE,,,"LIMIT,30,PERCENT",400,TRUE
+AT-9016,update entityParameter->account[0]->isSubscribed=false,CreditLimitWarning,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-9017,update entityParameter->account[0]->duration,CreditLimitWarning,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"LIMIT,50,PERCENT",400,TRUE
+AT-9018,update entityParameter->account[0]->insightType,CreditLimitWarning,,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"LIMIT,98,PERCENT",204,TRUE
+AT-9019,update entityParameter->account[0]->insightType - Invalid Name,CreditLimitWarning,negTestScenario12,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"LIMIT,33,PERCENT",400,TRUE
+AT-9020,update entityParameter->account[0]->threshold[0]->name,CreditLimitWarning,negTestScenario13,,,,,,,,,1,,account,1,,,FALSE,,,"BALANCE,6,PERCENT",400,TRUE
+AT-9021,update entityParameter->account[0]->threshold[0]->value,CreditLimitWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,6,PERCENT",204,TRUE
+AT-9022, update entityParameter->account[0]->threshold[0]->type,CreditLimitWarning,negTestScenario14,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,6,AMOUNT",400,TRUE
+AT-9023, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,CreditLimitWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,6,PERCENT",204,TRUE
+AT-9024, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,CreditLimitWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,60,PERCENT",204,TRUE
+AT-9025,set threshold value to -1 PERCENT,CreditLimitWarning,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,-1,PERCENT",400,TRUE
+AT-9026,set threshold value to 0 PERCENT,CreditLimitWarning,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,0,PERCENT",400,TRUE
+AT-9027,set threshold value to 10000 PERCENT,CreditLimitWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,10000,PERCENT",400,TRUE
+AT-9028,subscribe to board,CreditLimitWarning,,,,,,,,,,1,,board,1,,,TRUE,,,"LIMIT,99,PERCENT",204,TRUE
+AT-9029,unsubscribe account and board,CreditLimitWarning,,,,,,,,,,2,,account    board,1,,,FALSE  FALSE,,,"LIMIT,81,PERCENT    LIMIT,18,PERCENT",204,TRUE
+AT-9030,subscribe both  account and board,CreditLimitWarning,,,,,,,,,,2,,account    board,1,,,TRUE  TRUE,,,"LIMIT,81,PERCENT    LIMIT,18,PERCENT",204,TRUE
+AT-9031,unsubscribe account and  subscribe to board,CreditLimitWarning,,,,,,,,,,2,,account    board,1,,,FALSE  TRUE,,,"LIMIT,81,PERCENT    LIMIT,18,PERCENT",204,TRUE
+AT-7001,subscribe to CardStatementDue  isSubscribed=true,CardStatementDue,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,88,DAYS",204,TRUE
+AT-7002,update insightName to same name,CardStatementDue,negTestScenario1,CardStatementDue,,,,,,,,,,,,,,,,,,500,TRUE
+AT-7003, update insightName to different name,CardStatementDue,negTestScenario2,CardStatementDueEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-7004,update insightTitle chars between 3 and 100 ,CardStatementDue,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-7005, update insightTitle chars are only 3,CardStatementDue,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-7006,update insightTitle chars are only 100,CardStatementDue,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-7007,update insightTitle chars are less than 3,CardStatementDue,negTestScenario3,,kk,,,,,,,,,,,,,,,,,400,TRUE
+AT-7008, update insightTitle chars are greater 100,CardStatementDue,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-7009,update insightTitle chars are special characters,CardStatementDue,negTestScenario5,,()&*#),,,,,,,,,,,,,,,,,400,TRUE
+AT-7010, update container,CardStatementDue,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-7011, update keys,CardStatementDue,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-7012, update description,CardStatementDue,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-7013, update applicableEntity,CardStatementDue,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-7014, update entityParameter,CardStatementDue,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,3,DAYS",204,TRUE
+AT-7015,update entityParameter->account[0]->frequency,CardStatementDue,negTestScenario10,,,,,,,,,1,,account,1,,MONTHLY,TRUE,,,"DAYS_BEFORE,12,DAYS",400,TRUE
+AT-7016,update entityParameter->account[0]->isSubscribed=false,CardStatementDue,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-7017,update entityParameter->account[0]->duration,CardStatementDue,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"DAYS_BEFORE,12,DAYS",400,TRUE
+AT-7018,update entityParameter->account[0]->insightType,CardStatementDue,,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-7019,update entityParameter->account[0]->insightType - Invalid Name,CardStatementDue,negTestScenario12,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"DAYS_BEFORE,12,DAYS",400,TRUE
+AT-7020,update entityParameter->account[0]->threshold[0]->name,CardStatementDue,negTestScenario13,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,12,DAYS",400,TRUE
+AT-7021,update entityParameter->account[0]->threshold[0]->value,CardStatementDue,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-7022, update entityParameter->account[0]->threshold[0]->type,CardStatementDue,negTestScenario14,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,6,PERCENT",400,TRUE
+AT-7023, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,CardStatementDue,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-7024, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,CardStatementDue,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-7025,set threshold value to -1 DAYS,CardStatementDue,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,-1,DAYS",400,TRUE
+AT-7026,set threshold value to 0 DAYS,CardStatementDue,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,0,DAYS",400,TRUE
+AT-7027,set threshold value to 365 DAYS,CardStatementDue,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,365,DAYS",400,TRUE
+AT-7028,subscribe to board,CardStatementDue,,,,,,,,,,1,,board,1,,,TRUE,,,"DAYS_BEFORE,1,DAYS",204,TRUE
+AT-7029,unsubscribe account and board,CardStatementDue,,,,,,,,,,2,,account    board,1,,,FALSE  FALSE,,,"DAYS_BEFORE,1,DAYS   DAYS_BEFORE,5,DAYS",204,TRUE
+AT-7030,subscribe both  account and board,CardStatementDue,,,,,,,,,,2,,account    board,1,,,TRUE  TRUE,,,"DAYS_BEFORE,5,DAYS   DAYS_BEFORE,7,DAYS",204,TRUE
+AT-7031,unsubscribe account and  subscribe to board,CardStatementDue,,,,,,,,,,2,,account    board,1,,,FALSE  TRUE,,,"DAYS_BEFORE,12,DAYS   DAYS_BEFORE,15,DAYS",204,TRUE
+AT-6001,subscribe NetworthChange to   isSubscribed=true,NetworthChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,88,PERCENT",204,TRUE
+AT-6002,update insightName to same name,NetworthChange,negTestScenario1,NetworthChange,,,,,,,,,,,,,,,,,,500,TRUE
+AT-6003, update insightName to different name,NetworthChange,negTestScenario2,NetworthChangeEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-6004,update insightTitle chars between 3 and 100 ,NetworthChange,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-6005, update insightTitle chars are only 3,NetworthChange,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-6006,update insightTitle chars are only 100,NetworthChange,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-6007,update insightTitle chars are less than 3,NetworthChange,negTestScenario3,,kk,,,,,,,,,,,,,,,,,400,TRUE
+AT-6008, update insightTitle chars are greater 100,NetworthChange,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-6009,update insightTitle chars are special characters,NetworthChange,negTestScenario5,,()&*#),,,,,,,,,,,,,,,,,400,TRUE
+AT-6010, update container,NetworthChange,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-6011, update keys,NetworthChange,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-6012, update description,NetworthChange,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-6013, update applicableEntity,NetworthChange,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-6014, update entityParameter,NetworthChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,3,PERCENT",204,TRUE
+AT-6015,update entityParameter->account[0]->frequency,NetworthChange,negTestScenario10,,,,,,,,,1,,account,1,,MONTHLY,TRUE,,,"CHANGE,12,PERCENT",400,TRUE
+AT-6016,update entityParameter->account[0]->isSubscribed=false,NetworthChange,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-6017,update entityParameter->account[0]->duration,NetworthChange,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"CHANGE,12,PERCENT",400,TRUE
+AT-6018,update entityParameter->account[0]->insightType,NetworthChange,,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"CHANGE,12,PERCENT",204,TRUE
+AT-6019,update entityParameter->account[0]->insightType - Invalid Name,NetworthChange,negTestScenario12,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"CHANGE,12,PERCENT",400,TRUE
+AT-6020,update entityParameter->account[0]->threshold[0]->name,NetworthChange,negTestScenario13,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,12,PERCENT",400,TRUE
+AT-6021,update entityParameter->account[0]->threshold[0]->value,NetworthChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,12,PERCENT",204,TRUE
+AT-6022, update entityParameter->account[0]->threshold[0]->type,NetworthChange,negTestScenario14,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,6,AMOUNT",400,TRUE
+AT-6023, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,NetworthChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,12,PERCENT",204,TRUE
+AT-6024, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,NetworthChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,12,PERCENT",204,TRUE
+AT-6025,set threshold value to -1 PERCENT,NetworthChange,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,-1,PERCENT",400,TRUE
+AT-6026,set threshold value to 0 PERCENT,NetworthChange,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,0,PERCENT",400,TRUE
+AT-6027,set threshold value to 5000 PERCENT,NetworthChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,365,PERCENT",400,TRUE
+AT-5001,subscribe LiabilityChange to   isSubscribed=true,LiabilityChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,88,PERCENT",204,TRUE
+AT-5002,update insightName to same name,LiabilityChange,negTestScenario1,LiabilityChange,,,,,,,,,,,,,,,,,,500,TRUE
+AT-5003, update insightName to different name,LiabilityChange,negTestScenario2,LiabilityChangeEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-5004,update insightTitle chars between 3 and 100 ,LiabilityChange,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-5005, update insightTitle chars are only 3,LiabilityChange,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-5006,update insightTitle chars are only 100,LiabilityChange,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-5007,update insightTitle chars are less than 3,LiabilityChange,negTestScenario3,,kk,,,,,,,,,,,,,,,,,400,TRUE
+AT-5008, update insightTitle chars are greater 100,LiabilityChange,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-5009,update insightTitle chars are special characters,LiabilityChange,negTestScenario5,,()&*#),,,,,,,,,,,,,,,,,400,TRUE
+AT-5010, update container,LiabilityChange,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-5011, update keys,LiabilityChange,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-5012, update description,LiabilityChange,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-5013, update applicableEntity,LiabilityChange,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-5014, update entityParameter,LiabilityChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,3,PERCENT",204,TRUE
+AT-5015,update entityParameter->account[0]->frequency,LiabilityChange,negTestScenario10,,,,,,,,,1,,account,1,,MONTHLY,TRUE,,,"CHANGE,12,PERCENT",400,TRUE
+AT-5016,update entityParameter->account[0]->isSubscribed=false,LiabilityChange,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-5017,update entityParameter->account[0]->duration,LiabilityChange,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"CHANGE,12,PERCENT",400,TRUE
+AT-5018,update entityParameter->account[0]->insightType,LiabilityChange,,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"CHANGE,12,PERCENT",204,TRUE
+AT-5019,update entityParameter->account[0]->insightType - Invalid Name,LiabilityChange,negTestScenario12,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"CHANGE,12,PERCENT",400,TRUE
+AT-5020,update entityParameter->account[0]->threshold[0]->name,LiabilityChange,negTestScenario13,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,12,PERCENT",400,TRUE
+AT-5021,update entityParameter->account[0]->threshold[0]->value,LiabilityChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,12,PERCENT",204,TRUE
+AT-5022, update entityParameter->account[0]->threshold[0]->type,LiabilityChange,negTestScenario14,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,6,AMOUNT",400,TRUE
+AT-5023, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,LiabilityChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,12,PERCENT",204,TRUE
+AT-5024, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,LiabilityChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,12,PERCENT",204,TRUE
+AT-5025,set threshold value to -1 PERCENT,LiabilityChange,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,-1,PERCENT",400,TRUE
+AT-5026,set threshold value to 0 PERCENT,LiabilityChange,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,0,PERCENT",400,TRUE
+AT-5027,set threshold value to 5000 PERCENT,LiabilityChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,365,PERCENT",400,TRUE
+AT-4001,subscribe AssetChange to   isSubscribed=true,AssetChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,88,PERCENT",204,TRUE
+AT-4002,update insightName to same name,AssetChange,negTestScenario1,AssetChange,,,,,,,,,,,,,,,,,,500,TRUE
+AT-4003, update insightName to different name,AssetChange,negTestScenario2,AssetChangeEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-4004,update insightTitle chars between 3 and 100 ,AssetChange,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-4005, update insightTitle chars are only 3,AssetChange,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-4006,update insightTitle chars are only 100,AssetChange,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-4007,update insightTitle chars are less than 3,AssetChange,negTestScenario3,,kk,,,,,,,,,,,,,,,,,400,TRUE
+AT-4008, update insightTitle chars are greater 100,AssetChange,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-4009,update insightTitle chars are special characters,AssetChange,negTestScenario5,,()&*#),,,,,,,,,,,,,,,,,400,TRUE
+AT-4010, update container,AssetChange,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-4011, update keys,AssetChange,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-4012, update description,AssetChange,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-4013, update applicableEntity,AssetChange,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-4014, update entityParameter,AssetChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,3,PERCENT",204,TRUE
+AT-4015,update entityParameter->account[0]->frequency,AssetChange,negTestScenario10,,,,,,,,,1,,account,1,,MONTHLY,TRUE,,,"CHANGE,12,PERCENT",400,TRUE
+AT-4016,update entityParameter->account[0]->isSubscribed=false,AssetChange,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-4017,update entityParameter->account[0]->duration,AssetChange,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"CHANGE,12,PERCENT",400,TRUE
+AT-4018,update entityParameter->account[0]->insightType,AssetChange,,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"CHANGE,12,PERCENT",204,TRUE
+AT-4019,update entityParameter->account[0]->insightType - Invalid Name,AssetChange,negTestScenario12,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"CHANGE,12,PERCENT",400,TRUE
+AT-4020,update entityParameter->account[0]->threshold[0]->name,AssetChange,negTestScenario13,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,12,PERCENT",400,TRUE
+AT-4021,update entityParameter->account[0]->threshold[0]->value,AssetChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,12,PERCENT",204,TRUE
+AT-4022, update entityParameter->account[0]->threshold[0]->type,AssetChange,negTestScenario14,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,6,AMOUNT",400,TRUE
+AT-4023, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,AssetChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,12,PERCENT",204,TRUE
+AT-4024, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,AssetChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,12,PERCENT",204,TRUE
+AT-4025,set threshold value to -1 PERCENT,AssetChange,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,-1,PERCENT",400,TRUE
+AT-4026,set threshold value to 0 PERCENT,AssetChange,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,0,PERCENT",400,TRUE
+AT-4027,set threshold value to 5000 PERCENT,AssetChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,365,PERCENT",400,TRUE
+AT-3001,subscribe to CardStatementAvailable  isSubscribed=true,CardStatementAvailable,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,88,DAYS",204,TRUE
+AT-3002,update insightName to same name,CardStatementAvailable,negTestScenario1,CardStatementAvailable,,,,,,,,,,,,,,,,,,500,TRUE
+AT-3003, update insightName to different name,CardStatementAvailable,negTestScenario2,CardStatementAvailableEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-3004,update insightTitle chars between 3 and 100 ,CardStatementAvailable,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-3005, update insightTitle chars are only 3,CardStatementAvailable,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-3006,update insightTitle chars are only 100,CardStatementAvailable,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-3007,update insightTitle chars are less than 3,CardStatementAvailable,negTestScenario3,,kk,,,,,,,,,,,,,,,,,400,TRUE
+AT-3008, update insightTitle chars are greater 100,CardStatementAvailable,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-3009,update insightTitle chars are special characters,CardStatementAvailable,negTestScenario5,,()&*#),,,,,,,,,,,,,,,,,400,TRUE
+AT-3010, update container,CardStatementAvailable,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-3011, update keys,CardStatementAvailable,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-3012, update description,CardStatementAvailable,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-3013, update applicableEntity,CardStatementAvailable,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-3014, update entityParameter,CardStatementAvailable,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,3,DAYS",204,TRUE
+AT-3015,update entityParameter->account[0]->frequency,CardStatementAvailable,negTestScenario10,,,,,,,,,1,,account,1,,MONTHLY,TRUE,,,"DAYS_BEFORE,12,DAYS",400,TRUE
+AT-3016,update entityParameter->account[0]->isSubscribed=false,CardStatementAvailable,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-3017,update entityParameter->account[0]->duration,CardStatementAvailable,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"DAYS_BEFORE,12,DAYS",400,TRUE
+AT-3018,update entityParameter->account[0]->insightType,CardStatementAvailable,,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-3019,update entityParameter->account[0]->insightType - Invalid Name,CardStatementAvailable,negTestScenario12,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"DAYS_BEFORE,12,DAYS",400,TRUE
+AT-3020,update entityParameter->account[0]->threshold[0]->name,CardStatementAvailable,negTestScenario13,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,12,DAYS",400,TRUE
+AT-3021,update entityParameter->account[0]->threshold[0]->value,CardStatementAvailable,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-3022, update entityParameter->account[0]->threshold[0]->type,CardStatementAvailable,negTestScenario14,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,6,PERCENT",400,TRUE
+AT-3023, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,CardStatementAvailable,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-3024, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,CardStatementAvailable,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-3025,set threshold value to -1 DAYS,CardStatementAvailable,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,-1,DAYS",400,TRUE
+AT-3026,set threshold value to 0 DAYS,CardStatementAvailable,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,0,DAYS",400,TRUE
+AT-3027,set threshold value to 365 DAYS,CardStatementAvailable,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,365,DAYS",400,TRUE
+AT-3028,subscribe to board,CardStatementAvailable,,,,,,,,,,1,,board,1,,,TRUE,,,"DAYS_BEFORE,1,DAYS",204,TRUE
+AT-3029,unsubscribe account and board,CardStatementAvailable,,,,,,,,,,2,,account    board,1,,,FALSE  FALSE,,,"DAYS_BEFORE,1,DAYS   DAYS_BEFORE,5,DAYS",204,TRUE
+AT-3030,subscribe both  account and board,CardStatementAvailable,,,,,,,,,,2,,account    board,1,,,TRUE  TRUE,,,"DAYS_BEFORE,5,DAYS   DAYS_BEFORE,7,DAYS",204,TRUE
+AT-3031,unsubscribe account and  subscribe to board,CardStatementAvailable,,,,,,,,,,2,,account    board,1,,,FALSE  TRUE,,,"DAYS_BEFORE,12,DAYS   DAYS_BEFORE,15,DAYS",204,TRUE
+AT-2001,subscribe to CreditUtilization isSubscribed=true,CreditUtilization,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,88,PERCENT",204,TRUE
+AT-2002,update insightName to same name,CreditUtilization,negTestScenario1,CreditUtilization,,,,,,,,,,,,,,,,,,500,TRUE
+AT-2003, update insightName to different name,CreditUtilization,negTestScenario2,CreditUtilizationEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-2004,update insightTitle chars between 3 and 100 ,CreditUtilization,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-2005, update insightTitle chars are only 3,CreditUtilization,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-2006,update insightTitle chars are only 100,CreditUtilization,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-2007,update insightTitle chars are less than 3,CreditUtilization,negTestScenario3,,mm,,,,,,,,,,,,,,,,,400,TRUE
+AT-2008, update insightTitle chars are greater 100,CreditUtilization,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-2009,update insightTitle chars are special characters,CreditUtilization,negTestScenario5,,()&*#),,,,,,,,,,,,,,,,,400,TRUE
+AT-2010, update container,CreditUtilization,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-2011, update keys,CreditUtilization,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-2012, update description,CreditUtilization,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-2013, update applicableEntity,CreditUtilization,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-2014, update entityParameter,CreditUtilization,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,10,PERCENT",204,TRUE
+AT-2015,update entityParameter->account[0]->frequency,CreditUtilization,negTestScenario10,,,,,,,,,1,,account,1,,M,TRUE,,,"LIMIT,30,PERCENT",400,TRUE
+AT-2016,update entityParameter->account[0]->isSubscribed=false,CreditUtilization,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-2017,update entityParameter->account[0]->duration,CreditUtilization,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"LIMIT,50,PERCENT",400,TRUE
+AT-2018,update entityParameter->account[0]->insightType,CreditUtilization,,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"LIMIT,98,PERCENT",204,TRUE
+AT-2019,update entityParameter->account[0]->insightType - Invalid Name,CreditUtilization,negTestScenario12,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"LIMIT,33,PERCENT",400,TRUE
+AT-2020,update entityParameter->account[0]->threshold[0]->name,CreditUtilization,negTestScenario13,,,,,,,,,1,,account,1,,,FALSE,,,"BALANCE,6,PERCENT",400,TRUE
+AT-2021,update entityParameter->account[0]->threshold[0]->value,CreditUtilization,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,6,PERCENT",204,TRUE
+AT-2022, update entityParameter->account[0]->threshold[0]->type,CreditUtilization,negTestScenario14,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,6,AMOUNT",400,TRUE
+AT-2023, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,CreditUtilization,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,6,PERCENT",204,TRUE
+AT-2024, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,CreditUtilization,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,60,PERCENT",204,TRUE
+AT-2025,set threshold value to -1 PERCENT,CreditUtilization,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,-1,PERCENT",400,TRUE
+AT-2026,set threshold value to 0 PERCENT,CreditUtilization,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,0,PERCENT",400,TRUE
+AT-2027,set threshold value to 10000 PERCENT,CreditUtilization,,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,10000,PERCENT",400,TRUE
+AT-1001,subscribe to GoalOffTrack isSubscribed=true,GoalOffTrack,,,,,,,,,,1,,goal,1,,,TRUE,,,"LIMIT,88,PERCENT",204,TRUE
+AT-1002,update insightName to same name,GoalOffTrack,negTestScenario1,GoalOffTrack,,,,,,,,,,,,,,,,,,500,TRUE
+AT-1003, update insightName to different name,GoalOffTrack,negTestScenario2,GoalOffTrackEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-1004,update insightTitle chars between 3 and 100 ,GoalOffTrack,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-1005, update insightTitle chars are only 3,GoalOffTrack,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-1006,update insightTitle chars are only 100,GoalOffTrack,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-1007,update insightTitle chars are less than 3,GoalOffTrack,negTestScenario3,,mm,,,,,,,,,,,,,,,,,400,TRUE
+AT-1008, update insightTitle chars are greater 100,GoalOffTrack,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-1009,update insightTitle chars are special characters,GoalOffTrack,negTestScenario5,,()&*#),,,,,,,,,,,,,,,,,400,TRUE
+AT-1010, update container,GoalOffTrack,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-1011, update keys,GoalOffTrack,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-1012, update description,GoalOffTrack,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-1013, update applicableEntity,GoalOffTrack,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-1014, update entityParameter,GoalOffTrack,,,,,,,,,,1,,goal,0,,,FALSE,,,,204,TRUE
+AT-1015,update entityParameter->account[0]->frequency,GoalOffTrack,negTestScenario10,,,,,,,,,1,,goal,0,,M,TRUE,,,,400,TRUE
+AT-1016,update entityParameter->account[0]->isSubscribed=false,GoalOffTrack,,,,,,,,,,1,,goal,0,,,FALSE,,,,204,TRUE
+AT-1017,update entityParameter->account[0]->duration,GoalOffTrack,negTestScenario11,,,,,,,,,1,,goal,0,,,TRUE,LASW_MONHT,,,400,TRUE
+AT-1018,update entityParameter->account[0]->insightType,GoalOffTrack,,,,,,,,,,1,,goal,0,,,TRUE,,OTHER,,204,TRUE
+AT-1019,update entityParameter->account[0]->insightType - Invalid Name,GoalOffTrack,negTestScenario12,,,,,,,,,1,,goal,0,,,TRUE,,INVALID,,400,TRUE
+AT-0001,subscribe to LoanMaturityNotice  isSubscribed=true,LoanMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,88,DAYS",204,TRUE
+AT-0002,update insightName to same name,LoanMaturityNotice,negTestScenario1,LoanMaturityNotice,,,,,,,,,,,,,,,,,,500,TRUE
+AT-0003, update insightName to different name,LoanMaturityNotice,negTestScenario2,LoanMaturityNoticeEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-0004,update insightTitle chars between 3 and 100 ,LoanMaturityNotice,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-0005, update insightTitle chars are only 3,LoanMaturityNotice,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-0006,update insightTitle chars are only 100,LoanMaturityNotice,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-0007,update insightTitle chars are less than 3,LoanMaturityNotice,negTestScenario3,,kk,,,,,,,,,,,,,,,,,400,TRUE
+AT-0008, update insightTitle chars are greater 100,LoanMaturityNotice,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-0009,update insightTitle chars are special characters,LoanMaturityNotice,negTestScenario5,,()&*#),,,,,,,,,,,,,,,,,400,TRUE
+AT-0010, update container,LoanMaturityNotice,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-0011, update keys,LoanMaturityNotice,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-0012, update description,LoanMaturityNotice,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-0013, update applicableEntity,LoanMaturityNotice,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-0014, update entityParameter,LoanMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,3,DAYS",204,TRUE
+AT-0015,update entityParameter->account[0]->frequency - MONTHLY,LoanMaturityNotice,,,,,,,,,,1,,account,1,,MONTHLY,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-0016,update entityParameter->account[0]->frequency - DAILY,LoanMaturityNotice,,,,,,,,,,1,,account,1,,DAILY,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-0017,update entityParameter->account[0]->frequency - WEEKLY,LoanMaturityNotice,,,,,,,,,,1,,account,1,,WEEKLY,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-0018,update entityParameter->account[0]->frequency - INVALID,LoanMaturityNotice,negTestScenario10,,,,,,,,,1,,account,1,,INVALID,TRUE,,,"DAYS_BEFORE,12,DAYS",400,TRUE
+AT-0019,update entityParameter->account[0]->isSubscribed=false,LoanMaturityNotice,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-0020,update entityParameter->account[0]->duration,LoanMaturityNotice,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"DAYS_BEFORE,12,DAYS",400,TRUE
+AT-0021,update entityParameter->account[0]->insightType,LoanMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-0022,update entityParameter->account[0]->insightType - Invalid Name,LoanMaturityNotice,negTestScenario12,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"DAYS_BEFORE,12,DAYS",400,TRUE
+AT-0023,update entityParameter->account[0]->threshold[0]->name,LoanMaturityNotice,negTestScenario13,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,12,DAYS",400,TRUE
+AT-0024,update entityParameter->account[0]->threshold[0]->value,LoanMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-0025, update entityParameter->account[0]->threshold[0]->type,LoanMaturityNotice,negTestScenario14,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,6,PERCENT",400,TRUE
+AT-0026, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,LoanMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-0027, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,LoanMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-0028,set threshold value to -1 DAYS,LoanMaturityNotice,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,-1,DAYS",400,TRUE
+AT-0029,set threshold value to 0 DAYS,LoanMaturityNotice,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,0,DAYS",400,TRUE
+AT-0030,set threshold value to 365 DAYS,LoanMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,365,DAYS",400,TRUE
+AT-1101,subscribe to LargePurchase  isSubscribed=true,LargePurchase,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,5000,AMOUNT",204,TRUE
+AT-1102,update insightName to same name,LargePurchase,negTestScenario1,LargePurchase,,,,,,,,,,,,,,,,,,500,TRUE
+AT-1103, update insightName to different name,LargePurchase,negTestScenario2,LargePurchase,,,,,,,,,,,,,,,,,,400,TRUE
+AT-1104,update insightTitle chars between 3 and 100 ,LargePurchase,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-1105, update insightTitle chars are only 3,LargePurchase,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-1106,update insightTitle chars are only 100,LargePurchase,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-1107,update insightTitle chars are less than 3,LargePurchase,negTestScenario3,,kk,,,,,,,,,,,,,,,,,400,TRUE
+AT-1108, update insightTitle chars are greater 100,LargePurchase,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-1109,update insightTitle chars are special characters,LargePurchase,negTestScenario5,,()&*#),,,,,,,,,,,,,,,,,400,TRUE
+AT-1110, update container,LargePurchase,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-1111, update keys,LargePurchase,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-1112, update description,LargePurchase,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-1113, update applicableEntity,LargePurchase,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-1114, update entityParameter,LargePurchase,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,3,AMOUNT",204,TRUE
+AT-1115,update entityParameter->account[0]->frequency - MONTHLY,LargePurchase,,,,,,,,,,1,,account,1,,MONTHLY,TRUE,,,"MINIMUM,12,AMOUNT",204,TRUE
+AT-1116,update entityParameter->account[0]->frequency - DAILY,LargePurchase,,,,,,,,,,1,,account,1,,DAILY,TRUE,,,"MINIMUM,12,AMOUNT",204,TRUE
+AT-1117,update entityParameter->account[0]->frequency - WEEKLY,LargePurchase,,,,,,,,,,1,,account,1,,WEEKLY,TRUE,,,"MINIMUM,12,AMOUNT",204,TRUE
+AT-1118,update entityParameter->account[0]->frequency - INVALID,LargePurchase,negTestScenario10,,,,,,,,,1,,account,1,,INVALID,TRUE,,,"MINIMUM,12,AMOUNT",400,TRUE
+AT-1119,update entityParameter->account[0]->isSubscribed=false,LargePurchase,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-1120,update entityParameter->account[0]->duration,LargePurchase,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"MINIMUM,12,AMOUNT",400,TRUE
+AT-1121,update entityParameter->account[0]->insightType,LargePurchase,,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"MINIMUM,12,AMOUNT",204,TRUE
+AT-1122,update entityParameter->account[0]->insightType - Invalid Name,LargePurchase,negTestScenario12,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"MINIMUM,12,AMOUNT",400,TRUE
+AT-1123,update entityParameter->account[0]->threshold[0]->name,LargePurchase,negTestScenario13,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,12,AMOUNT",400,TRUE
+AT-1124,update entityParameter->account[0]->threshold[0]->value,LargePurchase,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,12,AMOUNT",204,TRUE
+AT-1125, update entityParameter->account[0]->threshold[0]->type,LargePurchase,negTestScenario14,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,6,PERCENT",400,TRUE
+AT-1126, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,LargePurchase,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,12,AMOUNT",204,TRUE
+AT-1127, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,LargePurchase,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,12,AMOUNT",204,TRUE
+AT-1128,set threshold value to -1 AMOUNT,LargePurchase,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,-1,AMOUNT",400,TRUE
+AT-1129,set threshold value to 0 AMOUNT,LargePurchase,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,0,AMOUNT",400,TRUE
+AT-1130,set threshold value to 100000000 AMOUNT,LargePurchase,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,365,AMOUNT",400,TRUE
+AT-1131,subscribe to board,LargePurchase,,,,,,,,,,1,,board,1,,,TRUE,,,"MINIMUM,1,AMOUNT",204,TRUE
+AT-1201,subscribe to InvestmentMaturityNotice  isSubscribed=true,InvestmentMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,88,DAYS",204,TRUE
+AT-1202,update insightName to same name,InvestmentMaturityNotice,negTestScenario1,InvestmentMaturityNotice,,,,,,,,,,,,,,,,,,500,TRUE
+AT-1203, update insightName to different name,InvestmentMaturityNotice,negTestScenario2,InvestmentMaturityNoticeEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-1204,update insightTitle chars between 3 and 100 ,InvestmentMaturityNotice,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-1205, update insightTitle chars are only 3,InvestmentMaturityNotice,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-1206,update insightTitle chars are only 100,InvestmentMaturityNotice,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-1207,update insightTitle chars are less than 3,InvestmentMaturityNotice,negTestScenario3,,kk,,,,,,,,,,,,,,,,,400,TRUE
+AT-1208, update insightTitle chars are greater 100,InvestmentMaturityNotice,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-1209,update insightTitle chars are special characters,InvestmentMaturityNotice,negTestScenario5,,()&*#),,,,,,,,,,,,,,,,,400,TRUE
+AT-1210, update container,InvestmentMaturityNotice,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-1211, update keys,InvestmentMaturityNotice,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-1212, update description,InvestmentMaturityNotice,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-1213, update applicableEntity,InvestmentMaturityNotice,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-1214, update entityParameter,InvestmentMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,3,DAYS",204,TRUE
+AT-1215,update entityParameter->account[0]->frequency - MONTHLY,InvestmentMaturityNotice,,,,,,,,,,1,,account,1,,MONTHLY,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-1216,update entityParameter->account[0]->frequency - DAILY,InvestmentMaturityNotice,,,,,,,,,,1,,account,1,,DAILY,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-1217,update entityParameter->account[0]->frequency - WEEKLY,InvestmentMaturityNotice,,,,,,,,,,1,,account,1,,WEEKLY,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-1218,update entityParameter->account[0]->frequency - INVALID,InvestmentMaturityNotice,negTestScenario10,,,,,,,,,1,,account,1,,INVALID,TRUE,,,"DAYS_BEFORE,12,DAYS",400,TRUE
+AT-1219,update entityParameter->account[0]->isSubscribed=false,InvestmentMaturityNotice,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-1220,update entityParameter->account[0]->duration,InvestmentMaturityNotice,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"DAYS_BEFORE,12,DAYS",400,TRUE
+AT-1221,update entityParameter->account[0]->insightType,InvestmentMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-1222,update entityParameter->account[0]->insightType - Invalid Name,InvestmentMaturityNotice,negTestScenario12,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"DAYS_BEFORE,12,DAYS",400,TRUE
+AT-1223,update entityParameter->account[0]->threshold[0]->name,InvestmentMaturityNotice,negTestScenario13,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,12,DAYS",400,TRUE
+AT-1224,update entityParameter->account[0]->threshold[0]->value,InvestmentMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-1225, update entityParameter->account[0]->threshold[0]->type,InvestmentMaturityNotice,negTestScenario14,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,6,PERCENT",400,TRUE
+AT-1226, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,InvestmentMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-1227, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,InvestmentMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,12,DAYS",204,TRUE
+AT-1228,set threshold value to -1 DAYS,InvestmentMaturityNotice,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,-1,DAYS",400,TRUE
+AT-1229,set threshold value to 0 DAYS,InvestmentMaturityNotice,negTestScenario15,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,0,DAYS",400,TRUE
+AT-1230,set threshold value to 365 DAYS,InvestmentMaturityNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"DAYS_BEFORE,365,DAYS",400,TRUE

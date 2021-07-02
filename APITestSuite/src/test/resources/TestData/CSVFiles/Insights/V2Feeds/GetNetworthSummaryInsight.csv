@@ -1,0 +1,21 @@
+testCaseId,Testcase,InsightName,triggerCheckEnabled,triggerType,entityParameterCount,entityParameterName,ThresholdNameValueType,noumberOfInsights,editSubscription,isCobrandSubscribed,isUserSubscribed,frequency,duration,patchAccountIds,isPatchedEntityIdsInsightsGenerated,expNoOfPatchedEntityIdsInsights,validateKeys,status,enabled
+AT-NWS01,Validate NetworthSummary Insight when cobrand is not Subscribed,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,0,TRUE,FALSE,,,,,,0,,201,TRUE
+AT-NWS02,Validate NetworthSummary Insight when cobrand is  Subscribed and User is not Subscribed,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,0,TRUE,TRUE,FALSE,,,,,0,,201,TRUE
+AT-NWS03,Validate NetworthSummary Insight when cobrand is  Subscribed and User is not Subscribed(Inheriting Cobrand Thresholds),NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,0,TRUE,FALSE,,,,,,0,,201,TRUE
+AT-NWS04,Validate NetworthSummary Insight when cobrand is  Subscribed and User is Subscribed,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,1,TRUE,TRUE,TRUE,,,,,0,Account,201,TRUE
+AT-NWS05,Validate NetworthSummary Insight when cobrand is subscribed  for different threshold user overides cobrand threshold,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,1,TRUE,TRUE,TRUE,MONTHLY,,,,0,Account,201,TRUE
+AT-NWS06,Validate NetworthSummary Insight when cobrand is subscribed and User is also Subscribed threshold as different,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,1,TRUE,TRUE,TRUE,DAILY,,,,0,Account,201,TRUE
+AT-NWS07,Validate NetworthSummary Insight when user changes threshold value to 10 Percent using PATCH,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,1,TRUE,TRUE,TRUE,WEEKLY,,,,0,Account,201,TRUE
+AT-NWS08,Validate NetworthSummary Insight when user changes threshold value to original threshold using PATCH,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,1,TRUE,TRUE,TRUE,MONTHLY,,,,0,Account,201,TRUE
+AT-NWS09,Validate NetworthSummary Insight when user patch Threshold only AMOUNt and Duration,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,1,TRUE,,TRUE,DAILY,THREE_MONTHS,,,0,Account,201,TRUE
+AT-NWS10,Validate NetworthSummary Insight when Threshold is patched and with user Subscriptions as false,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,0,TRUE,,FALSE,WEEKLY,,,,0,Account,201,TRUE
+AT-NWS11,Validate NetworthSummary Insight when threshold is 1000 as AMOUNT and 101 PERCENT with diff duration,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,1,TRUE,,TRUE,MONTHLY,SIX_MONTHS,,,0,Account,201,TRUE
+AT-NWS12,Validate NetworthSummary Insight when threshold is 1 as AMOUNT and 1 PERCENT with diff duration,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,1,TRUE,,TRUE,DAILY,ONE_YEAR,,,0,Account,201,TRUE
+AT-NWS13,Validate NetworthSummary Insight when threshold is 11 as AMOUNT and 12 PERCENT with diff duration,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,1,TRUE,,TRUE,WEEKLY,SIX_MONTHS,,,0,Account,201,TRUE
+AT-NWS14,Validate NetworthSummary Insight when threshold is 500 as AMOUNT and 50 PERCENT with diff duration,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,1,TRUE,,TRUE,MONTHLY,SIX_MONTHS,,,0,Account,201,TRUE
+AT-NWS15,Validate NetworthSummary Insight when default thresholdand diff duration Patched using user Patch,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,1,TRUE,,TRUE,DAILY,ONE_YEAR,,,0,Account,201,TRUE
+AT-NWS16,Validate NetworthSummary Insight when default thresholdand diff duration Patched using user Patch,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,1,TRUE,,TRUE,WEEKLY,ONE_YEAR,,,0,Account,201,TRUE
+AT-NWS17,Validate NetworthSummary Insight when default thresholdand diff duration Patched using user Patch,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,1,TRUE,,TRUE,MONTHLY,THREE_MONTHS,,,0,Account,201,TRUE
+AT-NWS18,Validate NetworthSummary Insight when default thresholdand diff duration Patched using user Patch,NETWORTH_SUMMARY,"EDIT,-20",SCHEDULE,1,account,,1,TRUE,,TRUE,DAILY,SIX_MONTHS,,,0,Account,201,TRUE
+AT-NWS19,Validate NetworthSummary Insight when default thresholdand diff duration Patched using user Patch,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,1,TRUE,,TRUE,WEEKLY,ONE_YEAR,,,0,Account,201,TRUE
+AT-NWS20,Reset HighBIlls and Subscription to default values,NETWORTH_SUMMARY,FALSE,SCHEDULE,1,account,,0,TRUE,FALSE,,MONTHLY,THREE_MONTHS,,,0,Account,201,TRUE

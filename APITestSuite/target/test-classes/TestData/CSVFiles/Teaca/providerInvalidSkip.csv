@@ -1,0 +1,3 @@
+TestCaseID,testCaseName,value,errorCode,errorMessage,defectId,enabled
+AT-42627,skip value 0,0,Y800,Invalid value for skip,0,TRUE
+AT-42627,skip value -1,-1,Y800,Invalid value for skip,0,TRUE

@@ -1,0 +1,17 @@
+{
+  "links": {
+    "transactions": "/v1/transactions?categoryType\u003dTRANSFER\u0026fromDate\u003d2016-12-01\u0026toDate\u003d2017-05-31"
+  },
+  "transactionSummary": [
+    {
+      "categoryType": "TRANSFER",
+      "creditTotal": {
+        "amount": 740736,
+        "currency": "USD"
+      },
+      "links": {
+        "transactions": "/v1/transactions?categoryType\u003dTRANSFER\u0026fromDate\u003d2016-12-01\u0026toDate\u003d2017-05-31"
+      }
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+
+	<!-- <parameter name="coBrand" value="YCOM_L1" />
+	<parameter name="loginType" value="L1NODE" /> -->
+	<parameter name="browser" value="chrome" />
+	<parameter name="runOnBrowserStack" value="false" />
+	<parameter name="bs_username" value="yodleebrowsersta1" />
+	<parameter name="bs_automate_key"
+		value="pzyoTJ6embZ48zsufsF2" />
+	<parameter name="browser_version" value="43" />
+	<parameter name="platformName" value="OS X" />
+	<parameter name="platformVersion" value="YOSEMITE" />
+	<parameter name="elpamEnabled" value="true" />
+	<parameter name="appFlag" value="false" />
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="suiteName" value="Budget Regression" />
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.omni.pfm.listeners.CustomListener" />
+		<listener
+			class-name="com.automation.rdashboard.ReportDashboardPlugin" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+	</listeners>
+
+	<test name="Budget-setup" preserve-order="true">
+		<classes>
+			<class name="com.omni.pfm.BudgetV2.Budget_Setup_Test"></class>
+		</classes>
+	</test>
+	
+	<test name="Budget Account Groups And Categories" preserve-order="true">
+		<classes>
+			<class name="com.omni.pfm.BudgetV2.Budget_AccountGroupsAndCategories"></class>
+		</classes>
+	</test>  
+
+	  <test name="Budget-TestData1" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_BudgetSummery_Data1_Test"></class>
+		</classes>
+	</test>
+
+	 <test name="Budget-TestData2" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_BudgetSummery_Data2_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Budget-TestData3" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_BudgetSummery_Data3_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Budget-TestData4" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_BudgetSummery_Data4_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Budget-TestData5" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_BudgetSummery_Data5_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Budget-TestData6" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_BudgetSummery_Data6_Test"></class>
+		</classes>
+	</test>
+ 
+	<test name="Budget-TestData7" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_BudgetSummery_Data7_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Budget-TestData8" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_BudgetSummery_Data8_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Budget-Summary-EditPopUp" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_Summary_EditPopup_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Budget-Summary-GroupDropdown" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_Summary_GroupDropdown_Test"></class>
+		</classes>
+	</test>
+
+	<test name="New Budget FinApp " verbose="2" preserve-order="true">
+		<classes>
+			<class name="com.omni.pfm.BudgetV2.Budget_DeleteBudget_Test"></class>
+		</classes>
+	</test> 
+
+	<test name="Budget-time filter and trend" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_BudgetSummery_TimeFilter">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Budget-FeatureTour" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_BudgetFeatureTour_Test"></class>
+		</classes>
+	</test>
+
+
+	<test name="Budget-TableRevamp" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_Summary_TableRevamp_Test"></class>
+		</classes>
+	</test>
+
+ 	<test name="Budget-Dashboard" preserve-order="true">
+		<classes>
+			<class name="com.omni.pfm.BudgetV2.Budget_Dashboard_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Budget-setup-Goal" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_Summary_GoalSetting_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Budget_BugFix-July Release" preserve-order="true">
+		<classes>
+			<class name="com.omni.pfm.BudgetV2.Budget_BugFixPrincipal_Test"></class>
+		</classes>
+
+	</test>
+
+	<test name="Budget_NeedsAndWantsBanner Page-July Release"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_NeedsWantsBannerPage_Test"></class>
+		</classes>
+
+	</test>
+
+	<test name="Budget_AddPercentage To Category Progress Bar "
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.BudgetV2.Budget_AddPercentageToProgressBar_Test"></class>
+		</classes>
+	</test>
+
+</suite>

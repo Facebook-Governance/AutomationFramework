@@ -1,0 +1,26 @@
+{
+  "user": {
+    "preferences": {
+      "dateFormat": "MM/dd/yyyy",
+      "timeZone": "PST",
+      "currency": "USD"
+    },
+    "address": {
+      "address1": "aBc~`!@#$%^&*()_+=-{}[]|\:;"'<.>,?/",
+      "address2": "aBc~`!@#$%^&*()_+=-{}[]|\:;"'<.>,?/",
+      "state": "aBc~`!@#$%^&*()_+=-{}[]|\:;"'<.>,?/",
+      "city": "aBc~`!@#$%^&*()_+=-{}[]|\:;"'<.>,?/",
+      "zip": "aBc~`!@#$%^&*()_+=-{}[]|\:;"'<.>,?/",
+      "country": "aBc~`!@#$%^&*()_+=-{}[]|\:;"'<.>,?/"
+    },
+    "loginName": "YSL1511177769509",
+    "name": {
+      "last": "Babu",
+      "first": "Sathish"
+    },
+    "id": "${json-unit.ignore}",
+    "roleType": "INDIVIDUAL",
+    "email": "test@yodlee.com"
+  }
+}
+

@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-BalAbTh01,"Validate BalanceAboveThreshold , check if Insight is unSubscribed to OR isSubscribed=false ",,BalanceAboveThreshold,BalanceAboveThreshold,,,,,,account,FALSE,,,,200,TRUE
+AT-BalAbTh02,"Validate BalanceAboveThreshold , Validate InsightName",,BalanceAboveThreshold,BalanceAboveThreshold,,,,,,,,,,,200,TRUE
+AT-BalAbTh03,"Validate BalanceAboveThreshold , Validate Supporting container",,BalanceAboveThreshold,,,BANK,,,,,,,,,200,TRUE
+AT-BalAbTh04,"Validate BalanceAboveThreshold , Validate TriggerType",REFRESH,BalanceAboveThreshold,,,,,,,,,,,,200,TRUE
+AT-BalAbTh05,"Validate BalanceAboveThreshold , Validate applicableEntity",,BalanceAboveThreshold,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-BalAbTh06,"Validate BalanceAboveThreshold , Validate number of levels and levelObject",,BalanceAboveThreshold,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-BalAbTh07,"Validate BalanceAboveThreshold , Validate isSubscribed=false",,BalanceAboveThreshold,,,,,,,,FALSE,,,,200,TRUE
+AT-BalAbTh08,"Validate BalanceAboveThreshold , Validate threshold Name,default Value 60000 and Type",,BalanceAboveThreshold,,,,,,,account,,,"BALANCE,50000,AMOUNT",,200,TRUE
+AT-BalAbTh09,"Validate BalanceAboveThreshold , Validate insightKeys",,BalanceAboveThreshold,,,,Account,,,,,,,,200,TRUE
+AT-BalAbTh10,"Validate BalanceAboveThreshold , Validate description",,BalanceAboveThreshold,,,,,Generates an insight when the balance on a bank account is above a configured threshold.,,,,,,,200,TRUE
+AT-BalAbTh11,"Validate BalanceAboveThreshold , Validate title",,BalanceAboveThreshold,,Balance Above Threshold,,,,,,,,,,200,TRUE
+AT-BalAbTh12,"Validate BalanceAboveThreshold , Validate ruleExpression",,BalanceAboveThreshold,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE

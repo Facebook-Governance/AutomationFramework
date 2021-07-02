@@ -1,0 +1,39 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "validUntil": {
+      "$id": "/properties/validUntil",
+      "type": "string",
+      "format": "datetime",
+      "title": "The Validuntil Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "2015-10-29T14:39:19Z"
+      ]
+    },
+    "loginName": {
+      "$id": "/properties/loginName",
+      "type": "string",
+      "title": "The Loginname Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "XXXX"
+      ]
+    },
+    "token": {
+      "$id": "/properties/token",
+      "type": "string",
+      "title": "The Token Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "aa222111111b3a8hhj49d111"
+      ]
+    }
+  }
+}

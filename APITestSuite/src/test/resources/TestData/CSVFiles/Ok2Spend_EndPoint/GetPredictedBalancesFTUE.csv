@@ -1,0 +1,13 @@
+tcid,tcName,httpStatusCode,accountId,fromDate,toDate,interval,preferredAccounts,FTUE,enabled
+AT-146286,Verify /predictedBalance API when user completed FTUE and has set preferred accounts=TRUE,200,,"0,0","0,1",M,TRUE,DONE,TRUE
+AT-146287,"Verify /predictedBalance API when user has set preferred accounts - FALSE and accountId = Account1 ,FTUE not done",200,BANK,"0,0","0,1",M,FALSE,NOT_DONE,TRUE
+AT-146288,"Verify /predictedBalance API when user has set preferred accounts - FALSE and accountId = NA ,FTUE not done",200,,"0,0","0,1",M,FALSE,NOT_DONE,TRUE
+AT-146289,"Verify /predictedBalance API when user has set preferred accounts - TRUE and accountId = {account1} ,FTUE not done",200,BANK,"0,0","0,1",M,TRUE,NOT_DONE,TRUE
+AT-146290,"Verify /predictedBalance API when user has set preferred accounts - TRUE and accountId = NA ,FTUE is done",200,,"0,0","0,1",M,TRUE,DONE,TRUE
+AT-146291,"Verify /predictedBalance API when user has set preferred accounts - TRUE and accountId = NA ,FTUE is not done",200,,"0,0","0,1",M,TRUE,NOT_DONE,TRUE
+AT-146292,"Verify /predictedBalance API when user has set preferred accounts - TRUE and accountId = {account1} ,FTUE is not done",200,BANK,"0,0","0,1",M,TRUE,NOT_DONE,TRUE
+AT-146293,"Verify /predictedBalance API when user has set preferred accounts - FALSE and accountId = NA ,FTUE is not done",200,,"0,0","0,1",M,FALSE,NOT_DONE,TRUE
+AT-146294,"Verify /predictedBalance API when user has set preferred accounts - FALSE and accountId = {account1} ,FTUE is not done",200,BANK,"0,0","0,1",M,FALSE,NOT_DONE,TRUE
+AT-146295,"Verify /predictedBalance API when user has set preferred accounts - FALSE and accountId = {closed account} ,FTUE is not done",200,INVALID,"0,0","0,1",M,FALSE,NOT_DONE,TRUE
+AT-146296,Verify /predictedBalance API when user completed FTUE and has set preferred accounts=TRUE,200,,"0,0,0","0,1,0",D,TRUE,DONE,TRUE
+AT-146297,Verify /predictedBalance API when user completed FTUE and has set preferred accounts=TRUE,200,,"0,0,0","0,1,0",W,TRUE,DONE,TRUE

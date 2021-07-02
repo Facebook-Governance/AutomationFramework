@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>RestGenDocDown.site16441.9</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.9</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>TRANSACTIONS</name>
+							<container>bill,creditCard,bank,insurance,investment,loan
+							</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+
+				<dataset>
+					<name>DOCUMENT</name>
+					<attributeList>
+						<attribute>
+							<name>STATEMENT</name>
+							<container>bank,investment</container>
+						</attribute>
+						<attribute>
+							<name>TAX</name>
+							<container>bank,investment,loan</container>
+						</attribute>
+						<attribute>
+							<name>EBILL</name>
+							<container>bill,creditCard,insurance,loan
+							</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<cacheRequest-multiple>
+		<cacheRequest order="1">
+			<containers>
+				<container>
+					<sumInfoId>20563</sumInfoId>
+					<datasetAttributes>
+						<datasetAttribute>11</datasetAttribute>
+					</datasetAttributes>
+				</container>
+			</containers>
+		</cacheRequest>
+		</cacheRequest-multiple>
+	</request>
+	<response>
+		<siteRefreshStats-multiple>
+		<siteRefreshStats order="1">
+			<datasetDetails>[{"container":"stocks","dataset":[{"datasetId":3,"attributeIds":[9,10]},{"datasetId":1,"attributeIds":[8,13]}]},{"container":"bank","dataset":[{"datasetId":3,"attributeIds":[9,10]},{"datasetId":1,"attributeIds":[8,13]}]},{"container":"bills","dataset":[{"datasetId":3,"attributeIds":[11]},{"datasetId":1,"attributeIds":[5,7,8,13]}]},{"container":"credits","dataset":[{"datasetId":3,"attributeIds":[11]},{"datasetId":1,"attributeIds":[5,7,8,13]}]},{"container":"insurance","dataset":[{"datasetId":3,"attributeIds":[11]},{"datasetId":1,"attributeIds":[5,7,8,13]}]},{"container":"loans","dataset":[{"datasetId":3,"attributeIds":[10,11]},{"datasetId":1,"attributeIds":[5,7,8,13]}]}]</datasetDetails>
+			<memSiteAccExtnJson>[{"datasetId":1,"refreshStatus":7,"errorCode":0,"attribDetails":[{"attributeId":5,"refreshStatus":7,"errorCode":0},{"attributeId":7,"refreshStatus":7,"errorCode":0},{"attributeId":8,"refreshStatus":7,"errorCode":0},{"attributeId":13,"refreshStatus":7,"errorCode":0}]},{"datasetId":3,"refreshStatus":7,"errorCode":811,"attribDetails":[{"attributeId":9,"refreshStatus":7,"errorCode":0},{"attributeId":10,"refreshStatus":7,"errorCode":0},{"attributeId":11,"refreshStatus":7,"errorCode":811}]}]</memSiteAccExtnJson>
+		</siteRefreshStats>
+		</siteRefreshStats-multiple>
+	</response>
+</entity>

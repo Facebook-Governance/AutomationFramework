@@ -1,0 +1,4 @@
+TestCaseId,categoryId,priority,descriptionOperation,descriptionValue,amountOperation,amountValue,Title,statusCode,updateField,updateOperation,updateValue,updatedStatusCode,ResFile,FilePath,Enabled
+10,1,1,stringContains,advt,numberEquals,1000,StringContainsNumEqual,201,description,stringContains,fdgd,204,StringContainsNumEqual.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE
+11,1,1,stringContains,ban12,numberEquals,2000,StringEqualsNumEqual,201,amount,numberLessThanEquals,2500,204,StringEqualsNumEqual.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE
+12,1,1,stringContains,jklm,numberLessThan,3000,StringContainsNumLessThan,201,,,,400,StringContainsNumLessThan.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE

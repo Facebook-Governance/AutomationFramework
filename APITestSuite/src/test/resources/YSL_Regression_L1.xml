@@ -1,0 +1,136 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="methods" thread-count="1"
+	preserve-order="true">
+
+
+
+	<parameter name="suiteName" value="YSLAutoAmelia" />
+
+	<listeners>
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+
+	</listeners>
+
+	<test name="Test1">
+
+		<classes>
+
+			<!-- <class name="com.yodlee.yodleeApi.providerAccounts.AddAndDeleteProviderAccount"/> 
+				<class name="com.yodlee.yodleeApi.providerAccounts.TestAccountAdditionForDiffSites"/> 
+				<class name="com.yodlee.yodleeApi.providerAccounts.TestDeleteProviderAccounts"/> 
+				<class name="com.yodlee.yodleeApi.providerAccounts.TestGetVerificationStatus"/> 
+				<class name="com.yodlee.yodleeApi.providerAccounts.TestGetProvidersValidation" 
+				/> <class name="com.yodlee.yodleeApi.providerAccounts.TestComplexLoginForm" 
+				/> <class name="com.yodlee.yodleeApi.providerAccounts.TestProviderAccountsDetails" 
+				/> <class name="com.yodlee.yodleeApi.providerAccounts.TestLoginFormFields" 
+				/> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.providerAccounts.TestProviderAccountsMFA" 
+				/> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.Accounts.TestGetAccounts" /> -->
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestGetAccountDetails" />
+
+			<!-- <class name="com.yodlee.app.yodleeApi.psd2.TestNonSDGGetProviderDetailsOAuthCob"></class> -->
+
+			<!-- <class name="com.yodlee.app.yodleeApi.psd2.SDG.TestSDGGetPSDProvidersOAuthCob"></class> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.Accounts.TestGetAccountDetails" 
+				/> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.sdg.script.TestPiiProfilesSdg" 
+				/> -->
+
+
+			<!-- <class name="com.yodlee.yodleeApi.sdg.script.TestTeacaProviderAccounts" 
+				/> -->
+
+
+			<!-- <class name="com.yodlee.yodleeApi.providerAccounts.TestProviderAccountsDetails" 
+				/> -->
+
+
+
+			<!-- <methods> <include name="testGetAccountDetailsPositiveScenarios" 
+				/> -->
+			<!-- <include name="testGetAccountsPositiveScenariosForInactiveStatus" 
+				/> -->
+
+			<!-- <exclude name="testGetAccountsPositiveScenariosForActiveStatus" /> 
+				<exclude name="testGetAccountsPositiveScenariosForInactiveStatus" /> <exclude 
+				name="testGetAccountsPositiveScenariosForClosedStatus" /> -->
+
+			<!-- </methods> </class> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.Accounts.TestGetAccou" /> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.sdg.TestDedup" /> -->
+
+
+
+
+			<!-- <class name="com.yodlee.yodleeApi.providerAccounts.TestProviderAccountsDetails"/> -->
+			<!-- <class name="com.yodlee.yodleeApi.Accounts.TestGetAccounts"/> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.User.TestUserDetails"/> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.User.TestUserRegistration"/> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.Accounts.TestDeleteAccountsNegative"/> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.Accounts.TestGetBalances"/> -->
+
+
+
+			<!-- <class name="com.yodlee.yodleeApi.Test.TestDedup"/> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.providerAccounts.AddAndDeleteProviderAccount"/> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.User.TestUserLogin"/> -->
+			<!-- <class name="com.yodlee.yodleeApi.Test.Accounts.TestGetAccounts"/> -->
+			<!-- <class name="com.yodlee.yodleeApi.Accounts.TestDeleteAccountsNegative"/> -->
+
+
+			<!-- <methods> <include name="testGetAccountsPositiveScenariosForActiveStatus"></include> 
+				</methods> </class> -->
+			<!-- <class name="com.yodlee.yodleeApi.Test.TestResearchPojoAssertion"/> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.Test.User.TestUserDetails"/> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.Accounts.TestGetBalances"></class> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.Accounts.TestDeleteAccountsNegative"></class> -->
+			<!-- <class name="com.yodlee.yodleeApi.User.UserRegistration"/> -->
+			<!-- <class name="com.yodlee.yodleeApi.User.TestUserDetails"/> -->
+			<!-- <class name="com.yodlee.yodleeApi.Cobrand.TestCobLogin"/> -->
+
+			<!-- <class name="com.yodlee.yodleeApi.Test.User.TestUserDetails"/> -->
+
+
+
+			<!-- <class name="com.yodlee.yodleeApi.Test.Accounts.TestGetAccounts"/> -->
+
+
+			<!-- <class name="com.yodlee.yodleeapi.test.TestAddAccountsGroup"/> -->
+
+			<!-- <class name="com.yodlee.yodleeapi.test.TestNonSdgAccountAddition"/> -->
+
+
+			<!-- <class name="com.yodlee.yodleeapi.test.TestDedup"/> -->
+
+			<!-- <class name="com.yodlee.yodleeapi.test.TestApi"/> -->
+
+		</classes>
+
+	</test>
+
+</suite>
+

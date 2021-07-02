@@ -1,0 +1,110 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "account": {
+      "$id": "/properties/account",
+      "type": "array",
+      "items": {
+        "$id": "/properties/account/items",
+        "type": "object",
+        "properties": {
+          "id": {
+            "$id": "/properties/account/items/properties/id",
+             "type": "number",
+      		 "minimum": -9223372036854775807,
+      		 "maximum": 9223372036854775807,
+            "title": "The Id Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              2851440
+            ]
+          },
+          "historicalBalances": {
+            "$id": "/properties/account/items/properties/historicalBalances",
+            "type": "array",
+            "items": {
+              "$id": "/properties/account/items/properties/historicalBalances/items",
+              "type": "object",
+              "properties": {
+                "isAsset": {
+                  "$id": "/properties/account/items/properties/historicalBalances/items/properties/isAsset",
+                  "type": "boolean",
+                  "title": "The Isasset Schema.",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": false,
+                  "examples": [
+                    false
+                  ]
+                },
+                "date": {
+                  "$id": "/properties/account/items/properties/historicalBalances/items/properties/date",
+                  "type": "string",
+                  "format":"date",
+                  "title": "The Date Schema.",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "2017-11-22"
+                  ]
+                },
+                "asOfDate": {
+                  "$id": "/properties/account/items/properties/historicalBalances/items/properties/asOfDate",
+                  "type": "string",
+                  "format":"date",
+                  "title": "The Asofdate Schema.",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "2017-11-22"
+                  ]
+                },
+                "balance": {
+                  "$id": "/properties/account/items/properties/historicalBalances/items/properties/balance",
+                  "type": "object",
+                  "properties": {
+                    "amount": {
+                      "$id": "/properties/account/items/properties/historicalBalances/items/properties/balance/properties/amount",
+                      "type": "number",
+                	  "multipleOf": 0.01,
+                      "title": "The Amount Schema.",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": 0,
+                      "examples": [
+                        2000
+                      ]
+                    },
+                    "currency": {
+                      "$id": "/properties/account/items/properties/historicalBalances/items/properties/balance/properties/currency",
+                      "type": "string",
+                      "format":"money",
+                      "title": "The Currency Schema.",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": "",
+                      "examples": [
+                        "USD"
+                      ]
+                    }
+                  }
+                },
+                "dataSourceType": {
+                  "$id": "/properties/account/items/properties/historicalBalances/items/properties/dataSourceType",
+                  "type": "string",
+                  "title": "The Datasourcetype Schema.",
+                  "description": "An explanation about the purpose of this instance.",
+                  "default": "",
+                  "examples": [
+                    "S"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

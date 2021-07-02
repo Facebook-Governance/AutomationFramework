@@ -1,0 +1,7 @@
+ tcID,tcName,priority,capability,dataSet,name,skip,top,topSuggested,enabled
+AT -82688,BasicAggregation,popular,,DOCUMENT[TAX.container[bank OR loan]],,0,2,null,TRUE
+AT -82688,BasicAggregation,popular,,DOCUMENT[TAX.container[bank OR investment]],,0,10,null,TRUE
+AT -82688,BasicAggregation,popular,,DOCUMENT[TAX.container[investment OR loan]],,0,10,null,TRUE
+AT -82688,BasicAggregation,popular,,DOCUMENT[TAX.container[bank]],,0,2,null,TRUE
+AT -82688,BasicAggregation,popular,,DOCUMENT[TAX.container[investment]],,0,10,null,TRUE
+AT -82688,BasicAggregation,popular,,DOCUMENT[TAX.container[bank OR investment OR loan]],,0,10,null,TRUE

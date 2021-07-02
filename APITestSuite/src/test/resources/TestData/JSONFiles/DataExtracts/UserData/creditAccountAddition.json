@@ -1,0 +1,123 @@
+{
+    "userData": [
+        {
+            "user": {
+                "loginName": ""
+            },
+            "providerAccount": [
+                {
+                    "refreshInfo": {
+                        "statusCode": 0,
+                        "lastRefreshAttempt": "${json-unit.ignore}",
+                        "status": "SUCCESS",
+                        "lastRefreshed": "${json-unit.ignore}",
+                        "nextRefreshScheduled": "${json-unit.ignore}",
+                        "statusMessage": "OK"
+                    },
+                    "id": "${json-unit.any-number}",
+                    "aggregationSource": "USER",
+                    "isManual": false,
+                    "lastUpdated": "${json-unit.ignore}",
+                    "providerId": 16441,
+                    "isDeleted": false,
+                    "createdDate": "2017-06-15"
+                }
+            ],
+            "account": [
+                {
+                    "refreshinfo": {
+                        "statusCode": 0,
+                        "lastRefreshAttempt": "${json-unit.ignore}",
+                        "lastRefreshed": "${json-unit.ignore}",
+                        "nextRefreshScheduled": "${json-unit.ignore}",
+                        "statusMessage": "OK"
+                    },
+                    "isManual": false,
+                    "isAsset": false,
+                    "id": "${json-unit.any-number}",
+                    "balance": {
+                        "amount": 11756.88,
+                        "currency": "USD"
+                    },
+                    "accountNumber": "354-2334",
+                    "lastPaymentAmount": {
+                        "amount": 5000.67,
+                        "currency": "USD"
+                    },
+                    "accountStatus": "ACTIVE",
+                    "totalCreditLine": {
+                        "amount": 100,
+                        "currency": "USD"
+                    },
+                    "includeInNetWorth": true,
+                    "holderProfile": [
+                        {
+                            "name": {
+                                "displayed": "Bill Gates"
+                            }
+                        }
+                    ],
+                    "providerAccountId": "${json-unit.any-number}",
+                    "createdDate": "${json-unit.ignore}",
+                    "dueDate": "2017-05-29",
+                    "availableCredit": {
+                        "amount": 1000,
+                        "currency": "USD"
+                    },
+                    "apr": 15.25,
+                    "CONTAINER": "creditCard",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "isDeleted": false,
+                    "totalCashLimit": {
+                        "amount": 100,
+                        "currency": "USD"
+                    },
+                    "url": "http://abc.com",
+                    "runningBalance": {
+                        "amount": 11756.88,
+                        "currency": "USD"
+                    },
+                    "accountName": "Credit_Card_Account_1",
+                    "minimumAmountDue": {
+                        "amount": 1000,
+                        "currency": "USD"
+                    },
+                    "providerName": "Dag Site",
+                    "lastPaymentDate": "2017-05-28",
+                    "classification": "PERSONAL",
+                    "accountType": "CREDIT",
+                    "providerId": "16441",
+                    "amountDue": 100
+                }
+            ],
+            "transaction": [
+                {
+                    "accountId": "${json-unit.any-number}",
+                    "status": "POSTED",
+                    "CONTAINER": "creditCard",
+                    "postDate": "2017-05-28",
+                    "isManual": false,
+                    "categoryType": "UNCATEGORIZE",
+                    "categoryId": 1,
+                    "lastUpdated":"${json-unit.ignore}",
+                    "isDeleted": false,
+                    "date": "2017-05-28",
+                    "transactionDate": "2017-05-28",
+                    "id": "${json-unit.any-number}",
+                    "amount": {
+                        "amount": 450.25,
+                        "currency": "USD"
+                    },
+                    "category": "Uncategorized",
+                    "highLevelCategoryId": 10000017,
+                    "baseType": "DEBIT",
+                    "description": {
+                        "simple": "TransDesc",
+                        "original": "TransDesc"
+                    },
+                    "categorySource": "SYSTEM"
+                }
+            ]
+        }
+    ]
+}

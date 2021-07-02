@@ -1,0 +1,463 @@
+{
+    "transaction": [
+        {
+            "accountId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 925,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "category": "Transfers",
+            "categoryId": 28,
+            "categorySource": "SYSTEM",
+            "categoryType": "TRANSFER",
+            "CONTAINER": "bank",
+            "createdDate": "${json-unit.ignore}",
+            "date": "${json-unit.ignore}",
+            "description": {
+                "original": "Zelle Transfer Conf# 000f0e000; UPWIJGCCI, UPWIJGCC",
+                "simple": "Zelle Transfer Conf# 000f0e000; UPWIJGCCI, UPWIJGCC"
+            },
+            "highLevelCategoryId": 10000015,
+            "id": "${json-unit.ignore}",
+            "isManual": false,
+            "isRecurring": false,
+            "lastUpdated": "${json-unit.ignore}",
+            "merchant": {
+                "categoryLabel": [
+                    "[Transfers]"
+                ],
+                "id": "${json-unit.ignore}",
+                "name": "Zelle",
+                "source": "YODLEE"
+            },
+            "postDate": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 5389,
+                "currency": "USD"
+            },
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "subType": "TRANSFER",
+            "type": "TRANSFER"
+        },
+        {
+            "accountId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 5000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "category": "Insurance",
+            "categoryId": 14,
+            "categorySource": "SYSTEM",
+            "categoryType": "EXPENSE",
+            "CONTAINER": "creditCard",
+            "createdDate": "${json-unit.ignore}",
+            "date": "${json-unit.ignore}",
+            "description": {
+                "original": "Safeco Insurance",
+                "simple": "Insurance Payment to Safeco"
+            },
+            "highLevelCategoryId": 10000020,
+            "id": "${json-unit.ignore}",
+            "isManual": false,
+            "isRecurring": false,
+            "lastUpdated": "${json-unit.ignore}",
+            "merchant": {
+                "categoryLabel": [
+                    "[Insurance]"
+                ],
+                "id": "${json-unit.ignore}",
+                "name": "Safeco",
+                "source": "YODLEE"
+            },
+            "postDate": "${json-unit.ignore}",
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "subType": "INSURANCE_PAYMENT",
+            "transactionDate": "${json-unit.ignore}",
+            "type": "PAYMENT"
+        },
+        {
+            "accountId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "category": "Utilities",
+            "categoryId": 39,
+            "categorySource": "SYSTEM",
+            "categoryType": "EXPENSE",
+            "CONTAINER": "creditCard",
+            "createdDate": "${json-unit.ignore}",
+            "date": "${json-unit.ignore}",
+            "description": {
+                "original": "oside online utility b 760-XXXXXXX ca",
+                "simple": "Utilities Payment"
+            },
+            "highLevelCategoryId": 10000004,
+            "id": "${json-unit.ignore}",
+            "isManual": false,
+            "isRecurring": false,
+            "lastUpdated": "${json-unit.ignore}",
+            "merchant": {
+                "categoryLabel": [
+                    "[ATM/Cash Withdrawals]"
+                ],
+                "id": "${json-unit.ignore}",
+                "source": "YODLEE"
+            },
+            "postDate": "${json-unit.ignore}",
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "subType": "UTILITIES_PAYMENT",
+            "transactionDate": "2018-12-26",
+            "type": "PAYMENT"
+        },
+        {
+            "accountId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 3500,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "category": "Groceries",
+            "categoryId": 10,
+            "categorySource": "SYSTEM",
+            "categoryType": "EXPENSE",
+            "CONTAINER": "creditCard",
+            "createdDate": "${json-unit.ignore}",
+            "date": "${json-unit.ignore}",
+            "description": {
+                "original": "Education expenses",
+                "simple": "Education expenses"
+            },
+            "highLevelCategoryId": 10000004,
+            "id": "${json-unit.ignore}",
+            "isManual": false,
+            "isRecurring": false,
+            "lastUpdated": "${json-unit.ignore}",
+            "merchant": {
+                "categoryLabel": [
+                    "Other Expenses"
+                ],
+                "id": "10004400",
+                "source": "YODLEE"
+            },
+            "postDate": "${json-unit.ignore}",
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "subType": "PAYMENT",
+            "transactionDate": "${json-unit.ignore}",
+            "type": "PAYMENT"
+        },
+        {
+            "accountId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 925,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "category": "Transfers",
+            "categoryId": 28,
+            "categorySource": "SYSTEM",
+            "categoryType": "TRANSFER",
+            "CONTAINER": "bank",
+            "createdDate": "${json-unit.ignore}",
+            "date": "${json-unit.ignore}",
+            "description": {
+                "original": "Zelle Transfer Conf# 000f0e000; UPWIJGCCI, UPWIJGCC",
+                "simple": "Zelle Transfer Conf# 000f0e000; UPWIJGCCI, UPWIJGCC"
+            },
+            "highLevelCategoryId": 10000015,
+            "id": "${json-unit.ignore}",
+            "isManual": false,
+            "isRecurring": false,
+            "lastUpdated": "${json-unit.ignore}",
+            "merchant": {
+                "categoryLabel": [
+                    "[Transfers]"
+                ],
+                "id": "${json-unit.ignore}",
+                "name": "Zelle",
+                "source": "YODLEE"
+            },
+            "postDate": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 5389,
+                "currency": "USD"
+            },
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "subType": "TRANSFER",
+            "type": "TRANSFER"
+        },
+        {
+            "accountId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 5000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "category": "Insurance",
+            "categoryId": 14,
+            "categorySource": "SYSTEM",
+            "categoryType": "EXPENSE",
+            "CONTAINER": "creditCard",
+            "createdDate": "${json-unit.ignore}",
+            "date": "${json-unit.ignore}",
+            "description": {
+                "original": "Safeco Insurance",
+                "simple": "Insurance Payment to Safeco"
+            },
+            "highLevelCategoryId": 10000020,
+            "id": "${json-unit.ignore}",
+            "isManual": false,
+            "isRecurring": false,
+            "lastUpdated": "${json-unit.ignore}",
+            "merchant": {
+                "categoryLabel": [
+                    "[Insurance]"
+                ],
+                "id": "${json-unit.ignore}",
+                "name": "Safeco",
+                "source": "YODLEE"
+            },
+            "postDate": "${json-unit.ignore}",
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "subType": "INSURANCE_PAYMENT",
+            "transactionDate": "${json-unit.ignore}",
+            "type": "PAYMENT"
+        },
+        {
+            "accountId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 3500,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "category": "Groceries",
+            "categoryId": 10,
+            "categorySource": "SYSTEM",
+            "categoryType": "EXPENSE",
+            "CONTAINER": "creditCard",
+            "createdDate": "${json-unit.ignore}",
+            "date": "${json-unit.ignore}",
+            "description": {
+                "original": "Education expenses",
+                "simple": "Education expenses"
+            },
+            "highLevelCategoryId": 10000004,
+            "id": "${json-unit.ignore}",
+            "isManual": false,
+            "isRecurring": false,
+            "lastUpdated": "${json-unit.ignore}",
+            "merchant": {
+                "categoryLabel": [
+                    "Other Expenses"
+                ],
+                "id": "${json-unit.ignore}",
+                "source": "YODLEE"
+            },
+            "postDate": "${json-unit.ignore}",
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "subType": "PAYMENT",
+            "transactionDate": "${json-unit.ignore}",
+            "type": "PAYMENT"
+        },
+        {
+            "accountId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "category": "Utilities",
+            "categoryId": 39,
+            "categorySource": "SYSTEM",
+            "categoryType": "EXPENSE",
+            "CONTAINER": "creditCard",
+            "createdDate": "${json-unit.ignore}",
+            "date": "${json-unit.ignore}",
+            "description": {
+                "original": "oside online utility b 760-XXXXXXX ca",
+                "simple": "Utilities Payment"
+            },
+            "highLevelCategoryId": 10000004,
+            "id": "${json-unit.ignore}",
+            "isManual": false,
+            "isRecurring": false,
+            "lastUpdated": "${json-unit.ignore}",
+            "merchant": {
+                "categoryLabel": [
+                    "[ATM/Cash Withdrawals]"
+                ],
+                "id": "${json-unit.ignore}",
+                "source": "YODLEE"
+            },
+            "postDate": "${json-unit.ignore}",
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "subType": "UTILITIES_PAYMENT",
+            "transactionDate": "${json-unit.ignore}",
+            "type": "PAYMENT"
+        },
+        {
+            "accountId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 925,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "category": "Transfers",
+            "categoryId": 28,
+            "categorySource": "SYSTEM",
+            "categoryType": "TRANSFER",
+            "CONTAINER": "bank",
+            "createdDate": "${json-unit.ignore}",
+            "date": "${json-unit.ignore}",
+            "description": {
+                "original": "Zelle Transfer Conf# 000f0e000; UPWIJGCCI, UPWIJGCC",
+                "simple": "Zelle Transfer Conf# 000f0e000; UPWIJGCCI, UPWIJGCC"
+            },
+            "highLevelCategoryId": 10000015,
+            "id": "${json-unit.ignore}",
+            "isManual": false,
+            "isRecurring": false,
+            "lastUpdated": "${json-unit.ignore}",
+            "merchant": {
+                "categoryLabel": [
+                    "[Transfers]"
+                ],
+                "id": "${json-unit.ignore}",
+                "name": "Zelle",
+                "source": "YODLEE"
+            },
+            "postDate": "${json-unit.ignore}",
+            "runningBalance": {
+                "amount": 5389,
+                "currency": "USD"
+            },
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "subType": "TRANSFER",
+            "type": "TRANSFER"
+        },
+        {
+            "accountId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "category": "Utilities",
+            "categoryId": 39,
+            "categorySource": "SYSTEM",
+            "categoryType": "EXPENSE",
+            "CONTAINER": "creditCard",
+            "createdDate": "${json-unit.ignore}",
+            "date": "${json-unit.ignore}",
+            "description": {
+                "original": "oside online utility b 760-XXXXXXX ca",
+                "simple": "Utilities Payment"
+            },
+            "highLevelCategoryId": 10000004,
+            "id": "${json-unit.ignore}",
+            "isManual": false,
+            "isRecurring": false,
+            "lastUpdated": "${json-unit.ignore}",
+            "merchant": {
+                "categoryLabel": [
+                    "[ATM/Cash Withdrawals]"
+                ],
+                "id": "${json-unit.ignore}",
+                "source": "YODLEE"
+            },
+            "postDate": "${json-unit.ignore}",
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "subType": "UTILITIES_PAYMENT",
+            "transactionDate": "${json-unit.ignore}",
+            "type": "PAYMENT"
+        },
+        {
+            "accountId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 3500,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "category": "Groceries",
+            "categoryId": 10,
+            "categorySource": "SYSTEM",
+            "categoryType": "EXPENSE",
+            "CONTAINER": "creditCard",
+            "createdDate": "${json-unit.ignore}",
+            "date": "${json-unit.ignore}",
+            "description": {
+                "original": "Education expenses",
+                "simple": "Education expenses"
+            },
+            "highLevelCategoryId": 10000004,
+            "id": "${json-unit.ignore}",
+            "isManual": false,
+            "isRecurring": false,
+            "lastUpdated": "${json-unit.ignore}",
+            "merchant": {
+                "categoryLabel": [
+                    "Other Expenses"
+                ],
+                "id": "${json-unit.ignore}",
+                "source": "YODLEE"
+            },
+            "postDate": "${json-unit.ignore}",
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "subType": "PAYMENT",
+            "transactionDate": "${json-unit.ignore}",
+            "type": "PAYMENT"
+        },
+        {
+            "accountId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 5000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "category": "Insurance",
+            "categoryId": 14,
+            "categorySource": "SYSTEM",
+            "categoryType": "EXPENSE",
+            "CONTAINER": "creditCard",
+            "createdDate": "${json-unit.ignore}",
+            "date": "${json-unit.ignore}",
+            "description": {
+                "original": "Safeco Insurance",
+                "simple": "Insurance Payment to Safeco"
+            },
+            "highLevelCategoryId": 10000020,
+            "id": "${json-unit.ignore}",
+            "isManual": false,
+            "isRecurring": false,
+            "lastUpdated": "${json-unit.ignore}",
+            "merchant": {
+                "categoryLabel": [
+                    "[Insurance]"
+                ],
+                "id": "${json-unit.ignore}",
+                "name": "Safeco",
+                "source": "YODLEE"
+            },
+            "postDate": "${json-unit.ignore}",
+            "sourceType": "AGGREGATED",
+            "status": "POSTED",
+            "subType": "INSURANCE_PAYMENT",
+            "transactionDate": "${json-unit.ignore}",
+            "type": "PAYMENT"
+        }
+    ]
+}

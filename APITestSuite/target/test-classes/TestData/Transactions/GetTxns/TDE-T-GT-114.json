@@ -1,0 +1,60 @@
+{
+  "transaction": [
+    {
+      "date": "2017-02-09",
+      "amount": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "bDummy_acc_holder_XXXXXXXXnk of Dummy_acc_holder_XXXXXXXXmericDummy_acc_holder_XXXXXXXX triDummy_acc_holder_XXXXXXXXlcredt ppd ***********9570",
+        "simple": "bDummy_acc_holder_XXnk of Dummy_acc_holder_XXmericDummy_acc_holder_XX triDummy_acc_holder_XXlcredt ***********9570"
+      },
+      "type": "OTHER_DEPOSITS",
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "bank",
+      "postDate": "2017-02-09",
+      "subType": "CREDIT",
+      "id": "${json-unit.any-number}",
+      "category": "Other Income",
+      "categoryId": 32,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-09",
+      "amount": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "bDummy_acc_holder_XXXXXXXXnk of Dummy_acc_holder_XXXXXXXXmericDummy_acc_holder_XXXXXXXX triDummy_acc_holder_XXXXXXXXlcredt ppd ***********9568",
+        "simple": "bDummy_acc_holder_XXnk of Dummy_acc_holder_XXmericDummy_acc_holder_XX triDummy_acc_holder_XXlcredt ***********9568"
+      },
+      "type": "OTHER_DEPOSITS",
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "bank",
+      "postDate": "2017-02-09",
+      "subType": "CREDIT",
+      "id": "${json-unit.any-number}",
+      "category": "Other Income",
+      "categoryId": 32,
+      "status": "POSTED"
+    }
+  ]
+}

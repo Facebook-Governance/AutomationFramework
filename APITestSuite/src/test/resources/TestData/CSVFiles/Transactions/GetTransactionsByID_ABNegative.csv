@@ -1,0 +1,5 @@
+testCaseId,testCases,TransactionId,sourceType,enabled,resFilePathstatus,resFile,status,container
+AT-30696,GetTransactionById_Otheruser,11549012,SYSTEM_PREDICTED,TRUE,../src/test/resources/TestData/GetRecurringTransactionByIdABNegativeErrorMessage,/GetTransactionByByAnotherUserTxnId.json,400,bank
+AT-30692,GetTransactionById_DeletedTxn,11448874,SYSTEM_PREDICTED,TRUE,../src/test/resources/TestData/GetRecurringTransactionByIdABNegativeErrorMessage,/GetTransactionByIdDeletedTxn.json,400,bank
+AT-30691,GetTransactionById_Aggregated,10768913,SYSTEM_PREDICTED,TRUE,../src/test/resources/TestData/GetRecurringTransactionByIdABNegativeErrorMessage,/GetTransactionByIdDeletedTxn.json,400,bank
+AT-30697,GetTransactionById_InValid,1111111,SYSTEM_PREDICTED,TRUE,../src/test/resources/TestData/GetRecurringTransactionByIdABNegativeErrorMessage,/GetTransactionByIdDeletedTxn.json,400,bank

@@ -1,0 +1,2 @@
+TcId,Testcase Name,fromDate,toDate,container,baseType,keyword,accountId,recurringEventId,sourceType,categoryId,type,categoryType,skip,top,httpStatusCode,respFile,FilePath,enabled
+12,ValidRecurringEventId,"0,0,0","0,5,0",,,,,VALID,"MANUAL,SYSTEM_PREDICTED",,,,,,200,ValidRecurringEventId.json,../src/test/resources/TestData/GetRecurringTransaction/,TRUE

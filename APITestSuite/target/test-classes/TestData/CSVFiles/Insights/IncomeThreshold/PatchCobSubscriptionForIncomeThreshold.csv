@@ -1,0 +1,25 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-154211,PATCH COBRAND SUBSCRIPTION - subscribe to IncomeThreshold isSubscribed=true,IncomeThreshold,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,500,AMOUNT",204,TRUE
+AT-154212,PATCH COBRAND SUBSCRIPTION - update insightName to same name,IncomeThreshold,negTestScenario53,IncomeThreshold,,,,,,,,,,,,,,,,,,500,TRUE
+AT-154213,PATCH COBRAND SUBSCRIPTION -  update insightName to different name,IncomeThreshold,negTestScenario2,IncomeThresholdEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-154214,PATCH COBRAND SUBSCRIPTION - update insightTitle chars between 3 and 100 ,IncomeThreshold,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-154215,PATCH COBRAND SUBSCRIPTION -  update insightTitle chars are only 3,IncomeThreshold,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-154216,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are only 100,IncomeThreshold,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-154217,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are less than 3,IncomeThreshold,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-154218,PATCH COBRAND SUBSCRIPTION -  update insightTitle chars are greater 100,IncomeThreshold,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-154219,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are special characters,IncomeThreshold,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-154220,PATCH COBRAND SUBSCRIPTION -  update container,IncomeThreshold,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-154221,PATCH COBRAND SUBSCRIPTION -  update keys,IncomeThreshold,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-154222,PATCH COBRAND SUBSCRIPTION -  update description,IncomeThreshold,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-154223,PATCH COBRAND SUBSCRIPTION -  update applicableEntity,IncomeThreshold,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-154224,PATCH COBRAND SUBSCRIPTION -  update entityParameter-VIEW,IncomeThreshold,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,500,AMOUNT",204,TRUE
+AT-154225,PATCH COBRAND SUBSCRIPTION -  update entityParameter-frequency,IncomeThreshold,negTestScenario32,,,,,,,,,1,,view,1,,WEEKLY,TRUE,,,"MINIMUM,500,AMOUNT",400,TRUE
+AT-154226,PATCH COBRAND SUBSCRIPTION -  update entityParameter-duration,IncomeThreshold,negTestScenario50,,,,,,,,,1,,view,1,,,TRUE,THREE_MONTHS,,"MINIMUM,500,AMOUNT",400,TRUE
+AT-154227,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW[0]->insightType,IncomeThreshold,negTestScenario24,,,,,,,,,1,,view,1,,,TRUE,,OTHER,"MINIMUM,500,AMOUNT",400,TRUE
+AT-154228,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW[0]->insightType - Invalid Name,IncomeThreshold,negTestScenario24,,,,,,,,,1,,view,1,,,TRUE,,INVALID,"MINIMUM,500,AMOUNT",400,TRUE
+AT-154229,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW->threshold[0]->name,IncomeThreshold,negTestScenario27,,,,,,,,,1,,view,1,,,TRUE,,,"LIMIT,1,AMOUNT",400,TRUE
+AT-154230,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW->threshold[0]->value,IncomeThreshold,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,50000,AMOUNT",204,TRUE
+AT-154231,PATCH COBRAND SUBSCRIPTION -  update entityParameter->VIEW->threshold[0]->type,IncomeThreshold,negTestScenario28,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,1,PERCENT",400,TRUE
+AT-154232,PATCH COBRAND SUBSCRIPTION - update entityParameter->View->isSubscribed=false,IncomeThreshold,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-154233,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW->threshold[0]->value- reverting to default,IncomeThreshold,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,500,AMOUNT",204,TRUE
+AT-154234,PATCH COBRAND SUBSCRIPTION - update insightTitle to IncomeThreshold notice,IncomeThreshold,,,Income Exceeded Threshold,,,,,,,,,,,,DAILY,TRUE,THIS_MONTH,,,204,TRUE

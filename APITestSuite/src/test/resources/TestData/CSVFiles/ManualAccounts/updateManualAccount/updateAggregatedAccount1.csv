@@ -1,0 +1,25 @@
+Testcaseid,TestcaseName,accountIdContainer,nickName,accountstatus,includeNetworth,memo,status,defectId,enabled
+A-UpdateAggAcc-1,With all values,bank,Flood Cash,ACTIVE,TRUE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-2,With AccountStatus as INACTIVE,bank,Flood Cash,INACTIVE,TRUE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-3,With all values,insurance,Flood Cash,ACTIVE,TRUE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-4,With AccountStatus as INACTIVE,insurance,Flood Cash,INACTIVE,TRUE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-5,With all values,bill,Flood Cash,ACTIVE,,This is an bank account,204,,TRUE
+A-UpdateAggAcc-6,With AccountStatus as INACTIVE,bill,Flood Cash,INACTIVE,,This is an bank account,204,,TRUE
+A-UpdateAggAcc-7,With all values,creditCard,Flood Cash,ACTIVE,TRUE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-8,With AccountStatus as INACTIVE,creditCard,Flood Cash,INACTIVE,TRUE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-9,With all values,loan,Flood Cash,ACTIVE,TRUE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-10,With AccountStatus as INACTIVE,loan,Flood Cash,INACTIVE,TRUE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-13,With all values,investment,Flood Cash,ACTIVE,TRUE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-14,With AccountStatus as INACTIVE,investment,Flood Cash,INACTIVE,TRUE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-15,With all values,bank,Flood Cash,ACTIVE,FALSE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-16,With AccountStatus as INACTIVE,bank,Flood Cash,INACTIVE,FALSE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-17,With all values,insurance,Flood Cash,ACTIVE,FALSE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-18,With AccountStatus as INACTIVE,insurance,Flood Cash,INACTIVE,FALSE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-19,With all values,bill,Flood Cash,ACTIVE,,This is an bank account,204,,TRUE
+A-UpdateAggAcc-20,With AccountStatus as INACTIVE,bill,Flood Cash,INACTIVE,,This is an bank account,204,,TRUE
+A-UpdateAggAcc-21,With all values,creditCard,Flood Cash,ACTIVE,FALSE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-22,With AccountStatus as INACTIVE,creditCard,Flood Cash,INACTIVE,FALSE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-23,With all values,loan,Flood Cash,ACTIVE,FALSE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-24,With AccountStatus as INACTIVE,loan,Flood Cash,INACTIVE,FALSE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-27,With all values,investment,Flood Cash,ACTIVE,FALSE,This is an bank account,204,,TRUE
+A-UpdateAggAcc-28,With AccountStatus as INACTIVE,investment,Flood Cash,INACTIVE,FALSE,This is an bank account,204,,TRUE

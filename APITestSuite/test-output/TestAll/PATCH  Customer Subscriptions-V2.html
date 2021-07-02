@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  PATCH  Customer Subscriptions-V2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PATCH  Customer Subscriptions-V2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 09 17:00:02 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>209 seconds (209447 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1012, edit Container, EditContainer, LARGE_DEPOSIT, , , , BANK, , , account view, TRUE FALSE, MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT, , , , 400, TRUE</td>
+<td><div><pre>java.lang.IllegalStateException: Not a JSON Object: null
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:91)
+	at com.yodlee.insights.yodleeApi.utils.v2.InsightsSubscriptionsVerification.verifyPatchSubscriptionRequestResponse(InsightsSubscriptionsVerification.java:390)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.processPatchSubscription(TestPatchCustomerSubscriptions.java:160)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice(TestPatchCustomerSubscriptions.java:149)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace736141153", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace736141153'><pre>java.lang.IllegalStateException: Not a JSON Object: null
+	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:91)
+	at com.yodlee.insights.yodleeApi.utils.v2.InsightsSubscriptionsVerification.verifyPatchSubscriptionRequestResponse(InsightsSubscriptionsVerification.java:390)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.processPatchSubscription(TestPatchCustomerSubscriptions.java:160)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice(TestPatchCustomerSubscriptions.java:149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1001, edit InsightName, EditInsightName, LARGE_DEPOSITEDIT, , , , , , , account view, TRUE FALSE, MINIMUM,400,AMOUNT   MINIMUM,450,AMOUNT, , , , 400, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1002, edit InsightTitle minimum 3 Characters, , LARGE_DEPOSIT, abc, , , , , , account view, TRUE FALSE, MINIMUM,400,AMOUNT   MINIMUM,450,AMOUNT, , , , 204, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1003, edit InsightTitle allowed characters between 3 and 100 chars , with emptyConfiguration, emptyCustomerConfiguration, LARGE_DEPOSIT, abc, , , , , , , , , , , , 400, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1004, edit InsightTitle allowed characters between 3 and 100 chars, , LARGE_DEPOSIT, Large Deposit and Large Deposit, , , , , , account view, TRUE FALSE, MINIMUM,400,AMOUNT   MINIMUM,450,AMOUNT, , , , 204, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1005, edit InsightTitle MAX characters 100, , LARGE_DEPOSIT, abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefg100, , , , , , account view, TRUE FALSE, MINIMUM,400,AMOUNT   MINIMUM,450,AMOUNT, , , , 204, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1006, edit InsightTitle more than MAX characters 101 chars, EditTitleMinAndMaxChars, LARGE_DEPOSIT, abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi101, , , , , , , , , , , , 400, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1007, edit InsightTitle less than MIN characters 2 chars, EditTitleMinAndMaxChars, LARGE_DEPOSIT, ab, , , , , , , , , , , , 400, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1008, edit InsightTitle allowed special characters, , LARGE_DEPOSIT, Large_Deposit$()*, , , , , , account, TRUE, MINIMUM,300,AMOUNT, , , , 204, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1009, edit InsightTitle NOT allowed special characters, EditTitleWithSpecialChars, LARGE_DEPOSIT, <Large_Deposit$>, , , , , , , , , , , , 400, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1010, edit InsightType, EditInsightType, LARGE_DEPOSIT, , OTHER, , , , , , , , , , , 400, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1011, edit TriggerType, EditTriggerType, LARGE_DEPOSIT, , , REFRESH, , , , , , , , , , 400, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1013, edit Description, EditDescription, LARGE_DEPOSIT, , , , , My Description, , account view, TRUE FALSE, MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT, , , , 400, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1014, edit ApplicableEntity, EditApplicableEntity, LARGE_DEPOSIT, , , , , , VIEW    ACCOUNT, , , , , , , 400, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1015, edit threshold value to MIN "1.00", , LARGE_DEPOSIT, Large Deposit and Large Deposit, , , , , , account view, TRUE FALSE, MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT, , , , 204, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1016, edit threshold value to MAX, , LARGE_DEPOSIT, , , , , , , account view, TRUE FALSE, MINIMUM,1000000,AMOUNT   MINIMUM,1000000,AMOUNT, , , , 204, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1017, edit threshold value to Between MIN and MAX, , LARGE_DEPOSIT, , , , , , , account view, TRUE FALSE, MINIMUM,90000,AMOUNT   MINIMUM,90000,AMOUNT, , , , 204, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1018, edit threshold value to less than MIN, EditThresholdAmountRangeMinAndMax, LARGE_DEPOSIT, , , , , , , account view, TRUE FALSE, MINIMUM,0,AMOUNT   MINIMUM,0,AMOUNT, , , , 400, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1019, edit threshold value to greater than MAX, EditThresholdAmountRangeMinAndMax, LARGE_DEPOSIT, , , , , , , account view, TRUE FALSE, MINIMUM,1000001,AMOUNT   MINIMUM,1000001,AMOUNT, , , , 400, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1020, edit Invalid threshold  name to MINIMUMEDIT, EditThresholdNameInvalidMINIMUM, LARGE_DEPOSIT, , , , , , , account view, TRUE FALSE, MINIMUMEDIT,100,AMOUNT   MINIMUM,100,AMOUNT, , , , 400, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1021, edit Invalid threshold  type to AMOUNTEDIT, EditThresholdTypeInvalidAMOUNT, LARGE_DEPOSIT, , , , , , , account view, TRUE FALSE, MINIMUM,100,AMOUNT   MINIMUM,100,AMOUNTEDIT, , , , 400, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions.testPatchCustomerSubscriptionLargeDepositNotice()'><b>testPatchCustomerSubscriptionLargeDepositNotice</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions<br>Parameters: AT-1022, edit NOT supported entity, editNotSupportedEntity, LARGE_DEPOSIT, , , , , , , goal, TRU, MINIMUM,100,AMOUNT, , , , 400, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestPatchCustomerSubscriptions@660acfb</td></tr>
+</table><p>
+</body>
+</html>

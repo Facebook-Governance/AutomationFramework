@@ -1,0 +1,4 @@
+TestCaseId,TestCaseName,container,fromDate,type,errorCode,enabled
+AT-94719,Validate response code and functionality of getTransactions(NonSDGTDE) wrong type,,2001-01-01,BUY123,Y800,TRUE
+AT-94719,Validate response code and functionality of getTransactions(NonSDGTDE) for loan container type not supported,loan,2001-01-01,BUY,Y820,TRUE
+AT-94719,Validate response code and functionality of getTransactions(NonSDGTDE) for insurance container type not supported,insurance,2001-01-01,BUY,Y820,TRUE

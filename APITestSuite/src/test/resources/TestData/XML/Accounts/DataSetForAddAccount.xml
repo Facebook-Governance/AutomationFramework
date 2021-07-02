@@ -1,0 +1,25 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>Testme.site16441.7</siteUser>
+				<siteUserId></siteUserId>
+				<sitePwd>site16441.7</sitePwd>
+				<sitePwdId></sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>bill,creditCard,bank,insurance,investment,loan
+								</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+	</request>
+</entity>

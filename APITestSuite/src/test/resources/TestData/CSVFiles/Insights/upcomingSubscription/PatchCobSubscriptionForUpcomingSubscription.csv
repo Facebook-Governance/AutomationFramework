@@ -1,0 +1,27 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-138698,PATCH COBRAND SUBSCRIPTION - subscribe to UpcomingSubscription isSubscribed=true,UpcomingSubscription,,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,DAYS",204,TRUE
+AT-138698,PATCH COBRAND SUBSCRIPTION - subscribe to UpcomingSubscription isSubscribed=true for View,UpcomingSubscription,,,,,,,,,,1,,view,1,,,TRUE,,,"FUTURE,7,DAYS",204,TRUE
+AT-138699,PATCH COBRAND SUBSCRIPTION - update insightName to same name,UpcomingSubscription,negTestScenario1,UpcomingSubscription,,,,,,,,,,,,,,,,,,500,TRUE
+AT-138700,PATCH COBRAND SUBSCRIPTION -  update insightName to different name,UpcomingSubscription,negTestScenario2,UpcomingSubscriptionEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-138701,PATCH COBRAND SUBSCRIPTION - update insightTitle chars between 3 and 100 ,UpcomingSubscription,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-138702,PATCH COBRAND SUBSCRIPTION -  update insightTitle chars are only 3,UpcomingSubscription,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-138703,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are only 100,UpcomingSubscription,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-138704,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are less than 3,UpcomingSubscription,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-138705,PATCH COBRAND SUBSCRIPTION -  update insightTitle chars are greater 100,UpcomingSubscription,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-138706,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are special characters,UpcomingSubscription,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-138707,PATCH COBRAND SUBSCRIPTION -  update container,UpcomingSubscription,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-138708,PATCH COBRAND SUBSCRIPTION -  update keys,UpcomingSubscription,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-138709,PATCH COBRAND SUBSCRIPTION -  update description,UpcomingSubscription,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-138710,PATCH COBRAND SUBSCRIPTION -  update applicableEntity,UpcomingSubscription,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-138711,PATCH COBRAND SUBSCRIPTION -  update entityParameter,UpcomingSubscription,,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,DAYS",204,TRUE
+AT-138712,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->frequency,UpcomingSubscription,negTestScenario22,,,,,,,,,1,,account,1,,M,TRUE,,,"FUTURE,7,DAYS",400,TRUE
+AT-138713,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->isSubscribed=false,UpcomingSubscription,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-138714,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->duration,UpcomingSubscription,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"FUTURE,7,DAYS",400,TRUE
+AT-138715,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->insightType,UpcomingSubscription,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"FUTURE,7,DAYS",400,TRUE
+AT-138716,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->insightType - Invalid Name,UpcomingSubscription,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"FUTURE,7,DAYS",400,TRUE
+AT-138717,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->threshold[0]->name,UpcomingSubscription,negTestScenario27,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,1000,AMOUNT",400,TRUE
+AT-138718,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->threshold[0]->value,UpcomingSubscription,negTestScenario42,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,3333,DAYS",400,TRUE
+AT-138719,PATCH COBRAND SUBSCRIPTION -  update entityParameter->account[0]->threshold[0]->type,UpcomingSubscription,negTestScenario28,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,PERCENT",400,TRUE
+AT-138720,PATCH COBRAND SUBSCRIPTION -  update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,UpcomingSubscription,negTestScenario28,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,PERCENT",400,TRUE
+AT-138721,PATCH COBRAND SUBSCRIPTION -  update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,UpcomingSubscription,negTestScenario30,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,AMOUNT",400,TRUE
+AT-147608,PATCH COBRAND SUBSCRIPTION - update insightTitle to Upcoming Subscription,UpcomingSubscription,,,Upcoming Subscription,,,,,,,,,,,,,,,,,204,TRUE

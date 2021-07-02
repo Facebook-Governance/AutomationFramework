@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+
+<parameter name="coBrand" value="YCOM_AutoNPR"/>
+<parameter name="runOnBrowserStack" value="true" />
+<parameter name="bs_username" value="yodleebrowsersta1" />
+<parameter name="bs_automate_key" value="pzyoTJ6embZ48zsufsF2" />
+<parameter name="browser" value="firefox"/>
+<parameter name="browser_version" value="57" />
+<parameter name="platformName" value="windows" />
+<parameter name="platformVersion" value="8" />
+<parameter name="elpamEnabled" value="true" />
+<parameter name="appFlag" value="false"> </parameter>
+<parameter name="loginType" value="SAML1" />
+<parameter name="healthCheckUp" value="false" />
+	
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.omni.pfm.listeners.CustomListener" />
+	</listeners>
+
+
+
+	<test name="Accounts" preserve-order="true">
+		<classes>
+
+		</classes>
+	</test>
+
+	<test name="Accounts1">
+		<classes>
+			<class name="com.omni.pfm.Accounts.InvestmentFormatChange"></class>
+		</classes>
+	</test>
+
+	<test name="Accounts2">
+		<classes>
+			<class name="com.omni.pfm.Accounts.Account_Go_To_Site_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Accounts3">
+		<classes>
+			<class name="com.omni.pfm.Accounts.Accounts_Trends_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Accounts4">
+		<classes>
+			<class name="com.omni.pfm.Accounts.Accounts_CloseAccount_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Accounts5">
+		<classes>
+			<class name="com.omni.pfm.Accounts.Accounts_Detail_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Accounts6">
+		<classes>
+			<class name="com.omni.pfm.Accounts.Accounts_CommonForAllView_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Accounts7">
+		<classes>
+			<class name="com.omni.pfm.Accounts.Accounts_EditCredentials_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Accounts8">
+		<classes>
+			<class name="com.omni.pfm.Accounts.Accounts_GroupValidation_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Accounts9">
+		<classes>
+			<class name="com.omni.pfm.Accounts.Accounts_ViewByGroup_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Accounts10">
+		<classes>
+			<class name="com.omni.pfm.Accounts.Account_ViewByFI_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Accounts11">
+		<classes>
+			<class name="com.omni.pfm.Accounts.Accounts_ViewByAccountTypeTest"></class>
+		</classes>
+	</test>
+
+	<!-- <test name="Accounts12"> <classes> <class name="com.omni.pfm.Accounts.Accounts_MnaualAcntTest"></class> 
+		</classes> </test> -->
+
+
+
+	<test name="Investment holdings Landing Page">
+		<classes>
+			<class
+				name="com.omni.pfm.InvestmentHoldings.InvestmentHolding_LandingPage_Test"></class>
+		</classes>
+	</test>
+
+</suite>

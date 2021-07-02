@@ -1,0 +1,6 @@
+testCaseId,testCaseName,providerAccountId, String resFile, String filePath,deleteAccountStatus
+AT-66020,Delete with invalid id,1234531,InvalidProviderAccountId.json,../src/test/resources/TestData/JSONFiles/ProviderAccount/NonMfa/deleteProviderAccount/,400
+AT-66021,with special character,!@#$%,withSpecialCharecter.json,../src/test/resources/TestData/JSONFiles/ProviderAccount/NonMfa/deleteProviderAccount/,400
+AT-66022,with empty providerAccountId,,WithEmptyProviderAccountIds.json,../src/test/resources/TestData/JSONFiles/ProviderAccount/NonMfa/deleteProviderAccount/,405
+AT-66023,WithCharecters,afdafasf,WithCharecters.json,../src/test/resources/TestData/JSONFiles/ProviderAccount/NonMfa/deleteProviderAccount/,400
+AT-66024,With alphaNumeric,123de322sfs,WithAlphaNumeric.json,../src/test/resources/TestData/JSONFiles/ProviderAccount/NonMfa/deleteProviderAccount/,400

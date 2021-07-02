@@ -1,0 +1,28 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-154240,PatchUser - subscribe to LargePurchase,LargePurchase,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,50,AMOUNT",204,TRUE
+AT-154241,PatchUser - LargePurchase - updateTriggerType,LargePurchase,negTestScenario16,REFRESH,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-154242,PatchUser -  LargePurchase - update insightName by same name,LargePurchase,negTestScenario17,,LargePurchase,,,,,,,,,,,,,,,,,,400,TRUE
+AT-154243,PatchUser -  LargePurchase - update insightName edit InsightName,LargePurchase,negTestScenario2,,LargePurchaseEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-154244,PatchUser - LargePurchase - update insightTitle,LargePurchase,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-154245,PatchUser - LargePurchase - update container,LargePurchase,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-154246,PatchUser - LargePurchase - update keys,LargePurchase,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-154247,PatchUser - LargePurchase - update description,LargePurchase,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-154248,PatchUser - LargePurchase - update applicableEntity,LargePurchase,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-154249,PatchUser - LargePurchase - update entityParameter,LargePurchase,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,50,AMOUNT",204,TRUE
+AT-154250,PatchUser -  LargePurchase - update entityParameter->account[0]->id - Valid ItemAccountId,LargePurchase,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,50,AMOUNT",204,TRUE
+AT-154251,PatchUser -  LargePurchase - update entityParameter->account[0]->id - InValid ItemAccountId,LargePurchase,negTestScenario20,,,,,,,,,,1,,account,1,76823,,TRUE,,,"MINIMUM,50,AMOUNT",400,TRUE
+AT-154252,PatchUser -  LargePurchase - update entityParameter->account[0]->isSubscribed=false,LargePurchase,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-154253,PatchUser - LargePurchase - update insightType to AGGREGATE - entityParameter->account[0]->insightType,LargePurchase,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,AGGREGATE,"MINIMUM,50,AMOUNT",400,TRUE
+AT-154254,PatchUser - LargePurchase - update insightType to INVALID - entityParameter->account[0]->insightType,LargePurchase,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"MINIMUM,50,AMOUNT",400,TRUE
+AT-154255,PatchUser - LargePurchase - update threshold name  - entityParameter->account[0]->threshold[0]->name,LargePurchase,negTestScenario27,,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,50,AMOUNT",400,TRUE
+AT-154256,PatchUser - LargePurchase - update threshold values - entityParameter->account[0]->threshold[0]->value,LargePurchase,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,99999,AMOUNT",204,TRUE
+AT-154257,PatchUser - LargePurchase - update threshold type - entityParameter->account[0]->threshold[0]->type,LargePurchase,negTestScenario28,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,50,PERCENT",400,TRUE
+AT-154258,PatchUser - LargePurchase - update configMeta - subscrption Info - configMeta->account[0]->id,LargePurchase,negTestScenario19,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"MINIMUM,50,AMOUNT",400,TRUE
+AT-154259,PatchUser-View -  LargePurchase - update entityParameter->account[0]->id - InValid ItemAccountId,LargePurchase,negTestScenario26,,,,,,,,,,1,,view,1,76823,,TRUE,,,"MINIMUM,50,AMOUNT",400,TRUE
+AT-154260,PatchUser -  View - LargePurchase - update entityParameter->account[0]->isSubscribed=false,LargePurchase,,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-154261,PatchUser -View- LargePurchase - update insightType to AGGREGATE - entityParameter->account[0]->insightType,LargePurchase,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,AGGREGATE,"MINIMUM,50,AMOUNT",400,TRUE
+AT-154262,PatchUser - View- LargePurchase - update insightType to INVALID - entityParameter->account[0]->insightType,LargePurchase,negTestScenario24,,,,,,,,,,1,,view,1,,,TRUE,,INVALID,"MINIMUM,50,AMOUNT",400,TRUE
+AT-154263,PatchUser - View- LargePurchase - update threshold name  - entityParameter->account[0]->threshold[0]->name,LargePurchase,negTestScenario27,,,,,,,,,,1,,view,1,,,FALSE,,,"LIMIT,50,AMOUNT",400,TRUE
+AT-154264,PatchUser -View -  LargePurchase - update threshold values - entityParameter->account[0]->threshold[0]->value,LargePurchase,,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,99999,AMOUNT",204,TRUE
+AT-154265,PatchUser - View - LargePurchase - update threshold type - entityParameter->account[0]->threshold[0]->type,LargePurchase,negTestScenario28,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,50,PERCENT",400,TRUE
+AT-154266,PatchUser - View - LargePurchase - update configMeta - subscrption Info - configMeta->account[0]->id,LargePurchase,negTestScenario19,,,,,,,,,,1,TRUE,view,1,,,FALSE,,,"MINIMUM,50,AMOUNT",400,TRUE

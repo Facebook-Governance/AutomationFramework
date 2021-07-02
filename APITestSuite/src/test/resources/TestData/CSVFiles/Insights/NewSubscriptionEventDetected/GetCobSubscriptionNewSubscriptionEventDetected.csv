@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-147530," GET Cobrand Subscription NewSubscription,  validate InsightName",,NewSubscription,NewSubscription,,,,,,,,,,,,200,TRUE
+AT-147537," GET Cobrand Subscription NewSubscription, validate container",,NewSubscription,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-147536," GET Cobrand Subscription NewSubscription, validate triggerType",EVENT,NewSubscription,,,,,,,,,,,,,200,TRUE
+AT-147532," GET Cobrand Subscription NewSubscription, validate applicableEntity",,NewSubscription,,,,,,,"ACCOUNT,VIEW",,,,,,200,TRUE
+AT-147533," GET Cobrand Subscription NewSubscription, validate number of levels and levelObject",,NewSubscription,,,,,,,"ACCOUNT,VIEW","account,view",,,,,200,TRUE
+AT-147534," GET Cobrand Subscription NewSubscription, validate isSubscribed=false by default",,NewSubscription,,,,,,,,"account,view",,,,,200,TRUE
+AT-147538," GET Cobrand Subscription NewSubscription, validate insightKeys",,NewSubscription,,,,Account,,,,,,,,,200,TRUE
+AT-147535," GET Cobrand Subscription NewSubscription, validate description",,NewSubscription,,,,,,Generates an insight when a new recurring subscription is detected.,,,,,,,200,TRUE
+AT-147529," GET Cobrand Subscription NewSubscription, validate title",,NewSubscription,,New Subscription,,,,,,,,,,,200,TRUE
+AT-147531," GET Cobrand Subscription NewSubscription, validate total number of keys",,NewSubscription,,,,,18,,,,,,,,200,TRUE
+AT-147528," GET Cobrand Subscription NewSubscription, validate insightKeys",,NewSubscription,,,,View,,,,,,,,,200,TRUE

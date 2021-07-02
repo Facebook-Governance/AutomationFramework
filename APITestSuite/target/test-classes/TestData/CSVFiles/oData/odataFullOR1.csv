@@ -1,0 +1,2 @@
+ tcID,tcName,priority,capability,dataSet,name,skip,top,topSuggested,enabled
+AT-82689,BasicAggregation,popular,,BASIC_AGG_DATA[HOLDINGS.container[investment] OR STATEMENTS.container[insurance] OR ACCOUNT_DETAILS.container[investment OR creditCard] OR TRANSACTIONS.container[insurance]],BasicAggregation,0,10,null,TRUE

@@ -1,0 +1,19 @@
+testCaseId,description,recurringAmount,recurringAmountCurrency,frequency,totalDestAccountsCount,container,httpStatus,enabled
+AT-106090,update created funding rule providing MONTHLY  frequency,599,USD,MONTHLY,1,bank,201,TRUE
+AT-106091,update created funding rule providing WEEKLY as frequency,13000,USD,WEEKLY,1,bank,201,TRUE
+AT-106092,update created funding rule providing EVERY_4_WEEKS as frequency,"300 , 200","USD , USD",EVERY_4_WEEKS,2,bank,201,TRUE
+AT-106096,update created funding rule providing ANNUALLY as frequency,"899 , 120","USD , USD",ANNUALLY,2,bank,201,TRUE
+AT-106094,update created funding rule providing FIRST_DAY_MONTHLY as frequency,2300,USD,FIRST_DAY_MONTHLY,1,"bank,invalid",400,TRUE
+AT-106097,update created funding rule providing SEMI_ANNUALLY as frequency,-124,USD,SEMI_ANNUALLY,1,bank,400,TRUE
+AT-106098,update created funding rule providing QUARTERLY as frequency,666,USD,QUARTERLY,1,bank,201,TRUE
+AT-106099,update created funding rule providing SEMI_MONTHLY as frequency,"500 , -800","USD , USD",SEMI_MONTHLY,2,bank,400,TRUE
+AT-106100,update created funding rule - recurring amount single funding rule,123,USD,MONTHLY,1,bank,201,TRUE
+AT-106101,update created funding rule - recurring amount multiple funding rule,"234 , 678","USD , USD",MONTHLY,2,bank,201,TRUE
+AT-106102,update created funding rule associated multiple funding rules - recurring amount,"500 , -400","USD , USD",MONTHLY,2,bank,400,TRUE
+AT-106103,update created funding rule providing recurring amount currency as INR,"500 , -800","USD , INR",MONTHLY,2,bank,400,TRUE
+AT-106104,update created funding rule providing recurring amount is Zero,0,USD,MONTHLY,1,bank,400,TRUE
+AT-106105,update created funding rule providing recurring amount is > 0,23,USD,MONTHLY,1,bank,201,TRUE
+AT-106106,update created funding rule providing recurring amount as 999,999,USD,MONTHLY,1,bank,201,TRUE
+AT-106107,update created funding rule providing invalid goal account Id,12345,USD,MONTHLY,1,bank,201,TRUE
+AT-106093,update created funding rule providing LAST_DAY_MONTHLY as frequency,"800 , 700","USD , USD",LAST_DAY_MONTHLY,2,"bank,completed",201,TRUE
+AT-106095,update created funding rule providing EVERY_2_MONTHS as frequency,400,USD,EVERY_2_MONTHS,1,"bank,deleted",201,TRUE

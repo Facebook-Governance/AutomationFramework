@@ -1,0 +1,148 @@
+{
+  "links": {
+    "transactions": "${json-unit.ignore}"
+  },
+  "transactionSummary": [
+    {
+      "categoryType": "UNCATEGORIZE",
+      "details": [
+        {
+          "date": "${json-unit.ignore}",
+          "debitTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "${json-unit.ignore}",
+          "debitTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "${json-unit.ignore}",
+          "debitTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "${json-unit.ignore}",
+          "debitTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "${json-unit.ignore}",
+          "debitTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        }
+      ],
+      "links": {
+        "transactions": "${json-unit.ignore}"
+      },
+      "debitTotal": {
+        "amount": 751.15,
+        "currency": "USD"
+      }
+    },
+    {
+      "categoryType": "INCOME",
+      "creditTotal": {
+        "amount": 751.15,
+        "currency": "USD"
+      },
+      "details": [
+        {
+          "date": "${json-unit.ignore}",
+          "creditTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "${json-unit.ignore}",
+          "creditTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "${json-unit.ignore}",
+          "creditTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "${json-unit.ignore}",
+          "creditTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "${json-unit.ignore}",
+          "creditTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        }
+      ],
+      "links": {
+        "transactions": "${json-unit.ignore}"
+      }
+    },
+    {
+      "categoryType": "EXPENSE",
+      "details": [
+        {
+          "date": "${json-unit.ignore}",
+          "debitTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "${json-unit.ignore}",
+          "debitTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "${json-unit.ignore}",
+          "debitTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "${json-unit.ignore}",
+          "debitTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "${json-unit.ignore}",
+          "debitTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        }
+      ],
+      "links": {
+        "transactions": "${json-unit.ignore}"
+      },
+      "debitTotal": {
+        "amount": 751.15,
+        "currency": "USD"
+      }
+    }
+  ]
+}

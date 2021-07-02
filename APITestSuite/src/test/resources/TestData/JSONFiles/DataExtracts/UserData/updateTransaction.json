@@ -1,0 +1,202 @@
+{
+  "userData": [
+    {
+      "user": {
+        "loginName": "YSLDE1499687235895"
+      },
+      "account": [
+        {
+          "includeInNetWorth": true,
+          "totalUnvestedBalance": {
+            "amount": 23242,
+            "currency": "USD"
+          },
+          "moneyMarketBalance": {
+            "amount": 1000,
+            "currency": "USD"
+          },
+          "accountName": "investment_account_1",
+          "refreshinfo": {
+            "lastRefreshed": "${json-unit.ignore}",
+            "nextRefreshScheduled": "${json-unit.ignore}",
+            "lastRefreshAttempt": "${json-unit.ignore}",
+            "statusMessage": "OK",
+            "statusCode": 0
+          },
+          "accountStatus": "ACTIVE",
+          "shortBalance": {
+            "amount": 15000,
+            "currency": "USD"
+          },
+          "lastUpdated": "${json-unit.ignore}",
+          "isAsset": true,
+          "balance": {
+            "amount": 79629,
+            "currency": "USD"
+          },
+          "isDeleted": false,
+          "providerId": "16441",
+          "id": "${json-unit.any-number}",
+          "cash": {
+            "amount": 1000,
+            "currency": "USD"
+          },
+          "providerName": "Dag Site",
+          "marginBalance": {
+            "amount": 2369,
+            "currency": "USD"
+          },
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "DAG"
+              }
+            }
+          ],
+          "isManual": false,
+          "accountType": "OTHER",
+          "401kLoan": {
+            "amount": 100,
+            "currency": "USD"
+          },
+          "totalVestedBalance": {
+            "amount": 2432,
+            "currency": "USD"
+          },
+          "accountNumber": "555555",
+          "classification": "PERSONAL",
+          "url": "http://www.altova.com",
+          "createdDate": "${json-unit.ignore}",
+          "providerAccountId": "${json-unit.any-number}",
+          "availableLoan": {
+            "amount": 55000,
+            "currency": "USD"
+          },
+          "CONTAINER": "investment"
+        }
+      ],
+      "transaction": [
+        {
+          "date": "2017-05-27",
+          "symbol": "Transaction2",
+          "amount": {
+            "amount": 123456,
+            "currency": "USD"
+          },
+          "cusipNumber": "999999999",
+          "quantity": 2345,
+          "isManual": false,
+          "highLevelCategoryId": 10000004,
+          "description": {
+            "original": "invetment_loantransaction_3"
+          },
+          "settleDate": "2017-05-27",
+          "type": "LOAN_PAYMENT",
+          "transactionDate": "2017-05-27",
+          "baseType": "CREDIT",
+          "categoryType": "EXPENSE",
+          "categorySource": "SYSTEM",
+          "accountId": "${json-unit.any-number}",
+          "lastUpdated": "${json-unit.ignore}",
+          "isDeleted": false,
+          "price": {
+            "amount": 123,
+            "currency": "USD"
+          },
+          "CONTAINER": "investment",
+          "id": "${json-unit.any-number}",
+          "category": "Loans",
+          "categoryId": 17,
+          "status": "POSTED"
+        },
+        {
+          "date": "2017-05-27",
+          "symbol": "Transaction2",
+          "amount": {
+            "amount": 123456,
+            "currency": "USD"
+          },
+          "cusipNumber": "999999999",
+          "quantity": 2345,
+          "isManual": false,
+          "highLevelCategoryId": 10000012,
+          "memo": "INVESTMENT ACCOUNT DETAILS",
+          "description": {
+            "original": "investment_selltransaction_1",
+            "consumer": "investment"
+          },
+          "settleDate": "2017-05-27",
+          "type": "SELL",
+          "transactionDate": "2017-05-27",
+          "baseType": "CREDIT",
+          "categoryType": "INCOME",
+          "categorySource": "SYSTEM",
+          "accountId": "${json-unit.any-number}",
+          "lastUpdated": "${json-unit.ignore}",
+          "isDeleted": false,
+          "price": {
+            "amount": 123,
+            "currency": "USD"
+          },
+          "CONTAINER": "investment",
+          "id": "${json-unit.any-number}",
+          "category": "Deposits",
+          "categoryId": 27,
+          "status": "POSTED"
+        },
+        {
+          "date": "2017-05-27",
+          "symbol": "Transaction2",
+          "amount": {
+            "amount": 123456,
+            "currency": "USD"
+          },
+          "cusipNumber": "999999999",
+          "quantity": 2345,
+          "isManual": false,
+          "highLevelCategoryId": 10000015,
+          "description": {
+            "original": "investment_buytransaction_1"
+          },
+          "settleDate": "2017-05-27",
+          "type": "BUY",
+          "transactionDate": "2017-05-27",
+          "baseType": "CREDIT",
+          "categoryType": "TRANSFER",
+          "categorySource": "SYSTEM",
+          "accountId": "${json-unit.any-number}",
+          "lastUpdated": "${json-unit.ignore}",
+          "isDeleted": false,
+          "price": {
+            "amount": 123,
+            "currency": "USD"
+          },
+          "CONTAINER": "investment",
+          "id": "${json-unit.any-number}",
+          "category": "Securities Trades",
+          "categoryId": 36,
+          "status": "POSTED"
+        }
+      ],
+      "providerAccount": [
+        {
+          "lastUpdated": "${json-unit.ignore}",
+          "refreshInfo": {
+            "lastRefreshed": "${json-unit.ignore}",
+            "nextRefreshScheduled": "${json-unit.ignore}",
+            "lastRefreshAttempt": "${json-unit.ignore}",
+            "statusMessage": "OK",
+            "statusCode": 0,
+            "status": "SUCCESS"
+          },
+          "createdDate": "${json-unit.ignore}",
+          "aggregationSource": "USER",
+          "isDeleted": false,
+          "providerId": 16441,
+          "isManual": false,
+          "id": "${json-unit.any-number}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+            "CONTAINER": "${json-unit.ignore}",
+            "id":"${json-unit.ignore}",
+            "amount": {
+                "amount": "${json-unit.ignore}",
+                "currency":"${json-unit.ignore}"
+            },
+            "baseType":"${json-unit.ignore}",
+            "categoryType":"${json-unit.ignore}",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "Transferxxxxxxxxxxxx2222t"
+            },
+  "isDeleted":"${json-unit.ignore}",
+            "date": "${json-unit.ignore}",
+            "postDate":"${json-unit.ignore}",
+            "isManual": "${json-unit.ignore}",
+            "sourceType": "${json-unit.ignore}",
+            "status": "${json-unit.ignore}",
+            "interest": {
+                "amount": "${json-unit.ignore}",
+                "currency": "${json-unit.ignore}"
+            },
+            "principal": {
+                "amount": "${json-unit.ignore}",
+                "currency": "${json-unit.ignore}"
+            },
+            "accountId":"${json-unit.ignore}"
+        }

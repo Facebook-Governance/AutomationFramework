@@ -1,0 +1,21 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,validateKeys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-148535,patchCobrandSubscription - subscribe to BudgetProgress isSubscribed=true,BudgetProgress,,,,,,,,,,1,,view,1,,,TRUE,,,,204,TRUE
+AT-148536,patchCobrandSubscription - update insightName to same name,BudgetProgress,negTestScenario1,BudgetProgress,,,,,,,,,,,,,,,,,,500,TRUE
+AT-148537,patchCobrandSubscription -  update insightName to different name,BudgetProgress,negTestScenario2,BudgetProgressEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148538,patchCobrandSubscription - update insightTitle chars between 3 and 100 ,BudgetProgress,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-148539,patchCobrandSubscription -  update insightTitle chars are only 3,BudgetProgress,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-148540,patchCobrandSubscription - update insightTitle chars are only 100,BudgetProgress,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-148541,patchCobrandSubscription - update insightTitle chars are less than 3,BudgetProgress,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-148542,patchCobrandSubscription -  update insightTitle chars are greater 100,BudgetProgress,negTestScenario3,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-148543,patchCobrandSubscription - update insightTitle chars are special characters,BudgetProgress,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-148544,patchCobrandSubscription -  update container,BudgetProgress,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-148545,patchCobrandSubscription -  update keys,BudgetProgress,negTestScenario7,,,,,View,,,,,,,,,,,,,,400,TRUE
+AT-148546,patchCobrandSubscription -  update description,BudgetProgress,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-148547,patchCobrandSubscription -  update applicableEntity,BudgetProgress,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-148548,patchCobrandSubscription -  update entityParameter,BudgetProgress,,,,,,,,,,1,,view,1,,,TRUE,,,,204,TRUE
+AT-148549,patchCobrandSubscription - update entityParameter->view->frequency,BudgetProgress,negTestScenario46,,,,,,,,,1,,view,1,,M,TRUE,,,,400,TRUE
+AT-148550,patchCobrandSubscription - update entityParameter->view->isSubscribed=false,BudgetProgress,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-148551,patchCobrandSubscription - update entityParameter->view->insightType,BudgetProgress,negTestScenario24,,,,,,,,,1,,view,1,,,TRUE,,OTHER,,400,TRUE
+AT-148552,patchCobrandSubscription - update entityParameter->view->insightType - Invalid Name,BudgetProgress,negTestScenario24,,,,,,,,,1,,view,1,,,TRUE,,INVALID,,400,TRUE
+AT-148553,patchCobrandSubscription - update insightTitle to  default,BudgetProgress,,,Budget Progress,,,,,,,,,,,,,,,,,204,TRUE
+AT-148554,patchCobrandSubscription - update entityParameter->view->isSubscribed=true,BudgetProgress,,,,,,,,,,1,,view,1,,,TRUE,,,,204,TRUE

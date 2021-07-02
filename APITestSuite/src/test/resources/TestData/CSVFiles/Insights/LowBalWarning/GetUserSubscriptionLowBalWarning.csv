@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-146950,"Validate LowBalanceWarning , Validate InsightName",,LowBalanceWarning,LowBalanceWarning,,,,,,,,,,,,200,TRUE
+AT-146951,"Validate LowBalanceWarning , Validate Supporting container",,LowBalanceWarning,,,BANK,,,,,,,,,,200,TRUE
+AT-146952,"Validate LowBalanceWarning , Validate TriggerType",REFRESH,LowBalanceWarning,,,,,,,,,,,,,200,TRUE
+AT-146953,"Validate LowBalanceWarning , Validate applicableEntity",,LowBalanceWarning,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-146954,"Validate LowBalanceWarning , Validate number of levels and levelObject",,LowBalanceWarning,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-146955,"Validate LowBalanceWarning , Validate isSubscribed=false",,LowBalanceWarning,,,,,,,,FALSE,,,,,200,TRUE
+AT-146956,"Validate LowBalanceWarning , Validate threshold Name,Value and Type",,LowBalanceWarning,,,,,,,account,,,"BALANCE,1000,AMOUNT",,,200,TRUE
+AT-146957,"Validate LowBalanceWarning , Validate insightKeys",,LowBalanceWarning,,,,Account,,,,,,,,,200,TRUE
+AT-146958,"Validate LowBalanceWarning , Validate description",,LowBalanceWarning,,,,,"Notification generated when the Available Balance for a cash account (checking, savings) falls below a predefined (system or consumer created), threshold.",,,,,,,,200,TRUE
+AT-146959,"Validate LowBalanceWarning , Validate title",,LowBalanceWarning,,Low Balance Warning,,,,,,,,,,,200,TRUE
+AT-146960,"Validate LowBalanceWarning , Validate ruleExpression",,LowBalanceWarning,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-146961,"Validate LowBalanceWarning , verify entityParameter and configMeta are same",,LowBalanceWarning,,,,,,,,,,,,TRUE,200,TRUE

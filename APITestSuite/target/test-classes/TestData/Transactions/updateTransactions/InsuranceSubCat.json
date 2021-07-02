@@ -1,0 +1,30 @@
+{
+    "transaction": [
+        {
+            "CONTAINER": "insurance",
+            "id": "${json-unit.ignore}",
+            "amount": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "categoryType": "INCOME",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "USER",
+            "description": {
+                "original": "trans desc",
+                "consumer": "update consumer 4"
+            },
+            "date": "2013-01-12",
+            "postDate": "2013-01-12",
+            "transactionDate": "2013-01-12",
+            "isManual": false,
+            "memo": "updated memo4",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}",
+            "parentCategoryId": 227,
+            "highLevelCategoryId": 10000019
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Loan Maturity Notice"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="812.319">
+  <properties />
+  
+  
+            <testcase name="testGetNotificationsForLoanMaturityNotice" time="67.056" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLoanMaturityNotice" />
+                <testcase name="testGetNotificationsForLoanMaturityNotice" time="67.642" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLoanMaturityNotice" />
+                <testcase name="testGetNotificationsForLoanMaturityNotice" time="68.657" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLoanMaturityNotice" />
+                <testcase name="testGetNotificationsForLoanMaturityNotice" time="68.503" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLoanMaturityNotice" />
+                <testcase name="testGetNotificationsForLoanMaturityNotice" time="67.084" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLoanMaturityNotice" />
+                <testcase name="testGetNotificationsForLoanMaturityNotice" time="67.393" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLoanMaturityNotice" />
+                <testcase name="testGetNotificationsForLoanMaturityNotice" time="66.681" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLoanMaturityNotice" />
+                <testcase name="testGetNotificationsForLoanMaturityNotice" time="67.031" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLoanMaturityNotice" />
+                <testcase name="testGetNotificationsForLoanMaturityNotice" time="66.950" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLoanMaturityNotice" />
+                <testcase name="testGetNotificationsForLoanMaturityNotice" time="67.883" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLoanMaturityNotice" />
+                <testcase name="testGetNotificationsForLoanMaturityNotice" time="67.262" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLoanMaturityNotice" />
+                <testcase name="testGetNotificationsForLoanMaturityNotice" time="70.177" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLoanMaturityNotice" />
+      
+</testsuite>

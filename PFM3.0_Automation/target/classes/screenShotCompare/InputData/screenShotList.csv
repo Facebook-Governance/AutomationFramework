@@ -1,0 +1,4 @@
+testDescription,className,ScreenShotName,enable,chopTop,chopBottom,chopLeft,chopRight
+TestCase_01,YCOM_Regression_AccAndGroupCreation,homePageWithoutData,TRUE,,20,,8
+TestCase_02,YCOM_Regression_AccAndGroupCreation,categoryPageBeforeRuleAdd,TRUE,,20,,8
+TestCase_03,YCOM_Regression_AccAndGroupCreation,categoryPage2,TRUE,,20,,8

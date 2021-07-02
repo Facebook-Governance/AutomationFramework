@@ -1,0 +1,17 @@
+testCaseId,Testcase,InsightName,triggerCheckEnabled,triggerType,entityParameterCount,entityParameterName,ThresholdNameValueType,noumberOfInsights,editSubscription,isCobrandSubscribed,isUserSubscribed,patchAccountIds,isPatchedEntityIdsInsightsGenerated,expNoOfPatchedEntityIdsInsights,validateKeys,status,enabled
+AT-146982,Validate DuplicateTransaction Insight when cobrand is not Subscribed,DUPLICATE_TRANSACTION,FALSE,REFRESH,1,account,,0,TRUE,FALSE,,,,0,,201,TRUE
+AT-146983,Validate DuplicateTransaction Insight when cobrand is  Subscribed and User is not Subscribed,DUPLICATE_TRANSACTION,FALSE,REFRESH,1,account,,0,TRUE,TRUE,FALSE,,,0,,201,TRUE
+AT-146984,Validate DuplicateTransaction Insight when cobrand is  Subscribed and User is not Subscribed(Inheriting Cobrand Thresholds),DUPLICATE_TRANSACTION,FALSE,REFRESH,1,account,,0,TRUE,FALSE,,,,0,,201,TRUE
+AT-146985,Validate DuplicateTransaction Insight when cobrand is  Subscribed and User is Subscribed,DUPLICATE_TRANSACTION,FALSE,REFRESH,1,account,,2,TRUE,TRUE,TRUE,,,0,Account,201,TRUE
+AT-146986,Validate DuplicateTransaction Insight when cobrand is subscribed  for different threshold user overides cobrand threshold,DUPLICATE_TRANSACTION,FALSE,REFRESH,1,account,,2,TRUE,TRUE,TRUE,,,0,Account,201,TRUE
+AT-146987,Validate DuplicateTransaction Insight when cobrand is subscribed and User is also Subscribed threshold 600,DUPLICATE_TRANSACTION,FALSE,REFRESH,1,account,,2,TRUE,TRUE,TRUE,,,0,Account,201,TRUE
+AT-146988,Validate DuplicateTransaction Insight when user changes threshold value to 1100 using PATCH,DUPLICATE_TRANSACTION,FALSE,REFRESH,1,account,,2,TRUE,TRUE,TRUE,,,0,Account,201,TRUE
+AT-146989,Validate DuplicateTransaction Insight when user changes threshold value to 1250 using PATCH,DUPLICATE_TRANSACTION,FALSE,REFRESH,1,account,,2,TRUE,TRUE,TRUE,,,0,Account,201,TRUE
+AT-146990,Validate DuplicateTransaction Insight when user patch itemAccountId to the subscription having Balance 10,DUPLICATE_TRANSACTION,FALSE,REFRESH,1,account,,2,TRUE,NA,TRUE,,,0,Account,201,TRUE
+AT-146996,Validate DuplicateTransaction Insight when user patch itemAccountId to the subscription having Balance AccountBalance_990,DUPLICATE_TRANSACTION,FALSE,REFRESH,1,account,,2,TRUE,NA,TRUE,,,0,Account,201,TRUE
+AT-146997,Validate DuplicateTransaction Insight when user patch itemAccountId to the subscription having Balance AccountBalance 1100,DUPLICATE_TRANSACTION,FALSE,REFRESH,1,account,,2,TRUE,NA,TRUE,,,0,Account,201,TRUE
+AT-146998,Validate DuplicateTransaction Insight when user patch itemAccountId to the subscription having Balance AccountBalance 800,DUPLICATE_TRANSACTION,FALSE,REFRESH,1,account,,2,TRUE,NA,TRUE,,,0,Account,201,TRUE
+AT-147001,Verify Trigeer Check for All Accounts,DUPLICATE_TRANSACTION,TRUE,REFRESH,1,account,,2,TRUE,NA,TRUE,,,0,Account,201,TRUE
+AT-147001,Verify Trigeer Check for All Accounts - By Calling Invoker ,DUPLICATE_TRANSACTION,FALSE,REFRESH,1,account,,2,TRUE,NA,TRUE,,,0,Account,201,TRUE
+AT-147001,Verify Trigeer Check for PATCHEd Entities - Modify created date to more than 16 days,DUPLICATE_TRANSACTION,"EDIT,-20",REFRESH,1,account,,2,TRUE,TRUE,TRUE,,,0,Account,201,TRUE
+AT-147001,Verify Trigeer Check for PATCHEd Entities - By Calling Invoker - insights must be generated for on the triggered date,DUPLICATE_TRANSACTION,FALSE,REFRESH,1,account,,0,TRUE,TRUE,TRUE,,,0,Account,201,TRUE

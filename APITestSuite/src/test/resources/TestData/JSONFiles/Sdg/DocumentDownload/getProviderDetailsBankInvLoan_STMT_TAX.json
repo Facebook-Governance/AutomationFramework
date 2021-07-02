@@ -1,0 +1,23 @@
+{
+  "providerAccount": [
+    {
+      "id": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "providerId": 16441,
+      "lastUpdated": "${json-unit.ignore}",
+      "isManual": false,
+      "createdDate": "${json-unit.ignore}",
+      "status": "REFRESH_COMPLETED",
+      "requestId": "${json-unit.ignore}",
+      "dataSet": [
+        {
+          "name": "DOCUMENT",
+          "additionalStatus": "DATA_RETRIEVAL_PARTIALLY",
+          "suggestedAction": "ALLOW_REFRESH",
+          "lastRefreshed": "${json-unit.ignore}",
+          "lastRefreshAttempt": "${json-unit.ignore}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 2500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000007,
+      "description": {
+        "original": "trans desc",
+        "consumer": "123abcd"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "CREDIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "postingOrder": 5,
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "insurance",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Services/Supplies",
+      "categoryId": 16,
+      "status": "POSTED"
+    }
+  ]
+}

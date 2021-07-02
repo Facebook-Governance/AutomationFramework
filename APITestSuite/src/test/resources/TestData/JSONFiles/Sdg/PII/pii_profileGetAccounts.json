@@ -1,0 +1,165 @@
+{
+	"account": [{
+			"CONTAINER": "bank",
+			"isManual": false,
+			"isAsset": true,
+			"lastUpdated": "${json-unit.ignore}",
+			"currentBalance": {
+				"amount": 20000,
+				"currency": "USD"
+			},
+			"availableBalance": {
+				"amount": 20000,
+				"currency": "USD"
+			},
+			"displayedName": "IndividualInfoFullName",
+			"url": "file:///opt/sdp/dap/TestSite/Generic_TestSite/BankAccountDetailsPage3.html",
+			"dataSet": [{
+				"lastUpdateAttempt": "${json-unit.ignore}",
+				"updateEligibility": "DISDISALLOW_UPDATE",
+				"name": "ACCT_PROFILE",
+				"additionalStatus": "AVAILABLE_DATA_RETRIEVED"
+			}],
+			"id": "${json-unit.ignore}",
+			"balance": {
+				"amount": 20000,
+				"currency": "USD"
+			},
+			"accountName": "BankAccount3",
+			"accountNumber": "xxxx8803",
+			"aggregationSource": "USER",
+			"providerName": "HSBC",
+			"accountStatus": "ACTIVE",
+			"accountType": "OTHER",
+			"providerId": "19686",
+			"includeInNetWorth": true,
+			"createdDate": "${json-unit.ignore}",
+			"providerAccountId": "${json-unit.ignore}",
+			"profile": [{
+				"phoneNumber": [{
+					"value": "9900191391",
+					"type": "landline"
+				}],
+				"address": [{
+					"zip": "560068",
+					"state": "TestPII_Card_Karnataka",
+					"address1": "#78,2nd Cross",
+					"type": "HOME",
+					"city": "TestPII_Card_Bangalore"
+				}],
+				"identifier": [{
+					"value": "555555",
+					"type": "SSN"
+				}]
+			}]
+		},
+		{
+			"CONTAINER": "bank",
+			"isManual": false,
+			"isAsset": true,
+			"lastUpdated": "${json-unit.ignore}",
+			"currentBalance": {
+				"amount": 20000,
+				"currency": "USD"
+			},
+			"availableBalance": {
+				"amount": 20000,
+				"currency": "USD"
+			},
+			"displayedName": "IndividualInfoFullName",
+			"url": "file:///opt/sdp/dap/TestSite/Generic_TestSite/BankAccountDetailsPage2.html",
+			"dataSet": [{
+				"lastUpdateAttempt": "${json-unit.ignore}",
+				"updateEligibility": "DISALLOW_UPDATE",
+				"name": "ACCT_PROFILE",
+				"additionalStatus": "AVAILABLE_DATA_RETRIEVED"
+			}],
+			"id": "${json-unit.ignore}",
+			"balance": {
+				"amount": 20000,
+				"currency": "USD"
+			},
+			"accountName": "BankAccount2",
+			"accountNumber": "xxxx8802",
+			"aggregationSource": "USER",
+			"providerName": "HSBC",
+			"accountStatus": "ACTIVE",
+			"accountType": "OTHER",
+			"providerId": "19686",
+			"includeInNetWorth": true,
+			"createdDate": "${json-unit.ignore}",
+			"providerAccountId": "${json-unit.ignore}",
+			"profile": [{
+				"phoneNumber": [{
+					"value": "9900191391",
+					"type": "landline"
+				}],
+				"address": [{
+					"zip": "560068",
+					"state": "TestPII_Card_Karnataka",
+					"address1": "#78,2nd Cross",
+					"type": "HOME",
+					"city": "TestPII_Card_Bangalore"
+				}],
+				"identifier": [{
+					"value": "555555",
+					"type": "SSN"
+				}]
+			}]
+		},
+		{
+			"CONTAINER": "bank",
+			"isManual": false,
+			"isAsset": true,
+			"lastUpdated": "${json-unit.ignore}",
+			"currentBalance": {
+				"amount": 10000,
+				"currency": "USD"
+			},
+			"availableBalance": {
+				"amount": 10000,
+				"currency": "USD"
+			},
+			"displayedName": "IndividualInfoFullName",
+			"url": "file:///opt/sdp/dap/TestSite/Generic_TestSite/BankAccountDetailsPage1.html",
+			"dataSet": [{
+				"lastUpdateAttempt": "${json-unit.ignore}",
+				"updateEligibility": "DISALLOW_UPDATE",
+				"name": "ACCT_PROFILE",
+				"additionalStatus": "AVAILABLE_DATA_RETRIEVED"
+			}],
+			"id": "${json-unit.ignore}",
+			"balance": {
+				"amount": 10000,
+				"currency": "USD"
+			},
+			"accountName": "BankAccount1",
+			"accountNumber": "xxxx8801",
+			"aggregationSource": "USER",
+			"providerName": "HSBC",
+			"accountStatus": "ACTIVE",
+			"accountType": "OTHER",
+			"providerId": "19686",
+			"includeInNetWorth": true,
+			"createdDate": "${json-unit.ignore}",
+			"providerAccountId": "${json-unit.ignore}",
+			"profile": [{
+				"phoneNumber": [{
+					"value": "9900191391",
+					"type": "landline"
+				}],
+				"address": [{
+					"zip": "560068",
+					"state": "TestPII_Card_Karnataka",
+					"address1": "#78,2nd Cross",
+					"type": "HOME",
+					"city": "TestPII_Card_Bangalore"
+				}],
+				"identifier": [{
+					"value": "555555",
+					"type": "SSN"
+				}]
+			}]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+  "providerAccount": [
+    {
+      "id": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "providerId": 16441,
+      "isManual": false,
+      "createdDate": "${json-unit.ignore}",
+      "status": "PARTIAL_SUCCESS",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        },
+        {
+          "name": "DOCUMENT",
+          "additionalStatus": "DATA_NOT_AVAILABLE",
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ]
+    }
+  ]
+}

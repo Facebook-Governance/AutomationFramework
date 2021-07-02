@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-138722,"getUserSubscription - Validate UpcomingSubscription , Validate InsightName",,UpcomingSubscription,UpcomingSubscription,,,,,,,,,,,,,200,TRUE
+AT-138723,"getUserSubscription - Validate UpcomingSubscription , Validate Supporting container",,UpcomingSubscription,,,BANK,,,,,,,,,,,200,TRUE
+AT-138724,"getUserSubscription - Validate UpcomingSubscription , Validate TriggerType",SCHEDULE,UpcomingSubscription,,,,,,,,,,,,,,200,TRUE
+AT-138725,"getUserSubscription - Validate UpcomingSubscription , Validate applicableEntity",,UpcomingSubscription,,,,,,,"ACCOUNT,VIEW",,,,,,,200,TRUE
+AT-138726,"getUserSubscription - Validate UpcomingSubscription , Validate number of levels and levelObject",,UpcomingSubscription,,,,,,,"ACCOUNT,VIEW",account,,,,,,200,TRUE
+AT-138727,"getUserSubscription - Validate UpcomingSubscription , Validate isSubscribed=false",,UpcomingSubscription,,,,,,,,,FALSE,,,,,200,TRUE
+AT-138728,"getUserSubscription - Validate UpcomingSubscription , Validate threshold Name,Value and Type",,UpcomingSubscription,,,,,,,,account,,,"FUTURE,7,DAYS",,,200,TRUE
+AT-138729,"getUserSubscription - Validate UpcomingSubscription , Validate insightKeys",,UpcomingSubscription,,,,Account,,,,,,,,,,200,TRUE
+AT-138730,"getUserSubscription - Validate UpcomingSubscription , Validate description",,UpcomingSubscription,,,,,,Generates an insight that lists upcoming recurring subscriptions within a configured time period.,,,,,,,,200,TRUE
+AT-138731,"getUserSubscription - Validate UpcomingSubscription , Validate title",,UpcomingSubscription,,Upcoming  Subscription,,,,,,,,,,,,200,TRUE
+AT-138732,"getUserSubscription - Validate UpcomingSubscription , Validate ruleExpression",,UpcomingSubscription,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-138733,"getUserSubscription - Validate UpcomingSubscription , Validate total number of keys",,UpcomingSubscription,,,,,10,,,,,,,,,200,TRUE
+AT-138734,"getUserSubscription - Validate UpcomingSubscription , verify entityParameter and configMeta are same",,UpcomingSubscription,,,,,,,,,,,,,TRUE,200,TRUE
+AT-138729,"getUserSubscription - Validate UpcomingSubscription , Validate insightKeys -Views",,UpcomingSubscription,,,,View,,,,,,,,,,200,TRUE

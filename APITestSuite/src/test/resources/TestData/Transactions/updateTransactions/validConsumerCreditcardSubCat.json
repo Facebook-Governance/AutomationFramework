@@ -1,0 +1,32 @@
+{
+    "transaction": [
+        {
+            "CONTAINER": "creditCard",
+            "id": "${json-unit.ignore}",
+            "type": "OTHER_WITHDRAWALS",
+            "subType": "DEBIT",
+            "amount": {
+                "amount": 450.25,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "USER",
+            "description": {
+                "original": "TransDesc",
+                "consumer": "updating transactions"
+            },
+            "date": "2013-01-21",
+            "postDate": "2013-01-21",
+            "transactionDate": "2013-01-22",
+            "isManual": false,
+            "memo": "updated memo2",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}",
+            "parentCategoryId": 11,
+            "highLevelCategoryId": 10000006
+        }
+    ]
+}

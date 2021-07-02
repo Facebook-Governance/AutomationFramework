@@ -1,0 +1,5 @@
+testcaseId,testCaseName,accountNumber,accountType,verificationType,resFile,filePath,enabled,Status
+1,Prefix match pass,88945,SAVINGS,MATCHING,WithAllAttributes.json,../src/test/resources/TestData/ProviderAccount/IAV/MatchingService/,TRUE,201
+2,Prefix match failed,88955,SAVINGS,MATCHING,PrefixMatchFailed.json,../src/test/resources/TestData/ProviderAccount/IAV/MatchingService/,TRUE,201
+3,Prefix length match failed,889459,SAVINGS,MATCHING,PrefixMatchFailed.json,../src/test/resources/TestData/ProviderAccount/IAV/MatchingService/,TRUE,201
+4,Prefix length match failed,889,SAVINGS,MATCHING,PrefixMatchFailed.json,../src/test/resources/TestData/ProviderAccount/IAV/MatchingService/,TRUE,201

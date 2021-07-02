@@ -1,0 +1,7 @@
+UsTestcaseId,tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,priority,formType,enabled
+AT-88124,RtnForInvstment_1,RTN number for invement container,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/RTN/,rtninvestment.xml,YES,NO,P1,Simplified,TRUE
+AT-88125,RtnForInvstment_2,RTN number for invement And bank container,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/RTN/,rtnInvestmentBank.xml,YES,NO,P1,Simplified,FALSE
+AT-88126,RtnForInvstment_3,RTN number for inveetment and loan,ADD_PROVIDER_ACCOUNT#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/RTN/,rtnInvestmentLoan.xml,YES,NO,P1,Simplified,FALSE
+AT-88126,RtnForInvstment_4,without any container,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/RTN/,rtnNoContainer.xml,YES,NO,P2,Simplified,FALSE
+"AT-88130,AT-89296",RtnForInvstment_5,ADD without RTN and Update with RTN dataset for investment container-,ADD_PROVIDER_ACCOUNT#UPDATE_PROVIDER_ACCOUNT#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/RTN/,rtnUpdate.xml,YES,NO,P1,Simplified,FALSE
+AT-88129,RtnForInvstment_6,ADD with RTN ad UPDATE without RTN,ADD_PROVIDER_ACCOUNT#UPDATE_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/RTN/,rtnADD&Update.xml,YES,NO,P1,Simplified,FALSE

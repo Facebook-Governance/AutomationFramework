@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suites" verbose="5">
+
+	<parameter name="coBrand" value="YCOM_AutoNPR"/>
+<parameter name="runOnBrowserStack" value="true" />
+<parameter name="bs_username" value="yodleebrowsersta1" />
+<parameter name="bs_automate_key" value="pzyoTJ6embZ48zsufsF2" />
+<parameter name="browser" value="firefox"/>
+<parameter name="browser_version" value="57" />
+<parameter name="platformName" value="windows" />
+<parameter name="platformVersion" value="8" />
+<parameter name="elpamEnabled" value="true" />
+<parameter name="appFlag" value="false"> </parameter>
+<parameter name="loginType" value="SAML1" />
+<parameter name="healthCheckUp" value="false" />
+
+	<parameter name="suiteName" value="Responsive PFM Txn,NW"></parameter>
+
+	
+		<listeners>
+              <listener class-name="org.uncommons.reportng.HTMLReporter" />
+              <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+              <listener class-name="com.omni.pfm.listeners.CustomListener" />
+       </listeners> 
+	
+
+	 
+<test verbose="2" name="Ok2Spend1" preserve-order="true">
+		<classes>	
+		
+		
+		  <class name="com.omni.pfm.SFC_Card_FTUE_Test"> </class> 
+		</classes>	
+		</test>
+		
+		 <test verbose="2" name="Ok2Spend2" preserve-order="true">
+		<classes>	
+		
+		
+		  <class name="com.omni.pfm.SFC_Checking_FTUE_Test"> </class> 
+		</classes>	
+		</test>
+		 <test verbose="2" name="Ok2Spend3" preserve-order="true">
+		<classes>	
+		
+		
+		  <class name="com.omni.pfm.SFC_Investmnet_FTUE_Test"> </class> 
+		</classes>	
+		</test>
+		
+		 <test verbose="2" name="Ok2Spend4" preserve-order="true">
+		<classes>	
+		
+		
+		  <class name="com.omni.pfm.SFC_Saving_FTUE_Test"> </class> 
+		</classes>	
+		</test>
+		
+		<test verbose="2" name="Ok2Spend5" preserve-order="true">
+		<classes>	
+		
+		
+		  <class name="com.omni.pfm.SFC_LandingPage_Test"> </class> 
+		</classes>	
+		</test>
+		 
+
+	
+</suite>

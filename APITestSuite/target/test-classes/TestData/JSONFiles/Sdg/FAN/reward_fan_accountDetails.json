@@ -1,0 +1,48 @@
+{
+    "account": [
+        {
+            "CONTAINER": "reward",
+            "providerAccountId": "${json-unit.ignore}",
+            "accountStatus": "ACTIVE",
+            "accountNumber": "xxxx8901",
+            "fullAccountNumber": "56789123453",
+            "isAsset": true,
+            "aggregationSource": "USER",
+            "id": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "providerId": "16609",
+            "providerName": "OCBC Bank",
+            "accountType": "REWARD_POINTS",
+            "isManual": false,
+            "primaryRewardUnit": "points",
+            "currentLevel": "Current Level",
+            "nextLevel": "Next Level",
+            "createdDate": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "name": "ACCT_PROFILE",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "name": "BASIC_AGG_DATA",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "rewardBalance": [
+                {
+                    "description": "Current Balance",
+                    "balance": 15341,
+                    "balanceType": "TOTAL_BALANCE",
+                    "units": "points"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+  "links": {
+    "transactions": "${json-unit.ignore}"
+  },
+  "transactionSummary": [
+    {
+      "categoryType": "INCOME",
+      "categorySummary": [
+        {
+          "creditTotal": {
+            "amount": 450.69,
+            "currency": "USD"
+          },
+          "details": [
+            {
+              "date": "${json-unit.ignore}",
+              "creditTotal": {
+                "amount": 150.23,
+                "currency": "USD"
+              }
+            },
+            {
+              "date": "${json-unit.ignore}",
+              "creditTotal": {
+                "amount": 150.23,
+                "currency": "USD"
+              }
+            },
+            {
+              "date": "${json-unit.ignore}",
+              "creditTotal": {
+                "amount": 150.23,
+                "currency": "USD"
+              }
+            }
+          ],
+          "links": {
+            "transactions": "${json-unit.ignore}"
+          },
+          "categoryName": "Salary/Regular Income",
+          "categoryId": "29"
+        }
+      ],
+      "creditTotal": {
+        "amount": 450.69,
+        "currency": "USD"
+      },
+      "links": {
+        "transactions": "${json-unit.ignore}"
+      }
+    }
+  ]
+}

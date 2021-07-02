@@ -1,0 +1,8 @@
+testCaseId,testCaseName,httpStatusCode,acountId,preferenceType,otherAmount,payerAccountId,resFilePath,resFile,enabled
+1,InvalidPreferenceType,400,creditCard,STMT_BALANC,,bank,../src/test/resources/TestData/JSONFiles/ErrorMessage/,missingPaymentAccountType.json,TRUE
+2,NotPassingOtherAmount,400,creditCard,OTHER,,bank,../src/test/resources/TestData/JSONFiles/ErrorMessage/,InvalidValueForPaymentAmount.json,TRUE
+3,NotPassingPayerAccountId,400,creditCard,OTHER,,NULL,../src/test/resources/TestData/JSONFiles/ErrorMessage/,InvalidPayerAccountId.json,TRUE
+4,NotPassingPreferenceType,400,creditCard,STMT_BALANCE,100,bank,../src/test/resources/TestData/JSONFiles/ErrorMessage/,MissingPaymentType.json,TRUE
+5,OtherContianerForPayerAccountId,400,creditCard,STMT_BALANCE,100,investment,../src/test/resources/TestData/JSONFiles/ErrorMessage/,InvalidPayerAccountId.json,TRUE
+6,OtherContianerForAccountId,400,investment,STMT_BALANCE,100,bank,../src/test/resources/TestData/JSONFiles/ErrorMessage/,Invalidinput.json,TRUE
+7,InvalidPayerAccountId,400,creditCard,STMT_BALANCE,100,invalid,../src/test/resources/TestData/JSONFiles/ErrorMessage/,InvalidPayerAccountId.json,TRUE

@@ -1,0 +1,12 @@
+tcid,tcName,httpStatusCode,restfile,filepath,accountId,fromDate,toDate,interval,enabled
+3,with invalid account id,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,INVALID,"0,0,0","0,0,0",,TRUE
+8,with invalid todate,400,invalidDateRange.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,,"0,0,0","0,-3,0",,TRUE
+9,with invalid date range,400,invalidDateRange.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,,"0,0,0","0,-3,0",,TRUE
+17,with invalid value for interval,400,InvalidValueForInterval.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,,"0,0,0","0,3,0",g,TRUE
+19,FutureFromDate,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,CARD,"0,0,2","0,3,0",D,TRUE
+11,bank interval-d,200,bankDaily.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,"0,0,0","0,3,0",d,TRUE
+12,bank interval-D,200,bankDaily.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,"0,0,0","0,3,0",D,TRUE
+13,bank interval-M,200,bankWeekly1.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,"0,0,0","0,1,0",M,TRUE
+14,bank interval-m,200,bankWeekly1.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,"0,0,0","0,1,0",m,TRUE
+15,bank interval-w,200,bankWeekly.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,"0,0,0","0,0,7",w,TRUE
+16,bank interval-W,200,bankWeekly.json,../src/test/resources/TestData/JSONFiles/Accounts/GetBalances/ErrorMessage/,bank,"0,0,0","0,0,7",W,TRUE

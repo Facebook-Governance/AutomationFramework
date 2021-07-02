@@ -1,0 +1,17 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-146962,subscribe to AggregateSavingsCheckingAccount,AggregateSavingsCheckingAccount,,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-146963,updateTriggerType,AggregateSavingsCheckingAccount,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-146964, update insightName by same name,AggregateSavingsCheckingAccount,negTestScenario17,,AggregateSavingsCheckingAccount,,,,,,,,,,,,,,,,,,400,TRUE
+AT-146965, update insightName edit InsightName,AggregateSavingsCheckingAccount,negTestScenario2,,AggregateSavingsCheckingAccountEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-146966,update insightTitle,AggregateSavingsCheckingAccount,negTestScenario33,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-146967,update container,AggregateSavingsCheckingAccount,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-146968,update keys,AggregateSavingsCheckingAccount,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-146969,update description,AggregateSavingsCheckingAccount,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-146970,update applicableEntity,AggregateSavingsCheckingAccount,negTestScenario9,,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-146971,update entityParameter,AggregateSavingsCheckingAccount,,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-146972, update entityParameter->account[0]->id - Valid ItemAccountId,AggregateSavingsCheckingAccount,,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-146973, update entityParameter->account[0]->id - InValid ItemAccountId,AggregateSavingsCheckingAccount,negTestScenario45,,,,,,,,,,1,,account,1,76823,,TRUE,,,,400,TRUE
+AT-146976,update insightType to AGGREGATE - entityParameter->account[0]->insightType,AggregateSavingsCheckingAccount,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,AGGREGATE,,400,TRUE
+AT-146977,update insightType to INVALID - entityParameter->account[0]->insightType,AggregateSavingsCheckingAccount,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,,400,TRUE
+AT-146982,update configMeta - subscrption Info - configMeta->account[0]->id,AggregateSavingsCheckingAccount,negTestScenario19,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,,400,TRUE
+AT-146974, update entityParameter->account[0]->isSubscribed=false,AggregateSavingsCheckingAccount,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE

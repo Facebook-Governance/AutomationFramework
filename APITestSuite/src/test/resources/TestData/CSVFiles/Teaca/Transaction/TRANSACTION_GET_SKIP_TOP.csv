@@ -1,0 +1,7 @@
+testCaseId,testCaseName,parameter,value,status,filePath,fileName,enabled,verifyCount,DefectID
+"AT-57731,AT-48013",Get Transaction for top=5,top,5,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeTop200.json,TRUE,5,0
+"AT-57731,AT-48013",Get Transaction for top=501,top,501,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeTop500.json,TRUE,0,0
+"AT-57730,AT-48013",Get Transaction for skip=5,skip,5,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeSkip1.json,TRUE,500,0
+"AT-57730,AT-48013",Get Transaction for skip=200,skip,200,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeSkip3.json,TRUE,500,0
+"AT-57731,AT-48013",Get Transaction for top=500,top,500,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeTop500.json,TRUE,500,0
+"AT-61180,AT-48013",Get Transaction for top=50 and skip=200,topSkip,15,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeTop500.json,TRUE,450,0

@@ -1,0 +1,16 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,duration,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-154196,"getUserSubscription - Validate IncomeThreshold , Validate InsightName",,IncomeThreshold,IncomeThreshold,,,,,,,,,,,,,,200,TRUE
+AT-154197,"getUserSubscription - Validate IncomeThreshold , Validate Supporting container",,IncomeThreshold,,,BANK,,,,,,,,,,,,200,TRUE
+AT-154198,"getUserSubscription - Validate IncomeThreshold , Validate default frequency",,IncomeThreshold,,,BANK,,,,,,,DAILY,,,,,200,TRUE
+AT-154199,"getUserSubscription - Validate IncomeThreshold , Validate default frequency",,IncomeThreshold,,,BANK,,,,,,,,THIS_MONTH,,,,200,TRUE
+AT-154200,"getUserSubscription - Validate IncomeThreshold , Validate TriggerType",REFRESH,IncomeThreshold,,,,,,,,,,,,,,,200,TRUE
+AT-154201,"getUserSubscription - Validate IncomeThreshold , Validate applicableEntity",,IncomeThreshold,,,,,,,VIEW,,,,,,,,200,TRUE
+AT-154202,"getUserSubscription - Validate IncomeThreshold , Validate number of levels and levelObject",,IncomeThreshold,,,,,,,VIEW,view,,,,,,,200,TRUE
+AT-154203,"getUserSubscription - Validate IncomeThreshold , Validate isSubscribed=false",,IncomeThreshold,,,,,,,,,FALSE,,,,,,200,TRUE
+AT-154204,"getUserSubscription - Validate IncomeThreshold , Validate threshold Name,Value and Type",,IncomeThreshold,,,,,,,,view,,,,"MINIMUM,500,AMOUNT",,,200,TRUE
+AT-154205,"getUserSubscription - Validate IncomeThreshold , Validate description",,IncomeThreshold,,,,,,Generates an insight when income for the current month is more than a configured threshold.,,,,,,,,,200,TRUE
+AT-154206,"getUserSubscription - Validate IncomeThreshold , Validate title",,IncomeThreshold,,Income Exceeded Threshold,,,,,,,,,,,,,200,TRUE
+AT-154207,"getUserSubscription - Validate IncomeThreshold , Validate ruleExpression",,IncomeThreshold,,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-154208,"getUserSubscription - Validate IncomeThreshold , verify entityParameter and configMeta are same",,IncomeThreshold,,,,,,,,,,,,,,TRUE,200,TRUE
+AT-154209,"getUserSubscription - Validate IncomeThreshold , Validate threshold Name,Value and Type-view",,IncomeThreshold,,,,,,,,view,,,,"MINIMUM,500,AMOUNT",,,200,TRUE
+AT-154210,"getUserSubscription - Validate IncomeThreshold , Validate total number of keys - VIEW",,IncomeThreshold,,,,View,16,,,,,,,,,,200,TRUE

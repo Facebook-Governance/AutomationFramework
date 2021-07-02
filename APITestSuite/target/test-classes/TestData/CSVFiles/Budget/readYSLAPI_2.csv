@@ -1,0 +1,4 @@
+TestCaseId,TestCase,enabled,Url,TestCase no
+"AT-101216,AT-101215,AT-101213",Input params category data and category Type data and returns without summary entity,TRUE,"/ysl/ymc/v1/budgets?include=categoryTypeData,categoryData",4
+"AT-101210,AT-101214,AT-101212",Input params include categoryData and categoryTypeData and categoryType and categoryId filters ,TRUE,"/ysl/ymc/v1/budgets?include=categoryTypeData,categoryData&categoryType=INCOME&categoryId=13",5
+AT-101227,Input params group Id's and include categoryData and categoryTypeData and categoryType and categoryId filters ,TRUE,"/ysl/ymc/v1/budgets?include=categoryTypeData,categoryData&categoryType=INCOME&categoryId=13",6

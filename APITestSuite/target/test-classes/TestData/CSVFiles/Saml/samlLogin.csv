@@ -1,0 +1,23 @@
+userStoryID,testcaseName,cobSessionKey,cobSessionValue,samlResponseKey,samlResponseValue,issuerKey,issuerValue,sourceKey,sourceValue,status,responseFile,responsePath,enable,defectID
+"AT-52668,AT-58266",verify SAML Login API with valid input parameters,VALID,VALID,VALID,VALID,VALID,VALID,VALID,VALID,201,samlSuccess.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52669,verify SAML Login API with NULL Saml Response,VALID,VALID,VALID,NULL,VALID,VALID,VALID,VALID,400,inputerrorparameter1.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52670,verify SAML Login API with NULL Issuer,VALID,VALID,VALID,VALID,VALID,NULL,VALID,VALID,400,inputerrorparameter2.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52671,verify SAML Login API with NULL Source,VALID,VALID,VALID,VALID,VALID,VALID,VALID,NULL,400,inputerrorparameter3.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52672,"verify SAML Login API by setting Saml Response, Issuer and Source set as NULL",VALID,VALID,VALID,NULL,VALID,NULL,VALID,NULL,400,inputerrorparameter4.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52673,"verify SAML Login API by setting all parameter value (i.e,cobSession, Saml Response, Issuer and Source) as NULL",VALID,NULL,VALID,NULL,VALID,NULL,VALID,NULL,401,unautorizedError.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52674,"verify SAML Login API by setting Saml Response, Issuer and Source set as INVALID",VALID,VALID,VALID,INVALID,VALID,INVALID,VALID,INVALID,400,inputerrorparameter5.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52675,"verify SAML Login API by setting all parameter value (i.e,cobSession, Saml Response, Issuer and Source) as INVALID",VALID,INVALID,VALID,VALID,VALID,VALID,VALID,VALID,401,unautorizedError.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52676,verify SAML Login API with INVALID Saml Response,VALID,VALID,VALID,INVALID,VALID,VALID,VALID,VALID,400,inputerrorparameter6.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52677,verify SAML Login API with INVALID Issuer,VALID,VALID,VALID,VALID,VALID,INVALID,VALID,VALID,400,inputerrorparameter7.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52678,verify SAML Login API with INVALID Source,VALID,VALID,VALID,VALID,VALID,VALID,VALID,INVALID,400,inputerrorparameter8.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52679,verify SAML Login API with INVALID CobSession,VALID,INVALID,VALID,VALID,VALID,VALID,VALID,VALID,401,unautorizedError.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52680,verify SAML Login API with Expired CobSession,VALID,EXPIRED,VALID,VALID,VALID,VALID,VALID,VALID,401,unautorizedError.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52681,verify SAML Login API with NULL Saml Response Key name,VALID,VALID,NULL,VALID,VALID,VALID,VALID,VALID,400,inputerrorparameter9.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52682,verify SAML Login API with NULL Issuer Key name,VALID,VALID,VALID,VALID,NULL,VALID,VALID,VALID,400,inputerrorparameter11.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52683,verify SAML Login API with NULL Source key nam,VALID,VALID,VALID,VALID,VALID,VALID,NULL,VALID,400,inputerrorparameter12.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52684,"verify SAML Login API by setting all parameter value (i.e,cobSession, Saml Response, Issuer and Source) as NULL key name",NULL,VALID,NULL,VALID,NULL,VALID,NULL,VALID,400,unautorizedError.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52685,verify SAML Login API with INVALID Saml Response Key name,VALID,VALID,INVALID,VALID,VALID,VALID,VALID,VALID,400,inputerrorparameter13.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52686,verify SAML Login API with INVALID Issuer Key name,VALID,VALID,VALID,VALID,INVALID,VALID,VALID,VALID,400,inputerrorparameter14.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52687,verify SAML Login API with INVALID Source key name,VALID,VALID,VALID,VALID,VALID,VALID,INVALID,VALID,400,inputerrorparameter15.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52688,verify SAML Login API with NULL CobSession key name,NULL,VALID,VALID,VALID,VALID,VALID,VALID,VALID,401,unautorizedError.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0
+AT-52689,verify SAML Login API with INVALID CobSession key name,INVALID,VALID,VALID,VALID,VALID,VALID,VALID,VALID,401,unautorizedError.json,../src/test/resources/TestData/saml/samlLogin/,TRUE,0

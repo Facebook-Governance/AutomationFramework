@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-PVC43,"Validate PropertyValueChange , Validate InsightName",,PropertyValueChange,PropertyValueChange,,,,,,,,,,,,,200,TRUE
+AT-PVC44,"Validate PropertyValueChange , Validate Supporting container",,PropertyValueChange,,,REALESTATE,,,,,,,,,,,200,TRUE
+AT-PVC45,"Validate PropertyValueChange , Validate TriggerType",SCHEDULE,PropertyValueChange,,,,,,,,,,,,,,200,TRUE
+AT-PVC46,"Validate PropertyValueChange , Validate applicableEntity",,PropertyValueChange,,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-PVC47,"Validate PropertyValueChange , Validate number of levels and levelObject",,PropertyValueChange,,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-PVC48,"Validate PropertyValueChange , Validate isSubscribed=false",,PropertyValueChange,,,,,,,,account,FALSE,,,,,200,TRUE
+AT-PVC49,"Validate PropertyValueChange , Validate threshold Name,Value and Type",,PropertyValueChange,,,,,,,,account,,,"CHANGE,500,AMOUNT   CHANGE,3,PERCENT",,,200,TRUE
+AT-PVC52,"Validate PropertyValueChange , Validate description",,PropertyValueChange,,,,,,Generates an insight when the value of property changes by more than a configured threshold.,,,,,,,,200,TRUE
+AT-PVC53,"Validate PropertyValueChange , Validate title",,PropertyValueChange,,Change in Property Value,,,,,,,,,,,,200,TRUE
+AT-PVC54,"Validate PropertyValueChange , Validate ruleExpression",,PropertyValueChange,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-PVC55,"Validate PropertyValueChange , Validate frequency=MONTHLY",,PropertyValueChange,,,,,,,,account,,MONTHLY,,,,200,TRUE
+AT-PVC56,"Validate PropertyValueChange , Validate total number of keys ",,PropertyValueChange,,,,,14,,,,,,,,,200,TRUE

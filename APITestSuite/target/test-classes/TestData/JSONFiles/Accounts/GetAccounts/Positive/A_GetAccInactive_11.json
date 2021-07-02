@@ -1,0 +1,76 @@
+{
+	"account": [
+		{
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "DAG BILLING",
+			"isManual": false,
+			"accountType": "WIRELESS",
+			"accountNumber": "xx5555",
+			"frequency": "ANNUALLY",
+			"refreshinfo": {
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "INACTIVE",
+			"amountDue": {
+				"amount": 0,
+				"currency": "USD"
+			},
+			"isAsset": false,
+			"balance": {
+				"amount": 0,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"CONTAINER": "bill",
+			"providerName": "Dag Site",
+			"minimumAmountDue": {
+				"amount": 100,
+				"currency": "USD"
+			}
+		},
+		{
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "DAG BILLING",
+			"isManual": false,
+			"accountType": "CABLE",
+			"accountNumber": "xx5555",
+			"frequency": "ANNUALLY",
+			"refreshinfo": {
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"accountStatus": "INACTIVE",
+			"amountDue": {
+				"amount": 0,
+				"currency": "USD"
+			},
+			"isAsset": false,
+			"balance": {
+				"amount": 0,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"CONTAINER": "bill",
+			"providerName": "Dag Site",
+			"minimumAmountDue": {
+				"amount": 100,
+				"currency": "USD"
+			}
+		}
+	]
+}

@@ -1,0 +1,37 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-142976,Cobrand subscribes to LargeDepositNotice Insights for account,LargeDepositNotice,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-142977,Cobrand subscribes to LargeDepositNotice Insights for view,LargeDepositNotice,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-142978,Cobrand tries to updates Insight name,LargeDepositNotice,negTestScenario1,LargeDepositNotice,,,,,,,,,,,,,,,,,,500,TRUE
+AT-142979,Cobrand tries to edit title,LargeDepositNotice,,,Large DepositNotice Edit,,,,,,,,,,,,,,,,,204,TRUE
+AT-142980,Cobrand tries to edit title with min(3) chars title,LargeDepositNotice,,,Lar,,,,,,,,,,,,,,,,,204,TRUE
+AT-142981,Cobrand tries to edit title with min(100) chars title,LargeDepositNotice,,,LargeDepositNoticeLargeDepositNoticeLargeDepositNoticeLargeDepositNoticeLargeDepositNoticeLargeDe100,,,,,,,,,,,,,,,,,204,TRUE
+AT-142982,Cobrand tries to edit title with 50  chars title,LargeDepositNotice,,,LargeDepositNoticeLargeDepositNoticeLargeDeposi,,,,,,,,,,,,,,,,,204,TRUE
+AT-142983,Cobrand tries to edit title with less than min(3) chars - 2 chars,LargeDepositNotice,negTestScenario3,,la,,,,,,,,,,,,,,,,,400,TRUE
+AT-142984,Cobrand tries to edit title with greater  than max(100) chars - 101 char,LargeDepositNotice,negTestScenario3,,LargeDepositNoticeLargeDepositNoticeLargeDepositNoticeLargeDepositNoticeLargeDepositNoticeLargeDep101,,,,,,,,,,,,,,,,,400,TRUE
+AT-142985,Cobrand tries to edit title with special characters,LargeDepositNotice,negTestScenario5,,%$#$%%%,,,,,,,,,,,,,,,,,400,TRUE
+AT-142986,"Verify if container ""BANK"" can be edited - NOT allowed",LargeDepositNotice,negTestScenario6,,,CARD,,,,,,,,,,,,,,,,400,TRUE
+AT-142987,Verify if Cobrand can update description - NOT allowed,LargeDepositNotice,negTestScenario8,,,,,,,EditDescription,,,,,,,,,,,,400,TRUE
+AT-142988,"Edit supporting ""ACCOUNT"" and ""VIEW"" applicableEntity  to ""GOAL or ACCOUNTGROUP",LargeDepositNotice,negTestScenario9,,,,,,,,GOAL,,,,,,,,,,,400,TRUE
+AT-142989,"update entityConfiguration keys to some invalue key ""invalidKey""",LargeDepositNotice,negTestScenario7,,,,,InvalidKey,,,,,,,,,,,,,,400,TRUE
+AT-142990,update account within entityParameter set isSubscribed = true change threshold value to 40000,LargeDepositNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,40000,AMOUNT",204,TRUE
+AT-142991,update account within entityParameter set isSubscribed = false change threshold value to 1000000,LargeDepositNotice,,,,,,,,,,1,,account,1,,,FALSE,,,"MINIMUM,1000000,AMOUNT",204,TRUE
+AT-142992,update account within entityParameter set isSubscribed = false change threshold value to 1000005(- ve Test - max threshold allowd is 1000000),LargeDepositNotice,negTestScenario37,,,,,,,,,1,,account,1,,,FALSE,,,"MINIMUM,1000005,AMOUNT",400,TRUE
+AT-142993,update account within entityParameter set isSubscribed = true change threshold value to 100,LargeDepositNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,100,AMOUNT",204,TRUE
+AT-142994,update account within entityParameter set isSubscribed = false change threshold value to 0(- ve Test - min threshold allowd is 1),LargeDepositNotice,negTestScenario37,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,0,AMOUNT",400,TRUE
+AT-142995,update view within entityParameter set isSubscribed = true change threshold value to 40000,LargeDepositNotice,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,40000,AMOUNT",204,TRUE
+AT-142996,update view within entityParameter set isSubscribed = false change threshold value to 1000000,LargeDepositNotice,,,,,,,,,,1,,view,1,,,FALSE,,,"MINIMUM,1000000,AMOUNT",204,TRUE
+AT-142997,update view within entityParameter set isSubscribed = false change threshold value to 1000005(- ve Test - max threshold allowd is 1000000),LargeDepositNotice,negTestScenario37,,,,,,,,,1,,view,1,,,FALSE,,,"MINIMUM,1000005,AMOUNT",400,TRUE
+AT-142998,update view within entityParameter set isSubscribed = true change threshold value to 100,LargeDepositNotice,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,100,AMOUNT",204,TRUE
+AT-142999,update view within entityParameter set isSubscribed = false change threshold value to 0(- ve Test - min threshold allowd is 1),LargeDepositNotice,negTestScenario37,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,0,AMOUNT",400,TRUE
+AT-143000,"Edit insightType ""OTHER"" to ""AGGREGATE"" - NOT allowed",LargeDepositNotice,negTestScenario24,,,,,,,,,1,,account,1,,,,,AGGREGATE,,400,TRUE
+AT-143001,Update Insight by passing other than supporting entites goal OR accountGroup,LargeDepositNotice,negTestScenario38,,,,,,,,,1,,goal,1,,,,,,"MINIMUM,100,AMOUNT",400,TRUE
+AT-143002,Patch insight by passing invalid value(Number) to isSubscribed = null field  for account in entityParameter,LargeDepositNotice,,,,,,,,,,1,,account,1,,,null,,,"MINIMUM,100,AMOUNT",204,TRUE
+AT-143003,Patch insight by passing invalid value to isSubscribed = null field  for view in entityParameter,LargeDepositNotice,,,,,,,,,,1,,view,1,,,null,,,"MINIMUM,100,AMOUNT",204,TRUE
+AT-143002,Patch insight by passing invalid value(Number) to isSubscribed = null field  for account in entityParameter,LargeDepositNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,100,AMOUNT",204,TRUE
+AT-143003,Patch insight by passing invalid value to isSubscribed = null field  for view in entityParameter,LargeDepositNotice,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,100,AMOUNT",204,TRUE
+AT-143004,update threshold name value to BALANCE for account within entityParameter,LargeDepositNotice,negTestScenario35,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,100,AMOUNT",400,TRUE
+AT-143005,update threshold name value to BALANCE for view within entityParameter,LargeDepositNotice,negTestScenario35,,,,,,,,,1,,view,1,,,TRUE,,,"BALANCE,100,AMOUNT",400,TRUE
+AT-143006,update threshold type value to PERCENT for account within entityParameter,LargeDepositNotice,negTestScenario28,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,550,PERCENT",400,TRUE
+AT-143007,update threshold type value to PERCENT for view  within entityParameter,LargeDepositNotice,negTestScenario28,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,550,PERCENT",400,TRUE
+AT-143008,"update threshold ""value "" value to String for account  within entityParameter",LargeDepositNotice,negTestScenario0,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,String,AMOUNT",400,TRUE
+AT-143009,"update threshold ""value "" value to String for view  within entityParameter",LargeDepositNotice,negTestScenario0,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,String,AMOUNT",400,TRUE

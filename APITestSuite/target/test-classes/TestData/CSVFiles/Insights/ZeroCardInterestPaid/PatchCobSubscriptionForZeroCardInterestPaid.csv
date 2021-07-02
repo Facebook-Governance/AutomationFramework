@@ -1,0 +1,17 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-157400,patchCobrandSubscription - subscribe to ZeroCardInterestPaid isSubscribed=true,ZeroCardInterestPaid,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-157401,patchCobrandSubscription - update insightName to same name,ZeroCardInterestPaid,negTestScenario53,ZeroCardInterestPaid,,,,,,,,,,,,,,,,,,500,TRUE
+AT-157402,patchCobrandSubscription -  update insightName to different name,ZeroCardInterestPaid,negTestScenario2,ZeroCardInterestPaidEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-157403,patchCobrandSubscription - update insightTitle chars between 3 and 100 ,ZeroCardInterestPaid,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-157404,patchCobrandSubscription -  update insightTitle chars are only 3,ZeroCardInterestPaid,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-157405,patchCobrandSubscription - update insightTitle chars are only 100,ZeroCardInterestPaid,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-157406,patchCobrandSubscription - update insightTitle chars are less than 3,ZeroCardInterestPaid,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-157407,patchCobrandSubscription -  update insightTitle chars are greater 100,ZeroCardInterestPaid,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-157408,patchCobrandSubscription - update insightTitle chars are special characters,ZeroCardInterestPaid,negTestScenario59,,()&*#),,,,,,,,,,,,,,,,,400,TRUE
+AT-157409,patchCobrandSubscription -  update container,ZeroCardInterestPaid,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-157410,patchCobrandSubscription -  update keys,ZeroCardInterestPaid,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-157411,patchCobrandSubscription -  update description,ZeroCardInterestPaid,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-157412,patchCobrandSubscription -  update applicableEntity,ZeroCardInterestPaid,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-157413,patchCobrandSubscription - update entityParameter->account[0]->isSubscribed=false,ZeroCardInterestPaid,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-157414,patchCobrandSubscription -  update entityParameter ->modify the frequncy,ZeroCardInterestPaid,negTestScenario58,,,,,,,,,1,,account,1,,WEEKLY,TRUE,,,,400,TRUE
+AT-157415,patchCobrandSubscription - update insightTitle to Zero Card Interest Paid,ZeroCardInterestPaid,,,Zero Card Interest Paid,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE

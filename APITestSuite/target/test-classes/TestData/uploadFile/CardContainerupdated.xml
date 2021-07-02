@@ -1,0 +1,598 @@
+- <site>
+  <status>0</status> 
+- <cardAccount uniqueId="2323234" uniqueIdModified="1" acctType="credit" accountClassification="personal">
+  <link>http://abc.com</link> 
+  <accountNumber>354-2334</accountNumber> 
+  <accountName>Super CD Plus</accountName> 
+  <accountHolder>Bill Gates</accountHolder> 
+  <cashApr>103.50</cashApr> 
+  <company>zensutra</company> 
+  <asOf localFormat="yyyy-MM-dd">2012-01-20T00:00:00</asOf> 
+  <dueDate localFormat="yyyy-MM-dd">2013-02-14T00:00:00</dueDate> 
+  <lastPaymentDate localFormat="yyyy-MM-dd">2013-12-30T00:00:00</lastPaymentDate> 
+  <apr>15.25</apr> 
+- <balance balType="lastPayment">
+  <curAmt curCode="USD">5000.67</curAmt> 
+  </balance>
+- <balance balType="minPayment">
+  <curAmt curCode="USD">1000</curAmt> 
+  </balance>
+- <balance balType="runningBalance">
+  <curAmt curCode="USD">11756.88</curAmt> 
+  </balance>
+- <balance balType="newCharges">
+  <curAmt curCode="USD">3433.67</curAmt> 
+  </balance>
+- <balance balType="availableCredit">
+  <curAmt curCode="USD">1000.00</curAmt> 
+  </balance>
+- <balance balType="amountDue">
+  <curAmt curCode="USD">100.00</curAmt> 
+  </balance>
+- <balance balType="totalCashLimit">
+  <curAmt curCode="USD">100.00</curAmt> 
+  </balance>
+- <balance balType="totalCreditLine">
+  <curAmt curCode="USD">100.00</curAmt> 
+  </balance>
+- <transactionList>
+- <transaction uniqueId="434343" type="credit" baseType="debit">
+  <link>http://asdf.com</link> 
+  <transactionId>12345</transactionId> 
+  <postDate localFormat="yyyy-MM-dd">2013-01-21T00:00:00</postDate> 
+  <description>creditcarddescription</description> 
+  <amount curCode="USD">3500.00</amount> 
+  <amount curCode="USD">450.25</amount> 
+  <description>TransDesc</description> 
+  <transDate localFormat="yyyy-MM-dd">2013-01-22T00:00:00</transDate> 
+  <category categoryId="1">other</category> 
+  </transaction>
+  <fromDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</fromDate> 
+  <toDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</toDate> 
+  </transactionList>
+- <cardStatementList>
+- <cardStatement uniqueId="-176934858133" acctType="card" isHistoric="false">
+  <link>http://asdasd</link> 
+  <accountName>Super CD Plus</accountName> 
+  <accountHolder>Bill Gates</accountHolder> 
+  <accountNumber>354-2334</accountNumber> 
+  <paymentLink>http://some.com</paymentLink> 
+  <payee>Divya</payee> 
+- <billPaymentInfo>
+  <paymentDate localFormat="yyyy-MM-dd">2013-12-30T00:00:00</paymentDate> 
+  <status>unknown</status> 
+  <statusString>sString</statusString> 
+  <frequency>Weekly</frequency> 
+  <frequencyUnit>Unit</frequencyUnit> 
+  <frequencyString>FString</frequencyString> 
+  <paymentSource>Psource</paymentSource> 
+  <paymentSourceAcctNum>PNum</paymentSourceAcctNum> 
+  <receivedDate localFormat="yyyy-MM-dd">2004-04-25T00:00:00</receivedDate> 
+  <paymentType>unknown</paymentType> 
+- <balance balType="amountDue">
+  <curAmt curCode="USD">25000.99</curAmt> 
+  </balance>
+- <balance balType="minPayment">
+  <curAmt curCode="USD">100.89</curAmt> 
+  </balance>
+  </billPaymentInfo>
+- <balance balType="maxPayment">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="paymentAmount">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+  <billingPeriodStart localFormat="yyyy-MM-dd">2013-08-25T00:00:00</billingPeriodStart> 
+  <billingPeriodEnd localFormat="yyyy-MM-dd">2013-08-25T00:00:00</billingPeriodEnd> 
+  <lastPaymentDate localFormat="yyyy-MM-dd">2013-12-30T00:00:00</lastPaymentDate> 
+  <isDueOnReceipt>TRUE</isDueOnReceipt> 
+  <isDueDateEstimated>FALSE</isDueDateEstimated> 
+- <balance balType="endingBalance">
+  <curAmt curCode="USD">120000</curAmt> 
+  </balance>
+- <balance balType="newCharges">
+  <curAmt curCode="USD">7000</curAmt> 
+  </balance>
+- <balance balType="pastDueAmount">
+  <curAmt curCode="USD">100</curAmt> 
+  </balance>
+- <balance balType="lastPayment">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="amountDue">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="minPayment">
+  <curAmt curCode="USD">200</curAmt> 
+  </balance>
+- <balance balType="adjustments">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="latePaymentCharge">
+  <curAmt curCode="USD">1000</curAmt> 
+  </balance>
+- <billingPlanList>
+- <billingPlan isPrimary="1" uniqueId="14345" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <planFor>YODLEE</planFor> 
+  <plan>bplan</plan> 
+  <planDetails>bplandetails</planDetails> 
+  <planCharges>12345.26</planCharges> 
+  <planType>Voice</planType> 
+  </billingPlan>
+  </billingPlanList>
+- <accountUsageList>
+- <accountUsage uniqueId="128745" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <usageFor>YODLEE</usageFor> 
+  <description>formaldesc</description> 
+  <unitsIncluded>100</unitsIncluded> 
+  <unitsUsed>60</unitsUsed> 
+  <unitsRemaining>40</unitsRemaining> 
+  <unitsOverLimit>10</unitsOverLimit> 
+  <unit>kilobytes</unit> 
+  <unitString>kiloString</unitString> 
+  <unitRate curCode="USD">100.25</unitRate> 
+  <chargesIncurred curCode="USD">12.30</chargesIncurred> 
+  <usageType>Other</usageType> 
+  <usageTimePeriod>WeekNight</usageTimePeriod> 
+  <usageDirection>Incoming</usageDirection> 
+  </accountUsage>
+  </accountUsageList>
+- <billChargeList>
+- <billCharge uniqueId="18765" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <chargeFor>aravind</chargeFor> 
+  <description>aravindBill</description> 
+  <amount curCode="USD">12345.50</amount> 
+  <chargeType>PrimaryPlanMRC</chargeType> 
+  </billCharge>
+  </billChargeList>
+- <billContractList>
+- <billContract uniqueId="198765" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <contractFor>YODLEE</contractFor> 
+  <description>YODLEEcontract</description> 
+  <contractLength>100</contractLength> 
+  <startDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</startDate> 
+  <endDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</endDate> 
+  </billContract>
+  </billContractList>
+- <equipmentList>
+- <equipment uniqueId="23145" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <equipmentFor>YODLEE</equipmentFor> 
+  <description>YODLEEequipment</description> 
+  </equipment>
+  </equipmentList>
+  <userPaymStatus>other</userPaymStatus> 
+  <userPaymStatusLastUpdated>12</userPaymStatusLastUpdated> 
+  <apr>1234</apr> 
+- <balance balType="availableCredit">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="availableCash">
+  <curAmt curCode="USD">234500</curAmt> 
+  </balance>
+- <balance balType="totalCashLimit">
+  <curAmt curCode="USD">11100</curAmt> 
+  </balance>
+- <balance balType="interestPaidThisPeriod">
+  <curAmt curCode="USD">3000</curAmt> 
+  </balance>
+- <balance balType="interestPaidYtd">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="financeCharges">
+  <curAmt curCode="USD">23400</curAmt> 
+  </balance>
+- <balance balType="disputedAmount">
+  <curAmt curCode="USD">3400</curAmt> 
+  </balance>
+- <balance balType="adjustments">
+  <curAmt curCode="USD">3000</curAmt> 
+  </balance>
+- <balance balType="credit">
+  <curAmt curCode="USD">3000</curAmt> 
+  </balance>
+  </cardStatement>
+  <cardStatement uniqueId="-1769348581" acctType="card" isHistoric="false">
+  <link>http://asdasd</link> 
+  <accountName>Super CD Plus</accountName> 
+  <accountHolder>Bill Gates</accountHolder> 
+  <accountNumber>354-2334</accountNumber> 
+  <paymentLink>http://some.com</paymentLink> 
+  <payee>Divya</payee> 
+  <dueDate localFormat="yyyy-MM-dd">2013-02-14T00:00:00</dueDate> 
+- <billPaymentInfo>
+  <paymentDate localFormat="yyyy-MM-dd">2013-12-30T00:00:00</paymentDate> 
+  <status>unknown</status> 
+  <statusString>sString</statusString> 
+  <frequency>Weekly</frequency> 
+  <frequencyUnit>Unit</frequencyUnit> 
+  <frequencyString>FString</frequencyString> 
+  <paymentSource>Psource</paymentSource> 
+  <paymentSourceAcctNum>PNum</paymentSourceAcctNum> 
+  <receivedDate localFormat="yyyy-MM-dd">2004-04-25T00:00:00</receivedDate> 
+  <paymentType>unknown</paymentType> 
+- <balance balType="amountDue">
+  <curAmt curCode="USD">25000.99</curAmt> 
+  </balance>
+- <balance balType="minPayment">
+  <curAmt curCode="USD">100.89</curAmt> 
+  </balance>
+  </billPaymentInfo>
+- <balance balType="maxPayment">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="paymentAmount">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+  <billDate localFormat="yyyy-MM-dd">2013-12-30T00:00:00</billDate> 
+  <billingPeriodStart localFormat="yyyy-MM-dd">2013-08-25T00:00:00</billingPeriodStart> 
+  <billingPeriodEnd localFormat="yyyy-MM-dd">2013-08-25T00:00:00</billingPeriodEnd> 
+  <lastPaymentDate localFormat="yyyy-MM-dd">2013-12-30T00:00:00</lastPaymentDate> 
+  <isDueOnReceipt>TRUE</isDueOnReceipt> 
+  <isDueDateEstimated>FALSE</isDueDateEstimated> 
+- <balance balType="endingBalance">
+  <curAmt curCode="USD">120000</curAmt> 
+  </balance>
+- <balance balType="newCharges">
+  <curAmt curCode="USD">7000</curAmt> 
+  </balance>
+- <balance balType="pastDueAmount">
+  <curAmt curCode="USD">100</curAmt> 
+  </balance>
+- <balance balType="lastPayment">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="amountDue">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="minPayment">
+  <curAmt curCode="USD">200</curAmt> 
+  </balance>
+- <balance balType="adjustments">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="latePaymentCharge">
+  <curAmt curCode="USD">1000</curAmt> 
+  </balance>
+- <billingPlanList>
+- <billingPlan isPrimary="1" uniqueId="14345" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <planFor>YODLEE</planFor> 
+  <plan>bplan</plan> 
+  <planDetails>bplandetails</planDetails> 
+  <planCharges>12345.26</planCharges> 
+  <planType>Voice</planType> 
+  </billingPlan>
+  </billingPlanList>
+- <accountUsageList>
+- <accountUsage uniqueId="128745" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <usageFor>YODLEE</usageFor> 
+  <description>formaldesc</description> 
+  <unitsIncluded>100</unitsIncluded> 
+  <unitsUsed>60</unitsUsed> 
+  <unitsRemaining>40</unitsRemaining> 
+  <unitsOverLimit>10</unitsOverLimit> 
+  <unit>kilobytes</unit> 
+  <unitString>kiloString</unitString> 
+  <unitRate curCode="USD">100.25</unitRate> 
+  <chargesIncurred curCode="USD">12.30</chargesIncurred> 
+  <usageType>Other</usageType> 
+  <usageTimePeriod>WeekNight</usageTimePeriod> 
+  <usageDirection>Incoming</usageDirection> 
+  </accountUsage>
+  </accountUsageList>
+- <billChargeList>
+- <billCharge uniqueId="18765" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <chargeFor>aravind</chargeFor> 
+  <description>aravindBill</description> 
+  <amount curCode="USD">12345.50</amount> 
+  <chargeType>PrimaryPlanMRC</chargeType> 
+  </billCharge>
+  </billChargeList>
+- <billContractList>
+- <billContract uniqueId="198765" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <contractFor>YODLEE</contractFor> 
+  <description>YODLEEcontract</description> 
+  <contractLength>100</contractLength> 
+  <startDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</startDate> 
+  <endDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</endDate> 
+  </billContract>
+  </billContractList>
+- <equipmentList>
+- <equipment uniqueId="23145" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <equipmentFor>YODLEE</equipmentFor> 
+  <description>YODLEEequipment</description> 
+  </equipment>
+  </equipmentList>
+  <userPaymStatus>other</userPaymStatus> 
+  <userPaymStatusLastUpdated>12</userPaymStatusLastUpdated> 
+  <apr>1234</apr> 
+- <balance balType="availableCredit">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="availableCash">
+  <curAmt curCode="USD">234500</curAmt> 
+  </balance>
+- <balance balType="totalCashLimit">
+  <curAmt curCode="USD">11100</curAmt> 
+  </balance>
+- <balance balType="interestPaidThisPeriod">
+  <curAmt curCode="USD">3000</curAmt> 
+  </balance>
+- <balance balType="interestPaidYtd">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="financeCharges">
+  <curAmt curCode="USD">23400</curAmt> 
+  </balance>
+- <balance balType="disputedAmount">
+  <curAmt curCode="USD">3400</curAmt> 
+  </balance>
+- <balance balType="adjustments">
+  <curAmt curCode="USD">3000</curAmt> 
+  </balance>
+- <balance balType="credit">
+  <curAmt curCode="USD">3000</curAmt> 
+  </balance>
+  </cardStatement>
+  </cardStatementList>
+- <transactionList>
+- <transaction uniqueId="12121" type="credit" baseType="debit">
+  <link>http://asdf.com</link> 
+  <transactionId>12345</transactionId> 
+  <postDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</postDate> 
+  <description>creditcarddescription</description> 
+  <amount curCode="USD">3500.00</amount> 
+  <transDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</transDate> 
+  <category categoryId="1">somecategory</category> 
+  </transaction>
+  </transactionList>
+  <fromDate localFormat="yyyy-MM-dd">2013-12-21T00:00:00</fromDate> 
+  <toDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</toDate> 
+- <paymentDetailList>
+- <paymentDetail>
+  <link>http://asdasd</link> 
+  <paymentDate localFormat="yyyy-MM-dd">2013-12-30T00:00:00</paymentDate> 
+  <amount curCode="USD">450.25</amount> 
+  <paymentSource>aravindcredit</paymentSource> 
+  <paymentSourceAcctNum>123456</paymentSourceAcctNum> 
+  <description>somedescription</description> 
+  <isPending>true</isPending> 
+  <confirmationNumber>confnumber</confirmationNumber> 
+  </paymentDetail>
+  </paymentDetailList>
+  </cardAccount>
+- <cardAccount uniqueId="232323242" uniqueIdModified="1" acctType="charge" accountClassification="personal">
+  <link>http://abc.com</link> 
+  <accountNumber>354-2334-888</accountNumber> 
+  <accountName>Super CD Plus</accountName> 
+  <accountHolder>Bill Gates</accountHolder> 
+  <cashApr>103.50</cashApr> 
+  <company>zensutra</company> 
+  <asOf localFormat="yyyy-MM-dd">2012-01-20T00:00:00</asOf> 
+  <dueDate localFormat="yyyy-MM-dd">2013-02-14T00:00:00</dueDate> 
+  <lastPaymentDate localFormat="yyyy-MM-dd">2013-12-30T00:00:00</lastPaymentDate> 
+  <apr>15.25</apr> 
+- <balance balType="lastPayment">
+  <curAmt curCode="USD">5000.67</curAmt> 
+  </balance>
+- <balance balType="minPayment">
+  <curAmt curCode="USD">1000</curAmt> 
+  </balance>
+- <balance balType="runningBalance">
+  <curAmt curCode="USD">11756.88</curAmt> 
+  </balance>
+- <balance balType="newCharges">
+  <curAmt curCode="USD">3433.67</curAmt> 
+  </balance>
+- <balance balType="availableCredit">
+  <curAmt curCode="USD">1000.00</curAmt> 
+  </balance>
+- <balance balType="amountDue">
+  <curAmt curCode="USD">100.00</curAmt> 
+  </balance>
+- <balance balType="totalCashLimit">
+  <curAmt curCode="USD">100.00</curAmt> 
+  </balance>
+- <balance balType="totalCreditLine">
+  <curAmt curCode="USD">100.00</curAmt> 
+  </balance>
+- <transactionList>
+- <transaction uniqueId="434343" type="credit" baseType="debit">
+  <link>http://asdf.com</link> 
+  <transactionId>12345</transactionId> 
+  <postDate localFormat="yyyy-MM-dd">2013-01-21T00:00:00</postDate> 
+  <description>creditcarddescription</description> 
+  <amount curCode="USD">3500.00</amount> 
+  <amount curCode="USD">450.25</amount> 
+  <description>TransDesc</description> 
+  <transDate localFormat="yyyy-MM-dd">2013-01-22T00:00:00</transDate> 
+  <category categoryId="1">other</category> 
+  </transaction>
+  <fromDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</fromDate> 
+  <toDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</toDate> 
+  </transactionList>
+- <cardStatementList>
+- <cardStatement uniqueId="-1769348581" acctType="card" isHistoric="false">
+  <link>http://asdasd</link> 
+  <accountName>Super CD Plus</accountName> 
+  <accountHolder>Bill Gates</accountHolder> 
+  <accountNumber>354-2334</accountNumber> 
+  <paymentLink>http://some.com</paymentLink> 
+  <payee>Divya</payee> 
+  <dueDate localFormat="yyyy-MM-dd">2013-02-14T00:00:00</dueDate> 
+- <billPaymentInfo>
+  <paymentDate localFormat="yyyy-MM-dd">2013-12-30T00:00:00</paymentDate> 
+  <status>unknown</status> 
+  <statusString>sString</statusString> 
+  <frequency>Weekly</frequency> 
+  <frequencyUnit>Unit</frequencyUnit> 
+  <frequencyString>FString</frequencyString> 
+  <paymentSource>Psource</paymentSource> 
+  <paymentSourceAcctNum>PNum</paymentSourceAcctNum> 
+  <receivedDate localFormat="yyyy-MM-dd">2004-04-25T00:00:00</receivedDate> 
+  <paymentType>unknown</paymentType> 
+- <balance balType="amountDue">
+  <curAmt curCode="USD">25000.99</curAmt> 
+  </balance>
+- <balance balType="minPayment">
+  <curAmt curCode="USD">100.89</curAmt> 
+  </balance>
+  </billPaymentInfo>
+- <balance balType="maxPayment">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="paymentAmount">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+  <billDate localFormat="yyyy-MM-dd">2013-12-30T00:00:00</billDate> 
+  <billingPeriodStart localFormat="yyyy-MM-dd">2013-08-25T00:00:00</billingPeriodStart> 
+  <billingPeriodEnd localFormat="yyyy-MM-dd">2013-08-25T00:00:00</billingPeriodEnd> 
+  <lastPaymentDate localFormat="yyyy-MM-dd">2013-12-30T00:00:00</lastPaymentDate> 
+  <isDueOnReceipt>TRUE</isDueOnReceipt> 
+  <isDueDateEstimated>FALSE</isDueDateEstimated> 
+- <balance balType="endingBalance">
+  <curAmt curCode="USD">120000</curAmt> 
+  </balance>
+- <balance balType="newCharges">
+  <curAmt curCode="USD">7000</curAmt> 
+  </balance>
+- <balance balType="pastDueAmount">
+  <curAmt curCode="USD">100</curAmt> 
+  </balance>
+- <balance balType="lastPayment">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="amountDue">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="minPayment">
+  <curAmt curCode="USD">200</curAmt> 
+  </balance>
+- <balance balType="adjustments">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="latePaymentCharge">
+  <curAmt curCode="USD">1000</curAmt> 
+  </balance>
+- <billingPlanList>
+- <billingPlan isPrimary="1" uniqueId="14345" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <planFor>YODLEE</planFor> 
+  <plan>bplan</plan> 
+  <planDetails>bplandetails</planDetails> 
+  <planCharges>12345.26</planCharges> 
+  <planType>Voice</planType> 
+  </billingPlan>
+  </billingPlanList>
+- <accountUsageList>
+- <accountUsage uniqueId="128745" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <usageFor>YODLEE</usageFor> 
+  <description>formaldesc</description> 
+  <unitsIncluded>100</unitsIncluded> 
+  <unitsUsed>60</unitsUsed> 
+  <unitsRemaining>40</unitsRemaining> 
+  <unitsOverLimit>10</unitsOverLimit> 
+  <unit>kilobytes</unit> 
+  <unitString>kiloString</unitString> 
+  <unitRate curCode="USD">100.25</unitRate> 
+  <chargesIncurred curCode="USD">12.30</chargesIncurred> 
+  <usageType>Other</usageType> 
+  <usageTimePeriod>WeekNight</usageTimePeriod> 
+  <usageDirection>Incoming</usageDirection> 
+  </accountUsage>
+  </accountUsageList>
+- <billChargeList>
+- <billCharge uniqueId="18765" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <chargeFor>aravind</chargeFor> 
+  <description>aravindBill</description> 
+  <amount curCode="USD">12345.50</amount> 
+  <chargeType>PrimaryPlanMRC</chargeType> 
+  </billCharge>
+  </billChargeList>
+- <billContractList>
+- <billContract uniqueId="198765" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <contractFor>YODLEE</contractFor> 
+  <description>YODLEEcontract</description> 
+  <contractLength>100</contractLength> 
+  <startDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</startDate> 
+  <endDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</endDate> 
+  </billContract>
+  </billContractList>
+- <equipmentList>
+- <equipment uniqueId="23145" uniqueIdModified="1">
+  <link>http://asdasd</link> 
+  <equipmentFor>YODLEE</equipmentFor> 
+  <description>YODLEEequipment</description> 
+  </equipment>
+  </equipmentList>
+  <userPaymStatus>other</userPaymStatus> 
+  <userPaymStatusLastUpdated>12</userPaymStatusLastUpdated> 
+  <apr>1234</apr> 
+- <balance balType="availableCredit">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="availableCash">
+  <curAmt curCode="USD">234500</curAmt> 
+  </balance>
+- <balance balType="totalCashLimit">
+  <curAmt curCode="USD">11100</curAmt> 
+  </balance>
+- <balance balType="interestPaidThisPeriod">
+  <curAmt curCode="USD">3000</curAmt> 
+  </balance>
+- <balance balType="interestPaidYtd">
+  <curAmt curCode="USD">10000</curAmt> 
+  </balance>
+- <balance balType="financeCharges">
+  <curAmt curCode="USD">23400</curAmt> 
+  </balance>
+- <balance balType="disputedAmount">
+  <curAmt curCode="USD">3400</curAmt> 
+  </balance>
+- <balance balType="adjustments">
+  <curAmt curCode="USD">3000</curAmt> 
+  </balance>
+- <balance balType="credit">
+  <curAmt curCode="USD">3000</curAmt> 
+  </balance>
+  </cardStatement>
+  </cardStatementList>
+- <transactionList>
+- <transaction uniqueId="12121" type="credit" baseType="debit">
+  <link>http://asdf.com</link> 
+  <transactionId>12345</transactionId> 
+  <postDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</postDate> 
+  <description>creditcarddescription</description> 
+  <amount curCode="USD">3500.00</amount> 
+  <transDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</transDate> 
+  <category categoryId="1">somecategory</category> 
+  </transaction>
+  </transactionList>
+  <fromDate localFormat="yyyy-MM-dd">2013-12-21T00:00:00</fromDate> 
+  <toDate localFormat="yyyy-MM-dd">2013-01-20T00:00:00</toDate> 
+- <paymentDetailList>
+- <paymentDetail>
+  <link>http://asdasd</link> 
+  <paymentDate localFormat="yyyy-MM-dd">2013-12-30T00:00:00</paymentDate> 
+  <amount curCode="USD">450.25</amount> 
+  <paymentSource>aravindcredit</paymentSource> 
+  <paymentSourceAcctNum>123456</paymentSourceAcctNum> 
+  <description>somedescription</description> 
+  <isPending>true</isPending> 
+  <confirmationNumber>confnumber</confirmationNumber> 
+  </paymentDetail>
+  </paymentDetailList>
+  </cardAccount>
+  </site>

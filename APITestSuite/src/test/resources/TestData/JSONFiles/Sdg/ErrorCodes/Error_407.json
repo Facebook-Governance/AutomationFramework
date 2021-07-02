@@ -1,0 +1,26 @@
+{
+  "providerAccount": [
+    {
+      "id": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "providerId": "${json-unit.ignore}",
+      "isManual": false,
+      "createdDate": "${json-unit.ignore}",
+      "status": "FAILED",
+      "dataset": [
+        {
+          "name": "ACCT_PROFILE",
+          "additionalStatus": "ACCOUNT_LOCKED",
+          "updateEligibility": "ALLOW_UPDATE_WITH_CREDENTIALS",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        },
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "ACCOUNT_LOCKED",
+          "updateEligibility": "ALLOW_UPDATE_WITH_CREDENTIALS",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-154178,"Validate getCobrandSubscription for LargePurchase , check if Insight is unSubscribed to OR isSubscribed=false ",,LargePurchase,LargePurchase,,,,,,,,FALSE,,,,200,TRUE
+AT-154179,"Validate  getCobrandSubscription for  LargePurchase , Validate InsightName",,LargePurchase,LargePurchase,,,,,,,,,,,,200,TRUE
+AT-154180,"Validate getCobrandSubscription for  LargePurchase , Validate Supporting container",,LargePurchase,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-154181,"Validate getCobrandSubscription for  LargePurchase , Validate TriggerType",REFRESH,LargePurchase,,,,,,,,,,,,,200,TRUE
+AT-154182,"Validate getCobrandSubscription for  LargePurchase , Validate applicableEntity",,LargePurchase,,,,,,,"ACCOUNT,VIEW",,,,,,200,TRUE
+AT-154183,"Validate getCobrandSubscription for  LargePurchase , Validate number of levels and levelObject",,LargePurchase,,,,,,,"ACCOUNT,VIEW","account,view",,,,,200,TRUE
+AT-154184,"Validate getCobrandSubscription for  LargePurchase , Validate isSubscribed=false",,LargePurchase,,,,,,,,,FALSE,,,,200,TRUE
+AT-154185,"Validate getCobrandSubscription for  LargePurchase , Validate threshold Name,default Value  and Type",,LargePurchase,,,,,,,,"account,view",,,"MINIMUM,50,AMOUNT",,200,TRUE
+AT-154186,"Validate getCobrandSubscription for  LargePurchase , Validate insightKeys for Account",,LargePurchase,,,,Account,,,,,,,,,200,TRUE
+AT-154187,"Validate getCobrandSubscription for  LargePurchase , Validate description",,LargePurchase,,,,,,Generates an insight when an expense is posted that is more than a configured threshold.,,,,,,,200,TRUE
+AT-154188,"Validate getCobrandSubscription for  LargePurchase , Validate title",,LargePurchase,,Large Purchase,,,,,,,,,,,200,TRUE
+AT-154189,"Validate getCobrandSubscription for  LargePurchase , Validate ruleExpression",,LargePurchase,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-154190,"Validate getCobrandSubscription for  LargePurchase , Validate total number of keys",,LargePurchase,,,,,15,,,,,,,,200,TRUE
+AT-154191,"Validate getCobrandSubscription for  LargePurchase , Validate insightKeys for View",,LargePurchase,,,,View,,,,,,,,,200,TRUE

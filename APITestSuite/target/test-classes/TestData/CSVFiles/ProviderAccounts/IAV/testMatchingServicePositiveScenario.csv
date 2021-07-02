@@ -1,0 +1,5 @@
+testcaseId,testCaseName,accountNumber,accountType,verificationType,resFile,filePath,enabled,Status
+1,With All attributes,8894512341,SAVINGS,MATCHING,WithAllAttributes.json,../src/test/resources/TestData/ProviderAccount/IAV/MatchingService/,TRUE,201
+2,Account Type Match Failed,8894512341,CHECKING,MATCHING,invalidaccttype.json,../src/test/resources/TestData/ProviderAccount/IAV/MatchingService/,TRUE,201
+3,By passing alphanumeric account number,88945ASD12341,SAVINGS,MATCHING,WithAllAttributes.json,../src/test/resources/TestData/ProviderAccount/IAV/MatchingService/,TRUE,201
+4,By passing special characters,88945$12341,SAVINGS,MATCHING,WithAllAttributes.json,../src/test/resources/TestData/ProviderAccount/IAV/MatchingService/,TRUE,201

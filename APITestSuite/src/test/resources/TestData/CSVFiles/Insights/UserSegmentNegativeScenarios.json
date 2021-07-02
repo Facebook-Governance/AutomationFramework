@@ -1,0 +1,234 @@
+[
+	{
+		"testCaseId": "AT-168429",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y804",
+		"errorMessage": "Permitted values of Income between 0 - 100,000,000"
+	},
+	{
+		"testCaseId": "AT-168423",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y804",
+		"errorMessage": "Permitted values of Income between 0 - 100,000,000"
+	},
+	{
+		"testCaseId": "AT-168425",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for IncomeRange; Supported values are - $0K - $35K, $35K - $50K, $50K - $75K, $75K - $100K, $100K - $150K and $150K +"
+	},
+	{
+		"testCaseId": "AT-168424",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for IncomeRange; Supported values are - $0K - $35K, $35K - $50K, $50K - $75K, $75K - $100K, $100K - $150K and $150K +"
+	},
+	{
+		"testCaseId": "AT-168431",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for City; City is required if State is provided."
+	},
+	{
+		"testCaseId": "AT-168432",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y801",
+		"errorMessage": "Invalid length for City; min 1 and max 100 characters including spaces are allowed."
+	},
+	{
+		"testCaseId": "AT-168433",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for State; State is required if City is provided."
+	},
+	{
+		"testCaseId": "AT-168413",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y801",
+		"errorMessage":  "Invalid length for State; min 1 and max 100 characters including spaces are allowed."
+	},
+	{
+		"testCaseId": "AT-168405",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y801",
+		"errorMessage": "Invalid length for Country; min 1 and max 100 characters including spaces are allowed."
+	},
+	{
+		"testCaseId": "AT-168408",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y801",
+		"errorMessage": "Invalid length for ZipCode; min 1 and max 10 characters including spaces are allowed."
+	},
+	{
+		"testCaseId": "AT-168406",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for age"
+	},
+	{
+		"testCaseId": "AT-168409",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for age"
+	},
+	{
+		"testCaseId": "AT-168412",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y804",
+		"errorMessage":  "Permitted values of NetWorth amount between -100,000,000 - 100,000,000"
+	},
+	{
+		"testCaseId": "AT-168422",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y804",
+		"errorMessage":  "Permitted values of NetWorth amount between -100,000,000 - 100,000,000"
+	},
+	{
+		"testCaseId": "AT-168418",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for LifeStage; Supported values are STUDENT, EMPLOYED, UNEMPLOYED, RETIRED"
+	}
+	,
+	{
+		"testCaseId": "AT-168417",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for State; State is required if City is provided."
+	}
+	,
+	{
+		"testCaseId": "AT-168421",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for City; City is required if State is provided."
+	}
+	,
+	{
+		"testCaseId": "AT-168420",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for IncomeCurrency; IncomeCurrency is required if Income is provided."
+	}
+	,
+	{
+		"testCaseId": "AT-168402",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for Income; Income is required if IncomeCurrency is provided."
+	}
+	,
+	{
+		"testCaseId": "AT-168401",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y813",
+		"errorMessage":  "Either Income or Income Range should be provided"
+	}
+	,
+	{
+		"testCaseId": "AT-168379",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y813",
+		"errorMessage":  "Either Income or Income Range should be provided"
+	}
+	,
+	{
+		"testCaseId": "AT-168381",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y813",
+		"errorMessage": "Either Income or Income Range should be provided"
+	}
+	,
+	{
+		"testCaseId": "AT-168380",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y813",
+		"errorMessage":  "Both Income and Income Range cannot be provided. Either of them should be provided"
+	},
+	{
+		"testCaseId": "AT-168404",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for IncomeCurrency; Only USD is allowed."
+	},
+	{
+		"testCaseId": "AT-168403",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for IncomeCurrency; Only USD is allowed."
+	}
+	,
+	{
+		"testCaseId": "AT-168414",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y801",
+		"errorMessage":  "Invalid length for ZipCode; min 1 and max 10 characters including spaces are allowed."
+	},
+	{
+		"testCaseId": "AT-EnhancementTcDupe",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y811",
+		"errorMessage":  "UserSegment value already exists"
+	},
+	{
+		"testCaseId": "AT-SpecialChars1",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for City; The following special characters are not supported: <\\>\"%{}|\\\\^~[]"
+	},
+	{
+		"testCaseId": "AT-SpecialChars2",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for State; The following special characters are not supported: <\\>\"%{}|\\\\^~[]"
+	},
+	{
+		"testCaseId": "AT-SpecialChars3",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for Country; The following special characters are not supported: <\\>\"%{}|\\\\^~[]"
+	},
+	{
+		"testCaseId": "AT-SpecialChars4",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for ZipCode; The following special characters are not supported: <\\>\"%{}|\\\\^~[]"
+	},
+	{
+		"testCaseId": "AT-169484",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y813",
+		"errorMessage":  "Both Income and Income Range cannot be provided. Either of them should be provided"
+	},
+	{
+		"testCaseId": "AT-169483",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y801",
+		"errorMessage":  "Invalid length for City; min 1 and max 100 characters including spaces are allowed."
+	},
+	{
+		"testCaseId": "AT-169502",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for IncomeCurrency; IncomeCurrency is required if Income is provided."
+	},
+	{
+		"testCaseId": "AT-169503",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for Income; Income is required if IncomeCurrency is provided."
+	},
+	{
+		"testCaseId": "AT-169504",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for NetWorthCurrency; NetWorth is required if NetWorthCurrency is provided."
+	},
+	{
+		"testCaseId": "AT-169505",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage":  "Invalid value for NetWorth; NetWorth is required if NetWorthCurrency is provided."
+	}
+	
+]   

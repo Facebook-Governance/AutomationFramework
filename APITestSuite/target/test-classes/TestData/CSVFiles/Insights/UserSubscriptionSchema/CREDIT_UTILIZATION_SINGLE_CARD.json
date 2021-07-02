@@ -1,0 +1,39 @@
+{
+            "insightName": "CREDIT_UTILIZATION_ALL_CARDS",
+            "insightTitle": "Credit Utilization Warning (all cards)",
+            "insightType": "AGGREGATE",
+            "triggerType": "REFRESH",
+            "container": [
+                "CARD"
+            ],
+            "description": "Generates an insight when the balance on all credit cards is more than a configured threshold.",
+            "applicableEntity": [
+                "ACCOUNT"
+            ],
+            "userConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": true,
+                    "threshold": [
+                        {
+                            "name": "UPPER_LIMIT",
+                            "value": "30",
+                            "type": "PERCENT"
+                        }
+                    ]
+                }
+            ],
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": true,
+                    "threshold": [
+                        {
+                            "name": "UPPER_LIMIT",
+                            "value": "30",
+                            "type": "PERCENT"
+                        }
+                    ]
+                }
+            ]
+        }

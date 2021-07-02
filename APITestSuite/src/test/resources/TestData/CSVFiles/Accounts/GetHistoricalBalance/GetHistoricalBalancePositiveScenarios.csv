@@ -1,0 +1,64 @@
+TcId,TestCaseName,accountIdContainer,accountName,includeCF,fromDate,toDate,interval,skip,top,status,respFile,filePath,defectId,enabled
+AT-57978,With allFilter,bank,TESTDATA,TRUE,,"0,0,0",D,,,200,A_HistoBal_1,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-57979,Without toDate,bank,TESTDATA,TRUE,,"0,0,0",M,,,200,A_HistoBal_2,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63975,Without any params,bank,TESTDATA,TRUE,,"0,0,0",W,,,200,A_HistoBal_3,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63976,withoutAccountId,bank,TESTDATA,FALSE,,"0,0,0",D,,,200,A_HistoBal_4,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63977,Without CF,bank,TESTDATA,FALSE,,"0,0,0",M,,,200,A_HistoBal_5,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63978,WithoutFromDate and toDate,bank,TESTDATA,FALSE,,"0,0,0",W,,,200,A_HistoBal_6,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63979,With Weakly interval,bank,TESTDATA,,,"0,0,0",D,,,200,A_HistoBal_7,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63980,with monthly interval,bank,TESTDATA,,,"0,0,0",M,,,200,A_HistoBal_8,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63981,With includeCF as false,bank,TESTDATA,,,"0,0,0",W,,,200,A_HistoBal_9,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63982,With allFilter with investment,bank,TESTDATA,TRUE,,"0,0,0",,,,200,A_HistoBal_10,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63983,Without toDate with investment,bank,TESTDATA,FALSE,,"0,0,0",,,,200,A_HistoBal_11,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63984,Without any params with investment,bank,TESTDATA,,,"0,0,0",,,,200,A_HistoBal_12,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63985,withoutAccountId with loan,loan,Super CD Plus,TRUE,,"0,0,0",D,,,200,A_HistoBal_13,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63986,Without CF with loan,loan,Super CD Plus,TRUE,,"0,0,0",M,,,200,A_HistoBal_14,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63987,WithoutFromDate and toDate with loan,loan,Super CD Plus,TRUE,,"0,0,0",W,,,200,A_HistoBal_15,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63988,With Weakly interval with loan,loan,Super CD Plus,FALSE,,"0,0,0",D,,,200,A_HistoBal_16,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63989,with monthly interval with loan,loan,Super CD Plus,FALSE,,"0,0,0",M,,,200,A_HistoBal_17,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63990,With includeCF as false with loan,loan,Super CD Plus,FALSE,,"0,0,0",W,,,200,A_HistoBal_18,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63991,With allFilter with loan,loan,Super CD Plus,,,"0,0,0",D,,,200,A_HistoBal_19,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63992,Without toDate with creditCard,loan,Super CD Plus,,,"0,0,0",M,,,200,A_HistoBal_20,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63993,Without any params with creditCard,loan,Super CD Plus,,,"0,0,0",W,,,200,A_HistoBal_21,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63994,withoutAccountId with creditCard,loan,Super CD Plus,TRUE,,"0,0,0",,,,200,A_HistoBal_22,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63995,Without CF with creditCard,loan,Super CD Plus,FALSE,,"0,0,0",,,,200,A_HistoBal_23,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63996,WithoutFromDate and toDate with creditCard,loan,Super CD Plus,,,"0,0,0",,,,200,A_HistoBal_24,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63997,With Weakly interval with creditCard,insurance,DAG INSURANCE,TRUE,,"0,0,0",D,,,200,A_HistoBal_25,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63998,with monthly interval with creditCard,insurance,DAG INSURANCE,TRUE,,"0,0,0",M,,,200,A_HistoBal_26,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-63999,With includeCF as false with creditCard,insurance,DAG INSURANCE,TRUE,,"0,0,0",W,,,200,A_HistoBal_27,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64000,With allFilter,insurance,DAG INSURANCE,FALSE,,"0,0,0",D,,,200,A_HistoBal_28,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64001,Without toDate,insurance,DAG INSURANCE,FALSE,,"0,0,0",M,,,200,A_HistoBal_29,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64002,Without any params,insurance,DAG INSURANCE,FALSE,,"0,0,0",W,,,200,A_HistoBal_30,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64003,withoutAccountId,insurance,DAG INSURANCE,,,"0,0,0",D,,,200,A_HistoBal_31,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64004,Without CF,insurance,DAG INSURANCE,,,"0,0,0",M,,,200,A_HistoBal_32,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64005,WithoutFromDate and toDate,insurance,DAG INSURANCE,,,"0,0,0",W,,,200,A_HistoBal_33,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64006,With Weakly interval,insurance,DAG INSURANCE,TRUE,,"0,0,0",,,,200,A_HistoBal_34,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64007,with monthly interval,insurance,DAG INSURANCE,FALSE,,"0,0,0",,,,200,A_HistoBal_35,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64008,With includeCF as false,insurance,DAG INSURANCE,,,"0,0,0",,,,200,A_HistoBal_36,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64009,With Weakly interval,investment,DAG INVESTMENT,TRUE,,"0,0,0",D,,,200,A_HistoBal_37,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64010,with monthly interval,investment,DAG INVESTMENT,TRUE,,"0,0,0",M,,,200,A_HistoBal_38,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64011,With includeCF as false,investment,DAG INVESTMENT,TRUE,,"0,0,0",W,,,200,A_HistoBal_39,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64012,With allFilter with investment,investment,DAG INVESTMENT,FALSE,,"0,0,0",D,,,200,A_HistoBal_40,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64013,Without toDate with investment,investment,DAG INVESTMENT,FALSE,,"0,0,0",M,,,200,A_HistoBal_41,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64014,Without any params with investment,investment,DAG INVESTMENT,FALSE,,"0,0,0",W,,,200,A_HistoBal_42,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64015,withoutAccountId with investment,investment,DAG INVESTMENT,,,"0,0,0",D,,,200,A_HistoBal_43,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64016,Without CF with investment,investment,DAG INVESTMENT,,,"0,0,0",M,,,200,A_HistoBal_44,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64017,WithoutFromDate and toDate with investment,investment,DAG INVESTMENT,,,"0,0,0",W,,,200,A_HistoBal_45,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64018,With Weakly interval with investment,investment,DAG INVESTMENT,TRUE,,"0,0,0",,,,200,A_HistoBal_46,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64019,with monthly interval with investment,investment,DAG INVESTMENT,FALSE,,"0,0,0",,,,200,A_HistoBal_47,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64020,With includeCF as false with investment,investment,DAG INVESTMENT,,,"0,0,0",,,,200,A_HistoBal_48,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64021,With allFilter with creditCard,creditCard,Super CD Plus,TRUE,,"0,0,0",D,,,200,A_HistoBal_49,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64022,Without toDate with creditCard,creditCard,Super CD Plus,TRUE,,"0,0,0",M,,,200,A_HistoBal_50,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64023,Without any params with creditCard,creditCard,Super CD Plus,TRUE,,"0,0,0",W,,,200,A_HistoBal_51,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64024,withoutAccountId with creditCard,creditCard,Super CD Plus,FALSE,,"0,0,0",D,,,200,A_HistoBal_52,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64025,Without CF with creditCard,creditCard,Super CD Plus,FALSE,,"0,0,0",M,,,200,A_HistoBal_53,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64026,WithoutFromDate and toDate with creditCard,creditCard,Super CD Plus,FALSE,,"0,0,0",W,,,200,A_HistoBal_54,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64027,With Weakly interval with creditCard,creditCard,Super CD Plus,,,"0,0,0",D,,,200,A_HistoBal_55,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64028,with monthly interval with creditCard,creditCard,Super CD Plus,,,"0,0,0",M,,,200,A_HistoBal_56,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64029,With includeCF as false with creditCard,creditCard,Super CD Plus,,,"0,0,0",W,,,200,A_HistoBal_57,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64030,With includeCF as false with creditCard,creditCard,Super CD Plus,TRUE,,"0,0,0",,,,200,A_HistoBal_58,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64031,With includeCF as false with creditCard,creditCard,Super CD Plus,FALSE,,"0,0,0",,,,200,A_HistoBal_59,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-57981,With includeCF as false with creditCard,creditCard,Super CD Plus,,,"0,0,0",,,,200,A_HistoBal_60,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-57980,With includeCF as false with creditCard,creditCard,Super CD Plus,,09-10-2010,"0,0,0",,,,200,A_HistoBal_61,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64032,With includeCF as false with creditCard,creditCard,Super CD Plus,,09-11-2010,09-12-2019,,,,400,A_HistoBal_62,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE
+AT-64033,With includeCF as false with creditCard,creditCard,Super CD Plus,,09-11-2019,09-11-2021,,,,400,A_HistoBal_63,../src/test/resources/TestData/JSONFiles/HistoricalBalance/positive/,,TRUE

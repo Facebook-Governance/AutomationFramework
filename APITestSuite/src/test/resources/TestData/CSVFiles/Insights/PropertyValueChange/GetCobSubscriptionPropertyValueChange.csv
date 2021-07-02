@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-PVC01,"Validate PropertyValueChange , Validate InsightName",,PropertyValueChange,PropertyValueChange,,,,,,,,,,,,200,TRUE
+AT-PVC02,"Validate PropertyValueChange , Validate Supporting container",,PropertyValueChange,,,REALESTATE,,,,,,,,,,200,TRUE
+AT-PVC03,"Validate PropertyValueChange , Validate TriggerType",SCHEDULE,PropertyValueChange,,,,,,,,,,,,,200,TRUE
+AT-PVC04,"Validate PropertyValueChange , Validate applicableEntity",,PropertyValueChange,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-PVC05,"Validate PropertyValueChange , Validate number of levels and levelObject",,PropertyValueChange,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-PVC06,"Validate PropertyValueChange , Validate isSubscribed=false",,PropertyValueChange,,,,,,,,account,FALSE,,,,200,TRUE
+AT-PVC07,"Validate PropertyValueChange , Validate threshold Name,Value and Type",,PropertyValueChange,,,,,,,,account,,,"CHANGE,500,AMOUNT    CHANGE,3,PERCENT",,200,TRUE
+AT-PVC08,"Validate PropertyValueChange , Validate insightKeys for networths info",,PropertyValueChange,,,,"networths,networth.amount,networth.currency,date,_change",,,,,,,,,200,TRUE
+AT-PVC09,"Validate PropertyValueChange , Validate insightKeys for historicalBalances info",,PropertyValueChange,,,,"historicalBalances,balance.amount,balance.currency,asOfDate,accountId,isAsset",,,,,,,,,200,TRUE
+AT-PVC10,"Validate PropertyValueChange , Validate description",,PropertyValueChange,,,,,,Generates an insight when the value of property changes by more than a configured threshold.,,,,,,,200,TRUE
+AT-PVC11,"Validate PropertyValueChange , Validate title",,PropertyValueChange,,Change in Property Value,,,,,,,,,,,200,TRUE
+AT-PVC12,"Validate PropertyValueChange , Validate ruleExpression",,PropertyValueChange,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-PVC13,"Validate PropertyValueChange , Validate frequency=MONTHLY",,PropertyValueChange,,,,,,,,account,,MONTHLY,,,200,TRUE
+AT-PVC14,"Validate PropertyValueChange , Validate total number of keys ",,PropertyValueChange,,,,Account,,,,,,,,,200,TRUE

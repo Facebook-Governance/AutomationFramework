@@ -1,0 +1,14 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-147374,"getCobrandSubscription - Validate BillNotPaid , check if Insight is unSubscribed to OR isSubscribed=false ",,BillNotPaid,BillNotPaid,,,,,,,,FALSE,,,,200,TRUE
+AT-147382,"getCobrandSubscription - Validate BillNotPaid , Validate InsightName",,BillNotPaid,BillNotPaid,,,,,,,,,,,,200,TRUE
+AT-147381,"getCobrandSubscription - Validate BillNotPaid , Validate Supporting container",,BillNotPaid,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-147378,"getCobrandSubscription - Validate BillNotPaid , Validate TriggerType",SCHEDULE,BillNotPaid,,,,,,,,,,,,,200,TRUE
+AT-147373,"getCobrandSubscription - Validate BillNotPaid , Validate applicableEntity",,BillNotPaid,,,,,,,ACCOUNT  VIEW,,,,,,200,TRUE
+AT-147376,"getCobrandSubscription - Validate BillNotPaid , Validate number of levels and levelObject",,BillNotPaid,,,,,,,ACOCUNT  VIEW,account view,,,,,200,TRUE
+AT-147377,"getCobrandSubscription - Validate BillNotPaid , Validate isSubscribed=false",,BillNotPaid,,,,,,,,,FALSE,,,,200,TRUE
+AT-147372,"getCobrandSubscription - Validate BillNotPaid , Validate threshold Name,default Value 3 and Type",,BillNotPaid,,,,,,,ACOCUNT  VIEW,"account,view",,,"DELAY,3,DAYS  DELAY,3,DAYS",,200,TRUE
+AT-147379,"getCobrandSubscription - Validate BillNotPaid , Validate insightKeys",,BillNotPaid,,,,Account,,,,,,,,,200,TRUE
+AT-147383,"getCobrandSubscription - Validate BillNotPaid , Validate description",,BillNotPaid,,,,,,Generates an insight if a recurring bill has not been paid for more than a configured number of days.,,,,,,,200,TRUE
+AT-147380,"getCobrandSubscription - Validate BillNotPaid , Validate title",,BillNotPaid,,Bill Not Paid,,,,,,,,,,,200,TRUE
+AT-147375,"getCobrandSubscription - Validate BillNotPaid , Validate total number of keys",,BillNotPaid,,,,,16,,,,,,,,200,TRUE
+AT-147371,"getCobrandSubscription - Validate BillNotPaid , Validate insightKeys",,BillNotPaid,,,,View,,,,,,,,,200,TRUE

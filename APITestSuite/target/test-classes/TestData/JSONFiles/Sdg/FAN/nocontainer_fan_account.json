@@ -1,0 +1,460 @@
+{
+    "account": [
+        {
+            "includeInNetWorth": true,
+            "accountName": "TestInvestment2_All_403",
+            "accountType": "401K",
+            "isManual": false,
+            "accountNumber": "xxxxxxxx",
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+            "fullAccountNumber": "3456789102",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 10000,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "5",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "investment",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Wells Fargo"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "TestInvestment1_All_Success",
+            "accountType": "401K",
+            "isManual": false,
+            "accountNumber": "xxxxxxxx",
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+            "fullAccountNumber": "3456789101",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 10000,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "5",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "investment",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Wells Fargo"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "NOTAXDOCS",
+            "accountType": "AUTO_LOAN",
+            "isManual": false,
+            "accountNumber": "xxxxxxxx",
+            "interestRateType": "UNKNOWN",
+            "frequency": "UNKNOWN",
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+            "fullAccountNumber": "4567891233",
+            "isAsset": false,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 20000,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "5",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "loan",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Wells Fargo"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "Loan Account Two",
+            "accountType": "AUTO_LOAN",
+            "isManual": false,
+            "accountNumber": "xxxxxxxx",
+            "interestRateType": "UNKNOWN",
+            "frequency": "UNKNOWN",
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+            "fullAccountNumber": "4567891232",
+            "isAsset": false,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 20000,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "5",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "loan",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Wells Fargo"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "Loan Account One",
+            "accountType": "AUTO_LOAN",
+            "isManual": false,
+            "accountNumber": "xxxxxxxx",
+            "interestRateType": "UNKNOWN",
+            "frequency": "UNKNOWN",
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+            "fullAccountNumber": "4567891231",
+            "isAsset": false,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 10000,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "5",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "loan",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Wells Fargo"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "TestCard3_All_570",
+            "accountType": "CREDIT",
+            "isManual": false,
+            "accountNumber": "xxxxxxxx",
+            "accountStatus": "ACTIVE",
+            "lastUpdated":  "${json-unit.ignore}",
+            "fullAccountNumber": "2345678912",
+            "isAsset": false,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 30000,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "5",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "creditCard",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated":  "${json-unit.ignore}",
+                    "additionalStatus": "PARTIAL_DATA_RETRIEVED",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Wells Fargo"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "TestCard2_ALl_403",
+            "accountType": "CREDIT",
+            "isManual": false,
+            "accountNumber": "xxxxxxxx",
+            "accountStatus": "ACTIVE",
+            "lastUpdated":  "${json-unit.ignore}",
+            "fullAccountNumber": "2345678911",
+            "isAsset": false,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 20000,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "5",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "creditCard",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated":  "${json-unit.ignore}",
+                    "additionalStatus": "PARTIAL_DATA_RETRIEVED",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Wells Fargo"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "TestCard1_All_Success",
+            "accountType": "CREDIT",
+            "isManual": false,
+            "accountNumber": "xxxxxxxx",
+            "accountStatus": "ACTIVE",
+            "lastUpdated":  "${json-unit.ignore}",
+            "fullAccountNumber": "2345678910",
+            "isAsset": false,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 10000,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "5",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "creditCard",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Wells Fargo"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "NOTAXDOCS",
+            "currentBalance": {
+                "amount": 20000,
+                "currency": "USD"
+            },
+            "accountType": "SAVINGS",
+            "isManual": false,
+            "accountNumber": "xxxxxxxx",
+            "availableBalance": {
+                "amount": 20000,
+                "currency": "USD"
+            },
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+            "fullAccountNumber": "1234567892",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 20000,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "5",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Wells Fargo"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "TestBank2_All_403",
+            "currentBalance": {
+                "amount": 20000,
+                "currency": "USD"
+            },
+            "accountType": "SAVINGS",
+            "isManual": false,
+            "accountNumber": "xxxxxxxx",
+            "availableBalance": {
+                "amount": 20000,
+                "currency": "USD"
+            },
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+            "fullAccountNumber": "1234567891",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 20000,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "5",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Wells Fargo"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "YodleeBank_All_Success",
+            "currentBalance": {
+                "amount": 10000,
+                "currency": "USD"
+            },
+            "accountType": "SAVINGS",
+            "isManual": false,
+            "accountNumber": "xxxxxxxx",
+            "availableBalance": {
+                "amount": 10000,
+                "currency": "USD"
+            },
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+            "fullAccountNumber": "1234567890",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 10000,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "5",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "${json-unit.ignore}",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Wells Fargo"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [TestAll]" parallel="methods">
+  <parameter name="environment" value="NonDocker"/>
+  <parameter name="hybrid" value="false"/>
+  <parameter name="release_name" value="Version2"/>
+  <parameter name="isFirstRun" value="false"/>
+  <parameter name="isStaticComparable" value="false"/>
+  <parameter name="isDiffyEnabled" value="false"/>
+  <parameter name="getApiVersion" value="2"/>
+  <parameter name="isUserStatic" value="false"/>
+  <parameter name="config_file" value="Config_NonDocker_Insights_V2.properties"/>
+  <parameter name="updateApiVersion" value="2"/>
+  <parameter name="healthCheckUp" value="false"/>
+  <parameter name="suiteName" value="Insights SCHEDULE Feeds Suite - Ravi"/>
+  <listeners>
+    <listener class-name="com.yodlee.yodleeApi.listener.CustomListener"/>
+    <listener class-name="com.omni.pfm.listeners.ReportGenerator"/>
+    <listener class-name="com.yodlee.yodleeApi.listener.YodleeApiListener"/>
+  </listeners>
+  <test name="GET Feeds - High Bills And Subscriptions(failed)" parallel="methods">
+    <classes>
+      <class name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost">
+        <methods>
+          <include name="initializations"/>
+          <include name="shutDownHook"/>
+          <include name="testGetNotificationsForHighBillsAndSubscriptionsCostInsight" invocation-numbers="8"/>
+          <include name="setUpTest"/>
+          <include name="setUp"/>
+          <include name="yccInit"/>
+          <include name="unRegisteredUser"/>
+        </methods>
+      </class> <!-- com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForHighBillsAndSubscriptionsCost -->
+    </classes>
+  </test> <!-- GET Feeds - High Bills And Subscriptions(failed) -->
+</suite> <!-- Failed suite [TestAll] -->

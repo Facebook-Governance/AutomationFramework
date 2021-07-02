@@ -1,0 +1,66 @@
+{
+  "account": [
+    {
+      "CONTAINER": "insurance",
+      "accountName": "DAG INSURANCE",
+      "accountStatus": "ACTIVE",
+      "aggregationSource": "USER",
+      "accountNumber": "xxxx5556",
+      "premium": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "remainingBalance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyEffectiveDate": "2013-01-17",
+      "policyFromDate": "2013-01-17",
+      "policyToDate": "2013-01-17",
+      "policyTerm": "P1Y2M3DT10H30M",
+      "isAsset": false,
+      "balance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "includeInNetWorth": false,
+      "providerId": "16441",
+      "providerName": "Dag Site",
+      "isManual": false,
+      "accountType": "INSURANCE",
+      "amountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "dueDate": "2013-01-07",
+      "lastPaymentDate": "2013-01-05",
+      "lastPaymentAmount": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "minimumAmountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "expirationDate": "2014-01-17",
+      "cashValue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyStatus": "ACTIVE",
+      "faceAmount": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "displayedName": "DAG",
+      "userClassification": "PERSONAL",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "DISALLOW_UPDATE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+testCaseId,TestCase,categoryNameKey,categoryNameValue,parentCategoryIdKey,parentCategoryIdValue,ResFile,FilePath,status,enabled
+AT-67078,Null categoryName,categoryName,,parentCategoryId,2,categoryNameRequired.json,../src/test/resources/TestData/Transactions/SubCategories/,400,FALSE
+AT-67079,Null categoryNamekey ,,My Sub Category,parentCategoryId,2,invalidCategoryParam.json,../src/test/resources/TestData/Transactions/SubCategories/,400,TRUE
+AT-67080,Null parentCategoryIdkey ,categoryName,My Sub Category,,2,invalidCategoryParam.json,../src/test/resources/TestData/Transactions/SubCategories/,400,TRUE
+AT-67081,Invalid categoryNamekey,categoryNames,My Sub Category,parentCategoryId,2,invalidCategoryParam.json,../src/test/resources/TestData/Transactions/SubCategories/,400,TRUE
+AT-67082,Invalid parentCategoryIdkey,categoryName,My Sub Category,parentCategoryIds,2,invalidCategoryParam.json,../src/test/resources/TestData/Transactions/SubCategories/,400,TRUE
+AT-67083,Create with MLC name,categoryName,Automotive Expenses,parentCategoryId,2,categoryNameExists.json,../src/test/resources/TestData/Transactions/SubCategories/,400,FALSE
+AT-67084,Create with HLC name,categoryName,Personal/Family Expenses,parentCategoryId,3,categoryNameExists.json,../src/test/resources/TestData/Transactions/SubCategories/,400,FALSE
+AT-67085,With MLC name for diff. MLC,categoryName,Automotive Expenses,parentCategoryId,3,categoryNameExists.json,../src/test/resources/TestData/Transactions/SubCategories/,400,FALSE
+AT-67086,Same sub-category name for same MLC,categoryName,Automotive Expenses,parentCategoryId,2,categoryNameExists.json,../src/test/resources/TestData/Transactions/SubCategories/,400,FALSE
+AT-67087,Create 2nd Sub-category,categoryName,Charitable Giving,parentCategoryId,2,categoryNameExists.json,../src/test/resources/TestData/Transactions/SubCategories/,400,FALSE
+AT-67088,Same sub-category name for diff MLC,categoryName,Charitable Giving,parentCategoryId,3,categoryNameExists.json,../src/test/resources/TestData/Transactions/SubCategories/,400,FALSE
+AT-67089,Create with 51 characters,categoryName,abcdefghij1234567890abcdefghij1234567890abcdefghij1,parentCategoryId,3,invalidLength.json,../src/test/resources/TestData/Transactions/SubCategories/,400,FALSE
+AT-67090,Opposite alphabet case of MLC,categoryName,aUTOMOTIVE eXPENSES,parentCategoryId,3,categoryNameExists.json,../src/test/resources/TestData/Transactions/SubCategories/,400,FALSE
+AT-67091,Opposite alphabet case of HLC,categoryName,uTILITIES,parentCategoryId,3,categoryNameExists.json,../src/test/resources/TestData/Transactions/SubCategories/,400,FALSE
+AT-67092,"Create for ""Uncategorised"" category",categoryName,Sub-uncategorised,parentCategoryId,1,Uncategorized.json,../src/test/resources/TestData/Transactions/SubCategories/,400,FALSE

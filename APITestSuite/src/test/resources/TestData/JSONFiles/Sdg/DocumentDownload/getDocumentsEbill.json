@@ -1,0 +1,22 @@
+{
+  "document": [
+    {
+      "docType": "EBILL",
+      "id": "${json-unit.ignore}",
+      "accountID": "${json-unit.ignore}",
+      "name": "BL12341.pdf",
+      "source": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "status": "DOC_DOWNLOADED"
+    },
+    {
+      "docType": "EBILL",
+      "id": "${json-unit.ignore}",
+      "accountID": "${json-unit.ignore}",
+      "name": "BK12341.pdf",
+      "source": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "status": "DOC_DOWNLOADED"
+    }
+  ]
+}

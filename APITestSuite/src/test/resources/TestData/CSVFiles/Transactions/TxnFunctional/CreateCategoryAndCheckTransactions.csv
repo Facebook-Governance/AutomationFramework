@@ -1,0 +1,2 @@
+TestCaseId,Title,categoryNameKey,categoryNameValue,parentCategoryIdKey,parentCategoryIdValue,status,container,fromDate,TransResFile,TransFilePath,defectID,enabled
+1,CreateCategory and Check Transactions,categoryName,Deposits SubCategory,parentCategoryId,27,201,bank,1/1/1900,systemDefinedCategorization-Bank.json,../src/test/resources/TestData/Transactions/TxnFunctional/,0,TRUE

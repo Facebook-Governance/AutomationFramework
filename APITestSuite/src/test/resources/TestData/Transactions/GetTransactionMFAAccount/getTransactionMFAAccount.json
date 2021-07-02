@@ -1,0 +1,208 @@
+{
+  "transaction": [{
+    "date": "2013-07-16",
+    "amount": {
+      "amount": 343465,
+      "currency": "USD"
+    },
+    "checkNumber": "DAG-333",
+    "isManual": false,
+    "highLevelCategoryId": 10000017,
+    "description": {
+      "original": "DESC",
+      "simple": "DESC"
+    },
+    "transactionDate": "2013-07-16",
+    "baseType": "CREDIT",
+    "categoryType": "UNCATEGORIZE",
+    "categorySource": "SYSTEM",
+    "lastUpdated": "${json-unit.ignore}",
+    "accountId": "${json-unit.ignore}",
+    "createdDate": "${json-unit.ignore}",
+    "CONTAINER": "bank",
+    "postDate": "2013-07-16",
+    "id": "${json-unit.ignore}",
+    "category": "Uncategorized",
+    "runningBalance": {
+      "amount": 59,
+      "currency": "USD"
+    },
+    "categoryId": 1,
+    "status": "POSTED"
+  }, {
+    "date": "2013-01-21",
+    "amount": {
+      "amount": 450.25,
+      "currency": "USD"
+    },
+    "isManual": false,
+    "highLevelCategoryId": 10000017,
+    "description": {
+      "original": "TransDesc",
+      "simple": "TransDesc"
+    },
+    "transactionDate": "2013-01-22",
+    "baseType": "DEBIT",
+    "categoryType": "UNCATEGORIZE",
+    "categorySource": "SYSTEM",
+    "lastUpdated": "${json-unit.ignore}",
+    "accountId": "${json-unit.ignore}",
+    "createdDate": "${json-unit.ignore}",
+    "CONTAINER": "creditCard",
+    "postDate": "2013-01-21",
+    "id": "${json-unit.ignore}",
+    "category": "Uncategorized",
+    "categoryId": 1,
+    "status": "POSTED"
+  }, {
+    "date": "2013-01-16",
+    "amount": {
+      "amount": 3465,
+      "currency": "USD"
+    },
+    "checkNumber": "DAG-133",
+    "isManual": false,
+    "highLevelCategoryId": 10000017,
+    "description": {
+      "original": "DESC",
+      "simple": "DESC"
+    },
+    "transactionDate": "2013-01-16",
+    "baseType": "CREDIT",
+    "categoryType": "UNCATEGORIZE",
+    "categorySource": "SYSTEM",
+    "lastUpdated": "${json-unit.ignore}",
+    "accountId": "${json-unit.ignore}",
+    "createdDate": "${json-unit.ignore}",
+    "CONTAINER": "bank",
+    "postDate": "2013-01-16",
+    "id": "${json-unit.ignore}",
+    "category": "Uncategorized",
+    "runningBalance": {
+      "amount": 59,
+      "currency": "USD"
+    },
+    "categoryId": 1,
+    "status": "POSTED"
+  }, {
+    "date": "2013-01-16",
+    "amount": {
+      "amount": 59,
+      "currency": "USD"
+    },
+    "checkNumber": "998",
+    "isManual": false,
+    "highLevelCategoryId": 10000009,
+    "description": {
+      "original": "CHECK # 998",
+      "simple": "CHECK # 998"
+    },
+    "transactionDate": "2013-07-16",
+    "baseType": "DEBIT",
+    "categoryType": "EXPENSE",
+    "categorySource": "SYSTEM",
+    "lastUpdated": "${json-unit.ignore}",
+    "accountId": "${json-unit.ignore}",
+    "createdDate": "${json-unit.ignore}",
+    "CONTAINER": "bank",
+    "postDate": "2013-01-16",
+    "id": "${json-unit.ignore}",
+    "category": "Check Payment",
+    "runningBalance": {
+      "amount": 59,
+      "currency": "USD"
+    },
+    "categoryId": 33,
+    "status": "POSTED"
+  }, {
+    "date": "2013-01-14",
+    "amount": {
+      "amount": 3103,
+      "currency": "USD"
+    },
+    "checkNumber": "DAG-333",
+    "isManual": false,
+    "highLevelCategoryId": 10000017,
+    "description": {
+      "original": "DESC",
+      "simple": "DESC"
+    },
+    "transactionDate": "2013-01-12",
+    "baseType": "DEBIT",
+    "categoryType": "UNCATEGORIZE",
+    "categorySource": "SYSTEM",
+    "lastUpdated": "${json-unit.ignore}",
+    "accountId": "${json-unit.ignore}",
+    "createdDate": "${json-unit.ignore}",
+    "CONTAINER": "bank",
+    "postDate": "2013-01-14",
+    "id": "${json-unit.ignore}",
+    "category": "Uncategorized",
+    "runningBalance": {
+      "amount": 59,
+      "currency": "USD"
+    },
+    "categoryId": 1,
+    "status": "POSTED"
+  }, {
+    "date": "2013-01-10",
+    "amount": {
+      "amount": 5646,
+      "currency": "USD"
+    },
+    "checkNumber": "DAG-233",
+    "isManual": false,
+    "highLevelCategoryId": 10000017,
+    "description": {
+      "original": "DESC",
+      "simple": "DESC"
+    },
+    "transactionDate": "2013-01-11",
+    "baseType": "CREDIT",
+    "categoryType": "UNCATEGORIZE",
+    "categorySource": "SYSTEM",
+    "lastUpdated": "${json-unit.ignore}",
+    "accountId": "${json-unit.ignore}",
+    "createdDate": "${json-unit.ignore}",
+    "CONTAINER": "bank",
+    "postDate": "2013-01-10",
+    "id": "${json-unit.ignore}",
+    "category": "Uncategorized",
+    "runningBalance": {
+      "amount": 59,
+      "currency": "USD"
+    },
+    "categoryId": 1,
+    "status": "POSTED"
+  }, {
+    "date": "2013-01-02",
+    "amount": {
+      "amount": 9846,
+      "currency": "USD"
+    },
+    "checkNumber": "DAG-333",
+    "isManual": false,
+    "highLevelCategoryId": 10000017,
+    "description": {
+      "original": "DESC",
+      "simple": "DESC"
+    },
+    "transactionDate": "2013-01-16",
+    "baseType": "CREDIT",
+    "categoryType": "UNCATEGORIZE",
+    "categorySource": "SYSTEM",
+    "lastUpdated": "${json-unit.ignore}",
+    "accountId": "${json-unit.ignore}",
+    "createdDate": "${json-unit.ignore}",
+    "CONTAINER": "bank",
+    "postDate": "2013-01-02",
+    "id": "${json-unit.ignore}",
+    "category": "Uncategorized",
+    "runningBalance": {
+      "amount": 59,
+      "currency": "USD"
+    },
+    "categoryId": 1,
+    "status": "POSTED"
+  }]
+}

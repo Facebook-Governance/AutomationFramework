@@ -1,0 +1,90 @@
+{
+  "account": [
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "accountHolder"
+          }
+        }
+      ],
+      "accountName": "TESTDATA1",
+      "isManual": false,
+      "currentBalance": {
+        "amount": 9044.78,
+        "currency": "USD"
+      },
+      "accountType": "SAVINGS",
+      "accountNumber": "xxxxxxxx",
+      "availableBalance": {
+        "amount": 65454.78,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "${json-unit.ignore}",
+        "nextRefreshScheduled": "${json-unit.ignore}",
+        "lastRefreshAttempt": "${json-unit.ignore}",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "accountStatus": "ACTIVE",
+      "lastUpdated": "${json-unit.ignore}",
+      "isAsset": true,
+      "createdDate": "${json-unit.ignore}",
+      "balance": {
+        "amount": 9044.78,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "id": "${json-unit.ignore}",
+      "providerName": "Dag Site"
+    },
+    {
+      "includeInNetWorth": true,
+      "holderProfile": [
+        {
+          "name": {
+            "displayed": "accountHolder"
+          }
+        }
+      ],
+      "accountName": "TESTDATA",
+      "isManual": false,
+      "currentBalance": {
+        "amount": 44.78,
+        "currency": "USD"
+      },
+      "accountType": "CHECKING",
+      "accountNumber": "xxxxxxxx",
+      "availableBalance": {
+        "amount": 54.78,
+        "currency": "USD"
+      },
+      "refreshinfo": {
+        "lastRefreshed": "${json-unit.ignore}",
+        "nextRefreshScheduled": "${json-unit.ignore}",
+        "lastRefreshAttempt": "${json-unit.ignore}",
+        "statusMessage": "OK",
+        "statusCode": 0
+      },
+      "accountStatus": "ACTIVE",
+      "lastUpdated": "${json-unit.ignore}",
+      "isAsset": true,
+      "createdDate": "${json-unit.ignore}",
+      "balance": {
+        "amount": 44.78,
+        "currency": "USD"
+      },
+      "aggregationSource": "USER",
+      "providerId": "16441",
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "id": "${json-unit.ignore}",
+      "providerName": "Dag Site"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+tcId,tcName,accountIds,incude,fromDate,toDate,interval,accountReconType,skip,top,resFile,defectId,enabled
+AT-58285,with one acc id,ONE,,,,,,,,withOneAccId.json,0,TRUE
+Networth_Summary_2,with two acc id,TWO,,,,,,,,withTwoAccId.json,0,TRUE
+Networth_Summary_3,with three acc id,THREE,,,,,,,,withThreeAccId.json,0,TRUE
+Networth_Summary_4,with all acc id,ALL,,,,,,,,withAllAccId.json,0,TRUE
+AT-58286,with details,,details,,,,,,,withWithDetails.json,0,TRUE
+AT-58289,with interval D,,,,,D,,,,withIntervalD.json,0,TRUE
+Networth_Summary_7,with Interval W,,,,,W,,,,withIntervalW.json,0,TRUE
+Networth_Summary_8,with interval M,,,,,M,,,,withIntervalM.json,0,TRUE
+AT-58291,with skip=1,,,,,,,1,,withWithSkip1.json,0,TRUE
+Networth_Summary_10,with skip=10,,,,,,,10,,withWithSkip10.json,0,TRUE
+Networth_Summary_11,with skip=50,,,,,,,50,,withWithSkip50.json,0,TRUE
+AT-58292,with top =1,,,,,,,,1,withWithTop1.json,0,TRUE
+Networth_Summary_13,with top=5,,,,,,,,5,withWithTop5.json,0,TRUE

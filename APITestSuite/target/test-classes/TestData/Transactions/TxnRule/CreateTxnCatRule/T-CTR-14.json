@@ -1,0 +1,25 @@
+{
+  "ruleClauses": [
+    {
+      "field": "description",
+      "userDefinedRuleId": "${json-unit.ignore}",
+      "operation": "stringEquals",
+      "fieldValue": "trans",
+      "ruleClauseId": "${json-unit.ignore}"
+    }
+  ],
+  "ruleClauseArray": [
+    {
+      "field": "description",
+      "userDefinedRuleId": "${json-unit.ignore}",
+      "operation": "stringEquals",
+      "fieldValue": "trans",
+      "ruleClauseId": "${json-unit.ignore}"
+    }
+  ],
+  "userDefinedRuleId": "${json-unit.ignore}",
+  "categoryLevelId": 3,
+  "transactionCategorisationId": 7,
+  "memId": "${json-unit.ignore}",
+  "rulePriority": "${json-unit.ignore}"
+}

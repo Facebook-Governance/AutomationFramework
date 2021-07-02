@@ -1,0 +1,30 @@
+{
+    "providerAccount": [
+        {
+            "id": "${json-unit.ignore}",
+            "aggregationSource": "USER",
+            "providerId": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "isManual": false,
+            "createdDate": "${json-unit.ignore}",
+            "status": "REFRESH_COMPLETED",
+            "requestId": "${json-unit.ignore}",
+            "dataSet": [
+                {
+                    "name": "BASIC_AGG_DATA",
+                    "additionalStatus": "DATA_RETRIEVAL_PARTIALLY",
+                    "suggestedAction": "${json-unit.ignore}",
+                    "lastRefreshed": "${json-unit.ignore}",
+                    "lastRefreshAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "name": "DOCUMENT",
+                    "additionalStatus": "DATA_RETRIEVAL_SUCCESS",
+                    "suggestedAction": "ALLOW_REFRESH",
+                    "lastRefreshed": "${json-unit.ignore}",
+                    "lastRefreshAttempt": "${json-unit.ignore}"
+                }
+            ]
+        }
+    ]
+}

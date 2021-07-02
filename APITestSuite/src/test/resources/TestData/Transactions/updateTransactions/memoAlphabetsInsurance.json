@@ -1,0 +1,30 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 2500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000015,
+      "description": {
+        "original": "trans desc",
+        "consumer": "abdcf"
+      },
+      "memo": "123abcd",
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "CREDIT",
+      "categoryType": "TRANSFER",
+      "categorySource": "SYSTEM",
+      "postingOrder": 5,
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "insurance",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Securities Trades",
+      "categoryId": 36,
+      "status": "POSTED"
+    }
+  ]
+}

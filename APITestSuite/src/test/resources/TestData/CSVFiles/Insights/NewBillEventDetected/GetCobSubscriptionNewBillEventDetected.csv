@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-147479," GET Cobrand Subscription NewBill, validate InsightName",,NewBill,NewBill,,,,,,,,,,,,200,TRUE
+AT-147486," GET Cobrand Subscription NewBill, validate container",,NewBill,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-147485," GET Cobrand Subscription NewBill, validate triggerType",EVENT,NewBill,,,,,,,,,,,,,200,TRUE
+AT-147481," GET Cobrand Subscription NewBill, validate applicableEntity",,NewBill,,,,,,,"ACCOUNT,VIEW",,,,,,200,TRUE
+AT-147482," GET Cobrand Subscription NewBill, validate number of levels and levelObject",,NewBill,,,,,,,"ACCOUNT,VIEW","account,view",,,,,200,TRUE
+AT-147477," GET Cobrand Subscription NewBill, validate isSubscribed=false by default",,NewBill,,,,,,,,"account,view",,,,,200,TRUE
+AT-147483," GET Cobrand Subscription NewBill, validate insightKeys",,NewBill,,,,Account,,,,,,,,,200,TRUE
+AT-147487," GET Cobrand Subscription NewBill, validate description",,NewBill,,,,,,Generates an insight when a new recurring bill is detected.,,,,,,,200,TRUE
+AT-147484," GET Cobrand Subscription NewBill, validate title",,NewBill,,New Bill,,,,,,,,,,,200,TRUE
+AT-147478," GET Cobrand Subscription NewBill, validate total number of keys",,NewBill,,,,,18,,,,,,,,200,TRUE
+AT-147480," GET Cobrand Subscription NewBill, validate insightKeys",,NewBill,,,,View,,,,,,,,,200,TRUE

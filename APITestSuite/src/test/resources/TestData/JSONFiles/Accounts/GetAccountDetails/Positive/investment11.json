@@ -1,0 +1,52 @@
+{
+	"account": [
+		{
+			"includeInNetWorth": true,
+			"totalUnvestedBalance": {
+				"amount": 23242,
+				"currency": "USD"
+			},
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "brokerageMargin",
+			"isManual": false,
+			"accountType": "OTHER",
+			"totalVestedBalance": {
+				"amount": 2432,
+				"currency": "USD"
+			},
+			"accountNumber": "989898139",
+			"accountStatus": "ACTIVE",
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"isAsset": true,
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			"CONTAINER": "investment",
+			"availableLoan": {
+				"amount": 55000,
+				"currency": "USD"
+			},
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		}
+	]
+}

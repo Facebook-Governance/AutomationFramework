@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-167386,"getUserSubscription - Validate ZeroCardInterestPaid , Validate InsightName",,ZeroCardInterestPaid,ZeroCardInterestPaid,,,,,,,,,,,,,200,TRUE
+AT-167387,"getUserSubscription - Validate ZeroCardInterestPaid , Validate Supporting container",,ZeroCardInterestPaid,,,CARD,,,,,,,,,,,200,TRUE
+AT-167388,"getUserSubscription - Validate ZeroCardInterestPaid , Validate TriggerType",SCHEDULE,ZeroCardInterestPaid,,,,,,,,,,,,,,200,TRUE
+AT-167389,"getUserSubscription - Validate ZeroCardInterestPaid , Validate applicableEntity",,ZeroCardInterestPaid,,,,,,,ACCOUNT,account,,,,,,200,TRUE
+AT-167390,"getUserSubscription - Validate ZeroCardInterestPaid , Validate number of levels and levelObject",,ZeroCardInterestPaid,,,,,,,ACCOUNT,account,,,,,,200,TRUE
+AT-167391,"getUserSubscription - Validate ZeroCardInterestPaid , Validate isSubscribed=false",,ZeroCardInterestPaid,,,,,,,,,FALSE,,,,,200,TRUE
+AT-167392,"getUserSubscription - Validate ZeroCardInterestPaid , Validate insightKeys",,ZeroCardInterestPaid,,,,Account,,,,,,,,,,200,TRUE
+AT-167393,"getUserSubscription - Validate ZeroCardInterestPaid , Validate description",,ZeroCardInterestPaid,,,,,,Congratulate the user for not paying any interest across all the user's card accounts for the last month.,,,,,,,,200,TRUE
+AT-167394,"getUserSubscription - Validate ZeroCardInterestPaid , Validate title",,ZeroCardInterestPaid,,Zero Card Interest Paid,,,,,,,,,,,,200,TRUE
+AT-167395,"getUserSubscription - Validate ZeroCardInterestPaid , Validate ruleExpression",,ZeroCardInterestPaid,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-167396,"getUserSubscription - Validate ZeroCardInterestPaid , Validate total number of keys",,ZeroCardInterestPaid,,,,,5,,,,,,,,,200,TRUE
+AT-167397,"getUserSubscription - Validate ZeroCardInterestPaid , Validate frequency ",,ZeroCardInterestPaid,,,,,,,,,,MONTHLY,,,,200,TRUE

@@ -1,0 +1,205 @@
+{
+    "transaction": [
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "recurringEventId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "status": "SCHEDULED",
+            "date": "${json-unit.ignore}",
+            "transactionDate": "${json-unit.ignore}",
+            "description": {
+                "consumer": "Cox Communications",
+                "simple": "cox*comm san diego XXX-XXX-XXXX ca"
+            },
+            "isManual": false,
+            "sourceType": "SYSTEM_PREDICTED",
+            "reconStatus": "SYS_UNRECONCILED",
+            "merchant": {
+                "id": "${json-unit.ignore}",
+                "name": "Cox Communications"
+            },
+            "highLevelCategoryId": 10000004
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "recurringEventId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 5000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "status": "SCHEDULED",
+            "date": "${json-unit.ignore}",
+            "transactionDate": "${json-unit.ignore}",
+            "description": {
+                "consumer": "Safeco Insurance",
+                "simple": "Safeco Insurance"
+            },
+            "isManual": false,
+            "sourceType": "SYSTEM_PREDICTED",
+            "reconStatus": "SYS_UNRECONCILED",
+            "merchant": {
+                "id": "${json-unit.ignore}",
+                "name": "Safeco Insurance"
+            },
+            "highLevelCategoryId": 10000020
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "recurringEventId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "status": "SCHEDULED",
+            "date": "${json-unit.ignore}",
+            "transactionDate": "${json-unit.ignore}",
+            "description": {
+                "consumer": "Cox Communications",
+                "simple": "cox*comm san diego XXX-XXX-XXXX ca"
+            },
+            "isManual": false,
+            "sourceType": "SYSTEM_PREDICTED",
+            "reconStatus": "SYS_UNRECONCILED",
+            "merchant": {
+                "id": "${json-unit.ignore}",
+                "name": "Cox Communications"
+            },
+            "highLevelCategoryId": 10000004
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "recurringEventId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "status": "SCHEDULED",
+            "date": "${json-unit.ignore}",
+            "transactionDate": "${json-unit.ignore}",
+            "description": {
+                "consumer": "Cox Communications",
+                "simple": "cox*comm san diego XXX-XXX-XXXX ca"
+            },
+            "isManual": false,
+            "sourceType": "SYSTEM_PREDICTED",
+            "reconStatus": "SYS_UNRECONCILED",
+            "merchant": {
+                "id": "${json-unit.ignore}",
+                "name": "Cox Communications"
+            },
+            "highLevelCategoryId": 10000004
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "recurringEventId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "status": "SCHEDULED",
+            "date": "${json-unit.ignore}",
+            "transactionDate": "${json-unit.ignore}",
+            "description": {
+                "consumer": "Cox Communications",
+                "simple": "cox*comm san diego XXX-XXX-XXXX ca"
+            },
+            "isManual": false,
+            "sourceType": "SYSTEM_PREDICTED",
+            "reconStatus": "SYS_UNRECONCILED",
+            "merchant": {
+                "id": "${json-unit.ignore}",
+                "name": "Cox Communications"
+            },
+            "highLevelCategoryId": 10000004
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "recurringEventId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "status": "SCHEDULED",
+            "date": "${json-unit.ignore}",
+            "transactionDate": "${json-unit.ignore}",
+            "description": {
+                "consumer": "Cox Communications",
+                "simple": "cox*comm san diego XXX-XXX-XXXX ca"
+            },
+            "isManual": false,
+            "sourceType": "SYSTEM_PREDICTED",
+            "reconStatus": "SYS_UNRECONCILED",
+            "merchant": {
+                "id": "${json-unit.ignore}",
+                "name": "Cox Communications"
+            },
+            "highLevelCategoryId": 10000004
+        },
+        {
+            "CONTAINER": "creditCard",
+            "id": "${json-unit.ignore}",
+            "amount": {
+                "amount": 5000,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "category": "${json-unit.ignore}",
+            "categoryId": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "description": {
+                "original": "Safeco Insurance",
+                "simple": "Safeco Insurance"
+            },
+            "isManual": false,
+            "date": "${json-unit.ignore}",
+            "transactionDate": "${json-unit.ignore}",
+            "postDate": "${json-unit.ignore}",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}",
+            "merchant": {
+                "name": "Safeco Insurance"
+            },
+            "highLevelCategoryId": 10000020
+        }
+    ]
+}

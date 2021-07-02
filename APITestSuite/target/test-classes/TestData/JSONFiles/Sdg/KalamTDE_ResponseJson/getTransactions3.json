@@ -1,0 +1,108 @@
+{
+    "transaction": [
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "amount": {
+                "amount": 1308.75,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 2,
+            "category": "${json-unit.ignore}",
+            "detailCategoryId": 1145,
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000003,
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "WHITES AUTOMOTIVE IRV FALMOUTH MA",
+                "simple": "${json-unit.ignore}"
+            },
+            "type": "PURCHASE",
+            "subType": "PURCHASE",
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "date": {
+                "date": "${json-unit.ignore}"
+            },
+            "transactionDate": "${json-unit.ignore}",
+            "postDate": "${json-unit.ignore}",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}"
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "amount": {
+                "amount": 1344.75,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 14,
+            "category": "Insurance",
+            "detailCategoryId": 1154,
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000020,
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "Insurance Insurance Insurance",
+                "simple": "${json-unit.ignore}"
+            },
+            "type": "PAYMENT",
+            "subType": "INSURANCE_PAYMENT",
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "date": {
+                "date": "${json-unit.ignore}"
+            },
+            "transactionDate": "${json-unit.ignore}",
+            "postDate": "${json-unit.ignore}",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}"
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "amount": {
+                "amount": 1344.75,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 14,
+            "category": "Insurance",
+            "detailCategoryId": 1154,
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": 10000020,
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "Insurance",
+                "simple": "${json-unit.ignore}"
+            },
+            "type": "PAYMENT",
+            "subType": "INSURANCE_PAYMENT",
+            "isManual": false,
+            "sourceType": "AGGREGATED",
+            "date": {
+                "date": "${json-unit.ignore}"
+            },
+            "transactionDate": "${json-unit.ignore}",
+            "postDate": "${json-unit.ignore}",
+            "status": "POSTED",
+            "accountId": "${json-unit.ignore}",
+            "merchant": {
+                "id": "${json-unit.ignore}",
+                "name": "Insurance",
+                "source": "YODLEE",
+                "categoryLabel": [
+                    "Insurance"
+                ]
+            }
+        }
+    ]
+}

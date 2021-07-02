@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-147374,"getCobrandSubscription - Validate ProjectedInsufficientBalance , check if Insight is unSubscribed to OR isSubscribed=false ",,ProjectedInsufficientBalance,ProjectedInsufficientBalance,,,,,,,,FALSE,,,,200,TRUE
+AT-147382,"getCobrandSubscription - Validate ProjectedInsufficientBalance , Validate InsightName",,ProjectedInsufficientBalance,ProjectedInsufficientBalance,,,,,,,,,,,,200,TRUE
+AT-147381,"getCobrandSubscription - Validate ProjectedInsufficientBalance , Validate Supporting container",,ProjectedInsufficientBalance,,,BANK,,,,,,,,,,200,TRUE
+AT-147378,"getCobrandSubscription - Validate ProjectedInsufficientBalance , Validate TriggerType",SCHEDULE,ProjectedInsufficientBalance,,,,,,,,,,,,,200,TRUE
+AT-147373,"getCobrandSubscription - Validate ProjectedInsufficientBalance , Validate applicableEntity",,ProjectedInsufficientBalance,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-147376,"getCobrandSubscription - Validate ProjectedInsufficientBalance , Validate number of levels and levelObject",,ProjectedInsufficientBalance,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-147377,"getCobrandSubscription - Validate ProjectedInsufficientBalance , Validate isSubscribed=false",,ProjectedInsufficientBalance,,,,,,,,,FALSE,,,,200,TRUE
+AT-147372,"getCobrandSubscription - Validate ProjectedInsufficientBalance , Validate threshold Name,default Value 3 and Type",,ProjectedInsufficientBalance,,,,,,,,account,,,"MINIMUM,10,AMOUNT",,200,TRUE
+AT-147379,"getCobrandSubscription - Validate ProjectedInsufficientBalance , Validate insightKeys",,ProjectedInsufficientBalance,,,,Account,,,,,,,,,200,TRUE
+AT-147383,"getCobrandSubscription - Validate ProjectedInsufficientBalance , Validate description",,ProjectedInsufficientBalance,,,,,,Generates an insight when an account is projected to have a balance insufficient to cover upcoming bills and subscriptions.,,,,,,,200,TRUE
+AT-147380,"getCobrandSubscription - Validate ProjectedInsufficientBalance , Validate title",,ProjectedInsufficientBalance,,Insufficient Balance To Cover Upcoming Bills And Subscriptions.,,,,,,,,,,,200,TRUE
+AT-147375,"getCobrandSubscription - Validate ProjectedInsufficientBalance , Validate total number of keys",,ProjectedInsufficientBalance,,,,,22,,,,,,,,200,TRUE

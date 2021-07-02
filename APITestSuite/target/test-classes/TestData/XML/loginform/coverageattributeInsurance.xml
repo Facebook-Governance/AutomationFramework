@@ -1,0 +1,19 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<dataList>
+					<dataset>
+						<name>ADVANCE_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>COVERAGE</name>
+								<container>insurance</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+	</request>
+</entity>

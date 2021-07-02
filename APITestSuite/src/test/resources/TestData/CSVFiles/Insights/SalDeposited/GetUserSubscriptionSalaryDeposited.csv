@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-142819, Validate InsightName,,SalaryDeposited,SalaryDeposited,,,,,,,,,,,,,200,TRUE
+AT-142820, Validate Supporting container,,SalaryDeposited,,,BANK,,,,,,,,,,,200,TRUE
+AT-142821, Validate TriggerType,EVENT,SalaryDeposited,,,,,,,,,,,,,,200,TRUE
+AT-142822, Validate applicableEntity,,SalaryDeposited,,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-142823, Validate number of levels and levelObject,,SalaryDeposited,,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-142824, Validate isSubscribed=true,,SalaryDeposited,,,,,,,,account,TRUE,,,,,200,TRUE
+AT-142825, Validate insightKeys,,SalaryDeposited,,,,Account,,,,,,,,,,200,TRUE
+AT-142826, Validate description,,SalaryDeposited,,,,,,Generates an insight when a recurring salary is deposited.,,,,,,,,200,TRUE
+AT-142827, Validate title,,SalaryDeposited,,Salary Deposited,,,,,,,,,,,,200,TRUE
+AT-142828, Validate total number of keys,,SalaryDeposited,,,,,10,,,,,,,,,200,TRUE
+AT-142829, Validate if ruleExpression present,,SalaryDeposited,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE

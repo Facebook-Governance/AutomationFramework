@@ -1,0 +1,14 @@
+tcId,tcName,loginNameKey,loginName,passwordKey,password,localeKey,locale,updatedLocale,email,cobSession,userSession,statusCode,contentType,filePath,resFile,defectId,enabled
+"AT-52858,AT-58258",alphabeticLoginName,loginName,userLogout1,password,Test@123,locale,,en_US,abc@xyz.com,VALID,VALID,204,application/json,,,,TRUE
+AT-52859,alphabeticLoginNamewithoutLocale,loginName,userLogout2,password,Test@123,locale,en_US,fr_CA,abc@xyz.com,VALID,VALID,204,application/json,,,,TRUE
+AT-52860,alphaNumericLoginName,loginName,userLogout3,password,Test@123,locale,en_US,es_ES,abc@xyz.com,VALID,VALID,204,application/json,,,,TRUE
+AT-52861,alphaNumericLoginNamewithoutLocale,loginName,userLogout1,password,Test@123,locale,en_US,zh_CN,abc@xyz.com,VALID,VALID,204,application/json,,,,TRUE
+AT-52862,Locale,loginName,userLogout1,password,Test@123,locale,es_ES,null,abc@xyz.com,VALID,VALID,400,application/json,../src/test/resources/TestData/JSONFiles/User/UpdateUserDetails/,Update_User_Details_5,,TRUE
+AT-52863,NullLocaleForUpdateUserDetails,loginName,userLogout1,password,Test@123,locale@!,es_ES,,abc@xyz.com,VALID,VALID,204,application/json,,,,TRUE
+AT-52864,invalidUpdatedLocale,loginName,userLogout1,password,Test@123,locale,es_ES,ajcda,abc@xyz.com,VALID,VALID,400,application/json,../src/test/resources/TestData/JSONFiles/User/UpdateUserDetails/,Update_User_Details_7,,TRUE
+AT-52866,invalidCobSession,loginName,userLogout1,password,Test@123,locale,es_ES,,abc@xyz.com,VALID,VALID,204,application/json,,,,TRUE
+AT-52866,invalidUserSession,loginName,userLogout1,password,Test@123,locale,es_ES,,abc@xyz.com,VALID,INVALID,204,application/json,,,,TRUE
+AT-64724,Locale,loginName,userLogout1,password,Test@123,locale,en_US,null,abc@xyz.com,VALID,VALID,400,application/json,../src/test/resources/TestData/JSONFiles/User/UpdateUserDetails/,Update_User_Details_10,,TRUE
+AT-64725,NullLocale,loginName,userLogout1,password,Test@123,locale@!,en_US,,abc@xyz.com,VALID,VALID,204,application/json,,,,TRUE
+AT-64726,invalidUpdatedLocale,loginName,userLogout1,password,Test@123,locale,en_US,ajcda,abc@xyz.com,VALID,VALID,400,application/json,../src/test/resources/TestData/JSONFiles/User/UpdateUserDetails/,Update_User_Details_12,,TRUE
+AT-64727,NullLocale,loginName,userLogout1,password,Test@123,locale,en_US,,abc@xyz.com,VALID,VALID,204,application/json,,,,TRUE

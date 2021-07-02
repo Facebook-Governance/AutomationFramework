@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Long Tenure Recurring Payments"
+           tests="12"
+           failures="11"
+           errors="0"
+           skipped="0"
+           time="742.954">
+  <properties />
+            <testcase name="prepareAutomationReport" time="0.000" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  com.yodlee.insights.yodleeApi.utils.InsightsHelper.printSummaryOfTests(InsightsHelper.java:1966)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.prepareAutomationReport(TestGetInsightsForLongTenureRecurringPayments.java:316)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForLongTenureRecurringPayments" time="67.228" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments">
+                <failure type="junit.framework.AssertionFailedError"
+                  message="#/basicMerchant: 5 schema violations found"
+              >
+<![CDATA[junit.framework.AssertionFailedError: #/basicMerchant: 5 schema violations found
+  junit.framework.Assert.fail(Assert.java:57)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForLongTenureRecurringPayments" time="68.196" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments">
+                <failure type="junit.framework.AssertionFailedError"
+                  message="#/basicMerchant: 5 schema violations found"
+              >
+<![CDATA[junit.framework.AssertionFailedError: #/basicMerchant: 5 schema violations found
+  junit.framework.Assert.fail(Assert.java:57)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForLongTenureRecurringPayments" time="67.221" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments">
+                <failure type="junit.framework.AssertionFailedError"
+                  message="Expected  0 insights triggered But found 1 Insights for All Account "
+              >
+<![CDATA[junit.framework.AssertionFailedError: Expected  0 insights triggered But found 1 Insights for All Account 
+  junit.framework.Assert.fail(Assert.java:57)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForLongTenureRecurringPayments" time="67.700" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments">
+                <failure type="junit.framework.AssertionFailedError"
+                  message="#/basicMerchant: 5 schema violations found"
+              >
+<![CDATA[junit.framework.AssertionFailedError: #/basicMerchant: 5 schema violations found
+  junit.framework.Assert.fail(Assert.java:57)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForLongTenureRecurringPayments" time="68.306" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments">
+                <failure type="junit.framework.AssertionFailedError"
+                  message="#/basicMerchant: 5 schema violations found"
+              >
+<![CDATA[junit.framework.AssertionFailedError: #/basicMerchant: 5 schema violations found
+  junit.framework.Assert.fail(Assert.java:57)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForLongTenureRecurringPayments" time="66.753" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments">
+                <failure type="junit.framework.AssertionFailedError"
+                  message="#/basicMerchant: 2 schema violations found"
+              >
+<![CDATA[junit.framework.AssertionFailedError: #/basicMerchant: 2 schema violations found
+  junit.framework.Assert.fail(Assert.java:57)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForLongTenureRecurringPayments" time="68.134" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments">
+                <failure type="junit.framework.AssertionFailedError"
+                  message="#/basicMerchant: 5 schema violations found"
+              >
+<![CDATA[junit.framework.AssertionFailedError: #/basicMerchant: 5 schema violations found
+  junit.framework.Assert.fail(Assert.java:57)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForLongTenureRecurringPayments" time="68.465" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments">
+                <failure type="junit.framework.AssertionFailedError"
+                  message="#/basicMerchant/0/basicPredictedEvent/0: required key [categoryName] not found"
+              >
+<![CDATA[junit.framework.AssertionFailedError: #/basicMerchant/0/basicPredictedEvent/0: required key [categoryName] not found
+  junit.framework.Assert.fail(Assert.java:57)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForLongTenureRecurringPayments" time="67.368" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments">
+                <failure type="junit.framework.AssertionFailedError"
+                  message="#/basicMerchant: 5 schema violations found"
+              >
+<![CDATA[junit.framework.AssertionFailedError: #/basicMerchant: 5 schema violations found
+  junit.framework.Assert.fail(Assert.java:57)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForLongTenureRecurringPayments" time="67.061" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments">
+                <failure type="junit.framework.AssertionFailedError"
+                  message="#/basicMerchant: 5 schema violations found"
+              >
+<![CDATA[junit.framework.AssertionFailedError: #/basicMerchant: 5 schema violations found
+  junit.framework.Assert.fail(Assert.java:57)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="testGetNotificationsForLongTenureRecurringPayments" time="66.522" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments" />
+      
+</testsuite>

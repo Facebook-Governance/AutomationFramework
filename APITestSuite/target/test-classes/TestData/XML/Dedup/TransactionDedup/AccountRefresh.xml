@@ -1,0 +1,77 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			-<add-provider-accounts order="1">
+				<siteUser>account101.site16441.1</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.1</sitePwd>
+				<sitePwdId>65500</sitePwdId>	
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>TRANSACTIONS</name>
+								<container>bank,investment</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+
+			-<add-provider-accounts order="2">
+				<siteUser>account101.site16441.1</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.1</sitePwd>
+				<sitePwdId>65500</sitePwdId>	
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>TRANSACTIONS</name>
+								<container>bank,investment</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+
+		<get-accounts-multiple>
+			-<get-accounts order="1">
+			<!--	<accountId>YES</accountId> -->
+			</get-accounts>
+
+			-<get-accounts order="2">
+			<!--<accountId>YES</accountId>-->
+			</get-accounts> 
+		</get-accounts-multiple>
+		
+	</request>
+	
+	<response>
+		-<get-accounts-multiple>
+		
+			-<get-accounts order="1">
+				-<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/TransactionDedup/</filePath>
+					<responseFile>dedup_Supportedb4.json</responseFile>
+					<associatedProviderAccountId>false</associatedProviderAccountId>
+				</row>
+			</get-accounts>
+	
+			-<get-accounts order="2">
+				-<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/TransactionDedup/</filePath>
+					<responseFile>AccountRefresh.json</responseFile>	<!-- To Do: Name of XML needs to be changed -->
+					<associatedProviderAccountId>true</associatedProviderAccountId>				
+				</row>
+			</get-accounts>
+	
+		</get-accounts-multiple>
+	</response>
+</entity>
+	

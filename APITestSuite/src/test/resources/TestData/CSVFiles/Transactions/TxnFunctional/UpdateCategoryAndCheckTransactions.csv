@@ -1,0 +1,2 @@
+TestCaseId,Title,categoryNameKey,categoryNameValue,parentCategoryIdKey,parentCategoryIdValue,sourceKeyName,sourceKeyValue,categoryNameKey,categoryNameValue,categoryIdKey,TransResFile,TransFilePath,defectID,enabled
+AT-59715,UpdateCategory and Check Transactions,,,,,source,USER,categoryName,Deposits SubCategory Updated,id,systemDefinedCategorization-Bank.json,../src/test/resources/TestData/Transactions/TxnFunctional/,0,TRUE

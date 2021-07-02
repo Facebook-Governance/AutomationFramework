@@ -1,0 +1,99 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			-<add-provider-accounts order="1">
+				<siteUser>account101.site16441.1</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.1</sitePwd>
+				<sitePwdId>65500</sitePwdId>	
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>loan,investment</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+
+			-<add-provider-accounts order="2">
+				<siteUser>account102.site16441.1</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.1</sitePwd>
+				<sitePwdId>65500</sitePwdId>	
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>loan,investment</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+
+		<get-accounts-multiple>
+			-<get-accounts order="1">
+			<!--	<accountId>YES</accountId> -->
+			<status></status> <!-- Keeping empty tag -->
+			<container>loan</container>
+			</get-accounts>
+
+			-<get-accounts order="2">
+			<status>INACTIVE</status>
+			</get-accounts> 
+		</get-accounts-multiple>
+		
+		<update-accounts-multiple>
+			<update-accounts order="1">
+			<nickname></nickname>
+			<accountStatus>INACTIVE</accountStatus>
+			<includeInNetWorth>FALSE</includeInNetWorth>
+			<memo></memo>
+			<isEbillEnrolled></isEbillEnrolled>
+		</update-accounts>
+	  </update-accounts-multiple>
+		
+	</request>
+	
+	<response>
+		-<get-accounts-multiple>
+		
+			-<get-accounts order="1">
+				-<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/AccountDedup/</filePath>
+					<responseFile>DeletedAccount.json</responseFile>
+					<associatedProviderAccountId>false</associatedProviderAccountId>
+				</row>
+			</get-accounts>
+	
+			-<get-accounts order="2">
+				-<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/AccountDedup/</filePath>
+					<responseFile>InactiveAccounts.json</responseFile>
+					<associatedProviderAccountId>true</associatedProviderAccountId>				
+				</row>
+			</get-accounts>
+	
+		</get-accounts-multiple>
+		
+		-<update-accounts-multiple>	
+			-<update-accounts order="1">
+				-<row>
+					<filePath></filePath>
+					<responseFile></responseFile>
+				</row>
+			</update-accounts>
+			</update-accounts-multiple>
+
+	</response>
+</entity>
+	

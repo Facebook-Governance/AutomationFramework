@@ -1,0 +1,300 @@
+{
+    "statement": [
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "billingPeriodStart": "2013-01-25",
+            "billingPeriodEnd": "2013-01-25",
+            "lastPaymentDate": "2013-01-25",
+            "lastUpdated": "${json-unit.ignore}",
+            "minimumPayment": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "newCharges": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "amountDue": {
+                "amount": 12353.1234,
+                "currency": "USD"
+            },
+            "lastPaymentAmount": {
+                "amount": 3000,
+                "currency": "USD"
+            },
+            "interestAmount": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "principalAmount": {
+                "amount": 12111.09,
+                "currency": "USD"
+            },
+            "loanBalance": {
+                "amount": 150879.98,
+                "currency": "USD"
+            },
+            "isLatest": false
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "billingPeriodStart": "2013-01-25",
+            "billingPeriodEnd": "2013-01-25",
+            "lastPaymentDate": "2013-01-25",
+            "lastUpdated":"${json-unit.ignore}",
+            "minimumPayment": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "newCharges": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "amountDue": {
+                "amount": 12353.1234,
+                "currency": "USD"
+            },
+            "lastPaymentAmount": {
+                "amount": 3000,
+                "currency": "USD"
+            },
+            "interestAmount": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "principalAmount": {
+                "amount": 12111.09,
+                "currency": "USD"
+            },
+            "loanBalance": {
+                "amount": 150879.98,
+                "currency": "USD"
+            },
+            "isLatest": false
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "billingPeriodStart": "2013-01-25",
+            "billingPeriodEnd": "2013-01-25",
+            "lastPaymentDate": "2013-01-25",
+            "lastUpdated":"${json-unit.ignore}",
+            "minimumPayment": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "newCharges": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "amountDue": {
+                "amount": 12353.1234,
+                "currency": "USD"
+            },
+            "lastPaymentAmount": {
+                "amount": 3000,
+                "currency": "USD"
+            },
+            "interestAmount": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "principalAmount": {
+                "amount": 12111.09,
+                "currency": "USD"
+            },
+            "loanBalance": {
+                "amount": 150879.98,
+                "currency": "USD"
+            },
+            "isLatest": false
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "billingPeriodStart": "2013-01-25",
+            "billingPeriodEnd": "2013-01-25",
+            "lastPaymentDate": "2013-01-25",
+            "lastUpdated": "${json-unit.ignore}",
+            "minimumPayment": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "newCharges": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "amountDue": {
+                "amount": 12353.1234,
+                "currency": "USD"
+            },
+            "lastPaymentAmount": {
+                "amount": 3000,
+                "currency": "USD"
+            },
+            "interestAmount": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "principalAmount": {
+                "amount": 12111.09,
+                "currency": "USD"
+            },
+            "loanBalance": {
+                "amount": 150879.98,
+                "currency": "USD"
+            },
+            "isLatest": false
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "billingPeriodStart": "2013-01-25",
+            "billingPeriodEnd": "2013-01-25",
+            "lastPaymentDate": "2013-01-25",
+            "lastUpdated": "${json-unit.ignore}",
+            "minimumPayment": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "newCharges": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "amountDue": {
+                "amount": 12353.1234,
+                "currency": "USD"
+            },
+            "lastPaymentAmount": {
+                "amount": 3000,
+                "currency": "USD"
+            },
+            "interestAmount": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "principalAmount": {
+                "amount": 12111.09,
+                "currency": "USD"
+            },
+            "loanBalance": {
+                "amount": 150879.98,
+                "currency": "USD"
+            },
+            "isLatest": false
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "billingPeriodStart": "2013-01-25",
+            "billingPeriodEnd": "2013-01-25",
+            "lastPaymentDate": "2013-01-25",
+            "lastUpdated": "${json-unit.ignore}",
+            "minimumPayment": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "newCharges": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "amountDue": {
+                "amount": 12353.1234,
+                "currency": "USD"
+            },
+            "lastPaymentAmount": {
+                "amount": 3000,
+                "currency": "USD"
+            },
+            "interestAmount": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "principalAmount": {
+                "amount": 12111.09,
+                "currency": "USD"
+            },
+            "loanBalance": {
+                "amount": 150879.98,
+                "currency": "USD"
+            },
+            "isLatest": false
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "billingPeriodStart": "2013-01-25",
+            "billingPeriodEnd": "2013-01-25",
+            "lastPaymentDate": "2013-01-25",
+            "lastUpdated": "${json-unit.ignore}",
+            "minimumPayment": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "newCharges": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "amountDue": {
+                "amount": 12353.1234,
+                "currency": "USD"
+            },
+            "lastPaymentAmount": {
+                "amount": 3000,
+                "currency": "USD"
+            },
+            "interestAmount": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "principalAmount": {
+                "amount": 12111.09,
+                "currency": "USD"
+            },
+            "loanBalance": {
+                "amount": 150879.98,
+                "currency": "USD"
+            },
+            "isLatest": false
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "billingPeriodStart": "2013-01-25",
+            "billingPeriodEnd": "2013-01-25",
+            "lastPaymentDate": "2013-01-25",
+            "lastUpdated": "${json-unit.ignore}",
+            "minimumPayment": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "newCharges": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "amountDue": {
+                "amount": 12353.1234,
+                "currency": "USD"
+            },
+            "lastPaymentAmount": {
+                "amount": 3000,
+                "currency": "USD"
+            },
+            "interestAmount": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "principalAmount": {
+                "amount": 12111.09,
+                "currency": "USD"
+            },
+            "loanBalance": {
+                "amount": 150879.98,
+                "currency": "USD"
+            },
+            "isLatest": false
+        }
+    ]
+}

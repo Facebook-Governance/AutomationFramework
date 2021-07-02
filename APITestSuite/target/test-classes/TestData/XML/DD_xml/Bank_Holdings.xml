@@ -1,0 +1,40 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>yslAutomation.site16441.6</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.6</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>HOLDINGS</name>
+								<container>bank</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+
+
+	</request>
+
+	<response>
+
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/NegativeResults/
+					</filePath>
+					<responseFile>Site_ContianereNotSupported.json</responseFile>
+				</row>
+			</add-provider-accounts>
+
+		</add-provider-accounts-multiple>
+	</response>
+</entity>

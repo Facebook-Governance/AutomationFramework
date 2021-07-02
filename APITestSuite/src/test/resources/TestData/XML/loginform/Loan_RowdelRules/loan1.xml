@@ -1,0 +1,23 @@
+<entity>
+	<request>
+		<dataList>
+			   <dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>ACCOUNT_DETAILS</name>
+							<container>loan</container>
+						</attribute>
+						<attribute>
+							<name>TRANSACTIONS</name>
+							<container>loan</container>
+						</attribute>
+						<attribute>
+							<name>BASIC_ACCOUNT_INFO</name>
+							<container>loan</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+		</dataList>
+	</request>
+</entity>

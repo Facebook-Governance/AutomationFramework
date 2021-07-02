@@ -1,0 +1,3 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,container,enabled
+AT-114902,Bank container,400,InvalidValueForManualTransactionId.json,../src/test/resources/TestData/ErrorMessage/,bank,TRUE
+AT-114906,Card container,400,InvalidValueForManualTransactionId.json,../src/test/resources/TestData/ErrorMessage/,creditCard,TRUE

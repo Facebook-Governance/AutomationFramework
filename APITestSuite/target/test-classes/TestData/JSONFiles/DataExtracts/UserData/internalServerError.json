@@ -1,0 +1,28 @@
+{
+  "userData": [
+    {
+      "user": {
+        "loginName": "YSLDE1497345111586"
+      },
+      "providerAccount": [
+        {
+          "refreshInfo": {
+            "lastRefreshed": "${json-unit.ignore}",
+            "nextRefreshScheduled": "${json-unit.ignore}",
+            "additionalStatus": "LOGIN_FAILED",
+            "lastRefreshAttempt": "${json-unit.ignore}",
+            "statusMessage": "INTERNAL_ERROR",
+            "statusCode": 403,
+            "status": "FAILED"
+          },
+          "createdDate": "${json-unit.ignore}",
+          "aggregationSource": "USER",
+          "isDeleted": false,
+          "providerId": 18769,
+          "isManual": false,
+          "id": "${json-unit.any-number}"
+        }
+      ]
+    }
+  ]
+}

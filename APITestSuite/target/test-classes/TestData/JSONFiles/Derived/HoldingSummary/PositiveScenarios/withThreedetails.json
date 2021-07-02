@@ -1,0 +1,1444 @@
+{
+  "holdingSummary": [
+    {
+      "holding": [
+        {
+          "symbol": "FSL.A",
+          "cusipNumber": "33739J206",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 0.74
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "securityType": "EXCHANGE_TRADED_FUND",
+          "holdingType": "stock",
+          "price": {
+            "amount": 19.5,
+            "currency": "CAD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "id": 1880846,
+          "value": {
+            "amount": 5600,
+            "currency": "CAD"
+          }
+        }
+      ],
+      "classificationType": "Asset class",
+      "classificationValue": "Canadian bonds",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dAsset%20class\u0026classificationValue\u003dCanadian%20bonds\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 30.32,
+        "currency": "USD"
+      }
+    },
+    {
+      "holding": [
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 8.33
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 10,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880850,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 8.33
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 9,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880849,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 8.33
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 10,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880848,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 8.33
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 9,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880847,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "FSL.A",
+          "cusipNumber": "33739J206",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 15.41
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "securityType": "EXCHANGE_TRADED_FUND",
+          "holdingType": "stock",
+          "price": {
+            "amount": 19.5,
+            "currency": "CAD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "id": 1880846,
+          "value": {
+            "amount": 5600,
+            "currency": "CAD"
+          }
+        }
+      ],
+      "classificationType": "Asset class",
+      "classificationValue": "Cash",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dAsset%20class\u0026classificationValue\u003dCash\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 2497.34,
+        "currency": "USD"
+      }
+    },
+    {
+      "holding": [
+        {
+          "symbol": "FSL.A",
+          "cusipNumber": "33739J206",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 8.57
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "securityType": "EXCHANGE_TRADED_FUND",
+          "holdingType": "stock",
+          "price": {
+            "amount": 19.5,
+            "currency": "CAD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "id": 1880846,
+          "value": {
+            "amount": 5600,
+            "currency": "CAD"
+          }
+        }
+      ],
+      "classificationType": "Asset class",
+      "classificationValue": "Foreign bonds",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dAsset%20class\u0026classificationValue\u003dForeign%20bonds\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 351.15,
+        "currency": "USD"
+      }
+    },
+    {
+      "holding": [
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 11.78
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 10,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880850,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 11.78
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 9,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880849,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 11.78
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 10,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880848,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 11.78
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 9,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880847,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        }
+      ],
+      "classificationType": "Asset class",
+      "classificationValue": "Non-US bonds",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dAsset%20class\u0026classificationValue\u003dNon-US%20bonds\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 2638.72,
+        "currency": "USD"
+      }
+    },
+    {
+      "holding": [
+        {
+          "symbol": "FSL.A",
+          "cusipNumber": "33739J206",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 0
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "securityType": "EXCHANGE_TRADED_FUND",
+          "holdingType": "stock",
+          "price": {
+            "amount": 19.5,
+            "currency": "CAD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "id": 1880846,
+          "value": {
+            "amount": 5600,
+            "currency": "CAD"
+          }
+        }
+      ],
+      "classificationType": "Asset class",
+      "classificationValue": "Other",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dAsset%20class\u0026classificationValue\u003dOther\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 0,
+        "currency": "USD"
+      }
+    },
+    {
+      "holding": [
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 79.9
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 10,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880850,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 79.9
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 9,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880849,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 79.9
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 10,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880848,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 79.9
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 9,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880847,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "FSL.A",
+          "cusipNumber": "33739J206",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 75.27
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "securityType": "EXCHANGE_TRADED_FUND",
+          "holdingType": "stock",
+          "price": {
+            "amount": 19.5,
+            "currency": "CAD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "id": 1880846,
+          "value": {
+            "amount": 5600,
+            "currency": "CAD"
+          }
+        }
+      ],
+      "classificationType": "Asset class",
+      "classificationValue": "US bonds",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dAsset%20class\u0026classificationValue\u003dUS%20bonds\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 20981.76,
+        "currency": "USD"
+      }
+    },
+    {
+      "holding": [
+        {
+          "symbol": "FSL.A",
+          "cusipNumber": "33739J206",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 0
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "securityType": "EXCHANGE_TRADED_FUND",
+          "holdingType": "stock",
+          "price": {
+            "amount": 19.5,
+            "currency": "CAD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "id": 1880846,
+          "value": {
+            "amount": 5600,
+            "currency": "CAD"
+          }
+        }
+      ],
+      "classificationType": "Asset class",
+      "classificationValue": "US stocks",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dAsset%20class\u0026classificationValue\u003dUS%20stocks\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 0,
+        "currency": "USD"
+      }
+    },
+    {
+      "holding": [
+        {
+          "symbol": "FSL.A",
+          "cusipNumber": "33739J206",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 100
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "securityType": "EXCHANGE_TRADED_FUND",
+          "holdingType": "stock",
+          "price": {
+            "amount": 19.5,
+            "currency": "CAD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "id": 1880846,
+          "value": {
+            "amount": 5600,
+            "currency": "CAD"
+          }
+        }
+      ],
+      "classificationType": "Country",
+      "classificationValue": "CA",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dCountry\u0026classificationValue\u003dCA\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 4097.46,
+        "currency": "USD"
+      }
+    },
+    {
+      "holding": [
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 100
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 10,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880850,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 100
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 9,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880849,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 100
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 10,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880848,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 100
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 9,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880847,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        }
+      ],
+      "classificationType": "Country",
+      "classificationValue": "US",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dCountry\u0026classificationValue\u003dUS\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 22400,
+        "currency": "USD"
+      }
+    },
+    {
+      "holding": [
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 8.33
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 10,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880850,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 8.33
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 9,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880849,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 8.33
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 10,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880848,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 8.33
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 9,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880847,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        }
+      ],
+      "classificationType": "Sector",
+      "classificationValue": "Cash And Equivalents",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dSector\u0026classificationValue\u003dCash%20And%20Equivalents\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 1865.92,
+        "currency": "USD"
+      }
+    },
+    {
+      "holding": [
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 91.67
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 10,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880850,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 91.67
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 9,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880849,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 91.67
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 10,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880848,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 91.67
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 9,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880847,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        }
+      ],
+      "classificationType": "Sector",
+      "classificationValue": "Corporate bonds",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dSector\u0026classificationValue\u003dCorporate%20bonds\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 20534.08,
+        "currency": "USD"
+      }
+    },
+    {
+      "holding": [
+        {
+          "symbol": "FSL.A",
+          "cusipNumber": "33739J206",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 100
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "securityType": "EXCHANGE_TRADED_FUND",
+          "holdingType": "stock",
+          "price": {
+            "amount": 19.5,
+            "currency": "CAD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "id": 1880846,
+          "value": {
+            "amount": 5600,
+            "currency": "CAD"
+          }
+        }
+      ],
+      "classificationType": "Sector",
+      "classificationValue": "Other",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dSector\u0026classificationValue\u003dOther\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 4097.46,
+        "currency": "USD"
+      }
+    },
+    {
+      "holding": [
+        {
+          "symbol": "FSL.A",
+          "cusipNumber": "33739J206",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 100
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "securityType": "EXCHANGE_TRADED_FUND",
+          "holdingType": "stock",
+          "price": {
+            "amount": 19.5,
+            "currency": "CAD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "CAD"
+          },
+          "id": 1880846,
+          "value": {
+            "amount": 5600,
+            "currency": "CAD"
+          }
+        }
+      ],
+      "classificationType": "Style",
+      "classificationValue": "High Risk Low Reward",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dStyle\u0026classificationValue\u003dHigh%20Risk%20Low%20Reward\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 4097.46,
+        "currency": "USD"
+      }
+    },
+    {
+      "holding": [
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 100
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 10,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880850,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 100
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 9,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880849,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 100
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 10,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880848,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        },
+        {
+          "symbol": "TPHAX",
+          "cusipNumber": "887432615",
+          "quantity": 2000,
+          "assetClassification": {
+            "allocation": 100
+          },
+          "employeeContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "optionType": "unknown",
+          "accountId": 1112071344,
+          "matchStatus": "PUBLIC",
+          "employerContribution": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "securityType": "MUTUAL_FUND",
+          "holdingType": "mutualFund",
+          "price": {
+            "amount": 9,
+            "currency": "USD"
+          },
+          "costBasis": {
+            "amount": 2500,
+            "currency": "USD"
+          },
+          "id": 1880847,
+          "value": {
+            "amount": 5600,
+            "currency": "USD"
+          }
+        }
+      ],
+      "classificationType": "Style",
+      "classificationValue": "Low Risk Low Reward",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dStyle\u0026classificationValue\u003dLow%20Risk%20Low%20Reward\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 22400,
+        "currency": "USD"
+      }
+    }
+  ]
+}

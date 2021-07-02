@@ -1,0 +1,27 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-142794,subscribe to SalaryDeposited isSubscribed=true,SalaryDeposited,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-142795,update insightName to same name,SalaryDeposited,negTestScenario1,SalaryDeposited,,,,,,,,,,,,,,,,,,500,TRUE
+AT-142796, update insightName to different name,SalaryDeposited,negTestScenario2,SalaryDepositedEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-142797,update insightTitle chars between 3 and 100 ,SalaryDeposited,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-142798, update insightTitle chars are only 3,SalaryDeposited,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-142799,update insightTitle chars are only 100,SalaryDeposited,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-142800,update insightTitle chars are less than 3,SalaryDeposited,negTestScenario3,,mm,,,,,,,,,,,,,,,,,400,TRUE
+AT-142801, update insightTitle chars are greater 100,SalaryDeposited,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-142802,update insightTitle chars are special characters,SalaryDeposited,negTestScenario5,,{}}#4@@,,,,,,,,,,,,,,,,,400,TRUE
+AT-142803, update container,SalaryDeposited,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-142804, update keys,SalaryDeposited,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-142805, update description,SalaryDeposited,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-142806, update applicableEntity,SalaryDeposited,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-142807, update entityParameter,SalaryDeposited,negTestScenario29,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,10,PERCENT",400,TRUE
+AT-142808,update entityParameter->account[0]->frequency,SalaryDeposited,negTestScenario10,,,,,,,,,1,,account,1,,M,TRUE,,,"LIMIT,30,PERCENT",400,TRUE
+AT-142809,update entityParameter->account[0]->isSubscribed=false,SalaryDeposited,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-142809,update entityParameter->account[0]->isSubscribed=true,SalaryDeposited,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-142810,update entityParameter->account[0]->duration,SalaryDeposited,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"LIMIT,50,PERCENT",400,TRUE
+AT-142811,update entityParameter->account[0]->insightType,SalaryDeposited,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"LIMIT,98,PERCENT",400,TRUE
+AT-142812,update entityParameter->account[0]->insightType - Invalid Name,SalaryDeposited,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"LIMIT,33,PERCENT",400,TRUE
+AT-142813,update entityParameter->account[0]->threshold[0]->name,SalaryDeposited,negTestScenario29,,,,,,,,,1,,account,1,,,FALSE,,,"BALANCE,6,PERCENT",400,TRUE
+AT-142814,update entityParameter->account[0]->threshold[0]->value,SalaryDeposited,negTestScenario29,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,6,PERCENT",400,TRUE
+AT-142815, update entityParameter->account[0]->threshold[0]->type,SalaryDeposited,negTestScenario29,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,6,AMOUNT",400,TRUE
+AT-142816, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,SalaryDeposited,negTestScenario29,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,6,PERCENT",400,TRUE
+AT-142817, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,SalaryDeposited,negTestScenario29,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,60,PERCENT",400,TRUE
+AT-142818,update threshold (NOT Supported),SalaryDeposited,negTestScenario29,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,88,PERCENT",400,TRUE

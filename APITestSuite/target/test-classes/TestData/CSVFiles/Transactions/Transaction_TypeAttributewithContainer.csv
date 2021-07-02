@@ -1,0 +1,7 @@
+testCaseId,testCase,container,baseType,keyword,toDate,category,categoryId,highLevelCategoryId,type,categoryType,skip,top,ResFile,filePath,status,enabled
+1,with container has investment,investment,,,,,,,DEPOSIT,,,,containerInvestment.json,../src/test/resources/TestData/NamedAPI/TDE,200,TRUE
+2,with container has bank,bank,,,,,,,PAYMENT,,,,containerBank.json,../src/test/resources/TestData/NamedAPI/TDE,200,TRUE
+3,with container has crdeitCard,creditCard,,,,,,,WITHDRAWAL,,,,containerCreditcard.json,../src/test/resources/TestData/NamedAPI/TDE,200,TRUE
+4,with all attributes except categoryId,creditCard,DEBIT,ATM/Cash Withdrawal,2016-01-01,ATM/Cash Withdrawals,,10000010,WITHDRAWAL,EXPENSE,1,1,containerCreditcard.json,../src/test/resources/TestData/NamedAPI/TDE,200,TRUE
+5,with all attributes,creditCard,DEBIT,ATM/Cash Withdrawal,2016-01-01,,25,10000010,WITHDRAWAL,EXPENSE,1,1,containerCreditcard.json,../src/test/resources/TestData/NamedAPI/TDE,200,TRUE
+6,with NULL type attribute,creditCard,DEBIT,ATM/Cash Withdrawal,2016-01-01,ATM/Cash Withdrawals,,10000010,,EXPENSE,,,containerCreditcard.json,../src/test/resources/TestData/NamedAPI/TDE,200,TRUE

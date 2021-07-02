@@ -1,0 +1,351 @@
+{
+	"transaction": [{
+			"CONTAINER": "bank",
+			"id": 26648856,
+			"amount": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"baseType": "CREDIT",
+			"categoryType": "UNCATEGORIZE",
+			"categoryId": 1,
+			"category": "Uncategorized",
+			"categorySource": "SYSTEM",
+			"highLevelCategoryId": 10000017,
+			"createdDate": "2018-12-19T12:14:47Z",
+			"lastUpdated": "2018-12-19T12:14:47Z",
+			"description": {
+				"original": "AMERICAN EXPRESS SETTLEMENT",
+				"consumer": "AMERICAN EXPRESS SETTLEMENT"
+			},
+			"isManual": false,
+			"sourceType": "AGGREGATED",
+			"date": "2018-12-19",
+			"transactionDate": "2018-12-19",
+			"postDate": "2018-12-19",
+			"status": "POSTED",
+			"accountId": 11155117,
+			"runningBalance": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"checkNumber": "DAG-333"
+		},
+		{
+			"CONTAINER": "bank",
+			"id": 26648855,
+			"amount": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"baseType": "CREDIT",
+			"categoryType": "UNCATEGORIZE",
+			"categoryId": 1,
+			"category": "Uncategorized",
+			"categorySource": "SYSTEM",
+			"highLevelCategoryId": 10000017,
+			"createdDate": "2018-12-19T12:14:47Z",
+			"lastUpdated": "2018-12-19T12:14:47Z",
+			"description": {
+				"original": "Deposit",
+				"consumer": "Deposit"
+			},
+			"isManual": false,
+			"sourceType": "AGGREGATED",
+			"date": "2018-12-19",
+			"transactionDate": "2018-12-19",
+			"postDate": "2018-12-19",
+			"status": "POSTED",
+			"accountId": 11155117,
+			"runningBalance": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"checkNumber": "DAG-333"
+		},
+		{
+			"CONTAINER": "creditCard",
+			"id": 10728616,
+			"amount": {
+				"amount": 7000,
+				"currency": "USD"
+			},
+			"baseType": "DEBIT",
+			"categoryType": "UNCATEGORIZE",
+			"categoryId": 1,
+			"category": "Uncategorized",
+			"categorySource": "SYSTEM",
+			"highLevelCategoryId": 10000017,
+			"createdDate": "2018-12-19T12:14:51Z",
+			"lastUpdated": "2018-12-19T12:14:51Z",
+			"description": {
+				"original": "cox*comm san diego XXX-XXX-XXXX ca"
+			},
+			"isManual": false,
+			"sourceType": "AGGREGATED",
+			"date": "2018-12-19",
+			"transactionDate": "2018-12-19",
+			"postDate": "2018-12-19",
+			"status": "POSTED",
+			"accountId": 11155118
+		},
+		{
+			"CONTAINER": "creditCard",
+			"id": 10728614,
+			"amount": {
+				"amount": 5000,
+				"currency": "USD"
+			},
+			"baseType": "DEBIT",
+			"categoryType": "UNCATEGORIZE",
+			"categoryId": 1,
+			"category": "Uncategorized",
+			"categorySource": "SYSTEM",
+			"highLevelCategoryId": 10000017,
+			"createdDate": "2018-12-19T12:14:51Z",
+			"lastUpdated": "2018-12-19T12:14:51Z",
+			"description": {
+				"original": "Safeco Insurance"
+			},
+			"isManual": false,
+			"sourceType": "AGGREGATED",
+			"date": "2018-12-19",
+			"transactionDate": "2018-12-19",
+			"postDate": "2018-12-19",
+			"status": "POSTED",
+			"accountId": 11155118
+		},
+		{
+			"CONTAINER": "bank",
+			"id": 26648858,
+			"amount": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"baseType": "CREDIT",
+			"categoryType": "UNCATEGORIZE",
+			"categoryId": 1,
+			"category": "Uncategorized",
+			"categorySource": "SYSTEM",
+			"highLevelCategoryId": 10000017,
+			"createdDate": "2018-12-19T12:14:47Z",
+			"lastUpdated": "2018-12-19T12:14:47Z",
+			"description": {
+				"original": "Deposit",
+				"consumer": "Deposit"
+			},
+			"isManual": false,
+			"sourceType": "AGGREGATED",
+			"date": "2018-12-12",
+			"transactionDate": "2018-12-12",
+			"postDate": "2018-12-12",
+			"status": "POSTED",
+			"accountId": 11155117,
+			"runningBalance": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"checkNumber": "DAG-333"
+		},
+		{
+			"CONTAINER": "bank",
+			"id": 26648857,
+			"amount": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"baseType": "CREDIT",
+			"categoryType": "UNCATEGORIZE",
+			"categoryId": 1,
+			"category": "Uncategorized",
+			"categorySource": "SYSTEM",
+			"highLevelCategoryId": 10000017,
+			"createdDate": "2018-12-19T12:14:47Z",
+			"lastUpdated": "2018-12-19T12:14:47Z",
+			"description": {
+				"original": "AMERICAN EXPRESS SETTLEMENT",
+				"consumer": "AMERICAN EXPRESS SETTLEMENT"
+			},
+			"isManual": false,
+			"sourceType": "AGGREGATED",
+			"date": "2018-12-12",
+			"transactionDate": "2018-12-12",
+			"postDate": "2018-12-12",
+			"status": "POSTED",
+			"accountId": 11155117,
+			"runningBalance": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"checkNumber": "DAG-333"
+		},
+		{
+			"CONTAINER": "creditCard",
+			"id": 10728615,
+			"amount": {
+				"amount": 7000,
+				"currency": "USD"
+			},
+			"baseType": "DEBIT",
+			"categoryType": "UNCATEGORIZE",
+			"categoryId": 1,
+			"category": "Uncategorized",
+			"categorySource": "SYSTEM",
+			"highLevelCategoryId": 10000017,
+			"createdDate": "2018-12-19T12:14:51Z",
+			"lastUpdated": "2018-12-19T12:14:51Z",
+			"description": {
+				"original": "cox*comm san diego XXX-XXX-XXXX ca"
+			},
+			"isManual": false,
+			"sourceType": "AGGREGATED",
+			"date": "2018-12-12",
+			"transactionDate": "2018-12-12",
+			"postDate": "2018-12-12",
+			"status": "POSTED",
+			"accountId": 11155118
+		},
+		{
+			"CONTAINER": "creditCard",
+			"id": 10728613,
+			"amount": {
+				"amount": 5000,
+				"currency": "USD"
+			},
+			"baseType": "DEBIT",
+			"categoryType": "UNCATEGORIZE",
+			"categoryId": 1,
+			"category": "Uncategorized",
+			"categorySource": "SYSTEM",
+			"highLevelCategoryId": 10000017,
+			"createdDate": "2018-12-19T12:14:51Z",
+			"lastUpdated": "2018-12-19T12:14:51Z",
+			"description": {
+				"original": "Safeco Insurance"
+			},
+			"isManual": false,
+			"sourceType": "AGGREGATED",
+			"date": "2018-12-12",
+			"transactionDate": "2018-12-12",
+			"postDate": "2018-12-12",
+			"status": "POSTED",
+			"accountId": 11155118
+		},
+		{
+			"CONTAINER": "bank",
+			"id": 26648860,
+			"amount": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"baseType": "CREDIT",
+			"categoryType": "UNCATEGORIZE",
+			"categoryId": 1,
+			"category": "Uncategorized",
+			"categorySource": "SYSTEM",
+			"highLevelCategoryId": 10000017,
+			"createdDate": "2018-12-19T12:14:47Z",
+			"lastUpdated": "2018-12-19T12:14:47Z",
+			"description": {
+				"original": "AMERICAN EXPRESS SETTLEMENT",
+				"consumer": "AMERICAN EXPRESS SETTLEMENT"
+			},
+			"isManual": false,
+			"sourceType": "AGGREGATED",
+			"date": "2018-12-05",
+			"transactionDate": "2018-12-05",
+			"postDate": "2018-12-05",
+			"status": "POSTED",
+			"accountId": 11155117,
+			"runningBalance": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"checkNumber": "DAG-333"
+		},
+		{
+			"CONTAINER": "bank",
+			"id": 26648859,
+			"amount": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"baseType": "CREDIT",
+			"categoryType": "UNCATEGORIZE",
+			"categoryId": 1,
+			"category": "Uncategorized",
+			"categorySource": "SYSTEM",
+			"highLevelCategoryId": 10000017,
+			"createdDate": "2018-12-19T12:14:47Z",
+			"lastUpdated": "2018-12-19T12:14:47Z",
+			"description": {
+				"original": "Deposit",
+				"consumer": "Deposit"
+			},
+			"isManual": false,
+			"sourceType": "AGGREGATED",
+			"date": "2018-12-05",
+			"transactionDate": "2018-12-05",
+			"postDate": "2018-12-05",
+			"status": "POSTED",
+			"accountId": 11155117,
+			"runningBalance": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"checkNumber": "DAG-333"
+		},
+		{
+			"CONTAINER": "creditCard",
+			"id": 10728617,
+			"amount": {
+				"amount": 7000,
+				"currency": "USD"
+			},
+			"baseType": "DEBIT",
+			"categoryType": "UNCATEGORIZE",
+			"categoryId": 1,
+			"category": "Uncategorized",
+			"categorySource": "SYSTEM",
+			"highLevelCategoryId": 10000017,
+			"createdDate": "2018-12-19T12:14:51Z",
+			"lastUpdated": "2018-12-19T12:14:51Z",
+			"description": {
+				"original": "cox*comm san diego XXX-XXX-XXXX ca"
+			},
+			"isManual": false,
+			"sourceType": "AGGREGATED",
+			"date": "2018-12-05",
+			"transactionDate": "2018-12-05",
+			"postDate": "2018-12-05",
+			"status": "POSTED",
+			"accountId": 11155118
+		},
+		{
+			"CONTAINER": "creditCard",
+			"id": 10728612,
+			"amount": {
+				"amount": 5000,
+				"currency": "USD"
+			},
+			"baseType": "DEBIT",
+			"categoryType": "UNCATEGORIZE",
+			"categoryId": 1,
+			"category": "Uncategorized",
+			"categorySource": "SYSTEM",
+			"highLevelCategoryId": 10000017,
+			"createdDate": "2018-12-19T12:14:51Z",
+			"lastUpdated": "2018-12-19T12:14:51Z",
+			"description": {
+				"original": "Safeco Insurance"
+			},
+			"isManual": false,
+			"sourceType": "AGGREGATED",
+			"date": "2018-12-05",
+			"transactionDate": "2018-12-05",
+			"postDate": "2018-12-05",
+			"status": "POSTED",
+			"accountId": 11155118
+		}
+	]
+}

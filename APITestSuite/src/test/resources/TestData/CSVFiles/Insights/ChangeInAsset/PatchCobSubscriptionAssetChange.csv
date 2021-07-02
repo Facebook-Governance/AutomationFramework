@@ -1,0 +1,29 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-146206,subscribe AssetChange to   isSubscribed=true,AssetChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,88,PERCENT",204,TRUE
+AT-146207,update insightName to same name,AssetChange,negTestScenario53,AssetChange,,,,,,,,,,,,,,,,,,500,TRUE
+AT-146208, update insightName to different name,AssetChange,negTestScenario2,AssetChangeEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-146209,update insightTitle chars between 3 and 100 ,AssetChange,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-146210, update insightTitle chars are only 3,AssetChange,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-146211,update insightTitle chars are only 100,AssetChange,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-146212,update insightTitle chars are less than 3,AssetChange,negTestScenario3,,kk,,,,,,,,,,,,,,,,,400,TRUE
+AT-146213, update insightTitle chars are greater 100,AssetChange,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-146214,update insightTitle chars are special characters,AssetChange,negTestScenario5,,{}}#4@@,,,,,,,,,,,,,,,,,400,TRUE
+AT-146215, update container,AssetChange,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-146216, update keys,AssetChange,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-146217, update description,AssetChange,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-146218, update applicableEntity,AssetChange,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-146219, update entityParameter,AssetChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,3,PERCENT",204,TRUE
+AT-146220,update entityParameter->account[0]->frequency,AssetChange,negTestScenario10,,,,,,,,,1,,account,1,,MONTHLY,TRUE,,,"CHANGE,12,PERCENT",204,TRUE
+AT-146221,update entityParameter->account[0]->isSubscribed=false,AssetChange,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-146222,update entityParameter->account[0]->duration,AssetChange,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"CHANGE,12,PERCENT",400,TRUE
+AT-146223,update entityParameter->account[0]->insightType,AssetChange,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"CHANGE,12,PERCENT",400,TRUE
+AT-146224,update entityParameter->account[0]->insightType - Invalid Name,AssetChange,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"CHANGE,12,PERCENT",400,TRUE
+AT-146225,update entityParameter->account[0]->threshold[0]->name,AssetChange,negTestScenario27,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,12,PERCENT",400,TRUE
+AT-146226,update entityParameter->account[0]->threshold[0]->value,AssetChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,12,PERCENT",204,TRUE
+AT-146227, update entityParameter->account[0]->threshold[0]->type,AssetChange,negTestScenario30,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,6,AMOUNT",400,TRUE
+AT-146228, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,AssetChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,12,PERCENT",204,TRUE
+AT-146229, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,AssetChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,12,PERCENT",204,TRUE
+AT-146230,set threshold value to -1 PERCENT,AssetChange,negTestScenario31,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,-1,PERCENT",400,TRUE
+AT-146231,set threshold value to 0 PERCENT,AssetChange,negTestScenario31,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,0,PERCENT",400,TRUE
+AT-146232,set threshold value to 500(Max) PERCENT,AssetChange,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,500,PERCENT",204,TRUE
+AT-146233,set threshold value to 500(Max+1 - Negative Test) PERCENT,AssetChange,negTestScenario31,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,501,PERCENT",400,TRUE

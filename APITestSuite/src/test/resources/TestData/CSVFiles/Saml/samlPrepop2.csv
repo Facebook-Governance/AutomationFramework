@@ -1,0 +1,613 @@
+usTestcaseId,SL_NO,ISSUER_NAME,SOURCE_NAME,subjectUser,SAML_VERSION,ASSERTION_ENCRYPTION,ATTRIBUTE_ENCRYPTION,CUSTOM_ATTRIBUTE_ENCRYPTION,ATTRIBUTE_ENCODING,ATTRIBUTE_ENCODING_SCHEME,SIGN_RESPONSE,SIGN_ASSERTION,MULTIPLE_KEYS,ATTRIBUTE_ENCRYPTION_MECHANISM,SIGNING_ALIAS_KEY,SIGNING_ATTRIBUTE_KEY,YodleeAttribute,CobSessionValue,samlResponseKey,samlResponseValue,status,responseFile,responsePath,enable
+AT-88310,Test_Case_03,yodleesso1003,yodleesso1003,tesamltestuser00003,2,FALSE,0,FALSE,FALSE,base64,TRUE,FALSE,FALSE,aes256-cbc,samlqa,sso_attrib_key_yodleesso1003,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres1.json,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_04,yodleesso1004,yodleesso1004,tesamltestuser00004,2,FALSE,0,FALSE,FALSE,base64,TRUE,TRUE,TRUE,tripledes-cbc,samlqa,sso_attrib_key_yodleesso1004,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres2,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_05,yodleesso1005,yodleesso1005,tesamltestuser00005,2,FALSE,0,FALSE,TRUE,base64,FALSE,FALSE,FALSE,aes128-cbc,samlqa,sso_attrib_key_yodleesso1005,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres3,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_06,yodleesso1006,yodleesso1006,tesamltestuser00006,2,FALSE,0,FALSE,TRUE,base64,FALSE,TRUE,TRUE,aes192-cbc,samlqa,sso_attrib_key_yodleesso1006,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres4,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_07,yodleesso1007,yodleesso1007,tesamltestuser00007,2,FALSE,0,FALSE,TRUE,base64,TRUE,FALSE,FALSE,aes256-cbc,samlqa,sso_attrib_key_yodleesso1007,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres5,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_08,yodleesso1008,yodleesso1008,tesamltestuser00008,2,FALSE,0,FALSE,TRUE,base64,TRUE,TRUE,TRUE,tripledes-cbc,samlqa,sso_attrib_key_yodleesso1008,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres6,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_13,yodleesso1013,yodleesso1013,tesamltestuser00013,2,FALSE,5,FALSE,FALSE,base64,FALSE,FALSE,FALSE,aes128-cbc,samlqa,sso_attrib_key_yodleesso1013,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres7,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_14,yodleesso1014,yodleesso1014,tesamltestuser00014,2,FALSE,5,FALSE,FALSE,base64,FALSE,TRUE,TRUE,aes192-cbc,samlqa,sso_attrib_key_yodleesso1014,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres8,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_15,yodleesso1015,yodleesso1015,tesamltestuser00015,2,FALSE,5,FALSE,FALSE,base64,TRUE,FALSE,FALSE,aes256-cbc,samlqa,sso_attrib_key_yodleesso1015,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres9,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_16,yodleesso1016,yodleesso1016,tesamltestuser00016,2,FALSE,5,FALSE,FALSE,base64,TRUE,TRUE,TRUE,tripledes-cbc,samlqa,sso_attrib_key_yodleesso1016,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres10,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_21,yodleesso1021,yodleesso1021,tesamltestuser00021,2,FALSE,5,FALSE,TRUE,base64,FALSE,FALSE,FALSE,aes128-cbc,samlqa,sso_attrib_key_yodleesso1021,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres11,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_22,yodleesso1022,yodleesso1022,tesamltestuser00022,2,FALSE,5,FALSE,TRUE,base64,FALSE,TRUE,TRUE,aes192-cbc,samlqa,sso_attrib_key_yodleesso1022,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres12,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_23,yodleesso1023,yodleesso1023,tesamltestuser00023,2,FALSE,5,FALSE,TRUE,base64,TRUE,FALSE,FALSE,aes256-cbc,samlqa,sso_attrib_key_yodleesso1023,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres13,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_24,yodleesso1024,yodleesso1024,tesamltestuser00024,2,FALSE,5,FALSE,TRUE,base64,TRUE,TRUE,TRUE,tripledes-cbc,samlqa,sso_attrib_key_yodleesso1024,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres14,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_29,yodleesso1029,yodleesso1029,tesamltestuser00029,2,FALSE,5,TRUE,TRUE,base64,FALSE,FALSE,FALSE,aes128-cbc,samlqa,sso_attrib_key_yodleesso1029,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres15,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_30,yodleesso1030,yodleesso1030,tesamltestuser00030,2,FALSE,5,TRUE,TRUE,base64,FALSE,TRUE,TRUE,aes192-cbc,samlqa,sso_attrib_key_yodleesso1030,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres16,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_31,yodleesso1031,yodleesso1031,tesamltestuser00031,2,FALSE,5,TRUE,TRUE,base64,TRUE,FALSE,FALSE,aes256-cbc,samlqa,sso_attrib_key_yodleesso1031,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres17,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_32,yodleesso1032,yodleesso1032,tesamltestuser00032,2,FALSE,5,TRUE,TRUE,base64,TRUE,TRUE,TRUE,tripledes-cbc,samlqa,sso_attrib_key_yodleesso1032,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres18,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_33,yodleesso1033,yodleesso1033,tesamltestuser00033,2,TRUE,0,FALSE,FALSE,base64,FALSE,FALSE,FALSE,aes128-cbc,samlqa,sso_attrib_key_yodleesso1033,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres19,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_34,yodleesso1034,yodleesso1034,tesamltestuser00034,2,TRUE,0,FALSE,FALSE,base64,FALSE,TRUE,TRUE,aes192-cbc,samlqa,sso_attrib_key_yodleesso1034,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres20,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_35,yodleesso1035,yodleesso1035,tesamltestuser00035,2,TRUE,0,FALSE,FALSE,base64,TRUE,FALSE,FALSE,aes256-cbc,samlqa,sso_attrib_key_yodleesso1035,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres21,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_36,yodleesso1036,yodleesso1036,tesamltestuser00036,2,TRUE,0,FALSE,FALSE,base64,TRUE,TRUE,TRUE,tripledes-cbc,samlqa,sso_attrib_key_yodleesso1036,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres22,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_37,yodleesso1037,yodleesso1037,tesamltestuser00037,2,TRUE,0,FALSE,TRUE,base64,FALSE,FALSE,FALSE,aes128-cbc,samlqa,sso_attrib_key_yodleesso1037,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres23,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_38,yodleesso1038,yodleesso1038,tesamltestuser00038,2,TRUE,0,FALSE,TRUE,base64,FALSE,TRUE,TRUE,aes192-cbc,samlqa,sso_attrib_key_yodleesso1038,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres24,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_40,yodleesso1040,yodleesso1040,tesamltestuser00040,2,TRUE,0,FALSE,TRUE,base64,TRUE,TRUE,TRUE,tripledes-cbc,samlqa,sso_attrib_key_yodleesso1040,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres25,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_45,yodleesso1045,yodleesso1045,tesamltestuser00045,2,TRUE,5,FALSE,FALSE,base64,FALSE,FALSE,FALSE,aes128-cbc,samlqa,sso_attrib_key_yodleesso1045,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres26,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_46,yodleesso1046,yodleesso1046,tesamltestuser00046,2,TRUE,5,FALSE,FALSE,base64,FALSE,TRUE,TRUE,aes192-cbc,samlqa,sso_attrib_key_yodleesso1046,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres27,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_47,yodleesso1047,yodleesso1047,tesamltestuser00047,2,TRUE,5,FALSE,FALSE,base64,TRUE,FALSE,FALSE,aes256-cbc,samlqa,sso_attrib_key_yodleesso1047,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres28,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_53,yodleesso1053,yodleesso1053,tesamltestuser00053,2,TRUE,5,FALSE,TRUE,base64,FALSE,FALSE,FALSE,aes128-cbc,samlqa,sso_attrib_key_yodleesso1053,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres29,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_54,yodleesso1054,yodleesso1054,tesamltestuser00054,2,TRUE,5,FALSE,TRUE,base64,FALSE,TRUE,TRUE,aes192-cbc,samlqa,sso_attrib_key_yodleesso1054,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres30,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_55,yodleesso1055,yodleesso1055,tesamltestuser00055,2,TRUE,5,FALSE,TRUE,base64,TRUE,FALSE,FALSE,aes256-cbc,samlqa,sso_attrib_key_yodleesso1055,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres31,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_56,yodleesso1056,yodleesso1056,tesamltestuser00056,2,TRUE,5,FALSE,TRUE,base64,TRUE,TRUE,TRUE,tripledes-cbc,samlqa,sso_attrib_key_yodleesso1056,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres32,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_61,yodleesso1061,yodleesso1061,tesamltestuser00061,2,TRUE,5,TRUE,TRUE,base64,FALSE,FALSE,FALSE,aes128-cbc,samlqa,sso_attrib_key_yodleesso1061,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres33,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_62,yodleesso1062,yodleesso1062,tesamltestuser00062,2,TRUE,5,TRUE,TRUE,base64,FALSE,TRUE,TRUE,aes192-cbc,samlqa,sso_attrib_key_yodleesso1062,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres34,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_63,yodleesso1063,yodleesso1063,tesamltestuser00063,2,TRUE,5,TRUE,TRUE,base64,TRUE,FALSE,FALSE,aes256-cbc,samlqa,sso_attrib_key_yodleesso1063,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres35,../src/test/resources/TestData/saml/,TRUE
+AT-88310,Test_Case_64,yodleesso1064,yodleesso1064,tesamltestuser00064,2,TRUE,5,TRUE,TRUE,base64,TRUE,TRUE,TRUE,tripledes-cbc,samlqa,sso_attrib_key_yodleesso1064,"<YodleeAttributes>
+<Version>2.0</Version>
+<AuthenticationInfo><Status>Authenticated</Status></AuthenticationInfo>
+<ProfileInfo>
+<EMAIL>jane_doe@yodlee.com</EMAIL></ProfileInfo>
+<Accounts>
+<Account action=""add"" type=""SiteAccount"">
+<Site id=""16441"">
+<Credentials>
+<Credential name=""LOGIN"" value=""RestGenDocDown.site16441.7""/>
+<Credential name=""PASSWORD"" value=""site16441.7""/>
+</Credentials>
+</Site>
+</Account>
+</Accounts>
+</YodleeAttributes>
+",VALID,samlResponse,NA,200,samlres36,../src/test/resources/TestData/saml/,TRUE

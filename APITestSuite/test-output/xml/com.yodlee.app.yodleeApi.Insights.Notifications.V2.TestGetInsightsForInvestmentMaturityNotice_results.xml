@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Investment Maturity Notice"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="832.287">
+  <properties />
+  
+  
+            <testcase name="testGetNotificationsForInvestmentMaturityNotice" time="68.779" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForInvestmentMaturityNotice" />
+                <testcase name="testGetNotificationsForInvestmentMaturityNotice" time="68.788" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForInvestmentMaturityNotice" />
+                <testcase name="testGetNotificationsForInvestmentMaturityNotice" time="69.046" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForInvestmentMaturityNotice" />
+                <testcase name="testGetNotificationsForInvestmentMaturityNotice" time="67.837" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForInvestmentMaturityNotice" />
+                <testcase name="testGetNotificationsForInvestmentMaturityNotice" time="67.788" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForInvestmentMaturityNotice" />
+                <testcase name="testGetNotificationsForInvestmentMaturityNotice" time="72.149" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForInvestmentMaturityNotice" />
+                <testcase name="testGetNotificationsForInvestmentMaturityNotice" time="66.706" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForInvestmentMaturityNotice" />
+                <testcase name="testGetNotificationsForInvestmentMaturityNotice" time="69.426" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForInvestmentMaturityNotice" />
+                <testcase name="testGetNotificationsForInvestmentMaturityNotice" time="67.481" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForInvestmentMaturityNotice" />
+                <testcase name="testGetNotificationsForInvestmentMaturityNotice" time="67.585" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForInvestmentMaturityNotice" />
+                <testcase name="testGetNotificationsForInvestmentMaturityNotice" time="72.382" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForInvestmentMaturityNotice" />
+                <testcase name="testGetNotificationsForInvestmentMaturityNotice" time="74.320" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForInvestmentMaturityNotice" />
+      
+</testsuite>

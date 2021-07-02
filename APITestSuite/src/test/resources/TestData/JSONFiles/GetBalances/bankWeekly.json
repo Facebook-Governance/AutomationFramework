@@ -1,0 +1,25 @@
+{
+  "account": [
+    {
+      "isAsset": true,
+      "CONTAINER": "bank",
+      "id": "${json-unit.ignore}",
+      "balances": [
+        {
+          "date": "${json-unit.ignore}",
+          "balance": {
+            "amount": "${json-unit.ignore}",
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "${json-unit.ignore}",
+          "balance": {
+            "amount": "${json-unit.ignore}",
+            "currency": "USD"
+          }
+        }
+      ]
+    }
+  ]
+}

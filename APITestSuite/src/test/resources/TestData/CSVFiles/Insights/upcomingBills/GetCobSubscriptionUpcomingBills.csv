@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-138583,"Validate getCobrandSubscription for UpcomingBills , check if Insight is unSubscribed to OR isSubscribed=false ",,UpcomingBills,UpcomingBills,,,,,,,,FALSE,,,,200,TRUE
+AT-138584,"Validate  getCobrandSubscription for  UpcomingBills , Validate InsightName",,UpcomingBills,UpcomingBills,,,,,,,,,,,,200,TRUE
+AT-138585,"Validate getCobrandSubscription for  UpcomingBills , Validate Supporting container",,UpcomingBills,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-138586,"Validate getCobrandSubscription for  UpcomingBills , Validate TriggerType",SCHEDULE,UpcomingBills,,,,,,,,,,,,,200,TRUE
+AT-138587,"Validate getCobrandSubscription for  UpcomingBills , Validate applicableEntity",,UpcomingBills,,,,,,,"ACCOUNT,VIEW",,,,,,200,TRUE
+AT-138588,"Validate getCobrandSubscription for  UpcomingBills , Validate number of levels and levelObject",,UpcomingBills,,,,,,,"ACCOUNT,VIEW","account,view",,,,,200,TRUE
+AT-138589,"Validate getCobrandSubscription for  UpcomingBills , Validate isSubscribed=false",,UpcomingBills,,,,,,,,,FALSE,,,,200,TRUE
+AT-138590,"Validate getCobrandSubscription for  UpcomingBills , Validate threshold Name,default Value  and Type",,UpcomingBills,,,,,,,,"account,view",,,"FUTURE,7,DAYS",,200,TRUE
+AT-138591,"Validate getCobrandSubscription for  UpcomingBills , Validate insightKeys for Account",,UpcomingBills,,,,Account,,,,,,,,,200,TRUE
+AT-138592,"Validate getCobrandSubscription for  UpcomingBills , Validate description",,UpcomingBills,,,,,,Generates an insight that lists upcoming recurring bills within a configured time period.,,,,,,,200,TRUE
+AT-138593,"Validate getCobrandSubscription for  UpcomingBills , Validate title",,UpcomingBills,,Upcoming Bills,,,,,,,,,,,200,TRUE
+AT-138594,"Validate getCobrandSubscription for  UpcomingBills , Validate ruleExpression",,UpcomingBills,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-138595,"Validate getCobrandSubscription for  UpcomingBills , Validate total number of keys",,UpcomingBills,,,,,17,,,,,,,,200,TRUE
+AT-138591,"Validate getCobrandSubscription for  UpcomingBills , Validate insightKeys for View",,UpcomingBills,,,,View,,,,,,,,,200,TRUE

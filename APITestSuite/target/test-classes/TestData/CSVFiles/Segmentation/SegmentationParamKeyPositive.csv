@@ -1,0 +1,10 @@
+tcId,tcName,acl_KEY1,acl_KEY12,enabled,checkpoint
+AT-97265,param_value would be picked from cob_param table for that subbrand_id,5972,0,TRUE,One
+AT-97266,Verify the API  by passing valid param_key with only cobSession,5973,0,TRUE,One
+AT-97266,Verify the API  by passing valid param_key with only cobSession,3139,0,TRUE,default
+AT-97266,Verify the API  by passing valid param_key with only cobSession,3129,0,TRUE,default
+AT-97266,Verify the API  by passing valid param_key with only cobSession,1393,0,TRUE,ChannelSegment
+AT-97263,Verify the API  by passing valid param_key with only cobSession,6011,0,TRUE,One
+AT-97263,Verify the API  by passing valid param_key with only cobSession,6019,0,TRUE,One
+AT-97263,Verify the API  by passing valid param_key with only cobSession,5998,0,TRUE,One
+AT-97263,verify the API  by passing valid param_key has comma separated values,5998,6019,TRUE,Two

@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-138685,"Validate getCobrandSubscription for UpcomingSubscription , check if Insight is unSubscribed to OR isSubscribed=false ",,UpcomingSubscription,UpcomingSubscription,,,,,,,,FALSE,,,,200,TRUE
+AT-138686,"Validate  getCobrandSubscription for  UpcomingSubscription , Validate InsightName",,UpcomingSubscription,UpcomingSubscription,,,,,,,,,,,,200,TRUE
+AT-138687,"Validate getCobrandSubscription for  UpcomingSubscription , Validate Supporting container",,UpcomingSubscription,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-138688,"Validate getCobrandSubscription for  UpcomingSubscription , Validate TriggerType",SCHEDULE,UpcomingSubscription,,,,,,,,,,,,,200,TRUE
+AT-138689,"Validate getCobrandSubscription for  UpcomingSubscription , Validate applicableEntity",,UpcomingSubscription,,,,,,,"ACCOUNT,VIEW",,,,,,200,TRUE
+AT-138690,"Validate getCobrandSubscription for  UpcomingSubscription , Validate number of levels and levelObject",,UpcomingSubscription,,,,,,,"ACCOUNT,VIEW","account,view",,,,,200,TRUE
+AT-138691,"Validate getCobrandSubscription for  UpcomingSubscription , Validate isSubscribed=false",,UpcomingSubscription,,,,,,,,,FALSE,,,,200,TRUE
+AT-138692,"Validate getCobrandSubscription for  UpcomingSubscription , Validate threshold Name,default Value  and Type",,UpcomingSubscription,,,,,,,,"account,view",,,"FUTURE,7,DAYS",,200,TRUE
+AT-138693,"Validate getCobrandSubscription for  UpcomingSubscription , Validate insightKeys",,UpcomingSubscription,,,,Account,,,,,,,,,200,TRUE
+AT-138694,"Validate getCobrandSubscription for  UpcomingSubscription , Validate description",,UpcomingSubscription,,,,,,Generates an insight that lists upcoming recurring subscriptions within a configured time period.,,,,,,,200,TRUE
+AT-138695,"Validate getCobrandSubscription for  UpcomingSubscription , Validate title",,UpcomingSubscription,,Upcoming Subscription,,,,,,,,,,,200,TRUE
+AT-138696,"Validate getCobrandSubscription for  UpcomingSubscription , Validate ruleExpression",,UpcomingSubscription,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-138697,"Validate getCobrandSubscription for  UpcomingSubscription , Validate total number of keys",,UpcomingSubscription,,,,,17,,,,,,,,200,TRUE
+AT-138693,"Validate getCobrandSubscription for UpcomingSubscription , Validate insightKeys for View",,UpcomingSubscription,,,,View,,,,,,,,,200,TRUE

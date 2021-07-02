@@ -1,0 +1,19 @@
+{
+  "providerAccount": [
+    {
+      "id": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "providerId": "${json-unit.ignore}",
+      "isManual": false,
+      "createdDate": "${json-unit.ignore}",
+      "status": "FAILED",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "CREDENTIALS_UPDATE_NEEDED",
+          "updateEligibility": "ALLOW_UPDATE_WITH_CREDENTIALS"
+        }
+      ]
+    }
+  ]
+}

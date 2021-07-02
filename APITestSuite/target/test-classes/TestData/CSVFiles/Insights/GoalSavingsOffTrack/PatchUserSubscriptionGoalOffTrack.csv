@@ -1,0 +1,18 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147321,subscribe to GoalOffTrack,GoalOffTrack,,,,,,,,,,,1,,goal,1,,,TRUE,,,,204,TRUE
+AT-147322,updateTriggerType,GoalOffTrack,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147323, update insightName by same name,GoalOffTrack,negTestScenario17,,GoalOffTrack,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147324, update insightName edit InsightName,GoalOffTrack,negTestScenario2,,GoalOffTrackEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147325,update insightTitle,GoalOffTrack,negTestScenario33,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-147326,update container,GoalOffTrack,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-147327,update keys,GoalOffTrack,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147328,update description,GoalOffTrack,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147329,update applicableEntity,GoalOffTrack,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-147330,update entityParameter,GoalOffTrack,,,,,,,,,,,1,,goal,1,,,TRUE,,,,204,TRUE
+AT-147331, update entityParameter->account[0]->id - Valid ItemAccountId,GoalOffTrack,,,,,,,,,,,1,,goal,1,,,TRUE,,,,204,TRUE
+AT-147332, update entityParameter->account[0]->id - InValid GoalId,GoalOffTrack,negTestScenario20,,,,,,,,,,1,,goal,1,76823,,TRUE,,,,400,TRUE
+AT-147333, update entityParameter->account[0]->isSubscribed=false,GoalOffTrack,negTestScenario21,,,,,,,,,,1,,goal,1,,,FALSE,,,,400,TRUE
+AT-147334,update duration  -  entityParameter->account[0]->duration ,GoalOffTrack,negTestScenario21,,,,,,,,,,1,,goal,1,,,TRUE,LAST_MONHT,,,400,TRUE
+AT-147335,update insightType to AGGREGATE - entityParameter->account[0]->insightType,GoalOffTrack,negTestScenario21,,,,,,,,,,1,,goal,1,,,TRUE,,AGGREGATE,,400,TRUE
+AT-147336,update insightType to INVALID - entityParameter->account[0]->insightType,GoalOffTrack,negTestScenario24,,,,,,,,,,1,,goal,1,,,TRUE,,INVALID,,400,TRUE
+AT-147337,update configMeta - subscrption Info - configMeta->account[0]->id,GoalOffTrack,negTestScenario19,,,,,,,,,,1,TRUE,goal,1,,,FALSE,,,"BALANCE,499,AMOUNT",400,TRUE

@@ -1,0 +1,75 @@
+testCaseId,TestCase,categoryNameKey,categoryNameValue,parentCategoryIdKey,parentCategoryIdValue,status,Enabled,DefectID
+AT-66257,Empty category name key,,a,parentCategoryId,3,400,TRUE,0
+AT-66258,null category key name,null,b,parentCategoryId,3,400,TRUE,0
+AT-58024,Valid category key,categoryName,c,parentCategoryId,3,201,TRUE,0
+AT-66260,Empty category name value and categoryNameKey,,,parentCategoryId,3,400,TRUE,0
+AT-66261,Empty categoryNameValue and null categoryNameKey,null,,parentCategoryId,3,400,TRUE,0
+AT-66262,Empty category name value,categoryName,,parentCategoryId,3,400,TRUE,0
+AT-66263,Empty CategoryKeyName null category Name Value,,null,parentCategoryId,3,400,TRUE,0
+AT-66264,Null CategoryKeyName null category Name Value,null,null,parentCategoryId,3,400,TRUE,0
+AT-66265, null category Name Value,categoryName,null,parentCategoryId,3,400,TRUE,0
+AT-66266,Duplicate test case,categoryName,null,parentCategoryId,3,400,TRUE,0
+AT-66267,CategoryNameValue greater than 50 and categoryKey empty,,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,parentCategoryId,3,400,TRUE,0
+AT-66268,CategoryNameValue greater than 50 and categoryKey null,null,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,parentCategoryId,3,400,TRUE,0
+AT-66269,CategoryNameValue greater than 50,categoryName,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,parentCategoryId,3,400,TRUE,0
+AT-66270,empty parentCategoryId and categoryNameKey,,a,,3,400,TRUE,0
+AT-66271,empty parentCategoryId and null categoryNameKey,null,b,,3,400,TRUE,0
+AT-66272,empty parentCategoryId,categoryName,c,,3,400,TRUE,0
+AT-66273,"empty parentCategoryId, categoryNameKey and CategoryValue",,,,3,400,TRUE,0
+AT-66274,"null parentCategoryId, categoryNameKey and CategoryValue",null,,,3,400,TRUE,0
+AT-66275,empty categoryNameKey and CategoryValue,categoryName,,,3,400,TRUE,0
+AT-66276,empty parentCategoryId and categoryNameKey,,null,,3,400,TRUE,0
+AT-66277,empty parentCategoryId and null categoryNameKey,null,null,,3,400,TRUE,0
+AT-66278,Empty parentCategoryId null categoryValue,categoryName,null,,3,400,TRUE,0
+AT-66279,Empty parentCategoryId and CategoryValue Greater than 50,,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,,3,400,TRUE,0
+AT-66280,Empty parentCategoryId and CategoryValue Greater than 50,null,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,,3,400,TRUE,0
+AT-66281,Empty parentCategoryId and CategoryValue Greater than 50,categoryName,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,,3,400,TRUE,0
+AT-66282,null parentCategoryId,,a,null,3,400,TRUE,0
+AT-66283,null parentCategoryId,null,b,null,3,400,TRUE,0
+AT-66284,null parentCategoryId,categoryName,c,null,3,400,TRUE,0
+AT-66285,null parentCategoryId,,,null,3,400,TRUE,0
+AT-66286,null parentCategoryId,null,,null,3,400,TRUE,0
+AT-66287,null parentCategoryId,categoryName,,null,3,400,TRUE,0
+AT-66288,null parentCategoryId and categoryvalue null,,null,null,3,400,TRUE,0
+AT-66289,null parentCategoryId and categoryvalue null,null,null,null,3,400,TRUE,0
+AT-66290,null parentCategoryId and categoryvalue null,categoryName,null,null,3,400,TRUE,0
+AT-66291,null parentCategoryId and CategoryValue Greater than 50,,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,null,3,400,TRUE,0
+AT-66292,null parentCategoryId and CategoryValue Greater than 50,null,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,null,3,400,TRUE,0
+AT-66293,null parentCategoryId and CategoryValue Greater than 50,categoryName,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,null,3,400,TRUE,0
+AT-66294,Invalid parentCategoryId,,a,parentCategoryId,214871984,400,TRUE,0
+AT-66295,Invalid parentCategoryId,null,b,parentCategoryId,214871984,400,TRUE,0
+AT-66296,Invalid parentCategoryId,categoryName,c,parentCategoryId,214871984,400,TRUE,0
+AT-66297,Invalid parentCategoryId,,,parentCategoryId,214871984,400,TRUE,0
+AT-66298,Invalid parentCategoryId,null,,parentCategoryId,214871984,400,TRUE,0
+AT-66299,Invalid parentCategoryId,categoryName,,parentCategoryId,214871984,400,TRUE,0
+AT-66300,Invalid parentCategoryId,,null,parentCategoryId,214871984,400,TRUE,0
+AT-66301,Invalid parentCategoryId,null,null,parentCategoryId,214871984,400,TRUE,0
+AT-66302,Invalid parentCategoryId,categoryName,null,parentCategoryId,214871984,400,TRUE,0
+AT-66303,Invalid parentCategoryId,,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,parentCategoryId,214871984,400,TRUE,0
+AT-66304,Invalid parentCategoryId,null,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,parentCategoryId,214871984,400,TRUE,0
+AT-66305,Invalid parentCategoryId,categoryName,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,parentCategoryId,214871984,400,TRUE,0
+AT-66306,Invalid parentCategoryId,,a,,214871984,400,TRUE,0
+AT-66307,Invalid parentCategoryId,null,b,,214871984,400,TRUE,0
+AT-66308,Invalid parentCategoryId,categoryName,c,,214871984,400,TRUE,0
+AT-66309,Invalid parentCategoryId,,,,214871984,400,TRUE,0
+AT-66310,Invalid parentCategoryId,null,,,214871984,400,TRUE,0
+AT-66311,Invalid parentCategoryId,categoryName,,,214871984,400,TRUE,0
+AT-66312,Invalid parentCategoryId,,null,,214871984,400,TRUE,0
+AT-66313,Invalid parentCategoryId,null,null,,214871984,400,TRUE,0
+AT-66314,Invalid parentCategoryId,categoryName,null,,214871984,400,TRUE,0
+AT-66315,Invalid parentCategoryId,,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,,214871984,400,TRUE,0
+AT-66316,Invalid parentCategoryId,null,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,,214871984,400,TRUE,0
+AT-66317,Invalid parentCategoryId,categoryName,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,,214871984,400,TRUE,0
+AT-66318,Invalid parentCategoryId,,a,null,214871984,400,TRUE,0
+AT-66319,Invalid parentCategoryId,null,b,null,214871984,400,TRUE,0
+AT-66320,Invalid parentCategoryId,categoryName,c,null,214871984,400,TRUE,0
+AT-66321,Invalid parentCategoryId,,,null,214871984,400,TRUE,0
+AT-66322,Invalid parentCategoryId,null,,null,214871984,400,TRUE,0
+AT-66323,Invalid parentCategoryId,categoryName,,null,214871984,400,TRUE,0
+AT-66324,Invalid parentCategoryId,,null,null,214871984,400,TRUE,0
+AT-66325,Invalid parentCategoryId,null,null,null,214871984,400,TRUE,0
+AT-66326,Invalid parentCategoryId,categoryName,null,null,214871984,400,TRUE,0
+AT-66327,Invalid parentCategoryId,,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,null,214871984,400,TRUE,0
+AT-66328,Invalid parentCategoryId,null,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,null,214871984,400,TRUE,0
+AT-66329,Invalid parentCategoryId,categoryName,112345678765434567829344389hfdjjcvkjSguhoiJFidhoidJgzfoijgPjgPogjzpaegefhiGhguhUGHUGFDGFLZKGJZKLZKknlkgz,null,214871984,400,TRUE,0
+AT-66330,wrong category key name,category,c,parentCategoryId,3,400,TRUE,0

@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-154562,"Validate getCobrandSubscription for CardStatementAvailable , check if Insight is unSubscribed to OR isSubscribed=false ",,CardStatementAvailable,CardStatementAvailable,,,,,,,,FALSE,,,,200,TRUE
+AT-154563,"Validate  getCobrandSubscription for  CardStatementAvailable , Validate InsightName",,CardStatementAvailable,CardStatementAvailable,,,,,,,,,,,,200,TRUE
+AT-154564,"Validate getCobrandSubscription for  CardStatementAvailable , Validate Supporting container",,CardStatementAvailable,,,CARD,,,,,,,,,,200,TRUE
+AT-154565,"Validate getCobrandSubscription for  CardStatementAvailable , Validate TriggerType",REFRESH,CardStatementAvailable,,,,,,,,,,,,,200,TRUE
+AT-154566,"Validate getCobrandSubscription for  CardStatementAvailable , Validate applicableEntity",,CardStatementAvailable,,,,,,,"ACCOUNT,VIEW",,,,,,200,TRUE
+AT-154567,"Validate getCobrandSubscription for  CardStatementAvailable , Validate number of levels and levelObject",,CardStatementAvailable,,,,,,,"ACCOUNT,VIEW","account,view",,,,,200,TRUE
+AT-154568,"Validate getCobrandSubscription for  CardStatementAvailable , Validate isSubscribed=false",,CardStatementAvailable,,,,,,,,,FALSE,,,,200,TRUE
+AT-154569,"Validate getCobrandSubscription for  CardStatementAvailable , Validate threshold Name,default Value  and Type",,CardStatementAvailable,,,,,,,,"account,view",,,"DAYS_BEFORE,10,DAYS",,200,TRUE
+AT-154570,"Validate getCobrandSubscription for  CardStatementAvailable , Validate insightKeys for Account",,CardStatementAvailable,,,,Account,,,,,,,,,200,TRUE
+AT-154571,"Validate getCobrandSubscription for  CardStatementAvailable , Validate description",,CardStatementAvailable,,,,,,Generates an insight when a new credit card statement is available.,,,,,,,200,TRUE
+AT-154572,"Validate getCobrandSubscription for  CardStatementAvailable , Validate title",,CardStatementAvailable,,Card Statement Available,,,,,,,,,,,200,TRUE
+AT-154573,"Validate getCobrandSubscription for  CardStatementAvailable , Validate ruleExpression",,CardStatementAvailable,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-154574,"Validate getCobrandSubscription for  CardStatementAvailable , Validate total number of keys",,CardStatementAvailable,,,,,18,,,,,,,,200,TRUE
+AT-154575,"Validate getCobrandSubscription for  CardStatementAvailable , Validate insightKeys for View",,CardStatementAvailable,,,,View,,,,,,,,,200,TRUE

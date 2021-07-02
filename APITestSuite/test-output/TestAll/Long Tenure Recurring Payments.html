@@ -1,0 +1,387 @@
+<html>
+<head>
+<title>TestNG:  Long Tenure Recurring Payments</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Long Tenure Recurring Payments</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/9/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 19 01:27:37 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>797 seconds (797947 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.prepareAutomationReport()'><b>prepareAutomationReport</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.yodlee.insights.yodleeApi.utils.InsightsHelper.printSummaryOfTests(InsightsHelper.java:1966)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.prepareAutomationReport(TestGetInsightsForLongTenureRecurringPayments.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1206831161", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1206831161'><pre>java.lang.NullPointerException
+	at com.yodlee.insights.yodleeApi.utils.InsightsHelper.printSummaryOfTests(InsightsHelper.java:1966)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.prepareAutomationReport(TestGetInsightsForLongTenureRecurringPayments.java:316)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments@649bec2e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments()'><b>testGetNotificationsForLongTenureRecurringPayments</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments<br>Parameters: AT-141054, Validate LoanMaturityNotice Insight when cobrand is  Subscribed and User is also Subscribed(Inheriting Cobrand Thresholds), LONG_TENURE_RECURRING_PAYMENTS, FALSE, SCHEDULE, , 1, account, , 1, TRUE, TRUE, , , , 0, Account, 201, TRUE</td>
+<td><div><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1543072541", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1543072541'><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>65</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments@649bec2e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments()'><b>testGetNotificationsForLongTenureRecurringPayments</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments<br>Parameters: AT-141055, Validate LoanMaturityNotice Insight when cobrand is  Subscribed and User is Subscribed, LONG_TENURE_RECURRING_PAYMENTS, FALSE, SCHEDULE, , 1, account, TOP,5,NUMBER, 1, TRUE, TRUE, TRUE, , , 0, Account, 201, TRUE</td>
+<td><div><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1853272233", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1853272233'><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>65</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments@649bec2e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments()'><b>testGetNotificationsForLongTenureRecurringPayments</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments<br>Parameters: AT-141056, Validate LongTenureRecurringPayments Inisight generation when cobrand is subscribed for account's default threshold - Insights must be generated, LONG_TENURE_RECURRING_PAYMENTS, FALSE, SCHEDULE, , 1, account, TOP,5,NUMBER, 1, TRUE, TRUE, TRUE, , , 0, Account, 201, TRUE</td>
+<td><div><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1381768068", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1381768068'><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>65</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments@649bec2e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments()'><b>testGetNotificationsForLongTenureRecurringPayments</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments<br>Parameters: AT-141057, Validate LongTenureRecurringPayments Inisight generation when cobrand is subscribed for account's default threshold -MONTHLY, LONG_TENURE_RECURRING_PAYMENTS, FALSE, SCHEDULE, , 1, account, TOP,5,NUMBER, 1, TRUE, TRUE, TRUE, , , 0, Account, 201, TRUE</td>
+<td><div><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1902795005", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1902795005'><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>65</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments@649bec2e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments()'><b>testGetNotificationsForLongTenureRecurringPayments</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments<br>Parameters: AT-141058, Validate LongTenureRecurringPayments Inisight generation when cobrand and user are both subscribed for an account user changes threshold values from cobrand default threshold(ACCOUNT) - Insights must be generated, LONG_TENURE_RECURRING_PAYMENTS, FALSE, SCHEDULE, , 1, account, TOP,2,NUMBER, 1, TRUE, NA, TRUE, , , 0, Account, 201, TRUE</td>
+<td><div><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace425449501", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace425449501'><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>65</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments@649bec2e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments()'><b>testGetNotificationsForLongTenureRecurringPayments</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments<br>Parameters: AT-141059, Validate LongTenureRecurringPayments Inisight generation when defalut thresold changes 10, LONG_TENURE_RECURRING_PAYMENTS, FALSE, SCHEDULE, , 1, account, TOP,10,NUMBER, 1, TRUE, NA, TRUE, , , 0, Account, 201, TRUE</td>
+<td><div><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace758417412", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace758417412'><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>65</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments@649bec2e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments()'><b>testGetNotificationsForLongTenureRecurringPayments</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments<br>Parameters: AT-141060, Validate LongTenureRecurringPayments Inisight generation when defalut thresold changes 1, LONG_TENURE_RECURRING_PAYMENTS, FALSE, SCHEDULE, , 1, account, TOP,1,NUMBER, 1, TRUE, NA, TRUE, , , 0, Account, 201, TRUE</td>
+<td><div><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace238584551", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace238584551'><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>65</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments@649bec2e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments()'><b>testGetNotificationsForLongTenureRecurringPayments</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments<br>Parameters: AT-141061, Validate LongTenureRecurringPayments Inisight generation when defalut thresold changes max 99, LONG_TENURE_RECURRING_PAYMENTS, FALSE, SCHEDULE, , 1, account, TOP,99,NUMBER, 1, TRUE, NA, TRUE, , , 0, Account, 201, TRUE</td>
+<td><div><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1138289922", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1138289922'><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>65</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments@649bec2e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments()'><b>testGetNotificationsForLongTenureRecurringPayments</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments<br>Parameters: AT-141062, Validate LongTenureRecurringPayments Inisight generation when defalut thresold changes to Zero, LONG_TENURE_RECURRING_PAYMENTS, FALSE, SCHEDULE, , 1, account, TOP,0,NUMBER, 1, TRUE, NA, TRUE, , , 0, Account, 201, TRUE</td>
+<td><div><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1644134827", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1644134827'><pre>junit.framework.AssertionFailedError: Expected  1 insights triggered But found Empty {}
+	at junit.framework.Assert.fail(Assert.java:57)
+	at com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments(TestGetInsightsForLongTenureRecurringPayments.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>65</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments@649bec2e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments()'><b>testGetNotificationsForLongTenureRecurringPayments</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments<br>Parameters: AT-141052, Validate LongTenureRecurringPayments Inisight generation when cobrand is not subscribed to an account - Insights shouldn't be generated, LONG_TENURE_RECURRING_PAYMENTS, FALSE, SCHEDULE, , 1, account, , 0, TRUE, FALSE, , , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>65</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments@649bec2e</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments.testGetNotificationsForLongTenureRecurringPayments()'><b>testGetNotificationsForLongTenureRecurringPayments</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments<br>Parameters: AT-141053, Validate LoanMaturityNotice Insight when cobrand is  Subscribed and User is not Subscribed, LONG_TENURE_RECURRING_PAYMENTS, FALSE, SCHEDULE, , 1, account, , 0, TRUE, TRUE, FALSE, , , 0, Account, 201, TRUE</td>
+<td></td>
+<td>65</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForLongTenureRecurringPayments@649bec2e</td></tr>
+</table><p>
+</body>
+</html>

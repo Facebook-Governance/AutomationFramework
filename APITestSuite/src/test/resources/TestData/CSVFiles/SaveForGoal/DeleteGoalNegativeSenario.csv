@@ -1,0 +1,2 @@
+TestCaseId,TestCase,GoalID,httpStatus,ResFile,FilePath,Enabled
+AT-101287,delete Invalid  Goal,123456,201,DeleteInvalidGoal,../src/test/resources/TestData/JSONFiles/SaveForGoal/,TRUE

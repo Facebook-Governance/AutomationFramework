@@ -1,0 +1,81 @@
+{
+  "provider": [
+    {
+      "PRIORITY": "SEARCH",
+      "id": 16442,
+      "name": "Dag Site Multilevel",
+      "loginUrl": "http://64.14.28.129/dag/index.do",
+      "baseUrl": "http://64.14.28.129/dag/index.do",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_Default.SVG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.SVG",
+      "status": "Supported",
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "US",
+      "lastModified": "2017-09-11T20:05:54Z",
+      "forgetPasswordUrl": "http://64.14.28.129/dag/index.do",
+      "isAutoRefreshEnabled": true,
+      "dataset": [
+        {
+          "name": "DOCUMENT",
+          "attribute": [
+            {
+              "name": "STATEMENT",
+              "container": [
+                "bank",
+                "investment"
+              ]
+            },
+            {
+              "name": "EBILL",
+              "container": [
+                "creditCard"
+              ]
+            },
+            {
+              "name": "TAX",
+              "container": [
+                "investment"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BASIC_AGG_DATA",
+          "attribute": [
+            {
+              "name": "ACCOUNT_DETAILS",
+              "container": [
+                "bank",
+                "investment",
+                "creditCard"
+              ]
+            },
+            {
+              "name": "HOLDINGS",
+              "container": [
+                "investment"
+              ]
+            },
+            {
+              "name": "STATEMENTS",
+              "container": [
+                "creditCard"
+              ]
+            },
+            {
+              "name": "TRANSACTIONS",
+              "container": [
+                "bank",
+                "investment",
+                "creditCard"
+              ]
+            }
+          ]
+        }
+      ],
+      "isAddedByUser": "false",
+      "authType": "MFA_CREDENTIALS"
+    }
+  ]
+}

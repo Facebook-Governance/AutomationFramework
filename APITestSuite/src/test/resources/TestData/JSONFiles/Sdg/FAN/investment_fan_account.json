@@ -1,0 +1,82 @@
+{
+  "account": [
+    {
+      "fullAccountNumber": "3456789102",
+      "CONTAINER": "investment",
+      "isManual": false,
+      "isAsset": true,
+      "lastUpdated": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "userClassification": "PERSONAL",
+      "balance": {
+        "amount": "${json-unit.ignore}",
+        "currency": "USD"
+      },
+      "accountName": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "accountNumber": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "updateEligibility": "${json-unit.ignore}",
+          "name": "ACCT_PROFILE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}"
+        },
+        {
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "updateEligibility": "${json-unit.ignore}",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "Wells Fargo",
+      "accountStatus": "ACTIVE",
+      "accountType": "${json-unit.ignore}",
+      "providerId": "5",
+      "includeInNetWorth": true,
+      "createdDate": "${json-unit.ignore}",
+      "providerAccountId": "${json-unit.ignore}"
+    },
+    {
+      "fullAccountNumber": "3456789101",
+      "CONTAINER": "investment",
+      "isManual": false,
+      "isAsset": true,
+      "lastUpdated": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "userClassification": "PERSONAL",
+      "balance": {
+        "amount": "${json-unit.ignore}",
+        "currency": "USD"
+      },
+      "accountName": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "accountNumber": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "updateEligibility": "${json-unit.ignore}",
+          "name": "ACCT_PROFILE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}"
+        },
+        {
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "updateEligibility": "${json-unit.ignore}",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "Wells Fargo",
+      "accountStatus": "ACTIVE",
+      "accountType": "${json-unit.ignore}",
+      "providerId": "5",
+      "includeInNetWorth": true,
+      "createdDate": "${json-unit.ignore}",
+      "providerAccountId": "${json-unit.ignore}"
+    }
+  ]
+}

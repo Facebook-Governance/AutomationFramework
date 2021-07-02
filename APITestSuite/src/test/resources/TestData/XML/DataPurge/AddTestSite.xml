@@ -1,0 +1,62 @@
+<entity type="multiple">
+<request>
+<add-provider-accounts-multiple>
+<add-provider-accounts order="1">
+	<siteUser>test</siteUser>
+	<siteUserId>80025</siteUserId>
+	<sitePwd>test</sitePwd>
+	<sitePwdId>80026</sitePwdId>
+	<siteId>19686</siteId>
+	<dataList>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>ACCOUNT_DETAILS</name>
+							<container>creditCard,bank,investment
+							</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>TRANSACTIONS</name>
+							<container>creditCard,bank,investment
+							</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+					<dataset>
+					<name>ACCT_PROFILE</name>
+					<attributeList>
+						<attribute>
+							<name>HOLDER_DETAILS</name>
+							<container>bank</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+</add-provider-accounts>
+</add-provider-accounts-multiple>
+        
+        <get-accounts-multiple>
+		<get-accounts order="1">
+            <status>ACTIVE</status>
+            <container></container>
+            <accountReconType></accountReconType>
+        </get-accounts>
+		</get-accounts-multiple>
+    </request>
+    <response>
+        <providerDetails-multiple>
+		<provider-accounts order="1">
+            <row>
+                <filePath>../src/test/resources/TestData/DataPurge/ProviderDetails/</filePath>
+                <responseFile>ACCT_PROFILE_BASIC_AGG_RES_ASSERT_GetProviderDetails.json</responseFile>
+            </row>
+        </providerDetails>
+		</providerDetails-multiple>
+    </response>
+</entity>

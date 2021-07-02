@@ -1,0 +1,43 @@
+{
+  "account": [
+    {
+      "CONTAINER": "investment",
+      "providerAccountId": "${json-unit.ignore}",
+      "accountName": "${json-unit.ignore}",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "${json-unit.ignore}",
+      "fullAccountNumber": "${json-unit.ignore}",
+      "isAsset": true,
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": "${json-unit.ignore}",
+        "currency": "USD"
+      },
+      "id": "${json-unit.ignore}",
+      "userClassification": "PERSONAL",
+      "lastUpdated": "${json-unit.ignore}",
+      "includeInNetWorth": true,
+      "providerId": "5",
+      "providerName": "Wells Fargo",
+      "isManual": false,
+      "accountType": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "updateEligibility": "${json-unit.ignore}",
+          "name": "ACCT_PROFILE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}"
+        },
+        {
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "updateEligibility": "${json-unit.ignore}",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}"
+        }
+      ]
+    }
+  ]
+}

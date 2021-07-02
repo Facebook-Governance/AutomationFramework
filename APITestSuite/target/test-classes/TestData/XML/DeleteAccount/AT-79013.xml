@@ -1,0 +1,71 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>testDeleteAccount.site16441.1</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.1</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>bank,creditCard,loan</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+				<ignoreGetProviderAccountFailure>true
+				</ignoreGetProviderAccountFailure>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<deleteAccounts-multiple>
+			<deleteAccounts order="1">
+				<container>bank</container>
+			</deleteAccounts>
+		</deleteAccounts-multiple>
+		<update-provider-accounts-multiple>
+			<update-provider-accounts order="1">
+				<siteUser>testDeleteAccount.site16441.1</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.1</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>bank,creditCard,loan</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</update-provider-accounts>
+		</update-provider-accounts-multiple>
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<status></status>
+				<container>bank</container>
+				<accountReconType></accountReconType>
+				<isRequestID>null</isRequestID>
+			</get-accounts>
+		</get-accounts-multiple>
+
+	</request>
+	<response>
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/DeleteItemAccount/
+					</filePath>
+					<responseFile>UpdateAfterDeleteDS.json</responseFile>
+				</row>
+			</get-accounts>
+		</get-accounts-multiple>
+	</response>
+</entity>

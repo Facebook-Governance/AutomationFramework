@@ -1,0 +1,2 @@
+TestCaseId,TestCaseName,statusCode,filePath,fileName
+1,get categorization rule created for user,200,../src/test/resources/TestData/Transactions/TxnRule/,getTxn.json

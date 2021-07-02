@@ -1,0 +1,46 @@
+{
+  "account": [
+    {
+      "includeInNetWorth": true,
+      "accountName": "InvestmentAccount3",
+      "accountType": "OTHER",
+      "isManual": false,
+      "displayedName": "single holder Name_inv2",
+      "holder": [
+        {
+          "ownership": "PRIMARY",
+          "name": {
+            "middle": "holder_inv",
+            "last": "Name_inv2",
+            "fullName": "single holder Name_inv2",
+            "first": "single_inv"
+          }
+        }
+      ],
+      "accountNumber": "xxxx7890",
+      "accountStatus": "ACTIVE",
+      "lastUpdated": "${json-unit.ignore}",
+      "isAsset": true,
+      "createdDate": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 620,
+        "currency": "USD"
+      },
+      "providerId": "19705",
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "investment",
+      "id": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "name": "ACCT_PROFILE",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "HongLeong Bank"
+    }
+  ]
+}

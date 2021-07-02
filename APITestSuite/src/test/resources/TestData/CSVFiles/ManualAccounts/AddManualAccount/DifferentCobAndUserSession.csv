@@ -1,0 +1,14 @@
+Testcaseid,TestcaseName,cobSession,userSession,status,resFile,filePath,defectId,enabled
+A-AddManualBankAndInv-1,both valid,VALID,VALID,201,A_AddManBankAndInvDiffCobAndUser_1,../src/test/resources/TestData/JSONFiles/ManualAccounts/AddManualAccount/BankAndInvestment/DifferentCobAndUser/,,TRUE
+A-AddManualBankAndInv-2,userSession Null,VALID,NULL,401,A_AddManBankAndInvDiffCobAndUser_2,../src/test/resources/TestData/JSONFiles/ManualAccounts/AddManualAccount/BankAndInvestment/DifferentCobAndUser/,,TRUE
+A-AddManualBankAndInv-3,Expired Usersession,VALID,EXPIRED,401,A_AddManBankAndInvDiffCobAndUser_3,../src/test/resources/TestData/JSONFiles/ManualAccounts/AddManualAccount/BankAndInvestment/DifferentCobAndUser/,,TRUE
+A-AddManualBankAndInv-4,Empty usersession,VALID,EMPTY,401,A_AddManBankAndInvDiffCobAndUser_4,../src/test/resources/TestData/JSONFiles/ManualAccounts/AddManualAccount/BankAndInvestment/DifferentCobAndUser/,,TRUE
+A-AddManualBankAndInv-5,invlaid usersession,VALID,INVALID,401,A_AddManBankAndInvDiffCobAndUser_5,../src/test/resources/TestData/JSONFiles/ManualAccounts/AddManualAccount/BankAndInvestment/DifferentCobAndUser/,,TRUE
+A-AddManualBankAndInv-6,cobSession null and Usersession valid,NULL,VALID,401,A_AddManBankAndInvDiffCobAndUser_6,../src/test/resources/TestData/JSONFiles/ManualAccounts/AddManualAccount/BankAndInvestment/DifferentCobAndUser/,,TRUE
+A-AddManualBankAndInv-7,userSession Null,NULL,NULL,401,A_AddManBankAndInvDiffCobAndUser_7,../src/test/resources/TestData/JSONFiles/ManualAccounts/AddManualAccount/BankAndInvestment/DifferentCobAndUser/,,TRUE
+A-AddManualBankAndInv-13,Expired Usersession,EXPIRED,EXPIRED,401,A_AddManBankAndInvDiffCobAndUser_13,../src/test/resources/TestData/JSONFiles/ManualAccounts/AddManualAccount/BankAndInvestment/DifferentCobAndUser/,,TRUE
+A-AddManualBankAndInv-14,Empty usersession,EXPIRED,EMPTY,401,A_AddManBankAndInvDiffCobAndUser_14,../src/test/resources/TestData/JSONFiles/ManualAccounts/AddManualAccount/BankAndInvestment/DifferentCobAndUser/,,TRUE
+A-AddManualBankAndInv-19,Empty usersession,EMPTY,EMPTY,401,A_AddManBankAndInvDiffCobAndUser_19,../src/test/resources/TestData/JSONFiles/ManualAccounts/AddManualAccount/BankAndInvestment/DifferentCobAndUser/,,TRUE
+A-AddManualBankAndInv-20,invlaid usersession,EMPTY,INVALID,401,A_AddManBankAndInvDiffCobAndUser_20,../src/test/resources/TestData/JSONFiles/ManualAccounts/AddManualAccount/BankAndInvestment/DifferentCobAndUser/,,TRUE
+A-AddManualBankAndInv-21,invlaid cobsession,INVALID,VALID,401,A_AddManBankAndInvDiffCobAndUser_21,../src/test/resources/TestData/JSONFiles/ManualAccounts/AddManualAccount/BankAndInvestment/DifferentCobAndUser/,,TRUE
+A-AddManualBankAndInv-22,null usersession,INVALID,NULL,401,A_AddManBankAndInvDiffCobAndUser_22,../src/test/resources/TestData/JSONFiles/ManualAccounts/AddManualAccount/BankAndInvestment/DifferentCobAndUser/,,TRUE

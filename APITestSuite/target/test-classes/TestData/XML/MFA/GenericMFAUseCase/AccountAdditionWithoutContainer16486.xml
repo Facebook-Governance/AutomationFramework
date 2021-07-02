@@ -1,0 +1,45 @@
+<entity type="multiple">
+    <request>
+        <add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+            <siteUser>genericmfa.site16486.1</siteUser>
+            <siteUserId>65615</siteUserId>
+            <sitePwd>site16486.1</sitePwd>
+            <sitePwdId>65616</sitePwdId>
+            <siteId>16486</siteId>
+            <dataList>
+                <dataset>
+                    <name>BASIC_AGG_DATA</name>
+                    <attributeList>
+                        <attribute>
+                            <name>ACCOUNT_DETAILS</name>
+                            
+                        </attribute>
+						<attribute>
+                            <name>TRANSACTIONS</name>
+                            
+                        </attribute>
+                    </attributeList>
+                </dataset>
+            </dataList>
+        </add-provider-accounts>
+		</add-provider-accounts-multiple>
+        <update-provider-accounts-multiple>
+		<update-provider-accounts order="1">
+		<answer1>Texas</answer1>
+			<answer2>w3schools</answer2>
+            <token></token>
+        </update-provider-accounts>
+		</update-provider-accounts-multiple>
+    </request> 
+     <response>
+        <get-provider-accounts-multiple>
+		<get-provider-accounts order="1">
+            <row>
+                <filePath>../src/test/resources/TestData/JSONFiles/Sdg/MFAUseCase/</filePath>
+                <responseFile>AccountAdditionWithoutContainer16486.json</responseFile>
+            </row>
+        </get-provider-accounts>
+		</get-provider-accounts-multiple>
+    </response>
+</entity>

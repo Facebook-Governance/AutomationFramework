@@ -1,0 +1,4499 @@
+{
+  "transaction": [
+    {
+      "date": "2017-05-14",
+      "amount": {
+        "amount": 11,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "yoshinoyDummy_acc_holder_XXXXXXXX chulDummy_acc_holder_XXXXXXXX vistDummy_acc_holder_XXXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-14",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-14",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-14",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-14",
+      "amount": {
+        "amount": 41,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pro mec opticDummy_acc_holder_XXXXXXXXl",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-14",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-12",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-12",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-11",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "royDummy_acc_holder_XXXXXXXXl mDummy_acc_holder_XXXXXXXXndDummy_acc_holder_XXXXXXXXrin",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-11",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-10",
+      "amount": {
+        "amount": 12,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5023",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-10",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-07",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *kevinstewDummy_acc_holder_XXXXXXXXr",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-07",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-07",
+      "amount": {
+        "amount": 35,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *sidroth",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-07",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-01",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-01",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-01",
+      "amount": {
+        "amount": 8,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "northgDummy_acc_holder_XXXXXXXXte ##027",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-01",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-30",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "rDummy_acc_holder_XXXXXXXXlphs #0051",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-30",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-28",
+      "amount": {
+        "amount": 22,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *nissimbDummy_acc_holder_XXXXXXXXile",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-28",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-27",
+      "amount": {
+        "amount": 23,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *untoldtrend",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-27",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-27",
+      "amount": {
+        "amount": 8,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "colimDummy_acc_holder_XXXXXXXXs mexicDummy_acc_holder_XXXXXXXXn food",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-27",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-26",
+      "amount": {
+        "amount": 647,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "trDummy_acc_holder_XXXXXXXXvel reservDummy_acc_holder_XXXXXXXXtions",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-26",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-26",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "sq *the spDummy_acc_holder_XXXXXXXXre room",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-26",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-24",
+      "amount": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "sq *the spDummy_acc_holder_XXXXXXXXre room",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-24",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-24",
+      "amount": {
+        "amount": 8,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "sq *the spDummy_acc_holder_XXXXXXXXre room",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-24",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-23",
+      "amount": {
+        "amount": 98,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "Dummy_acc_holder_XXXXXXXXgent fee XXXXXXXXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-23",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-23",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-23",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-21",
+      "amount": {
+        "amount": 8,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "boot bDummy_acc_holder_XXXXXXXXrn #12",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-21",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-16",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "cDummy_acc_holder_XXXXXXXXrninDummy_acc_holder_XXXXXXXXl supermDummy_acc_holder_XXXXXXXXrke",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-16",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-16",
+      "amount": {
+        "amount": 17,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #2998",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-16",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-14",
+      "amount": {
+        "amount": 36,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-14",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-13",
+      "amount": {
+        "amount": 68,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "neimDummy_acc_holder_XXXXXXXXn mDummy_acc_holder_XXXXXXXXrcus #16",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-13",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-12",
+      "amount": {
+        "amount": 26,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "usDummy_acc_holder_XXXXXXXX cleDummy_acc_holder_XXXXXXXXners",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-12",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-12",
+      "amount": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-12",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-11",
+      "amount": {
+        "amount": 31,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-11",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-09",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *furymixcom",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-09",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-09",
+      "amount": {
+        "amount": 49,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *frDummy_acc_holder_XXXXXXXXgrDummy_acc_holder_XXXXXXXXncede",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-09",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-07",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "rite Dummy_acc_holder_XXXXXXXXid store - 5613",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-07",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-06",
+      "amount": {
+        "amount": 35,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-06",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-05",
+      "amount": {
+        "amount": 70,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "shoe rDummy_acc_holder_XXXXXXXXck",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-05",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-04",
+      "amount": {
+        "amount": 48,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "Dummy_acc_holder_XXXXXXXXmDummy_acc_holder_XXXXXXXXzon mktplDummy_acc_holder_XXXXXXXXce pmts",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-04",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-02",
+      "amount": {
+        "amount": 28,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *joshuDummy_acc_holder_XXXXXXXXmlitt",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-02",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-31",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-31",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-30",
+      "amount": {
+        "amount": 37,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0483",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-30",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-28",
+      "amount": {
+        "amount": 53,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *lightninggo",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-28",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-24",
+      "amount": {
+        "amount": 47,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *lindsDummy_acc_holder_XXXXXXXXystc",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-24",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-23",
+      "amount": {
+        "amount": 43,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "inst for vibrDummy_acc_holder_XXXXXXXXnt living",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-23",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-22",
+      "amount": {
+        "amount": 9,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-22",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-21",
+      "amount": {
+        "amount": 40,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kp rxXXXXX mDummy_acc_holder_XXXXXXXXilorder8029",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-21",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-19",
+      "amount": {
+        "amount": 33,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-19",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-16",
+      "amount": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-16",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-13",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *jjsboutique",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-13",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-12",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-12",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-12",
+      "amount": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-12",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-10",
+      "amount": {
+        "amount": 13,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "usDummy_acc_holder_XXXXXXXX cleDummy_acc_holder_XXXXXXXXners",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-10",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-09",
+      "amount": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "cDummy_acc_holder_XXXXXXXXrninDummy_acc_holder_XXXXXXXXl supermDummy_acc_holder_XXXXXXXXrke",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-09",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-08",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-08",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-05",
+      "amount": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-05",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-28",
+      "amount": {
+        "amount": 26,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-28",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-28",
+      "amount": {
+        "amount": 22,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-28",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-26",
+      "amount": {
+        "amount": 31,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5023",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-26",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-26",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *vDummy_acc_holder_XXXXXXXXnessDummy_acc_holder_XXXXXXXXsgoo",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-26",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-21",
+      "amount": {
+        "amount": 11,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-21",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-21",
+      "amount": {
+        "amount": 26,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-21",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-20",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-20",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-19",
+      "amount": {
+        "amount": 17,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5023",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-19",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-17",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-17",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-15",
+      "amount": {
+        "amount": 19,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "Dummy_acc_holder_XXXXXXXXlbertsons #6757",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-15",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-15",
+      "amount": {
+        "amount": 5,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "nDummy_acc_holder_XXXXXXXXvy exchDummy_acc_holder_XXXXXXXXnge XXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-15",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-09",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kp rxXXXXX mDummy_acc_holder_XXXXXXXXilorder8029",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-09",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-08",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "dollDummy_acc_holder_XXXXXXXXrtree",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-08",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-08",
+      "amount": {
+        "amount": 14,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "usDummy_acc_holder_XXXXXXXX cleDummy_acc_holder_XXXXXXXXners",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-08",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-08",
+      "amount": {
+        "amount": 30,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "cosmetic pDummy_acc_holder_XXXXXXXXlDummy_acc_holder_XXXXXXXXce",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-08",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-08",
+      "amount": {
+        "amount": 80,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kp rxXXXXX mDummy_acc_holder_XXXXXXXXilorder8029",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-08",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-07",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-07",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-06",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0478",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-06",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-06",
+      "amount": {
+        "amount": 13,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #2998",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-06",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-01-27",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-01-27",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-01-27",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *rrnrDummy_acc_holder_XXXXXXXXmirez",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-01-27",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-01-25",
+      "amount": {
+        "amount": 21,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-01-25",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-01-22",
+      "amount": {
+        "amount": 17,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "smDummy_acc_holder_XXXXXXXXrt Dummy_acc_holder_XXXXXXXXnd finDummy_acc_holder_XXXXXXXXXXXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-01-22",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-01-20",
+      "amount": {
+        "amount": 50,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-01-20",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-01-19",
+      "amount": {
+        "amount": 40,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "the messiDummy_acc_holder_XXXXXXXXnic vision,",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-01-19",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-01-12",
+      "amount": {
+        "amount": 53,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *foreverlux",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-01-12",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-01-11",
+      "amount": {
+        "amount": 33,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-01-11",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-01-09",
+      "amount": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wpy*support gbDummy_acc_holder_XXXXXXXXby dorthy",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-01-09",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-01-08",
+      "amount": {
+        "amount": 22,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5023",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-01-08",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-01-04",
+      "amount": {
+        "amount": 8,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-01-04",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-01-04",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-01-04",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-01-01",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-01-01",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-30",
+      "amount": {
+        "amount": 3,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #2291",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-30",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-30",
+      "amount": {
+        "amount": 34,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-30",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-30",
+      "amount": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #2291",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-30",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-29",
+      "amount": {
+        "amount": 16,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "smDummy_acc_holder_XXXXXXXXrt Dummy_acc_holder_XXXXXXXXnd finDummy_acc_holder_XXXXXXXXXXXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-29",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-29",
+      "amount": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kp rxXXXXX mDummy_acc_holder_XXXXXXXXilorder8029",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-29",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-25",
+      "amount": {
+        "amount": 7,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "boot bDummy_acc_holder_XXXXXXXXrn #12",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-25",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-21",
+      "amount": {
+        "amount": 33,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-21",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-21",
+      "amount": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5023",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-21",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-16",
+      "amount": {
+        "amount": 28,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5023",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-16",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-11",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-11",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-07",
+      "amount": {
+        "amount": 44,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5023",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-07",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-06",
+      "amount": {
+        "amount": 30,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-06",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-04",
+      "amount": {
+        "amount": 43,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "shoe rDummy_acc_holder_XXXXXXXXck",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-04",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-01",
+      "amount": {
+        "amount": 18,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "bonitDummy_acc_holder_XXXXXXXX shoe repDummy_acc_holder_XXXXXXXXir",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-01",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-12-01",
+      "amount": {
+        "amount": 95,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "Dummy_acc_holder_XXXXXXXXnnuDummy_acc_holder_XXXXXXXXl membership fee",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-12-01",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-11-30",
+      "amount": {
+        "amount": 16,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "sprouts fDummy_acc_holder_XXXXXXXXrmers mDummy_acc_holder_XXXXXXXXr",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-11-30",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-11-24",
+      "amount": {
+        "amount": 5,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #2291",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-11-24",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-11-21",
+      "amount": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-11-21",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-11-17",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-11-17",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-11-15",
+      "amount": {
+        "amount": 46,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #3516",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-11-15",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-11-13",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-11-13",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-11-13",
+      "amount": {
+        "amount": 23,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *Dummy_acc_holder_XXXXXXXXlissDummy_acc_holder_XXXXXXXX tDummy_acc_holder_XXXXXXXXrr",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-11-13",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-11-11",
+      "amount": {
+        "amount": 35,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "trDummy_acc_holder_XXXXXXXXder joe\u0027s #026 qps",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-11-11",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-11-07",
+      "amount": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-11-07",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-11-07",
+      "amount": {
+        "amount": 35,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-11-07",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-30",
+      "amount": {
+        "amount": 41,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-30",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-28",
+      "amount": {
+        "amount": 9,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #2291",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-28",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-27",
+      "amount": {
+        "amount": 7,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "dDummy_acc_holder_XXXXXXXXv industries",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-27",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-25",
+      "amount": {
+        "amount": 8,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "usDummy_acc_holder_XXXXXXXX cleDummy_acc_holder_XXXXXXXXners",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-25",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-24",
+      "amount": {
+        "amount": 37,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "cDummy_acc_holder_XXXXXXXXlvin klein #062",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-24",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-23",
+      "amount": {
+        "amount": 31,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "ecc0ci viejDummy_acc_holder_XXXXXXXXs",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-23",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-23",
+      "amount": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-23",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-20",
+      "amount": {
+        "amount": 22,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "vDummy_acc_holder_XXXXXXXXllDummy_acc_holder_XXXXXXXXrtDummy_acc_holder_XXXXXXXX supermDummy_acc_holder_XXXXXXXXrk",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-20",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-19",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-19",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-18",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-18",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-17",
+      "amount": {
+        "amount": 30,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-17",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-17",
+      "amount": {
+        "amount": 30,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-17",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-16",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "foodlDummy_acc_holder_XXXXXXXXnd #8",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-16",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-13",
+      "amount": {
+        "amount": 35,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "usDummy_acc_holder_XXXXXXXX cleDummy_acc_holder_XXXXXXXXners",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-13",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-10",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-10",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-06",
+      "amount": {
+        "amount": 9,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "jDummy_acc_holder_XXXXXXXXlisco cDummy_acc_holder_XXXXXXXXfe",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-06",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-05",
+      "amount": {
+        "amount": 295,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-05",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-04",
+      "amount": {
+        "amount": 69,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "neimDummy_acc_holder_XXXXXXXXn mDummy_acc_holder_XXXXXXXXrcus #16",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-04",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-04",
+      "amount": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *shDummy_acc_holder_XXXXXXXXffou22",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-04",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-03",
+      "amount": {
+        "amount": 18,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *luvmygDummy_acc_holder_XXXXXXXXng3",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-03",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-10-02",
+      "amount": {
+        "amount": 39,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-10-02",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-09-29",
+      "amount": {
+        "amount": 142,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "south bDummy_acc_holder_XXXXXXXXy Dummy_acc_holder_XXXXXXXXutohDummy_acc_holder_XXXXXXXXus",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-09-29",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-09-27",
+      "amount": {
+        "amount": 105,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "Dummy_acc_holder_XXXXXXXXDummy_acc_holder_XXXXXXXXDummy_acc_holder_XXXXXXXX cDummy_acc_holder_XXXXXXXX member pDummy_acc_holder_XXXXXXXXyment",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-09-27",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-09-25",
+      "amount": {
+        "amount": 4,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXlgreens #6255",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-09-25",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-09-25",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #2291",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-09-25",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-09-23",
+      "amount": {
+        "amount": 26,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *neumDummy_acc_holder_XXXXXXXXnniryn",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-09-23",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-09-22",
+      "amount": {
+        "amount": 84,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "dDummy_acc_holder_XXXXXXXXystDummy_acc_holder_XXXXXXXXr television net",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-09-22",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-09-19",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-09-19",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-09-13",
+      "amount": {
+        "amount": 23,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-09-13",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-09-12",
+      "amount": {
+        "amount": 28,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *rmocerino",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-09-12",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-09-09",
+      "amount": {
+        "amount": 18,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "fDummy_acc_holder_XXXXXXXXmily chr#XXXXXXXXXXX",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-09-09",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-09-08",
+      "amount": {
+        "amount": 18,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5023",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-09-08",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-09-01",
+      "amount": {
+        "amount": 12,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "bonitDummy_acc_holder_XXXXXXXX shoe repDummy_acc_holder_XXXXXXXXir",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-09-01",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-09-01",
+      "amount": {
+        "amount": 80,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kp rxXXXXX mDummy_acc_holder_XXXXXXXXilorder8029",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-09-01",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-09-01",
+      "amount": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kp rxXXXXX mDummy_acc_holder_XXXXXXXXilorder8029",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-09-01",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-08-31",
+      "amount": {
+        "amount": 13,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "kp rxXXXXX mDummy_acc_holder_XXXXXXXXilorder8029",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-08-31",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    },
+    {
+      "date": "2016-08-30",
+      "amount": {
+        "amount": 19,
+        "currency": "USD"
+      },
+      "highLevelCategoryId": 10000020,
+      "isManual": false,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "ACC"
+      },
+      "merchant": {
+        "name": "ACC",
+        "id": "455",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2016-08-30",
+      "id": "${json-unit.any-number}",
+      "category": "Insurance",
+      "categoryId": 14,
+      "status": "POSTED"
+    }
+  ]
+}

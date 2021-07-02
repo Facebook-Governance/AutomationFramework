@@ -1,0 +1,2 @@
+testCaseId,testCaseName,providerId,loginFormType,dagUserName,dagPassword,status,includeDataSet,isincludeDataSet,addAccountResFile,filePath,enabled,DefectID
+"AT-42601,AT-42622",adding IAV account with full acct no and RTN,16441,loginform,iavms11.site16441.2,site16441.2,200,"ACCT_PROFILE.FULL_ACCT_NUMBER,ACCT_PROFILE.BANK_TRANSFER_CODE",TRUE,iavacctaddn.json,../src/test/resources/TestData/JSONFiles/ProviderAccount/IAV/MatchingService/,TRUE,0

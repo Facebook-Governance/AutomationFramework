@@ -1,0 +1,21 @@
+{
+    "verification": [
+        {
+            "accountId": "${json-unit.ignore}",
+            "reason": "EXPIRED",
+            "verificationType": "CHALLENGE_DEPOSIT",
+            "account": {
+                "accountName": "Citi Bank",
+                "accountNumber": "${json-unit.ignore}",
+                "accountType": "SAVINGS",
+                "bankTransferCode": {
+                    "id": "031311878",
+                    "type": "ROUTING_NUMBER"
+                }
+            },
+            "verificationStatus": "FAILED",
+            "providerAccountId": "${json-unit.ignore}",
+            "verificationId": "${json-unit.ignore}"
+        }
+    ]
+}

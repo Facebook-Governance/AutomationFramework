@@ -1,0 +1,25 @@
+test case id,cobSesion,userSession,fileName,filePath,status,Enabled,DefectID
+AT-67734,EMPTY,VALID,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67735,EXPIRED,VALID,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67736,NULL,VALID,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67737,VALID,EMPTY,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67738,EMPTY,EMPTY,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67739,EXPIRED,EMPTY,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67740,NULL,EMPTY,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67741,EMPTY,NULL,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67742,EXPIRED,NULL,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67743,NULL,NULL,InvalidSessionToken,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67744,VALID,NULL,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67745,EMPTY,EXPIRED,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67746,EXPIRED,EXPIRED,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67747,NULL,EXPIRED,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67748,VALID,EXPIRED,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67749,INVALID,VALID,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67750,INVALID,EMPTY,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67751,INVALID,NULL,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67752,INVALID,EXPIRED,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67753,INVALID,INVALID,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67754,EXPIRED,INVALID,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67755,NULL,INVALID,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67756,VALID,INVALID,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0
+AT-67757,EMPTY,INVALID,InvalidAuthHeader,../src/test/resources/TestData/ErrorMessage/,401,TRUE,0

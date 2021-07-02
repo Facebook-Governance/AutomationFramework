@@ -1,0 +1,4 @@
+TestcaseId,tcId,tcName,Subrand,Cobrand,enabled,priority,formType,params,dagSiteUserName,dagSitePassword,count
+AT-104267,SPS_1,SPS_USER_THRESHOLD,FALSE,TRUE,TRUE,P1,Simplified,configKey=USER_THRESHOLD_LIMIT;configValue=3;cobrandId=1010007964,SPS_MergeOperations.site16441.2,site16441.12,4
+AT-104270,SPS_2,SPS_Total_User_Threshold,FALSE,TRUE,TRUE,P1,Simplified,configKey=TOTAL_USER_THRESHOLD_LIMIT;configValue=5;cobrandId=1010007964,SPS_MergeOperations.site16441.2,site16441.2,6
+AT-104280,SPS_3,SPS_Across_Site_Limit,FALSE,TRUE,TRUE,P1,Simplified,configKey=USER_TOTAL_REQUESTS_ACROSS_SITES_LIMIT;configValue=6;cobrandId=1010007964,SPS_MergeOperations.site16441.2,site16441.2,4

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>testtEbillAuto.site16441.6</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.6</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>STATEMENTS</name>
+							<container>bill,creditCard,insurance,loan</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<cacheRequest-multiple>
+		<cacheRequest order="1">
+			<containers>
+				<container>
+					<sumInfoId>20562</sumInfoId>
+					<datasetAttributes>
+						<datasetAttribute>7</datasetAttribute>
+					</datasetAttributes>
+				</container>
+			</containers>
+		</cacheRequest>
+		</cacheRequest-multiple>
+	</request>
+	<response>
+		<siteRefreshStats-multiple>
+		<siteRefreshStats order="1">
+			<datasetDetails>[{"container":"insurance","dataset":[{"datasetId":1,"attributeIds":[7,13]}]}]
+			</datasetDetails>
+			<memSiteAccExtnJson>[{"datasetId":1,"refreshStatus":7,"errorCode":0,"attribDetails":[{"attributeId":7,"refreshStatus":7,"errorCode":0},{"attributeId":13,"refreshStatus":7,"errorCode":0}]}]
+			</memSiteAccExtnJson>
+		</siteRefreshStats>
+		</siteRefreshStats-multiple>
+	</response>
+</entity>

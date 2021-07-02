@@ -1,0 +1,31 @@
+testCaseId,TestCase,API,cobSessionKey,cobSessionValue,userSessionKey,userSessionValue,resFile,filePath,status,enabled
+AT-57917,HoldingTypeList with with valid Values,Holdings,cobSession,VALID,null,NO,Validsec.json,../src/test/resources/TestData/JSONFiles/Holdings/,200,TRUE
+AT-64064,HoldingTypeList with Invalid Cobsession Value,Holdings,cobSession,INVALID,,,Invalidsec.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64065,HoldingTypeList with Null Cobsession Value,Holdings,cobSession,NULL,,,Invalidsec.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64066,HoldingTypeList with Empty Cobsession Value,Holdings,cobSession,EMPTY,,,Emptysec.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64067,HoldingTypeList with Expired Cobsession,Holdings,cobSession,EXPIRED,,,Expiredsec.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64068,HoldingTypeList with both valid cobSession and userSession,Holdings,cobSession,VALID,userSession,VALID,Validsec.json,../src/test/resources/TestData/JSONFiles/Holdings/,400,TRUE
+AT-64069,HoldingTypeList with valid cobSession and Invalid userSession,Holdings,cobSession,VALID,userSession,INVALID,usernpsec.json,../src/test/resources/TestData/JSONFiles/Holdings/,400,TRUE
+AT-64070,HoldingTypeList with valid cobSession and Null userSession,Holdings,cobSession,VALID,nullTest,NULL,Validsec.json,../src/test/resources/TestData/JSONFiles/Holdings/,400,TRUE
+AT-64071,HoldingTypeList with valid cobSession and Empty userSession,Holdings,cobSession,VALID,userSession,EMPTY,Emptysec.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64072,HoldingTypeList with valid cobSession and Expired userSession,Holdings,cobSession,VALID,userSession,EXPIRED,usernpsec.json,../src/test/resources/TestData/JSONFiles/Holdings/,400,TRUE
+AT-64073,HoldingTypeList with invalid cobSession and Valid userSession,Holdings,cobSession,INVALID,userSession,VALID,usernpsec.json,../src/test/resources/TestData/JSONFiles/Holdings/,400,TRUE
+AT-64074,HoldingTypeList with invalid cobSession and Invalid userSession,Holdings,cobSession,INVALID,userSession,INVALID,usernpsec.json,../src/test/resources/TestData/JSONFiles/Holdings/,400,TRUE
+AT-64075,HoldingTypeList with invalid cobSession and Null userSession,Holdings,cobSession,INVALID,nullTest,NULL,invalidAuthHeader.json,../src/test/resources/TestData/JSONFiles/Holdings/,400,TRUE
+AT-64076,HoldingTypeList with invalid cobSession and Empty userSession,Holdings,cobSession,INVALID,userSession,EMPTY,Emptysec.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64077,HoldingTypeList with invalid cobSession and Expired userSession,Holdings,cobSession,INVALID,userSession,EXPIRED,usernpsec.json,../src/test/resources/TestData/JSONFiles/Holdings/,400,TRUE
+AT-64078,HoldingTypeList with null cobSession and Valid userSession,Holdings,cobSession,NULL,userSession,VALID,invalidAuthHeader.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64079,HoldingTypeList with null cobSession and Invalid userSession,Holdings,cobSession,NULL,userSession,INVALID,invalidAuthHeader.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64080,HoldingTypeList with null cobSession and Null userSession,Holdings,cobSession,NULL,nullTest,NULL,SessionTokensMissing.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64081,HoldingTypeList with null cobSession and Empty userSession,Holdings,cobSession,NULL,userSession,EMPTY,invalidAuthHeader.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64082,HoldingTypeList with null cobSession and Expired userSession,Holdings,cobSession,NULL,userSession,EXPIRED,invalidAuthHeader.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64083,HoldingTypeList with Empty cobSession and Valid userSession,Holdings,cobSession,EMPTY,userSession,VALID,Emptysec.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64084,HoldingTypeList with Empty cobSession and Invalid userSession,Holdings,cobSession,EMPTY,userSession,INVALID,Emptysec.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64085,HoldingTypeList with Empty cobSession and Null userSession,Holdings,cobSession,EMPTY,nullTest,NULL,Emptysec.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64086,HoldingTypeList with Empty cobSession and Empty userSession,Holdings,cobSession,EMPTY,userSession,EMPTY,Emptysec.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64087,HoldingTypeList with Empty cobSession and Expired userSession,Holdings,cobSession,EMPTY,userSession,EXPIRED,Emptysec.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64088,HoldingTypeList with Expired cobSession and Valid userSession,Holdings,cobSession,EMPTY,userSession,VALID,Emptysec.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64089,HoldingTypeList with Expired cobSession and Invalid userSession,Holdings,cobSession,EXPIRED,userSession,INVALID,usernpsec.json,../src/test/resources/TestData/JSONFiles/Holdings/,400,TRUE
+AT-64090,HoldingTypeList with Expired cobSession and Null userSession,Holdings,cobSession,EXPIRED,nullTest,NULL,invalidAuthHeader.json,../src/test/resources/TestData/JSONFiles/Holdings/,400,TRUE
+AT-64091,HoldingTypeList with Expired cobSession and Empty userSession,Holdings,cobSession,EXPIRED,userSession,EMPTY,Emptysec.json,../src/test/resources/TestData/JSONFiles/Holdings/,401,TRUE
+AT-64092,HoldingTypeList with Expired cobSession and Expired userSession,Holdings,cobSession,EXPIRED,userSession,EXPIRED,usernpsec.json,../src/test/resources/TestData/JSONFiles/Holdings/,400,TRUE

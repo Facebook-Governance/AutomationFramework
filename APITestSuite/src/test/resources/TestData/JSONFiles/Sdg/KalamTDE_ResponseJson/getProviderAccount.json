@@ -1,0 +1,15 @@
+{
+    "providerAccount": {
+        "id": "${json-unit.ignore}",
+        "providerId": 16441,
+        "isManual": false,
+        "createdDate": "${json-unit.ignore}",
+        "aggregationSource": "USER",
+        "refreshInfo": {
+            "statusCode": 0,
+            "statusMessage": "OK",
+            "status": "IN_PROGRESS",
+            "additionalStatus": "LOGIN_SUCCESS"
+        }
+    }
+}

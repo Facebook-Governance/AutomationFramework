@@ -1,0 +1,4 @@
+testCaseId,testCases,TransactionId,sourceType,enabled,resFilePathstatus,resFile,status,container
+AT30688,GetTransactionById_SystemPredicted,11449100,SYSTEM_PREDICTED,TRUE,../src/test/resources/TestData/GetRecurringTransactionByIdAB,/GetTransactionByIdPositiveSP.json,200,bank
+AT30689,GetTxnById_Manual,11549595,MANUAL,TRUE,../src/test/resources/TestData/GetRecurringTransactionByIdAB,/GetTransactionByIdPositiveManual.json,200,bank
+AT30695,GetTransactionById_MISSED,11448895,MISSED,TRUE,../src/test/resources/TestData/GetRecurringTransactionByIdAB,/GetTransactionByIdPositiveMissed.json,200,bank

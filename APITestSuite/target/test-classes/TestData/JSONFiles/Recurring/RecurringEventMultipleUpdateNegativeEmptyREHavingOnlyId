@@ -1,0 +1,42 @@
+{
+	"account": {
+		"recurringEvents": [
+		{
+				"id": 1017448212
+			},			
+			{
+				"id": 10163730,
+				"sourceType": "SYSTEM_PREDICTED",
+				"description": {
+					"consumer": "oside online utility b 760-XXXXXXX ca_edit10163730",
+					"simple": "oside online utility b 760-XXXXXXX ca_edit10163730"
+				},
+				"amount": {
+					"amount": 1000,
+					"currency": "USD"
+				},
+				"averageAmount": {
+					"amount": 1000,
+					"currency": "USD"
+				},
+				"lastTransactionAmount": {
+					"amount": 1000,
+					"currency": "USD"
+				},
+				"amountVariance": 0,
+				"userApprovalStatus": "PENDING",
+				"recurringEventStatus": "ACTIVE",
+				"startDate": "2017-05-13",
+				"endDate":"2017-07-09",
+				"baseType": "DEBIT",
+				"categoryId": 39,
+				"frequency": "MONTHLY",
+				"createdDate": "2017-05-14",
+				"lastUpdatedDate": "2017-06-12",
+				"lastTransactionDate": "2017-06-11",
+				"confidenceLevel": "HIGH",
+				"categorySource": "SYSTEM"
+			}
+		]
+	}
+}

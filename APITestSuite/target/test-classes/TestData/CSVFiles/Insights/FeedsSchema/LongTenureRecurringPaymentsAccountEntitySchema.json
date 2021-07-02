@@ -1,0 +1,444 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "insightName": {
+      "type": "string"
+    },
+    "insightTitle": {
+      "type": "string"
+    },
+    "insightType": {
+      "type": "string"
+    },
+    "triggerType": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "string"
+    },
+    "subscription": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "entityType": {
+              "type": "string"
+            },
+            "frequency": {
+              "type": "string"
+            },
+            "threshold": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "value",
+                    "type"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "entityType",
+            "frequency",
+            "threshold"
+          ]
+        }
+      ]
+    },
+    "basicMerchant": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "basicPredictedEvent": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "number"
+                    },
+                    "link": {
+                      "type": "object",
+                      "properties": {
+                        "entityName": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "entityName",
+                        "url"
+                      ]
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "lastTransactionAmount": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "lastTransactionDate": {
+                      "type": "string"
+                    },
+                    "frequency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "link",
+                    "category",
+                    "lastTransactionAmount",
+                    "lastTransactionDate",
+                    "frequency"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "basicPredictedEvent"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "basicPredictedEvent": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "number"
+                    },
+                    "link": {
+                      "type": "object",
+                      "properties": {
+                        "entityName": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "entityName",
+                        "url"
+                      ]
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "lastTransactionAmount": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "lastTransactionDate": {
+                      "type": "string"
+                    },
+                    "frequency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "link",
+                    "category",
+                    "lastTransactionAmount",
+                    "lastTransactionDate",
+                    "frequency"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "basicPredictedEvent"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "basicPredictedEvent": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "number"
+                    },
+                    "link": {
+                      "type": "object",
+                      "properties": {
+                        "entityName": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "entityName",
+                        "url"
+                      ]
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "lastTransactionAmount": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "lastTransactionDate": {
+                      "type": "string"
+                    },
+                    "frequency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "link",
+                    "category",
+                    "lastTransactionAmount",
+                    "lastTransactionDate",
+                    "frequency"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "basicPredictedEvent"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "basicPredictedEvent": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "number"
+                    },
+                    "link": {
+                      "type": "object",
+                      "properties": {
+                        "entityName": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "entityName",
+                        "url"
+                      ]
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "lastTransactionAmount": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "lastTransactionDate": {
+                      "type": "string"
+                    },
+                    "frequency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "link",
+                    "category",
+                    "lastTransactionAmount",
+                    "lastTransactionDate",
+                    "frequency"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "basicPredictedEvent"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "basicPredictedEvent": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "number"
+                    },
+                    "link": {
+                      "type": "object",
+                      "properties": {
+                        "entityName": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "entityName",
+                        "url"
+                      ]
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "lastTransactionAmount": {
+                      "type": "object",
+                      "properties": {
+                        "amount": {
+                          "type": "number"
+                        },
+                        "currency": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "amount",
+                        "currency"
+                      ]
+                    },
+                    "lastTransactionDate": {
+                      "type": "string"
+                    },
+                    "frequency": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "link",
+                    "category",
+                    "lastTransactionAmount",
+                    "lastTransactionDate",
+                    "frequency"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "basicPredictedEvent"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "insightName",
+    "insightTitle",
+    "insightType",
+    "triggerType",
+    "createdDate",
+    "subscription",
+    "basicMerchant"
+  ]
+}

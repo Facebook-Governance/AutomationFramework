@@ -1,0 +1,61 @@
+<entity type="multiple">
+	<request>
+		<post-consent-multiple>
+			<post-consent order="1">
+				<providerId>24016</providerId>
+				<applicationName></applicationName>
+				<providerAccountId></providerAccountId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>bank</container>
+							</attribute>
+							<attribute>
+								<name>TRANSACTIONS</name>
+								<container>bank</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</post-consent>
+		</post-consent-multiple>
+
+		<update-consent-multiple>
+			<update-consent order="1">
+				<scopeList>
+					<scope>
+						<name>ACCOUNT_DETAILS</name>
+
+					</scope>
+					<scope>
+						<name>TRANSACTION_DETAILS</name>
+
+					</scope>
+				</scopeList>
+			</update-consent>
+		</update-consent-multiple>
+
+		<add-ob-providerAccount-multiple>
+			<add-ob-providerAccount order="1">
+				<consentId>12133123</consentId>
+			</add-ob-providerAccount>
+		</add-ob-providerAccount-multiple>
+
+	</request>
+
+	<response>
+		<add-ob-providerAccount-multiple>
+			<add-ob-providerAccount order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/OpenBanking/
+					</filePath>
+					<responseFile>PutConsentWithInvalidConsentId.json</responseFile>
+				</row>
+			</add-ob-providerAccount>
+		</add-ob-providerAccount-multiple>
+
+	</response>
+</entity>

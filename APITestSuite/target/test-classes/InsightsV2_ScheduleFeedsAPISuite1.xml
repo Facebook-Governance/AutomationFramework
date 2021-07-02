@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll" parallel="methods" thread-count="1"
+	preserve-order="true">
+	<parameter name="hybrid" value="false" />
+	<parameter name="release_name" value="Version2" />
+	<parameter name="isFirstRun" value="false" />
+	<parameter name="isStaticComparable" value="false" />
+	<parameter name="isDiffyEnabled" value="false" />
+	<parameter name="getApiVersion" value="2" />
+	<parameter name="isUserStatic" value="false" />
+	<parameter name="updateApiVersion" value="2" />
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="config_file"
+		value="Config_Docker_Insights_V2.properties" />
+	<parameter name="suiteName"
+		value="Insights SCHEDULE Feeds Suite1" />
+	<parameter name="environment" value="Docker" />
+	<listeners>
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+	</listeners>
+	<test name="UpComing Bills">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForUpcomingBills">
+			</class>
+		</classes>
+	</test>
+	<test name="Categorize Transactions">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForCategorizeTransactions">
+			</class>
+		</classes>
+	</test>
+	<test name="Upcoming Subscriptions">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForUpcomingSubscription">
+			</class>
+		</classes>
+	</test>
+	<test name="Financial Fees">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForFinancialFees">
+			</class>
+		</classes>
+	</test>
+	<test name="Spending by Category">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSpendingbyCategory">
+			</class>
+		</classes>
+	</test>
+	<test name="Spending by Merchant">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSpendingbyMerchant">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Spending by Category All Accounts">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSpendingbyCategoryAllAccounts">
+			</class>
+		</classes>
+	</test>
+	<test name="Spending by Merchant All Accounts">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSpendingbyMerchantAllAccounts">
+			</class>
+		</classes>
+	</test>
+	<test name="Emergency Savings">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForEmergencySavings">
+			</class>
+		</classes>
+	</test>
+	<test name="Spending And Earning Comparison">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSpendingandEarningComparison">
+			</class>
+		</classes>
+	</test>
+	<test name="Count of Transactions By Merchant">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForMostFrequentPurchases">
+			</class>
+		</classes>
+	</test>
+	<test name="Count of Transactions By Merchant All Accounts">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForMostFrequentPurchasesAllAccounts">
+			</class>
+		</classes>
+	</test>
+	<test name="Bill Not Paid">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForBillNotPaid">
+			</class>
+		</classes>
+	</test> 
+	<test name="Subscription Not Paid">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSubscriptionNotPaid">
+			</class>
+		</classes>
+	</test> 
+	<test name="Net Income Summary">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForIncomeExpenseOverview">
+			</class>
+		</classes>
+	</test>
+	<test name="Financial Forecast">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForFinancialForecast">
+			</class>
+		</classes>
+	</test>
+	<test name="Projected Insufficient Balance">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedInsufficientBalance">
+			</class>
+		</classes>
+	</test>
+	<test name="Projected Discretionary Funds">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForProjectedDiscretionaryFunds">
+			</class>
+		</classes>
+	</test>
+	<test name="Debt To Income Ratio">
+		<classes>
+			<class
+				name="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForDebtToIncomeRatio">
+			</class>
+		</classes>
+	</test>
+</suite>

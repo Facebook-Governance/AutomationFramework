@@ -1,0 +1,23 @@
+testCaseID,testCaseDescription,authentication,fromDate,toDate,categoryType,expectedCategoriesCount,utilizedCategoriesDetails,NegativeTestScenario,status,enabled
+AT-163755,test12,CobUserSession,-9,NA,,0,,Scenario_2,400,TRUE
+AT-163758,test1,CobUserSession,0,0,,1,"Investment Income,30,1",,200,TRUE
+AT-163756,test2,CobUserSession,-9,0,,2,"Investment Income,30,1#Refunds/Adjustments,227,1",,200,TRUE
+AT-163759,test3,CobUserSession,-11,0,,3,"Deposits,27,1#Investment Income,30,1#Refunds/Adjustments,227,1",,200,TRUE
+AT-163784,test4,CobUserSession,-13,0,,4,"Deposits,27,1#General Merchandise,44,1#Investment Income,30,1#Refunds/Adjustments,227,1",,200,TRUE
+AT-163785,test5,CobUserSession,-14,0,,4,"Deposits,27,1#General Merchandise,44,1#Investment Income,30,1#Refunds/Adjustments,227,1",,200,TRUE
+AT-163787,test6,CobUserSession,-31,0,,5,"Entertainment,7,2#Deposits,27,1#General Merchandise,44,1#Investment Income,30,1#Refunds/Adjustments,227,1",,200,TRUE
+AT-163786,test7,CobUserSession,-70,0,,6,"Entertainment,7,2#Deposits,27,1#General Merchandise,44,1#Investment Income,30,1#Refunds/Adjustments,227,1#Telephone Services,38,1",,200,TRUE
+AT-163788,test8,CobUserSession,-365,0,,10,"Entertainment,7,2#Services,98,2#Deposits,27,1#General Merchandise,44,1#Investment Income,30,1#Other Income,32,1#Refunds/Adjustments,227,1#Telephone Services,38,1#Travel,23,1",,200,TRUE
+AT-163781,test9,CobUserSession,-365,-365,,0,,,200,TRUE
+AT-163761,test10,CobUserSession,-366,0,,10,"Entertainment,7,2#Services,98,2#Deposits,27,1#General Merchandise,44,1#Investment Income,30,1#Other Income,32,1#Refunds/Adjustments,227,1#Telephone Services,38,1#Travel,23,1",,200,TRUE
+AT-163782,test11,CobUserSession,1,0,,0,,Scenario_1,400,TRUE
+AT-163783,test14,CobUserSession,-1000,-400,,0,,Scenario_3,400,TRUE
+AT-163763,test15,CobUserSession,-3,-5,,0,,Scenario_5,400,TRUE
+AT-163765,test15,CobUserSession,3,0,,0,,Scenario_1,400,TRUE
+AT-163762,test6,CobUserSession,-31,0,INCOME,5,"Deposits,27,1#Investment Income,30,1#Refunds/Adjustments,227,1",,200,TRUE
+AT-163764,test7,CobUserSession,-70,0,EXPENSE,6,"Entertainment,7,2#General Merchandise,44,1#Telephone Services,38,1",,200,TRUE
+AT-163766,test8,CobUserSession,-365,0,"INCOME,EXPENSE",10,"Entertainment,7,2#Services,98,2#Deposits,27,1#General Merchandise,44,1#Investment Income,30,1#Other Income,32,1#Refunds/Adjustments,227,1#Telephone Services,38,1#Travel,23,1",,200,TRUE
+AT-163778,test15,CobUserSession,-13,0,"INCOME,EXPNS",0,,Scenario_7,400,TRUE
+AT-163774,test1,Jwt,0,0,,1,"Investment Income,30,1",,200,TRUE
+AT-163779,test2,Jwt,-9,0,,2,"Investment Income,30,1#Refunds/Adjustments,227,1",,200,TRUE
+AT-163780,test3,Jwt,-11,0,,3,"Deposits,27,1#Investment Income,30,1#Refunds/Adjustments,227,1",,200,TRUE

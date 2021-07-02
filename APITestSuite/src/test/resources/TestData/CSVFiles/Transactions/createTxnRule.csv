@@ -1,0 +1,35 @@
+TestCaseId,TestCaseName,categoryId,priority,descriptionOperation,descriptionValue,amountOperation,amountValue,statusCode,Enabled
+0,StringContainsNumEqual,1,1,stringContains,Dining,numberEquals,543,201,TRUE
+1,StringEqualsNumEqual,3,1,stringEquals,Deposit ,numberEquals,2000,201,TRUE
+2,StringContainsNumLessThan,20,1,stringContains,Din,numberLessThan,1100,201,TRUE
+3,StringEqualsNumLessThan,20,1,stringEquals,Dining,numberLessThan,2300,201,TRUE
+4,StringContainsNumGreaterThan,15,1,stringContains,Dining,numberGreaterThan,800,201,TRUE
+5,StringEqualsNumGreaterThan,25,1,stringEquals,Deposit ,numberGreaterThan,430,201,TRUE
+6,StringContainsNumLessThanEqual,7,1,stringContains,trans,numberLessThanEquals,850,201,TRUE
+7,StringEqualsNumLessThanEqual,108,1,stringEquals,Depo,numberLessThanEquals,150,201,TRUE
+8,StringContainsNumGreaterThanEqual,227,1,stringContains,trans,numberGreaterThanEquals,1550,201,TRUE
+9,StringEqualsNumGreaterThanEqual,37,1,stringEquals,tra,numberEquals,1250,201,TRUE
+10,CategoryIDNull,,1,stringContains,Dining,numberGreaterThan,10,400,TRUE
+11,SubCategoryID,135,1,stringEquals,Deposit ,numberGreaterThan,200,201,TRUE
+12,CategoryIdAsChar,Gifts,1,stringContains,trans,numberLessThanEquals,100,400,TRUE
+13,CategoryIdInSymbol,$%%,1,stringContains,Dining,numberGreaterThanEquals,250,400,TRUE
+14,CategoryIdCharNum,Gifts333,1,stringContains,trans,numberGreaterThan,333,400,TRUE
+15,CategoryIdCharSymNum,GF#$#3222,1,stringContains,tra,numberEquals,444,400,TRUE
+16,NoPriority,3,,stringEquals,Deposit ,numberEquals,2222,201,TRUE
+17,DiffPriorityNum,3,43,stringEquals,Deposit ,numberEquals,2222,400,TRUE
+18,PrioritySymbol,3,#$@,stringContains,Deposit ,numberEquals,5555,400,TRUE
+19,PriorityChar,3,One,stringContains,sit,numberGreaterThan,11,400,TRUE
+20,DiffPriorityNum,3,2,stringEquals,,numberEquals,111,400,TRUE
+21,NumWithDecimal,12,2,,,numberEquals,1234.98,400,TRUE
+22,NumNoDecimal,13,3,,,numberEquals,10000,400,TRUE
+23,DuplicateRule1,15,5,stringContains,trans,numberLessThanEquals,100,201,TRUE
+24,StringLengthMoreThan50,2,4,stringContains,This rule is for creating the rule using the newly created YSL rule API,numberEquals,212,400,TRUE
+25,StringLengthOf50Char,2,4,stringContains,This rule is for creating the rule using the newly,numberEquals,414,201,TRUE
+26,NoPassingDescription,6,5,,,numberEquals,999,400,TRUE
+27,MultipleCategoryID,"1,2,3",1,stringContains,Din,numberLessThanEquals,100,400,TRUE
+28,MultiCategoryIDInWithInQuotes,"1,3,4",1,stringEquals,Dining,numberGreaterThanEquals,200,400,TRUE
+29,MoreThanMaxNumLength,32,1,stringEquals,Depo,numberEquals,1.23E+23,400,TRUE
+30,num with decimal and desc as string,1,1,stringEquals,Champ12,numberEquals,1234.45,201,TRUE
+31,DuplicateRule1,15,5,stringContains,trans,numberLessThanEquals,100,400,TRUE
+32,special character,12,2,stringEquals,chhh23,numberEquals,wer#$34,400,TRUE
+33,no amount ,20,1,stringEquals,noamount,,,400,TRUE

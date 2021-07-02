@@ -1,0 +1,53 @@
+{
+	"account": [
+		{
+			"includeInNetWorth": true,
+			"availableCredit": {
+				"amount": 1000,
+				"currency": "USD"
+			},
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "Bill Gates"
+					}
+				}
+			],
+			"accountName": "Super CD Plus1",
+			"dueDate": "2013-02-14",
+			"accountType": "CHARGE",
+			"isManual": false,
+			"accountNumber": "354-2334",
+			"accountStatus": "INACTIVE",
+			"amountDue": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"isAsset": false,
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 11756.88,
+				"currency": "USD"
+			},
+			"totalCashLimit": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			"CONTAINER": "creditCard",
+			"totalCreditLine": {
+				"amount": 100,
+				"currency": "USD"
+			},
+			"providerName": "Dag Site",
+			"minimumAmountDue": {
+				"amount": 1000,
+				"currency": "USD"
+			}
+		}
+	]
+}

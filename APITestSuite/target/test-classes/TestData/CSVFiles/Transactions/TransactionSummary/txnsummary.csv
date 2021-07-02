@@ -1,0 +1,20 @@
+testCaseId,TestCase,accountIds,providerId,dagUsername,dagPassword,categoryNames,groupBy,startDate,endDate,categoryType,include,interval,status,ResFile,FilePath,Enabled
+AT-17755,All Null,,,,,,,,,,,,400,groupByRequired.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17756,HIGH_LEVEL_CATEGORY,,,,,,HIGH_LEVEL_CATEGORY,,,,,,400,categoryTypeRequired.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17759,CATEGORY,,,,,,CATEGORY,,,,,,400,categoryTypeRequired.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17761,CATEGORY_TYPE with invalid categoryType,,,,,,CATEGORY_TYPE,,,Invalid,,,400,invalidValueForCategoryType.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17758,CATEGORY_TYPE with invalid accountId,123,,,,,CATEGORY_TYPE,,,,,,400,invalidValueForAccountIds.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17760,CATEGORY_TYPE with invalid categoryName,,,,,Invalid,CATEGORY_TYPE,,,,,,400,cannotApplyFilter.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17766,CATEGORY_TYPE with invalid startDate,,,,,,CATEGORY_TYPE,Invalid,,,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17768,CATEGORY_TYPE with invalid endDate,,,,,,CATEGORY_TYPE,,Invalid,,,,400,invalidToDate.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17767,CATEGORY_TYPE with invalid startDate,,,,,,CATEGORY_TYPE,2000-01-34,,,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17769,CATEGORY_TYPE with invalid startDate,,,,,,CATEGORY_TYPE,2000-34-01,,,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17776,CATEGORY_TYPE with invalid endDate,,,,,,CATEGORY_TYPE,,2000-01-34,,,,400,invalidToDate.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17738,CATEGORY_TYPE with invalid endDate,,,,,,CATEGORY_TYPE,,2000-34-01,,,,400,invalidToDate.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17739,CATEGORY_TYPE with invalid accountId,abc,,,,,CATEGORY_TYPE,,,,,,400,invalidValueForAccountIds.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17752,CATEGORY_TYPE with invalid accountId,123abc,,,,,CATEGORY_TYPE,,,,,,400,invalidValueForAccountIds.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17737,CATEGORY_TYPE with invalid accountId,"1,23,123",,,,,CATEGORY_TYPE,,,,,,400,invalidValueForAccountIds.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17753,CATEGORY_TYPE with invalid accountId,!@#,,,,,CATEGORY_TYPE,,,,,,400,invalidValueForAccountIds.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17750,CATEGORY_TYPE with invalid accountId,123%^&,,,,,CATEGORY_TYPE,,,,,,400,invalidValueForAccountIds.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17751,Invalid groupBy,,,,,,Invalid,,,,,,400,invalidValueForGroupBy.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17751,Invalid interval,,,,,,CATEGORY_TYPE,,,,,s,400,invalidValueForInterval.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE

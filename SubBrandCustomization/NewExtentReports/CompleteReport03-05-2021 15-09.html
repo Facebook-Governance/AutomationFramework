@@ -1,0 +1,2121 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link href='https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ff53917fbbdb5ef820abbbe4d199a6942dc771ff/v3html/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>Sub-brand Tool Automation Report</title>
+
+	<style type='text/css'>
+		/* json-tree */
+		.jstBracket,.jstComma,.jstValue{white-space:pre-wrap}.jstValue{font-size:10px;font-weight:400;font-family:"Lucida Console",Monaco,monospace}.jstProperty{color:#666;word-wrap:break-word}.jstBool{color:#2525CC}.jstNum{color:#D036D0}.jstNull{color:gray}.jstStr{color:#2DB669}.jstFold:after{content:' -';cursor:pointer}.jstExpand{white-space:normal}.jstExpand:after{content:' +';cursor:pointer}.jstFolded{white-space:normal!important}.jstHiddenBlock{display:none}
+	</style>
+	
+	<script type="text/javascript">
+		/*! json-tree - v0.2.2 - 2017-09-25, MIT LICENSE */
+		var JSONTree=function(){var n={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;","/":"&#x2F;"},t=0,r=0;this.create=function(n,t){return r+=1,N(u(n,0,!1),{class:"jstValue"})};var e=function(t){return t.replace(/[&<>'"]/g,function(t){return n[t]})},s=function(){return r+"_"+t++},u=function(n,t,r){if(null===n)return f(r?t:0);switch(typeof n){case"boolean":return l(n,r?t:0);case"number":return i(n,r?t:0);case"string":return o(n,r?t:0);default:return n instanceof Array?a(n,t,r):c(n,t,r)}},c=function(n,t,r){var e=s(),u=Object.keys(n).map(function(r){return j(r,n[r],t+1,!0)}).join(m()),c=[g("{",r?t:0,e),N(u,{id:e}),p("}",t)].join("\n");return N(c,{})},a=function(n,t,r){var e=s(),c=n.map(function(n){return u(n,t+1,!0)}).join(m());return[g("[",r?t:0,e),N(c,{id:e}),p("]",t)].join("\n")},o=function(n,t){var r=e(JSON.stringify(n));return N(v(r,t),{class:"jstStr"})},i=function(n,t){return N(v(n,t),{class:"jstNum"})},l=function(n,t){return N(v(n,t),{class:"jstBool"})},f=function(n){return N(v("null",n),{class:"jstNull"})},j=function(n,t,r){var s=v(e(JSON.stringify(n))+": ",r),c=N(u(t,r,!1),{});return N(s+c,{class:"jstProperty"})},m=function(){return N(",\n",{class:"jstComma"})},N=function(n,t){return d("span",t,n)},d=function(n,t,r){return"<"+n+Object.keys(t).map(function(n){return" "+n+'="'+t[n]+'"'}).join("")+">"+r+"</"+n+">"},g=function(n,t,r){return N(v(n,t),{class:"jstBracket"})+N("",{class:"jstFold",onclick:"JSONTree.toggle('"+r+"')"})};this.toggle=function(n){var t=document.getElementById(n),r=t.parentNode,e=t.previousElementSibling;""===t.className?(t.className="jstHiddenBlock",r.className="jstFolded",e.className="jstExpand"):(t.className="",r.className="",e.className="jstFold")};var p=function(n,t){return N(v(n,t),{})},v=function(n,t){return Array(2*t+1).join(" ")+n};return this}();
+	</script>
+</head>
+	<body class='extent dark default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo black"><img src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png"></a>
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
+			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+		</ul>
+		<!-- report name -->
+		<span class='report-name'>Sub-brand Tool Automation Report</span>
+		<!-- report headline -->
+		<span class='report-headline'></span>
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<a href='#!'>
+			<span class='label blue darken-3 suite-start-time'>May 3, 2021 03:09:26 PM</span>
+			</a>
+		</ul>
+	</div>
+</nav>		<!-- container -->
+		<div class='container'>
+<div id='test-view' class='view'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+				<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+			<!-- category toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button category-toggle' data-activates='category-toggle' data-constrainwidth='false' data-beloworigin='true' data-hover='true' href='#'>
+				<i class='material-icons'>local_offer</i> Category
+				</a>
+				<ul id='category-toggle' class='dropdown-content'>
+					<li><a href='#'>SubBrandManagementToolPublishWorkflows</a></li>
+					<li class='divider'></li>
+					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
+				</ul>
+			</div>
+			<!-- category toggle -->
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+				<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+				<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+<div id='test-view-charts' class='subview-full'>
+    <div id='charts-row' class='row nm-v nm-h'>
+        <div class='col s12 m12 l12 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Tests</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='parent-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>26</span> test(s) passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="timeline-chart" class="row nm-v nm-h">
+        <div class="col s12 m12 l12 np-h">
+            <div class="card-panel">
+                <div class='left panel-name'>Timeline (seconds)</div>
+                <div class="chart-box" style="width:98%;max-height:145px;">
+                    <canvas id="timeline" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='test-collection' class='test-collection'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>testValidateLoginPageContents</span>
+						<span class='test-time'>May 3, 2021 03:09:31 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:09:31 PM</span>
+	<span class='label end-time'>May 3, 2021 03:09:31 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+425ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:31 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testValidateLoginPageContents"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:31 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:31 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 0 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:09:31 PM</td>
+				<td class='step-details'>
+						testValidateLoginPageContents test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>testValidateMessageOnClickingForgotPasswordLink</span>
+						<span class='test-time'>May 3, 2021 03:09:32 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:09:32 PM</span>
+	<span class='label end-time'>May 3, 2021 03:09:32 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+182ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:32 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testValidateMessageOnClickingForgotPasswordLink"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:32 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:32 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 0 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:09:32 PM</td>
+				<td class='step-details'>
+						testValidateMessageOnClickingForgotPasswordLink test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>testValidateLogin ( AT-113117 , TRUE , InvalidInput , invalid@pfml1stage , Yodlee@123 , Invalid user credentials )</span>
+						<span class='test-time'>May 3, 2021 03:09:33 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:09:33 PM</span>
+	<span class='label end-time'>May 3, 2021 03:09:38 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+345ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:33 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testValidateLogin"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:33 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:38 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 5 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:09:38 PM</td>
+				<td class='step-details'>
+						testValidateLogin ( AT-113117 , TRUE , InvalidInput , invalid@pfml1stage , Yodlee@123 , Invalid user credentials )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>testValidateLogin ( AT-113127 , TRUE , NoInput ,  ,  , Uh-oh! You've entered wrong username/ password. Please re-enter credentials )</span>
+						<span class='test-time'>May 3, 2021 03:09:38 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:09:38 PM</span>
+	<span class='label end-time'>May 3, 2021 03:09:43 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+592ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:38 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testValidateLogin"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:38 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:43 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 4 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:09:43 PM</td>
+				<td class='step-details'>
+						testValidateLogin ( AT-113127 , TRUE , NoInput ,  ,  , Uh-oh! You've entered wrong username/ password. Please re-enter credentials )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
+					<div class='test-heading'>
+						<span class='test-name'>testValidateLogin ( AT-113116 , TRUE , ValidInput , rajeev@pfml1stage , Yodlee@123</span>
+						<span class='test-time'>May 3, 2021 03:09:43 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:09:43 PM</span>
+	<span class='label end-time'>May 3, 2021 03:09:51 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+414ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:43 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testValidateLogin"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:43 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:09:51 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 8 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:09:51 PM</td>
+				<td class='step-details'>
+						testValidateLogin ( AT-113116 , TRUE , ValidInput , rajeev@pfml1stage , Yodlee@123 test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
+					<div class='test-heading'>
+						<span class='test-name'>testGeneralConfigurationNegativeValidations ( AT-000001 , TRUE , EmptySubBrandDomainNameIPAddress )</span>
+						<span class='test-time'>May 3, 2021 03:10:00 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:10:00 PM</span>
+	<span class='label end-time'>May 3, 2021 03:10:18 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 17s+585ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:10:00 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testGeneralConfigurationNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:10:00 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:10:18 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 17 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:10:18 PM</td>
+				<td class='step-details'>
+						testGeneralConfigurationNegativeValidations ( AT-000001 , TRUE , EmptySubBrandDomainNameIPAddress )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='13'>
+					<div class='test-heading'>
+						<span class='test-name'>testGeneralConfigurationNegativeValidations ( AT-000002 , TRUE , DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters )</span>
+						<span class='test-time'>May 3, 2021 03:10:18 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:10:18 PM</span>
+	<span class='label end-time'>May 3, 2021 03:11:06 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 48s+629ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:10:18 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testGeneralConfigurationNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:10:18 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:11:06 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 48 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:11:06 PM</td>
+				<td class='step-details'>
+						testGeneralConfigurationNegativeValidations ( AT-000002 , TRUE , DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='15'>
+					<div class='test-heading'>
+						<span class='test-name'>testGeneralConfigurationNegativeValidations ( AT-000003 , TRUE , MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters )</span>
+						<span class='test-time'>May 3, 2021 03:11:06 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:11:06 PM</span>
+	<span class='label end-time'>May 3, 2021 03:11:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 19s+360ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:11:06 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testGeneralConfigurationNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:11:06 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:11:26 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 19 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:11:26 PM</td>
+				<td class='step-details'>
+						testGeneralConfigurationNegativeValidations ( AT-000003 , TRUE , MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='17'>
+					<div class='test-heading'>
+						<span class='test-name'>testGeneralConfigurationNegativeValidations ( AT-000004 , TRUE , InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed )</span>
+						<span class='test-time'>May 3, 2021 03:11:26 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:11:26 PM</span>
+	<span class='label end-time'>May 3, 2021 03:11:42 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 16s+652ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:11:26 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testGeneralConfigurationNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:11:26 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:11:42 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 16 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:11:42 PM</td>
+				<td class='step-details'>
+						testGeneralConfigurationNegativeValidations ( AT-000004 , TRUE , InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='19'>
+					<div class='test-heading'>
+						<span class='test-name'>testPrivateAuthSetupNegativeValidations ( AT-000001 , TRUE , NoLoginMechanism , None )</span>
+						<span class='test-time'>May 3, 2021 03:11:42 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:11:42 PM</span>
+	<span class='label end-time'>May 3, 2021 03:12:03 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 20s+891ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:11:42 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testPrivateAuthSetupNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:11:42 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:12:03 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 20 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:12:03 PM</td>
+				<td class='step-details'>
+						testPrivateAuthSetupNegativeValidations ( AT-000001 , TRUE , NoLoginMechanism , None )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='21'>
+					<div class='test-heading'>
+						<span class='test-name'>testPrivateAuthSetupNegativeValidations ( AT-000002 , TRUE , EmptyDetails , SAML;JWT )</span>
+						<span class='test-time'>May 3, 2021 03:12:03 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:12:03 PM</span>
+	<span class='label end-time'>May 3, 2021 03:12:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 25s+217ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:12:03 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testPrivateAuthSetupNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:12:03 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:12:29 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 25 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:12:29 PM</td>
+				<td class='step-details'>
+						testPrivateAuthSetupNegativeValidations ( AT-000002 , TRUE , EmptyDetails , SAML;JWT )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='23'>
+					<div class='test-heading'>
+						<span class='test-name'>testPrivateAuthSetupNegativeValidations ( AT-000003 , TRUE , MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit , SAML;JWT )</span>
+						<span class='test-time'>May 3, 2021 03:12:29 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:12:29 PM</span>
+	<span class='label end-time'>May 3, 2021 03:13:00 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 31s+221ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:12:29 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testPrivateAuthSetupNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:12:29 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:13:00 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 31 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:13:00 PM</td>
+				<td class='step-details'>
+						testPrivateAuthSetupNegativeValidations ( AT-000003 , TRUE , MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit , SAML;JWT )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='25'>
+					<div class='test-heading'>
+						<span class='test-name'>testPrivateAuthSetupNegativeValidations ( AT-000004 , TRUE , MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey , SAML;JWT )</span>
+						<span class='test-time'>May 3, 2021 03:13:00 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:13:00 PM</span>
+	<span class='label end-time'>May 3, 2021 03:13:25 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 25s+464ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:13:00 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testPrivateAuthSetupNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:13:00 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:13:25 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 25 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:13:25 PM</td>
+				<td class='step-details'>
+						testPrivateAuthSetupNegativeValidations ( AT-000004 , TRUE , MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey , SAML;JWT )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='27'>
+					<div class='test-heading'>
+						<span class='test-name'>testPublicAuthSetupNegativeValidations ( AT-000001 , TRUE , EmptyDetails , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )</span>
+						<span class='test-time'>May 3, 2021 03:13:25 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:13:25 PM</span>
+	<span class='label end-time'>May 3, 2021 03:14:02 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 36s+231ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:13:25 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testPublicAuthSetupNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:13:25 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:14:02 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 36 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:14:02 PM</td>
+				<td class='step-details'>
+						testPublicAuthSetupNegativeValidations ( AT-000001 , TRUE , EmptyDetails , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='29'>
+					<div class='test-heading'>
+						<span class='test-name'>testPublicAuthSetupNegativeValidations ( AT-000002 , TRUE , MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )</span>
+						<span class='test-time'>May 3, 2021 03:14:02 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:14:02 PM</span>
+	<span class='label end-time'>May 3, 2021 03:14:40 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 38s+366ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:14:02 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testPublicAuthSetupNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:14:02 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:14:40 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 38 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:14:40 PM</td>
+				<td class='step-details'>
+						testPublicAuthSetupNegativeValidations ( AT-000002 , TRUE , MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='31'>
+					<div class='test-heading'>
+						<span class='test-name'>testPublicAuthSetupNegativeValidations ( AT-000003 , TRUE , MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )</span>
+						<span class='test-time'>May 3, 2021 03:14:40 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:14:40 PM</span>
+	<span class='label end-time'>May 3, 2021 03:15:18 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 37s+779ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:14:40 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testPublicAuthSetupNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:14:40 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:15:18 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 37 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:15:18 PM</td>
+				<td class='step-details'>
+						testPublicAuthSetupNegativeValidations ( AT-000003 , TRUE , MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='33'>
+					<div class='test-heading'>
+						<span class='test-name'>testProductsAndAppSelectionNegativeValidations ( AT-000001 , TRUE , DefaultSettings , SAML;JWT , testcredpublic , saml , testpublic , testrpublic , 150 , TRUE , FALSE )</span>
+						<span class='test-time'>May 3, 2021 03:15:18 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:15:18 PM</span>
+	<span class='label end-time'>May 3, 2021 03:15:47 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 29s+179ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:15:18 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testProductsAndAppSelectionNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:15:18 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:15:47 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 29 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:15:47 PM</td>
+				<td class='step-details'>
+						testProductsAndAppSelectionNegativeValidations ( AT-000001 , TRUE , DefaultSettings , SAML;JWT , testcredpublic , saml , testpublic , testrpublic , 150 , TRUE , FALSE )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='35'>
+					<div class='test-heading'>
+						<span class='test-name'>testProductsAndAppSelectionNegativeValidations ( AT-000002 , TRUE , NothingEnabled , SAML;JWT , testcredpublic , saml , testpublic , testrpublic , 150 , TRUE , FALSE )</span>
+						<span class='test-time'>May 3, 2021 03:15:47 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:15:47 PM</span>
+	<span class='label end-time'>May 3, 2021 03:16:17 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 29s+629ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:15:47 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testProductsAndAppSelectionNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:15:47 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:16:17 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 29 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:16:17 PM</td>
+				<td class='step-details'>
+						testProductsAndAppSelectionNegativeValidations ( AT-000002 , TRUE , NothingEnabled , SAML;JWT , testcredpublic , saml , testpublic , testrpublic , 150 , TRUE , FALSE )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='37'>
+					<div class='test-heading'>
+						<span class='test-name'>testContactDetailsNegativeValidations ( AT-000001 , TRUE , EmptyContactDetails )</span>
+						<span class='test-time'>May 3, 2021 03:16:17 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:16:17 PM</span>
+	<span class='label end-time'>May 3, 2021 03:16:52 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 35s+322ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:16:17 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testContactDetailsNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:16:17 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:16:52 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 35 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:16:52 PM</td>
+				<td class='step-details'>
+						testContactDetailsNegativeValidations ( AT-000001 , TRUE , EmptyContactDetails )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='39'>
+					<div class='test-heading'>
+						<span class='test-name'>testContactDetailsNegativeValidations ( AT-000002 , TRUE , ContactDetailsExceedCharacterLimit )</span>
+						<span class='test-time'>May 3, 2021 03:16:52 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:16:52 PM</span>
+	<span class='label end-time'>May 3, 2021 03:17:29 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 36s+984ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:16:52 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testContactDetailsNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:16:52 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:17:29 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 36 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:17:29 PM</td>
+				<td class='step-details'>
+						testContactDetailsNegativeValidations ( AT-000002 , TRUE , ContactDetailsExceedCharacterLimit )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='41'>
+					<div class='test-heading'>
+						<span class='test-name'>testContactDetailsNegativeValidations ( AT-000003 , TRUE , InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters )</span>
+						<span class='test-time'>May 3, 2021 03:17:29 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:17:29 PM</span>
+	<span class='label end-time'>May 3, 2021 03:18:08 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 39s+61ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:17:29 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testContactDetailsNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:17:29 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:08 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 39 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:18:08 PM</td>
+				<td class='step-details'>
+						testContactDetailsNegativeValidations ( AT-000003 , TRUE , InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='43'>
+					<div class='test-heading'>
+						<span class='test-name'>testContactDetailsNegativeValidations ( AT-000004 , TRUE , ContactUserIdNoSpecialCharacters )</span>
+						<span class='test-time'>May 3, 2021 03:18:08 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:18:08 PM</span>
+	<span class='label end-time'>May 3, 2021 03:18:32 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 23s+587ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:08 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testContactDetailsNegativeValidations"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:08 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:32 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 23 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:18:32 PM</td>
+				<td class='step-details'>
+						testContactDetailsNegativeValidations ( AT-000004 , TRUE , ContactUserIdNoSpecialCharacters )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='45'>
+					<div class='test-heading'>
+						<span class='test-name'>testCreateAndViewSubBrandOverView ( AT-000001 , FALSE , SubBrand-JWT-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Sub-brand , JWT , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , FALSE , FALSE , FALSE )</span>
+						<span class='test-time'>May 3, 2021 03:18:32 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:18:32 PM</span>
+	<span class='label end-time'>May 3, 2021 03:18:34 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+689ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:32 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testCreateAndViewSubBrandOverView"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:32 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:34 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 2 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:18:34 PM</td>
+				<td class='step-details'>
+						testCreateAndViewSubBrandOverView ( AT-000001 , FALSE , SubBrand-JWT-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Sub-brand , JWT , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , FALSE , FALSE , FALSE )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='47'>
+					<div class='test-heading'>
+						<span class='test-name'>testCreateAndViewSubBrandOverView ( AT-000002 , FALSE , ChannelPartner-JWT-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Channel Partner , JWT , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , TRUE , FALSE , FALSE )</span>
+						<span class='test-time'>May 3, 2021 03:18:34 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:18:34 PM</span>
+	<span class='label end-time'>May 3, 2021 03:18:37 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+438ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:34 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testCreateAndViewSubBrandOverView"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:34 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:37 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 2 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:18:37 PM</td>
+				<td class='step-details'>
+						testCreateAndViewSubBrandOverView ( AT-000002 , FALSE , ChannelPartner-JWT-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Channel Partner , JWT , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , TRUE , FALSE , FALSE )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='49'>
+					<div class='test-heading'>
+						<span class='test-name'>testCreateAndViewSubBrandOverView ( AT-000003 , FALSE , SubBrand-SAML-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Sub-brand , SAML , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , FALSE , FALSE , FALSE )</span>
+						<span class='test-time'>May 3, 2021 03:18:37 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:18:37 PM</span>
+	<span class='label end-time'>May 3, 2021 03:18:40 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+990ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:37 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testCreateAndViewSubBrandOverView"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:37 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:40 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 2 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:18:40 PM</td>
+				<td class='step-details'>
+						testCreateAndViewSubBrandOverView ( AT-000003 , FALSE , SubBrand-SAML-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Sub-brand , SAML , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , FALSE , FALSE , FALSE )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='51'>
+					<div class='test-heading'>
+						<span class='test-name'>testCreateAndViewSubBrandOverView ( AT-000004 , FALSE , ChannelPartner-SAML-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Channel Partner , SAML , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , TRUE , FALSE , FALSE )</span>
+						<span class='test-time'>May 3, 2021 03:18:40 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 3, 2021 03:18:40 PM</span>
+	<span class='label end-time'>May 3, 2021 03:18:42 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+187ms</span>
+</div>
+<div class='test-attributes'>
+	<div class='category-list'>
+		<span class='category label'>SubBrandManagementToolPublishWorkflows</span>
+	</div>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:40 PM</td>
+				<td class='step-details'>
+						<b><i>Test Case Name :: </b></i>"testCreateAndViewSubBrandOverView"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:40 PM</td>
+				<td class='step-details'>
+						<b><i>Description of the test :: </b></i> "null"
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>3:18:42 PM</td>
+				<td class='step-details'>
+						Total time taken for test case to execute :: 2 Seconds
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>3:18:42 PM</td>
+				<td class='step-details'>
+						testCreateAndViewSubBrandOverView ( AT-000004 , FALSE , ChannelPartner-SAML-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Channel Partner , SAML , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , TRUE , FALSE , FALSE )  test has passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<div id='step-filters' class="right sr-filters">
+				<a class="btn-floating waves-effect waves-light green" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></a>
+				<a class="btn-floating waves-effect waves-light red" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light red darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light pink text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></a>
+				<a class="btn-floating waves-effect waves-light orange" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></a>
+				<a class="btn-floating waves-effect waves-light teal" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></a>
+				<a class="btn-floating waves-effect waves-light grey" status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></a>
+			</div>
+			<h5 class='test-name'></h5>
+		</div>
+	</div>
+	<!-- subview right -->
+</div>
+<!-- test view --><div id='category-view' class='view hide'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='category-collection' class='category-collection'>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>SubBrandManagementToolPublishWorkflows</span>
+						<span class='category-status right'>
+						<span class='label pass'>26</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 26</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>May 3, 2021 03:09:31 PM</td>
+										<td class='linked' test-id='1'>testValidateLoginPageContents</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:09:32 PM</td>
+										<td class='linked' test-id='3'>testValidateMessageOnClickingForgotPasswordLink</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:09:33 PM</td>
+										<td class='linked' test-id='5'>testValidateLogin ( AT-113117 , TRUE , InvalidInput , invalid@pfml1stage , Yodlee@123 , Invalid user credentials )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:09:38 PM</td>
+										<td class='linked' test-id='7'>testValidateLogin ( AT-113127 , TRUE , NoInput ,  ,  , Uh-oh! You've entered wrong username/ password. Please re-enter credentials )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:09:43 PM</td>
+										<td class='linked' test-id='9'>testValidateLogin ( AT-113116 , TRUE , ValidInput , rajeev@pfml1stage , Yodlee@123</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:10:00 PM</td>
+										<td class='linked' test-id='11'>testGeneralConfigurationNegativeValidations ( AT-000001 , TRUE , EmptySubBrandDomainNameIPAddress )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:10:18 PM</td>
+										<td class='linked' test-id='13'>testGeneralConfigurationNegativeValidations ( AT-000002 , TRUE , DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:11:06 PM</td>
+										<td class='linked' test-id='15'>testGeneralConfigurationNegativeValidations ( AT-000003 , TRUE , MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:11:26 PM</td>
+										<td class='linked' test-id='17'>testGeneralConfigurationNegativeValidations ( AT-000004 , TRUE , InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:11:42 PM</td>
+										<td class='linked' test-id='19'>testPrivateAuthSetupNegativeValidations ( AT-000001 , TRUE , NoLoginMechanism , None )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:12:03 PM</td>
+										<td class='linked' test-id='21'>testPrivateAuthSetupNegativeValidations ( AT-000002 , TRUE , EmptyDetails , SAML;JWT )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:12:29 PM</td>
+										<td class='linked' test-id='23'>testPrivateAuthSetupNegativeValidations ( AT-000003 , TRUE , MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit , SAML;JWT )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:13:00 PM</td>
+										<td class='linked' test-id='25'>testPrivateAuthSetupNegativeValidations ( AT-000004 , TRUE , MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey , SAML;JWT )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:13:25 PM</td>
+										<td class='linked' test-id='27'>testPublicAuthSetupNegativeValidations ( AT-000001 , TRUE , EmptyDetails , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:14:02 PM</td>
+										<td class='linked' test-id='29'>testPublicAuthSetupNegativeValidations ( AT-000002 , TRUE , MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:14:40 PM</td>
+										<td class='linked' test-id='31'>testPublicAuthSetupNegativeValidations ( AT-000003 , TRUE , MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:15:18 PM</td>
+										<td class='linked' test-id='33'>testProductsAndAppSelectionNegativeValidations ( AT-000001 , TRUE , DefaultSettings , SAML;JWT , testcredpublic , saml , testpublic , testrpublic , 150 , TRUE , FALSE )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:15:47 PM</td>
+										<td class='linked' test-id='35'>testProductsAndAppSelectionNegativeValidations ( AT-000002 , TRUE , NothingEnabled , SAML;JWT , testcredpublic , saml , testpublic , testrpublic , 150 , TRUE , FALSE )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:16:17 PM</td>
+										<td class='linked' test-id='37'>testContactDetailsNegativeValidations ( AT-000001 , TRUE , EmptyContactDetails )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:16:52 PM</td>
+										<td class='linked' test-id='39'>testContactDetailsNegativeValidations ( AT-000002 , TRUE , ContactDetailsExceedCharacterLimit )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:17:29 PM</td>
+										<td class='linked' test-id='41'>testContactDetailsNegativeValidations ( AT-000003 , TRUE , InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:18:08 PM</td>
+										<td class='linked' test-id='43'>testContactDetailsNegativeValidations ( AT-000004 , TRUE , ContactUserIdNoSpecialCharacters )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:18:32 PM</td>
+										<td class='linked' test-id='45'>testCreateAndViewSubBrandOverView ( AT-000001 , FALSE , SubBrand-JWT-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Sub-brand , JWT , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , FALSE , FALSE , FALSE )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:18:34 PM</td>
+										<td class='linked' test-id='47'>testCreateAndViewSubBrandOverView ( AT-000002 , FALSE , ChannelPartner-JWT-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Channel Partner , JWT , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , TRUE , FALSE , FALSE )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:18:37 PM</td>
+										<td class='linked' test-id='49'>testCreateAndViewSubBrandOverView ( AT-000003 , FALSE , SubBrand-SAML-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Sub-brand , SAML , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , FALSE , FALSE , FALSE )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>May 3, 2021 03:18:40 PM</td>
+										<td class='linked' test-id='51'>testCreateAndViewSubBrandOverView ( AT-000004 , FALSE , ChannelPartner-SAML-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Channel Partner , SAML , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , TRUE , FALSE , FALSE )</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='category-name'></h5>
+		</div>
+	</div>
+</div>
+<!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>26</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>0</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>May 3, 2021 03:09:26 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>May 3, 2021 03:18:42 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>0h 9m 15s+914ms</div>
+				</div>
+			</div>
+			<div class='col s6'>
+				<div class='card-panel dashboard-categories'>
+					<span class='right label cyan white-text'>Categories</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Passed</th>
+							<th>Failed</th>
+							<th>Skipped</th>
+							<th>Passed %</th>
+						</tr>
+						<tr>
+							<td>SubBrandManagementToolPublishWorkflows</td>
+							<td>26</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->		</div>
+		<!-- container -->
+		<script>
+			var statusGroup = {
+                parentCount: 26,
+				passParent: 26,
+				failParent: 0,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 0,
+				childCount: 0,
+				passChild: 0,
+				failChild: 0,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				debugChild: 0,
+				exceptionsChild: 0,
+				grandChildCount: 0,
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				debugGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		<script>
+			var timeline = {
+			        "testValidateLoginPageContents":0.425,"testValidateMessageOnClickingForgotPasswordLink":0.182,"testValidateLogin ( AT-113117 , TRUE , InvalidInput , invalid@pfml1stage , Yodlee@123 , Invalid user credentials )":5.345,"testValidateLogin ( AT-113127 , TRUE , NoInput ,  ,  , Uh-oh! You've entered wrong username/ password. Please re-enter credentials )":4.592,"testValidateLogin ( AT-113116 , TRUE , ValidInput , rajeev@pfml1stage , Yodlee@123":8.414,"testGeneralConfigurationNegativeValidations ( AT-000001 , TRUE , EmptySubBrandDomainNameIPAddress )":17.585,"testGeneralConfigurationNegativeValidations ( AT-000002 , TRUE , DuplicateIPSubBrandNameAndDomainNameGreaterThan50Characters )":48.629,"testGeneralConfigurationNegativeValidations ( AT-000003 , TRUE , MoreThan5IPAddressesAndSubBrandDomainNameLessThan2Characters )":19.36,"testGeneralConfigurationNegativeValidations ( AT-000004 , TRUE , InvalidIPAddressAndSubBrandDomainNameNoSpecialCharactersAllowed )":16.652,"testPrivateAuthSetupNegativeValidations ( AT-000001 , TRUE , NoLoginMechanism , None )":20.891,"testPrivateAuthSetupNegativeValidations ( AT-000002 , TRUE , EmptyDetails , SAML;JWT )":25.217,"testPrivateAuthSetupNegativeValidations ( AT-000003 , TRUE , MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit , SAML;JWT )":31.221,"testPrivateAuthSetupNegativeValidations ( AT-000004 , TRUE , MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey , SAML;JWT )":25.464,"testPublicAuthSetupNegativeValidations ( AT-000001 , TRUE , EmptyDetails , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )":36.231,"testPublicAuthSetupNegativeValidations ( AT-000002 , TRUE , MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )":38.366,"testPublicAuthSetupNegativeValidations ( AT-000003 , TRUE , MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey , SAML;JWT , testcredPrivate , saml , testPrivate , testPrivate , 150 , TRUE , FALSE )":37.779,"testProductsAndAppSelectionNegativeValidations ( AT-000001 , TRUE , DefaultSettings , SAML;JWT , testcredpublic , saml , testpublic , testrpublic , 150 , TRUE , FALSE )":29.179,"testProductsAndAppSelectionNegativeValidations ( AT-000002 , TRUE , NothingEnabled , SAML;JWT , testcredpublic , saml , testpublic , testrpublic , 150 , TRUE , FALSE )":29.629,"testContactDetailsNegativeValidations ( AT-000001 , TRUE , EmptyContactDetails )":35.322,"testContactDetailsNegativeValidations ( AT-000002 , TRUE , ContactDetailsExceedCharacterLimit )":36.984,"testContactDetailsNegativeValidations ( AT-000003 , TRUE , InvalidContactEmailAlphanumericContactNumberAndContactUserIdLessThan2Characters )":39.061,"testContactDetailsNegativeValidations ( AT-000004 , TRUE , ContactUserIdNoSpecialCharacters )":23.587,"testCreateAndViewSubBrandOverView ( AT-000001 , FALSE , SubBrand-JWT-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Sub-brand , JWT , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , FALSE , FALSE , FALSE )":2.689,"testCreateAndViewSubBrandOverView ( AT-000002 , FALSE , ChannelPartner-JWT-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Channel Partner , JWT , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , TRUE , FALSE , FALSE )":2.438,"testCreateAndViewSubBrandOverView ( AT-000003 , FALSE , SubBrand-SAML-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Sub-brand , SAML , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , FALSE , FALSE , FALSE )":2.99,"testCreateAndViewSubBrandOverView ( AT-000004 , FALSE , ChannelPartner-SAML-Aggregation-DD-Verification-DD , 1.1.1.1;2.2.2.2 , Channel Partner , SAML , testCredPrivate , saml , Private_Issuer , Private_sso , 1800 , testCredPublic , saml , Public_issuer , Public_sso , 1800 , Aggregation;Verification , Document Download , Document Download , Yodlee FastLink;Yodlee Financial Wellness FinApps , Dashboard;Accounts;Transactions;Fincheck;Budget;Cash Flow Analysis;Expense and Income Analysis;Investment Holdings;Networth Summary;OK to Spend;Save for a Goal;Settings , Transactions;Settings;Save for a Goal;OK to Spend;Networth Summary;Investment Holdings;Fincheck;Expense and Income Analysis;Dashboard;Cash Flow Analysis;Budget;Accounts , Ravi Ranjan , Shrivastav , RShrivastav@yodlee.com , 9989726351 , User1 , Jnanesh , CM , jnanesh.m@yodlee.com , 9872536251 , User2 , TRUE , TRUE , FALSE , FALSE )":2.187
+			};
+		</script>
+	
+		  <script src='https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ff53917fbbdb5ef820abbbe4d199a6942dc771ff/v3html/js/extent.js' type='text/javascript'></script>
+		<script type='text/javascript'>
+		</script>
+	</body>
+</html>

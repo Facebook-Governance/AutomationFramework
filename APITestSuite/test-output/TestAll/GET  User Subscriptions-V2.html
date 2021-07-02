@@ -1,0 +1,735 @@
+<html>
+<head>
+<title>TestNG:  GET  User Subscriptions-V2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GET  User Subscriptions-V2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>53/14/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 09 17:03:32 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>243 seconds (243522 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5001, Validate GET Customer Subscription for UPCOMING_BILLS Insight, UPCOMING_BILLS, Upcoming Bills, OTHER, SCHEDULE, CARD,BANK, Generates an insight that lists upcoming recurring bills within a configured time period., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, DAILY,DAILY, , FUTURE,7,DAYS  FUTURE,7,DAYS, 200, TRUE</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1285313852", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1285313852'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5002, Validate GET Customer Subscription for UPCOMING_SUBSCRIPTION Insight, UPCOMING_SUBSCRIPTIONS, Upcoming Subscriptions, OTHER, SCHEDULE, CARD,BANK, Generates an insight that lists upcoming recurring subscriptions within a configured time period., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, DAILY,DAILY, , FUTURE,7,DAYS  FUTURE,7,DAYS, 200, TRUE</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1608090013", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1608090013'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5003, Validate GET Customer Subscription for BILL_PAID Insight, BILL_PAID, Bill Paid, OTHER, EVENT, CARD,BANK, Generates an insight when a recurring bill is paid., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, , , , 200, TRUE</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1252400552", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1252400552'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5005, Validate GET Customer Subscription for SUBSCRIPTION_NOT_PAID Insight, SUBSCRIPTION_NOT_PAID, Subscription Not Paid, OTHER, SCHEDULE, CARD,BANK, Generates an insight if a recurring subscription has not been paid for more than a configured number of days., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, DAILY,DAILY, , DELAY,3,DAYS    DELAY,3,DAYS, 200, TRUE</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace361315460", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace361315460'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5006, Validate GET Customer Subscription for BILL_NOT_PAID Insight, BILL_NOT_PAID, Bill Not Paid, OTHER, SCHEDULE, BANK,CARD, Generates an insight if a recurring bill has not been paid for more than a configured number of days., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, DAILY,DAILY, , DELAY,3,DAYS    DELAY,3,DAYS, 200, TRUE</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1104239251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1104239251'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5019, Validate GET Customer Subscription for AGGREGATE_CREDIT_CARD_ACCOUNT Insight, AGGREGATE_CREDIT_CARD_ACCOUNT, Aggregate Credit Card Account, AGGREGATE, REFRESH, BANK, Generates an insight to alert user to aggregate his credit card account if a credit card payment is found for the user in any of his bank accounts., ACCOUNT, ACCOUNT, TRUE, , , , 200, TRUE</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2006033502", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2006033502'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at sun.reflect.GeneratedMethodAccessor315.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5029, Validate GET Customer Subscription for BALANCE_ABOVE_THRESHOLD Insight, BALANCE_ABOVE_THRESHOLD, Balance Above Threshold, OTHER, REFRESH, BANK, Generates an insight when the balance of a bank account is above a configured threshold., ACCOUNT, ACCOUNT, TRUE, , , BALANCE,50000,AMOUNT, 200, TRUE</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1340395207", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1340395207'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at sun.reflect.GeneratedMethodAccessor315.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5032, Validate GET Customer Subscription for NEW_BILL Insight, NEW_BILL, New Bill, OTHER, EVENT, BANK,CARD, Generates an insight when a new recurring bill is detected., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, , , , 200, TRUE</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1386364752", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1386364752'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at sun.reflect.GeneratedMethodAccessor315.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5037, Validate GET Customer Subscription for CATEGORIZE_TRANSACTIONS Insight, CATEGORIZE_TRANSACTIONS, Categorize Transactions, AGGREGATE, SCHEDULE, BANK,CARD, Generates an insight to alert user that there are uncategorized transactions. If they wish, they can re-categorize those transactions., ACCOUNT, ACCOUNT, TRUE, MONTHLY, THREE_MONTHS, BASETYPE,CREDIT@DEBIT,STRING, 200, TRUE</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1702761507", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1702761507'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at sun.reflect.GeneratedMethodAccessor315.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5038, Validate GET Customer Subscription for LOW_BALANCE_WARNING Insight, LOW_BALANCE_WARNING, Low Balance Warning, OTHER, REFRESH, BANK, Generates an insight when the balance of a bank account is below a configured threshold., ACCOUNT, ACCOUNT, TRUE, , , BALANCE,200,AMOUNT, 200, TRUE</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1012118589", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1012118589'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at sun.reflect.GeneratedMethodAccessor315.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5042, Validate GET Customer Subscription for LARGE_DEPOSIT Insight, LARGE_DEPOSIT, Large Deposit, OTHER, REFRESH, BANK, Generates an insight when a deposit is posted that is more than a configured threshold., VIEW,ACCOUNT, VIEW,ACCOUNT, TRUE,TRUE, , , MINIMUM,500.00,AMOUNT    MINIMUM,500.00,AMOUNT, 200, TRUE</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace401175049", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace401175049'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at sun.reflect.GeneratedMethodAccessor315.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5054, Validate GET Customer Subscription for REFUND_DEPOSITED Insight, REFUND_DEPOSITED, Refund Deposited, OTHER, REFRESH, BANK,CARD, Generates an insight when a refund is posted that is more than a configured threshold., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, , , MINIMUM,1,AMOUNT    MINIMUM,1,AMOUNT, 200, TRUE</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1659575299", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1659575299'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at sun.reflect.GeneratedMethodAccessor315.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5061, Validate GET Customer Subscription for ZERO_CARD_INTEREST_PAID Insight, ZERO_CARD_INTEREST_PAID, Zero Card Interest Paid, AGGREGATE, SCHEDULE, CARD, Generates an insight that provides details of card account for which the user has not paid any interest in the last month., ACCOUNT, ACCOUNT, TRUE, MONTHLY, LAST_MONTH, , 200, TRUE</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1570732820", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1570732820'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at sun.reflect.GeneratedMethodAccessor315.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5065, Validate GET Customer Subscription for DEBT_TO_INCOME_RATIO Insight, DEBT_TO_INCOME_RATIO, Debt To Income Ratio, AGGREGATE, SCHEDULE, BANK,CARD,LOAN, Let the user know what is their debt to income ratio., ACCOUNT, ACCOUNT, TRUE, MONTHLY, , , 200, TRUE</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace664577478", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace664577478'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions(TestGetUserSubscriptions.java:177)
+	at sun.reflect.GeneratedMethodAccessor315.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5004, Validate GET Customer Subscription for SUBSCRIPTION_PAID Insight, SUBSCRIPTION_PAID, Subscription Paid, OTHER, EVENT, CARD,BANK, Generates an insight when a recurring subscription is paid., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, , , , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5007, Validate GET Customer Subscription for SALARY_CHANGED Insight, SALARY_CHANGED, Salary Changed, OTHER, EVENT, BANK, Generates an insight when a recurring salary changes by more than a configured threshold., ACCOUNT, ACCOUNT, TRUE, , , CHANGE,100,AMOUNT  CHANGE,10,PERCENT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5008, Validate GET Customer Subscription for NEW_SALARY Insight, NEW_SALARY, Salary Changed, OTHER, EVENT, BANK, Generates an insight when a new recurring salary is detected., ACCOUNT, ACCOUNT, TRUE, , , , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5009, Validate GET Customer Subscription for COUNT_OF_TRANSACTIONS_BY_MERCHANT Insight, COUNT_OF_TRANSACTIONS_BY_MERCHANT, Count of Transactions by Merchant, OTHER, SCHEDULE, BANK,CARD, Generates an insight that provides spending trends (based on transaction count) by merchant over a configured time period., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, WEEKLY,WEEKLY, , TOP,5,NUMBER, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5010, Validate GET Customer Subscription for CHANGE_IN_ASSETS Insight, CHANGE_IN_ASSETS, Change in Assets, AGGREGATE, SCHEDULE, BANK,INSURANCE,INVESTMENT,REAL ESTATE,OTHER ASSETS, Generates an insight when total assets change by more than a configured threshold., ACCOUNT, ACCOUNT, TRUE, MONTHLY, , CHANGE,3,PERCENT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5011, Validate GET Customer Subscription for CHANGE_IN_NETWORTH Insight, CHANGE_IN_NETWORTH, Change in Networth, AGGREGATE, SCHEDULE, BANK,CARD,LOAN,INSURANCE,INVESTMENT,REAL ESTATE,OTHER ASSETS,OTHER LIABILITIES, Generates an insight when net worth changes by more than a configured threshold., ACCOUNT, ACCOUNT, TRUE, MONTHLY, , CHANGE,3,PERCENT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5012, Validate GET Customer Subscription for CHANGE_IN_PROPERTYVALUE Insight, CHANGE_IN_PROPERTYVALUE, Change in Property Value, OTHER, SCHEDULE, REALESTATE, Generates an insight when the value of property changes by more than a configured threshold., ACCOUNT, ACCOUNT, TRUE, MONTHLY, , CHANGE,500,AMOUNT  CHANGE,3,PERCENT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5013, Validate GET Customer Subscription for CHANGE_IN_LIABILITIES Insight, CHANGE_IN_LIABILITIES, Change in Liabilities, AGGREGATE, SCHEDULE, CARD,LOAN,INSURANCE,OTHER LIABILITIES, Generates an insight when total liabilities change by more than a configured threshold., ACCOUNT, ACCOUNT, TRUE, MONTHLY, , CHANGE,3,PERCENT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5014, Validate GET Customer Subscription for LOAN_MATURITY_NOTICE Insight, LOAN_MATURITY_NOTICE, Loan Maturity Notice, OTHER, SCHEDULE, LOAN, Generates an insight when a loan is within a configured number of days from maturity., ACCOUNT, ACCOUNT, TRUE, DAILY, , FUTURE,14,DAYS, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5015, Validate GET Customer Subscription for INVESTMENT_MATURITY_NOTICE Insight, INVESTMENT_MATURITY_NOTICE, Investment Maturity Notice, OTHER, SCHEDULE, INVESTMENT, Generates an insight when an investment is within a configured number of days from maturity., ACCOUNT, ACCOUNT, TRUE, DAILY, , FUTURE,14,DAYS, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5016, Validate GET Customer Subscription for CARD_STATEMENT_AVAILABLE Insight, CARD_STATEMENT_AVAILABLE, Card Statement Available, OTHER, REFRESH, CARD, Generates an insight when a new credit card statement is available., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, , , DAYS_BEFORE,10,DAYS, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5017, Validate GET Customer Subscription for SPENDING_BY_MERCHANT Insight, SPENDING_BY_MERCHANT, Spending by Merchant, OTHER, SCHEDULE, BANK,CARD, Generates an insight that provides spending trends (based on $ amount) by merchant over a configured time period., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, MONTHLY,MONTHLY, THREE_MONTHS,THREE_MONTHS, TOP,5,NUMBER      TOP,5,NUMBER, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5018, Validate GET Customer Subscription for AGGREGATE_INSURANCE_ACCOUNT Insight, AGGREGATE_INSURANCE_ACCOUNT, Aggregate Insurance Account, AGGREGATE, REFRESH, BANK,CARD, Generates an insight when an insurance payment is identified but no corresponding insurance account was found for the user., ACCOUNT, ACCOUNT, TRUE, , , , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5020, Validate GET Customer Subscription for CARD_PAYMENT_DUE_REMINDER Insight, CARD_PAYMENT_DUE_REMINDER, Card Payment Due Reminder, OTHER, REFRESH, CARD, Generates an insight when a credit card payment is due in the coming days based on a configured threshold., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, , , DAYS_BEFORE,5,DAYS    DAYS_BEFORE,5,DAYS, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5021, Validate GET Customer Subscription for AGGREGATE_MORTGAGE_ACCOUNT Insight, AGGREGATE_MORTGAGE_ACCOUNT, Aggregate Mortgage Account, AGGREGATE, REFRESH, BANK,CARD, Generates an insight when a mortgage payment is identified but no corresponding mortgage account was found for the user., ACCOUNT, ACCOUNT, TRUE, , , , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5022, Validate GET Customer Subscription for CREDIT_UTILIZATION_SINGLE_CARD Insight, CREDIT_UTILIZATION_SINGLE_CARD, Credit Utilization Warning (single card), OTHER, REFRESH, CARD, Generates an insight when the balance on a single credit card is more than a configured threshold., ACCOUNT, ACCOUNT, TRUE, , , LIMIT,90,PERCENT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5023, Validate GET Customer Subscription for SPENDING_BY_CATEGORY Insight, SPENDING_BY_CATEGORY, Spending by Category, OTHER, SCHEDULE, BANK,CARD, Generates an insight that provides spending trends (based on $ amount) by category over a configured time period., VIEW,ACCOUNT, ACCOUNT,VIEW, TRUE,TRUE, MONTHLY,MONTHLY, THREE_MONTHS,THREE_MONTHS, TOP,10,NUMBER   TOP,10,NUMBER, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5024, Validate GET Customer Subscription for FINANCIAL_FEES Insight, FINANCIAL_FEES, Financial Fees, OTHER, SCHEDULE, BANK,CARD, Generates an insight that provides financial fee trends over a configured time period., VIEW,ACCOUNT, ACCOUNT,VIEW, TRUE,TRUE, MONTHLY,MONTHLY, THREE_MONTHS,THREE_MONTHS, , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5025, Validate GET Customer Subscription for AGGREGATE_REAL_ESTATE_ACCOUNT Insight, AGGREGATE_REAL_ESTATE_ACCOUNT, Aggregate Real Estate Account, AGGREGATE, REFRESH, BANK,CARD, Generates an insight when a mortgage payment is identified but no corresponding real estate account was found for the user., ACCOUNT, ACCOUNT, TRUE, , , , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5026, Validate GET Customer Subscription for INCOME_THRESHOLD Insight, INCOME_THRESHOLD, Income Exceeded Threshold, OTHER, SCHEDULE, BANK, Generates an insight when income for the current month is more than a configured threshold., VIEW, VIEW, TRUE, DAILY, THIS_MONTH, MINIMUM,500.00,AMOUNT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5027, Validate GET Customer Subscription for AGGREGATE_SAVINGS_CHECKING_ACCOUNT Insight, AGGREGATE_SAVINGS_CHECKING_ACCOUNT, Aggregate Savings/Checking Account, AGGREGATE, REFRESH, CARD, Generates an insight when a credit card account is identified but no corresponding bank account was found for the user., ACCOUNT, ACCOUNT, TRUE, , , , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5028, Validate GET Customer Subscription for AGGREGATE_INVESTMENT_ACCOUNT Insight, AGGREGATE_INVESTMENT_ACCOUNT, Aggregate Investment Account, AGGREGATE, REFRESH, BANK,CARD, Generates an insight when an investment transaction is identified but no corresponding investment account was found for the user, ACCOUNT, ACCOUNT, TRUE, , , , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5030, Validate GET Customer Subscription for CREDIT_UTILIZATION_ALL_CARDS Insight, CREDIT_UTILIZATION_ALL_CARDS, Credit Utilization Warning (all cards), AGGREGATE, REFRESH, CARD, Generates an insight when the balance on all credit cards is more than a configured threshold., ACCOUNT, ACCOUNT, TRUE, , , UPPER_LIMIT,30,PERCENT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5031, Validate GET Customer Subscription for NEW_SUBSCRIPTION Insight, NEW_SUBSCRIPTION, New Subscription, OTHER, EVENT, BANK,CARD, Generates an insight when a new recurring subscription is detected., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, , , , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5033, Validate GET Customer Subscription for LONG_TENURE_RECURRING_PAYMENTS Insight, LONG_TENURE_RECURRING_PAYMENTS, Long Tenure Recurring Payments, AGGREGATE, SCHEDULE, BANK,CARD, Generates an insight that lists long-tenured recurring payments., ACCOUNT, ACCOUNT,VIEW, TRUE, MONTHLY, , TOP,5,NUMBER, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5034, Validate GET Customer Subscription for NET_INCOMESALARY Insight, NET_INCOME_SUMMARY, Net Income Summary, OTHER, SCHEDULE, BANK,CARD, Generates an insight that provides net income trends over a configured time period., VIEW, VIEW, TRUE, MONTHLY, THREE_MONTHS, , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5035, Validate GET Customer Subscription for PROJECTED_DISCRETIONARY_FUNDS Insight, PROJECTED_DISCRETIONARY_FUNDS, Projected Discretionary Funds, OTHER, EVENT, BANK, Generates an insight that projects the discretionary funds available between each salary interval., ACCOUNT, ACCOUNT, TRUE, , , , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5036, Validate GET Customer Subscription for SPENDING_AND_EARNING_COMPARISON Insight, SPENDING_AND_EARNING_COMPARISON, Spending And Earning Comparison, AGGREGATE, SCHEDULE, BANK,CARD, Generates an insights that provides the ratio of spending to earning., ACCOUNT, ACCOUNT, TRUE, MONTHLY, LAST_THREE_MONTHS, , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5039, Validate GET Customer Subscription for LARGE_PURCHASE Insight, LARGE_PURCHASE, Large Purchase, OTHER, REFRESH, BANK,CARD, Generates an insight when an expense is posted that is more than a configured threshold., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, , , MINIMUM,500,AMOUNT    MINIMUM,500,AMOUNT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5040, Validate GET Customer Subscription for PROJECTED_INSUFFICIENT_BALANCE Insight, PROJECTED_INSUFFICIENT_BALANCE, Insufficient Balance To Cover Upcoming Bills And Subscriptions, OTHER, SCHEDULE, BANK, Generates an insight when an account is projected to have a balance insufficient to cover upcoming bills and subscriptions., ACCOUNT, ACCOUNT, TRUE, WEEKLY, , MINIMUM,10,AMOUNT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5041, Validate GET Customer Subscription for MISSED_BILLS Insight, MISSED_BILLS, Missed Bills, AGGREGATE, SCHEDULE, BANK,CARD, Inform the user about the number of missed bills for the given duration., ACCOUNT, ACCOUNT, TRUE, MID_MONTHLY, LAST_MONTH, TOP,10,NUMBER, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5043, Validate GET Customer Subscription for SALARY_DEPOSITED Insight, SALARY_DEPOSITED, Salary Deposited, OTHER, EVENT, BANK, Generates an insight when a recurring salary is deposited., ACCOUNT, ACCOUNT, TRUE, , , , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5044, Validate GET Customer Subscription for BILL_CHANGED Insight, BILL_CHANGED, Bill Changed, OTHER, EVENT, BANK,CARD, Generates an insight when a recurring bill changes by more than a configured threshold., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, , , CHANGE,10,AMOUNT CHANGE,10,PERCENT    CHANGE,10,AMOUNT CHANGE,10,PERCENT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5045, Validate GET Customer Subscription for FINANCIAL_FORECAST Insight, FINANCIAL_FORECAST, Financial Forecast, AGGREGATE, SCHEDULE, BANK,CARD, Generates an insight that provides information about upcoming financial activity of the user, ACCOUNT, ACCOUNT, TRUE, WEEKLY, , , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5046, Validate GET Customer Subscription for LOW_CONFIDENCE_PROJECTED_SERIES Insight, LOW_CONFIDENCE_PROJECTED_SERIES, Low Confidence Projected Series, OTHER, EVENT, BANK,CARD, Generates an insight when a low confidence series is projected, ACCOUNT, ACCOUNT, TRUE, , , , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5047, Validate GET Customer Subscription for SUBSCRIPTION_CHANGED Insight, SUBSCRIPTION_CHANGED, Subscription Changed, OTHER, EVENT, BANK,CARD, Generates an insight when a recurring Subscription changes by more than a configured threshold., ACCOUNT,VIEW, ACCOUNT,VIEW, TRUE,TRUE, , , CHANGE,10,AMOUNT CHANGE,10,PERCENT    CHANGE,10,AMOUNT CHANGE,10,PERCENT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5048, Validate GET Customer Subscription for CREDIT_CARD_APR_CHANGE Insight, CREDIT_CARD_APR_CHANGE, Credit Card APR Change, OTHER, REFRESH, CARD, Generates an insight when the credit card APR changes by a predefined threshold value., ACCOUNT, ACCOUNT, TRUE, , , CHANGE,2,NUMBER, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5049, Validate GET Customer Subscription for UNABLE_TO_REFRESH_ACCOUNT Insight, UNABLE_TO_REFRESH_ACCOUNT, Unable To Refresh Account, OTHER, EVENT, BANK,CARD,INVESTMENT,INSURANCE,LOAN,REWARD,BILL,OTHERASSETS,OTHERLIABILITIES, Generates an insight when an account is not able to refresh., ACCOUNT, ACCOUNT, TRUE, , , , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5050, Validate GET Customer Subscription for RECURRING_DEPOSIT_IS_LATE Insight, RECURRING_DEPOSIT_IS_LATE, Recurring Deposit is Late, OTHER, SCHEDULE, BANK, Generates an insight if a recurring deposit has not posted to an account for more than a configured number of days., ACCOUNT, ACCOUNT, TRUE, DAILY, , DELAY,3,DAYS, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5051, Validate GET Customer Subscription for CASH_FLOW_SUMMARY Insight, CASH_FLOW_SUMMARY, Cash Flow Summary, OTHER, SCHEDULE, BANK,CARD, Generates an insight that provides cash flow trends over a configured time period., ACCOUNT, ACCOUNT, TRUE, MONTHLY, THREE_MONTHS, , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5052, Validate GET Customer Subscription for SPENDING_EXCEEDED_AVERAGE Insight, SPENDING_EXCEEDED_AVERAGE, Spending Exceeded Average, OTHER, REFRESH, BANK,CARD, Generates an insight when the difference, per category, between current spending and average spending over the previous three months is more than a configured threshold., ACCOUNT, ACCOUNT, TRUE, , , CHANGE,50.00,AMOUNT   CHANGE,10.00,PERCENT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5053, Validate GET Customer Subscription for SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE Insight, SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE, Savings increased compared to historical average, AGGREGATE, SCHEDULE, BANK, Generates an insight when the overall savings of the user has increased by a defined threshold percentage compared to their historic average savings., ACCOUNT, ACCOUNT, TRUE, MONTHLY, LAST_THREE_MONTHS, CHANGE,10,PERCENT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5055, Validate GET Customer Subscription for SPENDING_BY_MERCHANT_ALL_ACCOUNTS Insight, SPENDING_BY_MERCHANT_ALL_ACCOUNTS, Spending By Merchant : All Accounts, AGGREGATE, SCHEDULE, BANK,CARD, Generates an insight that provides spending trends (based on $ amount) by merchant over a configured time period across all the eligible accounts for the user., ACCOUNT, ACCOUNT, TRUE, MONTHLY, THREE_MONTHS, TOP,10,NUMBER, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5056, Validate GET Customer Subscription for PROJECTED_LOW_BALANCE Insight, PROJECTED_LOW_BALANCE, Projected Low Balance, OTHER, REFRESH, BANK, Generates an insight when the projected balance for a bank account is less than a configured threshold., ACCOUNT, ACCOUNT, TRUE, , , FUTURE,7,DAYS MINIMUM,100,AMOUNT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5057, Validate GET Customer Subscription for NETWORTH_SUMMARY Insight, NETWORTH_SUMMARY, Networth Summary, AGGREGATE, SCHEDULE, BANK,CARD,LOAN,INSURANCE,INVESTMENT,REALESTATE,OTHERASSETS,OTHERLIABILITIES, Generates an insight that provides net worth trends over a configured time period., ACCOUNT, ACCOUNT, TRUE, MONTHLY, THREE_MONTHS, , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5058, Validate GET Customer Subscription for YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE Insight, YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE, Your spending last month compared to your historical average, AGGREGATE, SCHEDULE, BANK,CARD, Generates an insight to inform the user how the user has spent in the last month compared to his historical average, ACCOUNT, ACCOUNT, TRUE, MONTHLY, LAST_THREE_MONTHS, , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5059, Validate GET Customer Subscription for SPENDING_BY_CATEGORY_ALL_ACCOUNTS Insight, SPENDING_BY_CATEGORY_ALL_ACCOUNTS, Spending By Category: All Accounts, AGGREGATE, SCHEDULE, BANK,CARD, Generates an insight that provides spending trends (based on $ amount) by category over a configured time period., ACCOUNT, ACCOUNT, TRUE, MONTHLY, THREE_MONTHS, TOP,10,NUMBER, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5060, Validate GET Customer Subscription for PEER_SPENDING_COMPARISON_SUMMARY Insight, PEER_SPENDING_COMPARISON_SUMMARY, Peer Spending Comparison Summary, AGGREGATE, SCHEDULE, BANK,CARD, Generates an insight that provides information about categories the users overspends and underspends compared to their peers spending., ACCOUNT, ACCOUNT, TRUE, MID_MONTHLY, LAST_THREE_MONTHS, TOP,5,NUMBER, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5062, Validate GET Customer Subscription for COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTSInsight, COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS, Count of Transactions By Merchants - All Accounts, AGGREGATE, SCHEDULE, BANK,CARD, Generates an insight that provides spending trends (based on transaction count) by merchant over a configured time period across all the eligible accounts for the user., ACCOUNT, ACCOUNT, TRUE, MONTHLY, THREE_MONTHS, TOP,10,NUMBER, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5063, Validate GET Customer Subscription for SUGGESTED_SAVING_OPPORTUNITY Insight, SUGGESTED_SAVING_OPPORTUNITY, Suggested Saving Opportunity, AGGREGATE, SCHEDULE, BANK,CARD, Generates an insight that provides information about categories the users could potentially save compared to his peers spending., ACCOUNT, ACCOUNT, TRUE, MID_MONTHLY, LAST_THREE_MONTHS, CHANGE,100.00,AMOUNT   CHANGE,10.00,PERCENT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5064, Validate GET Customer Subscription for DUPLICATE_TRANSACTION Insight, DUPLICATE_TRANSACTION, Duplicate Transaction, OTHER, REFRESH, BANK,CARD, Generates an insight when system identifies a duplicate transaction for the user, ACCOUNT, ACCOUNT, TRUE, , , , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5066, Validate GET Customer Subscription for EMERGENCY_SAVINGS Insight, EMERGENCY_SAVINGS, Emergency Savings, AGGREGATE, SCHEDULE, BANK,CARD,INVESTMENT, Generates an insight that provides an estimate of available emergency savings., ACCOUNT, ACCOUNT, TRUE, MONTHLY, LAST_SIX_MONTHS, , 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions.testGetUserSubscriptions()'><b>testGetUserSubscriptions</b><br>Test class: com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions<br>Parameters: AT-5067, Validate GET Customer Subscription for HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS Insight, HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS, High bills & subscriptions cost based on peers, AGGREGATE, SCHEDULE, BANK,CARD, Generates an insight when users spend on specific biller or subscription merchant is above a threshold compared to peers., ACCOUNT, ACCOUNT, TRUE, MID_MONTHLY, LAST_THREE_MONTHS, CHANGE,100.00,AMOUNT  CHANGE,10.00,PERCENT, 200, TRUE</td>
+<td></td>
+<td>0</td>
+<td>com.yodlee.app.yodleeApi.Insights.V2.TestGetUserSubscriptions@1224144a</td></tr>
+</table><p>
+</body>
+</html>

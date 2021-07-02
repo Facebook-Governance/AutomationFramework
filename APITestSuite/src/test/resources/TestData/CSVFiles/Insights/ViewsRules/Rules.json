@@ -1,0 +1,102 @@
+{
+  "viewsRules": [
+    {
+      "viewsScenario": "viewsRulesAccountId",
+      "ruleDescription": "Creating rule with type INCOME and including accountIds",
+      "createRules": [
+        "name:AccountIdsRule,fromDate:-30,toDate:90,type:INCOME,include:accountId_replaceAccIds"
+      ]
+    },
+    {
+      "viewsScenario": "viewsRulesTxnstId",
+      "ruleDescription": "Creating rule with type INCOME and TransactionIds",
+      "createRules": [
+        "name:TxnIdsRule,type:INCOME,include:transactionId_replaceTxnIds"
+      ]
+    },
+    {
+      "viewsScenario": "viewsRulesAmountRange",
+      "ruleDescription": "Creating rule with type INCOME and Amount Range",
+      "createRules": [
+        "name:AmountRangeRule,fromDate:-29,toDate:10,type:INCOME,include:amountRange_replaceAmountRange"
+      ]
+    },
+    {
+      "viewsScenario": "viewsRulesOnlyIncomeCategoryId",
+      "ruleDescription": "Creating rule with type INCOME for only including categories",
+      "createRules": [
+        "name:IncomeCategoryIdRule,fromDate:-29,toDate:1,type:INCOME,include:categoryId_replaceCatIds"
+      ]
+    },
+    {
+      "viewsScenario": "viewsRulesOnlyExpenseCategoryId",
+      "ruleDescription": "Creating rule with type EXPENSE for only including categories",
+      "createRules": [
+        "name:ExpenseCategoryIdRule,fromDate:-29,toDate:1,type:EXPENSE,include:categoryId_replaceCatIds"
+      ]
+    },
+    {
+      "viewsScenario": "viewsRulesAccountIdCategoryId",
+      "ruleDescription": "Creating rule with type INCOME for only including categories and accountIds",
+      "createRules": [
+        "name:CategoryIdRule,fromDate:-29,toDate:1,type:INCOME,include:accountId_replaceAccIds  categoryId_replaceCatIds"
+      ]
+    },
+    {
+      "viewsScenario": "viewsRulesIncludeAccExcludeTxns",
+      "ruleDescription": "Creating rule with type INCOME ,include accouts and exclude transactions",
+      "createRules": [
+        "name:AccountIdsRule,fromDate:-30,toDate:90,type:INCOME,include:accountId_replaceAccIds",
+        "name:TxnIdsRule,type:INCOME,exclude:transactionId_replaceTxnIds"
+      ]
+    },
+    {
+      "viewsScenario": "viewsRulesAccountIdPastFiveDaysTxns",
+      "ruleDescription": "Creating rule with type INCOME ,including accountIds considering only 5 days txns",
+      "createRules": [
+        "name:AccountIdsPastFiveDaysTxnsRule,fromDate:-5,toDate:1,type:INCOME,include:accountId_replaceAccIds"
+      ]
+    },
+    {
+      "viewsScenario": "viewsRulesExpenseMerchantNames",
+      "ruleDescription": "Creating rule with type INCOME ,including only merchant names",
+      "createRules": [
+        "name:MerchantNamesRule,fromDate:90,toDate:1,type:EXPENSE,include:merchantName_replaceMerchantNames"
+      ]
+    },
+    {
+      "viewsScenario": "viewsRulesExpenseMerchantTypes",
+      "ruleDescription": "Creating rule with type INCOME ,including only merchant types",
+      "createRules": [
+        "name:MerchantTypeRule,fromDate:-90,toDate:30,type:EXPENSE,include:merchantType_replaceMerchantTypes"
+      ]
+    },{
+      "viewsScenario": "viewsRulesAmountRangeExpense",
+      "ruleDescription": "Creating rule with type EXPENSE and Amount Range",
+      "createRules": [
+        "name:AmountRangeRule,fromDate:-90,toDate:1,type:EXPENSE,include:amountRange_replaceAmountRange","name:AmountRangeRule,fromDate:-90,toDate:1,type:INCOME,include:amountRange_replaceAmountRange"
+      ]
+    },
+    {
+        "viewsScenario": "viewsRulesAccountIdExpense",
+        "ruleDescription": "Creating rule with type INCOME and including accountIds",
+        "createRules": [
+          "name:AccountIdsExpenseRule,fromDate:-180,toDate:180,type:EXPENSE,include:accountId_replaceAccIds"
+        ]
+     },
+    {
+      "viewsScenario": "viewsRulesIncomeMerchantTypes",
+      "ruleDescription": "Creating rule with type INCOME ,including only merchant types",
+      "createRules": [
+        "name:MerchantTypeRule,fromDate:-90,toDate:1,type:INCOME,include:merchantType_replaceMerchantTypes"
+      ]
+    },
+     {
+      "viewsScenario": "viewsRulesAmountRangeLastMonth",
+      "ruleDescription": "Creating rule with type INCOME and Amount Range",
+      "createRules": [
+        "name:AmountRangeRule,fromDate:-70,toDate:-32,type:INCOME,include:amountRange_replaceAmountRange"
+      ]
+    }
+  ]
+}

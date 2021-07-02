@@ -1,0 +1,11 @@
+UsTestcaseId,tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,enabled,priority,formType,granularCat
+"AT-75561,AT-75563,AT-75570",getTransaction_1,Check granular category filter,ADD_PROVIDER_ACCOUNT#GET_TRANSACTIONS_TDE,../src/test/resources/TestData/XML/TDE/,getTransaction1.xml,FALSE,TRUE,TRUE,P1,Simplified,TRUE
+AT-75562,getTransactions_2,Check granular category filter with feature disabled,ADD_PROVIDER_ACCOUNT#GET_TRANSACTIONS_TDE,../src/test/resources/TestData/XML/TDE/,getTransaction2.xml,FALSE,TRUE,TRUE,P1,Simplified,FALSE
+"AT-75564,AT-75565",getTransactions_3,Check with only granular category param,ADD_PROVIDER_ACCOUNT#GET_TRANSACTIONS_TDE,../src/test/resources/TestData/XML/TDE/,getTransaction3.xml,FALSE,TRUE,TRUE,P1,Simplified,TRUE
+"AT-75567,AT-75568",getTransactions_4,Check container validation with granular category,ADD_PROVIDER_ACCOUNT#GET_TRANSACTIONS_TDE,../src/test/resources/TestData/XML/TDE/,getTransaction4.xml,FALSE,TRUE,TRUE,P1,Simplified,TRUE
+AT-75569,getTransactions_5,Check invalid granular category,ADD_PROVIDER_ACCOUNT#GET_TRANSACTIONS_TDE,../src/test/resources/TestData/XML/TDE/,getTransaction5.xml,FALSE,TRUE,TRUE,P1,Simplified,TRUE
+"AT-75571,AT-75573,AT-75580",getTxnCount_1,Check txn count with granular category filter,ADD_PROVIDER_ACCOUNT#GET_TRANSACTION_COUNT_TDE,../src/test/resources/TestData/XML/TDE/,getTxnCount1.xml,FALSE,TRUE,TRUE,P1,Simplified,TRUE
+AT-75572,getTxnCount_2,Check count with granular category feature disabled,ADD_PROVIDER_ACCOUNT#GET_TRANSACTION_COUNT_TDE,../src/test/resources/TestData/XML/TDE/,getTxnCount2.xml,FALSE,TRUE,TRUE,P1,Simplified,FALSE
+"AT-75574,AT-75575",getTxnCount_3,Check count only with granular category filter,ADD_PROVIDER_ACCOUNT#GET_TRANSACTION_COUNT_TDE,../src/test/resources/TestData/XML/TDE/,getTxnCount3.xml,FALSE,TRUE,TRUE,P1,Simplified,TRUE
+"AT-75577,AT-75578",getTxnCount_4,Check container validation with granular category,ADD_PROVIDER_ACCOUNT#GET_TRANSACTION_COUNT_TDE,../src/test/resources/TestData/XML/TDE/,getTxnCount4.xml,FALSE,TRUE,TRUE,P1,Simplified,TRUE
+AT-75579,getTxnCount_5,Check count for invalid granular category,ADD_PROVIDER_ACCOUNT#GET_TRANSACTION_COUNT_TDE,../src/test/resources/TestData/XML/TDE/,getTxnCount5.xml,FALSE,TRUE,TRUE,P1,Simplified,TRUE

@@ -1,0 +1,16 @@
+{
+  "providerAccount": {
+    "id": "${json-unit.any-number}",
+    "account": [
+      {
+        "accountNumber": "${json-unit.any-string}",
+        "accountType": "SAVINGS",
+        "verification": {
+          "type": "MATCHING",
+          "status": "FAILED",
+          "reason": "FULL_ACCT_NUMBER_MATCH_FAILED"
+        }
+      }
+    ]
+  }
+}

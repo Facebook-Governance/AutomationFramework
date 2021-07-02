@@ -1,0 +1,14 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-SubscriptionCh01,"Validate SubscriptionChanged , Validate InsightName",,SubscriptionChanged,SubscriptionChanged,,,,,,,,,,,,200,TRUE
+AT-SubscriptionCh02,"Validate SubscriptionChanged , Validate Supporting container",,SubscriptionChanged,,,BANK,,,,,,,,,,200,TRUE
+AT-SubscriptionCh03,"Validate SubscriptionChanged , Validate TriggerType",EVENT,SubscriptionChanged,,,,,,,,,,,,,200,TRUE
+AT-SubscriptionCh04,"Validate SubscriptionChanged , Validate applicableEntity",,SubscriptionChanged,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-SubscriptionCh05,"Validate SubscriptionChanged , Validate number of levels and levelObject",,SubscriptionChanged,,,,,,,ACOCUNT,"account, view",,,,,200,TRUE
+AT-SubscriptionCh06,"Validate SubscriptionChanged , Validate isSubscribed=false",,SubscriptionChanged,,,,View,22,,,view,FALSE,,,,200,TRUE
+AT-SubscriptionCh07,"Validate SubscriptionChanged , Validate threshold Name,Value and Type",,SubscriptionChanged,,,,Account,22,,,account,,,"CHANGE,10,AMOUNT    CHANGE,10,PERCENT",,200,TRUE
+AT-SubscriptionCh08,"Validate SubscriptionChanged , Validate insightKeys for SubscriptionChanged info",,SubscriptionChanged,,,,,,,,,,,,,200,TRUE
+AT-SubscriptionCh09,"Validate SubscriptionChanged , Validate insightKeys for historicalBalances info",,SubscriptionChanged,,,,,,,,,,,,,200,TRUE
+AT-SubscriptionCh10,"Validate SubscriptionChanged , Validate description",,SubscriptionChanged,,,,,,Generates an insight when a recurring Subscription changes by more than a configured threshold.,,,,,,,200,TRUE
+AT-SubscriptionCh11,"Validate SubscriptionChanged , Validate title",,SubscriptionChanged,,Subscription Changed,,,,,,,,,,,200,TRUE
+AT-SubscriptionCh12,"Validate SubscriptionChanged , Validate ruleExpression",,SubscriptionChanged,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-SubscriptionCh13,"Validate SubscriptionChanged , Validate total number of keys ",,SubscriptionChanged,,,,Account,,,,,,,,,200,TRUE

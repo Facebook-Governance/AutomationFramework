@@ -1,0 +1,20 @@
+userStoryID,testcaseName,cobSessionKey,cobSessionValue,samlResponseKey,samlResponseValue,issuerKey,issuerValue,sourceKey,sourceValue,status,responseFile,responsePath,enable,defectID
+AT-52647,verify SAML Registration API with NULL Saml Response,VALID,VALID,VALID,NULL,VALID,VALID,VALID,VALID,400,inputerrorparameter1.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52648,verify SAML Registration API with NULL Issuer,VALID,VALID,VALID,VALID,VALID,NULL,VALID,VALID,400,inputerrorparameter2.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52650,"verify SAML Registration API by setting Saml Response, Issuer and Source set as NULL",VALID,VALID,VALID,NULL,VALID,NULL,VALID,NULL,400,inputerrorparameter4.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52651,"verify SAML Registration API by setting all parameter value (i.e,cobSession, Saml Response, Issuer and Source) as NULL",VALID,NULL,VALID,NULL,VALID,NULL,VALID,NULL,401,unautorizedError.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52652,"verify SAML Registration API by setting Saml Response, Issuer and Source set as INVALID",VALID,VALID,VALID,INVALID,VALID,INVALID,VALID,INVALID,400,inputerrorparameter5.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52653,"verify SAML Registration API by setting all parameter value (i.e,cobSession, Saml Response, Issuer and Source) as INVALID",VALID,INVALID,VALID,VALID,VALID,VALID,VALID,VALID,401,unautorizedError.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52654,verify SAML Registration API with INVALID Saml Response,VALID,VALID,VALID,INVALID,VALID,VALID,VALID,VALID,400,inputerrorparameter6.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52655,verify SAML Registration API with INVALID Issuer,VALID,VALID,VALID,VALID,VALID,INVALID,VALID,VALID,400,inputerrorparameter7.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52657,verify SAML Registration API with INVALID CobSession,VALID,INVALID,VALID,VALID,VALID,VALID,VALID,VALID,401,unautorizedError.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52658,verify SAML Registration API with Expired CobSession,VALID,EXPIRED,VALID,VALID,VALID,VALID,VALID,VALID,401,unautorizedError.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52659,verify SAML Registration API with NULL Saml Response Key name,VALID,VALID,NULL,VALID,VALID,VALID,VALID,VALID,400,inputerrorparameter9.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52660,verify SAML Registration API with NULL Issuer Key name,VALID,VALID,VALID,VALID,NULL,VALID,VALID,VALID,400,inputerrorparameter11.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52661,verify SAML Registration API with NULL Source key name,VALID,VALID,VALID,VALID,VALID,VALID,NULL,VALID,400,inputerrorparameter12.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52662,"verify SAML Registration API by setting all parameter value (i.e,cobSession, Saml Response, Issuer and Source) as NULL key name",NULL,VALID,NULL,VALID,NULL,VALID,NULL,VALID,400,unautorizedError.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52663,verify SAML Registration API with INVALID Saml Response Key name,VALID,VALID,INVALID,VALID,VALID,VALID,VALID,VALID,400,inputerrorparameter13.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52664,verify SAML Registration API with INVALID Issuer Key name,VALID,VALID,VALID,VALID,INVALID,VALID,VALID,VALID,400,inputerrorparameter14.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52665,verify SAML Registration API with INVALID Source key name,VALID,VALID,VALID,VALID,VALID,VALID,INVALID,VALID,400,inputerrorparameter15.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52666,verify SAML Registration API with NULL CobSession key name,NULL,VALID,VALID,VALID,VALID,VALID,VALID,VALID,401,unautorizedError.json,../src/test/resources/TestData/saml/,TRUE,0
+AT-52667,verify SAML Registration API with INVALID CobSession key name,INVALID,VALID,VALID,VALID,VALID,VALID,VALID,VALID,401,unautorizedError.json,../src/test/resources/TestData/saml/,TRUE,0

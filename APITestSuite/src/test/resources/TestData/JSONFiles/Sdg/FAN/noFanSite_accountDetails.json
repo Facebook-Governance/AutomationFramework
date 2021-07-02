@@ -1,0 +1,43 @@
+{
+    "account": [
+        {
+            "CONTAINER": "bank",
+            "providerAccountId": "${json-unit.ignore}",
+            "accountName": "TESTDATA1",
+            "accountStatus": "ACTIVE",
+            "accountNumber": "xxxxxxx3xxx",
+            "aggregationSource": "USER",
+            "isAsset": true,
+            "balance": {
+                "amount": 9044.78,
+                "currency": "USD"
+            },
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "lastUpdated": "${json-unit.ignore}",
+            "includeInNetWorth": true,
+            "providerId": "16441",
+            "providerName": "Dag Site",
+            "isManual": false,
+            "availableBalance": {
+                "amount": 65454.78,
+                "currency": "USD"
+            },
+            "currentBalance": {
+                "amount": 9044.78,
+                "currency": "USD"
+            },
+            "accountType": "SAVINGS",
+            "displayedName": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "dataSet": [
+                {
+                    "name": "ACCT_PROFILE",
+                    "additionalStatus": "DATA_NOT_AVAILABLE",
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ]
+        }
+    ]
+}

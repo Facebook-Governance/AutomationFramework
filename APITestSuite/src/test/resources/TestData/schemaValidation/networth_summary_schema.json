@@ -1,0 +1,113 @@
+{
+  "definitions": {}, 
+  "$schema": "http://json-schema.org/draft-06/schema#", 
+  "$id": "http://example.com/example.json", 
+  "type": "object", 
+  "properties": {
+    "networth": {
+      "$id": "/properties/networth", 
+      "type": "array", 
+      "items": {
+        "$id": "/properties/networth/items", 
+        "type": "object", 
+        "properties": {
+          "date": {
+            "$id": "/properties/networth/items/properties/date", 
+            "type": "string", 
+            "format":"date",
+            "title": "The Date Schema.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "default": "", 
+            "examples": [
+              "2017-11-28"
+            ]
+          }, 
+          "asset": {
+            "$id": "/properties/networth/items/properties/asset", 
+            "type": "object",
+            "properties": {
+              "amount": {
+                "$id": "/properties/networth/items/properties/asset/properties/amount", 
+                "type": "number",
+                "multipleOf": 0.01,
+                "title": "The Amount Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": 0.0, 
+                "examples": [
+                  939407.9375
+                ]
+              }, 
+              "currency": {
+                "$id": "/properties/networth/items/properties/asset/properties/currency", 
+                "type": "string", 
+                "format":"money", 
+                "title": "The Currency Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": "", 
+                "examples": [
+                  "USD"
+                ]
+              }
+            }
+          }, 
+          "liability": {
+            "$id": "/properties/networth/items/properties/liability", 
+            "type": "object", 
+            "properties": {
+              "amount": {
+                "$id": "/properties/networth/items/properties/liability/properties/amount", 
+                "type": "number",
+                "multipleOf": 0.01, 
+                "title": "The Amount Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": 0, 
+                "examples": [
+                  112000
+                ]
+              }, 
+              "currency": {
+                "$id": "/properties/networth/items/properties/liability/properties/currency", 
+                "type": "string", 
+                "format":"money",
+                "title": "The Currency Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": "", 
+                "examples": [
+                  "USD"
+                ]
+              }
+            }
+          }, 
+          "networth": {
+            "$id": "/properties/networth/items/properties/networth", 
+            "type": "object", 
+            "properties": {
+              "amount": {
+                "$id": "/properties/networth/items/properties/networth/properties/amount", 
+                "type": "number", 
+                "multipleOf": 0.01, 
+                "title": "The Amount Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": 0.0, 
+                "examples": [
+                  827407.9375
+                ]
+              }, 
+              "currency": {
+                "$id": "/properties/networth/items/properties/networth/properties/currency", 
+                "type": "string", 
+                "format":"money",
+                "title": "The Currency Schema.", 
+                "description": "An explanation about the purpose of this instance.", 
+                "default": "", 
+                "examples": [
+                  "USD"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

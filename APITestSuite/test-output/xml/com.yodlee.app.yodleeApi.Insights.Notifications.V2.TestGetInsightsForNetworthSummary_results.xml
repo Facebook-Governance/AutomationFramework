@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GET Feeds - Net worth Summary Insight"
+           tests="14"
+           failures="7"
+           errors="0"
+           skipped="0"
+           time="874.996">
+  <properties />
+            <testcase name="testGetNotificationsForNetworthSummary" time="65.339" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary">
+                <failure type="java.lang.AssertionError"
+                  message="TEST FAILED"
+              >
+<![CDATA[java.lang.AssertionError: TEST FAILED
+  org.testng.Assert.fail(Assert.java:94)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary.testGetNotificationsForNetworthSummary(TestGetInsightsForNetworthSummary.java:295)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForNetworthSummary" time="68.218" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary">
+                <failure type="java.lang.AssertionError"
+                  message="TEST FAILED"
+              >
+<![CDATA[java.lang.AssertionError: TEST FAILED
+  org.testng.Assert.fail(Assert.java:94)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary.testGetNotificationsForNetworthSummary(TestGetInsightsForNetworthSummary.java:295)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForNetworthSummary" time="66.303" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary">
+                <failure type="java.lang.AssertionError"
+                  message="TEST FAILED"
+              >
+<![CDATA[java.lang.AssertionError: TEST FAILED
+  org.testng.Assert.fail(Assert.java:94)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary.testGetNotificationsForNetworthSummary(TestGetInsightsForNetworthSummary.java:295)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForNetworthSummary" time="66.020" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary">
+                <failure type="java.lang.AssertionError"
+                  message="TEST FAILED"
+              >
+<![CDATA[java.lang.AssertionError: TEST FAILED
+  org.testng.Assert.fail(Assert.java:94)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary.testGetNotificationsForNetworthSummary(TestGetInsightsForNetworthSummary.java:295)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForNetworthSummary" time="66.500" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary">
+                <failure type="java.lang.AssertionError"
+                  message="TEST FAILED"
+              >
+<![CDATA[java.lang.AssertionError: TEST FAILED
+  org.testng.Assert.fail(Assert.java:94)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary.testGetNotificationsForNetworthSummary(TestGetInsightsForNetworthSummary.java:295)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForNetworthSummary" time="53.525" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary">
+                <failure type="java.lang.AssertionError"
+                  message="InValid createdDate either format is not correct OR created date may be greater than current date"
+              >
+<![CDATA[java.lang.AssertionError: InValid createdDate either format is not correct OR created date may be greater than current date
+  org.testng.Assert.fail(Assert.java:94)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary.testGetNotificationsForNetworthSummary(TestGetInsightsForNetworthSummary.java:315)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="testGetNotificationsForNetworthSummary" time="66.180" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary">
+                <failure type="java.lang.AssertionError"
+                  message="TEST FAILED"
+              >
+<![CDATA[java.lang.AssertionError: TEST FAILED
+  org.testng.Assert.fail(Assert.java:94)
+  com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary.testGetNotificationsForNetworthSummary(TestGetInsightsForNetworthSummary.java:295)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="testGetNotificationsForNetworthSummary" time="8.730" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary" />
+                <testcase name="testGetNotificationsForNetworthSummary" time="9.485" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary" />
+                <testcase name="testGetNotificationsForNetworthSummary" time="135.870" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary" />
+                <testcase name="testGetNotificationsForNetworthSummary" time="8.092" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary" />
+                <testcase name="testGetNotificationsForNetworthSummary" time="101.892" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary" />
+                <testcase name="testGetNotificationsForNetworthSummary" time="99.168" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary" />
+                <testcase name="testGetNotificationsForNetworthSummary" time="59.674" classname="com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForNetworthSummary" />
+      
+</testsuite>

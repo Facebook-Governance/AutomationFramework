@@ -1,0 +1,535 @@
+{
+    "transactionCategory": [
+        {
+            "id": 1,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Uncategorized",
+            "type": "UNCATEGORIZE",
+            "highLevelCategoryId": 10000017,
+            "highLevelCategoryName": "Uncategorized"
+        },
+        {
+            "id": 2,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Automotive Expenses",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000003,
+            "highLevelCategoryName": "Automotive Expenses"
+        },
+        {
+            "id": 3,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Charitable Giving",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000001,
+            "highLevelCategoryName": "Giving"
+        },
+        {
+            "id": 4,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Child/Dependent Expenses",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000010,
+            "highLevelCategoryName": "Personal/Family Expenses"
+        },
+        {
+            "id": 5,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Clothing/Shoes",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000010,
+            "highLevelCategoryName": "Personal/Family Expenses"
+        },
+        {
+            "id": 6,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Education",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000010,
+            "highLevelCategoryName": "Personal/Family Expenses"
+        },
+        {
+            "id": 7,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Entertainment",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000011,
+            "highLevelCategoryName": "Travel/Entertainment"
+        },
+        {
+            "id": 8,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Gasoline/Fuel",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000003,
+            "highLevelCategoryName": "Automotive Expenses"
+        },
+        {
+            "id": 9,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Gifts",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000001,
+            "highLevelCategoryName": "Giving"
+        },
+        {
+            "id": 10,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Groceries",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000004,
+            "highLevelCategoryName": "Home/Utilities"
+        },
+        {
+            "id": 11,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Healthcare/Medical",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000006,
+            "highLevelCategoryName": "Healthcare"
+        },
+        {
+            "id": 12,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Home Maintenance",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000004,
+            "highLevelCategoryName": "Home/Utilities"
+        },
+        {
+            "id": 13,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Home Improvement",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000004,
+            "highLevelCategoryName": "Home/Utilities"
+        },
+        {
+            "id": 14,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Insurance",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000020,
+            "highLevelCategoryName": "Insurance"
+        },
+        {
+            "id": 15,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Cable/Satellite Services",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000004,
+            "highLevelCategoryName": "Home/Utilities"
+        },
+        {
+            "id": 16,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Online Services",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000007,
+            "highLevelCategoryName": "Office Expenses"
+        },
+        {
+            "id": 17,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Loans",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000004,
+            "highLevelCategoryName": "Home/Utilities"
+        },
+        {
+            "id": 18,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Mortgages",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000004,
+            "highLevelCategoryName": "Home/Utilities"
+        },
+        {
+            "id": 19,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Other Expenses",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000009,
+            "highLevelCategoryName": "Miscellaneous Expenses"
+        },
+        {
+            "id": 20,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Personal Care",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000010,
+            "highLevelCategoryName": "Personal/Family Expenses"
+        },
+        {
+            "id": 21,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Rent",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000004,
+            "highLevelCategoryName": "Home/Utilities"
+        },
+        {
+            "id": 22,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Restaurants/Dining",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000011,
+            "highLevelCategoryName": "Travel/Entertainment"
+        },
+        {
+            "id": 23,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Travel",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000011,
+            "highLevelCategoryName": "Travel/Entertainment"
+        },
+        {
+            "id": 24,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Service Charges/Fees",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000009,
+            "highLevelCategoryName": "Miscellaneous Expenses"
+        },
+        {
+            "id": 25,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "ATM/Cash Withdrawals",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000010,
+            "highLevelCategoryName": "Personal/Family Expenses"
+        },
+        {
+            "id": 26,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Credit Card Payments",
+            "type": "TRANSFER",
+            "highLevelCategoryId": 10000018,
+            "highLevelCategoryName": "Credit Card Payment"
+        },
+        {
+            "id": 27,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Deposits",
+            "type": "INCOME",
+            "highLevelCategoryId": 10000012,
+            "highLevelCategoryName": "Income"
+        },
+        {
+            "id": 28,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Transfers",
+            "type": "TRANSFER",
+            "highLevelCategoryId": 10000015,
+            "highLevelCategoryName": "Transfers"
+        },
+        {
+            "id": 29,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Paychecks/Salary",
+            "type": "INCOME",
+            "highLevelCategoryId": 10000012,
+            "highLevelCategoryName": "Income"
+        },
+        {
+            "id": 30,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Investment Income",
+            "type": "INCOME",
+            "highLevelCategoryId": 10000012,
+            "highLevelCategoryName": "Income"
+        },
+        {
+            "id": 31,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Retirement Income",
+            "type": "INCOME",
+            "highLevelCategoryId": 10000012,
+            "highLevelCategoryName": "Income"
+        },
+        {
+            "id": 32,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Other Income",
+            "type": "INCOME",
+            "highLevelCategoryId": 10000012,
+            "highLevelCategoryName": "Income"
+        },
+        {
+            "id": 33,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Checks",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000009,
+            "highLevelCategoryName": "Miscellaneous Expenses"
+        },
+        {
+            "id": 34,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Hobbies",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000011,
+            "highLevelCategoryName": "Travel/Entertainment"
+        },
+        {
+            "id": 35,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Other Bills",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000009,
+            "highLevelCategoryName": "Miscellaneous Expenses"
+        },
+        {
+            "id": 36,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Securities Trades",
+            "type": "TRANSFER",
+            "highLevelCategoryId": 10000015,
+            "highLevelCategoryName": "Transfers"
+        },
+        {
+            "id": 37,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Taxes",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000008,
+            "highLevelCategoryName": "Taxes"
+        },
+        {
+            "id": 38,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Telephone Services",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000004,
+            "highLevelCategoryName": "Home/Utilities"
+        },
+        {
+            "id": 39,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Utilities",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000004,
+            "highLevelCategoryName": "Home/Utilities"
+        },
+        {
+            "id": 40,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Savings",
+            "type": "TRANSFER",
+            "highLevelCategoryId": 10000015,
+            "highLevelCategoryName": "Transfers"
+        },
+        {
+            "id": 41,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Retirement Contributions",
+            "type": "DEFERRED_COMPENSATION",
+            "highLevelCategoryId": 10000016,
+            "highLevelCategoryName": "Retirement"
+        },
+        {
+            "id": 42,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Pets/Pet Care",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000004,
+            "highLevelCategoryName": "Home/Utilities"
+        },
+        {
+            "id": 43,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Electronics",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000004,
+            "highLevelCategoryName": "Home/Utilities"
+        },
+        {
+            "id": 44,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "General Merchandise",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000004,
+            "highLevelCategoryName": "Home/Utilities"
+        },
+        {
+            "id": 45,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Office Supplies",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000007,
+            "highLevelCategoryName": "Office Expenses"
+        },
+        {
+            "id": 92,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Consulting",
+            "type": "INCOME",
+            "highLevelCategoryId": 10000012,
+            "highLevelCategoryName": "Income"
+        },
+        {
+            "id": 94,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Sales",
+            "type": "INCOME",
+            "highLevelCategoryId": 10000012,
+            "highLevelCategoryName": "Income"
+        },
+        {
+            "id": 96,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Interest",
+            "type": "INCOME",
+            "highLevelCategoryId": 10000012,
+            "highLevelCategoryName": "Income"
+        },
+        {
+            "id": 98,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Services",
+            "type": "INCOME",
+            "highLevelCategoryId": 10000012,
+            "highLevelCategoryName": "Income"
+        },
+        {
+            "id": 100,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Advertising",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000007,
+            "highLevelCategoryName": "Office Expenses"
+        },
+        {
+            "id": 102,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Business Miscellaneous",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000007,
+            "highLevelCategoryName": "Office Expenses"
+        },
+        {
+            "id": 104,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Postage and Shipping",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000007,
+            "highLevelCategoryName": "Office Expenses"
+        },
+        {
+            "id": 106,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Printing",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000007,
+            "highLevelCategoryName": "Office Expenses"
+        },
+        {
+            "id": 108,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Dues and Subscriptions",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000010,
+            "highLevelCategoryName": "Personal/Family Expenses"
+        },
+        {
+            "id": 110,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Office Maintenance",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000007,
+            "highLevelCategoryName": "Office Expenses"
+        },
+        {
+            "id": 112,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Wages Paid",
+            "type": "EXPENSE",
+            "highLevelCategoryId": 10000009,
+            "highLevelCategoryName": "Miscellaneous Expenses"
+        },
+        {
+            "id": 114,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Expense Reimbursement",
+            "type": "INCOME",
+            "highLevelCategoryId": 10000019,
+            "highLevelCategoryName": "Refunds/Reimbursements"
+        },
+        {
+            "id": 225,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Rewards",
+            "type": "INCOME",
+            "highLevelCategoryId": 10000012,
+            "highLevelCategoryName": "Income"
+        },
+        {
+            "id": 227,
+            "source": "SYSTEM",
+            "classification": "PERSONAL",
+            "category": "Refunds/Adjustments",
+            "type": "INCOME",
+            "highLevelCategoryId": 10000019,
+            "highLevelCategoryName": "Refunds/Reimbursements"
+        }
+    ]
+}

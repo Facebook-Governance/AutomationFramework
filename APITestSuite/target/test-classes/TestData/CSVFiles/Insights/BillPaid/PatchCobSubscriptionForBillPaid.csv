@@ -1,0 +1,18 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-BillPaid11,patchCobrandSubscription - subscribe to BillPaid isSubscribed=true,BillPaid,,,,,,,,,,2,,account view,,,,TRUE TRUE,,,,204,TRUE
+AT-BillPaid12,patchCobrandSubscription - update insightName to same name,BillPaid,negTestScenario53,BillPaid,,,,,,,,,,,,,,,,,,500,TRUE
+AT-BillPaid13,patchCobrandSubscription -  update insightName to different name,BillPaid,negTestScenario2,BillPaidEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-BillPaid14,patchCobrandSubscription - update insightTitle chars between 3 and 100 ,BillPaid,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-BillPaid15,patchCobrandSubscription -  update insightTitle chars are only 3,BillPaid,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-BillPaid16,patchCobrandSubscription - update insightTitle chars are only 100,BillPaid,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-BillPaid17,patchCobrandSubscription - update insightTitle chars are less than 3,BillPaid,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-BillPaid18,patchCobrandSubscription -  update insightTitle chars are greater 100,BillPaid,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-BillPaid19,patchCobrandSubscription - update insightTitle chars are special characters,BillPaid,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-BillPaid20,patchCobrandSubscription -  update container,BillPaid,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-BillPaid21,patchCobrandSubscription -  update keys,BillPaid,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-BillPaid22,patchCobrandSubscription -  update description,BillPaid,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-BillPaid23,patchCobrandSubscription -  update applicableEntity,BillPaid,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-BillPaid24,patchCobrandSubscription -  update entityParameter,BillPaid,,,,,,,,,,2,,account view,,,,TRUE TRUE,,,,204,TRUE
+AT-BillPaid25,patchCobrandSubscription - update entityParameter->view->insightType,BillPaid,negTestScenario24,,,,,,,,,2,,account view,,,,TRUE TRUE,,OTHER   OTHER,,400,TRUE
+AT-BillPaid26,patchCobrandSubscription - update entityParameter->view->insightType - Invalid Name,BillPaid,negTestScenarioPvc02,,,,,,,,,2,,account view,,,,TRUE TRUE,,INVALID  INVALID,,400,TRUE
+AT-BillPaid27,patchCobrandSubscription - update insightTitle to Bill Paid,BillPaid,,,Bill Paid,,,,,,,,,,,,,,,,,204,TRUE

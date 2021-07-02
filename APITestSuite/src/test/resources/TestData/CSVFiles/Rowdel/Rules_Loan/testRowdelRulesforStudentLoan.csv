@@ -1,0 +1,12 @@
+tcId,tcName,add_dagXmlFileName,update_dagXmlFileName,rowcount,checkaccstatus,enabled
+"AT-99023, AT-99022",test Rowdel Rules for Student Loan Type Account 1,add_loanFrbRowdel1.xml,update_loanFrbRowdel1.xml,3,FALSE,TRUE
+AT-99024,test Rowdel Rules for Student Loan Type Account 2,add_loanFrbRowdel2.xml,update_loanFrbRowdel2.xml,3,FALSE,TRUE
+AT-99025,test Rowdel Rules for Student Loan Type Account 3,add_loanFrbRowdel3.xml,update_loanFrbRowdel3.xml,2,FALSE,TRUE
+AT-99026,test Rowdel Rules for Student Loan Type Account 4,add_loanFrbRowdel4.xml,update_loanFrbRowdel4.xml,2,TRUE,TRUE
+AT-99027,test Rowdel Rules for Student Loan Type Account 5,add_loanFrbRowdel5.xml,update_loanFrbRowdel5.xml,2,TRUE,TRUE
+AT-99028,test Rowdel Rules for Student Loan Type Account 6,add_loanFrbRowdel6.xml,update_loanFrbRowdel6.xml,1,FALSE,TRUE
+AT-99029,test Rowdel Rules for Student Loan Type Account 6,add_loanFrbRowdel7.xml,update_loanFrbRowdel7.xml,2,TRUE,TRUE
+AT-99030,test Rowdel Rules for Student Loan Type Account 6,add_loanFrbRowdel8.xml,update_loanFrbRowdel8.xml,2,TRUE,TRUE
+AT-99031,test Rowdel Rules for Student Loan Type Account 6,add_loanFrbRowdel9.xml,update_loanFrbRowdel9.xml,2,FALSE,TRUE
+AT-99032,test Rowdel Rules for Student Loan Type Account 6,add_loanFrbRowdel10.xml,update_loanFrbRowdel10.xml,3,TRUE,TRUE
+AT-99033,test Rowdel Rules for Student Loan Type Account 6,add_loanFrbRowdel11.xml,update_loanFrbRowdel11.xml,3,TRUE,TRUE

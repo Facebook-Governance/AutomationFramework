@@ -1,0 +1,7 @@
+TestCaseid,tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,enabled,priority,formType
+AT-88345,PIIGranularConfigs2_1,PII Holder detail with Bank2,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/PII/,HolderdetailswithBank2.xml,YES,NO,TRUE,p1,Simplified
+AT-88347,PIIGranularConfigs2_2,PII Holder detail with Investment2,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/PII/,HolderdetailswithInvestment2.xml,YES,NO,TRUE,p1,Simplified
+AT-88347,PIIGranularConfigs2_3,PII Holder Name with Bank2,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/PII/,HoldernamewithBank2.xml,YES,NO,TRUE,p1,Simplified
+AT-88349,PIIGranularConfigs2_4,PII Holder Name with Investment2,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/PII/,HoldernamewithInvestment2.xml,YES,NO,TRUE,p1,Simplified
+AT-88348,PIIGranularConfigs2_5,PII Holder detail and Name with Bank2,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/PII/,HolderdetailsNamewithBank2.xml,YES,NO,TRUE,p1,Simplified
+AT-88347,PIIGranularConfigs2_6,PII Holder detail and Name with Investment2,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS,../src/test/resources/TestData/XML/PII/,HolderdetailsNamewithInvestment2.xml,YES,NO,TRUE,p1,Simplified

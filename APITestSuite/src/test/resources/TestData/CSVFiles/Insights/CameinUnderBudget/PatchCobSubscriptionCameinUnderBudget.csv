@@ -1,0 +1,27 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-142865,subscribe NetworthChange to   isSubscribed=true,CameinUnderBudget,,,,,,,,,,1,,accountGroup,1,,,TRUE,,,,204,TRUE
+AT-142866,update insightName to same name,CameinUnderBudget,negTestScenario1,CameinUnderBudget,,,,,,,,,,,,,,,,,,500,TRUE
+AT-142867, update insightName to different name,CameinUnderBudget,negTestScenario2,CameinUnderBudgetEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-142868,update insightTitle chars between 3 and 100 ,CameinUnderBudget,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-142869, update insightTitle chars are only 3,CameinUnderBudget,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-142870,update insightTitle chars are only 100,CameinUnderBudget,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-142871,update insightTitle chars are less than 3,CameinUnderBudget,negTestScenario3,,kk,,,,,,,,,,,,,,,,,400,TRUE
+AT-142872, update insightTitle chars are greater 100,CameinUnderBudget,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-142873,update insightTitle chars are special characters,CameinUnderBudget,negTestScenario5,,{}}#4@@,,,,,,,,,,,,,,,,,400,TRUE
+AT-142874, update container,CameinUnderBudget,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-142875, update keys,CameinUnderBudget,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-142876, update description,CameinUnderBudget,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-142877, update applicableEntity,CameinUnderBudget,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-142878, update entityParameter,CameinUnderBudget,negTestScenario29,,,,,,,,,1,,accountGroup,1,,,TRUE,,,"CHANGE,3,PERCENT",400,TRUE
+AT-142879,update entityParameter->account[0]->frequency,CameinUnderBudget,negTestScenario32,,,,,,,,,1,,accountGroup,1,,MONTHLY,TRUE,,,"CHANGE,12,PERCENT",400,TRUE
+AT-142880,update entityParameter->account[0]->isSubscribed=false,CameinUnderBudget,,,,,,,,,,1,,accountGroup,1,,,FALSE,,,,204,TRUE
+AT-142880,update entityParameter->account[0]->isSubscribed=true,CameinUnderBudget,,,,,,,,,,1,,accountGroup,1,,,TRUE,,,,204,TRUE
+AT-142881,update entityParameter->account[0]->duration,CameinUnderBudget,negTestScenario50,,,,,,,,,1,,accountGroup,1,,,TRUE,LASW_MONHT,,"CHANGE,12,PERCENT",400,TRUE
+AT-142882,update entityParameter->account[0]->insightType,CameinUnderBudget,negTestScenario24,,,,,,,,,1,,accountGroup,1,,,TRUE,,OTHER,"CHANGE,12,PERCENT",400,TRUE
+AT-142883,update entityParameter->account[0]->insightType - Invalid Name,CameinUnderBudget,negTestScenario24,,,,,,,,,1,,accountGroup,1,,,TRUE,,INVALID,"CHANGE,12,PERCENT",400,TRUE
+AT-142884,update entityParameter->account[0]->threshold[0]->name,CameinUnderBudget,negTestScenario29,,,,,,,,,1,,accountGroup,1,,,FALSE,,,"LIMIT,12,PERCENT",400,TRUE
+AT-142885,update entityParameter->account[0]->threshold[0]->value,CameinUnderBudget,negTestScenario29,,,,,,,,,1,,accountGroup,1,,,TRUE,,,"CHANGE,12,PERCENT",400,TRUE
+AT-142886, update entityParameter->account[0]->threshold[0]->type,CameinUnderBudget,negTestScenario29,,,,,,,,,1,,accountGroup,1,,,TRUE,,,"CHANGE,6,AMOUNT",400,TRUE
+AT-142887, update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,CameinUnderBudget,negTestScenario29,,,,,,,,,1,,accountGroup,1,,,TRUE,,,"CHANGE,12,PERCENT",400,TRUE
+AT-142888, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,CameinUnderBudget,negTestScenario29,,,,,,,,,1,,accountGroup,1,,,TRUE,,,"CHANGE,12,PERCENT",400,TRUE
+AT-142889, update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,CameinUnderBudget,negTestScenario29,,,,,,,,,1,,accountGroup,1,,,TRUE,,,"CHANGE,88,PERCENT",400,TRUE

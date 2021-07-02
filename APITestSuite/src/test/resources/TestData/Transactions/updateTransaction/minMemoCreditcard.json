@@ -1,0 +1,34 @@
+{
+  "transaction": [
+    {
+      "date": "2016-06-22",
+      "amount": {
+        "amount": 0.4476,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "Golden Corner Inc",
+        "simple": "Golden Corner Inc",
+        "consumer": "updating transactions"
+      },
+      "memo": "a",
+      "merchant": {
+        "name": "Golden Corner Inc",
+        "id": "69488",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "accountId": 510334,
+      "CONTAINER": "creditCard",
+      "postDate": "2016-06-22",
+      "id": 271665,
+      "category": "Other Income",
+      "categoryId": 32,
+      "status": "POSTED"
+    }
+  ]
+}

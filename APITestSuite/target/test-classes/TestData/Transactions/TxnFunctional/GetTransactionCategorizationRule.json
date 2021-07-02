@@ -1,0 +1,39 @@
+{
+	"ruleClauses": [
+		{
+			"field": "amount",
+			"userDefinedRuleId": "${json-unit.ignore}",
+			"operation": "numberLessThan",
+			"fieldValue": "700",
+			"ruleClauseId": "${json-unit.ignore}"
+		},
+		{
+			"field": "description",
+			"userDefinedRuleId": "${json-unit.ignore}",
+			"operation": "stringEquals",
+			"fieldValue": "tra",
+			"ruleClauseId": "${json-unit.ignore}"
+		}
+	],
+	"ruleClauseArray": [
+		{
+			"field": "amount",
+			"userDefinedRuleId": "${json-unit.ignore}",
+			"operation": "numberLessThan",
+			"fieldValue": "700",
+			"ruleClauseId": "${json-unit.ignore}"
+		},
+		{
+			"field": "description",
+			"userDefinedRuleId": "${json-unit.ignore}",
+			"operation": "stringEquals",
+			"fieldValue": "tra",
+			"ruleClauseId": "${json-unit.ignore}"
+		}
+	],
+	"userDefinedRuleId": "${json-unit.ignore}",
+	"categoryLevelId": 3,
+	"transactionCategorisationId": 1,
+	"memId": "${json-unit.ignore}",
+	"rulePriority": 1
+}

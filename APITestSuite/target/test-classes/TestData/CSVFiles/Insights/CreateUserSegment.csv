@@ -1,0 +1,70 @@
+testCaseId,Testcase,Income,IncomeCurrency,IncomeRange,City,State,Country,ZipCode,Age,NetworthValue,NetworthCurrency,HomeOwnership,LifeStage,deleteUserSegment,statusCode,Enabled
+AT-168399,Verify JWT authentication for a user,123,USD,,,,,,,,,,,TRUE,201,TRUE
+AT-168400,Verify user_segment json <InsightsEngineTools>/data/dev ,214124,USD,,Los Angeles,California,US,90011,33,76272,USD,TRUE,Employed,TRUE,201,TRUE
+AT-168390,Verify user_segment collection existence post MongoDB Installer run.,,,$0K - $35K,Los Angeles,California,US,90011,99,76272,USD,TRUE,Retired,TRUE,201,TRUE
+AT-168389,Create User Segment passing only Income ,15000,USD,,,,,,,,,,,TRUE,201,TRUE
+AT-168393,Create User Segment passing only IncomeRange $0K-$35K,,,$0K - $35K,,,,,,,,,,TRUE,201,TRUE
+AT-168392,Create User Segment passing only IncomeRange $35K-$50K,,,$35K - $50K,,,,,,,,,,TRUE,201,TRUE
+AT-168395,Create User Segment passing only IncomeRange $50K-$75K,,,$50K - $75K,,,,,,,,,,TRUE,201,TRUE
+AT-168397,Create User Segment passing only IncomeRange $75K-$100K,,,$75K - $100K,,,,,,,,,,TRUE,201,TRUE
+AT-168394,Create User Segment passing only IncomeRange $100K-$150K,,,$100K - $150K,,,,,,,,,,TRUE,201,TRUE
+AT-168396,Create User Segment passing only IncomeRange $150K+,,,$150K+,,,,,,,,,,TRUE,201,TRUE
+AT-168391,Create User Segment for income and geoLocation,20000,USD,,Los Angeles,California,US,90011,,,,,,TRUE,201,TRUE
+AT-168398,Create User Segment for income and age,25000,USD,,,,,,100,,,,,TRUE,201,TRUE
+AT-168382,Create User Segment for income and networthvalue,25000,USD,,,,,,,100000000,USD,,,TRUE,201,TRUE
+AT-168383,Create User Segment for income and homeOwnership - OWNED,25000,USD,,,,,,,,,TRUE,,TRUE,201,TRUE
+AT-168387,Create User Segment for income and homeOwnership - NOT OWNED,25000,USD,,,,,,,,,FALSE,,TRUE,201,TRUE
+AT-168388,Create User Segment for income and LifeStage(Student),25000,USD,,Los Angeles,California,US,90011,25,,,,Student,TRUE,201,TRUE
+AT-168384,Create User Segment for income and LifeStage(Employed),25000,USD,,Los Angeles,California,US,90011,35,,,,Employed,TRUE,201,TRUE
+AT-168385,Create User Segment for income and LifeStage(UnEmployed),25000,USD,,Los Angeles,California,US,90011,40,,,,Unemployed,TRUE,201,TRUE
+AT-168386,Create User Segment for income and LifeStage(Retired),25000,USD,,Los Angeles,California,US,90011,80,,,,Retired,TRUE,201,TRUE
+AT-168426,Create User Segment for NetWorthValue - Decimal Value,,,$150K+,Los Angeles,California,US,90011,,99999.71011,USD,TRUE,Student,TRUE,201,TRUE
+AT-168427,Create User Segment for Age - Decimal Value,66666.76,USD,,Los Angeles,California,US,90011,46.89,,,FALSE,Employed,TRUE,201,TRUE
+AT-168428,Create User Segment for Income - Decimal Value,189999.1111,USD,,Los Angeles,California,US,90011,,,,FALSE,Retired,TRUE,201,TRUE
+AT-168429,Verify If Income is outside of the allowed range.Min = 0 & Max = 100000000  (100 Million) - Less than min,-1,USD,,,,,,,,,,,TRUE,400,TRUE
+AT-168423,Verify If Income is outside of the allowed range.Min = 0 & Max = 100000000  (100 Million)  - greater than max,1000000001,USD,,,,,,,,,,,TRUE,400,TRUE
+AT-168425,Verify When user enters a value other the allowed Income Range enum - Invalid,,,$51K - $79K,Los Angeles,California,US,90011,,,,,,TRUE,400,TRUE
+AT-168424,Verify When user enters a value other the allowed Income Range enum,,,$151K+,Los Angeles,California,US,90011,,,,,,TRUE,400,TRUE
+AT-168431,Verify creating a segment passing null string to city,6777,USD,,null,California,US,90011,,,,,,TRUE,400,TRUE
+AT-168430,Verify creating a segment passing only 100 char string to city,34552,USD,,invalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinva,California,US,90011,,,,,,TRUE,201,TRUE
+AT-168432,Verify creating a segment passing more than 100 char string to city,34552,USD,,invalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalid,California,US,90011,,,,,,TRUE,400,TRUE
+AT-168433,Verify creating a segment passing null string to state,34553,USD,,Los Angeles,null,US,90011,,,,,,TRUE,400,TRUE
+AT-168407,Verify creating a segment passing only 100 char string to state,34554,USD,,Los Angeles,invalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinva,US,90011,,,,,,TRUE,201,TRUE
+AT-168413,Verify creating a segment passing more than 100 char string to state,34555,USD,,Los Angeles,invalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalid,US,90011,,,,,,TRUE,400,TRUE
+AT-168410,Verify creating a segment passing null string to country,34556,USD,,Los Angeles,California,null,90011,,,,,,TRUE,201,TRUE
+AT-168416,Verify creating a segment passing only 100 chars string to country,34557,USD,,Los Angeles,California,invalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinva,90011,,,,,,TRUE,201,TRUE
+AT-168405,Verify creating a segment passing more than 100 char string to country,34558,USD,,Los Angeles,California,invalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalidcharacterinvalid,90011,,,,,,TRUE,400,TRUE
+AT-168411,Verify creating a segment passing null string to ZipCode,34559,USD,,Los Angeles,California,US,null,,,,,,TRUE,201,TRUE
+AT-168408,Verify creating a segment passing only 100 chars char string to ZipCode,34560,USD,,Los Angeles,California,US,123456789,,,,,,TRUE,201,TRUE
+AT-168414,Verify creating a segment passing more than 100 char string to ZipCode,34561,USD,,Los Angeles,California,US,A123456789012,,,,,,TRUE,400,TRUE
+AT-168406,"Verify creating a user segment If age is outside of the allowed range.
+Value > 0 & < 120 - less than MIN",555556,USD,,,,,,-13,,,,,TRUE,400,TRUE
+AT-168409,"Verify creating a user segment If age is outside of the allowed range.
+Value > 0 & < 120 - Greater Than MAX",555556,USD,,,,,,125,,,,,TRUE,400,TRUE
+AT-168415,"Verify creating a user segment If Net Worth is allow MIN value.
+Min = -100000000 (-100M)",555556,USD,,,,,,,-100000000,USD,,,TRUE,201,TRUE
+AT-168412,"Verify creating a user segment If Net Worth is outside of the allowed range.
+Min = - 1000000001  less than MIN",555556,USD,,,,,,,-1000000001,USD,,,TRUE,400,TRUE
+AT-168422,"Verify creating a user segment If Net Worth is outside of the allowed range.
+ Max = 100000000 (100M) - Gretater than MAX",555556,USD,,,,,,,1000000001,USD,,,TRUE,400,TRUE
+AT-168418,Verify creating a segment When user enters a value other the allowed Life Stage enum values,5678,USD,,,,,,,,,,OTHER,TRUE,400,TRUE
+AT-168417, Verify creating  a segment  When user enters  city but not state,5678,USD,,Los Angeles,,US,90011,,,,,,TRUE,400,TRUE
+AT-168419, Verify creating  a segment  When user enters  state but not country,5678,USD,,Los Angeles,California,,90011,,,,,,TRUE,201,TRUE
+AT-168421, Verify creating  a segment  When user enters  state but not city,5678,USD,,,California,US,90011,,,,,,TRUE,400,TRUE
+AT-168420,Verify creating  a segment  When user enters Income but not incomeCurrency,5678,,,,,,,,,,,,TRUE,400,TRUE
+AT-168402,Verify creating  a segment  When user enters incomeCurrency but not Income,,USD,,,,,,,,,,,TRUE,400,TRUE
+AT-168401,Verify creating  a segment  When user enters NetWorth but not NetWorth Currency,,,,,,,,,567877,,,,TRUE,400,TRUE
+AT-168379,Verify creating  a segment  When user enters NetWorth Currency but not Networth,,,,,,,,,,USD,,,TRUE,400,TRUE
+AT-168381,Verify creating  a segment When either of Income or Income Range is not provided,,,,Los Angeles,California,US,90011,,99998383,USD,TRUE,,TRUE,400,TRUE
+AT-168380,Verify creating  a segment When both Income or Income Range is provided,63773,USD,$75K - $100K,Los Angeles,California,US,90011,,,,,,TRUE,400,TRUE
+AT-168404,Verify creating  a segment When Income is given other than USD currency,63773,INR,,,,,,,,,,,TRUE,400,TRUE
+AT-168403,Verify creating  a segment When Networth is given other than USD currency,63773,USDE,,,,,,,7637873,INR,,,TRUE,400,TRUE
+AT-EnhancementTc1,Verify user_segment json <InsightsEngineTools>/data/dev ,214124,USD,,Los Angeles,California,US,90011,33,76272,USD,TRUE,Employed,FALSE,201,TRUE
+AT-EnhancementTcDupe,Verify user_segment json <InsightsEngineTools>/data/dev ,214124,USD,,Los Angeles,California,US,90011,33,76272,USD,TRUE,Employed,TRUE,400,TRUE
+AT-EnhancementTc3,Create User Segment for NetWorthValue - Decimal Value,,,$150K+,Los Angeles,California,US,90011,,99999.71011,USD,TRUE,Student,FALSE,201,TRUE
+AT-EnhancementTcDupe,Create User Segment for NetWorthValue - Decimal Value,,,$150K+,Los Angeles,California,US,90011,,99999.71011,USD,TRUE,Student,TRUE,400,TRUE
+AT-SpecialChars1,Verify API allows Special characters,,,$150K+,"<\>""%{}|\\^~[]",California,US,90011,,99999.71011,USD,TRUE,Student,TRUE,400,TRUE
+AT-SpecialChars2,Verify API allows Special characters,,,$150K+,Los Angeles,"<\>""%{}|\\^~[]",US,90011,,99999.71011,USD,TRUE,Student,TRUE,400,TRUE
+AT-SpecialChars3,Verify API allows Special characters,,,$150K+,Los Angeles,California,"<\>""%{}|\\^~[]",90011,,99999.71011,USD,TRUE,Student,TRUE,400,TRUE
+AT-SpecialChars4,Verify API allows Special characters,,,$150K+,Los Angeles,California,US,{}|\\^~[],,99999.71011,USD,TRUE,Student,TRUE,400,TRUE
+AT-SpecialChars5,Verify API allows Special characters,,,$150K+,!@#$&*(),!@#$&*(),!@#$&*(),!@#$&*(),,99999.71011,USD,TRUE,Student,TRUE,201,TRUE

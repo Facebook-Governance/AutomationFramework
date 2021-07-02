@@ -1,0 +1,19 @@
+{
+  "providerAccount": [
+    {
+      "lastUpdated": "${json-unit.any-string}",
+      "createdDate": "${json-unit.any-string}",
+      "refreshInfo": {
+        "lastRefreshed": "${json-unit.any-string}",
+        "additionalStatus": "ACCOUNT_SUMMARY_RETRIEVED",
+        "lastRefreshAttempt": "${json-unit.any-string}",
+        "statusMessage": "OK",
+        "statusCode": 0,
+        "status": "IN_PROGRESS"
+      },
+      "aggregationSource": "USER",
+      "providerId": 16441,
+      "isManual": false,
+      "id": "${json-unit.any-number}"    }
+  ]
+}

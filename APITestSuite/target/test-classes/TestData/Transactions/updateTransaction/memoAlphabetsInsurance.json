@@ -1,0 +1,30 @@
+{
+  "transaction": [
+    {
+      "date": "2015-07-12",
+      "amount": {
+        "amount": 2500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000015,
+      "description": {
+        "original": "trans desc",
+        "consumer": "123abcd"
+      },
+      "memo": "123abcd",
+      "transactionDate": "2015-07-12",
+      "baseType": "CREDIT",
+      "categoryType": "TRANSFER",
+      "categorySource": "SYSTEM",
+      "postingOrder": 5,
+      "accountId": 510332,
+      "CONTAINER": "insurance",
+      "postDate": "2015-07-12",
+      "id": 133013,
+      "category": "Securities Trades",
+      "categoryId": 36,
+      "status": "POSTED"
+    }
+  ]
+}

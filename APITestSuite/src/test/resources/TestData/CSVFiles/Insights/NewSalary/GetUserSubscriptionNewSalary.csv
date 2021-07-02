@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,insightType,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-147490,getUserSubscription-NewSalaryValidate InsightName,,NewSalary,NewSalary,,,,,,,,,,,,,,200,TRUE
+AT-147497,getUserSubscription-NewSalaryValidate Supporting container,,NewSalary,,,BANK,,,,,,,,,,,,200,TRUE
+AT-147496,getUserSubscription-NewSalaryValidate TriggerType,EVENT,NewSalary,,,,,,,,,,,,,,,200,TRUE
+AT-147489,getUserSubscription-NewSalaryValidate applicableEntity,,NewSalary,,,,,,,ACCOUNT,,,,,,,,200,TRUE
+AT-147492,getUserSubscription-NewSalaryValidate number of levels and levelObject,,NewSalary,,,,,,,ACCOUNT,account,,,,,,,200,TRUE
+AT-147493,getUserSubscription-NewSalaryValidate isSubscribed=false,,NewSalary,,,,,,,,account,FALSE,,,,,,200,TRUE
+AT-147498,getUserSubscription-NewSalaryValidate insightKeys,,NewSalary,,,,Account,,,,,,,,,,,200,TRUE
+AT-147488,getUserSubscription-NewSalaryValidate description,,NewSalary,,,,,,Generates an insight when a new recurring salary is detected.,,,,,,,,,200,TRUE
+AT-147494,getUserSubscription-NewSalaryValidate title,,NewSalary,,New Salary,,,,,,,,,,,,,200,TRUE
+AT-147499,getUserSubscription-NewSalaryValidate total number of keys,,NewSalary,,,,,18,,,,,,,,,,200,TRUE
+AT-147495,getUserSubscription-NewSalaryValidate InsightType,,NewSalary,NewSalary,,,,,,,,,,OTHER,,,,200,TRUE

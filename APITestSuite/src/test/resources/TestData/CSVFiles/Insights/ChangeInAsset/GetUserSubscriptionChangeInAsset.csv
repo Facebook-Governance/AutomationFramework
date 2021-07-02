@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-146234,"Validate AssetChange , Validate InsightName",,AssetChange,AssetChange,,,,,,,,,,,,,200,TRUE
+AT-146235,"Validate AssetChange , Validate Supporting container",,AssetChange,,,"BANK,CARD,LOAN,INVESTMENT",,,,,,,,,,,200,TRUE
+AT-146236,"Validate AssetChange , Validate TriggerType",SCHEDULE,AssetChange,,,,,,,,,,,,,,200,TRUE
+AT-146237,"Validate AssetChange , Validate applicableEntity",,AssetChange,,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-146238,"Validate AssetChange , Validate number of levels and levelObject",,AssetChange,,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-146239,"Validate AssetChange , Validate isSubscribed=false",,AssetChange,,,,,,,,account,FALSE,,,,,200,TRUE
+AT-146240,"Validate AssetChange , Validate threshold Name,Value and Type",,AssetChange,,,,,,,,account,,,"CHANGE,3,PERCENT",,,200,TRUE
+AT-146241,"Validate AssetChange , Validate insightKeys for networths info",,AssetChange,,,,Account,,,,,,,,,,200,TRUE
+AT-146242,"Validate AssetChange , Validate insightKeys for historicalBalances info",,AssetChange,,,,Account,,,,,,,,,,200,TRUE
+AT-146243,"Validate AssetChange , Validate description",,AssetChange,,,,,,Generates an insight when total assets change by more than a configured threshold.,,,,,,,,200,TRUE
+AT-146244,"Validate AssetChange , Validate title",,AssetChange,,AssetChange,,,,,,,,,,,,200,TRUE
+AT-146245,"Validate AssetChange , Validate ruleExpression",,AssetChange,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-146246,"Validate AssetChange , Validate frequency=MONTHLY",,AssetChange,,,,,,,,account,,MONTHLY,,,,200,TRUE
+AT-146247,"Validate AssetChange , Validate total number of keys ",,AssetChange,,,,,9,,,,,,,,,200,TRUE

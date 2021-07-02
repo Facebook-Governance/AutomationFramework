@@ -1,0 +1,35 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>SdgAutoCatalog.site16441.1</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.1</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>ACCT_PROFILE</name>
+						<attributeList>
+							<attribute>
+								<name>HOLDER_DETAILS</name>
+								<container>creditCard</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+	</request>
+	<response>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/PII/
+					</filePath>
+					<responseFile>pii_onlyNonSupported.json</responseFile>
+				</row>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+	</response>
+</entity>

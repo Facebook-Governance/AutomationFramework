@@ -1,0 +1,4 @@
+UsTestcaseId,rtcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,priority,formType,enabled
+AT-75432,1,Validate the GET PROVIDER ACCOUNTS API when PR REQUEST is Scheduled and Completed non mfa,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/ProgRefresh/,NonMFAPRPass.xml,YES,NO,P1,Simplified,TRUE
+AT-75433,2,Validate the GET PROVIDER ACCOUNTS API when PR REQUEST is Scheduled and Completed mfa,MFA_ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/ProgRefresh/,MFAPRPass.xml,YES,NO,P1,Simplified,TRUE
+AT-75434,3,Validate the GET PROVIDER ACCOUNTS API when PR REQUEST is Failed and SPR is scheduled non mfa,ADD_PROVIDER_ACCOUNT#GET_PROVIDER_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/ProgRefresh/,PRPartialSuccess.xml,YES,NO,P1,Simplified,FALSE

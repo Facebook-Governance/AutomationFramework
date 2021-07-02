@@ -1,0 +1,20 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-146926,subscribe to SpendingEarningComparison isSubscribed=true,SpendingEarningComparison,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-146927,update insightName to same name,SpendingEarningComparison,negTestScenario53,SpendingEarningComparison,,,,,,,,,,,,,,,,,,500,TRUE
+AT-146928,update insightName to different name,SpendingEarningComparison,negTestScenario2,SpendingEarningComparisonEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-146929,update insightTitle chars between 3 and 100 ,SpendingEarningComparison,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-146930,update insightTitle chars are only 3,SpendingEarningComparison,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-146931,update insightTitle chars are only 100,SpendingEarningComparison,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-146932,update insightTitle chars are less than 3,SpendingEarningComparison,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-146933,update insightTitle chars are greater 100,SpendingEarningComparison,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-146934,update insightTitle chars are special characters,SpendingEarningComparison,negTestScenario5,,{}}#4@@,,,,,,,,,,,,,,,,,400,TRUE
+AT-146935,update container,SpendingEarningComparison,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-146936,update keys,SpendingEarningComparison,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-146937,update description,SpendingEarningComparison,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-146938,update applicableEntity,SpendingEarningComparison,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-146939,update entityParameter,SpendingEarningComparison,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-146940,update entityParameter->account[0]->frequency,SpendingEarningComparison,negTestScenario32,,,,,,,,,1,,account,1,,M,TRUE,,,,400,TRUE
+AT-146941,update entityParameter->account[0]->isSubscribed=false,SpendingEarningComparison,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-146942,update entityParameter->account[0]->duration,SpendingEarningComparison,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,,400,TRUE
+AT-146943,update entityParameter->account[0]->insightType,SpendingEarningComparison,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,OTHER,,400,TRUE
+AT-146944,update entityParameter->account[0]->insightType - Invalid Name,SpendingEarningComparison,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,INVALID,,400,TRUE

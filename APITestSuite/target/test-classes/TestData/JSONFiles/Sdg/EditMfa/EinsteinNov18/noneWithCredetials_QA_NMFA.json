@@ -1,0 +1,63 @@
+{
+  "providerAccount": [
+    {
+      "id": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "providerId": 16441,
+      "isManual": false,
+      "createdDate": "${json-unit.ignore}",
+      "status": "SUCCESS",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "nextUpdateScheduled": "${json-unit.ignore}"
+        }
+      ],
+      "loginForm": [
+        {
+          "id": 16103,
+          "forgetPasswordURL": "http://64.14.28.129/dag/index.do",
+          "formType": "login",
+          "row": [
+            {
+              "id": 150862,
+              "label": "${json-unit.ignore}",
+              "form": "0001",
+              "fieldRowChoice": "0001",
+              "field": [
+                {
+                  "id": 65499,
+                  "name": "LOGIN",
+                  "type": "text",
+                  "value": "Editmfa.site16441.2",
+                  "isOptional": false,
+                  "valueEditable": true
+                }
+              ]
+            },
+            {
+              "id": 150863,
+              "label": "Password",
+              "form": "0001",
+              "fieldRowChoice": "0002",
+              "field": [
+                {
+                  "id": 65500,
+                  "name": "PASSWORD",
+                  "type": "password",
+                  "value": "site16441.2",
+                  "isOptional": false,
+                  "valueEditable": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

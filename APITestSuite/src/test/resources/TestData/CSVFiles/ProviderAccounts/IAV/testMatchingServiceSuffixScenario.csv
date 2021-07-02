@@ -1,0 +1,5 @@
+testcaseId,testCaseName,accountNumber,accountType,verificationType,resFile,filePath,enabled,Status
+1,Suffix match pass,2341,SAVINGS,MATCHING,WithAllAttributes.json,../src/test/resources/TestData/ProviderAccount/IAV/MatchingService/,TRUE,201
+2,Suffix match failed,2340,SAVINGS,MATCHING,SuffixMatchFailed.json,../src/test/resources/TestData/ProviderAccount/IAV/MatchingService/,TRUE,201
+3,Suffix match length failed,234,SAVINGS,MATCHING,SuffixMatchFailed.json,../src/test/resources/TestData/ProviderAccount/IAV/MatchingService/,TRUE,201
+4,Suffix match length failed,12341,SAVINGS,MATCHING,SuffixMatchFailed.json,../src/test/resources/TestData/ProviderAccount/IAV/MatchingService/,TRUE,201

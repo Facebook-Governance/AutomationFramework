@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sub Brand Management Tool Publish Workflows"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="22.134">
+  <properties />
+  
+  
+            <testcase name="testValidateLogin" time="8.051" classname="com.yodlee.customizationtool.Login" />
+                <testcase name="testValidateLogin" time="6.868" classname="com.yodlee.customizationtool.Login" />
+                <testcase name="testValidateLoginPageContents" time="2.367" classname="com.yodlee.customizationtool.Login" />
+                <testcase name="testValidateLogin" time="4.576" classname="com.yodlee.customizationtool.Login" />
+                <testcase name="testValidateMessageOnClickingForgotPasswordLink" time="0.272" classname="com.yodlee.customizationtool.Login" />
+      
+</testsuite>

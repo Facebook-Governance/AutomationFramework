@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  GET Feeds - Suggested Saving Opportunity Insight</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GET Feeds - Suggested Saving Opportunity Insight</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 03 19:54:39 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>864 seconds (864925 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity.testGetNotificationsForSuggestedSavingOpportunity()'><b>testGetNotificationsForSuggestedSavingOpportunity</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity<br>Parameters: AT-SSO01, Validate SuggestedSavingOpportunity Insight when cobrand is not Subscribed, SUGGESTED_SAVING_OPPORTUNITY, FALSE, BANK, SCHEDULE, 16441, InsightPDV.bank15, bank15, , 1, account, , , , , 0, TRUE, FALSE, , SuggestedSavingOpportunity.json, , , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>139</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity@2e55dd0c</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity.testGetNotificationsForSuggestedSavingOpportunity()'><b>testGetNotificationsForSuggestedSavingOpportunity</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity<br>Parameters: AT-SSO02, Validate SuggestedSavingOpportunity Insight when cobrand is  Subscribed and User is not Subscribed, SUGGESTED_SAVING_OPPORTUNITY, FALSE, BANK, SCHEDULE, 16441, , , , 1, account, , , , , 0, TRUE, TRUE, FALSE, SuggestedSavingOpportunity.json, , , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>103</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity@2e55dd0c</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity.testGetNotificationsForSuggestedSavingOpportunity()'><b>testGetNotificationsForSuggestedSavingOpportunity</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity<br>Parameters: AT-SSO03, Validate SuggestedSavingOpportunity Insight when cobrand is  Subscribed and User is not Subscribed(Inheriting Cobrand Thresholds), SUGGESTED_SAVING_OPPORTUNITY, FALSE, BANK, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, TRUE, TRUE, SuggestedSavingOpportunity.json, , , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>15</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity@2e55dd0c</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity.testGetNotificationsForSuggestedSavingOpportunity()'><b>testGetNotificationsForSuggestedSavingOpportunity</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity<br>Parameters: AT-SSO04, Validate SuggestedSavingOpportunity Insight when cobrand is subscribed  for different threshold user overides cobrand threshold, SUGGESTED_SAVING_OPPORTUNITY, FALSE, BANK, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, TRUE, TRUE, SuggestedSavingOpportunity.json, LAST_THREE_MONTHS, , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>61</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity@2e55dd0c</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity.testGetNotificationsForSuggestedSavingOpportunity()'><b>testGetNotificationsForSuggestedSavingOpportunity</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity<br>Parameters: AT-SSO05, Validate SuggestedSavingOpportunity Insight when user changes threshold value to 10 Percent using PATCH, SUGGESTED_SAVING_OPPORTUNITY, FALSE, BANK, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, TRUE, TRUE, SuggestedSavingOpportunity.json, LAST_TWELVE_MONTHS, , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>60</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity@2e55dd0c</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity.testGetNotificationsForSuggestedSavingOpportunity()'><b>testGetNotificationsForSuggestedSavingOpportunity</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity<br>Parameters: AT-SSO06, Validate SuggestedSavingOpportunity Insight when user changes threshold value to original threshold using PATCH, SUGGESTED_SAVING_OPPORTUNITY, FALSE, BANK, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, TRUE, TRUE, SuggestedSavingOpportunity.json, LAST_TWELVE_MONTHS, , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>57</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity@2e55dd0c</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity.testGetNotificationsForSuggestedSavingOpportunity()'><b>testGetNotificationsForSuggestedSavingOpportunity</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity<br>Parameters: AT-SSO07, Validate SuggestedSavingOpportunity Insight when user patch Threshold only AMOUNt and Duration, SUGGESTED_SAVING_OPPORTUNITY, FALSE, BANK, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, TRUE, TRUE, SuggestedSavingOpportunity.json, LAST_SIX_MONTHS, , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>69</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity@2e55dd0c</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity.testGetNotificationsForSuggestedSavingOpportunity()'><b>testGetNotificationsForSuggestedSavingOpportunity</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity<br>Parameters: AT-SSO08, Validate SuggestedSavingOpportunity Insight when Threshold is patched and with user Subscriptions as false, SUGGESTED_SAVING_OPPORTUNITY, FALSE, BANK, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, TRUE, TRUE, SuggestedSavingOpportunity.json, LAST_SIX_MONTHS, , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>53</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity@2e55dd0c</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity.testGetNotificationsForSuggestedSavingOpportunity()'><b>testGetNotificationsForSuggestedSavingOpportunity</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity<br>Parameters: AT-SSO09, Validate SuggestedSavingOpportunity Insight when default thresholdand diff duration Patched using user Patch, SUGGESTED_SAVING_OPPORTUNITY, FALSE, BANK, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, TRUE, TRUE, SuggestedSavingOpportunity.json, LAST_MONTH, , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>55</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity@2e55dd0c</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity.testGetNotificationsForSuggestedSavingOpportunity()'><b>testGetNotificationsForSuggestedSavingOpportunity</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity<br>Parameters: AT-SSO10, Validate SuggestedSavingOpportunity Insight when Threshold is patched and with user Subscriptions as false, SUGGESTED_SAVING_OPPORTUNITY, FALSE, BANK, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, TRUE, TRUE, SuggestedSavingOpportunity.json, LAST_MONTH, , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>57</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity@2e55dd0c</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity.testGetNotificationsForSuggestedSavingOpportunity()'><b>testGetNotificationsForSuggestedSavingOpportunity</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity<br>Parameters: AT-SSO11, Validate SuggestedSavingOpportunity Insight when default thresholdand diff duration Patched using user Patch, SUGGESTED_SAVING_OPPORTUNITY, FALSE, BANK, SCHEDULE, 16441, , , , 1, account, , , , , 1, TRUE, TRUE, TRUE, SuggestedSavingOpportunity.json, LAST_THREE_MONTHS, , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>68</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity@2e55dd0c</td></tr>
+<tr>
+<td title='com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity.testGetNotificationsForSuggestedSavingOpportunity()'><b>testGetNotificationsForSuggestedSavingOpportunity</b><br>Test class: com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity<br>Parameters: AT-SSO12, Reset Settings to default values for Networth Summary, SUGGESTED_SAVING_OPPORTUNITY, FALSE, BANK, SCHEDULE, 16441, , , , 1, account, , , , , 0, TRUE, FALSE, , , , , , , , , Account, 201, TRUE</td>
+<td></td>
+<td>100</td>
+<td>com.yodlee.app.yodleeApi.Insights.Notifications.V2.TestGetInsightsForSuggestedSavingOpportunity@2e55dd0c</td></tr>
+</table><p>
+</body>
+</html>

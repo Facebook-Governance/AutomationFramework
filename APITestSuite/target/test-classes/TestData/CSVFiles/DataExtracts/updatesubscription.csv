@@ -1,0 +1,12 @@
+tcid,tcname,status,cobSession,eventname,callbackURL,filePath,resFile,defectID,enabled
+AT-58253,updated successfully,204,valid,DATA_UPDATES,http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/UpdateSubscription/,successful.json,0,TRUE
+3,invalid eventname,400,valid,SDGF1343!@#,http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/UpdateSubscription/,invalidEventName.json,0,TRUE
+4,invalid callbackURL,400,valid,DATA_UPDATES,SDGF1343!@#,../src/test/resources/TestData/JSONFiles/DataExtracts/UpdateSubscription/,invalidCallbackUrl.json,0,TRUE
+5,invalid authorization header,401,invalid, DATA_UPDATES,http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/UpdateSubscription/,invalidCobSession.json,0,TRUE
+6,error message,401,SDGF1343!@#,SDGF1343!@#,SDGF1343!@#,../src/test/resources/TestData/JSONFiles/DataExtracts/UpdateSubscription/,invalidCobSession.json,0,TRUE
+7,empty eventname,405,valid,,http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/UpdateSubscription/,emptyEventname.json,0,TRUE
+8,empty callbackurl,400,valid,DATA_UPDATES,,../src/test/resources/TestData/JSONFiles/DataExtracts/UpdateSubscription/,emptyCallbackUrl.json,0,TRUE
+9,empty cobsession,401,,DATA_UPDATES,http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/UpdateSubscription/,invalidCobSession.json,0,TRUE
+10,invalid callbackurl,400,valid,DATA_UPDATES,"http://yslrocks.com/notify,http://yslrocks.com/notify",../src/test/resources/TestData/JSONFiles/DataExtracts/UpdateSubscription/,invalidCallbackUrl.json,0,TRUE
+12,invalid eventname,400,valid,"DATA_UPDATES,REFRESH",http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/UpdateSubscription/,invalidEventName.json,0,TRUE
+11,invalid eventname,400,valid,data_updates,http://yslrocks.com/notify,../src/test/resources/TestData/JSONFiles/DataExtracts/UpdateSubscription/,invalidEventName.json,0,TRUE

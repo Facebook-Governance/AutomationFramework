@@ -1,0 +1,7 @@
+testCaseId,description,initialAllocationAmount,initialAllocationCurrency,totalDestAccountsCount,APICall,container,httpStatus,enabled
+AT-112196,"If the user passes a value that is greater than the freeAvailableBalance, the API should throw an error - (Y800- Invalid value for initialAllocation. initialAllocation is greater than free available balance of the account. )",6000,USD,1,create,bank,201,TRUE
+AT-112195,"If the user passes a value that is greater than the freeAvailableBalance, the API should throw an error - Y800- Invalid value for initialAllocation. initialAllocation is greater than free available balance of the account. ",25000,USD,1,create,bank,400,TRUE
+AT-112197,The same functionality should work with the update destination account as well.,2000,USD,1,update,bank,204,TRUE
+AT-112194,Verify that if the user should only be able to pass an initial allocation value that is lesser than or equal to the free available balance for that account.,1000,USD,1,create,bank,201,TRUE
+AT-112198,"If the user has an initial allocation for his goal, on calling the Get Goals API, he should see the initial amount in the response.",500,USD,1,getGoals,bank,201,TRUE
+AT-112199,The name of the attribute should be 'initialAllocationAmount',100,USD,1,getGoals,bank,201,TRUE

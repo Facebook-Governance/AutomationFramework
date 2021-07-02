@@ -1,0 +1,34 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 7896.67,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000016,
+      "description": {
+        "original": "Bengal Tiger Restaurant Inc",
+        "simple": "Bengal Tiger Restaurant Inc",
+        "consumer": "update consumer 2"
+      },
+      "memo": "updated memo2",
+      "merchant": {
+        "name": "Bengal Tiger Restaurant Inc",
+        "id": "69589",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "DEFERRED_COMPENSATION",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Retirement Contributions",
+      "categoryId": 41,
+      "status": "POSTED"
+    }
+  ]
+}

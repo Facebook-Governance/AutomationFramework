@@ -1,0 +1,24 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "event": {
+      "$id": "/properties/event",
+      "type": "object",
+      "properties": {
+        "callbackUrl": {
+          "$id": "/properties/event/properties/callbackUrl",
+          "type": "string",
+          "title": "The Callbackurl Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "http://yslrocks.com/notify"
+          ]
+        }
+      }
+    }
+  }
+}

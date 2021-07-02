@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/rshrivastav/.m2/repository/org/bouncycastle/bcprov-jdk16/1.44/bcprov-jdk16-1.44.jar" sourcepath="C:/Users/rshrivastav/.m2/repository/org/bouncycastle/bcprov-jdk16/1.44/bcprov-jdk16-1.44-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.bouncycastle"/>
+			<attribute name="maven.artifactId" value="bcprov-jdk16"/>
+			<attribute name="maven.version" value="1.44"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/rshrivastav/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar" sourcepath="C:/Users/rshrivastav/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="commons-codec"/>
+			<attribute name="maven.artifactId" value="commons-codec"/>
+			<attribute name="maven.version" value="1.9"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/rshrivastav/Downloads/c3p0-0.9.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rshrivastav/Downloads/jasypt-1.9.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

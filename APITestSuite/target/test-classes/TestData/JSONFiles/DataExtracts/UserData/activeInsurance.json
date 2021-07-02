@@ -1,0 +1,73 @@
+{
+  "userData": [
+    {
+      "user": {
+        "loginName": "YSLDE1505454981679"
+      },
+      "account": [
+        {
+          "includeInNetWorth": true,
+          "accountName": "DAG INSURANCE",
+          "dueDate": "2013-01-07",
+          "policyStatus": "ACTIVE",
+          "refreshinfo": {
+            "lastRefreshed": "${json-unit.ignore}",
+            "nextRefreshScheduled": "${json-unit.ignore}",
+            "lastRefreshAttempt": "${json-unit.ignore}",
+            "statusMessage": "OK",
+            "statusCode": 0
+          },
+          "accountStatus": "ACTIVE",
+          "lastUpdated": "${json-unit.ignore}",
+          "lifeInsuranceType": "OTHER",
+          "isAsset": false,
+          "balance": {
+            "amount": 5000,
+            "currency": "USD"
+          },
+          "isDeleted": false,
+          "providerId": "16441",
+          "homeInsuranceType": "UNKNOWN",
+          "lastPaymentDate": "2013-01-05",
+          "lastPaymentAmount": {
+            "amount": 5000,
+            "currency": "USD"
+          },
+          "id": "${json-unit.ignore}",
+          "providerName": "Dag Site",
+          "expirationDate": "2014-01-17",
+          "minimumAmountDue": {
+            "amount": 5000,
+            "currency": "USD"
+          },
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "DAG"
+              }
+            }
+          ],
+          "isManual": false,
+          "accountType": "INSURANCE",
+          "cashValue": {
+            "amount": 5000,
+            "currency": "USD"
+          },
+          "accountNumber": "${json-unit.ignore}",
+          "url": "http://www.altova.com",
+          "faceAmount": {
+            "amount": 5000,
+            "currency": "USD"
+          },
+          "amountDue": {
+            "amount": 5000,
+            "currency": "USD"
+          },
+          "createdDate": "${json-unit.ignore}",
+          "providerAccountId": "${json-unit.ignore}",
+          "CONTAINER": "insurance"
+        }
+      ]
+    }
+  ]
+}

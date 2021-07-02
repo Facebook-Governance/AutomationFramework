@@ -1,0 +1,2 @@
+tcid,tcName,httpStatusCode,restfile,filepath,accountId,fromDate,toDate,interval,enabled
+1,with no filter,200,Paid.json,../src/test/resources/TestData/getBalances/,,"0,0,-1","0,3,0",,TRUE

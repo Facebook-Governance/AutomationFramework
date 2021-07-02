@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-SalCh43,"Validate SalaryChanged , Validate InsightName",,SalaryChanged,SalaryChanged,,,,,,ACCOUNT,account,FALSE,,"CHANGE,100,AMOUNT   CHANGE,10,PERCENT",,,200,TRUE
+AT-SalCh44,"Validate SalaryChanged , Validate Supporting container",,SalaryChanged,,,BANK,,,,,,,,,,,200,TRUE
+AT-SalCh45,"Validate SalaryChanged , Validate TriggerType",EVENT,SalaryChanged,,,,,,,,,,,,,,200,TRUE
+AT-SalCh46,"Validate SalaryChanged , Validate applicableEntity",,SalaryChanged,,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-SalCh47,"Validate SalaryChanged , Validate number of levels and levelObject",,SalaryChanged,,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-SalCh48,"Validate SalaryChanged , Validate isSubscribed=false",,SalaryChanged,,,,,,,,account,FALSE,,,,,200,TRUE
+AT-SalCh49,"Validate SalaryChanged , Validate threshold Name,Value and Type",,SalaryChanged,,,,,,,,account,,,"CHANGE,100,AMOUNT   CHANGE,10,PERCENT",,,200,TRUE
+AT-SalCh50,"Validate SalaryChanged , Validate description",,SalaryChanged,,,,,,Generates an insight when a recurring salary changes by more than a configured threshold.,,,,,,,,200,TRUE
+AT-SalCh51,"Validate SalaryChanged , Validate title",,SalaryChanged,,Salary Changed,,,,,,,,,,,,200,TRUE
+AT-SalCh52,"Validate SalaryChanged , Validate ruleExpression",,SalaryChanged,,,,,,,,,,,,,,200,TRUE
+AT-SalCh53,"Validate SalaryChanged , Validate total number of keys ",,SalaryChanged,,,,,17,,,,,,,,,200,TRUE

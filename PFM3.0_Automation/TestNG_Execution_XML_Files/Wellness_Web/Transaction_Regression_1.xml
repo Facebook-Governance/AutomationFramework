@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suites" verbose="5">
+
+	<!-- <parameter name="coBrand" value="YCOM_L1"/> <parameter name="loginType" 
+		value="L1NODE"/> -->
+	<parameter name="runOnBrowserStack" value="false" />
+	<parameter name="bs_username" value="yodleebrowsersta1" />
+	<parameter name="bs_automate_key"
+		value="pzyoTJ6embZ48zsufsF2" />
+	<parameter name="browser" value="chrome" />
+	<parameter name="browser_version" value="48" />
+	<parameter name="platformName" value="windows" />
+	<parameter name="platformVersion" value="7" />
+	<parameter name="elpamEnabled" value="true" />
+	<parameter name="theme" value="new" />
+	<parameter name="appFlag" value="false" />
+	<parameter name="suiteName" value="Transaction Regression 1" />
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.omni.pfm.listeners.CustomListener" />
+		<listener
+			class-name="com.automation.rdashboard.ReportDashboardPlugin" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+	</listeners>
+
+	<test verbose="2" name="Feature - Add To calendar ">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.AddToCalendar_Transaction_Test" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="Transaction Expand" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.ProjectedTransaction_Expand_Test">
+			</class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Add Manual Transaction">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.User_RegAdd_Transaction_Test" />
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.AddManual_Transaction__Test" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction feature Tour">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_feature_Ture_Test" />
+
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Aggregated Transaction">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Aggregated_Transaction_Details_Test" />
+		</classes>
+	</test>
+
+
+	<test verbose="2" name="Feature - Instance Transaction">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Instance_Transaction_test"></class>
+		</classes>
+	</test>
+
+
+	<test verbose="2" name="Feature - Series Transaction">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Series_Recurence_Transaction_Test" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="Transaction Amount Range"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_AmountRangeSearch_Test">
+			</class>
+		</classes>
+	</test>
+
+	<!-- new user -->
+	<test verbose="2" name="Feature - Attachment User registration">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.User_RegAdd_Transaction_Attachment_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction Attachment">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_Attachment_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction Search">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_Search_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction Split">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_Split_Test"></class>
+		</classes>
+	</test>
+
+	<!-- new user -->
+	<test verbose="2" name="Feature - Tag User registration">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.User_RegAdd_Transaction_Tag_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature -Transaction tag">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_Tag_Test">
+			</class>
+		</classes>
+	</test>
+
+	<test verbose="2"
+		name="Feature -  DashBoard And Transaction Integration">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_DashBoard_Integration_test"></class>
+		</classes>
+	</test>
+
+
+	<test verbose="2"
+		name="Feature - Categorization and Transaction Integration">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_Categorization_Rules"></class>
+		</classes>
+	</test>
+
+	<!-- new user -->
+	<test verbose="2" name="Feature - Transaction layout">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_Layout_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2"
+		name="Feature - Expense and Income analysis Transaction Integration">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_Expanse_Income_Analysis_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2"
+		name="Feature - Transaction Filter user registration">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.User_Transaction_Filter_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction time filter">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_Date_Filter_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction Category filter">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_Categories_Filter_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction type filter">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_Type_Filter_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction Account filter">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_Account_Filter_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2"
+		name="Feature - Transaction Details pre condition">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.User_Transaction_Details_Test" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction Details test ">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_Details_Test" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction Cashflow test ">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_CashFlow_Integration_Test" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction Account nickName ">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_Account_Nickname_Test" />
+		</classes>
+	</test>
+
+	<test verbose="2"
+		name="Feature - Transaction Mark As Paid for Transfer Category">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_MarkAsPaid_Transfer_Categories_Test" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction Mark As Paid">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_MarkAsPaid_Test" />
+		</classes>
+	</test>
+
+	<test name="Transaction Tag" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_AddEditTags_Test"></class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction Associate card">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_CreditCard_Association_Test" />
+		</classes>
+	</test>
+
+	<test name="Transaction LOC Account" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.TransactionEnhancement1.Transaction_LOC_Test"></class>
+		</classes>
+	</test>
+
+</suite>

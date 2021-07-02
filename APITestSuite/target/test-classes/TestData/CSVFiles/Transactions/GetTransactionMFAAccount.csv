@@ -1,0 +1,2 @@
+testcaseID,testcaseName,providerId,dagUserName,dagPassword,token,firstQues,firstAns,secondQues,secondAns,addAccountResFile,filePath,enabled
+1,GetTransactionMFAAccount,16442,transaMFA.site16442.2,site16442.2,123456,What is the name of your state?,Texas,What is the name of your first school,w3schools,getTransactionMFAAccount.json,../src/test/resources/TestData/Transactions/GetTransactionMFAAccount/,TRUE

@@ -1,0 +1,62 @@
+<entity type="multiple">
+<request>
+<add-provider-accounts-multiple>
+<add-provider-accounts order="1">
+	<siteUser>maskingstory.site16441.2</siteUser>
+	<siteUserId>65499</siteUserId>
+	<sitePwd>site16441.2</sitePwd>
+	<sitePwdId>65500</sitePwdId>
+	<siteId>16441</siteId>
+	<dataList>
+	       <dataset>
+                  <name>ACCT_PROFILE</name>
+                    <attributeList>
+                        <attribute>
+                            <name>FULL_ACCT_NUMBER</name>
+                            <container>bill</container>
+                        </attribute>
+                    </attributeList>
+           </dataset>
+    </dataList>
+</add-provider-accounts>
+</add-provider-accounts-multiple>
+
+<get-accounts-multiple>
+<get-accounts order="1">
+      <container>bill</container>
+      <include>fullAccountNumber</include>
+ </get-accounts>
+ </get-accounts-multiple>
+ 
+ <get-accountDetials-multiple>
+ <get-accountDetials order="1">
+      <container>bill</container>
+      <include>fullAccountNumber</include>
+ </get-accountDetials>
+ </get-accountDetials-multiple>
+ 
+ 
+</request>
+
+<response>
+	<account-multiple>
+	<account order="1">
+		<row>
+			<filePath>../src/test/resources/TestData/JSONFiles/Sdg/FAN/</filePath>
+			<responseFile>bill_fan_account.json</responseFile>
+		</row>
+	</account>
+	</account-multiple>
+	
+	<accountdetails-multiple>
+	<accountDetails order="1">
+	<row>
+	<filePath>../src/test/resources/TestData/JSONFiles/Sdg/FAN/</filePath>
+	<responseFile>bill_fan_accountDetails.json</responseFile>
+	</row>
+	</accountdetails>
+	</accountDetails-multiple>
+
+	
+</response>
+</entity>

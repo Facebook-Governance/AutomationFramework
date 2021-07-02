@@ -1,0 +1,434 @@
+testCaseId,TestCase,sourceKey,sourceKeyValue,categoryNameKey,categoryNameValue,idKey,iterateCategories,getStatus,updateStatus,enabled,DefectID
+AT-66392,Valid,source,USER,categoryName,abc,id,39,200,400,TRUE,0
+AT-66393,Valid,source,SYSTEM,categoryName,abc,id,39,200,204,TRUE,0
+AT-66394,Wrong sourcekey value,source,qwe,categoryName,abc,id,39,200,400,TRUE,0
+AT-66395,Empty source key value,source,,categoryName,abc,id,39,200,400,TRUE,0
+AT-66396,Invalid sourceKey Name,wrong,USER,categoryName,abc,id,39,200,400,TRUE,0
+AT-66397,Invalid sourceKey Name,wrong,SYSTEM,categoryName,abc,id,39,200,400,TRUE,0
+AT-66398,Invalid sourceKey Name,wrong,qwe,categoryName,abc,id,39,200,400,TRUE,0
+AT-66399,Invalid sourceKey Name,wrong,,categoryName,abc,id,39,200,400,TRUE,0
+AT-66400,Empty source key Name,,USER,categoryName,abc,id,39,200,400,TRUE,0
+AT-66401,Empty source key Name,,SYSTEM,categoryName,abc,id,39,200,400,TRUE,0
+AT-66402,Empty source key Name,,qwe,categoryName,abc,id,39,200,400,TRUE,0
+AT-66403,Empty source key Name,,,categoryName,abc,id,39,200,400,TRUE,0
+AT-66404,Invalid Category Name,source,USER,wrong,abc,id,39,200,400,TRUE,0
+AT-66405,Invalid Category Name,source,SYSTEM,wrong,abc,id,39,200,400,TRUE,0
+AT-66406,Invalid Category Name,source,qwe,wrong,abc,id,39,200,400,TRUE,0
+AT-66407,Invalid Category Name,source,,wrong,abc,id,39,200,400,TRUE,0
+AT-66408,Invalid Category Name,wrong,USER,wrong,abc,id,39,200,400,TRUE,0
+AT-66409,Invalid Category Name,wrong,SYSTEM,wrong,abc,id,39,200,400,TRUE,0
+AT-66410,Invalid Category Name,wrong,qwe,wrong,abc,id,39,200,400,TRUE,0
+AT-66411,Invalid Category Name,wrong,,wrong,abc,id,39,200,400,TRUE,0
+AT-66412,Invalid Category Name,,USER,wrong,abc,id,39,200,400,TRUE,0
+AT-66413,Invalid Category Name,,SYSTEM,wrong,abc,id,39,200,400,TRUE,0
+AT-66414,Invalid Category Name,,qwe,wrong,abc,id,39,200,400,TRUE,0
+AT-66415,Invalid Category Name,,,wrong,abc,id,39,200,400,TRUE,0
+AT-66416,Empty category Name,source,USER,,abc,id,39,200,400,TRUE,0
+AT-66417,Empty category Name,source,SYSTEM,,abc,id,39,200,400,TRUE,0
+AT-66418,Empty category Name,source,qwe,,abc,id,39,200,400,TRUE,0
+AT-66419,Empty category Name,source,,,abc,id,39,200,400,TRUE,0
+AT-66420,Empty category Name,wrong,USER,,abc,id,39,200,400,TRUE,0
+AT-66421,Empty category Name,wrong,SYSTEM,,abc,id,39,200,400,TRUE,0
+AT-66422,Empty category Name,wrong,qwe,,abc,id,39,200,400,TRUE,0
+AT-66423,Empty category Name,wrong,,,abc,id,39,200,400,TRUE,0
+AT-66424,Empty category Name,,USER,,abc,id,39,200,400,TRUE,0
+AT-66425,Empty category Name,,SYSTEM,,abc,id,39,200,400,TRUE,0
+AT-66426,Empty category Name,,qwe,,abc,id,39,200,400,TRUE,0
+AT-66427,Empty category Name,,,,abc,id,39,200,400,TRUE,0
+AT-66428,Invalid source value,source,USER,categoryName,,id,39,200,400,TRUE,0
+AT-66429,,source,SYSTEM,categoryName,,id,39,200,204,TRUE,0
+AT-66430,Invalid source value,source,qwe,categoryName,,id,39,200,400,TRUE,0
+AT-66431,Empty Source value,source,,categoryName,,id,39,200,400,TRUE,0
+AT-66432,Invalid wrong source key name,wrong,USER,categoryName,,id,39,200,400,TRUE,0
+AT-66433,Invalid wrong source key name,wrong,SYSTEM,categoryName,,id,39,200,400,TRUE,0
+AT-66434,Invalid wrong source key name,wrong,qwe,categoryName,,id,39,200,400,TRUE,0
+AT-66435,Invalid wrong source key name,wrong,,categoryName,,id,39,200,400,TRUE,0
+AT-66436,Empty sourcekey name,,USER,categoryName,,id,39,200,400,TRUE,0
+AT-66437,Empty sourcekey name,,SYSTEM,categoryName,,id,39,200,400,TRUE,0
+AT-66438,Empty sourcekey name,,qwe,categoryName,,id,39,200,400,TRUE,0
+AT-66439,Empty sourcekey name,,,categoryName,,id,39,200,400,TRUE,0
+AT-66440,Invalid Category Name key,source,USER,wrong,,id,39,200,400,TRUE,0
+AT-66441,Invalid Category Name key,source,SYSTEM,wrong,,id,39,200,400,TRUE,0
+AT-66442,Invalid Category Name key,source,qwe,wrong,,id,39,200,400,TRUE,0
+AT-66443,Invalid Category Name key,source,,wrong,,id,39,200,400,TRUE,0
+AT-66444,Invalid Category Name key,wrong,USER,wrong,,id,39,200,400,TRUE,0
+AT-66445,Invalid Category Name key,wrong,SYSTEM,wrong,,id,39,200,400,TRUE,0
+AT-66446,Invalid Category Name key,wrong,qwe,wrong,,id,39,200,400,TRUE,0
+AT-66447,Invalid Category Name key,wrong,,wrong,,id,39,200,400,TRUE,0
+AT-66448,Invalid Category Name key,,USER,wrong,,id,39,200,400,TRUE,0
+AT-66449,Invalid Category Name key,,SYSTEM,wrong,,id,39,200,400,TRUE,0
+AT-66450,Invalid Category Name key,,qwe,wrong,,id,39,200,400,TRUE,0
+AT-66451,Invalid Category Name key,,,wrong,,id,39,200,400,TRUE,0
+AT-66452,Empty category Name,source,USER,,,id,39,200,400,TRUE,0
+AT-66453,Empty category Name,source,SYSTEM,,,id,39,200,400,TRUE,0
+AT-66454,Empty category Name,source,qwe,,,id,39,200,400,TRUE,0
+AT-66455,Empty category Name,source,,,,id,39,200,400,TRUE,0
+AT-66456,Empty category Name,wrong,USER,,,id,39,200,400,TRUE,0
+AT-66457,Empty category Name,wrong,SYSTEM,,,id,39,200,400,TRUE,0
+AT-66458,Empty category Name,wrong,qwe,,,id,39,200,400,TRUE,0
+AT-66459,Empty category Name,wrong,,,,id,39,200,400,TRUE,0
+AT-66460,Empty category Name,,USER,,,id,39,200,400,TRUE,0
+AT-66461,Empty category Name,,SYSTEM,,,id,39,200,400,TRUE,0
+AT-66462,Empty category Name,,qwe,,,id,39,200,400,TRUE,0
+AT-66463,Empty category Name,,,,,id,39,200,400,TRUE,0
+AT-66464,Empty id key name,source,USER,categoryName,abc,,39,200,400,TRUE,0
+AT-66465,Empty id key name,source,SYSTEM,categoryName,abc,,39,200,400,TRUE,0
+AT-66466,Empty id key name,source,qwe,categoryName,abc,,39,200,400,TRUE,0
+AT-66467,Empty id key name,source,,categoryName,abc,,39,200,400,TRUE,0
+AT-66468,Empty id key name,wrong,USER,categoryName,abc,,39,200,400,TRUE,0
+AT-66469,Empty id key name,wrong,SYSTEM,categoryName,abc,,39,200,400,TRUE,0
+AT-66470,Empty id key name,wrong,qwe,categoryName,abc,,39,200,400,TRUE,0
+AT-66471,Empty id key name,wrong,,categoryName,abc,,39,200,400,TRUE,0
+AT-66472,Empty id key name,,USER,categoryName,abc,,39,200,400,TRUE,0
+AT-66473,Empty id key name,,SYSTEM,categoryName,abc,,39,200,400,TRUE,0
+AT-66474,Empty id key name,,qwe,categoryName,abc,,39,200,400,TRUE,0
+AT-66475,Empty id key name,,,categoryName,abc,,39,200,400,TRUE,0
+AT-66476,Empty id key name,source,USER,wrong,abc,,39,200,400,TRUE,0
+AT-66477,Empty id key name,source,SYSTEM,wrong,abc,,39,200,400,TRUE,0
+AT-66478,Empty id key name,source,qwe,wrong,abc,,39,200,400,TRUE,0
+AT-66479,Empty id key name,source,,wrong,abc,,39,200,400,TRUE,0
+AT-66480,Empty id key name,wrong,USER,wrong,abc,,39,200,400,TRUE,0
+AT-66481,Empty id key name,wrong,SYSTEM,wrong,abc,,39,200,400,TRUE,0
+AT-66482,Empty id key name,wrong,qwe,wrong,abc,,39,200,400,TRUE,0
+AT-66483,Empty id key name,wrong,,wrong,abc,,39,200,400,TRUE,0
+AT-66484,Empty id key name,,USER,wrong,abc,,39,200,400,TRUE,0
+AT-66485,Empty id key name,,SYSTEM,wrong,abc,,39,200,400,TRUE,0
+AT-66486,Empty id key name,,qwe,wrong,abc,,39,200,400,TRUE,0
+AT-66487,Empty id key name,,,wrong,abc,,39,200,400,TRUE,0
+AT-66488,Empty id key name,source,USER,,abc,,39,200,400,TRUE,0
+AT-66489,Empty id key name,source,SYSTEM,,abc,,39,200,400,TRUE,0
+AT-66490,Empty id key name,source,qwe,,abc,,39,200,400,TRUE,0
+AT-66491,Empty id key name,source,,,abc,,39,200,400,TRUE,0
+AT-66492,Empty id key name,wrong,USER,,abc,,39,200,400,TRUE,0
+AT-66493,Empty id key name,wrong,SYSTEM,,abc,,39,200,400,TRUE,0
+AT-66494,Empty id key name,wrong,qwe,,abc,,39,200,400,TRUE,0
+AT-66495,Empty id key name,wrong,,,abc,,39,200,400,TRUE,0
+AT-66496,Empty id key name,,USER,,abc,,39,200,400,TRUE,0
+AT-66497,Empty id key name,,SYSTEM,,abc,,39,200,400,TRUE,0
+AT-66498,Empty id key name,,qwe,,abc,,39,200,400,TRUE,0
+AT-66499,Empty id key name,,,,abc,,39,200,400,TRUE,0
+AT-66500,Empty id key name,source,USER,categoryName,,,39,200,400,TRUE,0
+AT-66501,Empty id key name,source,SYSTEM,categoryName,,,39,200,400,TRUE,0
+AT-66502,Empty id key name,source,qwe,categoryName,,,39,200,400,TRUE,0
+AT-66503,Empty id key name,source,,categoryName,,,39,200,400,TRUE,0
+AT-66504,Empty id key name,wrong,USER,categoryName,,,39,200,400,TRUE,0
+AT-66505,Empty id key name,wrong,SYSTEM,categoryName,,,39,200,400,TRUE,0
+AT-66506,Empty id key name,wrong,qwe,categoryName,,,39,200,400,TRUE,0
+AT-66507,Empty id key name,wrong,,categoryName,,,39,200,400,TRUE,0
+AT-66508,Empty id key name,,USER,categoryName,,,39,200,400,TRUE,0
+AT-66509,Empty id key name,,SYSTEM,categoryName,,,39,200,400,TRUE,0
+AT-66510,Empty id key name,,qwe,categoryName,,,39,200,400,TRUE,0
+AT-66511,Empty id key name,,,categoryName,,,39,200,400,TRUE,0
+AT-66512,Empty id key name,source,USER,wrong,,,39,200,400,TRUE,0
+AT-66513,Empty id key name,source,SYSTEM,wrong,,,39,200,400,TRUE,0
+AT-66514,Empty id key name,source,qwe,wrong,,,39,200,400,TRUE,0
+AT-66515,Empty id key name,source,,wrong,,,39,200,400,TRUE,0
+AT-66516,Empty id key name,wrong,USER,wrong,,,39,200,400,TRUE,0
+AT-66517,Empty id key name,wrong,SYSTEM,wrong,,,39,200,400,TRUE,0
+AT-66518,Empty id key name,wrong,qwe,wrong,,,39,200,400,TRUE,0
+AT-66519,Empty id key name,wrong,,wrong,,,39,200,400,TRUE,0
+AT-66520,Empty id key name,,USER,wrong,,,39,200,400,TRUE,0
+AT-66521,Empty id key name,,SYSTEM,wrong,,,39,200,400,TRUE,0
+AT-66522,Empty id key name,,qwe,wrong,,,39,200,400,TRUE,0
+AT-66523,Empty id key name,,,wrong,,,39,200,400,TRUE,0
+AT-66524,Empty id key name,source,USER,,,,39,200,400,TRUE,0
+AT-66525,Empty id key name,source,SYSTEM,,,,39,200,400,TRUE,0
+AT-66526,Empty id key name,source,qwe,,,,39,200,400,TRUE,0
+AT-66527,Empty id key name,source,,,,,39,200,400,TRUE,0
+AT-66528,Empty id key name,wrong,USER,,,,39,200,400,TRUE,0
+AT-66529,Empty id key name,wrong,SYSTEM,,,,39,200,400,TRUE,0
+AT-66530,Empty id key name,wrong,qwe,,,,39,200,400,TRUE,0
+AT-66531,Empty id key name,wrong,,,,,39,200,400,TRUE,0
+AT-66532,Empty id key name,,USER,,,,39,200,400,TRUE,0
+AT-66533,Empty id key name,,SYSTEM,,,,39,200,400,TRUE,0
+AT-66534,Empty id key name,,qwe,,,,39,200,400,TRUE,0
+AT-66535,Empty id key name,,,,,,39,200,400,TRUE,0
+AT-66536,Empty id key name,source,USER,categoryName,abc,wrong,39,200,400,TRUE,0
+AT-66537,Invalid id key name,source,SYSTEM,categoryName,abc,wrong,39,200,400,TRUE,0
+AT-66538,Invalid id key name,source,qwe,categoryName,abc,wrong,39,200,400,TRUE,0
+AT-66539,Invalid id key name,source,,categoryName,abc,wrong,39,200,400,TRUE,0
+AT-66540,Invalid id key name,wrong,USER,categoryName,abc,wrong,39,200,400,TRUE,0
+AT-66541,Invalid id key name,wrong,SYSTEM,categoryName,abc,wrong,39,200,400,TRUE,0
+AT-66542,Invalid id key name,wrong,qwe,categoryName,abc,wrong,39,200,400,TRUE,0
+AT-66543,Invalid id key name,wrong,,categoryName,abc,wrong,39,200,400,TRUE,0
+AT-66544,Invalid id key name,,USER,categoryName,abc,wrong,39,200,400,TRUE,0
+AT-66545,Invalid id key name,,SYSTEM,categoryName,abc,wrong,39,200,400,TRUE,0
+AT-66546,Invalid id key name,,qwe,categoryName,abc,wrong,39,200,400,TRUE,0
+AT-66547,Invalid id key name,,,categoryName,abc,wrong,39,200,400,TRUE,0
+AT-66548,Invalid id key name,source,USER,wrong,abc,wrong,39,200,400,TRUE,0
+AT-66549,Invalid id key name,source,SYSTEM,wrong,abc,wrong,39,200,400,TRUE,0
+AT-66550,Invalid id key name,source,qwe,wrong,abc,wrong,39,200,400,TRUE,0
+AT-66551,Invalid id key name,source,,wrong,abc,wrong,39,200,400,TRUE,0
+AT-66552,Invalid id key name,wrong,USER,wrong,abc,wrong,39,200,400,TRUE,0
+AT-66553,Invalid id key name,wrong,SYSTEM,wrong,abc,wrong,39,200,400,TRUE,0
+AT-66554,Invalid id key name,wrong,qwe,wrong,abc,wrong,39,200,400,TRUE,0
+AT-66555,Invalid id key name,wrong,,wrong,abc,wrong,39,200,400,TRUE,0
+AT-66556,Invalid id key name,,USER,wrong,abc,wrong,39,200,400,TRUE,0
+AT-66557,Invalid id key name,,SYSTEM,wrong,abc,wrong,39,200,400,TRUE,0
+AT-66558,Invalid id key name,,qwe,wrong,abc,wrong,39,200,400,TRUE,0
+AT-66559,Invalid id key name,,,wrong,abc,wrong,39,200,400,TRUE,0
+AT-66560,Invalid id key name,source,USER,,abc,wrong,39,200,400,TRUE,0
+AT-66561,Invalid id key name,source,SYSTEM,,abc,wrong,39,200,400,TRUE,0
+AT-66562,Invalid id key name,source,qwe,,abc,wrong,39,200,400,TRUE,0
+AT-66563,Invalid id key name,source,,,abc,wrong,39,200,400,TRUE,0
+AT-66564,Invalid id key name,wrong,USER,,abc,wrong,39,200,400,TRUE,0
+AT-66565,Invalid id key name,wrong,SYSTEM,,abc,wrong,39,200,400,TRUE,0
+AT-66566,Invalid id key name,wrong,qwe,,abc,wrong,39,200,400,TRUE,0
+AT-66567,Invalid id key name,wrong,,,abc,wrong,39,200,400,TRUE,0
+AT-66568,Invalid id key name,,USER,,abc,wrong,39,200,400,TRUE,0
+AT-66569,Invalid id key name,,SYSTEM,,abc,wrong,39,200,400,TRUE,0
+AT-66570,Invalid id key name,,qwe,,abc,wrong,39,200,400,TRUE,0
+AT-66571,Invalid id key name,,,,abc,wrong,39,200,400,TRUE,0
+AT-66572,Invalid id key name,source,USER,categoryName,,wrong,39,200,400,TRUE,0
+AT-66573,Invalid id key name,source,SYSTEM,categoryName,,wrong,39,200,400,TRUE,0
+AT-66574,Invalid id key name,source,qwe,categoryName,,wrong,39,200,400,TRUE,0
+AT-66575,Invalid id key name,source,,categoryName,,wrong,39,200,400,TRUE,0
+AT-66576,Invalid id key name,wrong,USER,categoryName,,wrong,39,200,400,TRUE,0
+AT-66577,Invalid id key name,wrong,SYSTEM,categoryName,,wrong,39,200,400,TRUE,0
+AT-66578,Invalid id key name,wrong,qwe,categoryName,,wrong,39,200,400,TRUE,0
+AT-66579,Invalid id key name,wrong,,categoryName,,wrong,39,200,400,TRUE,0
+AT-66580,Invalid id key name,,USER,categoryName,,wrong,39,200,400,TRUE,0
+AT-66581,Invalid id key name,,SYSTEM,categoryName,,wrong,39,200,400,TRUE,0
+AT-66582,Invalid id key name,,qwe,categoryName,,wrong,39,200,400,TRUE,0
+AT-66583,Invalid id key name,,,categoryName,,wrong,39,200,400,TRUE,0
+AT-66584,Invalid id key name,source,USER,wrong,,wrong,39,200,400,TRUE,0
+AT-66585,Invalid id key name,source,SYSTEM,wrong,,wrong,39,200,400,TRUE,0
+AT-66586,Invalid id key name,source,qwe,wrong,,wrong,39,200,400,TRUE,0
+AT-66587,Invalid id key name,source,,wrong,,wrong,39,200,400,TRUE,0
+AT-66588,Invalid id key name,wrong,USER,wrong,,wrong,39,200,400,TRUE,0
+AT-66589,Invalid id key name,wrong,SYSTEM,wrong,,wrong,39,200,400,TRUE,0
+AT-66590,Invalid id key name,wrong,qwe,wrong,,wrong,39,200,400,TRUE,0
+AT-66591,Invalid id key name,wrong,,wrong,,wrong,39,200,400,TRUE,0
+AT-66592,Invalid id key name,,USER,wrong,,wrong,39,200,400,TRUE,0
+AT-66593,Invalid id key name,,SYSTEM,wrong,,wrong,39,200,400,TRUE,0
+AT-66594,Invalid id key name,,qwe,wrong,,wrong,39,200,400,TRUE,0
+AT-66595,Invalid id key name,,,wrong,,wrong,39,200,400,TRUE,0
+AT-66596,Invalid id key name,source,USER,,,wrong,39,200,400,TRUE,0
+AT-66597,Invalid id key name,source,SYSTEM,,,wrong,39,200,400,TRUE,0
+AT-66598,Invalid id key name,source,qwe,,,wrong,39,200,400,TRUE,0
+AT-66599,Invalid id key name,source,,,,wrong,39,200,400,TRUE,0
+AT-66600,Invalid id key name,wrong,USER,,,wrong,39,200,400,TRUE,0
+AT-66601,Invalid id key name,wrong,SYSTEM,,,wrong,39,200,400,TRUE,0
+AT-66602,Invalid id key name,wrong,qwe,,,wrong,39,200,400,TRUE,0
+AT-66603,Invalid id key name,wrong,,,,wrong,39,200,400,TRUE,0
+AT-66604,Invalid id key name,,USER,,,wrong,39,200,400,TRUE,0
+AT-66605,Invalid id key name,,SYSTEM,,,wrong,39,200,400,TRUE,0
+AT-66606,Invalid id key name,,qwe,,,wrong,39,200,400,TRUE,0
+AT-66607,Invalid id key name,,,,,wrong,39,200,400,TRUE,0
+AT-66608,Invalid id value,source,USER,categoryName,abc,id,-1,200,400,TRUE,0
+AT-66609,Invalid id value,source,SYSTEM,categoryName,abc,id,-1,200,500,TRUE,0
+AT-66610,Invalid id value,source,qwe,categoryName,abc,id,-1,200,400,TRUE,0
+AT-66611,Invalid id value,source,,categoryName,abc,id,-1,200,400,TRUE,0
+AT-66612,Invalid id value,wrong,USER,categoryName,abc,id,-1,200,400,TRUE,0
+AT-66613,Invalid id value,wrong,SYSTEM,categoryName,abc,id,-1,200,400,TRUE,0
+AT-66614,Invalid id value,wrong,qwe,categoryName,abc,id,-1,200,400,TRUE,0
+AT-66615,Invalid id value,wrong,,categoryName,abc,id,-1,200,400,TRUE,0
+AT-66616,Invalid id value,,USER,categoryName,abc,id,-1,200,400,TRUE,0
+AT-66617,Invalid id value,,SYSTEM,categoryName,abc,id,-1,200,400,TRUE,0
+AT-66618,Invalid id value,,qwe,categoryName,abc,id,-1,200,400,TRUE,0
+AT-66619,Invalid id value,,,categoryName,abc,id,-1,200,400,TRUE,0
+AT-66620,Invalid id value,source,USER,wrong,abc,id,-1,200,400,TRUE,0
+AT-66621,Invalid id value,source,SYSTEM,wrong,abc,id,-1,200,400,TRUE,0
+AT-66622,Invalid id value,source,qwe,wrong,abc,id,-1,200,400,TRUE,0
+AT-66623,Invalid id value,source,,wrong,abc,id,-1,200,400,TRUE,0
+AT-66624,Invalid id value,wrong,USER,wrong,abc,id,-1,200,400,TRUE,0
+AT-66625,Invalid id value,wrong,SYSTEM,wrong,abc,id,-1,200,400,TRUE,0
+AT-66626,Invalid id value,wrong,qwe,wrong,abc,id,-1,200,400,TRUE,0
+AT-66627,Invalid id value,wrong,,wrong,abc,id,-1,200,400,TRUE,0
+AT-66628,Invalid id value,,USER,wrong,abc,id,-1,200,400,TRUE,0
+AT-66629,Invalid id value,,SYSTEM,wrong,abc,id,-1,200,400,TRUE,0
+AT-66630,Invalid id value,,qwe,wrong,abc,id,-1,200,400,TRUE,0
+AT-66631,Invalid id value,,,wrong,abc,id,-1,200,400,TRUE,0
+AT-66632,Invalid id value,source,USER,,abc,id,-1,200,400,TRUE,0
+AT-66633,Invalid id value,source,SYSTEM,,abc,id,-1,200,400,TRUE,0
+AT-66634,Invalid id value,source,qwe,,abc,id,-1,200,400,TRUE,0
+AT-66635,Invalid id value,source,,,abc,id,-1,200,400,TRUE,0
+AT-66636,Invalid id value,wrong,USER,,abc,id,-1,200,400,TRUE,0
+AT-66637,Invalid id value,wrong,SYSTEM,,abc,id,-1,200,400,TRUE,0
+AT-66638,Invalid id value,wrong,qwe,,abc,id,-1,200,400,TRUE,0
+AT-66639,Invalid id value,wrong,,,abc,id,-1,200,400,TRUE,0
+AT-66640,Invalid id value,,USER,,abc,id,-1,200,400,TRUE,0
+AT-66641,Invalid id value,,SYSTEM,,abc,id,-1,200,400,TRUE,0
+AT-66642,Invalid id value,,qwe,,abc,id,-1,200,400,TRUE,0
+AT-66643,Invalid id value,,,,abc,id,-1,200,400,TRUE,0
+AT-66644,Invalid id value,source,USER,categoryName,,id,-1,200,400,TRUE,0
+AT-66645,Invalid id value,source,SYSTEM,categoryName,,id,-2,200,400,TRUE,0
+AT-66646,Invalid id value,source,qwe,categoryName,,id,-1,200,400,TRUE,0
+AT-66647,Invalid id value,source,,categoryName,,id,-1,200,400,TRUE,0
+AT-66648,Invalid id value,wrong,USER,categoryName,,id,-1,200,400,TRUE,0
+AT-66649,Invalid id value,wrong,SYSTEM,categoryName,,id,-1,200,400,TRUE,0
+AT-66650,Invalid id value,wrong,qwe,categoryName,,id,-1,200,400,TRUE,0
+AT-66651,Invalid id value,wrong,,categoryName,,id,-1,200,400,TRUE,0
+AT-66652,Invalid id value,,USER,categoryName,,id,-1,200,400,TRUE,0
+AT-66653,Invalid id value,,SYSTEM,categoryName,,id,-1,200,400,TRUE,0
+AT-66654,Invalid id value,,qwe,categoryName,,id,-1,200,400,TRUE,0
+AT-66655,Invalid id value,,,categoryName,,id,-1,200,400,TRUE,0
+AT-66656,Invalid id value,source,USER,wrong,,id,-1,200,400,TRUE,0
+AT-66657,Invalid id value,source,SYSTEM,wrong,,id,-1,200,400,TRUE,0
+AT-66658,Invalid id value,source,qwe,wrong,,id,-1,200,400,TRUE,0
+AT-66659,Invalid id value,source,,wrong,,id,-1,200,400,TRUE,0
+AT-66660,Invalid id value,wrong,USER,wrong,,id,-1,200,400,TRUE,0
+AT-66661,Invalid id value,wrong,SYSTEM,wrong,,id,-1,200,400,TRUE,0
+AT-66662,Invalid id value,wrong,qwe,wrong,,id,-1,200,400,TRUE,0
+AT-66663,Invalid id value,wrong,,wrong,,id,-1,200,400,TRUE,0
+AT-66664,Invalid id value,,USER,wrong,,id,-1,200,400,TRUE,0
+AT-66665,Invalid id value,,SYSTEM,wrong,,id,-1,200,400,TRUE,0
+AT-66666,Invalid id value,,qwe,wrong,,id,-1,200,400,TRUE,0
+AT-66667,Invalid id value,,,wrong,,id,-1,200,400,TRUE,0
+AT-66668,Invalid id value,source,USER,,,id,-1,200,400,TRUE,0
+AT-66669,Invalid id value,source,SYSTEM,,,id,-1,200,400,TRUE,0
+AT-66670,Invalid id value,source,qwe,,,id,-1,200,400,TRUE,0
+AT-66671,Invalid id value,source,,,,id,-1,200,400,TRUE,0
+AT-66672,Invalid id value,wrong,USER,,,id,-1,200,400,TRUE,0
+AT-66673,Invalid id value,wrong,SYSTEM,,,id,-1,200,400,TRUE,0
+AT-66674,Invalid id value,wrong,qwe,,,id,-1,200,400,TRUE,0
+AT-66675,Invalid id value,wrong,,,,id,-1,200,400,TRUE,0
+AT-66676,Invalid id value,,USER,,,id,-1,200,400,TRUE,0
+AT-66677,Invalid id value,,SYSTEM,,,id,-1,200,400,TRUE,0
+AT-66678,Invalid id value,,qwe,,,id,-1,200,400,TRUE,0
+AT-66679,Invalid id value,,,,,id,-1,200,400,TRUE,0
+AT-66680,Invalid id value,source,USER,categoryName,abc,,-1,200,400,TRUE,0
+AT-66681,Invalid id value,source,SYSTEM,categoryName,abc,,-1,200,400,TRUE,0
+AT-66682,Invalid id value,source,qwe,categoryName,abc,,-1,200,400,TRUE,0
+AT-66683,Invalid id value,source,,categoryName,abc,,-1,200,400,TRUE,0
+AT-66684,Invalid id value,wrong,USER,categoryName,abc,,-1,200,400,TRUE,0
+AT-66685,Invalid id value,wrong,SYSTEM,categoryName,abc,,-1,200,400,TRUE,0
+AT-66686,Invalid id value,wrong,qwe,categoryName,abc,,-1,200,400,TRUE,0
+AT-66687,Invalid id value,wrong,,categoryName,abc,,-1,200,400,TRUE,0
+AT-66688,Invalid id value,,USER,categoryName,abc,,-1,200,400,TRUE,0
+AT-66689,Invalid id value,,SYSTEM,categoryName,abc,,-1,200,400,TRUE,0
+AT-66690,Invalid id value,,qwe,categoryName,abc,,-1,200,400,TRUE,0
+AT-66691,Invalid id value,,,categoryName,abc,,-1,200,400,TRUE,0
+AT-66692,Invalid id value,source,USER,wrong,abc,,-1,200,400,TRUE,0
+AT-66693,Invalid id value,source,SYSTEM,wrong,abc,,-1,200,400,TRUE,0
+AT-66694,Invalid id value,source,qwe,wrong,abc,,-1,200,400,TRUE,0
+AT-66695,Invalid id value,source,,wrong,abc,,-1,200,400,TRUE,0
+AT-66696,Invalid id value,wrong,USER,wrong,abc,,-1,200,400,TRUE,0
+AT-66697,Invalid id value,wrong,SYSTEM,wrong,abc,,-1,200,400,TRUE,0
+AT-66698,Invalid id value,wrong,qwe,wrong,abc,,-1,200,400,TRUE,0
+AT-66699,Invalid id value,wrong,,wrong,abc,,-1,200,400,TRUE,0
+AT-66700,Invalid id value,,USER,wrong,abc,,-1,200,400,TRUE,0
+AT-66701,Invalid id value,,SYSTEM,wrong,abc,,-1,200,400,TRUE,0
+AT-66702,Invalid id value,,qwe,wrong,abc,,-1,200,400,TRUE,0
+AT-66703,Invalid id value,,,wrong,abc,,-1,200,400,TRUE,0
+AT-66704,Invalid id value,source,USER,,abc,,-1,200,400,TRUE,0
+AT-66705,Invalid id value,source,SYSTEM,,abc,,-1,200,400,TRUE,0
+AT-66706,Invalid id value,source,qwe,,abc,,-1,200,400,TRUE,0
+AT-66707,Invalid id value,source,,,abc,,-1,200,400,TRUE,0
+AT-66708,Invalid id value,wrong,USER,,abc,,-1,200,400,TRUE,0
+AT-66709,Invalid id value,wrong,SYSTEM,,abc,,-1,200,400,TRUE,0
+AT-66710,Invalid id value,wrong,qwe,,abc,,-1,200,400,TRUE,0
+AT-66711,Invalid id value,wrong,,,abc,,-1,200,400,TRUE,0
+AT-66712,Invalid id value,,USER,,abc,,-1,200,400,TRUE,0
+AT-66713,Invalid id value,,SYSTEM,,abc,,-1,200,400,TRUE,0
+AT-66714,Invalid id value,,qwe,,abc,,-1,200,400,TRUE,0
+AT-66715,Invalid id value,,,,abc,,-1,200,400,TRUE,0
+AT-66716,Invalid id value,source,USER,categoryName,,,-1,200,400,TRUE,0
+AT-66717,Invalid id value,source,SYSTEM,categoryName,,,-1,200,400,TRUE,0
+AT-66718,Invalid id value,source,qwe,categoryName,,,-1,200,400,TRUE,0
+AT-66719,Invalid id value,source,,categoryName,,,-1,200,400,TRUE,0
+AT-66720,Invalid id value,wrong,USER,categoryName,,,-1,200,400,TRUE,0
+AT-66721,Invalid id value,wrong,SYSTEM,categoryName,,,-1,200,400,TRUE,0
+AT-66722,Invalid id value,wrong,qwe,categoryName,,,-1,200,400,TRUE,0
+AT-66723,Invalid id value,wrong,,categoryName,,,-1,200,400,TRUE,0
+AT-66724,Invalid id value,,USER,categoryName,,,-1,200,400,TRUE,0
+AT-66725,Invalid id value,,SYSTEM,categoryName,,,-1,200,400,TRUE,0
+AT-66726,Invalid id value,,qwe,categoryName,,,-1,200,400,TRUE,0
+AT-66727,Invalid id value,,,categoryName,,,-1,200,400,TRUE,0
+AT-66728,Invalid id value,source,USER,wrong,,,-1,200,400,TRUE,0
+AT-66729,Invalid id value,source,SYSTEM,wrong,,,-1,200,400,TRUE,0
+AT-66730,Invalid id value,source,qwe,wrong,,,-1,200,400,TRUE,0
+AT-66731,Invalid id value,source,,wrong,,,-1,200,400,TRUE,0
+AT-66732,Invalid id value,wrong,USER,wrong,,,-1,200,400,TRUE,0
+AT-66733,Invalid id value,wrong,SYSTEM,wrong,,,-1,200,400,TRUE,0
+AT-66734,Invalid id value,wrong,qwe,wrong,,,-1,200,400,TRUE,0
+AT-66735,Invalid id value,wrong,,wrong,,,-1,200,400,TRUE,0
+AT-66736,Invalid id value,,USER,wrong,,,-1,200,400,TRUE,0
+AT-66737,Invalid id value,,SYSTEM,wrong,,,-1,200,400,TRUE,0
+AT-66738,Invalid id value,,qwe,wrong,,,-1,200,400,TRUE,0
+AT-66739,Invalid id value,,,wrong,,,-1,200,400,TRUE,0
+AT-66740,Invalid id value,source,USER,,,,-1,200,400,TRUE,0
+AT-66741,Invalid id value,source,SYSTEM,,,,-1,200,400,TRUE,0
+AT-66742,Invalid id value,source,qwe,,,,-1,200,400,TRUE,0
+AT-66743,Invalid id value,source,,,,,-1,200,400,TRUE,0
+AT-66744,Invalid id value,wrong,USER,,,,-1,200,400,TRUE,0
+AT-66745,Invalid id value,wrong,SYSTEM,,,,-1,200,400,TRUE,0
+AT-66746,Invalid id value,wrong,qwe,,,,-1,200,400,TRUE,0
+AT-66747,Invalid id value,wrong,,,,,-1,200,400,TRUE,0
+AT-66748,Invalid id value,,USER,,,,-1,200,400,TRUE,0
+AT-66749,Invalid id value,,SYSTEM,,,,-1,200,400,TRUE,0
+AT-66750,Invalid id value,,qwe,,,,-1,200,400,TRUE,0
+AT-66751,Invalid id value,,,,,,-1,200,400,TRUE,0
+AT-66752,Invalid id value,source,USER,categoryName,abc,wrong,-1,200,400,TRUE,0
+AT-66753,Invalid id value,source,SYSTEM,categoryName,abc,wrong,-1,200,400,TRUE,0
+AT-66754,Invalid id value,source,qwe,categoryName,abc,wrong,-1,200,400,TRUE,0
+AT-66755,Invalid id value,source,,categoryName,abc,wrong,-1,200,400,TRUE,0
+AT-66756,Invalid id value,wrong,USER,categoryName,abc,wrong,-1,200,400,TRUE,0
+AT-66757,Invalid id value,wrong,SYSTEM,categoryName,abc,wrong,-1,200,400,TRUE,0
+AT-66758,Invalid id value,wrong,qwe,categoryName,abc,wrong,-1,200,400,TRUE,0
+AT-66759,Invalid id value,wrong,,categoryName,abc,wrong,-1,200,400,TRUE,0
+AT-66760,Invalid id value,,USER,categoryName,abc,wrong,-1,200,400,TRUE,0
+AT-66761,Invalid id value,,SYSTEM,categoryName,abc,wrong,-1,200,400,TRUE,0
+AT-66762,Invalid id value,,qwe,categoryName,abc,wrong,-1,200,400,TRUE,0
+AT-66763,Invalid id value,,,categoryName,abc,wrong,-1,200,400,TRUE,0
+AT-66764,Invalid id value,source,USER,wrong,abc,wrong,-1,200,400,TRUE,0
+AT-66765,Invalid id value,source,SYSTEM,wrong,abc,wrong,-1,200,400,TRUE,0
+AT-66766,Invalid id value,source,qwe,wrong,abc,wrong,-1,200,400,TRUE,0
+AT-66767,Invalid id value,source,,wrong,abc,wrong,-1,200,400,TRUE,0
+AT-66768,Invalid id value,wrong,USER,wrong,abc,wrong,-1,200,400,TRUE,0
+AT-66769,Invalid id value,wrong,SYSTEM,wrong,abc,wrong,-1,200,400,TRUE,0
+AT-66770,Invalid id value,wrong,qwe,wrong,abc,wrong,-1,200,400,TRUE,0
+AT-66771,Invalid id value,wrong,,wrong,abc,wrong,-1,200,400,TRUE,0
+AT-66772,Invalid id value,,USER,wrong,abc,wrong,-1,200,400,TRUE,0
+AT-66773,Invalid id value,,SYSTEM,wrong,abc,wrong,-1,200,400,TRUE,0
+AT-66774,Invalid id value,,qwe,wrong,abc,wrong,-1,200,400,TRUE,0
+AT-66775,Invalid id value,,,wrong,abc,wrong,-1,200,400,TRUE,0
+AT-66776,Invalid id value,source,USER,,abc,wrong,-1,200,400,TRUE,0
+AT-66777,Invalid id value,source,SYSTEM,,abc,wrong,-1,200,400,TRUE,0
+AT-66778,Invalid id value,source,qwe,,abc,wrong,-1,200,400,TRUE,0
+AT-66779,Invalid id value,source,,,abc,wrong,-1,200,400,TRUE,0
+AT-66780,Invalid id value,wrong,USER,,abc,wrong,-1,200,400,TRUE,0
+AT-66781,Invalid id value,wrong,SYSTEM,,abc,wrong,-1,200,400,TRUE,0
+AT-66782,Invalid id value,wrong,qwe,,abc,wrong,-1,200,400,TRUE,0
+AT-66783,Invalid id value,wrong,,,abc,wrong,-1,200,400,TRUE,0
+AT-66784,Invalid id value,,USER,,abc,wrong,-1,200,400,TRUE,0
+AT-66785,Invalid id value,,SYSTEM,,abc,wrong,-1,200,400,TRUE,0
+AT-66786,Invalid id value,,qwe,,abc,wrong,-1,200,400,TRUE,0
+AT-66787,Invalid id value,,,,abc,wrong,-1,200,400,TRUE,0
+AT-66788,Invalid id value,source,USER,categoryName,,wrong,-1,200,400,TRUE,0
+AT-66789,Invalid id value,source,SYSTEM,categoryName,,wrong,-1,200,400,TRUE,0
+AT-66790,Invalid id value,source,qwe,categoryName,,wrong,-1,200,400,TRUE,0
+AT-66791,Invalid id value,source,,categoryName,,wrong,-1,200,400,TRUE,0
+AT-66792,Invalid id value,wrong,USER,categoryName,,wrong,-1,200,400,TRUE,0
+AT-66793,Invalid id value,wrong,SYSTEM,categoryName,,wrong,-1,200,400,TRUE,0
+AT-66794,Invalid id value,wrong,qwe,categoryName,,wrong,-1,200,400,TRUE,0
+AT-66795,Invalid id value,wrong,,categoryName,,wrong,-1,200,400,TRUE,0
+AT-66796,Invalid id value,,USER,categoryName,,wrong,-1,200,400,TRUE,0
+AT-66797,Invalid id value,,SYSTEM,categoryName,,wrong,-1,200,400,TRUE,0
+AT-66798,Invalid id value,,qwe,categoryName,,wrong,-1,200,400,TRUE,0
+AT-66799,Invalid id value,,,categoryName,,wrong,-1,200,400,TRUE,0
+AT-66800,Invalid id value,source,USER,wrong,,wrong,-1,200,400,TRUE,0
+AT-66801,Invalid id value,source,SYSTEM,wrong,,wrong,-1,200,400,TRUE,0
+AT-66802,Invalid id value,source,qwe,wrong,,wrong,-1,200,400,TRUE,0
+AT-66803,Invalid id value,source,,wrong,,wrong,-1,200,400,TRUE,0
+AT-66804,Invalid id value,wrong,USER,wrong,,wrong,-1,200,400,TRUE,0
+AT-66805,Invalid id value,wrong,SYSTEM,wrong,,wrong,-1,200,400,TRUE,0
+AT-66806,Invalid id value,wrong,qwe,wrong,,wrong,-1,200,400,TRUE,0
+AT-66807,Invalid id value,wrong,,wrong,,wrong,-1,200,400,TRUE,0
+AT-66808,Invalid id value,,USER,wrong,,wrong,-1,200,400,TRUE,0
+AT-66809,Invalid id value,,SYSTEM,wrong,,wrong,-1,200,400,TRUE,0
+AT-66810,Invalid id value,,qwe,wrong,,wrong,-1,200,400,TRUE,0
+AT-66811,Invalid id value,,,wrong,,wrong,-1,200,400,TRUE,0
+AT-66812,Invalid id value,source,USER,,,wrong,-1,200,400,TRUE,0
+AT-66813,Invalid id value,source,SYSTEM,,,wrong,-1,200,400,TRUE,0
+AT-66814,Invalid id value,source,qwe,,,wrong,-1,200,400,TRUE,0
+AT-66815,Invalid id value,source,,,,wrong,-1,200,400,TRUE,0
+AT-66816,Invalid id value,wrong,USER,,,wrong,-1,200,400,TRUE,0
+AT-66817,Invalid id value,wrong,SYSTEM,,,wrong,-1,200,400,TRUE,0
+AT-66818,Invalid id value,wrong,qwe,,,wrong,-1,200,400,TRUE,0
+AT-66819,Invalid id value,wrong,,,,wrong,-1,200,400,TRUE,0
+AT-66820,Invalid id value,,USER,,,wrong,-1,200,400,TRUE,0
+AT-66821,Invalid id value,,SYSTEM,,,wrong,-1,200,400,TRUE,0
+AT-66822,Invalid id value,,qwe,,,wrong,-1,200,400,TRUE,0
+AT-66823,Invalid id value,,,,,wrong,-1,200,400,TRUE,0
+AT-66824,categoryName already exists,source,USER,categoryName,abc,id,39,200,400,TRUE,0

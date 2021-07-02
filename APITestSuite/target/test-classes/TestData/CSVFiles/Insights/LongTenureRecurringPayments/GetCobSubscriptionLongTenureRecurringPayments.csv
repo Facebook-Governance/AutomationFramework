@@ -1,0 +1,14 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-147374,"getCobrandSubscription - Validate LongTenureRecurringPayments , check if Insight is unSubscribed to OR isSubscribed=false ",,LongTenureRecurringPayments,LongTenureRecurringPayments,,,,,,,,FALSE,,,,200,TRUE
+AT-147382,"getCobrandSubscription - Validate LongTenureRecurringPayments , Validate InsightName",,LongTenureRecurringPayments,LongTenureRecurringPayments,,,,,,,,,,,,200,TRUE
+AT-147381,"getCobrandSubscription - Validate LongTenureRecurringPayments , Validate Supporting container",,LongTenureRecurringPayments,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-147378,"getCobrandSubscription - Validate LongTenureRecurringPayments , Validate TriggerType",SCHEDULE,LongTenureRecurringPayments,,,,,,,,,,,,,200,TRUE
+AT-147373,"getCobrandSubscription - Validate LongTenureRecurringPayments , Validate applicableEntity",,LongTenureRecurringPayments,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-147376,"getCobrandSubscription - Validate LongTenureRecurringPayments , Validate number of levels and levelObject",,LongTenureRecurringPayments,,,,,,,ACCOUNT,account,,,,,200,TRUE
+AT-147377,"getCobrandSubscription - Validate LongTenureRecurringPayments , Validate isSubscribed=false",,LongTenureRecurringPayments,,,,,,,,,FALSE,,,,200,TRUE
+AT-147372,"getCobrandSubscription - Validate LongTenureRecurringPayments , Validate threshold Name,default Value 3 and Type",,LongTenureRecurringPayments,,,,,,,ACCOUNT,account,,,"TOP,5,NUMBER",,200,TRUE
+AT-147372,"getCobrandSubscription - Validate LongTenureRecurringPayments , Validate  default frequency",,LongTenureRecurringPayments,,,,,,,ACCOUNT,account,,MONTHLY,,,200,TRUE
+AT-147379,"getCobrandSubscription - Validate LongTenureRecurringPayments , Validate insightKeys",,LongTenureRecurringPayments,,,,Account,,,,,,,,,200,TRUE
+AT-147383,"getCobrandSubscription - Validate LongTenureRecurringPayments , Validate description",,LongTenureRecurringPayments,,,,,,Inform the user about long-running recurring payments.,,,,,,,200,TRUE
+AT-147380,"getCobrandSubscription - Validate LongTenureRecurringPayments , Validate title",,LongTenureRecurringPayments,,Long Tenure Recurring Payments,,,,,,,,,,,200,TRUE
+AT-147375,"getCobrandSubscription - Validate LongTenureRecurringPayments , Validate total number of keys",,LongTenureRecurringPayments,,,,,8,,,,,,,,200,TRUE

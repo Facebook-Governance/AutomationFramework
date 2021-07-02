@@ -1,0 +1,67 @@
+{
+  "links": {
+    "transactions": "${json-unit.ignore}"
+  },
+  "transactionSummary": [
+    {
+      "categoryType": "INCOME",
+      "categorySummary": [
+        {
+          "creditTotal": {
+            "amount": 5000,
+            "currency": "USD"
+          },
+          "details": [
+            {
+              "date": "${json-unit.ignore}",
+              "creditTotal": {
+                "amount": 1000,
+                "currency": "USD"
+              }
+            },
+            {
+              "date": "${json-unit.ignore}",
+              "creditTotal": {
+                "amount": 1000,
+                "currency": "USD"
+              }
+            },
+            {
+              "date": "${json-unit.ignore}",
+              "creditTotal": {
+                "amount": 1000,
+                "currency": "USD"
+              }
+            },
+            {
+              "date": "${json-unit.ignore}",
+              "creditTotal": {
+                "amount": 1000,
+                "currency": "USD"
+              }
+            },
+            {
+              "date": "${json-unit.ignore}",
+              "creditTotal": {
+                "amount": 1000,
+                "currency": "USD"
+              }
+            }
+          ],
+          "links": {
+            "transactions": "${json-unit.ignore}"
+          },
+          "categoryName": "Income",
+          "categoryId": "10000012"
+        }
+      ],
+      "creditTotal": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "links": {
+        "transactions": "${json-unit.ignore}"
+      }
+    }
+  ]
+}

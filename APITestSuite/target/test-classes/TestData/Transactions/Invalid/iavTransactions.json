@@ -1,0 +1,94 @@
+{
+  "transaction": [
+    {
+      "date": "2017-05-03",
+      "amount": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "checkNumber": "1098",
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "BKOFAMERICA ATM WITHDRWL",
+        "simple": "Cash Withdrawal"
+      },
+      "merchant": {
+        "name": "Cash Withdrawal",
+        "id": "42591",
+        "source": "YODLEE"
+      },
+      "transactionDate": "2017-05-03",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": 81081315,
+      "CONTAINER": "bank",
+      "postDate": "2017-05-03",
+      "id": 18983245,
+      "category": "ATM/Cash Withdrawals",
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-02",
+      "amount": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "checkNumber": "1098",
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "BKOFAMERICA ATM WITHDRWL",
+        "simple": "Cash Withdrawal"
+      },
+      "merchant": {
+        "name": "Cash Withdrawal",
+        "id": "42591",
+        "source": "YODLEE"
+      },
+      "transactionDate": "2017-05-02",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": 81081315,
+      "CONTAINER": "bank",
+      "postDate": "2017-05-02",
+      "id": 18983246,
+      "category": "ATM/Cash Withdrawals",
+      "categoryId": 25,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-01",
+      "amount": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "checkNumber": "1098",
+      "isManual": false,
+      "highLevelCategoryId": 10000010,
+      "description": {
+        "original": "BKOFAMERICA ATM WITHDRWL",
+        "simple": "Cash Withdrawal"
+      },
+      "merchant": {
+        "name": "Cash Withdrawal",
+        "id": "42591",
+        "source": "YODLEE"
+      },
+      "transactionDate": "2017-05-01",
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "accountId": 81081315,
+      "CONTAINER": "bank",
+      "postDate": "2017-05-01",
+      "id": 18983247,
+      "category": "ATM/Cash Withdrawals",
+      "categoryId": 25,
+      "status": "POSTED"
+    }
+  ]
+}

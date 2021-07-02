@@ -1,0 +1,11 @@
+testCaseId,testCase,resFilePath,resFile,Enabled,recurringEventStatus,sourceType,userAprovalStatus
+1,GetRecurringEvent-With all Filters,../src/test/resources/TestData/GetRecurringEvents/,EventWithFilter.json,TRUE,ACTIVE,SYSTEM_PREDICTED,PENDING
+2,GetRecurringEvent-With RecurringEvent status,../src/test/resources/TestData/GetRecurringEvents/,Active.json,TRUE,ACTIVE,,
+3,GetRecurringEvent-With Source Type,../src/test/resources/TestData/GetRecurringEvents/,AllSystem.json,TRUE,,SYSTEM_PREDICTED,
+4,GetRecurringEvent-With User Approval Status,../src/test/resources/TestData/GetRecurringEvents/,AllSystem.json,TRUE,,,PENDING
+5,GetRecurringEvent-With recurringEvent status and sourceType,../src/test/resources/TestData/GetRecurringEvents/,EventWithFilter.json,TRUE,ACTIVE,SYSTEM_PREDICTED,
+6,GetRecurringEvent-With  sourceType and userApproval,../src/test/resources/TestData/GetRecurringEvents/,EventWithFilter.json,TRUE,,SYSTEM_PREDICTED,PENDING
+7,GetRecurringEvent-With  recurringEvent and userApproval,../src/test/resources/TestData/GetRecurringEvents/,EventWithFilter.json,TRUE,ACTIVE,,PENDING
+8,GetRecurringEvent-APPROVED,../src/test/resources/TestData/GetRecurringEvents/,AllManual.json,TRUE,ACTIVE,,APPROVED
+9,GetRecurringEvent-MANUAL,../src/test/resources/TestData/GetRecurringEvents/,AllManual.json,TRUE,ACTIVE,MANUAL,APPROVED
+10,GetRecurringEvent-STOPPED,../src/test/resources/TestData/JSONFiles/GetRecurringEvents/,Manual.json,TRUE,STOPPED,,

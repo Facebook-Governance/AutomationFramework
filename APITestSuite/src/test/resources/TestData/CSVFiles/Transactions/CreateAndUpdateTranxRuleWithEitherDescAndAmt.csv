@@ -1,0 +1,11 @@
+TestCaseId,categoryId,priority,Field,Operation,Value,Title,statusCode,updateField,updateOperation,UpdateValue,updatedStatusCode,ResFile,FilePath,Enabled
+0,1,1,description,stringContains,Dining,update desc-StringContains,201,description,stringEquals,Deposit ,204,StringContainsNumEqual.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE
+1,1,1,description,stringEquals,Dep,update desc-StringEquals,201,amount,numberGreaterThan,300,204,StringEqualsNumEqual.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE
+2,1,1,description,stringContains,Din,update desc-StringContains,201,description,stringEquals,Dining,204,StringContainsNumLessThan.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE
+3,1,1,description,stringEquals,Salary,update desc-StringEquals,201,description,stringContains,Depo,204,StringEqualsNumLessThan.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE
+4,1,1,description,stringContains,Dini,update desc-StringContains,201,description,stringEquals,Transfers,204,StringContainsNumGreaterThan.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE
+5,1,1,amount,numberGreaterThan,430,update amount-NumGreaterThan,201,amount,numberLessThan,2950,204,StringEqualsNumGreaterThan.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE
+6,1,1,amount,numberLessThanEquals,850,update amount-NumLessThanEqual,201,amount,numberEquals,418,204,StringContainsNumLessThanEqual.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE
+7,1,1,amount,numberLessThanEquals,150,update amount-NumLessThanEqual,201,amount,numberGreaterThan,1100,204,StringEqualsNumLessThanEqual.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE
+8,1,1,amount,numberGreaterThanEquals,1550,update amount-NumGreaterThanEqual,201,amount,numberLessThanEquals,2550,204,StringContainsNumGreaterThanEqual.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE
+9,1,1,amount,numberEquals,1250,update amount-NumGreaterThanEqual,201,amount,numberEquals,1250,400,StringEqualsNumGreaterThanEqual.json,../src/test/resources/TestData/Transactions/TxnRule/,TRUE

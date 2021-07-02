@@ -1,0 +1,5 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,recurringEventId,recurringEventStatus,userApprovalStatus,sourceType,enabled
+1,Stopped-Manual,400,InvalidRecurringEventId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,VALID,STOPPED,,MANUAL,TRUE
+2,Rejected-Manual,400,InvalidRecurringEventId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,VALID,,REJECTED,MANUAL,TRUE
+3,Stopped-System,400,InvalidRecurringEventId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,VALID,STOPPED,,SYSTEM_PREDICTED,TRUE
+4,Rejected-System,400,InvalidRecurringEventId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,VALID,,REJECTED,SYSTEM_PREDICTED,TRUE

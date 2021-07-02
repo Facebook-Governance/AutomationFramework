@@ -1,0 +1,16 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-148598,"getUserSubscription - Validate RefundDepositNotice , Validate InsightName",,RefundDepositNotice,RefundDepositNotice,,,,,,,,,,,,,200,TRUE
+AT-148599,"getUserSubscription - Validate RefundDepositNotice , Validate Supporting container",,RefundDepositNotice,,,"BANK,CARD",,,,,,,,,,,200,TRUE
+AT-148600,"getUserSubscription - Validate RefundDepositNotice , Validate TriggerType",REFRESH,RefundDepositNotice,,,,,,,,,,,,,,200,TRUE
+AT-148601,"getUserSubscription - Validate RefundDepositNotice , Validate applicableEntity",,RefundDepositNotice,,,,,,,"ACCOUNT,VIEW",,,,,,,200,TRUE
+AT-148602,"getUserSubscription - Validate RefundDepositNotice , Validate number of levels and levelObject",,RefundDepositNotice,,,,,,,"ACCOUNT,VIEW",account,,,,,,200,TRUE
+AT-148603,"getUserSubscription - Validate RefundDepositNotice , Validate isSubscribed=false",,RefundDepositNotice,,,,,,,,,FALSE,,,,,200,TRUE
+AT-148604,"getUserSubscription - Validate RefundDepositNotice , Validate threshold Name,Value and Type",,RefundDepositNotice,,,,,,,,account,,,"MINIMUM,1,AMOUNT",,,200,TRUE
+AT-148605,"getUserSubscription - Validate RefundDepositNotice , Validate insightKeys",,RefundDepositNotice,,,,Account,,,,,,,,,,200,TRUE
+AT-148606,"getUserSubscription - Validate RefundDepositNotice , Validate description",,RefundDepositNotice,,,,,,Generates an insight when a refund is posted that is more than a configured threshold.,,,,,,,,200,TRUE
+AT-148607,"getUserSubscription - Validate RefundDepositNotice , Validate title",,RefundDepositNotice,,Refund Deposited,,,,,,,,,,,,200,TRUE
+AT-148608,"getUserSubscription - Validate RefundDepositNotice , Validate ruleExpression",,RefundDepositNotice,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-148609,"getUserSubscription - Validate RefundDepositNotice , Validate total number of keys-ACCOUNT",,RefundDepositNotice,,,,Account,15,,,,,,,,,200,TRUE
+AT-148610,"getUserSubscription - Validate RefundDepositNotice , verify entityParameter and configMeta are same",,RefundDepositNotice,,,,,,,,,,,,,TRUE,200,TRUE
+AT-148611,"getUserSubscription - Validate RefundDepositNotice , Validate threshold Name,Value and Type-view",,RefundDepositNotice,,,,,,,,view,,,"MINIMUM,1,AMOUNT",,,200,TRUE
+AT-148612,"getUserSubscription - Validate RefundDepositNotice , Validate total number of keys - VIEW",,RefundDepositNotice,,,,View,17,,,,,,,,,200,TRUE

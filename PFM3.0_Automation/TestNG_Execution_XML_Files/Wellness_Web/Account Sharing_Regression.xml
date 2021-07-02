@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suites" verbose="5">
+
+	<!-- <parameter name="coBrand" value="YCOM_L1" />
+	<parameter name="loginType" value="L1NODE"/> -->
+	<parameter name="runOnBrowserStack" value="false" />
+	<parameter name="bs_username" value="yodleebrowsersta1" />
+	<parameter name="bs_automate_key"
+		value="pzyoTJ6embZ48zsufsF2" />
+	<parameter name="browser" value="chrome" />
+	<parameter name="browser_version" value="48" />
+	<parameter name="platformName" value="Android" />
+
+	<!-- <parameter name="platformName" value="windows" /> -->
+	<parameter name="platformVersion" value="5.0.1" />
+	<!-- <parameter name="platformVersion" value="7"/> -->
+	<parameter name="elpamEnabled" value="true" />
+	<parameter name="theme" value="new"></parameter>
+	<parameter name="appFlag" value="true"></parameter>
+	<parameter name="suiteName"
+		value="Account Sharing Regression" />
+
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.omni.pfm.listeners.CustomListener" />
+		<listener
+			class-name="com.automation.rdashboard.ReportDashboardPlugin" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+	</listeners>
+
+	<test verbose="2"
+		name="Feature - Transaction ransaction ReadonlyFeature_Test ">
+		<classes>
+			<class
+				name="com.omni.pfm.Transaction_AccountsSharing.Transaction_AccountSharing_ReadonlyFeature_Test" />
+		</classes>
+	</test>
+
+	<test verbose="2"
+		name="Feature - Transaction ransaction ReadonlyFeature_Test for Projected Transaction">
+		<classes>
+			<class
+				name="com.omni.pfm.Transaction_AccountsSharing.Transaction_AccountSharing_PeojectedTransaction_ReadOnlyFeature_Test" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction Filter">
+		<classes>
+			<class
+				name="com.omni.pfm.Transaction_AccountsSharing.Transaction_AccountSharing_TransactionAccountFilter" />
+		</classes>
+	</test>
+
+	<test verbose="2" name="Feature - Transaction Account dropdown">
+		<classes>
+			<class
+				name="com.omni.pfm.Transaction_AccountsSharing.Transaction_AccountSharing_TransactionAccountDropDown" />
+		</classes>
+	</test>
+
+	<!-- Added by sjain10 -->
+	<test name="IE Account Sharing dropdown" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.AccountSharing.AccountSharing_IEDropDown_Test"></class>
+		</classes>
+	</test>
+
+	<test name="IE Account Sharing data points" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.AccountSharing.AccountSharing_IEAnalysis_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Alert Settings Account Sharing" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.AccountSharing.AccountSharing_AlertSettings_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Budget Account Sharing" preserve-order="true">
+		<classes>
+			<class
+				name="com.omni.pfm.AccountSharing.AccountSharing_Budget_Test"></class>
+		</classes>
+	</test>
+	<!-- End By Sjain10 -->
+
+	<!-- Added by Shivaprasad -->
+	<test name="Dashboard 1">
+		<classes>
+			<class
+				name="com.omni.pfm.Dashboard.AccountSharing_Dashboard_Advisor_Sharing_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Dashboard 2">
+		<classes>
+			<class
+				name="com.omni.pfm.Dashboard.AccountSharing_Dashboard_Changes_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Accounts">
+		<classes>
+			<class
+				name="com.omni.pfm.Accounts.AccountSharing_Accounts_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Cashflow">
+		<classes>
+			<class
+				name="com.omni.pfm.Cashflow.AccountSharing_Cashflow_Changes_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Investment Holdings 1">
+		<classes>
+			<class
+				name="com.omni.pfm.InvestmentHoldings.AccountSharing_InvestmentHoldings_Advisor_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Investment Holdings 2">
+		<classes>
+			<class
+				name="com.omni.pfm.InvestmentHoldings.AccountSharing_InvestmentHoldings_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Manage Sharing">
+		<classes>
+			<class
+				name="com.omni.pfm.ManageSharing.ManageSharing_AccountSettings_Test"></class>
+		</classes>
+	</test>
+
+	<!-- End : Shivaprasad -->
+
+	<test verbose="2"
+		name="Feature - Transaction Feature changes only investor shared accounts">
+		<classes>
+			<class
+				name="com.omni.pfm.Transaction_AccountsSharing.Transaction_AccountSharing_OnyInvestorSharedAccount" />
+		</classes>
+	</test>
+
+	<test verbose="2"
+		name="Feature - TTransaction Feature changes only advisor shared accounts">
+		<classes>
+			<class
+				name="com.omni.pfm.Transaction_AccountsSharing.Transaction_AccountSharing_OnyAdvisorSharedAccount" />
+		</classes>
+	</test>
+
+	<!-- <test verbose="2" name="Feature - Transaction Mark As Paid for Transfer 
+		Category"> <classes> <class name="com.omni.pfm.TransactionEnhancement1.Transaction_MarkAsPaid_Transfer_Categories_Test" 
+		/> </classes> </test> <test verbose="2" name="Feature - Transaction projected 
+		Balance"> <classes> <class name="com.omni.pfm.TransactionEnhancement1.Transaction_Projected_Balance_Test" 
+		/> </classes> </test> -->
+
+	<test verbose="2" name="Feature - Transaction Multiple investor">
+		<classes>
+			<class
+				name="com.omni.pfm.Transaction_AccountsSharing.Transaction_AccountDropDown_Multiple_InvesterTest" />
+		</classes>
+	</test>
+
+	<!-- <test name="Transaction Tag" preserve-order="true"> <classes> <class 
+		name="com.omni.pfm.TransactionEnhancement1.Transaction_AddEditTags_Test"></class> 
+		</classes> </test> <test name="Investment Holdings" preserve-order="true"> 
+		<classes> <class name="com.omni.pfm.InvestmentHoldings.InvestmentHoldings_TotalHoldings_Test"></class> 
+		</classes> </test> -->
+
+	<test verbose="2" name="Feature - Networth Account Sharing">
+		<classes>
+			<class name="com.omni.pfm.Networth.NetworthAccountSharing" />
+		</classes>
+	</test>
+
+	<!-- Historical Data point - Networth By Rajani -->
+	<!-- <test name="Networth - Historical Data Points"> <classes> <class name="com.omni.pfm.Networth.Networth_Historicaldatapoint"></class> 
+		</classes> </test> -->
+</suite>

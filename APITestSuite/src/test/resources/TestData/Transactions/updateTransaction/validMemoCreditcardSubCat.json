@@ -1,0 +1,35 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 7896.67,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000011,
+      "description": {
+        "original": "Bengal Tiger Restaurant Inc",
+        "simple": "Bengal Tiger Restaurant Inc",
+        "consumer": "aaa"
+      },
+      "memo": "updated memo",
+      "merchant": {
+        "name": "Bengal Tiger Restaurant Inc",
+        "id": "69589",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "USER",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "parentCategoryId": 7,
+      "id": "${json-unit.ignore}",
+      "category": "${json-unit.ignore}",
+      "categoryId": "${json-unit.ignore}",
+      "status": "POSTED"
+    }
+  ]
+}

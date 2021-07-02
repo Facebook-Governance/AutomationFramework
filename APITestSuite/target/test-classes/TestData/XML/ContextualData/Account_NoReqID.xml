@@ -1,0 +1,53 @@
+<entity type="multiple">
+<request>
+ <add-provider-accounts-multiple>
+ <add-provider-accounts order="1">
+	<siteUser>SdgSanitySuite.site16441.1</siteUser>
+	<siteUserId>65499</siteUserId>
+	<sitePwd>site16441.1</sitePwd>
+	<sitePwdId>65500</sitePwdId>
+	<siteId>16441</siteId>
+	<dataList>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>ACCOUNT_DETAILS</name>
+							<container>bank,investment,loan</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+				<dataset>
+					<name>ACCT_PROFILE</name>
+					<attributeList>
+						<attribute>
+							<name>FULL_ACCT_NUMBER</name>
+							<container>investment,bank,loan</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+				</dataList>
+ </add-provider-accounts>
+ </add-provider-accounts-multiple>
+ <get-accounts-multiple>
+ <get-accounts order="1">
+		 <status>ACTIVE</status>
+            <container>bank</container>
+            <providerAccountId>true</providerAccountId>
+            <isRequestID></isRequestID>
+            <accountReconType />
+ </get-accounts>
+ </get-accounts-multiple>
+</request>
+<response>
+         <get-accounts-multiple>
+		 <get-accounts order="1">
+			
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/ContextualData/</filePath>
+				<responseFile>Account_NoRqID.json</responseFile>
+			</row>
+		</get-accounts>
+		</get-accounts-multiple>
+</response>
+</entity>

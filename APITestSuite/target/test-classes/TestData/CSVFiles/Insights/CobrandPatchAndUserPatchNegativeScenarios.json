@@ -1,0 +1,527 @@
+[
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario0",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Proper errorCode OR errorMessage is not defined for this scenario"
+	},
+	{
+		"testCaseId": "AT-8002",
+		"negativeTest": "negTestScenario1",
+		"httpStatuCode": "500",
+		"yslErrorCode": "Y400",
+		"errorMessage": "Invalid BSON document for an update"
+	},
+	{
+		"testCaseId": "AT-8003",
+		"negativeTest": "negTestScenario2",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for name"
+	},
+	{
+		"testCaseId": "AT-8007",
+		"negativeTest": "negTestScenario3",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y801",
+		"errorMessage": "Invalid length for title; min 3 and max 100 characters including spaces are allowed."
+	},
+	{
+		"testCaseId": "AT-8008",
+		"negativeTest": "negTestScenario4",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y801",
+		"errorMessage": "Invalid length for title; min 3 and max 100 characters including spaces are allowed."
+	},
+	{
+		"testCaseId": "AT-8009",
+		"negativeTest": "negTestScenario5",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for title"
+	},
+	{
+		"testCaseId": "AT-8010",
+		"negativeTest": "negTestScenario6",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Modifying container attribute for insightName insight is not allowed"
+	},
+	{
+		"testCaseId": "AT-8011",
+		"negativeTest": "negTestScenario7",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Modifying keys attribute for insightName insight is not allowed"
+	},
+	{
+		"testCaseId": "AT-8012",
+		"negativeTest": "negTestScenario8",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Modifying description attribute for insightName insight is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario9",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Modifying applicableEntity attribute for insightName insight is not allowed"
+	},
+	{
+	      "testCaseId":"AT-8013",
+	      "negativeTest":"negTestScenario10",
+	      "httpStatuCode":"400",
+	      "yslErrorCode":"Y802",
+	      "errorMessage":"Specifying frequency attribute for insightName insight is not allowed"     				
+	 },
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario11",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Specifying duration attribute for insightName insight is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario12",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for insightType"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario13",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for name attribute in threshold for insightName insight"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario14",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for type attribute in threshold for insightName insight"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario15",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Cant update negative values"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario16",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Modifying triggerType attribute for insightName insight is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario17",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for input param in insightName insight"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario18",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Modifying title attribute for insightName insight is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario19",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for input param in insightName insight"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario20",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for id in account; This id is either invalid or not supported for this insight."
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario21",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for entityParameter in insightName insight"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario22",
+		"httpStatuCode": "400",	
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for Frequency. Supported frequencies for insightName insight are -[DAILY, WEEKLY, MONTHLY]"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario23",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for duration attribute in insightName insight"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario24",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Modifying InsightType attribute is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario25",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Editing title for Users in insightName insight is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario26",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for id in view; This id is either invalid, duplicate or not supported for this insight."
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario27",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "For insightName insight, LIMIT inside the threshold is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario28",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "For insightName insight, PERCENT inside the threshold is either repeated or not allowed"
+	}
+	,
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario29",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "For insightName insight passing threshold is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario30",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "For insightName insight, AMOUNT inside the threshold is either repeated or not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario31",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for CHANGE in insightName insight Min = 1.00 and Max = 500.00"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario32",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Modifying frequency attribute for insightName insight is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario33",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Editing title for Users in insightName insight is not allowed"
+	}
+	,
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario34",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Modifying duration attribute for insightName insight is not allowed"
+	}
+	,
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario35",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "For insightName insight, BALANCE inside the threshold is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario36",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Editing title with special characters are not allowed"
+	}
+	,
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario37",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for  MINIMUM in insightName insight Min = 1.00 and Max = 1000000.00"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario38",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "For insightName insight, the requested entityParameter is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario39",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for LIMIT in insightName insight Min = 1.00 and Max = 100.00"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario40",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for entityParameter"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario41",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for input param in insightName insight"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario42",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for id in accountGroup; This id is either invalid or not supported for this insight."
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario42",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for FUTURE in insightName insight Min = 0 and Max = 31"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario43",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "For insightName insight, AMOUNT inside the threshold is not allowed"
+	}
+	,
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario44",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for UPPER_LIMIT in insightName insight Min = 1.00 and Max = 100.00"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario45",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "For this insight, adding specific IDs is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario46",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for Frequency. Supported frequencies for insightName insight are -[DAILY, WEEKLY]"
+	},
+	{
+		"testCaseId": "AT-8013", 	
+		"negativeTest": "negTestScenario47",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "For insightName insight, FUTURE inside the threshold is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario48",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Specifying duration attribute for insightName insight is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario49",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Modifying InsightType attribute for insightName insight is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario50",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Modifying duration attribute in insightName insight is not allowed"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario51",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for id in accountGroup; This id is either invalid or not supported for this insight."
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario52",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for TOP in insightName insight Min = 1 and Max = 100"
+	},
+	{
+		"testCaseId": "AT-8002",
+		"negativeTest": "negTestScenario53",
+		"httpStatuCode": "500",
+		"yslErrorCode": "Y400",
+		"errorMessage": "Invalid BSON document for an update. The document may not be empty."
+	},
+	{
+		"testCaseId": "AT-PVC59",
+		"negativeTest": "negTestScenarioPvc01",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for name"
+	},
+	{
+		"testCaseId": "AT-PVC70",
+		"negativeTest": "negTestScenarioPvc02",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Modifying InsightType attribute is not allowed"
+	},
+	
+	{
+		"testCaseId": "AT-PVC72",
+		"negativeTest": "negTestScenarioPvc03",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "For PropertyValueChange insight, BALANCE inside the threshold is not allowed"
+	},
+	{
+		"testCaseId": "AT-PVC74",
+		"negativeTest": "negTestScenarioPvc04",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "For PropertyValueChange insight, AMOUNT inside the threshold is either repeated or not allowed"
+
+	},
+	{
+		"testCaseId": "AT-PVC69",
+		"negativeTest": "negTestScenarioPvc05",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Specifying duration attribute for PropertyValueChange insight is not allowed"
+	},
+	{
+		"testCaseId": "AT-PVC29",
+		"negativeTest": "negTestScenarioPvc06",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for CHANGE in PropertyValueChange insight Min = 0.00 and Max = 10000000.00"
+	},
+	{
+		"testCaseId": "AT-PVC34",
+		"negativeTest": "negTestScenarioPvc07",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "For PropertyValueChange insight, LIMIT inside the threshold is not allowed"
+	},
+	{
+		"testCaseId": "AT-PVC39",
+		"negativeTest": "negTestScenarioPvc08",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for CHANGE in PropertyValueChange insight Min = 0.00 and Max = 500.00"
+	},
+	{
+		"testCaseId": "AT-PVC61",
+		"negativeTest": "negTestScenarioPvc10",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "Editing title for Users in PropertyValueChange insight is not allowed"
+	},
+	{
+		"testCaseId": "AT-8002",
+		"negativeTest": "negTestScenario54",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "For insightName insight, BELOW inside the threshold is not allowed"
+	},
+	{
+		"testCaseId": "AT-8002",
+		"negativeTest": "negTestScenario55",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y802",
+		"errorMessage": "For insightName insight, VALUE inside the threshold is either repeated or not allowed"
+	},
+	{
+		"testCaseId": "AT-8002",
+		"negativeTest": "negTestScenario56",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for DAYS_BEFORE in CardStatementDue insight Min = 0 and Max = 20"
+	},
+	{
+		"testCaseId": "AT-8002",
+		"negativeTest": "negTestScenario57",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for UPPER_LIMIT in ExpensesApproachingBudget insight Min = 1.00 and Max = 99.00"
+	},
+	{
+		"testCaseId": "AT-SalCh41",
+		"negativeTest": "negTestScenarioPvc11",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for CHANGE in SalaryChanged insight Min = 0.00 and Max = 10000.00"
+	},
+	{
+		"testCaseId": "AT-SalCh39",
+		"negativeTest": "negTestScenarioPvc12",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for CHANGE in SalaryChanged insight Min = 0.00 and Max = 500.00"
+	},{
+		"testCaseId": "AT-BillCh29",
+		"negativeTest": "negTestScenarioPvc13",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for CHANGE in BillChanged insight Min = 0.00 and Max = 500.00"
+	},
+	{
+		"testCaseId": "AT-BillCh32",
+		"negativeTest": "negTestScenarioPvc14",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for CHANGE in BillChanged insight Min = 0.01 and Max = 10000.00"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario58",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y800",
+		"errorMessage": "Invalid value for Frequency. Supported frequencies for ZeroCardInterestPaid insight are -[MONTHLY]"
+	},
+	{
+		"testCaseId": "AT-8013",
+		"negativeTest": "negTestScenario59",
+		"httpStatuCode": "400",
+		"yslErrorCode": "Y820",
+		"errorMessage": "The special characters ~^&%|][-+}{'><\"()\\ is not supported for insight title."
+	}
+	
+]   

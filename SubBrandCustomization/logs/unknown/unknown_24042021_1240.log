@@ -1,0 +1,27 @@
+2021-04-24 12:40:45,427 [main] INFO   c.y.c.listeners.CustomListener(159) - Approximate tests to run ~ 1
+2021-04-24 12:40:45,457 [main] INFO   ReportGenerator(212) - ****************************************************************************************
+2021-04-24 12:40:45,458 [main] INFO   ReportGenerator(213) -                                 Sub Brand Management Tool Publish Workflows       
+2021-04-24 12:40:45,459 [main] INFO   ReportGenerator(214) - ----------------------------------------------------------------------------------------
+2021-04-24 12:40:45,794 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-04-24 12:40:45,795 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.NewTest##LaunchWeb By Thread with name as ##main
+2021-04-24 12:40:45,795 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-04-24 12:40:45,800 [main] INFO   c.y.c.listeners.CustomListener(61) - =============================================================================
+2021-04-24 12:40:45,801 [main] INFO   c.y.c.listeners.CustomListener(62) - STARTED - com.yodlee.customizationtool.NewTest##LaunchWeb By Thread with name as ##main
+2021-04-24 12:40:45,802 [main] INFO   c.y.c.listeners.CustomListener(64) - ==============================================================================
+2021-04-24 12:40:45,802 [main] INFO   ReportGenerator(149) - 
+
+<< --- TestCase START --->> LaunchWeb
+
+2021-04-24 12:40:45,821 [main] INFO   c.y.c.listeners.CustomListener(101) - ===========================================================================
+2021-04-24 12:40:45,822 [main] INFO   c.y.c.listeners.CustomListener(102) - SKIPPED - com.yodlee.customizationtool.NewTest#LaunchWeb SKIPPED REASON :::null
+2021-04-24 12:40:45,823 [main] INFO   c.y.c.listeners.CustomListener(104) - ===========================================================================
+2021-04-24 12:40:45,824 [main] INFO   c.y.c.listeners.CustomListener(101) - ===========================================================================
+2021-04-24 12:40:45,825 [main] INFO   c.y.c.listeners.CustomListener(102) - SKIPPED - com.yodlee.customizationtool.NewTest#LaunchWeb SKIPPED REASON :::null
+2021-04-24 12:40:45,826 [main] INFO   c.y.c.listeners.CustomListener(104) - ===========================================================================
+2021-04-24 12:40:45,827 [main] INFO   ReportGenerator(199) - 
+
+ TestCase: LaunchWeb: --->>> SKIPPED
+2021-04-24 12:40:46,822 [main] INFO   ReportGenerator(122) - ----------------------------------------------------------------------------------------
+
+2021-04-24 12:40:46,823 [main] INFO   ReportGenerator(123) - ****************************************************************************************
+

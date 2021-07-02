@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-146950,"Validate EmergencySavings , Validate InsightName",,EmergencySavings,EmergencySavings,,,,,,,,,,,,200,TRUE
+AT-146951,"Validate EmergencySavings , Validate Supporting container",,EmergencySavings,,,BANK CARD INVESTMENT,,,,,,,,,,200,TRUE
+AT-146952,"Validate EmergencySavings , Validate TriggerType",SCHEDULE,EmergencySavings,,,,,,,,,,,,,200,TRUE
+AT-146953,"Validate EmergencySavings , Validate applicableEntity",,EmergencySavings,,,,,,Account,,,,,,,200,TRUE
+AT-146954,"Validate EmergencySavings , Validate number of levels and levelObject",,EmergencySavings,,,,,,Account,account,,,,,,200,TRUE
+AT-146955,"Validate EmergencySavings , Validate isSubscribed=false",,EmergencySavings,,,,,,,,FALSE,,,,,200,TRUE
+AT-146956,"Validate EmergencySavings , Validate threshold Name,Value and Type",,EmergencySavings,,,,,,,account,,,,,,200,TRUE
+AT-146957,"Validate EmergencySavings , Validate insightKeys",,EmergencySavings,,,,Account,,,,,,,,,200,TRUE
+AT-146958,"Validate EmergencySavings , Validate description",,EmergencySavings,,,,,Let the user know how much money is available as emergency savings.,,,,,,,,200,TRUE
+AT-146959,"Validate EmergencySavings , Validate title",,EmergencySavings,,Emergency Savings,,,,,,,,,,,200,TRUE
+AT-146960,"Validate EmergencySavings , Validate ruleExpression",,EmergencySavings,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-146961,"Validate EmergencySavings , verify entityParameter and configMeta are same",,EmergencySavings,,,,,,,,,,,,TRUE,200,TRUE

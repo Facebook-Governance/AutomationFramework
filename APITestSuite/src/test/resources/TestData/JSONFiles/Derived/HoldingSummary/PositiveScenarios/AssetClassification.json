@@ -1,0 +1,81 @@
+{
+  "holdingSummary": [
+    {
+      "classificationType": "Asset class",
+      "classificationValue": "Canadian bonds",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dAsset%20class\u0026classificationValue\u003dCanadian%20bonds\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 30.32,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "Asset class",
+      "classificationValue": "Cash",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dAsset%20class\u0026classificationValue\u003dCash\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 2497.34,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "Asset class",
+      "classificationValue": "Foreign bonds",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dAsset%20class\u0026classificationValue\u003dForeign%20bonds\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 351.15,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "Asset class",
+      "classificationValue": "Non-US bonds",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dAsset%20class\u0026classificationValue\u003dNon-US%20bonds\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 2638.72,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "Asset class",
+      "classificationValue": "Other",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dAsset%20class\u0026classificationValue\u003dOther\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 0,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "Asset class",
+      "classificationValue": "US bonds",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dAsset%20class\u0026classificationValue\u003dUS%20bonds\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 20981.76,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "Asset class",
+      "classificationValue": "US stocks",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dAsset%20class\u0026classificationValue\u003dUS%20stocks\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 0,
+        "currency": "USD"
+      }
+    }
+  ]
+}

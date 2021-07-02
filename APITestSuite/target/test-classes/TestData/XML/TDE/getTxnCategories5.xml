@@ -1,0 +1,20 @@
+<entity type="multiple">
+<request>
+  <get-txn-categories-multiple>
+  <get-txn-categories order="1">
+      <user>NO</user>
+      <classification>PERSONAL</classification>
+   </get-txn-categories>
+   </get-txn-categories-multiple>
+   </request>
+   <response>
+<transaction-multiple>
+<transaction order="1">
+	<row>
+	<filePath>../src/test/resources/TestData/JSONFiles/Sdg/KalamTDE_ResponseJson/</filePath>
+	<responseFile>UserCategoriesMergerDisabled.json</responseFile>
+	</row>
+	</transaction> 
+</transaction-multiple>	
+   </response>
+</entity>

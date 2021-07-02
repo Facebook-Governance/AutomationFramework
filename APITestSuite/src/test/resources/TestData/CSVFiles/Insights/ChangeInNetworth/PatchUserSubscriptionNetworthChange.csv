@@ -1,0 +1,22 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-146248,subscribe toNetworthChange,NetworthChange,,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,5,PERCENT",204,TRUE
+AT-146249,updateTriggerType,NetworthChange,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-146250, update insightName by same name,NetworthChange,negTestScenario17,,NetworthChange,,,,,,,,,,,,,,,,,,400,TRUE
+AT-146251, update insightName edit InsightName,NetworthChange,negTestScenario2,,NetworthChangeEditkfd,,,,,,,,,,,,,,,,,,400,TRUE
+AT-146252,update insightTitle,NetworthChange,negTestScenario33,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-146253,update container,NetworthChange,negTestScenario6,,,,BILLS,,,,,,,,,,,,,,,,400,TRUE
+AT-146254,update keys,NetworthChange,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-146255,update description,NetworthChange,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-146256,update applicableEntity,NetworthChange,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-146257,update entityParameter,NetworthChange,,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,10,PERCENT",204,TRUE
+AT-146258, update entityParameter->account[0]->id - Valid ItemAccountId,NetworthChange,,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,75,PERCENT",204,TRUE
+AT-146259, update entityParameter->account[0]->id - InValid ItemAccountId,NetworthChange,negTestScenario45,,,,,,,,,,1,,account,1,76823,,TRUE,,,"CHANGE,99,PERCENT",400,TRUE
+AT-146260, update entityParameter->account[0]->isSubscribed=false,NetworthChange,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-146261,update duration  -  entityParameter->account[0]->duration ,NetworthChange,negTestScenario48,,,,,,,,,,1,,account,1,,,TRUE,LAST_MONTH,,"CHANGE,58,PERCENT",400,TRUE
+AT-146262,update insightType to AGGREGATE - entityParameter->account[0]->insightType,NetworthChange,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"CHANGE,58,PERCENT",400,TRUE
+AT-146263,update insightType to INVALID - entityParameter->account[0]->insightType,NetworthChange,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"CHANGE,58,PERCENT",400,TRUE
+AT-146264,update threshold name  - entityParameter->account[0]->threshold[0]->name,NetworthChange,negTestScenario35,,,,,,,,,,1,,account,1,,,FALSE,,,"BALANCE,1000,PERCENT",400,TRUE
+AT-146265,update threshold values - entityParameter->account[0]->threshold[0]->value,NetworthChange,,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,58,PERCENT",204,TRUE
+AT-146266,update threshold type - entityParameter->account[0]->threshold[0]->type,NetworthChange,negTestScenario30,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,58,AMOUNT",400,TRUE
+AT-146267,"update threshold name ,value and type to BALANCE,200,AMOUNT",NetworthChange,,,,,,,,,,,1,,account,1,,,TRUE,,,"CHANGE,23,PERCENT",204,TRUE
+AT-146268,update configMeta - subscrption Info - configMeta->account[0]->id,NetworthChange,negTestScenario19,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"CHANGE,23,PERCENT",400,TRUE

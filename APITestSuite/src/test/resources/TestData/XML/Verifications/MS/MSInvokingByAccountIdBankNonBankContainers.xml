@@ -1,0 +1,41 @@
+<entity type="multiple">
+	<request>
+        <add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+            <siteUser>Zulfin</siteUser>
+            <siteUserId>76215</siteUserId>
+            <sitePwd>Zulfin</sitePwd>
+            <sitePwdId>76216</sitePwdId>
+            <siteId>18476</siteId>
+            <dataList>
+                <dataset>
+                    <name>ACCT_PROFILE</name>
+                    <attributeList>
+                        <attribute>
+                            <name>HOLDER_NAME</name>
+                            <container>bank,investment</container>
+                        </attribute>
+                    </attributeList>
+                </dataset>
+            </dataList>
+        </add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<msverification-multiple>
+		<msverification order="1">
+			<accountId>false</accountId>
+			<providerAccountId></providerAccountId>
+			<verificationType>MATCHING</verificationType>
+		</msverification>
+		</msverification-multiple>
+		</request>
+	 <response>
+		<msaccounts-multiple>
+		<msaccounts order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/Verification/MS/</filePath>
+				<responseFile>MSWithProviderAccountId.json</responseFile>
+			</row>
+		</msaccounts>
+		</msaccounts-multiple>
+	</response>
+</entity>

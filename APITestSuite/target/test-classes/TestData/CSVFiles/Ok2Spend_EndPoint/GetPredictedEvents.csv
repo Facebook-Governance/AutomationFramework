@@ -1,0 +1,5 @@
+testCaseId,testCase,resFilePath,resFile,container,Enabled,recurringEventStatus,sourceType,userAprovalStatus
+AT-114664,GetPredictedEvent-CardAccount,../src/test/resources/TestData/GetRecurringEvents/,,CARD,TRUE,ACTIVE,SYSTEM_PREDICTED,PENDING
+AT-114666,GetPredictedEvents-BankAccount,../src/test/resources/TestData/GetRecurringEvents/,BankAccount.json,BANK,TRUE,ACTIVE,SYSTEM_PREDICTED,PENDING
+AT-114667,GetPredictedEvent-optout,../src/test/resources/TestData/GetRecurringEvents/,,BANK,TRUE,ACTIVE,,
+AT-114668,GetPredictedEvent-optin,../src/test/resources/TestData/GetRecurringEvents/,BankAccount.json,BANK,TRUE,ACTIVE,,

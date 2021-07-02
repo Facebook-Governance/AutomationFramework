@@ -1,0 +1,11 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-146914,"Validate ExpensesExceededBudget , check if Insight is unSubscribed to OR isSubscribed=false ",,ExpensesExceededBudget,ExpensesExceededBudget,,,,,,accountGroup,FALSE,,,,200,TRUE
+AT-146915,"Validate ExpensesExceededBudget , Validate InsightName",,ExpensesExceededBudget,ExpensesExceededBudget,,,,,,,,,,,200,TRUE
+AT-146916,"Validate ExpensesExceededBudget , Validate Supporting container",,ExpensesExceededBudget,,,BANK CARD LOAN INVESTMENT,,,,,,,,,200,TRUE
+AT-146917,"Validate ExpensesExceededBudget , Validate TriggerType",REFRESH,ExpensesExceededBudget,,,,,,,,,,,,200,TRUE
+AT-146918,"Validate ExpensesExceededBudget , Validate applicableEntity",,ExpensesExceededBudget,,,,,,ACCOUNT_GROUP,,,,,,200,TRUE
+AT-146919,"Validate ExpensesExceededBudget , Validate number of levels and levelObject",,ExpensesExceededBudget,,,,,,ACCOUNT_GROUP,accountGroup,,,,,200,TRUE
+AT-146920,"Validate ExpensesExceededBudget , Validate isSubscribed=false",,ExpensesExceededBudget,,,,,,,,FALSE,,,,200,TRUE
+AT-146922,"Validate ExpensesExceededBudget , Validate insightKeys",,ExpensesExceededBudget,,,,Account_Group,,ACCOUNT_GROUP,,,,,,200,TRUE
+AT-146923,"Validate ExpensesExceededBudget , Validate description",,ExpensesExceededBudget,,,,,Generates an insight when actual spending is more than budgeted spending for the current month.,,,,,,,200,TRUE
+AT-146924,"Validate ExpensesExceededBudget , Validate title",,ExpensesExceededBudget,,Spending Exceeded Budget,,,,,,,,,,200,TRUE

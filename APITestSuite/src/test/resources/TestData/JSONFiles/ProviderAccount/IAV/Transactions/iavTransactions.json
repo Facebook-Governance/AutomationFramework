@@ -1,0 +1,142 @@
+{
+    "transaction": [
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.any-number}",
+            "amount": {
+                "amount": 100,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 25,
+            "category": "ATM/Cash Withdrawals",
+            "categorySource": "SYSTEM",
+            "description": {
+                "original": "BKOFAMERICA ATM WITHDRWL",
+                "simple": "Cash Withdrawal"
+            },
+            "type": "OTHER_WITHDRAWALS",
+            "subType": "DEBIT",
+            "isManual": false,
+            "date": "${json-unit.ignore}",
+            "transactionDate": "${json-unit.ignore}",
+            "postDate": "${json-unit.ignore}",
+            "status": "POSTED",
+            "accountId": "${json-unit.any-number}",
+            "checkNumber": "1098",
+            "merchant": {
+                "id": "bankofamerica",
+                "source": "FACTUAL",
+                "name": "Bank of America",
+                "categoryLabel": [
+                    "Transfers"
+                ],
+                "address": {
+                    "address1": "address1",
+                    "city": "COLORADO",
+                    "state": "AD",
+                    "country": "USA",
+                    "zip": "12345"
+                },
+                "coordinates": {
+                    "latitude": 0.0,
+                    "longitude": 90.0
+                }
+            },
+            "highLevelCategoryId": 10000010
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.any-number}",
+            "amount": {
+                "amount": 100,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 25,
+            "category": "ATM/Cash Withdrawals",
+            "categorySource": "SYSTEM",
+            "description": {
+                "original": "BKOFAMERICA ATM WITHDRWL",
+                "simple": "Cash Withdrawal"
+            },
+            "type": "OTHER_WITHDRAWALS",
+            "subType": "DEBIT",
+            "isManual": false,
+            "date": "${json-unit.ignore}",
+            "transactionDate": "${json-unit.ignore}",
+            "postDate": "${json-unit.ignore}",
+            "status": "POSTED",
+            "accountId": "${json-unit.any-number}",
+            "checkNumber": "1098",
+            "merchant": {
+                "id": "bankofamerica",
+                "source": "FACTUAL",
+                "name": "Bank of America",
+                "categoryLabel": [
+                    "Transfers"
+                ],
+                "address": {
+                    "address1": "address1",
+                    "city": "COLORADO",
+                    "state": "AD",
+                    "country": "USA",
+                    "zip": "12345"
+                },
+                "coordinates": {
+                    "latitude": 0.0,
+                    "longitude": 90.0
+                }
+            },
+            "highLevelCategoryId": 10000010
+        },
+        {
+            "CONTAINER": "bank",
+            "id": "${json-unit.any-number}",
+            "amount": {
+                "amount": 100,
+                "currency": "USD"
+            },
+            "baseType": "DEBIT",
+            "categoryType": "EXPENSE",
+            "categoryId": 25,
+            "category": "ATM/Cash Withdrawals",
+            "categorySource": "SYSTEM",
+            "description": {
+                "original": "BKOFAMERICA ATM WITHDRWL",
+                "simple": "Cash Withdrawal"
+            },
+            "type": "OTHER_WITHDRAWALS",
+            "subType": "DEBIT",
+            "isManual": false,
+            "date": "${json-unit.ignore}",
+            "transactionDate": "${json-unit.ignore}",
+            "postDate": "${json-unit.ignore}",
+            "status": "POSTED",
+            "accountId": "${json-unit.any-number}",
+            "checkNumber": "1098",
+            "merchant": {
+                "id": "bankofamerica",
+                "source": "FACTUAL",
+                "name": "Bank of America",
+                "categoryLabel": [
+                    "Transfers"
+                ],
+                "address": {
+                    "address1": "address1",
+                    "city": "COLORADO",
+                    "state": "AD",
+                    "country": "USA",
+                    "zip": "12345"
+                },
+                "coordinates": {
+                    "latitude": 0.0,
+                    "longitude": 90.0
+                }
+            },
+            "highLevelCategoryId": 10000010
+        }
+    ]
+ }

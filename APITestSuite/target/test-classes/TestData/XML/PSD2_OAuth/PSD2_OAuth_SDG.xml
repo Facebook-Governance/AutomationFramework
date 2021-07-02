@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PSD2 OAuth SDG Tests" parallel="methods"
+	thread-count="1">
+	<parameter name="suiteName" value="PSD2 OAuth SDG Tests" />
+	<listeners>
+		<listener class-name="com.yodlee.app.yodleeApi.listener.YodleeApiListener" />
+		<listener class-name="com.automation.rdashboard.ReportDashboardPlugin" />
+	</listeners>
+
+	<test name="PSD2 OAuth SDG Tests">
+		<classes>
+			<class name="com.yodlee.app.yodleeApi.psd2.SDG.TestSDGGetProviderDetailsOAuthCob" />
+			<class name="com.yodlee.app.yodleeApi.psd2.SDG.TestSDGGetPSDProvidersOAuthCob" />
+			<class name="com.yodlee.app.yodleeApi.psd2.SDG.TestSDGoAuthTokenOAuthCob" />
+		</classes>
+	</test>
+</suite>

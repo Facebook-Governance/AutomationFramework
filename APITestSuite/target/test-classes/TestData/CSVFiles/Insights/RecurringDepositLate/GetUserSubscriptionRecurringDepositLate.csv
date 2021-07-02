@@ -1,0 +1,14 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-147386,"getUserSubscription - Validate RecurringDepositLate , Validate InsightName",,RecurringDepositLate,RecurringDepositLate,,,,,,,,,,,,,200,TRUE
+AT-147387,"getUserSubscription - Validate RecurringDepositLate , Validate Supporting container",,RecurringDepositLate,,,BANK,,,,,,,,,,,200,TRUE
+AT-147388,"getUserSubscription - Validate RecurringDepositLate , Validate TriggerType",SCHEDULE,RecurringDepositLate,,,,,,,,,,,,,,200,TRUE
+AT-147389,"getUserSubscription - Validate RecurringDepositLate , Validate applicableEntity",,RecurringDepositLate,,,,,,,ACCOUNT,account,,,,,,200,TRUE
+AT-147390,"getUserSubscription - Validate RecurringDepositLate , Validate number of levels and levelObject",,RecurringDepositLate,,,,,,,ACCOUNT,account,,,,,,200,TRUE
+AT-147391,"getUserSubscription - Validate RecurringDepositLate , Validate isSubscribed=false",,RecurringDepositLate,,,,,,,,,FALSE,,,,,200,TRUE
+AT-147392,"getUserSubscription - Validate RecurringDepositLate , Validate threshold Name,Value and Type",,RecurringDepositLate,,,,,,,"ACCOUNT,VIEW",account,,,"DELAY,3,DAYS",,,200,TRUE
+AT-147393,"getUserSubscription - Validate RecurringDepositLate , Validate insightKeys",,RecurringDepositLate,,,,Account,,,,,,,,,,200,TRUE
+AT-147394,"getUserSubscription - Validate RecurringDepositLate , Validate description",,RecurringDepositLate,,,,,,Generates an insight if a recurring deposit has not posted to an account for more than a configured number of days.,,,,,,,,200,TRUE
+AT-147395,"getUserSubscription - Validate RecurringDepositLate , Validate title",,RecurringDepositLate,,Recurring Deposit is Late,,,,,,,,,,,,200,TRUE
+AT-147396,"getUserSubscription - Validate RecurringDepositLate , Validate ruleExpression",,RecurringDepositLate,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-147397,"getUserSubscription - Validate RecurringDepositLate , Validate total number of keys",,RecurringDepositLate,,,,,17,,,,,,,,,200,TRUE
+AT-147398,"getUserSubscription - Validate RecurringDepositLate , Validate frequency ",,RecurringDepositLate,,,,,,,,,,DAILY,,,,200,TRUE

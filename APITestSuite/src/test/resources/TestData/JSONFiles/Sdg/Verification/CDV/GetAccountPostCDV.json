@@ -1,0 +1,21 @@
+{
+    "account": [
+        {
+            "CONTAINER": "bank",
+            "providerAccountId": "${json-unit.ignore}",
+            "accountName": "Citi Bank",
+            "accountStatus": "ACTIVE",
+            "accountNumber": "${json-unit.ignore}",
+            "isAsset": true,
+            "id": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "includeInNetWorth": true,
+            "providerId": "7634",
+            "providerName": "Custom Bank",
+            "isManual": true,
+            "accountType": "SAVINGS",
+            "createdDate": "${json-unit.ignore}",
+            "userClassification": "PERSONAL"  
+        }
+    ]
+}

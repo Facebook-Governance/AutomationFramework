@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+
+<parameter name="coBrand" value="YCOM_AutoNPR"/>
+<parameter name="runOnBrowserStack" value="true" />
+<parameter name="bs_username" value="yodleebrowsersta1" />
+<parameter name="bs_automate_key" value="pzyoTJ6embZ48zsufsF2" />
+<parameter name="browser" value="Safari"/>
+<parameter name="browser_version" value="6.2" />
+<parameter name="platformName" value="Mac" />
+<parameter name="platformVersion" value="Mountain Lion" />
+<parameter name="elpamEnabled" value="true" />
+<parameter name="appFlag" value="false"> </parameter>
+<parameter name="loginType" value="SAML1" />
+<parameter name="healthCheckUp" value="false" />
+
+	
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	    <listener class-name="com.omni.pfm.listeners.CustomListener" /> 
+	</listeners>
+	
+
+  
+<test name="Login and Account Addition" preserve-order="true">
+	
+  <classes>
+	<class name="com.omni.pfm.AccountAddition.YCOM_Regression_AccAndGroupCreation">
+	</class>
+  </classes>
+	
+</test>
+
+<test name="Account Settings" preserve-order="true">
+   <classes>     
+      <class name="com.omni.pfm.AccountSettings.YCOM_Regression_Account_Group_Settings_Test"></class>   
+      <class name="com.omni.pfm.AccountSettings.YCOM_Regression_AggregatedAccount_Settings_Test"></class>
+      <class name="com.omni.pfm.AccountSettings.YCOM_Regression_ManualAccountSettings_Test"></class> 
+      <class name="com.omni.pfm.AccountSettings.YCOM_Regression_Real_Estate_Settings_Test"></class>            
+  </classes>
+</test> 
+   
+<test name="NetWorth" preserve-order="true">
+  <classes>
+       <class name="com.omni.pfm.Networth.NetWorth_Test">
+                     <methods>           
+                     <exclude name="verifyyearOnChart"></exclude>
+                     <exclude name="verifyTimeFilterAndChart"></exclude>
+                     <exclude name="excludeNetWorth"></exclude> 
+                     </methods>
+       </class>
+   </classes>
+</test>
+      
+      
+<test name="Dashboard" preserve-order="true">
+	<classes>
+	  	<class name="com.omni.pfm.Dashboard.DashBoard_Account_Test"></class>
+		<class name="com.omni.pfm.Dashboard.DashBoard_Budget_Test"></class>
+		<class name="com.omni.pfm.Dashboard.Dashboard_Integration_Test"></class> 
+		<class name="com.omni.pfm.Dashboard.DashBoard_InvestmentHolding_Test"></class>
+    	<class name="com.omni.pfm.Dashboard.DashBoard_NetWorth_Test"></class>
+		<class name="com.omni.pfm.Dashboard.DashBoard_Spending_Test"></class>
+	</classes>
+</test>
+	 
+</suite>

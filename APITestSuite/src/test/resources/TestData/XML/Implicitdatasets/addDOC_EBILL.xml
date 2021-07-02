@@ -1,0 +1,64 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>ReenuTestCatalog.site16441.1</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.1</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>DOCUMENT</name>
+					<attributeList>
+						<attribute>
+							<name>EBILL</name>
+							<container>creditCard</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		 <update-provider-accounts-multiple>
+		 <update-provider-accounts order="1">
+            <siteUser>ReenuTestCatalog.site16441.1</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.1</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+                <dataset>
+                    <name>DOCUMENT</name>
+                    <attributeList>
+                        <attribute>
+                            <name>EBILL</name>
+                            <container>insurance</container>
+                        </attribute>
+                    </attributeList>
+                </dataset>
+            </dataList>
+        </update-provider-accounts>
+		</update-provider-accounts-multiple>
+	</request>
+	<response>
+		<get-provider-accounts-multiple>
+		<get-provider-accounts order="1">
+			<row>
+				<!--<filePath>../src/test/resources/TestData/JSONFiles/Sdg/Implicitdatasets/</filePath>
+				<responseFile>addDOC.json</responseFile>-->
+				<datasetrequested>[{"container":"credits","dataset":[{"datasetId":3,"attributeIds":[11]},{"datasetId":1,"attributeIds":[5,7,13]}]}]</datasetrequested>
+			</row>
+		</get-provider-accounts>
+		</get-provider-accounts-multiple>
+		<refresh-provider-accounts-multiple>
+		<refresh-provider-accounts order="1">
+			<row>
+				<!--<responseFile>addDOC.json</responseFile>-->
+				<datasetrequested>[{"container":"insurance","dataset":[{"datasetId":3,"attributeIds":[11]},{"datasetId":1,"attributeIds":[5,7,13]}]}]</datasetrequested>
+			</row>
+		</refresh-provider-accounts>
+		</refresh-provider-accounts-multiple>
+		
+	</response>
+</entity>

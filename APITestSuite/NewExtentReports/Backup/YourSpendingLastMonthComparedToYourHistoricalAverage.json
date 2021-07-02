@@ -1,0 +1,183 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "insightName": {
+      "type": "string"
+    },
+    "insightTitle": {
+      "type": "string"
+    },
+    "insightType": {
+      "type": "string"
+    },
+    "triggerType": {
+      "type": "string"
+    },
+    "createdDate": {
+      "type": "string"
+    },
+    "subscription": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "entityType": {
+              "type": "string"
+            },
+            "frequency": {
+              "type": "string"
+            },
+            "duration": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "entityType",
+            "frequency",
+            "duration"
+          ]
+        }
+      ]
+    },
+    "transactionDerived": {
+      "type": "object",
+      "properties": {
+        "totalSpending": {
+          "type": "object",
+          "properties": {
+            "amount": {
+              "type": "number"
+            },
+            "currency": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "amount",
+            "currency"
+          ]
+        },
+        "averageSpending": {
+          "type": "object",
+          "properties": {
+            "amount": {
+              "type": "number"
+            },
+            "currency": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "amount",
+            "currency"
+          ]
+        }
+      },
+      "required": [
+        "totalSpending",
+        "averageSpending"
+      ]
+    },
+    "basicCategoryTypeDetail": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "dateRange": {
+              "type": "object",
+              "properties": {
+                "fromDate": {
+                  "type": "string"
+                },
+                "toDate": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "fromDate",
+                "toDate"
+              ]
+            },
+            "categoryType": {
+              "type": "string"
+            },
+            "netTotal": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            }
+          },
+          "required": [
+            "dateRange",
+            "categoryType",
+            "netTotal"
+          ]
+        }
+      ]
+    },
+    "changeValue": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "applicableAttribute": {
+              "type": "string"
+            },
+            "changeAmount": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amount",
+                "currency"
+              ]
+            },
+            "changePercent": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "applicableAttribute",
+            "changeAmount",
+            "changePercent"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "insightName",
+    "insightTitle",
+    "insightType",
+    "triggerType",
+    "createdDate",
+    "subscription",
+    "transactionDerived",
+    "basicCategoryTypeDetail",
+    "changeValue"
+  ]
+}

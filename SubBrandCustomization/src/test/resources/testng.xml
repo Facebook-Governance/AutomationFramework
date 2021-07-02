@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sub Brand Management Portal Automation" verbose="1">
+	<listeners>
+		<listener
+			class-name="com.yodlee.customizationtool.listeners.CustomListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener
+			class-name="com.automation.rdashboard.ReportDashboardPlugin" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+	</listeners>
+	<parameter name="suiteName"
+		value="Sub-brand Management Portal Automation"></parameter>
+	<test name="Sub Brand Management Tool Publish Workflows"
+		preserve-order="true">
+		<parameter name="environment" value="L1"></parameter>
+		<classes>
+			<class name="com.yodlee.customizationtool.Login" />
+			<class name="com.yodlee.customizationtool.CreateSubBrand" />
+			<class name="com.yodlee.customizationtool.EditSubBrand" />
+			<class name="com.yodlee.customizationtool.ViewListOfSubBrands" />
+			<!-- <class name="com.yodlee.customizationtool.DeleteSubBrandAndVerify" /> -->
+		</classes>
+	</test>
+	<test name="Sub Brand Management Tool -Customization Workflows"
+		preserve-order="true">
+		<parameter name="environment" value="L1"></parameter>
+		<classes>
+			<class
+				name="com.yodlee.customizationtool.CreateSubBrandAndCustomize" />
+		</classes>
+	</test>
+</suite>

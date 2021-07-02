@@ -1,0 +1,3 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,recurringEventId,sourceType,enabled
+1,Delete-Manual,400,InvalidRecurringEventId.json,../src/test/resources/TestData/ErrorMessage/,VALID,MANUAL,TRUE
+3,Delete-System,400,InvalidRecurringEventId.json,../src/test/resources/TestData/ErrorMessage/,VALID,SYSTEM_PREDICTED,TRUE

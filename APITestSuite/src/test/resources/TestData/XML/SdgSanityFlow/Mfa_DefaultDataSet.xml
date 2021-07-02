@@ -1,0 +1,27 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>AutoDocDownAdd10.site16442.2</siteUser>
+			<siteUserId>65501</siteUserId>
+			<sitePwd>site16442.2</sitePwd>
+			<sitePwdId>65502</sitePwdId>
+			<siteId>16442</siteId>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<update-provider-accounts-multiple>
+		<update-provider-accounts order="1">
+			<token>123456</token>
+			<answer1>Texas</answer1>
+			<answer2>w3schools</answer2>
+		</update-provider-accounts>
+		</update-provider-accounts-multiple>
+		<providerAccountsDetails-multiple>
+		<providerAccountsDetails order="1">
+			<include>questionAndAnswer</include>
+		</providerAccountsDetails>
+		</providerAccountsDetails-multiple>
+	</request>
+	<response>
+	</response>
+</entity>

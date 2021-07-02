@@ -1,0 +1,10 @@
+testcaseId,testcaseName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,usTestCaseId,priority,FormType,enabled
+"AT-88889,AT-88895,AT-88012",FAN number for Bank container,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/FAN/,bank_fan.xml,YES,NO,FAN_1,P1,Simplified,TRUE
+"AT-88905,AT-88900",FAN number for Investment Container,GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/FAN/,investment_fan.xml,YES,NO,FAN_2,P1,Simplified,TRUE
+"AT-88903, AT-88897",FAN For Loan Container,GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/FAN/,loan_fan.xml,YES,NO,FAN_3,P1,Simplified,FALSE
+"AT-88902,AT-88896",FAN For Credit card Container,GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/FAN/,credit_fan.xml,YES,NO,FAN_4,P1,Simplified,FALSE
+"AT-88893,AT-88891",FAN requested in non camelCase,GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/FAN/,nonCamelCase.xml,YES,NO,FAN_5,P1,Simplified,TRUE
+"AT-88913,AT-88890,AT-88894",FAN Not requested in getAccount request,GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/FAN/,getAccount_NoFan.xml,YES,NO,FAN_6,P2,Simplified,TRUE
+"AT-88910,AT-88911",without any container,GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/FAN/,nocontainer_fan.xml,YES,NO,FAN_7,P2,Simplified,FALSE
+"AT-88904, AT-88899",FAN for Insurance Container,ADD_PROVIDER_ACCOUNT#GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/FAN/,insurance_fan.xml,YES,NO,FAN_8,P1,Simplified,FALSE
+AT-88898,FAN For Reward Container,GET_ACCOUNTS#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/FAN/,reward_fan.xml,YES,NO,FAN_9,P1,Simplified,FALSE

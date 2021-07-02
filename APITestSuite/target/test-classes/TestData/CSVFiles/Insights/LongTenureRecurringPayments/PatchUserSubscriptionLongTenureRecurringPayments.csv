@@ -1,0 +1,22 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147427,patchUserSubscrionption - subscribe to LongTenureRecurringPayments,LongTenureRecurringPayments,,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-147453,patchUserSubscrionption - updateTriggerType,LongTenureRecurringPayments,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147454,patchUserSubscrionption -  update insightName by same name,LongTenureRecurringPayments,negTestScenario17,,LongTenureRecurringPayments,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147455,patchUserSubscrionption -  update insightName edit InsightName,LongTenureRecurringPayments,negTestScenario2,,LongTenureRecurringPaymentsEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147452,patchUserSubscrionption - update insightTitle,LongTenureRecurringPayments,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-147451,patchUserSubscrionption - update container,LongTenureRecurringPayments,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-147450,patchUserSubscrionption - update keys,LongTenureRecurringPayments,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147449,patchUserSubscrionption - update description,LongTenureRecurringPayments,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147456,patchUserSubscrionption - update applicableEntity,LongTenureRecurringPayments,negTestScenario9,,,,,,,,,LOAN,,,,,,,,,,,400,TRUE
+AT-147443,patchUserSubscrionption - update entityParameter,LongTenureRecurringPayments,,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-147444,patchUserSubscrionption -  update entityParameter->account[0]->id - Valid ItemAccountId,LongTenureRecurringPayments,,,,,,,,,,,1,,account,1,,,TRUE,,,"TOP,5,NUMBER",204,TRUE
+AT-147445,patchUserSubscrionption -  update entityParameter->account[0]->id - InValid ItemAccountId,LongTenureRecurringPayments,negTestScenario42,,,,,,,,,,1,,account,1,76823,,TRUE,,,"TOP,5,NUMBER",400,TRUE
+AT-147442,patchUserSubscrionption -  update entityParameter->account[0]->isSubscribed=false,LongTenureRecurringPayments,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-147432,patchUserSubscrionption - update duration  -  entityParameter->account[0]->frequency,LongTenureRecurringPayments,negTestScenario32,,,,,,,,,,1,,account,1,,WEEKLY,TRUE,,,"TOP,5,NUMBER",400,TRUE
+AT-147441,patchUserSubscrionption - update insightType to AGGREGATE - entityParameter->account[0]->insightType,LongTenureRecurringPayments,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,AGGREGATE,"TOP,5,NUMBER",400,TRUE
+AT-147440,patchUserSubscrionption - update insightType to INVALID - entityParameter->account[0]->insightType,LongTenureRecurringPayments,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"TOP,5,NUMBER",400,TRUE
+AT-147430,patchUserSubscrionption - update threshold name  - entityParameter->account[0]->threshold[0]->name,LongTenureRecurringPayments,negTestScenario43,,,,,,,,,,1,,account,1,,,FALSE,,,"AMOUNT,5,NUMBER",400,TRUE
+AT-147435,patchUserSubscrionption - update threshold values - entityParameter->account[0]->threshold[0]->value,LongTenureRecurringPayments,negTestScenario35,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1455,AMOUNT",400,TRUE
+AT-147439,patchUserSubscrionption - update threshold type - entityParameter->account[0]->threshold[0]->type,LongTenureRecurringPayments,negTestScenario35,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1455,PERCENT",400,TRUE
+AT-147433,"patchUserSubscrionption - update threshold name ,value and type to BALANCE,200,AMOUNT",LongTenureRecurringPayments,negTestScenario35,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,200,AMOUNT",400,TRUE
+AT-147431,patchUserSubscrionption - update configMeta - subscrption Info - configMeta->account[0]->id,LongTenureRecurringPayments,negTestScenario19,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"TOP,5,NUMBER",400,TRUE

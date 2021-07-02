@@ -1,0 +1,35 @@
+<entity type="multiple">
+	<request>
+	<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>TC_024</siteUser>
+			<siteUserId>65971</siteUserId>
+			<sitePwd>woody</sitePwd>
+			<sitePwdId>65972</sitePwdId>
+			<siteId>16609</siteId>
+			<ignoreGetProviderAccountFailure>true</ignoreGetProviderAccountFailure>
+			<dataList>
+				<dataset>
+					<name>ACCT_PROFILE</name>
+					<attributeList>
+						<attribute>
+							<name>HOLDER_NAME</name>
+							<container>bank,creditCard,loan,investment</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+	</request>
+	<response>
+	<get-provider-accounts-multiple>
+		<get-provider-accounts order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/RefreshStatus/</filePath>
+				<responseFile>TC_024.json</responseFile>
+			</row>
+		</get-provider-accounts>
+		</get-provider-accounts-multiple>
+	</response>
+</entity>

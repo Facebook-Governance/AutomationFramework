@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-146950,"Validate TopMerchantsConsumerLevel , Validate InsightName",,TopMerchantsConsumerLevel,TopMerchantsConsumerLevel,,,,,,,,,,,,200,TRUE
+AT-146951,"Validate TopMerchantsConsumerLevel , Validate Supporting container",,TopMerchantsConsumerLevel,,,BANK CARD INVESTMENT,,,,,,,,,,200,TRUE
+AT-146952,"Validate TopMerchantsConsumerLevel , Validate TriggerType",SCHEDULE,TopMerchantsConsumerLevel,,,,,,,,,,,,,200,TRUE
+AT-146953,"Validate TopMerchantsConsumerLevel , Validate applicableEntity",,TopMerchantsConsumerLevel,,,,,,Account,,,,,,,200,TRUE
+AT-146954,"Validate TopMerchantsConsumerLevel , Validate number of levels and levelObject",,TopMerchantsConsumerLevel,,,,,,Account,account,,,,,,200,TRUE
+AT-146955,"Validate TopMerchantsConsumerLevel , Validate isSubscribed=false",,TopMerchantsConsumerLevel,,,,,,,,FALSE,,,,,200,TRUE
+AT-146956,"Validate TopMerchantsConsumerLevel , Validate threshold Name,Value and Type",,TopMerchantsConsumerLevel,,,,,,,account,,,,,,200,TRUE
+AT-146957,"Validate TopMerchantsConsumerLevel , Validate insightKeys",,TopMerchantsConsumerLevel,,,,Account,,,,,,,,,200,TRUE
+AT-146958,"Validate TopMerchantsConsumerLevel , Validate description",,TopMerchantsConsumerLevel,,,,,Generates an insight that provides spending trends (based on $ amount) by merchant over a configured time period across all the eligible accounts for the user.,,,,,,,,200,TRUE
+AT-146959,"Validate TopMerchantsConsumerLevel , Validate title",,TopMerchantsConsumerLevel,,Spending By Merchant : All Accounts,,,,,,,,,,,200,TRUE
+AT-146960,"Validate TopMerchantsConsumerLevel , Validate ruleExpression",,TopMerchantsConsumerLevel,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-146961,"Validate TopMerchantsConsumerLevel , verify entityParameter and configMeta are same",,TopMerchantsConsumerLevel,,,,,,,,,,,,TRUE,200,TRUE

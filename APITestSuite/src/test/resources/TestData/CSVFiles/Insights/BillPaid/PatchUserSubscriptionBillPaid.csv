@@ -1,0 +1,13 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-BillPaid40,patchUserSubscription - subscribe to BillPaid,BillPaid,,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,,,204,TRUE
+AT-BillPaid41,patchUserSubscription - updateTriggerType,BillPaid,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-BillPaid42,patchUserSubscription -  update insightName by same name,BillPaid,negTestScenario17,,BillPaid,,,,,,,,,,,,,,,,,,400,TRUE
+AT-BillPaid43,patchUserSubscription -  update insightName edit InsightName,BillPaid,negTestScenario2,,BillPaidEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-BillPaid44,patchUserSubscription - update insightTitle,BillPaid,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-BillPaid45,patchUserSubscription - update container,BillPaid,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-BillPaid46,patchUserSubscription - update keys,BillPaid,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-BillPaid47,patchUserSubscription - update description,BillPaid,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-BillPaid48,patchUserSubscription - update applicableEntity,BillPaid,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-BillPaid49,patchUserSubscription - update entityParameter,BillPaid,,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,,,204,TRUE
+AT-BillPaid50,patchUserSubscription - update insightType to AGGREGATE,BillPaid,negTestScenarioPvc02,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,AGGREGATE    AGGREGATE,,400,TRUE
+AT-BillPaid51,patchUserSubscription - update insightType to INVALID,BillPaid,negTestScenarioPvc02,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,INVALID   INVALID,,400,TRUE

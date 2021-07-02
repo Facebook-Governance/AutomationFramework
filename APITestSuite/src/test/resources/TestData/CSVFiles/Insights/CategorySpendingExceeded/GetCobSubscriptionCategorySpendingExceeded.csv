@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-148821,"getCobrandSubscription - Validate CategorySpendingExceeded , check if Insight is unSubscribed to OR isSubscribed=false ",,CategorySpendingExceeded,CategorySpendingExceeded,,,,,,,account,FALSE,,,,200,TRUE
+AT-148822,"getCobrandSubscription - Validate CategorySpendingExceeded , Validate InsightName",,CategorySpendingExceeded,CategorySpendingExceeded,,,,,,,,,,,,200,TRUE
+AT-148823,"getCobrandSubscription - Validate CategorySpendingExceeded , Validate Supporting container",,CategorySpendingExceeded,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-148824,"getCobrandSubscription - Validate CategorySpendingExceeded , Validate TriggerType",REFRESH,CategorySpendingExceeded,,,,,,,,,,,,,200,TRUE
+AT-148825,"getCobrandSubscription - Validate CategorySpendingExceeded , Validate applicableEntity",,CategorySpendingExceeded,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-148826,"getCobrandSubscription - Validate CategorySpendingExceeded , Validate number of levels and levelObject",,CategorySpendingExceeded,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-148827,"getCobrandSubscription - Validate CategorySpendingExceeded , Validate isSubscribed=false",,CategorySpendingExceeded,,,,,,,,,FALSE,,,,200,TRUE
+AT-148828,"getCobrandSubscription - Validate CategorySpendingExceeded , Validate threshold Name,t Value  and Type",,CategorySpendingExceeded,,,,,,,,account,,,"CHANGE,50,AMOUNT  CHANGE,10,PERCENT",,200,TRUE
+AT-148829,"getCobrandSubscription - Validate CategorySpendingExceeded , Validate insightKeys",,CategorySpendingExceeded,,,,Account,,,,,,,,,200,TRUE
+AT-148830,"getCobrandSubscription - Validate CategorySpendingExceeded , Validate description",,CategorySpendingExceeded,,,,,,"Generates an insight when the difference, per category, between current spending and average spending over the previous three months is more than a configured threshold.",,,,,,,200,TRUE
+AT-148831,"getCobrandSubscription - Validate CategorySpendingExceeded , Validate title",,CategorySpendingExceeded,,Spending Exceeded Average,,,,,,,,,,,200,TRUE
+AT-148832,"getCobrandSubscription - Validate CategorySpendingExceeded , Validate ruleExpression",,CategorySpendingExceeded,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE

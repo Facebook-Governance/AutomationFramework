@@ -1,0 +1,25 @@
+test case id,cobSessionKey,cobSesion,userSessionKey,userSession,fileName,filePath,status,Enabled,DefectID
+AT-67002,cobSession,EMPTY,userSession,VALID,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67003,cobSession,EXPIRED,userSession,VALID,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67004,nullTest,NULL,userSession,VALID,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67005,cobSession,VALID,userSession,EMPTY,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67006,cobSession,EMPTY,userSession,EMPTY,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67007,cobSession,EXPIRED,userSession,EMPTY,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67008,nullTest,NULL,userSession,EMPTY,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67009,cobSession,EMPTY,nullTest,NULL,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67010,cobSession,EXPIRED,nullTest,NULL,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67011,nullTest,NULLTest,nullTest,NULLTest,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67012,cobSession,VALID,nullTest,NULL,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67013,cobSession,EMPTY,userSession,EXPIRED,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67014,cobSession,EXPIRED,userSession,EXPIRED,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67015,nullTest,NULL,userSession,EXPIRED,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67016,cobSession,VALID,userSession,EXPIRED,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67017,cobSession,INVALID,userSession,VALID,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67018,cobSession,INVALID,userSession,EMPTY,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67019,cobSession,INVALID,nullTest,NULL,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67020,cobSession,INVALID,userSession,EXPIRED,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67021,cobSession,INVALID,userSession,INVALID,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67022,cobSession,EXPIRED,userSession,INVALID,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67023,nullTest,NULL,userSession,INVALID,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67024,cobSession,VALID,userSession,INVALID,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0
+AT-67025,cobSession,EMPTY,userSession,INVALID,T-TCR-CUS-01,../src/test/resources/TestData/Transactions/TxnRule/CreateTxnCatRule/,401,TRUE,0

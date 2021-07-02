@@ -1,0 +1,8 @@
+tcId,testCaseName,siteName,siteId,cobSiteIoe,siteIoe,bat,expectedAuthType,expectedStatus
+1,WellsFargo,WellsFargo,5,Null,FALSE,3,MFA_CREDENTIALS,Supported
+2,Dag OAuth,Dag OAuth,19335,Null,TRUE,Null,OAUTH,Unsupported
+3,Nationwide OB,Nationwide OB,24161,Null,TRUE,Null,OAUTH,Unsupported
+4,ModeloBank,ModeloBank,24016,Null,TRUE,Null,OAUTH,Unsupported
+5,NewYorkTimes,NewYorkTimes,3,Null,TRUE,1,OAUTH,Unsupported
+6,Elevations CU,Elevations CU,10612,TRUE,Null,4,OAUTH,Unsupported
+7,Fidelity OAuth,Fidelity OAuth,21952,TRUE,TRUE,3,OAUTH,Unsupported

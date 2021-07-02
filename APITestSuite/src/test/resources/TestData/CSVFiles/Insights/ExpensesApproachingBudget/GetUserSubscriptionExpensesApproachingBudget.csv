@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-143237,"Validate ExpensesApproachingBudget , Validate InsightName",,ExpensesApproachingBudget,ExpensesApproachingBudget,,,,,,,,,,,,,200,TRUE
+AT-143238,"Validate ExpensesApproachingBudget , Validate Supporting container",,ExpensesApproachingBudget,,,"BANK,CARD,LOAN,INVESTMENT",,,,,,,,,,,200,TRUE
+AT-143239,"Validate ExpensesApproachingBudget , Validate TriggerType",REFRESH,ExpensesApproachingBudget,,,,,,,,,,,,,,200,TRUE
+AT-143240,"Validate ExpensesApproachingBudget , Validate applicableEntity",,ExpensesApproachingBudget,,,,,,,ACCOUNT_GROUP,,,,,,,200,TRUE
+AT-143241,"Validate ExpensesApproachingBudget , Validate number of levels and levelObject",,ExpensesApproachingBudget,,,,,,,ACCOUNT_GROUP,accountGroup,,,,,,200,TRUE
+AT-143242,"Validate ExpensesApproachingBudget , Validate isSubscribed=true",,ExpensesApproachingBudget,,,,,,,,accountGroup,TRUE,,,,,200,TRUE
+AT-143243,"Validate ExpensesApproachingBudget , Validate threshold Name,Value and Type",,ExpensesApproachingBudget,,,,,,,,accountGroup,,,"UPPER_LIMIT,90,PERCENT",,,200,TRUE
+AT-143244,"Validate ExpensesApproachingBudget , Validate insightKeys",,ExpensesApproachingBudget,,,,Account,,,,,,,,,,200,TRUE
+AT-143245,"Validate ExpensesApproachingBudget , Validate description",,ExpensesApproachingBudget,,,,,,Generates an insight when actual spending is more than a configured threshold % of budgeted spending for the current month.,,,,,,,,200,TRUE
+AT-143246,"Validate ExpensesApproachingBudget , Validate title",,ExpensesApproachingBudget,,Spending Approaching Budget,,,,,,,,,,,,200,TRUE
+AT-143247,"Validate ExpensesApproachingBudget , Validate total number of keys",,ExpensesApproachingBudget,,,,,10,,,,,,,,,200,TRUE
+AT-143248,"Validate ExpensesApproachingBudget , Validate if ruleExpression present",,ExpensesApproachingBudget,,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE

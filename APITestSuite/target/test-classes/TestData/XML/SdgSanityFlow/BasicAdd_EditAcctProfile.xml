@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>SdgSanitySuite.site16441.1</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.1</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>ACCOUNT_DETAILS</name>
+							<container>bank,loan</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<update-provider-accounts-multiple>
+		<update-provider-accounts order="1">
+			<siteUser>SdgSanitySuite.site16441.2</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.2</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>ACCT_PROFILE</name>
+					<attributeList>
+						<attribute>
+							<name>FULL_ACCT_NUMBER</name>
+							<container>investment,bank</container>
+						</attribute>
+						<attribute>
+							<name>BANK_TRANSFER_CODE</name>
+							<container>investment,bank</container>
+						</attribute>
+						<attribute>
+							<name>HOLDER_DETAILS</name>
+							<container>investment,bank</container>
+						</attribute>
+						<attribute>
+							<name>HOLDER_NAME</name>
+							<container>investment,bank</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</update-provider-accounts>
+		</update-provider-accounts-multiple>
+	</request>
+	<response>
+		<get-provider-accounts-multiple>
+		<get-provider-accounts order="1">
+			<row>
+				<filePath>..\src\test\resources\TestData\SingleDataGathering\SdgSanityFlow\
+				</filePath>
+				<responseFile>AccountProfile.json</responseFile>
+			</row>
+		</get-provider-accounts>
+		</get-provider-accounts-multiple>
+		<siteRefreshStats-multiple>
+		<siteRefreshStats order="1">
+
+			<datasetDetails>[{"container":"stocks","dataset":[{"datasetId":2,"attributeIds":[1,4,2,3]},{"datasetId":1,"attributeIds":[13]}]},{"container":"bank","dataset":[{"datasetId":2,"attributeIds":[1,4,2,3]},{"datasetId":1,"attributeIds":[13]}]}]
+			</datasetDetails>
+			<memSiteAccExtnJson>[{"datasetId":2,"refreshStatus":7,"errorCode":0,"attribDetails":[{"attributeId":1,"refreshStatus":7,"errorCode":0},{"attributeId":2,"refreshStatus":7,"errorCode":0},{"attributeId":3,"refreshStatus":7,"errorCode":0},{"attributeId":4,"refreshStatus":7,"errorCode":0}]},{"datasetId":1,"refreshStatus":7,"errorCode":0,"attribDetails":[{"attributeId":13,"refreshStatus":7,"errorCode":0}]}]
+			</memSiteAccExtnJson>
+
+		</siteRefreshStats>
+		</siteRefreshStats-multiple>
+	</response>
+</entity>

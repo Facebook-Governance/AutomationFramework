@@ -1,0 +1,6 @@
+TestCaseID,accountId,Title,Status,ResFile,Enabled,fileLocation
+AT-63880,1,Invalid account id,400,InvalidAccountId,TRUE,../src/test/resources/TestData/JSONFiles/Accounts/DeleteAccounts/Negative/
+AT-63881,+,Special Character account id,400,InvalidInput,TRUE,../src/test/resources/TestData/JSONFiles/Accounts/DeleteAccounts/Negative/
+AT-63882,s,Alphabet as account id,400,InvalidInput,TRUE,../src/test/resources/TestData/JSONFiles/Accounts/DeleteAccounts/Negative/
+AT-63883,1s,Alphabet and number as account id,400,InvalidInput,TRUE,../src/test/resources/TestData/JSONFiles/Accounts/DeleteAccounts/Negative/
+AT-63884,1$,Alphabet and special character as account id,400,InvalidInput,TRUE,../src/test/resources/TestData/JSONFiles/Accounts/DeleteAccounts/Negative/

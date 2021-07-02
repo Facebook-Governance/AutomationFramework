@@ -1,0 +1,23 @@
+{
+  "user": {
+    "preferences": {
+      "dateFormat": "MM/dd/yyyy",
+      "timeZone": "PST",
+      "currency": "USD"
+    },
+    "address": {
+      "country": "~`!@#$%^\u0026*()_+\u003d-{}|\\:;\"\u0027\u003c.\u003e,?/",
+      "address2": "~`!@#$%^\u0026*()_+\u003d-{}|\\:;\"\u0027\u003c.\u003e,?/",
+      "city": "~`!@#$%^\u0026*()_+\u003d-{}|\\:;\"\u0027\u003c.\u003e,?/",
+      "address1": "~`!@#$%^\u0026*()_+\u003d-{}|\\:;\"\u0027\u003c.\u003e,?/"
+    },
+    "loginName": "${json-unit.ignore}",
+    "name": {
+      "last": "Babu",
+      "first": "Sathish"
+    },
+    "id": "${json-unit.ignore}",
+    "roleType": "INDIVIDUAL",
+    "email": "test@yodlee.com"
+  }
+}

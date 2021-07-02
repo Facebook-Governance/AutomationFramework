@@ -1,0 +1,210 @@
+{
+  "account": [
+    {
+      "includeInNetWorth": true,
+      "accountName": "BankAccount3",
+      "profile": {
+        "identifier": [
+          {
+            "type": "AADHAR",
+            "value": "678657"
+          }
+        ],
+        "address": [
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          },
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          },
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          },
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          },
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          }
+        ],
+        "phoneNumber": [
+          {
+            "type": "HOME",
+            "value": "8888888888"
+          },
+          {
+            "type": "WORK",
+            "value": "777777777"
+          },
+          {
+            "type": "LANDLINE",
+            "value": "5555555555"
+          },
+          {
+            "type": "MOBILE",
+            "value": "6666666666"
+          }
+        ],
+        "email": [
+          {
+            "type": "PRIMARY",
+            "value": "primaryprofilebank@email.com"
+          },
+          {
+            "type": "SECONDARY",
+            "value": "secondaryemailprofilebank@gmail.com"
+          },
+          {
+            "type": "PERSONAL",
+            "value": "personalprofilebank@gmail.com"
+          },
+          {
+            "type": "WORK",
+            "value": "unique1profilebank@gmail.com"
+          },
+          {
+            "type": "OTHERS",
+            "value": "othersEmailprofilebank@gmail.com"
+          },
+          {
+            "type": "OTHERS",
+            "value": "accTprofilefORbank@gmail.com"
+          }
+        ]
+      },
+      "isManual": false,
+      "currentBalance": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "accountType": "OTHER",
+      "displayedName": "${json-unit.ignore}",
+      "holder": [
+        {
+          "identifier": [
+            {
+              "type": "EIN",
+              "value": "344"
+            }
+          ],
+          "phoneNumber": [
+            {
+              "type": "HOME",
+              "value": "111111223"
+            },
+            {
+              "type": "WORK",
+              "value": "0000123234"
+            },
+            {
+              "type": "LANDLINE",
+              "value": "996638538"
+            },
+            {
+              "type": "MOBILE",
+              "value": "91231337"
+            }
+          ],
+          "ownership": "SECONDARY",
+          "name": {
+            "middle": "holder",
+            "last": "Name secondary2",
+            "fullName": "mutiple holder Name secondary2",
+            "first": "mutiple"
+          },
+          "dateOfBirth": "2017-02-16"
+        },
+        {
+          "identifier": [
+            {
+              "type": "EIN",
+              "value": "344"
+            }
+          ],
+          "phoneNumber": [
+            {
+              "type": "HOME",
+              "value": "111111223"
+            },
+            {
+              "type": "WORK",
+              "value": "0000123234"
+            },
+            {
+              "type": "LANDLINE",
+              "value": "996638538"
+            },
+            {
+              "type": "MOBILE",
+              "value": "91231337"
+            }
+          ],
+          "ownership": "PRIMARY",
+          "name": {
+            "middle": "holder",
+            "last": "name primary2",
+            "fullName": "mutiple holder name primary2",
+            "first": "mutiple"
+          },
+          "dateOfBirth": "2017-02-16"
+        }
+      ],
+      "accountNumber": "xxxx8803",
+      "availableBalance": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "lastUpdated": "${json-unit.ignore}",
+      "isAsset": true,
+      "createdDate": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "providerId": "19705",
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "id": "${json-unit.ignore}",
+      "userClassification": "PERSONAL",
+      "dataset": [
+        {
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "name": "ACCT_PROFILE",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        },
+        {
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "HongLeong Bank"
+    }
+  ]
+}

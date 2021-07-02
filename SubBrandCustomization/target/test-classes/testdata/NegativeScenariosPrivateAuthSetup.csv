@@ -1,0 +1,5 @@
+Test ID,Enabled,Test Name,loginMechanism
+AT-000001,TRUE,NoLoginMechanism,None
+AT-000002,TRUE,EmptyDetails,SAML;JWT
+AT-000003,TRUE,MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit,SAML;JWT
+AT-000004,TRUE,MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey,SAML;JWT

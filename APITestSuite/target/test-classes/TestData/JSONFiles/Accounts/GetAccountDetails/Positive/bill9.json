@@ -1,0 +1,45 @@
+{
+	"account": [
+		{
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "DAG_BILLING2",
+			"dueDate": "2013-12-28",
+			"accountType": "CABLE",
+			"isManual": false,
+			"accountNumber": "555555",
+			"frequency": "ANNUALLY",
+			"accountStatus": "ACTIVE",
+			"amountDue": {
+				"amount": 1200,
+				"currency": "USD"
+			},
+			"refreshinfo": {
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"isAsset": false,
+			"aggregationSource": "USER",
+			"balance": {
+				"amount": 1200,
+				"currency": "USD"
+			},
+			"providerId": "16441",
+			"CONTAINER": "bill",
+			"lastPaymentAmount": {
+				"amount": 5600,
+				"currency": "USD"
+			},
+			"providerName": "Dag Site",
+			"minimumAmountDue": {
+				"amount": 100,
+				"currency": "USD"
+			}
+		}
+	]
+}

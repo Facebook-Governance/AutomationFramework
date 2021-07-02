@@ -1,0 +1,22 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147400,patchCobrandSubscription - subscribe to ProjectedInsufficientBalance isSubscribed=true,ProjectedInsufficientBalance,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,10,AMOUNT",204,TRUE
+AT-147401,patchCobrandSubscription - update insightName to same name,ProjectedInsufficientBalance,negTestScenario1,ProjectedInsufficientBalance,,,,,,,,,,,,,,,,,,500,TRUE
+AT-147402,patchCobrandSubscription -  update insightName to different name,ProjectedInsufficientBalance,negTestScenario2,ProjectedInsufficientBalanceEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147403,patchCobrandSubscription - update insightTitle chars between 3 and 100 ,ProjectedInsufficientBalance,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-147404,patchCobrandSubscription -  update insightTitle chars are only 3,ProjectedInsufficientBalance,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-147405,patchCobrandSubscription - update insightTitle chars are only 100,ProjectedInsufficientBalance,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-147406,patchCobrandSubscription - update insightTitle chars are less than 3,ProjectedInsufficientBalance,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-147407,patchCobrandSubscription -  update insightTitle chars are greater 100,ProjectedInsufficientBalance,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-147408,patchCobrandSubscription - update insightTitle chars are special characters,ProjectedInsufficientBalance,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-147409,patchCobrandSubscription - update insightTitle chars are special characters,ProjectedInsufficientBalance,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-147410,patchCobrandSubscription -  update keys,ProjectedInsufficientBalance,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147411,patchCobrandSubscription -  update description,ProjectedInsufficientBalance,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147412,patchCobrandSubscription -  update applicableEntity,ProjectedInsufficientBalance,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-147413,patchCobrandSubscription -  update entityParameter,ProjectedInsufficientBalance,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,10,AMOUNT",204,TRUE
+AT-147414,patchCobrandSubscription - update entityParameter->account[0]->isSubscribed=false,ProjectedInsufficientBalance,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-147415,patchCobrandSubscription - update entityParameter->Value,ProjectedInsufficientBalance,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,100,AMOUNT",204,TRUE
+AT-147416,patchCobrandSubscription -  update entityParameter->type,ProjectedInsufficientBalance,negTestScenario28,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,10,PERCENT",400,TRUE
+AT-147417,patchCobrandSubscription -  update entityParameter->name,ProjectedInsufficientBalance,negTestScenario35,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,10,AMOUNT",400,TRUE
+AT-147418,patchCobrandSubscription -  update frequency,ProjectedInsufficientBalance,,,,,,,,,,,,,,,,TRUE,,,,204,TRUE
+AT-147419,patchCobrandSubscription -  update frequency-revert,ProjectedInsufficientBalance,,,,,,,,,,,,,,,,TRUE,,,,204,TRUE
+AT-147420,patchCobrandSubscription - update insightTitle to ProjectedInsufficientBalance,ProjectedInsufficientBalance,,,Insufficient Balance To Cover Upcoming Bills And Subscriptions,,,,,,,,,,,,,TRUE,,,,204,TRUE

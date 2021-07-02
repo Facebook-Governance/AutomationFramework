@@ -1,0 +1,5 @@
+TestcaseId,tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,enabled,priority,formType
+AT-99007,MetricsData_1,01_Check Metrics data for Add Account,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/MetricsData/,Metrics_Data_Add_Account.xml,FALSE,TRUE,TRUE,P1,Simplified
+AT-99009,MetricsData_2,02_Check Metrics data for Update Account,ADD_PROVIDER_ACCOUNT#UPDATE_PROVIDER_ACCOUNT_REFRESH,../src/test/resources/TestData/XML/MetricsData/,Metrics_Data_Edit_Account.xml,FALSE,TRUE,TRUE,P1,Simplified
+AT-99008,MetricsData_3,03_Check Metrics data for Edit Account,ADD_PROVIDER_ACCOUNT#UPDATE_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/MetricsData/,Metrics_Data_Update_Account.xml,FALSE,TRUE,TRUE,P1,Simplified
+AT-99011,MetricsData_4,04_Check Metrics data for Error Code scenarios,ADD_PROVIDER_ACCOUNT,../src/test/resources/TestData/XML/MetricsData/,Metrics_Data_Error_Code.xml,FALSE,TRUE,TRUE,P1,Simplified

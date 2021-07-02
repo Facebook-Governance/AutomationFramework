@@ -1,0 +1,70 @@
+{
+    "transaction": [
+        {
+            "accountId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 925,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "category": "Transfers",
+            "categoryId": 28,
+            "categorySource": "SYSTEM",
+            "categoryType": "TRANSFER",
+            "CONTAINER": "bank",
+            "date": "${json-unit.ignore}",
+            "description": {
+                "consumer": "Zelle Transfer Conf# 000f0e000; UPWIJGCCI, UPWIJGCC",
+                "simple": "Zelle Transfer Conf# 000f0e000; UPWIJGCCI, UPWIJGCC"
+            },
+            "highLevelCategoryId": 10000015,
+            "id": "${json-unit.ignore}",
+            "isManual": false,
+            "merchant": {
+                "id": "zelle",
+                "name": "Zelle",
+                "source": "FACTUAL"
+            },
+            "reconStatus": "SYS_UNRECONCILED",
+            "recurringEventId": "${json-unit.ignore}",
+            "sourceType": "SYSTEM_PREDICTED",
+            "status": "SCHEDULED",
+            "subType": "TRANSFER",
+            "transactionDate": "${json-unit.ignore}",
+            "type": "TRANSFER"
+        },
+        {
+            "accountId": "${json-unit.ignore}",
+            "amount": {
+                "amount": 925,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "category": "Transfers",
+            "categoryId": 28,
+            "categorySource": "SYSTEM",
+            "categoryType": "TRANSFER",
+            "CONTAINER": "bank",
+            "date": "${json-unit.ignore}",
+            "description": {
+                "consumer": "Zelle Transfer Conf# 000f0e000; UPWIJGCCI, UPWIJGCC",
+                "simple": "Zelle Transfer Conf# 000f0e000; UPWIJGCCI, UPWIJGCC"
+            },
+            "highLevelCategoryId": 10000015,
+            "id": "${json-unit.ignore}",
+            "isManual": false,
+            "merchant": {
+                "id": "zelle",
+                "name": "Zelle",
+                "source": "FACTUAL"
+            },
+            "reconStatus": "SYS_UNRECONCILED",
+            "recurringEventId": "${json-unit.ignore}",
+            "sourceType": "SYSTEM_PREDICTED",
+            "status": "SCHEDULED",
+            "subType": "TRANSFER",
+            "transactionDate": "${json-unit.ignore}",
+            "type": "TRANSFER"
+        }
+    ]
+}

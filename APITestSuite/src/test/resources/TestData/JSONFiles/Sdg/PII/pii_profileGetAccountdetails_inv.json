@@ -1,0 +1,108 @@
+{
+    "account": [
+        {
+            "CONTAINER": "investment",
+            "accountName": "DAG INVESTMENT",
+            "accountStatus": "ACTIVE",
+            "accountNumber": "xxxx6785",
+            "isAsset": true,
+            "aggregationSource": "USER",
+            "balance": {
+                "amount": 79629,
+                "currency": "USD"
+            },
+            "profile": {
+                "address": [
+                    {
+                        "address1": "Address11",
+                        "address2": "Address22",
+                        "address3": "Address2",
+                        "city": "City11",
+                        "state": "state11",
+                        "zip": "Zip11",
+                        "type": "HOME"
+                    }
+                ],
+                "phoneNumber": [
+                    {
+                        "type": "HOME",
+                        "value": "HomePhone21"
+                    },
+                    {
+                        "type": "WORK",
+                        "value": "WorkPhone21"
+                    },
+                    {
+                        "type": "LANDLINE",
+                        "value": "Phone21"
+                    },
+                    {
+                        "type": "MOBILE",
+                        "value": "MobilePhone21"
+                    }
+                ],
+                "identifier": [
+                    {
+                        "type": "AADHAR",
+                        "value": "7777765567"
+                    },
+                    {
+                        "type": "NRIC",
+                        "value": "4444445876876"
+                    }
+                ],
+                "email": [
+                    {
+                        "type": "PRIMARY",
+                        "value": "PrimaryEmail21"
+                    },
+                    {
+                        "type": "SECONDARY",
+                        "value": "SecondaryEmail21"
+                    },
+                    {
+                        "type": "PERSONAL",
+                        "value": "PersonalEmail21"
+                    },
+                    {
+                        "type": "WORK",
+                        "value": "workEmail21"
+                    },
+                    {
+                        "type": "OTHERS",
+                        "value": "OthersEmail21"
+                    },
+                    {
+                        "type": "OTHERS",
+                        "value": "AccountEmai2l1"
+                    }
+                ],
+                "company": "AccountCompany21"
+            },
+            "includeInNetWorth": true,
+            "providerId": "16441",
+            "providerName": "Dag Site",
+            "isManual": false,
+            "accountType": "OTHER",
+            "classification": "PERSONAL",
+            "totalUnvestedBalance": {
+                "amount": 23242,
+                "currency": "USD"
+            },
+            "displayedName": "DAG",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "name": "ACCT_PROFILE",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "updateEligibility": "DISALLOW_UPDATE"
+                },
+                {
+                    "name": "BASIC_AGG_DATA",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "updateEligibility": "DISALLOW_UPDATE"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+<entity type="multiple">
+    <request>
+       <add-provider-accounts-multiple>
+	   <add-provider-accounts order="1">
+            <siteUser>genericmfa.site16447.1</siteUser>
+            <siteUserId>65517</siteUserId>
+            <sitePwd>site16447.1</sitePwd>
+            <sitePwdId>65518</sitePwdId>
+            <siteId>16447</siteId>
+        </add-provider-accounts>
+		</add-provider-accounts-multiple>
+        <update-provider-accounts-multiple>
+		<update-provider-accounts order="1">
+		<answer1></answer1>
+			<answer2></answer2>
+            <token>123456</token>
+			
+        </update-provider-accounts>
+		</update-provider-accounts-multiple>
+    </request> 
+   <response>
+        <get-provider-accounts-multiple>
+		<get-provider-accounts order="1">
+            <row>
+                <filePath>../src/test/resources/TestData/JSONFiles/Sdg/MFAUseCase/</filePath>
+                <responseFile>AccountAdditionWithoutDataSet16447.json</responseFile>
+            </row>
+        </get-provider-accounts>
+		</get-provider-accounts-multiple>
+    </response>
+</entity>

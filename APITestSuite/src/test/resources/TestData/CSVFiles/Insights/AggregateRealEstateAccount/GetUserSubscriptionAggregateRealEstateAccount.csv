@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-146950,"Validate AggregateRealEstateAccount , Validate InsightName",,AggregateRealEstateAccount,AggregateRealEstateAccount,,,,,,,,,,,,200,TRUE
+AT-146951,"Validate AggregateRealEstateAccount , Validate Supporting container",,AggregateRealEstateAccount,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-146952,"Validate AggregateRealEstateAccount , Validate TriggerType",REFRESH,AggregateRealEstateAccount,,,,,,,,,,,,,200,TRUE
+AT-146953,"Validate AggregateRealEstateAccount , Validate applicableEntity",,AggregateRealEstateAccount,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-146954,"Validate AggregateRealEstateAccount , Validate number of levels and levelObject",,AggregateRealEstateAccount,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-146955,"Validate AggregateRealEstateAccount , Validate isSubscribed=false",,AggregateRealEstateAccount,,,,,,,,FALSE,,,,,200,TRUE
+AT-146957,"Validate AggregateRealEstateAccount , Validate insightKeys",,AggregateRealEstateAccount,,,,Account,,,,,,,,,200,TRUE
+AT-146958,"Validate AggregateRealEstateAccount , Validate description",,AggregateRealEstateAccount,,,,,Generates an insight when a mortgage payment is identified but no corresponding real estate account was found for the user.,,,,,,,,200,TRUE
+AT-146959,"Validate AggregateRealEstateAccount , Validate title",,AggregateRealEstateAccount,,Aggregate Real Estate Account,,,,,,,,,,,200,TRUE
+AT-146960,"Validate AggregateRealEstateAccount , Validate ruleExpression",,AggregateRealEstateAccount,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-146961,"Validate AggregateRealEstateAccount , verify entityParameter and configMeta are same",,AggregateRealEstateAccount,,,,,,,,,,,,TRUE,200,TRUE

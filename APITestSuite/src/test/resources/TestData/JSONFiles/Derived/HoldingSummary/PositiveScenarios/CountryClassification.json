@@ -1,0 +1,26 @@
+{
+  "holdingSummary": [
+    {
+      "classificationType": "Country",
+      "classificationValue": "CA",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dCountry\u0026classificationValue\u003dCA\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 4097.46,
+        "currency": "USD"
+      }
+    },
+    {
+      "classificationType": "Country",
+      "classificationValue": "US",
+      "links": {
+        "holdings": "/v1/holdings?include\u003dassetClassification\u0026classificationType\u003dCountry\u0026classificationValue\u003dUS\u0026accountId\u003d1112071344\u0026accountReconType\u003d"
+      },
+      "value": {
+        "amount": 22400,
+        "currency": "USD"
+      }
+    }
+  ]
+}

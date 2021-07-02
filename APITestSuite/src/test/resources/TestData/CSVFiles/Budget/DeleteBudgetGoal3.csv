@@ -1,0 +1,2 @@
+TestCaseId,TestCase,GroupName,CategoryType,CategoryId,Amount,Currency,CategoryIdQueryParam,GroupIdQueryParam,CategoryTypeQueryParam,ContainerTypeId,ErrorCode,Expected ErrorMsg,ExpectedCategoryType,ExpectedCategoryId,GoalId,Enabled
+AT-115749,Verify that user pass a CategoryID which is already Deleted by the user then appropriate error message to be shown in the response,Group28,"INCOME,EXPENSE,TRANSFER",10,2000,USD,,,,10,Y800,"Invalid value for Goal ID, Budget association doesn't exist for one of the provided Goal IDs",,,,TRUE

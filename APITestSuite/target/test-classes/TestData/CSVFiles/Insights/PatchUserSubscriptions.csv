@@ -1,0 +1,31 @@
+testCaseId,Testcase,InsightNameKey,objectId,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-8001,"Validate PATCH User Subscription , subscribe to LowBalanceWarning isSubscribed=true",LowBalanceWarning,,,,BANK,10000004,,,,BANK,1,,account,1,1239,W,TRUE,,,"BALANCE,500,AMOUNT",204,TRUE
+AT-8002,"Validate PATCH User Subscription , update insightName",LowBalanceWarning,,LowBalanceWarningEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-8003,"Validate PATCH User Subscription , update insightTitle",LowBalanceWarning,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-8004,"Validate PATCH User Subscription , update container",LowBalanceWarning,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-8005,"Validate PATCH User Subscription , update cobrandId",LowBalanceWarning,,,,,12345678,,,,,,,,,,,,,,,400,TRUE
+AT-8006,"Validate PATCH User Subscription , update keys",LowBalanceWarning,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-8007,"Validate PATCH User Subscription , update ruleExpression",LowBalanceWarning,,,,,,,changeRule,,,,,,,,,,,,,400,TRUE
+AT-8008,"Validate PATCH User Subscription , update description",LowBalanceWarning,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-8009,"Validate PATCH User Subscription , update applicableEntity",LowBalanceWarning,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-8010,"Validate PATCH User Subscription , update entityParameter",LowBalanceWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1000,AMOUNT",204,TRUE
+AT-8011,"Validate PATCH User Subscription , update entityParameter->account[0]->id",LowBalanceWarning,,,,,,,,,,1,,account,1,8788,,TRUE,,,"BALANCE,600,AMOUNT",204,TRUE
+AT-8012,"Validate PATCH User Subscription , update entityParameter->account[0]->frequency",LowBalanceWarning,,,,,,,,,,1,,account,1,,M,TRUE,,,"BALANCE,1000,AMOUNT",400,TRUE
+AT-8013,"Validate PATCH User Subscription , update entityParameter->account[0]->isSubscribed=false",LowBalanceWarning,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-8014,"Validate PATCH User Subscription , update entityParameter->account[0]->duration",LowBalanceWarning,,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"BALANCE,1000,AMOUNT",400,TRUE
+AT-8015,"Validate PATCH User Subscription , update entityParameter->account[0]->insightType",LowBalanceWarning,,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"BALANCE,1000,AMOUNT",204,TRUE
+AT-8016,"Validate PATCH User Subscription , update entityParameter->account[0]->threshold[0]->name",LowBalanceWarning,,,,,,,,,,1,,account,1,,,FALSE,,,"LIMIT,1000,AMOUNT",400,TRUE
+AT-8017,"Validate PATCH User Subscription , update entityParameter->account[0]->threshold[0]->value",LowBalanceWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1455,AMOUNT",204,TRUE
+AT-8018,"Validate PATCH User Subscription , update entityParameter->account[0]->threshold[0]->type",LowBalanceWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,1455,PERCENT",400,TRUE
+AT-8022,"Validate PATCH User Subscription , update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value",LowBalanceWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,200,AMOUNT",204,TRUE
+AT-8023,"Validate PATCH User Subscription , update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value",LowBalanceWarning,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,200,AMOUNT",400,TRUE
+AT-8024,"Validate PATCH User Subscription , update add new threshold entityParameter ->account[1]->isSubscribed=false ",LowBalanceWarning,,,,,,,,,,1,,account,2,,,FALSE,,,"BALANCE,565,AMOUNT",204,TRUE
+AT-8025,"Validate PATCH User Subscription , update edit existing threshold entityParameter ->account[1]->isSubscribed=true and   change entityParameter ->account[1]->threshold[0]->value",LowBalanceWarning,,,,,,,,,,1,,account,2,,,TRUE,,,"BALANCE,788,AMOUNT",204,TRUE
+AT-8026,"Validate PATCH User Subscription , update configMeta->account[0]->id",LowBalanceWarning,,,,,,,,,,1,TRUE,account,1,32222,,FALSE,,,"BALANCE,788,AMOUNT",400,TRUE
+AT-8027,"Validate PATCH User Subscription , update configMeta->account[0]->frequency = WEEKLY",LowBalanceWarning,,,,,,,,,,1,TRUE,account,1,,WEEKLY,TRUE,,,"BALANCE,788,AMOUNT",400,TRUE
+AT-8028,"Validate PATCH User Subscription , update configMeta->account[0]->isSubscribed = false",LowBalanceWarning,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"BALANCE,788,AMOUNT",400,TRUE
+AT-8029,"Validate PATCH User Subscription , update configMeta->account[0]->duration=LAST_MONTH",LowBalanceWarning,,,,,,,,,,1,TRUE,account,1,,,FALSE,LAST_MONTH,,"BALANCE,788,AMOUNT",400,TRUE
+AT-8030,"Validate PATCH User Subscription , update configMeta->account[0]->insightType=AGGREGATE",LowBalanceWarning,,,,,,,,,,1,TRUE,account,1,,,TRUE,,OTHER,"BALANCE,788,AMOUNT",400,TRUE
+AT-8031,"Validate PATCH User Subscription , update configMeta->account[0]->threshold[0]->name=CHANGE",LowBalanceWarning,,LowBalanceWarning,,,,,,,,1,TRUE,account,1,,,TRUE,,,"BALANCE,788,AMOUNT",400,TRUE
+AT-8032,"Validate PATCH User Subscription , update configMeta->account[0]->threshold[0]->value=-1",LowBalanceWarning,,,,,,,,,,1,TRUE,account,1,,,TRUE,,,"BALANCE,-1,AMOUNT",400,TRUE
+AT-8033,"Validate PATCH User Subscription , update configMeta->account[0]->threshold[0]->type=PERCENT",LowBalanceWarning,,,,,,,,,,1,TRUE,account,1,,,TRUE,,,"BALANCE,200,PERCENT",400,TRUE

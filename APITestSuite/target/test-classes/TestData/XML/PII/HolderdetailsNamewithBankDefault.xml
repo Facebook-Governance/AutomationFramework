@@ -1,0 +1,64 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>tan</siteUser>
+				<siteUserId>80080</siteUserId>
+				<sitePwd>tan</sitePwd>
+				<sitePwdId>80081</sitePwdId>
+				<siteId>19705</siteId>
+				<dataList>
+					<dataset>
+						<name>ACCT_PROFILE</name>
+						<attributeList>
+							<attribute>
+								<name>HOLDER_NAME</name>
+								<container>bank</container>
+							</attribute>
+							<attribute>
+								<name>HOLDER_DETAILS</name>
+								<container>bank</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<get-accountDetials-multiple>
+			<get-accountDetials order="1">
+				<container>bank</container>
+				<include>holder,profile</include>
+			</get-accountDetials>
+		</get-accountDetials-multiple>
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<accountId>YES</accountId>
+				<noOfAccounts>1</noOfAccounts>
+				<status>ACTIVE</status>
+				<include>holder,profile</include>
+				<container>bank</container>
+				<accountReconType />
+			</get-accounts>
+		</get-accounts-multiple>
+	</request>
+	<response>
+		<accountDetails-multiple>
+			<accountDetails order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/PII/
+					</filePath>
+					<responseFile>pii_Holderdetailswithbank.json</responseFile>
+				</row>
+			</accountDetails>
+		</accountDetails-multiple>
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/PII/
+					</filePath>
+					<responseFile>pii_holderdetailsNamebankDefault.json</responseFile>
+				</row>
+			</get-accounts>
+		</get-accounts-multiple>
+	</response>
+</entity>

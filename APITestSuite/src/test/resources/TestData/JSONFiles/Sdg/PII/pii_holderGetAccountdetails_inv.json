@@ -1,0 +1,90 @@
+{
+    "account": [
+        {
+            "CONTAINER": "investment",
+            "accountName": "DAG INVESTMENT",
+            "accountStatus": "ACTIVE",
+            "accountNumber": "xxxx6785",
+            "isAsset": true,
+            "aggregationSource": "USER",
+            "balance": {
+                "amount": 79629,
+                "currency": "USD"
+            },
+            "holder": [
+                {
+                    "address": [
+                        {
+                            "address1": "Address111",
+                            "address2": "Address222",
+                            "address3": "Address333",
+                            "city": "City111",
+                            "state": "state111",
+                            "zip": "Zip111",
+                            "type": "HOME"
+                        }
+                    ],
+                    "name": {
+                        "middle": "MiddleName3",
+                        "fullName": "FullName2",
+                        "first": "FirstName3",
+                        "last": "LastName3"
+                    },
+                    "phoneNumber": [
+                        {
+                            "type": "LANDLINE",
+                            "value": "Phone"
+                        }
+                    ],
+                    "identifier": [
+                        {
+                            "type": "AADHAR",
+                            "value": "44444766666"
+                        },
+                        {
+                            "type": "NRIC",
+                            "value": "6666657777"
+                        }
+                    ],
+                    "email": [
+                        {
+                            "type": "PRIMARY",
+                            "value": "PrimaryEmail3"
+                        },
+                        {
+                            "type": "OTHERS",
+                            "value": "testemail@yodlee.com3"
+                        }
+                    ],
+                    "gender": "Female",
+                    "company": "Dummy Company3",
+                    "dateOfBirth": "2012-03-01"
+                }
+            ],
+            "includeInNetWorth": true,
+            "providerId": "16441",
+            "providerName": "Dag Site",
+            "isManual": false,
+            "accountType": "OTHER",
+            "classification": "PERSONAL",
+            "totalUnvestedBalance": {
+                "amount": 23242,
+                "currency": "USD"
+            },
+            "displayedName": "DAG",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "name": "ACCT_PROFILE",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "updateEligibility": "DISALLOW_UPDATE"
+               },
+                {
+                    "name": "BASIC_AGG_DATA",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "updateEligibility": "DISALLOW_UPDATE"
+              }
+            ]
+        }
+    ]
+}

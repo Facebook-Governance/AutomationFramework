@@ -1,0 +1,40 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>SdgAutoCatalog.site16441.6</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.6</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>ACCT_PROFILE</name>
+						<attributeList>
+							<attribute>
+								<name>BANK_TRANSFER_CODE</name>
+								<container>investment</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<get-accountDetials-multiple>
+			<get-accountDetials order="1">
+				<container>investment</container>
+			</get-accountDetials>
+		</get-accountDetials-multiple>
+	</request>
+	<response>
+		<accountDetails-multiple>
+			<accountDetails order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/RTN/
+					</filePath>
+					<responseFile>rtnInvestment.json</responseFile>
+				</row>
+			</accountDetails>
+		</accountDetails-multiple>
+	</response>
+</entity>

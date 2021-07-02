@@ -1,0 +1,13 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-SubscriptionPaid40,patchUserSubscription - subscribe to SubscriptionPaid,SubscriptionPaid,,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,,,204,TRUE
+AT-SubscriptionPaid41,patchUserSubscription - updateTriggerType,SubscriptionPaid,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-SubscriptionPaid42,patchUserSubscription -  update insightName by same name,SubscriptionPaid,negTestScenario17,,SubscriptionPaid,,,,,,,,,,,,,,,,,,400,TRUE
+AT-SubscriptionPaid43,patchUserSubscription -  update insightName edit InsightName,SubscriptionPaid,negTestScenario2,,SubscriptionPaidEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-SubscriptionPaid44,patchUserSubscription - update insightTitle,SubscriptionPaid,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-SubscriptionPaid45,patchUserSubscription - update container,SubscriptionPaid,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-SubscriptionPaid46,patchUserSubscription - update keys,SubscriptionPaid,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-SubscriptionPaid47,patchUserSubscription - update description,SubscriptionPaid,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-SubscriptionPaid48,patchUserSubscription - update applicableEntity,SubscriptionPaid,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-SubscriptionPaid49,patchUserSubscription - update entityParameter,SubscriptionPaid,,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,,,204,TRUE
+AT-SubscriptionPaid50,patchUserSubscription - update insightType to AGGREGATE,SubscriptionPaid,negTestScenarioPvc02,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,AGGREGATE    AGGREGATE,,400,TRUE
+AT-SubscriptionPaid51,patchUserSubscription - update insightType to INVALID,SubscriptionPaid,negTestScenarioPvc02,,,,,,,,,,2,,account view,,,,TRUE  TRUE,,INVALID   INVALID,,400,TRUE

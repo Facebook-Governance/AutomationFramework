@@ -1,0 +1,177 @@
+{
+  "provider": [
+    {
+      "id": 16441,
+      "name": "Dag Site",
+      "loginUrl": "http://64.14.28.129/dag/index.do",
+      "baseUrl": "http://64.14.28.129/dag/index.do",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_16441.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_16441_1_1.PNG",
+      "status": "Supported",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "BILL": {
+          "numberOfTransactionDays": 90
+        },
+        "INSURANCE": {
+          "numberOfTransactionDays": 90
+        },
+        "LOAN": {
+          "numberOfTransactionDays": 90
+        },
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        },
+        "BANK": {
+          "numberOfTransactionDays": 90
+        },
+        "INVESTMENT": {
+          "numberOfTransactionDays": 90
+        },
+        "REWARD": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "help": "please Enter your personal details for registration to authenticate your Bank Credentials by doing a Rs 10.00 transaction which will be blocked against your transfer limit and will get released within 15 days.",
+      "oAuthSite": false,
+      "lastModified": "2017-08-09T19:07:06Z",
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "containerNames": [
+        "insurance",
+        "creditCard",
+        "reward",
+        "bill",
+        "bank",
+        "loan",
+        "investment"
+      ],
+      "loginForm": [
+        {
+          "id": 16103,
+          "forgetPasswordURL": "http://64.14.28.129/dag/index.do",
+          "formType": "login",
+          "row": [
+            {
+              "id": 150862,
+              "label": "Catalog",
+              "form": "0001",
+              "fieldRowChoice": "0001",
+              "field": [
+                {
+                  "id": 65499,
+                  "name": "LOGIN",
+                  "type": "text",
+                  "value": "",
+                  "isOptional": false,
+                  "valueEditable": true
+                }
+              ]
+            },
+            {
+              "id": 150863,
+              "label": "Password",
+              "form": "0001",
+              "fieldRowChoice": "0002",
+              "field": [
+                {
+                  "id": 65500,
+                  "name": "PASSWORD",
+                  "type": "password",
+                  "value": "",
+                  "isOptional": false,
+                  "valueEditable": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "capability": [
+        {
+          "name": "CHALLENGE_DEPOSIT_VERIFICATION",
+          "container": [
+            "bank"
+          ]
+        }
+      ],
+      "dataset": [
+        {
+          "name": "DOCUMENT",
+          "attribute": [
+            {
+              "name": "STATEMENT",
+              "container": [
+                "investment",
+                "bank"
+              ]
+            },
+            {
+              "name": "EBILL",
+              "container": [
+                "bill",
+                "creditCard",
+                "insurance",
+                "loan"
+              ]
+            },
+            {
+              "name": "TAX",
+              "container": [
+                "investment",
+                "bank",
+                "loan"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BASIC_AGG_DATA",
+          "attribute": [
+            {
+              "name": "ACCOUNT_DETAILS",
+              "container": [
+                "investment",
+                "bank",
+                "bill",
+                "creditCard",
+                "insurance",
+                "loan",
+                "reward"
+              ]
+            },
+            {
+              "name": "HOLDINGS",
+              "container": [
+                "investment",
+                "insurance"
+              ]
+            },
+            {
+              "name": "STATEMENTS",
+              "container": [
+                "bill",
+                "creditCard",
+                "insurance",
+                "loan"
+              ]
+            },
+            {
+              "name": "TRANSACTIONS",
+              "container": [
+                "investment",
+                "bank",
+                "bill",
+                "creditCard",
+                "insurance",
+                "loan",
+                "reward"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "CREDENTIALS"
+    }
+  ]
+}

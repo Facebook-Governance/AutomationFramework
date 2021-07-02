@@ -1,0 +1,9 @@
+testCaseId,Testcase,InsightName,verifyTriggerCheck,triggerType,accountViewsCount,entityParameterCount,entityParameterName,noumberOfInsights,editSubscription,isCobrandSubscribed,isUserSubscribed,validateKeys,frequency,status,enabled,DagCredentials
+AT-148475,getNotification - Validate FINANCIAL_FORECAST when cobrand is not subscribed,FINANCIAL_FORECAST,FALSE,SCHEDULE,,1,account,0,TRUE,FALSE,,,,201,TRUE,"finfoc.site16441.1,site16441.1"
+AT-148476,getNotification - Validate FINANCIAL_FORECAST when frequency is weekly,FINANCIAL_FORECAST,FALSE,SCHEDULE,,1,account,1,TRUE,TRUE,TRUE,account,WEEKLY,201,TRUE,"finfoc.site16441.1,site16441.1"
+AT-148477,getNotification - Validate FINANCIAL_FORECAST when frequency is monthly,FINANCIAL_FORECAST,FALSE,SCHEDULE,,1,account,1,TRUE,TRUE,TRUE,account,MONTHLY,201,TRUE,"finfoc.site16441.1,site16441.1"
+AT-148478,getNotification - Validate FINANCIAL_FORECAST when user is not subscribed,FINANCIAL_FORECAST,FALSE,SCHEDULE,,1,account,0,TRUE,TRUE,FALSE,account,,201,TRUE,"finfoc.site16441.1,site16441.1"
+AT-148479,getNotification - Validate FINANCIAL_FORECAST when frequency is daily,FINANCIAL_FORECAST,FALSE,SCHEDULE,,1,account,0,TRUE,TRUE,TRUE,account,DAILY,201,TRUE,"finfoc.site16441.1,site16441.1"
+AT-148480,getNotification - Validate FINANCIAL_FORECAST when there are no predicted transactions,FINANCIAL_FORECAST,FALSE,SCHEDULE,,1,account,0,TRUE,TRUE,TRUE,account,MONTHLY,201,TRUE,"finfoc.site16441.2,site16441.2"
+AT-148479,getNotification - Validate FINANCIAL_FORECAST when frequency is weekly and insight is generated 8 days ago,FINANCIAL_FORECAST,"EDIT,-8",SCHEDULE,,1,account,1,TRUE,TRUE,TRUE,account,WEEKLY,201,TRUE,"finfoc.site16441.1,site16441.1"
+AT-148480,getNotification - Validate FINANCIAL_FORECAST when frequency is monthly and insight is generated 32 days ago,FINANCIAL_FORECAST,"EDIT,-32",SCHEDULE,,1,account,1,TRUE,TRUE,TRUE,account,MONTHLY,201,TRUE,"finfoc.site16441.1,site16441.1"

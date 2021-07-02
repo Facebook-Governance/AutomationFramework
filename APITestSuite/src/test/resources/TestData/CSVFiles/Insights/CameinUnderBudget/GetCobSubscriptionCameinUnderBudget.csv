@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-142855,"Validate CameinUnderBudget , Validate InsightName",,CameinUnderBudget,CameinUnderBudget,,,,,,,,,,,200,TRUE
+AT-142856,"Validate CameinUnderBudget , Validate Supporting container",,CameinUnderBudget,,,"BANK,CARD,LOAN,INVESTMENT",,,,,,,,,200,TRUE
+AT-142857,"Validate CameinUnderBudget , Validate TriggerType",SCHEDULE,CameinUnderBudget,,,,,,,,,,,,200,TRUE
+AT-142858,"Validate CameinUnderBudget , Validate applicableEntity",,CameinUnderBudget,,,,,,ACCOUNT_GROUP,,,,,,200,TRUE
+AT-142859,"Validate CameinUnderBudget , Validate number of levels and levelObject",,CameinUnderBudget,,,,,,ACCOUNT_GROUP,accountGroup,,,,,200,TRUE
+AT-142860,"Validate CameinUnderBudget , Validate isSubscribed=false",,CameinUnderBudget,,,,,,,accountGroup,FALSE,,,,200,TRUE
+AT-142861,"Validate CameinUnderBudget , Validate insightKeys for networths info",,CameinUnderBudget,,,,AccountGroup,,,,,,,,200,TRUE
+AT-142862,"Validate CameinUnderBudget , Validate description",,CameinUnderBudget,,,,,Generates an insight when actual spending is less than budgeted spending in the previous month.,,,,,,,200,TRUE
+AT-142863,"Validate CameinUnderBudget , Validate title",,CameinUnderBudget,,Spending Below Budget,,,,,,,,,,200,TRUE
+AT-142864,"Validate CameinUnderBudget , Validate ruleExpression",,CameinUnderBudget,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-142864,"Validate CameinUnderBudget , Validate frequency=MONTHLY",,CameinUnderBudget,,,,,,,accountGroup,,MONTHLY,,,200,TRUE
+AT-142864,"Validate CameinUnderBudget , Validate total number of keys ",,CameinUnderBudget,,,,,,,,,,,,200,TRUE

@@ -1,0 +1,19 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147427,patchUserSubscrionption - subscribe to ProjectedInsufficientBalance,ProjectedInsufficientBalance,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,10,AMOUNT",204,TRUE
+AT-147428,patchUserSubscrionption - updateTriggerType,ProjectedInsufficientBalance,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147429,patchUserSubscrionption -  update insightName by same name,ProjectedInsufficientBalance,negTestScenario17,,ProjectedInsufficientBalance,,,,,,,,,,,,,,,,,"MINIMUM,10,AMOUNT",400,TRUE
+AT-147430,patchUserSubscrionption -  update insightName edit InsightName,ProjectedInsufficientBalance,negTestScenario2,,ProjectedInsufficientBalanceEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147431,patchUserSubscrionption - update insightTitle,ProjectedInsufficientBalance,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-147432,patchUserSubscrionption - update container,ProjectedInsufficientBalance,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-147433,patchUserSubscrionption - update keys,ProjectedInsufficientBalance,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147434,patchUserSubscrionption - update description,ProjectedInsufficientBalance,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147435,patchUserSubscrionption - update applicableEntity,ProjectedInsufficientBalance,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-147436,patchUserSubscrionption - update entityParameter,ProjectedInsufficientBalance,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,10,AMOUNT",204,TRUE
+AT-147437,patchUserSubscrionption -  update entityParameter->account[0]->id - Valid ItemAccountId,ProjectedInsufficientBalance,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,10,AMOUNT",204,TRUE
+AT-147438,patchUserSubscrionption -  update entityParameter->account[0]->id - InValid ItemAccountId,ProjectedInsufficientBalance,negTestScenario20,,,,,,,,,,1,,account,1,76823,,TRUE,,,"MINIMUM,10,AMOUNT",400,TRUE
+AT-147439,patchUserSubscrionption -  update entityParameter->account[0]->isSubscribed=false,ProjectedInsufficientBalance,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-147441,patchUserSubscrionption - update threshold name  - entityParameter->account[0]->threshold[0]->name,ProjectedInsufficientBalance,negTestScenario43,,,,,,,,,,1,,account,1,,,FALSE,,,"AMOUNT,10,AMOUNT",400,TRUE
+AT-147442,patchUserSubscrionption - update threshold values - entityParameter->account[0]->threshold[0]->value,ProjectedInsufficientBalance,negTestScenario35,,,,,,,,,,1,,account,1,,,TRUE,,,"BALANCE,10,AMOUNT",400,TRUE
+AT-147443,patchUserSubscrionption - update threshold type - entityParameter->account[0]->threshold[0]->type,ProjectedInsufficientBalance,negTestScenario28,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,10,PERCENT",400,TRUE
+AT-147444,"patchUserSubscrionption - update threshold name ,value and type to MINIMUM,200,AMOUNT",ProjectedInsufficientBalance,,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,200,AMOUNT",204,TRUE
+AT-147445,patchUserSubscrionption - update configMeta - subscrption Info - configMeta->account[0]->id,ProjectedInsufficientBalance,negTestScenario19,,,,,,,,,,1,TRUE,account,1,,,FALSE,,,"MINIMUM,10,AMOUNT",400,TRUE

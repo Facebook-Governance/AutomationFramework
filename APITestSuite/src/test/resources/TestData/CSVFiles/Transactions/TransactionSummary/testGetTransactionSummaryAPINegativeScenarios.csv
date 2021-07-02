@@ -1,0 +1,61 @@
+testCaseId,TestCase,accountIds,groupBy,categoryType,categoryId,fromDate,toDate,interval,include,includeUserCategory,status,ResFile,FilePath,Enabled
+AT-17778,All Null,,,,,,,,,,400,groupByRequired.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17780,HIGH_LEVEL_CATEGORY,,HIGH_LEVEL_CATEGORY,,,,,,,,400,categoryTypeRequired.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17763,CATEGORY,,CATEGORY,,,,,,,,400,categoryTypeRequired.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17775,CATEGORY_TYPE with invalid accountId,123,CATEGORY_TYPE,,,,,,,,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17782,CATEGORY_TYPE with invalid categoryid,,CATEGORY_TYPE,,slkdlsk,,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17741,CATEGORY_TYPE with invalid startDate,,CATEGORY_TYPE,,,Invalid,,,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17742,CATEGORY_TYPE with invalid endDate,,CATEGORY_TYPE,,,,Invalid,,,,400,invalidToDate.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17740,CATEGORY_TYPE with invalid startDate,,CATEGORY_TYPE,,,2000-01-34,,,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17770,CATEGORY_TYPE with invalid startDate,,CATEGORY_TYPE,,,2000-34-01,,,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17720,CATEGORY_TYPE with invalid endDate,,CATEGORY_TYPE,,,,2000-01-34,,,,400,invalidToDate.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17719,CATEGORY_TYPE with invalid endDate,,CATEGORY_TYPE,,,,2000-34-01,,,,400,invalidToDate.json,../src/test/resources/TestData/JSONFiles/Derived/TransactionSummary/,TRUE
+AT-17764,CATEGORY_TYPE with invalid accountId,abc,CATEGORY_TYPE,,,,,,,,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17732,CATEGORY_TYPE with invalid accountId,123abc,CATEGORY_TYPE,,,,,,,,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17722,CATEGORY_TYPE with invalid accountId,"1,23,123",CATEGORY_TYPE,,,,,,,,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17735,CATEGORY_TYPE with invalid accountId,!@#,CATEGORY_TYPE,,,,,,,,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17725,CATEGORY_TYPE with invalid accountId,123%^&,CATEGORY_TYPE,,,,,,,,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17733,Invalid groupBy,,Invalid,,,,,,,,400,invalidValueForGroupBy.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17723,Invalid interval,,CATEGORY_TYPE,,,,,s,,,400,invalidValueForInterval.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17734,Invalid start date and end date,,CATEGORY_TYPE,,,2000-01-34,2000-01-34,,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17724,invalid categoryId for groupBy=CATEGORY,,CATEGORY,EXPENSE,DJSF,,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17744,HLC categoryId for groupBy=CATEGORY,,CATEGORY,EXPENSE,10000003,,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17754,categoryId of different category Type,,CATEGORY,EXPENSE,27,,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17762,multiple categoryId with one invalid ID,,CATEGORY,EXPENSE,"9,2,27",,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17757,multiple categoryId with one HLC ID,,CATEGORY,EXPENSE,"10000003,9,2",,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17736,multiple category type with invalid id,,CATEGORY,"EXPENSE,INCOME",FHGGFDSG,,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17731,multiple catheoryTypes witn multiple invalid categoty id,,CATEGORY,"EXPENSE,INCOME","27,9,1",,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17721,multiple categoryTypes with muttiple HLC ID,,CATEGORY,"EXPENSE,INCOME","27,9,10000003",,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17779,mutltiple categoryType with one invalid value,,CATEGORY,"EXPENSE,INCOMES",,,,,,,400,invalidCategoryType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17771,multiple categoryTypes with invalid date range,,CATEGORY,"EXPENSE,INCOME",,2000-01-34,2000-01-35,,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17774,fromDate greater than toDate,,CATEGORY,EXPENSE,,01-01-2014,01-01-2013,,,,400,invalidIntervalNegative.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17743,Daily filter for date range prior to 6 months,,CATEGORY,EXPENSE,9,01-06-2017,01-01-2018,D,,,400,invalidrangeForDailyInvervalTest.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17772,multiple HLC IDs with one MLC ID ,,HIGH_LEVEL_CATEGORY,EXPENSE,"10000003,10000001,9",,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17783,multiple HLC IDs with one invalid ID ,,HIGH_LEVEL_CATEGORY,EXPENSE,"10000003,10000001,dsfdf",,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-18194,multiple catgoryTYPE for hlc with one invalid one,,HIGH_LEVEL_CATEGORY,"INCOMED,EXPENSE,TRANSFER,UNCATEGORIZE,DEFERRED_COMPENSATION",,,,,,,400,invalidCategoryType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-18180,multiple categortypes with invalid ID,,HIGH_LEVEL_CATEGORY,"EXPENSE,INCOME","1,00,00,00,31,00,00,000",,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17748,multiple categoryTYpe with HLC id ,,HIGH_LEVEL_CATEGORY,"EXPENSE,INCOMES","1,00,00,00,31,00,00,000",,,,,,400,invalidCategoryType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17747,groupBy=hlc with categoryType filter,,HIGH_LEVEL_CATEGORY,,,,,,,,400,CategoryTypeRequired.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17745,groupBy=mlc with categoryType filter,,CATEGORY,,,,,,,,400,CategoryTypeRequired.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17746, catgoryid for Category Type,,CATEGORY_TYPE,"INCOME,EXPENSE,TRANSFER,UNCATEGORIZE,DEFERRED_COMPENSATION",10000003,,,,,,400,categoryTypeCategoryId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17755,Invalid start date and end date,,CATEGORY_TYPE,,,2000-01-34,2000-01-34,,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17756,invalid categoryId for groupBy=CATEGORY,,CATEGORY,EXPENSE,DJSF,,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17759,HLC categoryId for groupBy=CATEGORY,,CATEGORY,EXPENSE,10000003,,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17761,categoryId of different category Type,,CATEGORY,EXPENSE,27,,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17758,multiple categoryId with one invalid ID,,CATEGORY,EXPENSE,"9,2,27",,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17760,multiple categoryId with one HLC ID,,CATEGORY,EXPENSE,"10000003,9,2",,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17766,multiple category type with invalid id,,CATEGORY,"EXPENSE,INCOME",FHGGFDSG,,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17768,multiple catheoryTypes witn multiple invalid categoty id,,CATEGORY,"EXPENSE,INCOME","27,9,1",,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17767,multiple categoryTypes with muttiple HLC ID,,CATEGORY,"EXPENSE,INCOME","27,9,10000003",,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17769,mutltiple categoryType with one invalid value,,CATEGORY,"EXPENSE,INCOMES",,,,,,,400,invalidCategoryType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17776,multiple categoryTypes with invalid date range,,CATEGORY,"EXPENSE,INCOME",,2000-01-34,2000-01-35,,,,400,invalidFromDate.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17738,fromDate greater than toDate,,CATEGORY,EXPENSE,,01-01-2014,01-01-2013,,,,400,invalidIntervalNegative.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17739,Daily filter for date range prior to 6 months,,CATEGORY,EXPENSE,9,01-06-2017,01-01-2018,D,,,400,invalidrangeForDailyInvervalTest.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17752,multiple HLC IDs with one MLC ID ,,HIGH_LEVEL_CATEGORY,EXPENSE,"10000003,10000001,9",,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17737,multiple HLC IDs with one invalid ID ,,HIGH_LEVEL_CATEGORY,EXPENSE,"10000003,10000001,dsfdf",,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17753,multiple catgoryTYPE for hlc with one invalid one,,HIGH_LEVEL_CATEGORY,"INCOMED,EXPENSE,TRANSFER,UNCATEGORIZE,DEFERRED_COMPENSATION",,,,,,,400,invalidCategoryType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17750,multiple categortypes with invalid ID,,HIGH_LEVEL_CATEGORY,"EXPENSE,INCOME","1,00,00,00,31,00,00,000",,,,,,400,invalidCategoryid.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17751,multiple categoryTYpe with HLC id ,,HIGH_LEVEL_CATEGORY,"EXPENSE,INCOMES","1,00,00,00,31,00,00,000",,,,,,400,invalidCategoryType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17781,groupBy=hlc with categoryType filter,,HIGH_LEVEL_CATEGORY,,,,,,,,400,CategoryTypeRequired.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17749,groupBy=mlc with categoryType filter,,CATEGORY,,,,,,,,400,CategoryTypeRequired.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-17765, catgoryid for Category Type,,CATEGORY_TYPE,"INCOME,EXPENSE,TRANSFER,UNCATEGORIZE,DEFERRED_COMPENSATION",10000003,,,,,,400,categoryTypeCategoryId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE

@@ -1,0 +1,57 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "cobrandId": {
+      "$id": "/properties/cobrandId",
+      "type": "number",
+      "minimum": -9223372036854775807,
+      "maximum": 9223372036854775807,
+      "title": "The Cobrandid Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        10019356
+      ]
+    },
+    "applicationId": {
+      "$id": "/properties/applicationId",
+      "type": "string",
+      "title": "The Applicationid Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "5921CE7A1A29DF76FFA9E56E005BF800"
+      ]
+    },
+    "locale": {
+      "$id": "/properties/locale",
+      "type": "string",
+      "format":"locale",
+      "title": "The Locale Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "en_US"
+      ]
+    },
+    "session": {
+      "$id": "/properties/session",
+      "type": "object",
+      "properties": {
+        "cobSession": {
+          "$id": "/properties/session/properties/cobSession",
+          "type": "string",
+          "title": "The Cobsession Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "08312017_1:c7dc7f974179bc1be76ac60b6cb8cbda9ff8b4ca513c2a7b5607ecea4f78a70e4f27339719dfa4f7754c71338bb88ccb1f49c38615f987b503987994b59a4263"
+          ]
+        }
+      }
+    }
+  }
+}

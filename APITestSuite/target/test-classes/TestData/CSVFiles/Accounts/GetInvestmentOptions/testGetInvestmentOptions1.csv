@@ -1,0 +1,7 @@
+tcId,tcName,container,accountIdKey,includeKey,include,accountReconTypeKey,accountReconType,status,resFile,filePath,defectId,enabled
+AT-57976,Without AccountId with include,investment,accountId,include,assetClassification,accountReconType,,200,withoutAccIdwithInclude1.json,../src/test/resources/TestData/JSONFiles/Accounts/GetInvestmentOptions/,,TRUE
+AT-64034,Without AccountId without include,investment,accountId,include,,accountReconType,,200,withoutAccIdwithoutInclude1.json,../src/test/resources/TestData/JSONFiles/Accounts/GetInvestmentOptions/,,TRUE
+AT-64035,invalid include,investment,accountId,include,hello,accountReconType,,400,invalidInclude.json,../src/test/resources/TestData/JSONFiles/Accounts/GetInvestmentOptions/,,TRUE
+AT-64036,withoutAccIdKey,investment,,include,assetClassification,accountReconType,,200,withoutAccIdKey.json,../src/test/resources/TestData/JSONFiles/Accounts/GetInvestmentOptions/,,TRUE
+AT-64037,withoutIncludeKey,investment,accountId,,assetClassification,accountReconType,,200,withoutIncludeKey.json,../src/test/resources/TestData/JSONFiles/Accounts/GetInvestmentOptions/,,TRUE
+AT-64038,withoutReconKey,investment,accountId,include,assetClassification,,,200,withoutReconKey.json,../src/test/resources/TestData/JSONFiles/Accounts/GetInvestmentOptions/,,TRUE

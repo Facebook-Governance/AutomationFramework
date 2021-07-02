@@ -1,0 +1,172 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="methods" thread-count="1"
+	preserve-order="true">
+
+	<parameter name="suiteName" value="YSLAutoAmelia" />
+
+	<listeners>
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+
+	</listeners>
+	<test name="TestReadGroup">
+		<classes>
+			<class name="com.yodlee.yodleeApi.Groups.TestReadGroup" />
+		</classes>
+	</test>
+	
+	<test name="TestCreateGroup">
+		<classes>
+			<class name="com.yodlee.yodleeApi.Groups.TestCreateGroup" />
+		</classes>
+	</test>
+
+	<test name="TestUpdateGroup">
+		<classes>
+			<class name="com.yodlee.yodleeApi.Groups.TestUpdateGroup" />
+		</classes>
+	</test>
+
+	
+
+	<test name="TestAddAccountsGroup">
+		<classes>
+			<class name="com.yodlee.yodleeApi.Groups.TestAddAccountsGroup" />
+		</classes>
+	</test>
+
+	<test name="TestDeleteGroup">
+		<classes>
+			<class name="com.yodlee.yodleeApi.Groups.TestDeleteGroup" />
+		</classes>
+	</test>
+	
+	<test name="TestDeleteAccounts">
+		<classes>
+			<class name="com.yodlee.yodleeApi.Groups.TestDeleteAccounts" />
+		</classes>
+	</test>
+	
+	<test name="TestGetRecurringEvents">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestGetRecurringEvents" />
+		</classes>
+	</test>
+	
+
+	<test name="TestUpdateMultipleRecurringEvents">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestUpdateMultipleRecurringEvents" />
+		</classes>
+	</test>
+
+	 <test name="TestGetTransactionsByIdAB">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestGetTransactionsByIdAB" />
+		</classes>
+	</test> 
+	
+  <test name="TestCreateManualTransaction">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestCreateManualTransaction" />
+		</classes>
+	</test>
+	
+ 	 <test name="TestCreateRecurringEvents">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestCreateRecurringEvents" />
+		</classes>
+	</test> 
+	
+	<test name="TestUpdateRecurringEvents">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestUpdateRecurringEvents" />
+		</classes>
+	</test>
+	
+	<test name="TestUpdateRecEventNegative">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestUpdateRecEventNegative" />
+		</classes>
+	</test>
+	
+	<test name="TestDeleteRecurringEvents">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Accounts.TestDeleteRecurringEvents" />
+		</classes>
+	</test>
+	
+	<test name="TestDeleteTransaction">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestDeleteTransaction" />
+		</classes>
+	</test>
+	
+	<test name="TestUpdateTransactions">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestUpdateTransactions" />
+		</classes>
+	</test> 
+	
+	<test name="TestGetRecurringTransactions">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestGetRecurringTransactions" />
+		</classes>
+	</test>
+	
+	 <test name="TestTransactionSummarySense">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TestTransactionSummarySense" />
+		</classes>
+	</test>
+	
+ 	<test name="TesttxnSummarySense">
+		<classes>
+			<class
+				name="com.yodlee.yodleeApi.Transactions.TesttxnSummarySense" />
+		</classes>
+	</test>
+	
+	 <test name="TestGetPreferences">
+		<classes>
+			<class name="com.yodlee.yodleeApi.Accounts.TestGetPreferences" />
+		</classes>
+	</test> 
+
+	<test name="TestSetPreferences">
+		<classes>
+			<class name="com.yodlee.yodleeApi.Accounts.TestSetPreferences" />
+		</classes>
+	</test>
+	
+	<test name="TestGetBalances">
+		<classes>
+			<class name="com.yodlee.yodleeApi.Accounts.TestGetBalances" />
+		</classes>
+	</test> 
+	
+	<test name="TestStatements">
+		<classes>
+			<class name="com.yodlee.yodleeApi.Statements.TestStatements" />
+		</classes>
+	</test>
+
+</suite>

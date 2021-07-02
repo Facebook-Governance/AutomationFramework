@@ -1,0 +1,6 @@
+TestCaseId,TestCase,yslAPICall,ValidateAttributes,httpStatus,Enabled
+"AT-112114,AT-112115",Get Recurring Events ,GetRecurringEvents,"amount, averageAmount, lastTransactionAmount",200,TRUE
+"AT-112116,AT-112117",Get Recurring Events ById,GetRecurringEventsById,"amount, averageAmount, lastTransactionAmount",200,TRUE
+AT-112118,Get FinCheck Indicators - Summary API,FinCheckSummaryAllIndicators,"averageExpense,averageIncome,emergencyBalance,longTermSavings,monthlyDebt",200,TRUE
+AT-112120,GetBudgetTrends,GetBudgetTrends,"budgetAmount,creditTotal,debitTotal",200,TRUE
+AT-112119,GetStatementsSummary,GetStatementSummary,"minimumPayment,newCharges,amountDue,lastPaymentAmount",200,TRUE

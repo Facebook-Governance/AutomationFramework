@@ -1,0 +1,31 @@
+<entity type="multiple">
+   <request>
+      <add-provider-accounts-multiple>
+         <add-provider-accounts order="1">
+            <siteUser>testNotd.site16441.2</siteUser>
+            <siteUserId>65499</siteUserId>
+            <sitePwd>site16441.2</sitePwd>
+            <sitePwdId>65500</sitePwdId>
+            <siteId>16441</siteId>
+            <dataList>
+               <dataset>
+                  <name>BASIC_AGG_DATA</name>
+                  <attributeList>
+                     <attribute>
+                        <name>TRANSACTIONS</name>
+                        <container>bank,investment,loan,insurance,creditCard</container>
+                        <containerAttributes>
+                           <bank nonOfTransaction="15"/>
+                           <investment nonOfTransaction="30"/>
+                           <loan nonOfTransaction="45"/>
+                           <insurance nonOfTransaction="60"/>
+                           <creditCard nonOfTransaction="90"/>
+                        </containerAttributes>
+                     </attribute>
+                  </attributeList>
+               </dataset>
+            </dataList>
+         </add-provider-accounts>
+      </add-provider-accounts-multiple>
+   </request>
+</entity>

@@ -1,0 +1,122 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 347.56,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "Interest",
+        "simple": "Interest"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 572.8695,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "Interest",
+        "simple": "Interest"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 367.897,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "Interest",
+        "simple": "Interest"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 678.75,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "Interest",
+        "simple": "Interest",
+        "consumer": "Dining"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "postingOrder": 5,
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "Interest",
+        "simple": "Interest"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "creditCard",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    }
+  ]
+}

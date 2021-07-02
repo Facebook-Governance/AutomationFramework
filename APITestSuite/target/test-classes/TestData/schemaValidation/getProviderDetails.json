@@ -1,0 +1,117 @@
+{
+  "provider": [
+    {
+      "id": 16441,
+      "name": "Dag Site",
+      "loginUrl": "http://64.14.28.129/dag/index.do",
+      "baseUrl": "http://64.14.28.129/dag/index.do",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_16441.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_16441_1_1.PNG",
+      "status": "Supported",
+      "isAutoRefreshEnabled": true,
+      "containerAttributes": {
+        "CREDITCARD": {
+          "numberOfTransactionDays": 90
+        },
+        "INSURANCE": {
+          "numberOfTransactionDays": 90
+        },
+        "BANK": {
+          "numberOfTransactionDays": 90
+        },
+        "LOAN": {
+          "numberOfTransactionDays": 90
+        },
+        "INVESTMENT": {
+          "numberOfTransactionDays": 90
+        }
+      },
+      "help": "help",
+      "oAuthSite": false,
+      "lastModified": "2017-11-28T12:38:10Z",
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "containerNames": [
+        "insurance",
+        "bank",
+        "loan",
+        "investment",
+        "creditCard"
+      ],
+      "loginForm": {
+        "id": 16103,
+        "forgetPasswordURL": "http://64.14.28.129/dag/index.do",
+        "formType": "login",
+        "row": [
+          {
+            "id": 150862,
+            "label": "Catalog",
+            "form": "0001",
+            "fieldRowChoice": "0001",
+            "field": [
+              {
+                "id": 65499,
+                "name": "LOGIN",
+                "type": "text",
+                "value": "",
+                "isOptional": false,
+                "valueEditable": true
+              }
+            ]
+          },
+          {
+            "id": 150863,
+            "label": "Password",
+            "form": "0001",
+            "fieldRowChoice": "0002",
+            "field": [
+              {
+                "id": 65500,
+                "name": "PASSWORD",
+                "type": "password",
+                "value": "",
+                "isOptional": false,
+                "valueEditable": true
+              }
+            ]
+          }
+        ]
+      },
+      "capability": [
+        {
+          "name": "CHALLENGE_DEPOSIT_VERIFICATION",
+          "container": [
+            "bank",
+            "bank"
+          ]
+        }
+      ],
+      "additionalDataSet": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "FULL_ACCT_NUMBER",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "HOLDER_NAME",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "CREDENTIALS"
+    }
+  ]
+}

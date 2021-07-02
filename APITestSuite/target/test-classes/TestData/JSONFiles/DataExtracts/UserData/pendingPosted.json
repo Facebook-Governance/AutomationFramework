@@ -1,0 +1,138 @@
+{
+  "userData": [
+    {
+      "user": {
+        "loginName": "YSLDE1500305817678"
+      },
+      "account": [
+        {
+          "includeInNetWorth": true,
+          "holderProfile": [
+            {
+              "name": {
+                "displayed": "accountHolder"
+              }
+            }
+          ],
+          "accountName": "TESTDATA",
+          "isManual": false,
+          "currentBalance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "accountType": "CHECKING",
+          "accountNumber": "503-1123xxx",
+          "classification": "PERSONAL",
+          "availableBalance": {
+            "amount": 54.78,
+            "currency": "USD"
+          },
+          "refreshinfo": {
+            "lastRefreshed": "${json-unit.ignore}",
+            "nextRefreshScheduled": "${json-unit.ignore}",
+            "lastRefreshAttempt": "${json-unit.ignore}",
+            "statusMessage": "OK",
+            "statusCode": 0
+          },
+          "accountStatus": "ACTIVE",
+          "lastUpdated": "${json-unit.ignore}",
+          "isAsset": true,
+          "createdDate": "${json-unit.ignore}",
+          "isDeleted": false,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "providerId": "16441",
+          "providerAccountId": "${json-unit.any-number}",
+          "CONTAINER": "bank",
+          "id": "${json-unit.any-number}",
+          "providerName": "Dag Site"
+        }
+      ],
+      "transaction": [
+        {
+          "date": "2017-05-30",
+          "checkNumber": "998",
+          "amount": {
+            "amount": 59,
+            "currency": "USD"
+          },
+          "isManual": false,
+          "highLevelCategoryId": 10000009,
+          "description": {
+            "original": "CHECK # 998",
+            "simple": "CHECK # 998"
+          },
+          "transactionDate": "2017-05-30",
+          "baseType": "DEBIT",
+          "categoryType": "EXPENSE",
+          "categorySource": "SYSTEM",
+          "accountId": "${json-unit.any-number}",
+          "lastUpdated": "${json-unit.ignore}",
+          "isDeleted": false,
+          "CONTAINER": "bank",
+          "postDate": "2017-05-30",
+          "id": "${json-unit.any-number}",
+          "category": "Check Payment",
+          "runningBalance": {
+            "amount": 59,
+            "currency": "USD"
+          },
+          "categoryId": 33,
+          "status": "POSTED"
+        },
+        {
+          "date": "2017-05-30",
+          "checkNumber": "998",
+          "amount": {
+            "amount": 59,
+            "currency": "USD"
+          },
+          "isManual": false,
+          "highLevelCategoryId": 10000009,
+          "description": {
+            "original": "CHECK # 998",
+            "simple": "CHECK # 998"
+          },
+          "transactionDate": "2017-05-30",
+          "baseType": "DEBIT",
+          "categoryType": "EXPENSE",
+          "categorySource": "SYSTEM",
+          "accountId": "${json-unit.any-number}",
+          "lastUpdated": "${json-unit.ignore}",
+          "isDeleted": true,
+          "CONTAINER": "bank",
+          "postDate": "2017-05-30",
+          "id": "${json-unit.any-number}",
+          "category": "Check Payment",
+          "runningBalance": {
+            "amount": 59,
+            "currency": "USD"
+          },
+          "categoryId": 33,
+          "status": "PENDING"
+        }
+      ],
+      "providerAccount": [
+        {
+          "lastUpdated": "${json-unit.ignore}",
+          "refreshInfo": {
+            "lastRefreshed": "${json-unit.ignore}",
+            "nextRefreshScheduled": "${json-unit.ignore}",
+            "lastRefreshAttempt": "${json-unit.ignore}",
+            "statusMessage": "OK",
+            "statusCode": 0,
+            "status": "SUCCESS"
+          },
+          "createdDate": "${json-unit.ignore}",
+          "aggregationSource": "USER",
+          "isDeleted": false,
+          "providerId": 16441,
+          "isManual": false,
+          "id": "${json-unit.any-number}"
+        }
+      ]
+    }
+  ]
+}

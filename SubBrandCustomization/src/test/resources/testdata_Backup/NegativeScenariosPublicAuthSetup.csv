@@ -1,0 +1,4 @@
+Test ID,Enabled,Test Name,loginMechanism,Credentials Login ID Private,SAML Certificate Name Private,SAML Issuer ID Private,SSO Post Source Private,JWT Maximum Expiration Time Private,Enable Multiple JWT,Add Another JWT
+AT-000001,TRUE,EmptyDetails,SAML;JWT,testcredPrivate,saml,testPrivate,testPrivate,150,TRUE,FALSE
+AT-000002,TRUE,MaxExpTimeMoreThan1800AndOtherFieldsExceedCharacterLimit,SAML;JWT,testcredPrivate,saml,testPrivate,testPrivate,150,TRUE,FALSE
+AT-000003,TRUE,MaxExpTimeAlphaNumericAndInvalidCredentialsLoginIdAndJWTKey,SAML;JWT,testcredPrivate,saml,testPrivate,testPrivate,150,TRUE,FALSE

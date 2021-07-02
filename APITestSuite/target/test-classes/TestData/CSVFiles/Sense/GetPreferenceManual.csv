@@ -1,0 +1,3 @@
+testCase,resFilePath,resFile,Enabled,accountType,accountName,nickName,accountNumber,balanceAmount,balanceCurrency,includeInNetworth,memo
+GetPreferences-Validscenario,../src/test/resources/TestData/GetRecurringEvents/,valid.json,FALSE,SAVINGS,Account name,nick name,123456,210,USD,TRUE,Memo
+GetPreferences-Validscenario,../src/test/resources/TestData/GetRecurringEvents/,valid.json,TRUE,SAVINGS,Account name,nick name,123456,210,USD,TRUE,Memo

@@ -1,0 +1,2097 @@
+{
+  "pages": {
+    "LOGIN_PAGE": {
+      "elements": {
+        "loginPageHeaderLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='lbl-header']"
+        },
+        "usernameTxtBox": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-username']"
+        },
+        "usernameTxtBoxGhostTxt": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-username']/preceding-sibling::label"
+        },
+        "usernameTextBoxErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-username']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "passwordTxtBox": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-password']"
+        },
+        "passwordTxtBoxGhostTxt": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-password']/preceding-sibling::label"
+        },
+        "passwordTextBoxErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-password']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "loginBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='btn-log-in']"
+        },
+        "alertToolTip": {
+          "Locator type": "xpath",
+          "value": "//div[@class='v-alert__content']"
+        },
+        "closeAlertToolTip": {
+          "Locator type": "xpath",
+          "value": "//button[@aria-label='Close']"
+        },
+        "logoImg": {
+          "Locator type": "xpath",
+          "value": "//img[@autoid='img-env-yodlee']"
+        },
+        "forgotPasswordLink": {
+          "Locator type": "xpath",
+          "value": "//a[@autoid='lnk-forgot-pwd']"
+        },
+        "footerLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@class='footer']"
+        }
+      }
+    },
+    "VIEW_LIST_OF_SUB_BRANDS_PAGE": {
+      "elements": {
+        "createSubBrandBtn": {
+          "Locator type": "xpath",
+          "value": "//a[@autoid='create-subbrand-btn']"
+        },
+        
+        "deleteSubBrandBtn": {
+          "Locator type": "xpath",
+          "value": "//a[@autoid='btn-delete-icon']"
+        },
+         "confirmDeleteSubBrandBtn": {
+          "Locator type": "xpath",
+          "value": "//a[@autoid='publish-btn']"
+        },
+        "searchFilterTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-search-filter']"
+        },
+        "closeSearchFilterLnk": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-search-filter']/parent::div/following-sibling::div//i"
+        },
+        "noResultsFoundTextLbl": {
+          "Locator type": "xpath",
+          "value": "//thead[@class='v-data-table-header']/following-sibling::tbody//td"
+        },
+        "pageNumberTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-page-number']"
+        },
+        "totalPagesLbl": {
+          "Locator type": "xpath",
+          "value": "//div[contains(@class,'page-total')]/span[2]"
+        },
+        "previousPagePaginationLnk": {
+          "Locator type": "xpath",
+          "value": "//ul[contains(@class,'v-pagination')]/li[1]/button/i"
+        },
+        "nextPagePaginationLnk": {
+          "Locator type": "xpath",
+          "value": "//ul[contains(@class,'v-pagination')]/li[TOKEN]/button/i"
+        },
+        "nextPagePaginationBtn": {
+          "Locator type": "xpath",
+          "value": "//ul[contains(@class,'v-pagination')]/li[TOKEN]/button"
+        },
+        "listOfPagesPaginationLbl": {
+          "Locator type": "xpath",
+          "value": "//ul[contains(@class,'v-pagination')]/li"
+        },
+        "colHeaderSubBrandName": {
+          "Locator type": "xpath",
+          "value": "//table//thead[@class='v-data-table-header']//th[1]/span"
+        },
+        "sortBySubBrandNameDD": {
+          "Locator type": "xpath",
+          "value": "//table//thead[@class='v-data-table-header']//th[1]/span/following-sibling::i"
+        },
+        "sortTypeSubBrandName": {
+          "Locator type": "xpath",
+          "value": "//table//thead[@class='v-data-table-header']//th[1]"
+        },
+        "colHeaderDeploymentStatus": {
+          "Locator type": "xpath",
+          "value": "//table//thead[@class='v-data-table-header']//th[2]/span"
+        },
+        "sortByDeploymentStatusDD": {
+          "Locator type": "xpath",
+          "value": "//table//thead[@class='v-data-table-header']//th[2]/span/following-sibling::i"
+        },
+        "sortTypeDeploymentStatus": {
+          "Locator type": "xpath",
+          "value": "//table//thead[@class='v-data-table-header']//th[2]"
+        },
+        "colHeaderEnvironmentStatus": {
+          "Locator type": "xpath",
+          "value": "//table//thead[@class='v-data-table-header']//th[3]/span"
+        },
+        "sortByEnvironmentStatusDD": {
+          "Locator type": "xpath",
+          "value": "//table//thead[@class='v-data-table-header']//th[3]/span/following-sibling::i"
+        },
+        "sortTypeEnvironmentStatus": {
+          "Locator type": "xpath",
+          "value": "//table//thead[@class='v-data-table-header']//th[3]"
+        },
+        "colHeaderLastPublishedStatus": {
+          "Locator type": "xpath",
+          "value": "//table//thead[@class='v-data-table-header']//th[4]/span"
+        },
+        "sortByLastPublishedDD": {
+          "Locator type": "xpath",
+          "value": "//table//thead[@class='v-data-table-header']//th[4]/span/following-sibling::i"
+        },
+        "sortTypeLastPublished": {
+          "Locator type": "xpath",
+          "value": "//table//thead[@class='v-data-table-header']//th[4]"
+        },
+        "totalListedSubBrandsSubHeaderLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='lbl-sub-header']"
+        },
+        "listOfSubBrandNames": {
+          "Locator type": "xpath",
+          "value": "//td[@class='subbrand-name-value']/span[1]//span"
+        },
+        "listOfDeploymentStatus": {
+          "Locator type": "xpath",
+          "value": "//td[@class='subbrand-name-value']/following-sibling::td[1]//span"
+        },
+        "listOfEnvironmentStatus": {
+          "Locator type": "xpath",
+          "value": "//td[@class='subbrand-name-value']/following-sibling::td[2]"
+        },
+        "listOfLastPublished": {
+          "Locator type": "xpath",
+          "value": "//td[@class='subbrand-name-value']/following-sibling::td[3]"
+        },
+        "subBrandNameLnk": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'TOKEN')]/parent::a"
+        },
+        "deploymentStatus": {
+          "Locator type": "xpath",
+          "value": "//span[starts-with(text(),'TOKEN')]/ancestor::td/following-sibling::td[1]//span"
+        },
+        "environmentStatus": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'TOKEN')]/ancestor::td/following-sibling::td[2]"
+        },
+        "lastPublished": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'TOKEN')]/ancestor::td/following-sibling::td[3]//span"
+        },
+        "editSubBrandButton": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'TOKEN')]/ancestor::td/following-sibling::td[4]/button[@autoid='btn-edit-sub-brand']"
+        },
+        "publishToPrivateButton": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'TOKEN')]/ancestor::td/following-sibling::td[4]/button[@autoid='btn-publish']/span[contains(text(),'Publish to Private')]"
+        },
+        "popUpPublishToPrivateButton": {
+          "Locator type": "xpath",
+          "value": "//div[contains(@class,'publish-popup')]//button/span[contains(text(),'Publish to Private')]"
+        },
+        "publishToPublicButton": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'TOKEN')]/ancestor::td/following-sibling::td[4]/button[@autoid='btn-publish']/span[contains(text(),'Publish to Public')]"
+        },
+        "publishButtonName": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'TOKEN')]/ancestor::td/following-sibling::td[4]/button[@autoid='btn-publish']/span"
+        },
+        "popUpPublishToPublicButton": {
+          "Locator type": "xpath",
+          "value": "//div[contains(@class,'publish-popup')]//button/span[contains(text(),'Publish to Public')]"
+        },
+        "popUpReviewDetailsButton": {
+          "Locator type": "xpath",
+          "value": "//div[contains(@class,'publish-popup')]//button/span[contains(text(),'Review Details')]"
+        },
+        "configureAppsButton": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'TOKEN')]/ancestor::td/following-sibling::td[4]/button[@autoid='btn-customize-apps']"
+        },
+        "usernameMenuLnk": {
+          "Locator type": "xpath",
+          "value": "//button[contains(@class,'header-action-btn')]/span"
+        },
+        "logoutLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@role='menuitem']"
+        }
+      }
+    },
+    "CREATE_SUB_BRAND_PAGE": {
+      "elements": {
+        "createSubBrandPageLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='lbl-header']"
+        },
+        "csbpStepHeader": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='lbl-sub-header']"
+        },
+        "backToSubBrandsListLnk": {
+          "Locator type": "xpath",
+          "value": "//a[@autoid='back-to-list']"
+        },
+        "saveAndContinueBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='btn-save-&-continue']"
+        },
+        "backToPreviousStepBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='btn-back-to-prev-step']"
+        }
+      }
+    },
+    "EDIT_SUB_BRAND_PAGE": {
+      "elements": {
+        "editSubBrandPageLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='lbl-header']"
+        },
+        "esbpStepHeader": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='lbl-sub-header']"
+        },
+        "backToSubBrandsListLnk": {
+          "Locator type": "xpath",
+          "value": "//a[@autoid='back-to-list']"
+        },
+        "saveAndContinueBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='btn-save-&-continue']"
+        },
+        "backToPreviousStepBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='btn-back-to-prev-step']"
+        },
+        "generalConfigStepperLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='step-lbl-general-config']/div"
+        },
+        "privateAuthSetupStepperLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='step-lbl-dev-setup']/div"
+        },
+        "publicAuthSetupSteppterLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='step-lbl-prod-setup']/div"
+        },
+        "productsAndAppsSetupStepperLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='step-lbl-products-apps']/div"
+        },
+        "contactDetailsStepperLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='step-lbl-contact-details']/div"
+        },
+        "reviewStepperLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='step-lbl-review']/div"
+        },
+        "activeStepperLbl": {
+          "Locator type": "xpath",
+          "value": "//div[contains(@class,'step--editable activeStep')]/div"
+        }
+      }
+    },
+    "GENERAL_CONFIGURATION_PAGE": {
+      "elements": {
+        "genConfigPageLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='lbl-sub-header']"
+        },
+        "gcpStepHeader": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='header-lbl-general-config']"
+        },
+        "backToSubBrandsListLnk": {
+          "Locator type": "xpath",
+          "value": "//a[@autoid='back-to-list']"
+        },
+        "subBrandNameTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-sub-brand-name']"
+        },
+        "subBrandNameErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-sub-brand-name']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "domainNameSubStringTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-domain-name']"
+        },
+        "domainNameSubStringErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-domain-name']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "sourceIpAddressTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-source-ip-address']"
+        },
+        "sourceIpAddressErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-source-ip-address']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "addIpAddressBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-source-ip-address']/parent::div/following-sibling::div//i"
+        },
+        "listOfIpAddressesLbl": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='btn-remove-ip-address']/preceding-sibling::span"
+        },
+        "removeIpAddressBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@class='data-list-item']/span[contains(text(),'TOKEN')]/parent::div//i"
+        },
+        "subBrandRadioBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='radio-btn-sub-brand']"
+        },
+        "channelPartnerRadioBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='radio-btn-channel-partner']"
+        },
+        "listOfCustomerTypeRadioBtns": {
+          "Locator type": "xpath",
+          "value": "//div[@role='radiogroup']//input"
+        },
+        "saveAndContinueBtn": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'Save & Continue')]/parent::button"
+        },
+        "addedListOfIPAddressesLbl": {
+          "Locator type": "xpath",
+          "value": "//div[contains(@class,'add-ipaddress')]/following-sibling::div"
+        }
+      }
+    },
+    "PRIVATE_AUTHENTICATION_SETUP_PAGE": {
+      "elements": {
+        "privateAuthSetupPageLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='lbl-sub-header']"
+        },
+        "saspStepHeader": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='header-lbl-dev-auth']"
+        },
+        "backToPreviousStepBtn": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'Back to Previous Step')]/parent::button"
+        },
+        "backToSubBrandsListLnk": {
+          "Locator type": "xpath",
+          "value": "//a[@autoid='back-to-list']"
+        },
+        "saveAndContinueBtn": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'Save & Continue')]/parent::button"
+        },
+        "noLoginMechanismErrorTxt": {
+          "Locator type": "xpath",
+          "value": "//div[contains(text(),'Login Mechanism:')]/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "loginMechanismCredentialsPrivateResetPasswordBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='txt-bx-dev-reset-pwd']"
+        },
+        "loginMechanismSAMLPrivateChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-saml']"
+        },
+        "loginMechanismSAMLPrivateClickableChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-saml']/following-sibling::div"
+        },
+        "loginMechanismSAMLPrivateExistsChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-saml']/following-sibling::i"
+        },
+        "loginMechanismJWTPrivateChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-jwt']"
+        },
+        "loginMechanismJWTPrivateClickableChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-jwt']/following-sibling::div"
+        },
+        "loginMechanismJWTPrivateExistsChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-jwt']/following-sibling::i"
+        },
+        "credentialsLoginIdPrivateTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-cob-login']"
+        },
+        "credentialsLoginIdPrivateErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-cob-login']/parent::div/parent::div/following-sibling::div[1]//div[contains(@class,'v-messages__message')]"
+        },
+        "samlUploadCertificatePrivateTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@data-vv-as='SAML Certificate']"
+        },
+        "samlUploadCertificatePrivateErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@data-vv-as='SAML Certificate']/parent::div/following-sibling::div[@class='file-error']"
+        },
+        "samlUploadCertificatePrivateBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@data-vv-as='SAML Certificate']/following-sibling::button"
+        },
+        "samlIssuerIdPrivateTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-saml-issuer-id']"
+        },
+        "samlIssuerIdPrivateErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-saml-issuer-id']/ancestor::div[2]/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "samlSSOPostSourcePrivateTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-sso-post-source']"
+        },
+        "samlSSOPostSourcePrivateErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-sso-post-source']/ancestor::div[2]/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "samlSSOKeepLiveReferralUrlPrivateTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-keep-live-url']"
+        },
+        "samlSSOKeepLiveReferralUrlPrivateErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-keep-live-url']/ancestor::div[2]/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "jwtAlgorithmPrivateOneTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-jwt-algorithm-dev-one']"
+        },
+        "jwtMaximumExpirationTimePrivateOneTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-max-exp-time-dev-one']"
+        },
+        "jwtMaximumExpirationTimePrivateOneErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-max-exp-time-dev-one']/parent::div/parent::div/following-sibling::div[1]//div[contains(@class,'v-messages__message')]"
+        },
+        "jwtRSAPublicKeyPrivateOneTxtArea": {
+          "Locator type": "xpath",
+          "value": "//textarea[@autoid='txt-area-rsa-public-key-dev-one']"
+        },
+        "jwtRSAPublicKeyPrivateOneErrorText": {
+          "Locator type": "xpath",
+          "value": "//textarea[@autoid='txt-area-rsa-public-key-dev-one']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "jwtAlgorithmPrivateTwoTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-jwt-algorithm-dev-two']"
+        },
+        "jwtMaximumExpirationTimePrivateTwoTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-max-exp-time-dev-two']"
+        },
+        "jwtMaximumExpirationTimePrivateTwoErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-max-exp-time-dev-two']/parent::div/parent::div/following-sibling::div[1]//div[contains(@class,'v-messages__message')]"
+        },
+        "jwtRSAPublicKeyPrivateTwoTxtArea": {
+          "Locator type": "xpath",
+          "value": "//textarea[@autoid='txt-area-rsa-public-key-dev-two']"
+        },
+        "jwtRSAPublicKeyPrivateTwoErrorText": {
+          "Locator type": "xpath",
+          "value": "//textarea[@autoid='txt-area-rsa-public-key-dev-two']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "addAnotherJWTPrivateBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='add-another-jwt-btn-dev']"
+        },
+        "deleteJWTPrivateBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='delete-jwt-btn-dev']"
+        },
+        "editSubDeleteJWTOnePrivateBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='delete-jwt-btn-dev-one']"
+        },
+        "editSubDeleteJWTTwoPrivateBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='delete-jwt-btn-dev-two']"
+        },
+        "editSubJWTOneIssuerIdPrivateLbl": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='delete-jwt-btn-dev-one']/parent::div/preceding-sibling::div[1]/span"
+        },
+        "editSubJWTTwoIssuerIdPrivateLbl": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='delete-jwt-btn-dev-two']/parent::div/preceding-sibling::div[1]/span"
+        },
+        "addAnotherJWTEnableDisabledStatusPrivateBtn": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'Add another JWT setup')]/parent::button"
+        }
+      }
+    },
+    "PUBLIC_AUTHENTICATION_SETUP_PAGE": {
+      "elements": {
+        "publicAuthSetupPageLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='lbl-sub-header']"
+        },
+        "paspStepHeader": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='header-lbl-prod-auth']"
+        },
+        "backToPreviousStepBtn": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'Back to Previous Step')]/parent::button"
+        },
+        "backToSubBrandsListLnk": {
+          "Locator type": "xpath",
+          "value": "//a[@autoid='back-to-list']"
+        },
+        "saveAndContinueBtn": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'Save & Continue')]/parent::button"
+        },
+        "loginMechanismCredentialsPublicResetPasswordBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='txt-bx-prod-reset-pwd']"
+        },
+        "loginMechanismSAMLPublicChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-saml-prod']"
+        },
+        "loginMechanismSAMLPublicClickableChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-saml-prod']/following-sibling::div"
+        },
+        "loginMechanismSAMLPublicExistsChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-saml']/following-sibling::i"
+        },
+        "loginMechanismJWTPublicChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-jwt-prod']"
+        },
+        "loginMechanismJWTPublicClickableChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-jwt-prod']/following-sibling::div"
+        },
+        "loginMechanismSAMLPublicExistsChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-jwt-prod']/following-sibling::i"
+        },
+        "credentialsLoginIdPublicTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-cob-login-prod']"
+        },
+        "credentialsLoginIdPublicErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-cob-login-prod']/parent::div/parent::div/following-sibling::div[1]//div[contains(@class,'v-messages__message')]"
+        },
+        "samlUploadCertificatePublicTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@data-vv-as='SAML Certificate']"
+        },
+        "samlUploadCertificatePublicErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@data-vv-as='SAML Certificate']/parent::div/following-sibling::div[@class='file-error']"
+        },
+        "samlUploadCertificatePublicBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@data-vv-as='SAML Certificate']/following-sibling::button"
+        },
+        "samlIssuerIdPublicTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-saml-issuer-id-prod']"
+        },
+        "samlIssuerIdPublicErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-saml-issuer-id-prod']/ancestor::div[2]/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "samlSSOPostSourcePublicTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-sso-post-source-prod']"
+        },
+        "samlSSOPostSourcePublicErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-sso-post-source-prod']/ancestor::div[2]/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "samlSSOKeepLiveReferralUrlPublicTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-keep-live-url-prod']"
+        },
+        "samlSSOKeepLiveReferralUrlPublicErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-keep-live-url-prod']/ancestor::div[2]/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "jwtAlgorithmPublicOneTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-jwt-algorithm-prod-one']"
+        },
+        "jwtMaximumExpirationTimePublicOneTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-max-exp-time-prod-one']"
+        },
+        "jwtMaximumExpirationTimePublicOneErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-max-exp-time-prod-one']/parent::div/parent::div/following-sibling::div[1]//div[contains(@class,'v-messages__message')]"
+        },
+        "jwtRSAPublicKeyPublicOneTxtArea": {
+          "Locator type": "xpath",
+          "value": "//textarea[@autoid='txt-area-rsa-public-key-prod-one']"
+        },
+        "jwtRSAPublicKeyPublicOneErrorText": {
+          "Locator type": "xpath",
+          "value": "//textarea[@autoid='txt-area-rsa-public-key-prod-one']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "jwtAlgorithmPublicTwoTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-jwt-algorithm-prod-two']"
+        },
+        "jwtMaximumExpirationTimePublicTwoTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-max-exp-time-prod-two']"
+        },
+        "jwtMaximumExpirationTimePublicTwoErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-max-exp-time-prod-two']/parent::div/parent::div/following-sibling::div[1]//div[contains(@class,'v-messages__message')]"
+        },
+        "jwtRSAPublicKeyPublicTwoTxtArea": {
+          "Locator type": "xpath",
+          "value": "//textarea[@autoid='txt-area-rsa-public-key-prod-two']"
+        },
+        "jwtRSAPublicKeyPublicTwoErrorText": {
+          "Locator type": "xpath",
+          "value": "//textarea[@autoid='txt-area-rsa-public-key-prod-two']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "addAnotherJWTPublicBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='add-another-jwt-btn-prod']"
+        },
+        "deleteJWTPublicBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='delete-jwt-btn-prod']"
+        },
+        "editSubDeleteJWTOnePublicBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='delete-jwt-btn-prod-one']"
+        },
+        "editSubDeleteJWTTwoPublicBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='delete-jwt-btn-prod-two']"
+        },
+        "editSubJWTOneIssuerIdPublicLbl": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='delete-jwt-btn-prod-one']/parent::div/preceding-sibling::div[1]/span"
+        },
+        "editSubJWTTwoIssuerIdPublicLbl": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='delete-jwt-btn-prod-two']/parent::div/preceding-sibling::div[1]/span"
+        },
+        "addAnotherJWTEnableDisabledStatusPublicBtn": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'Add another JWT setup')]/parent::button"
+        }
+      }
+    },
+    "PRODUCTS_AND_APPS_SELECTION_PAGE": {
+      "elements": {
+        "productsAndAppsSelectionPageLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='lbl-sub-header']"
+        },
+        "paaspStepHeader": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='header-lbl-select-prods']"
+        },
+        "backToSubBrandsListLnk": {
+          "Locator type": "xpath",
+          "value": "//a[@autoid='back-to-list']"
+        },
+        "saveAndContinueBtn": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'Save & Continue')]/parent::button"
+        },
+        "backToPreviousStepBtn": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'Back to Previous Step')]/parent::button"
+        },
+        "noProductsSelectedErrorTxt": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='header-lbl-select-prods']//ancestor::div[@class='form-row']/following-sibling::div//div[@class='error-bar']"
+        },
+        "aggregationChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-aggregation']"
+        },
+        "aggregationExistsChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-aggregation']/following-sibling::i"
+        },
+        "verificationChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-verification']"
+        },
+        "aggregationDocumentDownloadToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-aggregation-doc-download']"
+        },
+        "verificationDocumentDownloadToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-verification-doc-download']"
+        },
+        "verificationCDVEnabledToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-verification-cdv-enabled']"
+        },
+        "verificationCDVCompanyInputBox": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='input-btn-verification-cdv-company-name']"
+        },
+        "verificationCDVDescription": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='input-btn-verification-cdv-description']"
+        },
+        "yodleeFastlinkChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-yodlee-fl-3.0']"
+        },
+        "yodleeWellnessFinappsChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='chk-bx-yodlee-pfm-3.0']"
+        },
+        "dashboardToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-dashboard']"
+        },
+        "accountsToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-accounts']"
+        },
+        "finCheckToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-ai-fincheck']"
+        },
+        "cashFlowAnalysisToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-cash-flow-analysis']"
+        },
+        "investmentHoldingsToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-invest-holdings']"
+        },
+        "okToSpendToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-ok-to-spend']"
+        },
+        "transactionsToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-transactions']"
+        },
+        "budgetToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-budget']"
+        },
+        "incomeAndExpenseAnalysisToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-exp-Inc-analysis']"
+        },
+        "networthSummaryToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-net-worth-summary']"
+        },
+        "saveForAGoalToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-save-for-a-goal']"
+        },
+        "settingsToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='toggle-btn-settings']"
+        }
+      }
+    },
+    "CONTACT_DETAILS_PAGE": {
+      "elements": {
+        "contactDetailsPageLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='lbl-sub-header']"
+        },
+        "cdpStepHeader": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='header-lbl-contact-details']"
+        },
+        "backToSubBrandsListLnk": {
+          "Locator type": "xpath",
+          "value": "//a[@autoid='back-to-list']"
+        },
+        "saveAndContinueBtn": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'Save & Continue')]/parent::button"
+        },
+        "backToPreviousStepBtn": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'Back to Previous Step')]/parent::button"
+        },
+        "contactOneFirstNameTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-first-name']"
+        },
+        "contactOneFirstNameErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-first-name']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "contactOneLastNameTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-last-name']"
+        },
+        "contactOneLastNameErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-last-name']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "contactOneContactNumberTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-number']"
+        },
+        "contactOneContactNumberErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-number']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "contactOneEmailIdTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-email-id']"
+        },
+        "contactOneEmailIdErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-email-id']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "contactOneUserIdTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-user-id']"
+        },
+        "contactOneUserIdErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-user-id']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "contactTwoFirstNameTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-first-name-sec']"
+        },
+        "contactTwoFirstNameErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-first-name-sec']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "contactTwoLastNameTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-last-name-sec']"
+        },
+        "contactTwoLastNameErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-last-name-sec']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "contactTwoContactNumberTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-number-sec']"
+        },
+        "contactTwoContactNumberErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-number-sec']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "contactTwoEmailIdTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-email-id-sec']"
+        },
+        "contactTwoEmailIdErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-email-id-sec']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "contactTwoUserIdTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-user-id-sec']"
+        },
+        "contactTwoUserIdErrorText": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='txt-bx-contact-user-id-sec']/parent::div/parent::div/following-sibling::div//div[contains(@class,'v-messages__message')]"
+        },
+        "addAnotherContactBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='add-another-contact-btn']"
+        },
+        "addAnotherContactEnableDisabledStatusBtn": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'Add another contact')]/parent::button"
+        },
+        "deleteContactBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='delete-contact-btn']"
+        },
+        "editSubBrandContactOneResetPasswordBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='txt-bx-contact-one-reset-pwd']"
+        },
+        "editSubBrandContactTwoResetPasswordBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='txt-bx-contact-two-reset-pwd']"
+        }
+      }
+    },
+    "REVIEW_PAGE": {
+      "elements": {
+        "reviewPageLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='lbl-sub-header']"
+        },
+        "activeStep": {
+          "Locator type": "xpath",
+          "value": "//div[contains(@class,'activeStep')]/div"
+        },
+        "rpStepHeader": {
+          "Locator type": "xpath",
+          "value": "//div[contains(@class,'stepHeader')]//span"
+        },
+        "backToSubBrandsListLnk": {
+          "Locator type": "xpath",
+          "value": "//a[@autoid='back-to-list']"
+        },
+        "backToPreviousStepBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='btn-back-to-prev-step']"
+        },
+        "publishToPrivateBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='btn-publish']"
+        },
+        "configureAppsBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='btn-customize-app']"
+        },
+        "reviewGenConfigSubBrandNameLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='txt-bx-sub-brand-name-review']"
+        },
+        "reviewGenConfigSubBrandNameValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='txt-bx-sub-brand-name-review']/parent::div/following-sibling::div/span"
+        },
+        "reviewGenConfigDomainNameSubStringLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='txt-bx-domain-name-review']"
+        },
+        "reviewGenConfigDomainNameSubStringValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='txt-bx-domain-name-review']/parent::div/following-sibling::div/span"
+        },
+        "reviewGenConfigSourceIpAddressLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='txt-bx-source-ip-address-review']"
+        },
+        "reviewGenConfigSourceIpAddressValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='txt-bx-source-ip-address-review']/parent::div/following-sibling::div/span"
+        },
+        "reviewGenConfigTier1CustomerCareLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='radio-label-tier1CustomerCare-review']"
+        },
+        "reviewGenConfigTier1CustomerCareValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='radio-label-tier1CustomerCare-review']/parent::div/following-sibling::div/span"
+        },
+        "reviewPrivateSetupLoginMechanismLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-label-login-mechanism-review']"
+        },
+        "reviewPrivateSetupLoginMechanismValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-label-login-mechanism-review']/parent::div/following-sibling::div//span"
+        },
+        "reviewPrivateSetupCredentialsLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-label-credentials-review']"
+        },
+        "reviewPrivateSetupCredentialsValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-saml-review']/parent::div/following-sibling::div/span/span"
+        },
+        "reviewPrivateSetupSamlLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-saml-review']"
+        },
+        "reviewPrivateSetupSamlValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-saml-review']/parent::div/following-sibling::div/span/span"
+        },
+        "reviewPrivateSetupJwtOneLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-jwt-dev-one-review']"
+        },
+        "reviewPrivateSetupJwtOneValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-jwt-dev-one-review']/parent::div/following-sibling::div/span/span"
+        },
+        "reviewPrivateSetupJwtOneIssuerIdLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-jwt-dev-one-review']/parent::div/following-sibling::div/span[1]/span"
+        },
+        "reviewPrivateSetupJwtTwoLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-jwt-dev-two-review']"
+        },
+        "reviewPrivateSetupJwtTwoValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-jwt-dev-two-review']/parent::div/following-sibling::div/span/span"
+        },
+        "reviewPrivateSetupJwtTwoIssuerIdLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-jwt-dev-two-review']/parent::div/following-sibling::div/span[1]/span"
+        },
+        "reviewPublicSetupLoginMechanismLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-label-login-mechanism-prod-review']"
+        },
+        "reviewPublicSetupLoginMechanismValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-label-login-mechanism-prod-review']/parent::div/following-sibling::div//span"
+        },
+        "reviewPublicSetupCredentialsLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-credentials-prod-review']"
+        },
+        "reviewPublicSetupCredentialsValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-credentials-prod-review']/parent::div/following-sibling::div/span/span"
+        },
+        "reviewPublicSetupSamlLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-saml-prod-review']"
+        },
+        "reviewPublicSetupSamlValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-saml-prod-review']/parent::div/following-sibling::div/span/span"
+        },
+        "reviewPublicSetupJwtOneLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-jwt-prod-one-review']"
+        },
+        "reviewPublicSetupJwtOneValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-jwt-prod-one-review']/parent::div/following-sibling::div/span/span"
+        },
+        "reviewPublicSetupJwtOneIssuerIdLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-jwt-prod-one-review']/parent::div/following-sibling::div/span[1]/span"
+        },
+        "reviewPublicSetupJwtTwoLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-jwt-prod-two-review']"
+        },
+        "reviewPublicSetupJwtTwoValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-jwt-prod-two-review']/parent::div/following-sibling::div/span/span"
+        },
+        "reviewPublicSetupJwtTwoIssuerIdLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='form-label-jwt-prod-two-review']/parent::div/following-sibling::div/span[1]/span"
+        },
+        "reviewSelectApiProductsLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-label-selected-api-review']"
+        },
+        "reviewSelectApiProductsValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-label-selected-api-review']/parent::div/following-sibling::div//span"
+        },
+        "reviewSelectProductsAggregationLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-aggregation-review']"
+        },
+        "reviewSelectProductsAggregationValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-aggregation-review']/parent::div/following-sibling::div//span"
+        },
+        "reviewSelectProductsVerificationLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-verification-review']"
+        },
+        "reviewSelectProductsVerificationValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-verification-review']/parent::div/following-sibling::div//span"
+        },
+        "reviewSelectApplicationsToBeEnabledYodleeFL3Lbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-yodlee-fl-3.0-review']"
+        },
+        "reviewSelectApplicationsToBeEnabledYodleeFL3ValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-yodlee-fl-3.0-review']/parent::div/following-sibling::div/span"
+        },
+        "reviewSelectApplicationsToBeEnabledYodleePFM3Lbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-yodlee-pfm-3.0-review']"
+        },
+        "reviewSelectApplicationsToBeEnabledYodleePFM3ValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='chk-bx-yodlee-pfm-3.0-review']/parent::div/following-sibling::div//span"
+        },
+        "reviewContact1of2Lbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='formGroup-label-contact-1-review']"
+        },
+        "reviewContact1of2ValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='formGroup-label-contact-1-review']/parent::div/following-sibling::div/span/span"
+        },
+        "reviewContact2of2Lbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='formGroup-label-contact-2-review']"
+        },
+        "reviewContact2of2ValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='formGroup-label-contact-2-review']/parent::div/following-sibling::div/span/span"
+        }
+      }
+    },
+    "SUB_BRAND_OVERVIEW_PAGE": {
+      "elements": {
+        "sbOverviewPageLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='lbl-sub-header']"
+        },
+        "sbOverviewStepHeader": {
+          "Locator type": "xpath",
+          "value": "//div[contains(@class,'stepHeader')]//span"
+        },
+        "backToSubBrandsListLnk": {
+          "Locator type": "xpath",
+          "value": "//a[@autoid='back-to-list']"
+        },
+        "sbOverviewEditBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='edit-btn']"
+        },
+        "sbOverviewConfigureAppsBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='customize-app-btn']"
+        },
+        "sbOverviewGenConfigCustomerSupportOwnerTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='cust-suppt-own-txt-lbl']"
+        },
+        "sbOverviewGenConfigCustomerSupportOwnerValueTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='cust-suppt-own-value-txt-lbl']"
+        },
+        "sbOverviewGenConfigApplPrivateURLTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='appl-dev-url-txt-lbl']"
+        },
+        "sbOverviewGenConfigApplPrivateURLValueTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='appl-dev-url-value-txt-lbl']"
+        },
+        "sbOverviewGenConfigApplPublicURLTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='appl-prod-url-txt-lbl']"
+        },
+        "sbOverviewGenConfigApplPublicURLValueTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='appl-prod-url-value-txt-lbl']"
+        },
+        "sbOverviewGenConfigYCCPrivateURLTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='ycc-dev-url-txt-lbl']"
+        },
+        "sbOverviewGenConfigYCCPrivateURLValueTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='ycc-dev-url-value-txt-lbl']"
+        },
+        "sbOverviewGenConfigYCCPublicURLTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='ycc-prod-url-txt-lbl']"
+        },
+        "sbOverviewGenConfigYCCPublicURLValueTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='ycc-prod-url-value-txt-lbl']"
+        },
+        "sbOverviewGenConfigYSLPrivateURLTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='ysl-dev-url-txt-lbl']"
+        },
+        "sbOverviewGenConfigYSLPrivateURLValueTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='ysl-dev-url-value-txt-lbl']"
+        },
+        "sbOverviewGenConfigYSLPublicURLTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='ysl-prod-url-txt-lbl']"
+        },
+        "sbOverviewGenConfigYSLPublicURLValueTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='ysl-prod-url-value-txt-lbl']"
+        },
+        "sbOverviewSelectedProductAggregationTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='product-aggregation-txt-lbl']"
+        },
+        "sbOverviewSelectedProductVerificationTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='product-verification-txt-lbl']"
+        },
+        "sbOverviewEnabledApplicationFastLinkTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='enabled-appl-FL3-txt-lbl']"
+        },
+        "sbOverviewEnabledApplicationsWellnessFinAppsTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='enabled-appl-PFM3-txt-lbl']"
+        },
+        "sbOverviewListOfEnabledApplicationsWellnessFinAppsValueTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='enabled-appl-PFM3-txt-lbl']/parent::div/following-sibling::div//span"
+        },
+        "sbOverviewContactNameColumnTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='suppt-team-col-name-txt-lbl']"
+        },
+        "sbOverviewUserIdColumnTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='suppt-team-col-user-id-txt-lbl']"
+        },
+        "sbOverviewEmailIdColumnTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='suppt-team-col-email-addr-txt-lbl']"
+        },
+        "sbOverviewContactNumberColumnTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='suppt-team-col-cont-number-txt-lbl']"
+        },
+        "sbOverviewContactOneNameValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='suppt-team-col-name-txt-lbl']/parent::div/parent::div/following-sibling::div[1]/div[1]/span"
+        },
+        "sbOverviewContactTwoNameValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='suppt-team-col-name-txt-lbl']/parent::div/parent::div/following-sibling::div[2]/div[1]/span"
+        },
+        "sbOverviewContactOneUserIdValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='suppt-team-col-user-id-txt-lbl']/parent::div/parent::div/following-sibling::div[1]/div[2]/span"
+        },
+        "sbOverviewContactTwoUserIdValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='suppt-team-col-user-id-txt-lbl']/parent::div/parent::div/following-sibling::div[2]/div[2]/span"
+        },
+        "sbOverviewContactOneEmailValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='suppt-team-col-email-addr-txt-lbl']/parent::div/parent::div/following-sibling::div[1]/div[TOKEN]/span"
+        },
+        "sbOverviewContactTwoEmailValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='suppt-team-col-email-addr-txt-lbl']/parent::div/parent::div/following-sibling::div[2]/div[TOKEN]/span"
+        },
+        "sbOverviewContactOneContactNumberValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='suppt-team-col-cont-number-txt-lbl']/parent::div/parent::div/following-sibling::div[1]/div[TOKEN]/span"
+        },
+        "sbOverviewContactTwoContactNumberValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='suppt-team-col-cont-number-txt-lbl']/parent::div/parent::div/following-sibling::div[2]/div[TOKEN]/span"
+        },
+        "sbOverViewFooterTxtLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@class='footer']"
+        }
+      }
+    },
+    "CUSTOMIZATION_TOOL_FEATURES_PAGE": {
+      "elements": {
+        "featuresTab": {
+          "Locator type": "xpath",
+          "value": "//div[@id='tab-features']"
+        },
+        "applyToAllLnk": {
+          "Locator type": "xpath",
+          "value": "//div[contains(text(),'Apply to All')]/i"
+        },
+        "ataSSOToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-ata-sso-toggle-btn']"
+        },
+        "ataSSOPrivateLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-ata-private-lnk']/div/div/i"
+        },
+        "ataSSOPrivateDefaultDomainNameTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-private-default-domain-name-txt-bx']"
+        },
+        "ataSSOPrivateLoginURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-private-login-url-txt-bx']"
+        },
+        "ataSSOPrivateLogoutURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-private-logout-url-txt-bx']"
+        },
+        "ataSSOPrivateStaleSessionURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-private-stale-session-url-txt-bx']"
+        },
+        "ataSSOPrivateKeepAliveReferralURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-private-sso-keep-alive-referral-url-txt-bx']"
+        },
+        "ataSSOPrivateSessionTimeOutURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-private-session-time-out-url-txt-bx']"
+        },
+        "ataSSOPrivateTechnicalDifficultiesURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-private-technical-difficulties-url-txt-bx']"
+        },
+        "ataSSOPrivateFallbackURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-private-fallback-url-txt-bx']"
+        },
+        "ataSSOPublicLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-ata-public-lnk']/div/div/i"
+        },
+        "ataSSOPublicDefaultDomainNameTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-public-default-domain-name-txt-bx']"
+        },
+        "ataSSOPublicLoginURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-pubic-login-url-txt-bx']"
+        },
+        "ataSSOPublicLogoutURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-public-logout-url-txt-bx']"
+        },
+        "ataSSOPublicStaleSessionURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-public-stale-session-url-txt-bx']"
+        },
+        "ataSSOPublicKeepAliveReferralURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-public-sso-keep-alive-referral-url-txt-bx']"
+        },
+        "ataSSOPublicSessionTimeOutURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-public-session-time-out-url-txt-bx']"
+        },
+        "ataSSOPublicTechnicalDifficultiesURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-public-technical-difficulties-url-txt-bx']"
+        },
+        "ataSSOPublicFallbackURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-public-fallback-url-txt-bx']"
+        },
+        "ataSessionManagerToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-ata-session-manager-toggle-btn']"
+        },
+        "ataSessionManagerSessionTimeOutMinutesClickableTxtBx": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='cust-tool-features-ata-session-time-out-minutes-txt-bx']"
+        },
+        "ataSessionManagerSessionTimeOutMinutesTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-session-time-out-minutes-txt-bx']"
+        },
+        "ataSessionManagerKeepAliveURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-keep-alive-url-txt-bx']"
+        },
+        "ataSessionManagerRedirectURLTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-ata-redirect-url-txt-bx']"
+        },
+        "ataSessionManagerShowTimeNotificationToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-ata-show-timeout-notification-toggle-btn']"
+        },
+        "ataSessionManagerSessionAutoRenewToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-ata-session-auto-renew-toggle-btn']"
+        },
+        "fastLinkLnk": {
+          "Locator type": "xpath",
+          "value": "//div[contains(text(),'Fastlink')]/i"
+        },
+        "flSplashPageToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-fastlink-splash-page-toggle-btn']"
+        },
+        "flTermsAndConditionsSplashToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-fastlink-tnc-splash-toggle-btn']"
+        },
+        "flTermsAndConditionsVerifyCredentialsToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-fastlink-tnc-verify-credentials-toggle-btn']"
+        },
+        "flTermsAndConditionsVerifyCredentialsDropDwn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-fastlink-tnc-verify-credentials-drp-dwn']"
+        },
+        "flTermsAndConditionsVerifyCredentialsItemsInDropDwn": {
+          "Locator type": "xpath",
+          "value": "(//span[text()='TOKEN'])"
+        },
+        "flTermsAndConditionsVerifyCredentialsLinkClickableTxtBx": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='cust-tool-features-fastlink-tnc-verify-credentials-link-txt-bx']"
+        },
+        "flTermsAndConditionsVerifyCredentialsLinkTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-fastlink-tnc-verify-credentials-link-txt-bx']"
+        },
+        "flTermsAndConditionsVerifyCredentialsInlineTxtArea": {
+          "Locator type": "xpath",
+          "value": "//textarea[@autoid='cust-tool-text-fastlink-tnc-txt-area']"
+        },
+        "flStepperToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-fastlink-stepper-toggle-btn']"
+        },
+        "flSearchBarPositionDropDwn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-fastlink-search-bar-position-drp-dwn']"
+        },
+        "flSearchBarPositionItemsInDropDwn": {
+          "Locator type": "xpath",
+          "value": "(//span[text()='TOKEN'])"
+        },
+        "flPopularSiteToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-fastlink-popular-sites-toggle-btn']"
+        },
+        "flPopularSiteSearchTxtBx": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-fastlink-popular-sites-search-txt-bx']//input[@placeholder='Search']"
+        },
+        "flPopularSiteSearchDrpDwn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-fastlink-popular-sites-search-txt-bx']//i"
+        },
+        "flPopularSiteSearchItemsInDrpDwn": {
+          "Locator type": "xpath",
+          "value": "(//span[text()='TOKEN'])"
+        },
+        "flPsNumberOfSitesToDisplayLbl": {
+          "Locator type": "xpath",
+          "value": "//label[contains(text(),'Number of sites to display')]"
+        },
+        "flPsWebLbl": {
+          "Locator type": "xpath",
+          "value": "//label[contains(text(),'Web')]"
+        },
+        "flPsWebValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='cust-tool-features-fastlink-no-of-sites-to-display-web-txt-bx']"
+        },
+        "flPsWebTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-fastlink-no-of-sites-to-display-web-txt-bx']"
+        },
+        "flPsWebClickableTxtBx": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='cust-tool-features-fastlink-no-of-sites-to-display-web-txt-bx']"
+        },
+        "flPsMobileLbl": {
+          "Locator type": "xpath",
+          "value": "//label[contains(text(),'Mobile')]"
+        },
+        "flPsMobileValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='cust-tool-features-fastlink-no-of-sites-to-display-mobile-txt-bx']"
+        },
+        "flPsMobileTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-fastlink-no-of-sites-to-display-mobile-txt-bx']"
+        },
+        "flPsMobileClickableTxtBx": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='cust-tool-features-fastlink-no-of-sites-to-display-mobile-txt-bx']"
+        },
+        "flPsTabletLbl": {
+          "Locator type": "xpath",
+          "value": "//label[contains(text(),'Tablet')]"
+        },
+        "flPsTabletValueLbl": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='cust-tool-features-fastlink-no-of-sites-to-display-tablet-txt-bx']"
+        },
+        "flPsTabletTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-features-fastlink-no-of-sites-to-display-tablet-txt-bx']"
+        },
+        "flPsTabletClickableTxtBx": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='cust-tool-features-fastlink-no-of-sites-to-display-tablet-txt-bx']"
+        },
+        "flPsDisplaySiteNameOnLogoButtonsToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-fastlink-display-site-name-on-logo-buttons-toggle-btn']"
+        },
+        "flSuccessPageForAddAccountAggregationToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-fastlink-success-page-for-add-acccount-toggle-btn']"
+        },
+        "flFooterToggleBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-features-fastlink-footer-toggle-btn']"
+        }
+      }
+    },
+    "CUSTOMIZATION_TOOL_DESIGN_PAGE": {
+      "elements": {
+        "designTab": {
+          "Locator type": "xpath",
+          "value": "//div[@id='tab-design']"
+        },
+        "designTabApplyToAllLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@style='']//div[contains(text(),'Apply to All')]/i"
+        },
+        "designATAFontFamilyUploadLnk": {
+          "Locator type": "xpath",
+          "value": "//a[@autoid='cust-tool-design-primary-font-upload-btn']"
+        },
+        "designATAFontUploadDropFileTxtBx": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='customize-css-createbrand-fontupload-dropfile-button']//input"
+        },
+        "designATAFontUploadUploadFontBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@autoid='customize-css-createbrand-fontupload-uploadfont-button']"
+        },
+        "designATATextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-text-color-btn']"
+        },
+        "designATAPrimaryButtonLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-apply-to-all-lnk' and @label='Primary button']//i"
+        },
+        "designATAPrimaryButtonDefaultTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-primary-button-default-text-color-btn']"
+        },
+        "designATAPrimaryButtonHoverTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-primary-button-hover-text-color-btn']"
+        },
+        "designATAPrimaryButtonDefaultBackgroundColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-primary-button-default-background-color-btn']"
+        },
+        "designATAPrimaryButtonHoverBackgroundColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-primary-button-hover-background-color-btn']"
+        },
+        "designATAPrimaryButtonBorderColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-primary-button-border-color-btn']"
+        },
+        "designATASecondaryButtonLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-apply-to-all-lnk' and @label='Secondary button']//i"
+        },
+        "designATASecondaryButtonDefaultTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-secondary-button-default-text-color-btn']"
+        },
+        "designATASecondaryButtonHoverTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-secondary-button-hover-text-color-btn']"
+        },
+        "designATASecondaryButtonDefaultBackgroundColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-secondary-button-default-background-color-btn']"
+        },
+        "designATASecondaryButtonHoverBackgroundColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-secondary-button-hover-background-color-btn']"
+        },
+        "designATASecondaryButtonBorderColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-secondary-button-border-color-btn']"
+        },
+        "designATADeleteButtonLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-apply-to-all-lnk' and @label='Delete button']//i"
+        },
+        "designATADeleteButtonDefaultTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-delete-button-default-text-color-btn']"
+        },
+        "designATADeleteButtonHoverTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-delete-button-hover-text-color-btn']"
+        },
+        "designATADeleteButtonDefaultBackgroundColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-delete-button-default-background-color-btn']"
+        },
+        "designATADeleteButtonHoverBackgroundColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-delete-button-hover-background-color-btn']"
+        },
+        "designATADeleteButtonBorderColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-delete-button-border-color-btn']"
+        },
+        "designTabFastlinkLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@style='']//div[contains(text(),'Fastlink')]/i"
+        },
+        "designFLBackgroundColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-background-color-fl-only-btn']"
+        },
+        "designFLHeadersLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-fastlink-lnk' and @label='Headers']//i"
+        },
+        "designFLHeadersTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-headers-text-color-btn']"
+        },
+        "designFLHeadersBackgroundColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-headers-background-color-btn']"
+        },
+        "designFLTipsLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-fastlink-lnk' and @label='Tips']//i"
+        },
+        "designFLTipsTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='autoid=cust-tool-design-tips-text-color-btn']"
+        },
+        "designFLTipsBackgroundColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-tips-background-color-btn']"
+        },
+        "designFLSteppersLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-fastlink-lnk' and @label='Steppers']//i"
+        },
+        "designFLSteppersActiveTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-steppers-active-text-color-btn']"
+        },
+        "designFLSteppersActiveBorderColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-steppers-active-border-color-btn']"
+        },
+        "designFLSteppersInactiveTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-steppers-inactive-text-color-btn']"
+        },
+        "designFLSteppersInactiveBorderColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-steppers-inactive-border-color-btn']"
+        },
+        "designFLSelectInstitutionsButtonsLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-fastlink-lnk' and @label='Select institution buttons']//i"
+        },
+        "designFLSelectInstitutionsButtonsBackgroundColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-select-institutions-buttons-background-color-btn']"
+        },
+        "designFLSelectInstitutionsButtonsLabelTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-buttons-select-institutions-buttons-label-text-color-btn']"
+        },
+        "designTabWellnessLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@style='']//div[contains(text(),'Wellness')]/i"
+        },
+        "designWellnessButtonRadiusClickableTxtBx": {
+          "Locator type": "xpath",
+          "value": "//span[@autoid='cust-tool-design-buttons-button-radius-wellness-only-txt-bx']"
+        },
+        "designWellnessButtonRadiusTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@autoid='cust-tool-design-buttons-button-radius-wellness-only-txt-bx']"
+        },
+        "designWellnessMainMenuLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-lnk' and @label='Main menu']//i"
+        },
+        "designWellnessMainMenuDefaultTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-main-menu-default-text-color-btn']"
+        },
+        "designWellnessMainMenuHoverTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-main-menu-hover-text-color-btn']"
+        },
+        "designWellnessMainMenuActiveTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-main-menu-active-text-color-btn']"
+        },
+        "designWellnessMainMenuBackgroundColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-main-menu-background-color-btn']"
+        },
+        "designWellnessDropdownSubmenuLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-lnk' and @label='Dropdown submenu']//i"
+        },
+        "designWellnessDropdownSubmenuDefaultTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-dropdown-submenu-default-text-color-btn']"
+        },
+        "designWellnessDropdownSubmenuHoverTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-dropdown-submenu-hover-text-color-btn']"
+        },
+        "designWellnessDropdownSubmenuActiveTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-dropdown-submenu-active-text-color-btn']"
+        },
+        "designWellnessDropdownSubmenuBackgroundColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-dropdown-submenu-background-color-btn']"
+        },
+        "designWellnessSidebarMenuLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-lnk' and @label='Sidebar menu']//i"
+        },
+        "designWellnessSidebarMenuDefaultTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-sidebar-menu-default-text-color-btn']"
+        },
+        "designWellnessSidebarMenuHoverTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-sidebar-menu-hover-text-color-btn']"
+        },
+        "designWellnessSidebarMenuActiveTextColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-sidebar-menu-active-text-color-btn']"
+        },
+        "designWellnessSidebarMenuBackgroundColorBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-design-menus-sidebar-menu-background-color-btn']"
+        },
+        "designTabColorPickerTxtBx": {
+          "Locator type": "xpath",
+          "value": "//div[contains(@class,'el-color-picker__panel') and not(contains(@style,'display: none'))]//input"
+        },
+        "designTabColorPickerRevertToDefaultLnk": {
+          "Locator type": "xpath",
+          "value": "//div[contains(@class,'el-color-picker__panel') and not(contains(@style,'display: none'))]//a"
+        },
+        "designTabColorPickerOkBtn": {
+          "Locator type": "xpath",
+          "value": "//div[contains(@class,'el-color-picker__panel') and not(contains(@style,'display: none'))]//button"
+        }
+      }
+    },
+    "CUSTOMIZATION_TOOL_TEXT_PAGE": {
+      "elements": {
+        "textTab": {
+          "Locator type": "xpath",
+          "value": "//div[@id='tab-text']"
+        },
+        "fastLinkLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-text-fastlink-lnk']//div[contains(text(),'FastLink')]/i"
+        },
+        "fastLinkSelectASiteTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@name='Select a Site']"
+        },
+        "fastLinkVerifyCredentialsTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@name='Verify Credentials']"
+        },
+        "fastLinkViewAccountsTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@name='View accounts']"
+        },
+        "fastLinkTipAccountTypesTxtArea": {
+          "Locator type": "xpath",
+          "value": "//textarea[@name='Tip: Account Types']"
+        },
+        "fastLinkLinkingAccountsSecurityTxtArea": {
+          "Locator type": "xpath",
+          "value": "//textarea[@name='Tip: Linking Accounts / Security']"
+        },
+        "fastLinkButtonsLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='cust-tool-text-fastlink-buttons-lnk' and @label='Buttons']//div[text()='Buttons']/i"
+        },
+        "fastLinkButtonsGetStartedTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@name='Get started']"
+        },
+        "fastLinkButtonsCancelTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@name='Cancel']"
+        },
+        "fastLinkButtonsSubmitTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@name='Submit']"
+        },
+        "fastLinkButtonsBackTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@name='Back']"
+        },
+        "fastLinkButtonsCloseTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@name='Close']"
+        },
+        "fastLinkButtonsLinkAnotherSiteTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@name='Link another site']"
+        },
+        "fastLinkButtonsDeleteTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@name='Delete']"
+        }
+      }
+    },
+    "CUSTOMIZATION_TOOL_COMMON_PAGE": {
+      "elements": {
+        "appsCustomizationPageLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@autoid='lbl-header']"
+        },
+        "backToSubBrandsListLnk": {
+          "Locator type": "xpath",
+          "value": " //span[contains(text(),'Back to Sub-brand List')]/i"
+        },
+        "subBrandNameLbl": {
+          "Locator type": "xpath",
+          "value": "//div[contains(@class,'caption-text')]"
+        },
+        "previewBtn": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'Preview')]/parent::button"
+        },
+        "saveBtn": {
+          "Locator type": "xpath",
+          "value": "//*[@class='y-sub-header-button-ctr']//span[contains(text(),'Save')]/parent::button[contains(@class, 'primary')]"
+        },
+        "dialogDiscardBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@role='dialog']//span[text()='Discard']"
+        },
+        "dialogSaveBtn": {
+          "Locator type": "xpath",
+          "value": "//div[@role='dialog']//span[text()='Save']"
+        },
+        "alertToolTipOnSave": {
+          "Locator type": "xpath",
+          "value": "//div[@role='alert']//span[@class='message-ctr']"
+        }
+      }
+    },
+    "SAML_PAGE": {
+      "elements": {
+        "headerLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@class='header']/h1"
+        },
+        "issuerTxtBx": {
+          "Locator type": "xpath",
+          "value": " //input[@id='UNIQUE_ISSUER']"
+        },
+        "subjectNameUserIdTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@id='USER_GUID']"
+        },
+        "nodeUrlTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@id='NODE_URL']"
+        },
+        "finappIdTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@id='FINAPP_ID']"
+        },
+        "extraParamsTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@id='EXTRA_PARAMS']"
+        },
+        "redirectRequestTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@id='REDIRECT_REQ']"
+        },
+        "attributeStringTxtArea": {
+          "Locator type": "xpath",
+          "value": "//textarea[@id='attributeString']"
+        },
+        "samlVersionRadioBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@id='SAML_VERSION' and @value='TOKEN']"
+        },
+        "attributeEncryptionSAML1.1RadioBtn": {
+          "Locator type": "xpath",
+          "value": "//dl[@id='enc1']//input[@id='ENCRYPT_FLAG' and @value='TOKEN']"
+        },
+        "attributeEncryptionSAML2.0RadioBtn": {
+          "Locator type": "xpath",
+          "value": "//dl[@id='enc2']//input[@id='ENCRYPT_FLAG' and @value='TOKEN']"
+        },
+        "attributeEncryptionMechanismSAML2.0RadioBtn": {
+          "Locator type": "xpath",
+          "value": "//dl[@id='encrption_mechanism']//input[@id='ATTRIB_ENCRYPTION_MECHANISM' and contains(@value,'TOKEN')]"
+        },
+        "attributeEncodingRadioBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@id='ENCODE_ATTR_FLAG' and @value='TOKEN']"
+        },
+        "assertionEncryptionSAML2.0RadioBtn": {
+          "Locator type": "xpath",
+          "value": "//dl[@id='assertion_enc']//input[@id='ASS_ENCRYPT_FLAG' and @value='TOKEN']"
+        },
+        "multipleKeysSAML2.0RadioBtn": {
+          "Locator type": "xpath",
+          "value": "//dl[@id='multiple_keys']//input[@id='MULTI_KEY_FLAG' and @value='TOKEN']"
+        },
+        "signResponseRadioBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@id='SIGN_RES_FLAG' and @value='TOKEN']"
+        },
+        "signAssertionRadioBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@id='SIGN_ASSER_FLAG' and @value='TOKEN']"
+        },
+        "signingAliasKeyTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@id='SIGN_ALIAS_KEY']"
+        },
+        "ssoAttributeKeyTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@id='SSO_ATTRIB_KEY']"
+        },
+        "linkIntegrityTokenRadioBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@id='LIT_FLAG' and @value='TOKEN']"
+        },
+        "submitBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@type='submit']"
+        }
+      }
+    },
+    "DASHBOARD_PAGE": {
+      "elements": {
+        "linkAccountBtn": {
+          "Locator type": "xpath",
+          "value": "//a[@id='dashboardLinkAccountBtn']"
+        },
+        "siteSearchTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@id='siteSearch']"
+        },
+        "dagSiteLnk": {
+          "Locator type": "xpath",
+          "value": "//div[@orgvalue='Dag Site']"
+        },
+        "userNameTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@aria-label='Username']"
+        },
+        "passwordTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@aria-label='Password']"
+        },
+        "reEnterPasswordTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@aria-label='Re-enter Password']"
+        },
+        "termsAndConditionsChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[contains(@aria-label,'Terms & Conditions')]/following-sibling::span"
+        },
+        "getStartedBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@aria-label='Get Started']"
+        },
+        "cancelBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@aria-label='Cancel']"
+        },
+        "backBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@aria-label='back']"
+        },
+        "submitBtn": {
+          "Locator type": "xpath",
+          "value": "//span[contains(text(),'Submit')]/parent::button"
+        },
+        "closeBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@aria-label='Close']"
+        },
+        "linkAnotherSiteBtn": {
+          "Locator type": "xpath",
+          "value": "//button[@id='linkAnotherAccount']"
+        },
+        "refreshStatusLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@id='refreshStatus']//div[contains(@class,'loading')]"
+        },
+        "toastMessageLbl": {
+          "Locator type": "xpath",
+          "value": "//div[@role='alert' and @class='toast-msg success_page_msg']"
+        }
+      }
+    },
+    "NODE_LOGIN_PAGE": {
+      "elements": {
+        "userIDTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@name='login']"
+        },
+        "passwordTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@name='password']"
+        },
+        "finappIdTxtBx": {
+          "Locator type": "xpath",
+          "value": "//input[@name='app']"
+        },
+        "extraParamsTxtArea": {
+          "Locator type": "xpath",
+          "value": "//textarea[@name='extraParams']"
+        },
+        "jsonResponseChkBx": {
+          "Locator type": "xpath",
+          "value": "//input[@name='redirectReq']"
+        },
+        "loginBtn": {
+          "Locator type": "xpath",
+          "value": "//input[@id='submitBtn']"
+        }
+      }
+    }
+  }
+}

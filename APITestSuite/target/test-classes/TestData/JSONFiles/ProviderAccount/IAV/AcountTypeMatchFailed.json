@@ -1,0 +1,16 @@
+{
+    "providerAccount": {
+        "id": "${json-unit.ignore}",
+        "account": [
+            {
+                "accountNumber": "8894512341",
+                "verification": {
+                    "type": "MATCHING",
+                    "status": "FAILED",
+                    "reason": "ACCOUNT_TYPE_MATCH_FAILED"
+                },
+                "accountType": "CHECKING"
+            }
+        ]
+    }
+}

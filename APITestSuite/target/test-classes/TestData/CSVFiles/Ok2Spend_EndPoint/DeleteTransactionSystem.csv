@@ -1,0 +1,3 @@
+testCaseId,testCaseName,httpStatusCode,resFile,resFilePath,container,enabled
+AT-115489,Bank container,204,NoResponse.json,../src/test/resources/TestData/ErrorMessage/,bank,TRUE
+AT-115494,Card container,204,NoResponse.json,../src/test/resources/TestData/ErrorMessage/,creditCard,TRUE

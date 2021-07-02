@@ -1,0 +1,11 @@
+testCaseId,testCaseName,segmentNameKey,segmentNameValue,responseFile,filePath,status,enabled
+AT-97988,invalid segmentName key,segment_Name,Subrand Segment,invalidInput.json,../src/test/resources/TestData/Segmentation/,400,TRUE
+AT-97988,invalid segmentName key with special characters,segmentName123,Subrand Segment,invalidInput.json,../src/test/resources/TestData/Segmentation/,400,TRUE
+AT-98044,null segmentName key,,Subrand Segment,invalidInput.json,../src/test/resources/TestData/Segmentation/,400,TRUE
+AT-98044,comma seprated segmentName,segmentName,"Subrand Segment,Subrand Segment",invalidSegmentName.json,../src/test/resources/TestData/Segmentation/,400,TRUE
+AT-98044,invalid segmentName value,segmentName,invalid,invalidSegmentName.json,../src/test/resources/TestData/Segmentation/,400,TRUE
+AT-98042,invalid segmentName value as alphanumeric characters,segmentName,invalid!12,invalidSegmentName.json,../src/test/resources/TestData/Segmentation/,400,TRUE
+AT-98039,invalid segmentName from  channel,segmentName,Small Business Segment,invalidSegmentName.json,../src/test/resources/TestData/Segmentation/,400,TRUE
+AT-98040,invalid value by  providing as case sensitive,segmentName,subrand segment 01,invalidSegmentName.json,../src/test/resources/TestData/Segmentation/,400,TRUE
+AT-98040,with deleted segmentName,segmentName,Deleted Segment,invalidSegmentName.json,../src/test/resources/TestData/Segmentation/,400,TRUE
+AT-98040,invalid segmentName from  different subrand,segmentName,SegmentName for Automation1,invalidSegmentName.json,../src/test/resources/TestData/Segmentation/,400,TRUE

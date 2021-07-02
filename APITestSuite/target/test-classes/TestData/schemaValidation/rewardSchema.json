@@ -1,0 +1,246 @@
+
+
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "account": {
+      "$id": "/properties/account",
+      "type": "array",
+      "items": {
+        "$id": "/properties/account/items",
+        "type": "object",
+        "properties": {
+          "refreshinfo": {
+            "$id": "/properties/account/items/properties/refreshinfo",
+            "type": "object",
+            "properties": {
+              "statusCode": {
+                "$id": "/properties/account/items/properties/refreshinfo/properties/statusCode",
+                "type": "integer",
+                "format":"statusCode",
+                "title": "The Statuscode Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "lastRefreshAttempt": {
+                "$id": "/properties/account/items/properties/refreshinfo/properties/lastRefreshAttempt",
+                "type": "string",
+                 "format":"datetime",
+                "title": "The Lastrefreshattempt Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "2017-11-27T05:47:18Z"
+                ]
+              },
+              "lastRefreshed": {
+                "$id": "/properties/account/items/properties/refreshinfo/properties/lastRefreshed",
+                "type": "string",
+                 "format":"datetime",
+                "title": "The Lastrefreshed Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "2017-11-27T05:47:18Z"
+                ]
+              },
+              "nextRefreshScheduled": {
+                "$id": "/properties/account/items/properties/refreshinfo/properties/nextRefreshScheduled",
+                "type": "string",
+                 "format":"datetime",
+                "title": "The Nextrefreshscheduled Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "2017-11-27T15:12:07Z"
+                ]
+              },
+              "statusMessage": {
+                "$id": "/properties/account/items/properties/refreshinfo/properties/statusMessage",
+                "type": "string",
+                "format":"refreshStatus",
+                "title": "The Statusmessage Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "OK"
+                ]
+              }
+            }
+          },
+          "CONTAINER": {
+            "$id": "/properties/account/items/properties/CONTAINER",
+            "type": "string",
+            "title": "The Container Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "reward"
+            ]
+          },
+          "isManual": {
+            "$id": "/properties/account/items/properties/isManual",
+            "type": "boolean",
+            "title": "The Ismanual Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "isAsset": {
+            "$id": "/properties/account/items/properties/isAsset",
+            "type": "boolean",
+            "title": "The Isasset Schema.",
+               "description": "The account to be considered as an asset or liability", 
+            "default": false,
+            "examples": [
+              true
+            ]
+          },
+          "lastUpdated": {
+            "$id": "/properties/account/items/properties/lastUpdated",
+            "type": "string",
+            "format": "datetime",
+            "title": "The Lastupdated Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-11-27T05:47:38Z"
+            ]
+          },
+          "id": {
+            "$id": "/properties/account/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              32132142935
+            ]
+          },
+          "accountName": {
+            "$id": "/properties/account/items/properties/accountName",
+            "type": "string",
+            "title": "The Accountname Schema.",
+            "description": "The account name (description) as it appears at the site.",
+            "default": "",
+            "examples": [
+              "Deleted Reward Account 2"
+            ]
+          },
+          "aggregationSource": {
+            "$id": "/properties/account/items/properties/aggregationSource",
+            "type": "string",
+            "title": "The Aggregationsource Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "USER"
+            ]
+          },
+          "providerName": {
+            "$id": "/properties/account/items/properties/providerName",
+            "type": "string",
+            "title": "The Providername Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Dag Site"
+            ]
+          },
+          "accountStatus": {
+            "$id": "/properties/account/items/properties/accountStatus",
+            "type": "string",
+            "format":"accountStatus",
+            "title": "The Accountstatus Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "ACTIVE"
+            ]
+          },
+          "accountType": {
+            "$id": "/properties/account/items/properties/accountType",
+            "type": "string",
+            "format": "accountType",
+            "title": "The Accounttype Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "REWARD_POINTS"
+            ]
+          },
+          "providerId": {
+            "$id": "/properties/account/items/properties/providerId",
+            "type": "string",
+            "title": "The Providerid Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "16441"
+            ]
+          },
+          "holderProfile": {
+            "$id": "/properties/account/items/properties/holderProfile",
+            "type": "array",
+            "items": {
+              "$id": "/properties/account/items/properties/holderProfile/items",
+              "type": "object",
+              "properties": {
+                "name": {
+                  "$id": "/properties/account/items/properties/holderProfile/items/properties/name",
+                  "type": "object",
+                  "properties": {
+                    "displayed": {
+                      "$id": "/properties/account/items/properties/holderProfile/items/properties/name/properties/displayed",
+                      "type": "string",
+                      "title": "The Displayed Schema.",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": "",
+                      "examples": [
+                        "Deleted Reward Account 2"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "createdDate": {
+            "$id": "/properties/account/items/properties/createdDate",
+            "type": "string",
+            "format": "datetime",
+            "title": "The Createddate Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-11-27T05:47:19Z"
+            ]
+          },
+          "providerAccountId": {
+            "$id": "/properties/account/items/properties/providerAccountId",
+             "type": "number",
+            "minimum": -9223372036854775807,
+            "maximum": 9223372036854775807,
+            "title": "The Provideraccountid Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              32132079219
+            ]
+          }
+        },
+        "required": [
+          "refreshinfo"
+        ]
+      }
+    }
+  }
+}

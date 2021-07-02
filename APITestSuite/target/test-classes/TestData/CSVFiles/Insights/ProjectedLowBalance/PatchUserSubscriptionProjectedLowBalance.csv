@@ -1,0 +1,19 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-148867,patchUser - subscribe to ProjectedLowBalance,ProjectedLowBalance,,,,,,,,,,,1,,account,2,,,TRUE,,,"FUTURE,7,DAYS   MINIMUM,100,AMOUNT",204,TRUE
+AT-148868,patchUser - updateTriggerType,ProjectedLowBalance,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148869,patchUser -  update insightName by same name,ProjectedLowBalance,negTestScenario17,,ProjectedLowBalance,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148870,patchUser -  update insightName edit InsightName,ProjectedLowBalance,negTestScenario2,,ProjectedLowBalanceEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148871,patchUser - update insightTitle,ProjectedLowBalance,negTestScenario33,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-148872,patchUser - update container,ProjectedLowBalance,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-148873,patchUser - update keys,ProjectedLowBalance,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-148874,patchUser - update description,ProjectedLowBalance,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-148875,patchUser - update applicableEntity,ProjectedLowBalance,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-148876,patchUser - update entityParameter,ProjectedLowBalance,,,,,,,,,,,1,,account,2,,,TRUE,,,"FUTURE,7,DAYS   MINIMUM,100,AMOUNT",204,TRUE
+AT-148877,patchUser -  update entityParameter->account[0]->id - Valid ItemAccountId,ProjectedLowBalance,,,,,,,,,,,1,,account,2,,,TRUE,,,"FUTURE,7,DAYS   MINIMUM,100,AMOUNT",204,TRUE
+AT-148878,patchUser -  update entityParameter->account[0]->id - InValid ItemAccountId,ProjectedLowBalance,negTestScenario20,,,,,,,,,,1,,account,2,76823,,TRUE,,,"FUTURE,7,DAYS   MINIMUM,100,AMOUNT",400,TRUE
+AT-148879,patchUser - update insightType to AGGREGATE - entityParameter->account[0]->insightType,ProjectedLowBalance,negTestScenario24,,,,,,,,,,1,,account,2,,,TRUE,,AGGREGATE,"FUTURE,7,DAYS   MINIMUM,100,AMOUNT",400,TRUE
+AT-148880,patchUser - update insightType to INVALID - entityParameter->account[0]->insightType,ProjectedLowBalance,negTestScenario24,,,,,,,,,,1,,account,2,,,TRUE,,INVALID,"FUTURE,7,DAYS   MINIMUM,100,AMOUNT",400,TRUE
+AT-148881,patchUser - update threshold name  - entityParameter->account[0]->threshold[0]->name,ProjectedLowBalance,negTestScenario27,,,,,,,,,,1,,account,2,,,FALSE,,,"LIMIT,7,DAYS   MINIMUM,100,AMOUNT",400,TRUE
+AT-148882,patchUser - update threshold values - entityParameter->account[0]->threshold[0]->value,ProjectedLowBalance,,,,,,,,,,,1,,account,2,,,TRUE,,,"FUTURE,10,DAYS   MINIMUM,100,AMOUNT",204,TRUE
+AT-148883,patchUser - update threshold type - entityParameter->account[0]->threshold[0]->type,ProjectedLowBalance,negTestScenario28,,,,,,,,,,1,,account,2,,,TRUE,,,"FUTURE,7,PERCENT   MINIMUM,100,AMOUNT",400,TRUE
+AT-148884,patchUser - update configMeta - subscrption Info - configMeta->account[0]->id,ProjectedLowBalance,negTestScenario19,,,,,,,,,,1,TRUE,account,2,,,FALSE,,,"FUTURE,7,DAYS   MINIMUM,100,AMOUNT",400,TRUE

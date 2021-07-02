@@ -1,0 +1,45 @@
+{
+  "userData": [
+    {
+      "user": {
+        "loginName": "YSLDE1500371443213"
+      },
+      "account": [
+        {
+          "includeInNetWorth": true,
+          "accountName": "BNP Account",
+          "isManual": true,
+          "accountType": "HOME_LOAN",
+          "dueDate": "${json-unit.ignore}",
+          "memo": "this is loan account",
+          "accountNumber": "1007",
+          "url": "https://www.yes.com/",
+          "frequency": "DAILY",
+          "accountStatus": "DELETED",
+          "amountDue": {
+            "amount": 5000,
+            "currency": "USD"
+          },
+          "lastUpdated": "${json-unit.ignore}",
+          "isAsset": false,
+          "createdDate": "${json-unit.ignore}",
+          "isDeleted": true,
+          "principalBalance": {
+            "amount": 84899,
+            "currency": "USD"
+          },
+          "balance": {
+            "amount": 84899,
+            "currency": "USD"
+          },
+          "providerId": "7634",
+          "providerAccountId": "${json-unit.ignore}",
+          "CONTAINER": "loan",
+          "nickname": "Food Cash",
+          "id": "${json-unit.ignore}",
+          "providerName": "Custom Bank"
+        }
+      ]
+    }
+  ]
+}

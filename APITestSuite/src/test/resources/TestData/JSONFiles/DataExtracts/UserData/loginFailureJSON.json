@@ -1,0 +1,30 @@
+{
+  "userData": [
+    {
+      "user": {
+        "loginName": "YSLDE1497038237654"
+      },
+      "providerAccount": [
+        {
+          "refreshInfo": {
+            "lastRefreshed": "${json-unit.ignore}",
+            "nextRefreshScheduled": "${json-unit.ignore}",
+            "additionalStatus": "LOGIN_FAILED",
+            "actionRequired": "UPDATE_CREDENTIALS",
+            "lastRefreshAttempt": "${json-unit.ignore}",
+            "message": "INVOKE_UPDATE_PROVIDER_ACCOUNT_WITH_CREDENTIALS_PARAM",
+            "statusMessage": "LOGIN_FAILED",
+            "statusCode":402,
+            "status": "FAILED"
+          },
+          "createdDate": "${json-unit.ignore}",
+          "aggregationSource": "USER",
+          "isDeleted": false,
+          "providerId": 16441,
+          "isManual": false,
+          "id": "${json-unit.any-number}"
+        }
+      ]
+    }
+  ]
+}

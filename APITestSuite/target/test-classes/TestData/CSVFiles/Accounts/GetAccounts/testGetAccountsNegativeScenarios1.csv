@@ -1,0 +1,88 @@
+TestCaseID,TestCaseName,status,container,providerAccID,accReconType,cobsessionToken,userSessionToken,statusCode,filePath,resFile,defectId,enabled
+AT-63117,Invalid status,invalid,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_1,,TRUE
+AT-63118,Alphabetic status,abcdef,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_2,,TRUE
+AT-63119,Numeric status,123456,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_3,,TRUE
+AT-63120,invalid userSession,,,,,VALID,INVALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_5,,TRUE
+AT-63121,Alphanumeric status,abcd1234ef,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_6,,TRUE
+AT-63122,Special character status,%#^#^^,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_7,,TRUE
+AT-63123,invalid container,,invalid,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_8,,TRUE
+AT-63124,,,abcdef,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_9,,TRUE
+AT-63125,,,1234565,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_10,,TRUE
+AT-63126,,,abfd1234ef,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_11,,TRUE
+AT-63127,,,%%#^%^,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_12,,TRUE
+AT-63128,,DELETED,loan,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_84,,TRUE
+AT-63129,,UNACTIVE,InvVstmentT,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_85,,TRUE
+AT-63130,,,BaNk,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_86,,TRUE
+AT-63131,,,BILLS,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_87,,TRUE
+AT-63132,,Active,LoanS,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_88,,TRUE
+AT-63133,,ALL,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_89,,TRUE
+AT-63134,,,,invalid,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_13,,TRUE
+AT-63135,,,,abcedef,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_14,,TRUE
+AT-63136,,,,1233455,,VALID,VALID,200,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_15,,TRUE
+AT-63137,,,,afffdsf3f55,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_16,,TRUE
+AT-63138,,,,$$%^$%^#^,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_17,,TRUE
+AT-63139,,,,,invalid,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_18,,TRUE
+AT-63140,,,,,abcdefe,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_19,,TRUE
+AT-63141,,,,,1324343,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_20,,TRUE
+AT-63142,,,,,afgsfd45664ef,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_21,,TRUE
+AT-63143,,,,,%%^&$#^&,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_22,,TRUE
+AT-63144,wrong enum active,Enumactive,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_23,,TRUE
+AT-63145,wrong enum inactive,Enuminactive,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_24,,TRUE
+AT-63146,wrong enum closed,Enumclosed,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_25,,TRUE
+AT-63147,wrong enum deleted,deleted,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_26,,TRUE
+AT-63148,wrong enum tobeclosed,tobeclosed,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_27,,TRUE
+AT-63149,with enum DEFAULT,DEFAULT,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_28,,TRUE
+AT-63150,with enum NONDELETED,NONDELETED,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_29,,TRUE
+AT-63151,with enum UNRECONCILED_DEFAULT,UNRECONCILED_DEFAULT,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_30,,TRUE
+AT-63152,with enum UNRECONCILED_ACTIVE,UNRECONCILED_ACTIVE,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_31,,TRUE
+AT-63153,with enum UNRECONCILED_CLOSED,UNRECONCILED_CLOSED,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_32,,TRUE
+AT-63154,with enum UNRECONCILED_INACTIVE,UNRECONCILED_INACTIVE,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_33,,TRUE
+AT-63155,with enum UNRECONCILED_DELETED,UNRECONCILED_DELETED,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_34,,TRUE
+AT-63156,with enum UNRECONCILED_TO_BE_CLOSED,UNRECONCILED_TO_BE_CLOSED,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_35,,TRUE
+AT-63157,with enum UNRECONCILED_NONDELETED,UNRECONCILED_NONDELETED,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_36,,TRUE
+AT-63158,with enum TRANX_STATUS,TRANX_STATUS,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_37,,TRUE
+AT-63159,with enum UNRECONCILED_TRANX_STATUS_DELETED,UNRECONCILED_TRANX_STATUS_DELETED,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_38,,TRUE
+AT-63160,with enum UNRECONCILED_TRANX_STATUS,UNRECONCILED_TRANX_STATUS,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_39,,TRUE
+AT-63161,with enum DATA_EXTRACT,DATA_EXTRACT,,,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_40,,TRUE
+AT-63162,invalid enum -accountReconType,,investment,,unreconciled,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_41,,TRUE
+AT-63163,invalid enum -accountReconType,,investment,,reconciled,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_42,,TRUE
+AT-63164,invalid enum -accountReconType,,investment,,both,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_43,,TRUE
+AT-63165,invalid enum -accountReconType,,investment,,asdagfshsj,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_44,,TRUE
+AT-63166,invalid enum -accountReconType,,investment,,1232334,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_45,,TRUE
+AT-63167,invalid enum -accountReconType,,investment,,ass!@#^g ,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_46,,TRUE
+AT-63168,invalid cobsession,,,,,INVALID,VALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_47,,TRUE
+AT-63169,invalid userSession,,,,,VALID,INVALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_48,,TRUE
+AT-63170,empty cobsession,,,,,,VALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_49,,TRUE
+AT-63171,Both empty cobSession,,,,,VALID,,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_50,,TRUE
+AT-63172,expired cobsession,,,,,EXPIRED,VALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_51,,TRUE
+AT-63173,expired user session,,,,,VALID,EXPIRED,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_52,,TRUE
+AT-63174,empty cobsession and expired user session,,,,,,EXPIRED,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_53,,TRUE
+AT-63175,expired cobsession and emtpy user session,,,,,EXPIRED,,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_54,,TRUE
+AT-63176,both expired sessions,,,,,EXPIRED,EXPIRED,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_55,,TRUE
+AT-63177,maximum length for provider acc id,,,MAX_COUNT,,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_56,,TRUE
+AT-63178,all invalid with valid session,invalid,invalid,invalid,invalid,VALID,VALID,400,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_57,,TRUE
+AT-63179,all invalid with invalid session,invalid,invalid,invalid,invalid,INVALID,INVALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_58,,TRUE
+AT-63180,userSession Null,ACTIVE,bank,VALID,,VALID,NULL,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_60,,TRUE
+AT-63181,Expired Usersession,ACTIVE,bank,VALID,,VALID,EXPIRED,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_61,,TRUE
+AT-63182,Empty usersession,ACTIVE,bank,VALID,,VALID,EMPTY,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_62,,TRUE
+AT-63183,invlaid usersession,ACTIVE,bank,VALID,,VALID,INVALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_63,,TRUE
+AT-63184,cobSession null and Usersession valid,ACTIVE,bank,VALID,,NULL,VALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_64,,TRUE
+AT-63185,userSession Null,ACTIVE,bank,VALID,,NULL,NULL,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_65,,TRUE
+AT-63186,Expired Usersession,ACTIVE,bank,VALID,,NULL,EXPIRED,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_66,,TRUE
+AT-63187,Empty usersession,ACTIVE,bank,VALID,,NULL,EMPTY,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_67,,TRUE
+AT-63188,invlaid usersession,ACTIVE,bank,VALID,,NULL,INVALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_68,,TRUE
+AT-63189,cobsession Expired,ACTIVE,bank,VALID,,EXPIRED,VALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_69,,TRUE
+AT-63190,userSession Null,ACTIVE,bank,VALID,,EXPIRED,NULL,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_70,,TRUE
+AT-63191,Expired Usersession,ACTIVE,bank,VALID,,EXPIRED,EXPIRED,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_71,,TRUE
+AT-63192,Empty usersession,ACTIVE,bank,VALID,,EXPIRED,EMPTY,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_72,,TRUE
+AT-63193,invlaid usersession,ACTIVE,bank,VALID,,EXPIRED,INVALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_73,,TRUE
+AT-63194,cobSesison empty,ACTIVE,bank,VALID,,EMPTY,VALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_74,,TRUE
+AT-63195,userSession Null,ACTIVE,bank,VALID,,EMPTY,NULL,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_75,,TRUE
+AT-63196,Expired Usersession,ACTIVE,bank,VALID,,EMPTY,EXPIRED,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_76,,TRUE
+AT-63197,Empty usersession,ACTIVE,bank,VALID,,EMPTY,EMPTY,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_77,,TRUE
+AT-63198,invlaid usersession,ACTIVE,bank,VALID,,EMPTY,INVALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_78,,TRUE
+AT-63199,invlaid cobsession,ACTIVE,bank,VALID,,INVALID,VALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_79,,TRUE
+AT-63200,null usersession,ACTIVE,bank,VALID,,INVALID,NULL,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_80,,TRUE
+AT-63201,expired Usersession,ACTIVE,bank,VALID,,INVALID,EXPIRED,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_81,,TRUE
+AT-63202,invalid cobsession,ACTIVE,bank,VALID,,INVALID,EMPTY,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_82,,TRUE
+AT-63773,both invalid,ACTIVE,bank,VALID,,INVALID,INVALID,401,../src/test/resources/TestData/JSONFiles/Accounts/GetAccounts/Negative/,A_GetAccNeg_83,,TRUE

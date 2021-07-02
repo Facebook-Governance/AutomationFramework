@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-BalAbTh37,"Validate BalanceAboveThreshold , Validate InsightName",,BalanceAboveThreshold,BalanceAboveThreshold,,,,,,,,,,,,200,TRUE
+AT-BalAbTh38,"Validate BalanceAboveThreshold , Validate Supporting container",,BalanceAboveThreshold,,,BANK,,,,,,,,,,200,TRUE
+AT-BalAbTh39,"Validate BalanceAboveThreshold , Validate TriggerType",REFRESH,BalanceAboveThreshold,,,,,,,,,,,,,200,TRUE
+AT-BalAbTh40,"Validate BalanceAboveThreshold , Validate applicableEntity",,BalanceAboveThreshold,,,,,,ACCOUNT,,,,,,,200,TRUE
+AT-BalAbTh41,"Validate BalanceAboveThreshold , Validate number of levels and levelObject",,BalanceAboveThreshold,,,,,,ACOCUNT,account,,,,,,200,TRUE
+AT-BalAbTh42,"Validate BalanceAboveThreshold , Validate isSubscribed=false",,BalanceAboveThreshold,,,,,,,,FALSE,,,,,200,TRUE
+AT-BalAbTh43,"Validate BalanceAboveThreshold , Validate threshold Name,Value and Type",,BalanceAboveThreshold,,,,,,,account,,,"BALANCE,50000,AMOUNT",,,200,TRUE
+AT-BalAbTh44,"Validate BalanceAboveThreshold , Validate insightKeys",,BalanceAboveThreshold,,,,Account,,,,,,,,,200,TRUE
+AT-BalAbTh45,"Validate BalanceAboveThreshold , Validate description",,BalanceAboveThreshold,,,,,Generates an insight when the balance on a bank account is above a configured threshold.,,,,,,,,200,TRUE
+AT-BalAbTh46,"Validate BalanceAboveThreshold , Validate title",,BalanceAboveThreshold,,Balance Above Threshold,,,,,,,,,,,200,TRUE
+AT-BalAbTh47,"Validate BalanceAboveThreshold , Validate ruleExpression",,BalanceAboveThreshold,,,,,,,,,,,checkRuleExpressionIfPresent,,200,TRUE
+AT-BalAbTh48,"Validate BalanceAboveThreshold , verify entityParameter and configMeta are same",,BalanceAboveThreshold,,,,,,,,,,,,TRUE,200,TRUE

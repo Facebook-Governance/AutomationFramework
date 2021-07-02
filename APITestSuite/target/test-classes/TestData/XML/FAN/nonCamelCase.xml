@@ -1,0 +1,42 @@
+<entity type="multiple">
+	<request>
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<container>bank</container>
+				<include>fullAccountNumbeR</include>
+			</get-accounts>
+		</get-accounts-multiple>
+
+		<get-accountDetials-multiple>
+			<get-accountDetials order="1">
+				<container>bank</container>
+				<include>fullAccounTNumber</include>
+			</get-accountDetials>
+		</get-accountDetials-multiple>
+
+	</request>
+
+	<response>
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/FAN/
+					</filePath>
+					<responseFile>fan_NonCamelCase.json</responseFile>
+				</row>
+			</get-accounts>
+		</get-accounts-multiple>
+
+		<accountDetails-multiple>
+			<accountDetails order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/FAN/
+					</filePath>
+					<responseFile>fan_NonCamelCase.json</responseFile>
+				</row>
+			</accountDetails>
+		</accountDetails-multiple>
+
+
+	</response>
+</entity>

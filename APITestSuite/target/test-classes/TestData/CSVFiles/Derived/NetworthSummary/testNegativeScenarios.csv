@@ -1,0 +1,24 @@
+tcId,tcName,accountIds,incude,fromDate,toDate,interval,accountReconType,skip,top,resFile
+Networth_Summary_Negative_1,with invaid account id - string,invalid,,,,,,,,withInvalidAccid.json
+Networth_Summary_Negative_2,with invalid account id - numbers,1234565,,,,,,,,withInvalidAccid.json
+Networth_Summary_Negative_3,with invalid account id,$^$#@%#^,,,,,,,,withInvalidAccid.json
+Networth_Summary_Negative_4,with invalid details,,assetClassification,,,,,,,withInvalidDetails.json
+Networth_Summary_Negative_5,with invalid include,,detail,,,,,,,withInvalidDetails.json
+Networth_Summary_Negative_6,with invalid string,,DETAIL,,,,,,,withInvalidDetails.json
+Networth_Summary_Negative_7,with alphanumeric in include,,q32143214321,,,,,,,withInvalidDetails.json
+Networth_Summary_Negative_8,with string in include,,dsgadsf,,,,,,,withInvalidFromDate.json
+Networth_Summary_Negative_9,with string in fromDate,,,fasjdsfad,,,,,,withInvalidFromDate.json
+Networth_Summary_Negative_10,with numbers in fromdate,,,12344565,,,,,,withInvalidFromDate.json
+Networth_Summary_Negative_11,with symbols in fromDate,,,%@%$#@,,,,,,withInvalidFromDate.json
+Networth_Summary_Negative_12,with string in todate,,,,dsfjadsf,,,,,withInvalidTodate.json
+Networth_Summary_Negative_13,with symbol in todate,,,,#$!$#@$2,,,,,withInvalidTodate.json
+Networth_Summary_Negative_14,with numbers in todate,,,,1344433,,,,,withInvalidTodate.json
+Networth_Summary_Negative_15,with wrong interval,,,,,day,,,,withInvalidInterval.json
+Networth_Summary_Negative_16,with wrong interval,,,,,month,,,,withInvalidInterval.json
+Networth_Summary_Negative_17,with wrong interval,,,,,year,,,,withInvalidInterval.json
+Networth_Summary_Negative_18,with number interval,,,,,12344,,,,withInvalidInterval.json
+Networth_Summary_Negative_19,with symbol interval,,,,,$$!32,,,,withInvalidInterval.json
+Networth_Summary_Negative_20,with top = 0,,,,,,,,0,withInvalidTop0.json
+Networth_Summary_Negative_21,with top = 501,,,,,,,,501,withInvalidTop501.json
+Networth_Summary_Negative_22,with top = 1000,,,,,,,,1000,withInvalidTop1000.json
+Networth_Summary_Negative_23,with top = 15000,,,,,,,,15000,withInvalidTop15000.json

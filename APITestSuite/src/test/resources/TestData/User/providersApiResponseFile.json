@@ -1,0 +1,18 @@
+{
+  "providerAccount": {
+    "id": "${json-unit.ignore}",
+    "providerId": 16441,
+    "lastUpdated": "${json-unit.ignore}",
+    "isManual": false,
+    "createdDate": "${json-unit.ignore}",
+    "aggregationSource": "USER",
+    "refreshInfo": {
+      "statusCode": 0,
+      "statusMessage": "OK",
+      "status": "SUCCESS",
+      "nextRefreshScheduled": "${json-unit.ignore}",
+      "lastRefreshed": "${json-unit.ignore}",
+      "lastRefreshAttempt": "${json-unit.ignore}"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+testCaseId,testCaseName,httpStatusCode,acountId,preferenceType,otherAmount,payerAccountId,memo,accountStatus,nickname,resFile,resFilePath,enabled
+1,InvalidNickName,400,creditCard,STMT_BALANCE,,bank,,ACTIVE,nicknamenicknamenicknamenicknamenicknamenicknamenickname,InvalidNickname.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+2,InvalidMemo,400,creditCard,MIN_AMT_DUE,,bank,memomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemomemmmmmmomemomemomemomemomemomemomemomemomemomemomemomeomemomemomemommemomemomemomemomomemomemo,ACTIVE,,InvalidMemo.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+3,InvalidAccountStatus,400,creditCard,CURRENT_BALANCE,,bank,,active,,InvalidAccountStatus.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+4,Other,204,creditCard,OTHER,100,bank,memo,ACTIVE,nickname,NoResponse.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+5,ClosingAndUpdatingPref,204,creditCard,STMT_BALANCE,10,bank,,CLOSED,,NoResponse.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE

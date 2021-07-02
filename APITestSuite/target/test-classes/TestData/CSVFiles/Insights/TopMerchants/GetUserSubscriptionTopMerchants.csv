@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-143164,"Validate TopMerchants , Validate account_insightKeys for TopMerchants",,TopMerchants,TopMerchants,,,Account,,Account,,,,,,,200,TRUE
+AT-143164,"Validate TopMerchants , Validate account_insightKeys for TopMerchants when isSubscribed is FALSE",,TopMerchants,TopMerchants,,,,,,,FALSE,,,,,200,TRUE
+AT-143122,"Validate TopMerchants , Validate InsightName",,TopMerchants,TopMerchants,,,,,,,,,,,,200,TRUE
+AT-143122,"Validate TopMerchants , Validate Supporting container",,TopMerchants,TopMerchants,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-143122,"Validate TopMerchants , Validate TriggerType",SCHEDULE,TopMerchants,TopMerchants,,,,,,,,,,,,200,TRUE
+AT-143122,"Validate TopMerchants , Validate applicableEntity",,TopMerchants,TopMerchants,,,,,ACCOUNT VIEW,,,,,,,200,TRUE
+AT-143122,"Validate TopMerchants , Validate number of levels and levelObject",,TopMerchants,TopMerchants,,,,,ACCOUNT VIEW,"account,view",,,,,,200,TRUE
+AT-143122,"Validate TopMerchants , Validate threshold Name,Value and Type for Accounts",,TopMerchants,TopMerchants,,,,,,account,,,"TOP,5,NUMBER",,,200,TRUE
+AT-143164,"Validate TopMerchants , Validate threshold Name,Value and Type for Views",,TopMerchants,TopMerchants,,,,,,view,,,"TOP,5,NUMBER",,,200,TRUE
+AT-143121,"Validate TopMerchants , Validate isSubscribed=false",,TopMerchants,TopMerchants,,,,,,"account,view",TRUE TRUE,,,,,200,TRUE
+AT-143164,"Validate TopMerchants , Validate view insightKeys for TopMerchants",,TopMerchants,TopMerchants,,,View,,View,,,,,,,200,TRUE
+AT-143164,"Validate TopMerchants , Validate description",,TopMerchants,TopMerchants,,,,Generates an insight that provides spending trends (based on $ amount) by merchant over a configured time period.,,,,,,,,200,TRUE
+AT-143164,"Validate TopMerchants , Validate title",,TopMerchants,TopMerchants,Spending by Merchant,,,,,,,,,,,200,TRUE
+AT-143164,"Validate TopMerchants , Validate frequency=DAILY",,TopMerchants,TopMerchants,,,,,,"account,view",,"DAILY,DAILY",,,,200,TRUE

@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-BillPaid01," GET Cobrand Subscription BillPaid, validate InsightName",,BillPaid,BillPaid,,,,,,,,,,,,200,TRUE
+AT-BillPaid02," GET Cobrand Subscription BillPaid, validate container",,BillPaid,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-BillPaid03," GET Cobrand Subscription BillPaid, validate triggerType",EVENT,BillPaid,,,,,,,,,,,,,200,TRUE
+AT-BillPaid04," GET Cobrand Subscription BillPaid, validate applicableEntity",,BillPaid,,,,,,,"ACCOUNT,VIEW",,,,,,200,TRUE
+AT-BillPaid05," GET Cobrand Subscription BillPaid, validate number of levels and levelObject",,BillPaid,,,,,,,"ACCOUNT,VIEW","account,view",,,,,200,TRUE
+AT-BillPaid06," GET Cobrand Subscription BillPaid, validate isSubscribed=false by default",,BillPaid,,,,,,,,"account,view",,,,,200,TRUE
+AT-BillPaid07," GET Cobrand Subscription BillPaid, validate insightKeys",,BillPaid,,,,Account,,,,,,,,,200,TRUE
+AT-BillPaid08," GET Cobrand Subscription BillPaid, validate description",,BillPaid,,,,,,Generates an insight when a recurring bill is paid.,,,,,,,200,TRUE
+AT-BillPaid09," GET Cobrand Subscription BillPaid, validate title",,BillPaid,,Bill Paid,,,,,,,,,,,200,TRUE
+AT-BillPaid10," GET Cobrand Subscription BillPaid, validate total number of keys",,BillPaid,,,,,17,,,,,,,,200,TRUE
+AT-BillPaid11," GET Cobrand Subscription BillPaid, validate insightKeys",,BillPaid,,,,View,,,,,,,,,200,TRUE

@@ -1,0 +1,17 @@
+TestCase,startDate,frequency,endDate,referenceId,accountId
+Create manual transaction with valid data,"0,0,0",MONTHLY,"0,6,0",bank,bank
+Verify create manual transaction for bank account and bank referenceId,,,,,
+Verify create manual transaction for card account and card referenceId,,,,,
+Verify create manul transaction  withInvalidAccountId,,,,,
+Verify Create manual transaction with invalid startDate,,,,,
+Verify Create manual transaction with invalid endDate,,,,,
+Verify Create manual transaction with invalid frequency,,,,,
+Verify Create manual transaction with without frequency,,,,,
+Verify Create manual transaction with invalid referenceTransactionID,,,,,
+verify create manual transaction  API with past start date ,,,,,
+verify create manual transaction  API with past start date and end date,,,,,
+verify create manual transaction  API with past start date  and past end date,,,,,
+verify create manual transaction  API with past end date ,,,,,
+verify create manual transacition with without passing endDate and startDate,,,,,
+Verify create manual transaction for bank account and card referenceId,,,,,
+Verify create manual transaction for card account and bank referenceId,,,,,

@@ -1,0 +1,81 @@
+{
+  "links": {
+    "transactions": "${json-unit.ignore}"
+  },
+  "transactionSummary": [
+    {
+      "categoryType": "INCOME",
+      "creditTotal": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "details": [
+        {
+          "date": 0,
+          "creditTotal": {
+            "amount": 1000,
+            "currency": "USD"
+          },
+          "debitTotal": {
+            "amount": 300.46,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": 7,
+          "debitTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": 14,
+          "debitTotal": {
+            "amount": 300.46,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": 21,
+          "debitTotal": {
+            "amount": 150.23,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": 28,
+          "debitTotal": {
+            "amount": 300.46,
+            "currency": "USD"
+          }
+        }
+      ],
+      "links": {
+        "transactions": "${json-unit.ignore}"
+      },
+      "debitTotal": {
+        "amount": 1201.84,
+        "currency": "USD"
+      }
+    },
+    {
+      "categoryType": "EXPENSE",
+      "details": [
+        {
+          "date": 0,
+          "debitTotal": {
+            "amount": 3500,
+            "currency": "USD"
+          }
+        }
+      ],
+      "links": {
+        "transactions": "${json-unit.ignore}"
+      },
+      "debitTotal": {
+        "amount": 3500,
+        "currency": "USD"
+      }
+    }
+  ]
+}

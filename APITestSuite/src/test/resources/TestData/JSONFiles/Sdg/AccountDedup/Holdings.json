@@ -1,0 +1,407 @@
+{
+    "holding": [
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "associatedProviderAccountId": [
+                "${json-unit.ignore}"
+            ],
+            "sedol": "1234567",
+            "isin": "123456789012",
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": "CDDesc",
+            "employeeContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "holdingType": "CD",
+            "interestRate": 2000,
+            "maturityDate": "2013-01-17",
+            "optionType": "unknown"
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "associatedProviderAccountId": [
+                "${json-unit.ignore}"
+            ],
+            "sedol": "1234567",
+            "isin": "123456789012",
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "2018-08-02T06:24:07Z",
+            "lastUpdated": "2018-08-02T06:24:37Z",
+            "costBasis": {
+                "amount": 3500,
+                "currency": "USD"
+            },
+            "couponRate": 2000,
+            "cusipNumber": "999999999",
+            "description": "bonddesc",
+            "employeeContribution": {
+                "amount": 2300,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 5400,
+                "currency": "USD"
+            },
+            "holdingType": "bond",
+            "maturityDate": "2013-01-17",
+            "optionType": "unknown",
+            "parValue": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "price": {
+                "amount": 1500,
+                "currency": "USD"
+            },
+            "quantity": 2000,
+            "value": {
+                "amount": 5600,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "associatedProviderAccountId": [
+                "${json-unit.ignore}"
+            ],
+            "sedol": "1234567",
+            "isin": "123456789012",
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "contractQuantity": 2000,
+            "costBasis": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "cusipNumber": "999999999",
+            "description": "commodity",
+            "employeeContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "holdingType": "commodity",
+            "optionType": "unknown",
+            "price": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "value": {
+                "amount": 2500,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "associatedProviderAccountId": [
+                "${json-unit.ignore}"
+            ],
+            "sedol": "1234567",
+            "isin": "123456789012",
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "costBasis": {
+                "amount": 253,
+                "currency": "USD"
+            },
+            "currencyType": "currency",
+            "description": "currency",
+            "employeeContribution": {
+                "amount": 234,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 23430,
+                "currency": "USD"
+            },
+            "holdingType": "currency",
+            "optionType": "unknown",
+            "price": {
+                "amount": 253,
+                "currency": "USD"
+            },
+            "quantity": 24340,
+            "value": {
+                "amount": 25430,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "associatedProviderAccountId": [
+                "${json-unit.ignore}"
+            ],
+            "sedol": "1234567",
+            "isin": "123456789012",
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "costBasis": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "cusipNumber": "999999999",
+            "description": "future",
+            "employeeContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "holdingType": "future",
+            "optionType": "unknown",
+            "price": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "quantity": 2000,
+            "symbol": "future",
+            "value": {
+                "amount": 2500,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "associatedProviderAccountId": [
+                "${json-unit.ignore}"
+            ],
+            "sedol": "1234567",
+            "isin": "123456789012",
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "cusipNumber": "999999999",
+            "description": "moneyMarketFund",
+            "employeeContribution": {
+                "amount": 2370,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 2360,
+                "currency": "USD"
+            },
+            "holdingType": "moneyMarketFund",
+            "optionType": "unknown",
+            "price": {
+                "amount": 2550,
+                "currency": "USD"
+            },
+            "quantity": 2000,
+            "symbol": "moneyMarketFund",
+            "value": {
+                "amount": 3400,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "associatedProviderAccountId": [
+                "${json-unit.ignore}"
+            ],
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "costBasis": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "cusipNumber": "999999999",
+            "description": "mutualfunddesc",
+            "employeeContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "holdingType": "mutualFund",
+            "optionType": "unknown",
+            "price": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "quantity": 2000,
+            "symbol": "MFSymbol2",
+            "value": {
+                "amount": 2500,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "associatedProviderAccountId": [
+                "${json-unit.ignore}"
+            ],
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "costBasis": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "cusipNumber": "999999999",
+            "description": "mutualfunddesc",
+            "employeeContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "holdingType": "mutualFund",
+            "optionType": "unknown",
+            "price": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "quantity": 2000,
+            "symbol": "MFSymbol",
+            "value": {
+                "amount": 2500,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "associatedProviderAccountId": [
+                "${json-unit.ignore}"
+            ],
+            "sedol": "1234567",
+            "isin": "123456789012",
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "costBasis": {
+                "amount": 2589,
+                "currency": "USD"
+            },
+            "isShort": false,
+            "description": "option",
+            "employeeContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "expirationDate": "2013-01-17",
+            "holdingType": "option",
+            "optionType": "unknown",
+            "price": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "quantity": 2000,
+            "strikePrice": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "symbol": "option",
+            "value": {
+                "amount": 20670,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "associatedProviderAccountId": [
+                "${json-unit.ignore}"
+            ],
+            "sedol": "1234567",
+            "isin": "123456789012",
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "costBasis": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "cusipNumber": "999999999",
+            "description": "remic",
+            "employeeContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "holdingType": "remic",
+            "optionType": "unknown",
+            "price": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "quantity": 2000,
+            "value": {
+                "amount": 2500,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "providerAccountId": "${json-unit.ignore}",
+            "associatedProviderAccountId": [
+                "${json-unit.ignore}"
+            ],
+            "accountId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "costBasis": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "cusipNumber": "999999999",
+            "isShort": false,
+            "description": "holdingdesc",
+            "employeeContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "employerContribution": {
+                "amount": 2500,
+                "currency": "USD"
+            },
+            "holdingType": "stock",
+            "optionType": "unknown",
+            "price": {
+                "amount": 236,
+                "currency": "USD"
+            },
+            "quantity": 2000,
+            "symbol": "holdingsymbol",
+            "value": {
+                "amount": 5600,
+                "currency": "USD"
+            }
+        }
+    ]
+}

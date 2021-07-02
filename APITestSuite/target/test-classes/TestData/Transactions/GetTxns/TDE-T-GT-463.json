@@ -1,0 +1,30 @@
+{
+  "transaction": [
+    {
+      "date": "2013-01-12",
+      "amount": {
+        "amount": 2500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "trans desc"
+      },
+      "transactionDate": "2013-01-12",
+      "baseType": "CREDIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "insurance",
+      "postDate": "2013-01-12",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    }
+  ]
+}

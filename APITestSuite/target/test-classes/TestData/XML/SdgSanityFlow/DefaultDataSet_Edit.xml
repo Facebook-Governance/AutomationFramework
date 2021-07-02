@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>SdgSanitySuite.site16441.1</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.1</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<update-provider-accounts-multiple>
+		<update-provider-accounts order="1">
+			<siteUser>SdgSanitySuite.site16441.2</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.2</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+		</update-provider-accounts>
+		</update-provider-accounts-multiple>
+	</request>
+	<response>
+		<accounts-multiple>
+		<accounts order="1">
+			<row>
+				<filePath>..\src\test\resources\TestData\SingleDataGathering\SdgSanityFlow\
+				</filePath>
+				<responseFile>DefaultDataSet.json</responseFile>
+			</row>
+		</accounts>
+		</accounts-multiple>
+
+		<get-provider-accounts-multiple>
+		<get-provider-accounts order="1">
+			<row>
+				<filePath>..\src\test\resources\TestData\SingleDataGathering\SdgSanityFlow\
+				</filePath>
+				<responseFile>AllDataSets_Success_NoNxtUpdate.json</responseFile>
+			</row>
+		</get-provider-accounts>
+		</get-provider-accounts-multiple>
+		<siteRefreshStats-multiple>
+		<siteRefreshStats order="1">
+			<datasetDetails>[{"container":"stocks","dataset":[{"datasetId":2,"attributeIds":[1,2]},{"datasetId":1,"attributeIds":[13]}]},{"container":"bank","dataset":[{"datasetId":2,"attributeIds":[1,2]},{"datasetId":1,"attributeIds":[13]}]},{"container":"bills","dataset":[{"datasetId":3,"attributeIds":[11]},{"datasetId":1,"attributeIds":[5,7,13]}]},{"container":"credits","dataset":[{"datasetId":3,"attributeIds":[11]},{"datasetId":1,"attributeIds":[5,7,13]}]},{"container":"insurance","dataset":[{"datasetId":3,"attributeIds":[11]},{"datasetId":1,"attributeIds":[5,7,13]}]},{"container":"loans","dataset":[{"datasetId":3,"attributeIds":[11]},{"datasetId":1,"attributeIds":[5,7,13]},{"datasetId":2,"attributeIds":[1,2]}]}]</datasetDetails>
+			<memSiteAccExtnJson>[{"datasetId":1,"refreshStatus":7,"errorCode":0,"attribDetails":[{"attributeId":5,"refreshStatus":7,"errorCode":0},{"attributeId":7,"refreshStatus":7,"errorCode":0},{"attributeId":13,"refreshStatus":7,"errorCode":0}]},{"datasetId":3,"refreshStatus":7,"errorCode":811,"attribDetails":[{"attributeId":11,"refreshStatus":7,"errorCode":811}]},{"datasetId":2,"refreshStatus":7,"errorCode":0,"attribDetails":[{"attributeId":1,"refreshStatus":7,"errorCode":0},{"attributeId":2,"refreshStatus":7,"errorCode":0}]}]</memSiteAccExtnJson>
+		</siteRefreshStats>
+		</siteRefreshStats-multiple>
+	</response>
+</entity>

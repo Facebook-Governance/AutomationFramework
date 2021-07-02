@@ -1,0 +1,683 @@
+{
+    "customerSubscription": [
+        {
+            "insightName": "UPCOMING_BILLS",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "COUNT_OF_TRANSACTIONS_BY_MERCHANT",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "UPCOMING_SUBSCRIPTIONS",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "BILL_PAID",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "SUBSCRIPTION_PAID",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "SUBSCRIPTION_NOT_PAID",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "BILL_NOT_PAID",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "CHANGE_IN_ASSETS",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "CHANGE_IN_NETWORTH",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "CHANGE_IN_PROPERTYVALUE",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "CHANGE_IN_LIABILITIES",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "LOAN_MATURITY_NOTICE",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "CARD_STATEMENT_AVAILABLE",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "SPENDING_BY_MERCHANT",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "AGGREGATE_INSURANCE_ACCOUNT",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "INVESTMENT_MATURITY_NOTICE",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "CARD_PAYMENT_DUE_REMINDER",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "AGGREGATE_MORTGAGE_ACCOUNT",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "CREDIT_UTILIZATION_SINGLE_CARD",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "SPENDING_BY_CATEGORY",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "FINANCIAL_FEES",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "AGGREGATE_REAL_ESTATE_ACCOUNT",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "INCOME_THRESHOLD",
+            "customerConfiguration": [
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "AGGREGATE_CREDIT_CARD_ACCOUNT",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "AGGREGATE_INVESTMENT_ACCOUNT",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "SALARY_CHANGED",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "BALANCE_ABOVE_THRESHOLD",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "CREDIT_UTILIZATION_ALL_CARDS",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "AGGREGATE_SAVINGS_CHECKING_ACCOUNT",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "NEW_SALARY",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "MISSED_BILLS",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "LARGE_DEPOSIT",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "NEW_SUBSCRIPTION",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "NEW_BILL",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "NET_INCOME_SUMMARY",
+            "customerConfiguration": [
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "BILL_CHANGED",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "FINANCIAL_FORECAST",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "CATEGORIZE_TRANSACTIONS",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "SALARY_DEPOSITED",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "LOW_CONFIDENCE_PROJECTED_SERIES",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "SUBSCRIPTION_CHANGED",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "UNABLE_TO_REFRESH_ACCOUNT",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "CREDIT_CARD_APR_CHANGE",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "RECURRING_DEPOSIT_IS_LATE",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "SPENDING_EXCEEDED_AVERAGE",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "LOW_BALANCE_WARNING",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "PROJECTED_DISCRETIONARY_FUNDS",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "REFUND_DEPOSITED",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "SPENDING_AND_EARNING_COMPARISON",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "SPENDING_BY_MERCHANT_ALL_ACCOUNTS",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "PROJECTED_LOW_BALANCE",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "PEER_SPENDING_COMPARISON_SUMMARY",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "CASH_FLOW_SUMMARY",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "ZERO_CARD_INTEREST_PAID",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "LARGE_PURCHASE",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                },
+                {
+                    "entityType": "VIEW",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "NETWORTH_SUMMARY",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "SUGGESTED_SAVING_OPPORTUNITY",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "DUPLICATE_TRANSACTION",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "LONG_TENURE_RECURRING_PAYMENTS",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "SPENDING_BY_CATEGORY_ALL_ACCOUNTS",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "DEBT_TO_INCOME_RATIO",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "PROJECTED_INSUFFICIENT_BALANCE",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "EMERGENCY_SAVINGS",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        },
+        {
+            "insightName": "HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS",
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false
+                }
+            ]
+        }
+    ]
+}

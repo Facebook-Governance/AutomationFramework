@@ -1,0 +1,69 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>yslAutomation.site16441.7</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.7</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>bank</container>
+							</attribute>
+							<attribute>
+								<name>TRANSACTIONS</name>
+								<container>bank</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<accountId>YES</accountId>
+				<status>INACTIVE</status>
+				<container>bank</container>
+			</get-accounts>
+		</get-accounts-multiple>
+
+		<get-accountDetials-multiple>
+			<get-accountDetials order="1">
+				<container>bank</container>
+			</get-accountDetials>
+		</get-accountDetials-multiple>
+
+		<update-account-multiple>
+			<update-account order="1">
+				<status>INACTIVE</status>
+				<container>bank</container>
+			</update-account>
+		</update-account-multiple>
+
+		<get-transactions-multiple>
+			<get-transactions order="1">
+				<txnAccountId>YES</txnAccountId>
+				<fromDate>2000-01-01</fromDate>
+				<toDate></toDate>
+				<container>bank</container>
+				<baseType>DEBIT</baseType>
+				<keyword></keyword>
+				<category></category>
+				<categoryId></categoryId>
+				<highLevelCategoryId></highLevelCategoryId>
+				<type></type>
+				<categoryType></categoryType>
+				<accountReconType></accountReconType>
+				<skip></skip>
+				<top></top>
+			</get-transactions>
+		</get-transactions-multiple>
+	</request>
+</entity>

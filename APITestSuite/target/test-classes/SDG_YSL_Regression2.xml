@@ -1,0 +1,69 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="classes" thread-count="3"
+	preserve-order="true">
+
+
+	<parameter name="suiteName" value="YSLAutoAmelia" />
+
+	<listeners>
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.CustomListener" />
+
+
+		<listener
+			class-name="com.yodlee.yodleeApi.listener.YodleeApiListener" />
+
+	</listeners>
+	<test name="SdgScripts">
+		<classes>
+<!-- 			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestImplicitDatasets" />
+			<class name="com.yodlee.yodleeApi.sdg.script.TestDedup" />
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestDedupForAccounts" />
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestChallengeDepositVerification" />
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestEnrollAccounts" />
+				<class
+				name="com.yodlee.yodleeApi.sdg.script.TestFANMasking" />
+				<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPassingOnlyDataSets" />
+				<class
+				name="com.yodlee.yodleeApi.sdg.script.TestMatchingServiceFirstNameLastName" />
+				<class
+				name="com.yodlee.yodleeApi.sdg.script.TestSingleDataGatheringBasicDD_2" />
+				<class
+				name="com.yodlee.yodleeApi.sdg.script.TestSingleDataGatheringBasicDD" />
+				<class
+				name="com.yodlee.yodleeApi.sdg.script.TestSingleDataGatheringBasicAggregation" />
+
+				<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPIIGranularConfigs" />
+				<class
+				name="com.yodlee.yodleeApi.sdg.script.TestPIIGranularConfigs2" /> -->
+				<class
+				name="com.yodlee.yodleeApi.sdg.script.TestDedupForAccounts"/>
+			<class name="com.yodlee.yodleeApi.sdg.script.TestDedup" />
+			<class
+				name="com.yodlee.yodleeApi.sdg.script.TestDedupForTransactions" />
+			<!-- <class name="com.yodlee.yodleeApi.sdg.script.TestEnrollAccounts" 
+				/> <class name="com.yodlee.yodleeApi.sdg.script.TestPIIProfilesSdg" /> This is MFA
+				<class 
+				name="com.yodlee.yodleeApi.sdg.script.TestRefreshStatus" /> <class name="com.yodlee.yodleeApi.sdg.script.TestSingleDataGatheringBasicDD_2" 
+				/> <class name="com.yodlee.yodleeApi.sdg.script.TestRefreshStatus_2" /> <class 
+				name="com.yodlee.yodleeApi.sdg.script.TestEditMFA" /> <class name="com.yodlee.yodleeApi.sdg.script.TestSdgHealthCheck" 
+				/> <class name="com.yodlee.yodleeApi.sdg.script.TestPIIGranularConfigsDefault" 
+				/> <class name="com.yodlee.yodleeApi.sdg.script.TestFANMasking" /> <class 
+				name="com.yodlee.yodleeApi.sdg.script.TestRtnInvestment" /> <class name="com.yodlee.yodleeApi.sdg.script.TestProgressiveRefresh" 
+				/> <class name="com.yodlee.yodleeApi.sdg.script.TestSingleDataGatheringBasicDD" 
+				/> <class name="com.yodlee.yodleeApi.sdg.script.TestChallengeDepositVerification" 
+				/> <class name="com.yodlee.yodleeApi.sdg.script.TestDeleteItemAccount" /> 
+				<class name="com.yodlee.yodleeApi.sdg.script.TestNoTimeGap" /> <class name="com.yodlee.yodleeApi.sdg.script.TestContextualData" 
+				/> -->
+		</classes>
+	</test>
+</suite>
+	

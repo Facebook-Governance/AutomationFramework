@@ -1,0 +1,30 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 2500,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000001,
+      "description": {
+        "original": "trans desc",
+        "consumer": "abdcf"
+      },
+      "memo": "!@#$",
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "CREDIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "postingOrder": 5,
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "insurance",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Gifts",
+      "categoryId": 9,
+      "status": "POSTED"
+    }
+  ]
+}

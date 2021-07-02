@@ -1,0 +1,23 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-BillCh56,subscribe toBillChanged,BillChanged,,,,,,,,,,,2,,account view,4,,,TRUE TRUE,,,"CHANGE,10,AMOUNT   CHANGE,10,PERCENT  CHANGE,10,AMOUNT   CHANGE,10,PERCENT",204,TRUE
+AT-BillCh57,updateTriggerType,BillChanged,negTestScenario16,EVENT,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-BillCh58, update insightName by same name,BillChanged,negTestScenario17,,BillChanged,,,,,,,,,,,,,,,,,,400,TRUE
+AT-BillCh59, update insightName edit InsightName,BillChanged,negTestScenarioPvc01,,BillChangedEditkfd,,,,,,,,,,,,,,,,,,400,TRUE
+AT-BillCh60,update insightTitle,BillChanged,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-BillCh61,update container,BillChanged,negTestScenario6,,,,BILLS,,,,,,,,,,,,,,,,400,TRUE
+AT-BillCh62,update keys,BillChanged,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-BillCh63,update description,BillChanged,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-BillCh64,update applicableEntity,BillChanged,negTestScenario9,,,,,,,,,account,,,,,,,,,,,400,TRUE
+AT-BillCh65,update entityParameter,BillChanged,,,,,,,,,,,2,,account view,4,,,TRUE TRUE,,,"CHANGE,501,AMOUNT   CHANGE,10,PERCENT  CHANGE,10,AMOUNT   CHANGE,10,PERCENT",204,TRUE
+AT-BillCh66, update entityParameter->account[0]->id - Valid ItemAccountId,BillChanged,,,,,,,,,,,2,,account view,4,,,TRUE TRUE,,,"CHANGE,8,AMOUNT    CHANGE,1,PERCENT CHANGE,10,AMOUNT   CHANGE,11,PERCENT",204,TRUE
+AT-BillCh67, update entityParameter->account[0]->id - InValid ItemAccountId,BillChanged,,,,,,,,,,,2,,account view,4,,,TRUE TRUE,,,"CHANGE,8,AMOUNT    CHANGE,1,PERCENT CHANGE,10,AMOUNT   CHANGE,11,PERCENT",204,TRUE
+AT-BillCh68, update entityParameter->account[0]->isSubscribed=false,BillChanged,,,,,,,,,,,2,,account view,4,,,FALSE FALSE,,,"CHANGE,8,AMOUNT    CHANGE,1,PERCENT CHANGE,10,AMOUNT   CHANGE,11,PERCENT",204,TRUE
+AT-BillCh69,update duration  -  entityParameter->account[0]->duration ,BillChanged,negTestScenario11,,,,,,,,,,2,,account view,4,,,TRUE TRUE,LAST_MONTH,,"CHANGE,10,AMOUNT    CHANGE,10,PERCENT CHANGE,10,AMOUNT   CHANGE,10,PERCENT",400,TRUE
+AT-BillCh70,update insightType to AGGREGATE - entityParameter->account[0]->insightType,BillChanged,negTestScenarioPvc02,,,,,,,,,,2,,account view,4,,,TRUE TRUE,,AGGREGATE,"CHANGE,10,AMOUNT    CHANGE,10,PERCENT CHANGE,10,AMOUNT   CHANGE,10,PERCENT",400,TRUE
+AT-BillCh71,update insightType to INVALID - entityParameter->account[0]->insightType,BillChanged,negTestScenarioPvc02,,,,,,,,,,2,,account view,4,,,TRUE TRUE,,INVALID,"CHANGE,10,AMOUNT    CHANGE,10,PERCENT CHANGE,10,AMOUNT   CHANGE,10,PERCENT",400,TRUE
+AT-BillCh72,update threshold name  - entityParameter->account[0]->threshold[0]->name,BillChanged,negTestScenario35,,,,,,,,,,2,,account view,4,,,TRUE TRUE,,,"CHANGE,501,AMOUNT  BALANCE,1000,PERCENT CHANGE,10,AMOUNT   CHANGE,10,PERCENT",400,TRUE
+AT-BillCh73,update threshold values - entityParameter->account[0]->threshold[0]->value,BillChanged,,,,,,,,,,,2,,account view,4,,,TRUE TRUE,,,"CHANGE,50,AMOUNT  CHANGE,58,PERCENT CHANGE,10,AMOUNT   CHANGE,10,PERCENT",204,TRUE
+AT-BillCh74,update threshold type - entityParameter->account[0]->threshold[0]->type,BillChanged,negTestScenario30,,,,,,,,,,2,,account view,4,,,TRUE TRUE,,,"CHANGE,50,AMOUNT  CHANGE,58,AMOUNT CHANGE,10,AMOUNT   CHANGE,10,PERCENT",400,TRUE
+AT-BillCh75,"update threshold name ,value and type to BALANCE,200,AMOUNT",BillChanged,,,,,,,,,,,2,,account view,4,,,TRUE TRUE,,,"CHANGE,50,AMOUNT  CHANGE,23,PERCENT CHANGE,10,AMOUNT   CHANGE,10,PERCENT",204,TRUE
+AT-BillCh76,update configMeta - subscrption Info - configMeta->account[0]->id,BillChanged,negTestScenario19,,,,,,,,,,2,TRUE,account view,4,,,FALSE FALSE,,,"CHANGE,50,AMOUNT CHANGE,23,PERCENT CHANGE,10,AMOUNT   CHANGE,10,PERCENT",400,TRUE
+AT-BillCh77,Reset To Default,BillChanged,,,,,,,,,,,2,,account view,4,,,FALSE FALSE,,,"CHANGE,10,AMOUNT   CHANGE,10,PERCENT CHANGE,10,AMOUNT   CHANGE,10,PERCENT",204,TRUE

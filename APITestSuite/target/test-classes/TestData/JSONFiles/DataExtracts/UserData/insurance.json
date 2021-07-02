@@ -1,0 +1,52 @@
+{
+  "userData": [
+    {
+      "user": {
+        "loginName": "YSLDE1500371574674"
+      },
+      "account": [
+        {
+          "includeInNetWorth": true,
+          "annuityBalance": {
+            "amount": 85699,
+            "currency": "USD"
+          },
+          "accountName": "BNP Account",
+          "dueDate": "${json-unit.ignore}",
+          "memo": "this is insurance account",
+          "policyStatus": "UNKNOWN",
+          "frequency": "DAILY",
+          "accountStatus": "DELETED",
+          "lastUpdated": "${json-unit.ignore}",
+          "lifeInsuranceType": "UNKNOWN",
+          "isAsset": true,
+          "balance": {
+            "amount": 85699,
+            "currency": "USD"
+          },
+          "isDeleted": true,
+          "providerId": "7634",
+          "nickname": "Flood Cash",
+          "homeInsuranceType": "UNKNOWN",
+          "id": "${json-unit.ignore}",
+          "providerName": "Custom Bank",
+          "isManual": true,
+          "accountType": "INSURANCE",
+          "cashValue": {
+            "amount": 85699,
+            "currency": "USD"
+          },
+          "accountNumber": "1008",
+          "url": "https://www.icici.com/",
+          "amountDue": {
+            "amount": 10000,
+            "currency": "USD"
+          },
+          "createdDate": "${json-unit.ignore}",
+          "providerAccountId": "${json-unit.ignore}",
+          "CONTAINER": "insurance"
+        }
+      ]
+    }
+  ]
+}

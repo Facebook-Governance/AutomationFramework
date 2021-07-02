@@ -1,0 +1,21 @@
+TestCaseId,TestCase,enabled,Url,TestCase no
+AT-73644,Input parameters empty and returns budget group name and id without passing any query parameters.,TRUE,/ysl/ymc/v1/budgets,1
+AT-73647,Input params category data and returns category Data without summary entity,TRUE,/ysl/ymc/v1/budgets?include=categoryData,2
+"AT-73648,AT-73656,AT-73673",Input params category Type data and returns category Type without summary entity,TRUE,/ysl/ymc/v1/budgets?include=categoryTypeData,3
+AT-73649,Input params category data and category Type data and returns without summary entity,TRUE,"/ysl/ymc/v1/budgets?include=categoryTypeData,categoryData",4
+"AT-73650,AT-73657",Input params include categoryData and categoryTypeData and categoryType and categoryId filters ,TRUE,"/ysl/ymc/v1/budgets?include=categoryTypeData,categoryData&categoryType=INCOME&categoryId=13",5
+"AT-73651,AT-73658",Input params group Id's and include categoryData and categoryTypeData and categoryType and categoryId filters ,TRUE,"/ysl/ymc/v1/budgets?include=categoryTypeData,categoryData&categoryType=INCOME&categoryId=13",6
+"AT-73652,AT-73653,AT-73660",Input params group Id's and include categoryData ,TRUE,/ysl/ymc/v1/budgets?groupId=*&include=categoryData,7
+AT-73654,Input params group Id's and include categoryTypeData ,TRUE,/ysl/ymc/v1/budgets?groupId=*&include=categoryTypeData,8
+AT-73655,"Verify that the ""creditTotal"" and ""debitTotal"" under ""CategoryData"" amount is calculated based on category Type",TRUE,"/ysl/ymc/v1/budgets?groupId=*&include=categoryTypeData,categoryData",9
+AT-73662,"Verify the API response by passing  ""group Id"" as null or invalid in URL query parameters",TRUE,/ysl/ymc/v1/budgets?groupId=1234,10
+"AT-73670,AT-73671",Verify the API response by passing  CategoryType as null or invalid in URL query parameters,TRUE,/ysl/ymc/v1/budgets?include=categoryData&categoryType=234,11
+"AT-73664,AT-73666",Verify the API response by passing  CategoryId as null or invalid in URL query parameters,TRUE,/ysl/ymc/v1/budgets?include=summary&categoryId=289,12
+AT-73645,"Verify that the ""creditTotal"" and ""debitTotal"" under ""CategoryTypeData"" amount is calculated based on category Type",TRUE,/ysl/ymc/v1/budgets?include=267,13
+AT-73667 ,"Verify that the ""creditTotal"" and ""debitTotal"" under ""CategoryData"" amount is calculated based on category Type",TRUE,/ysl/ymc/v1/budgets?include=categoryTypeData&categoryId=13,14
+AT-73646 ,"Verify that the ""creditTotal"" and ""debitTotal"" under ""CategoryData"" amount is calculated based on category Type for LOC account types",TRUE,/ysl/ymc/v1/budgets?include=categoryData&categoryType=INCOME,15
+AT-73668,"Verify that the ""creditTotal"" and ""debitTotal"" under ""CategoryTypeData"" amount is calculated based on category Type  for LOC account types",TRUE,/ysl/ymc/v1/budgets?include=267,16
+AT-73669,"Verify that the ""creditTotal"" and ""debitTotal"" under ""CategoryData"" amount is calculated based on category Type  for LOC account types",TRUE,/ysl/ymc/v1/budgets?include=categoryTypeData&categoryId=13,17
+AT-73659,"Verify that the ""creditTotal"" and ""debitTotal"" under ""CategoryTypeData"" amount is calculated based on category Type  for LOC account types",TRUE,/ysl/ymc/v1/budgets?include=categoryData&categoryType=INCOME,18
+AT-73661,"Verify that the ""creditTotal"" and ""debitTotal"" under ""CategoryData"" amount is calculated based on category Type  for LOC account types",TRUE,/ysl/ymc/v1/budgets?include=categoryData&categoryType=234,19
+AT-73645,"Verify that the ""creditTotal"" and ""debitTotal"" under ""CategoryTypeData"" amount is calculated based on category Type  for LOC account types",TRUE,/ysl/ymc/v1/budgets?include=summary&categoryId=289,20

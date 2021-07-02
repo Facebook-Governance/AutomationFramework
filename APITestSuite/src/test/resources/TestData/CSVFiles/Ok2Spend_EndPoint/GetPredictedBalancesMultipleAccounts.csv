@@ -1,0 +1,3 @@
+tcid,tcName,httpStatusCode,restfile,filepath,account1,account2,fromDate,toDate,interval,enabled
+AT-114732,Bank and invalid,400,getBalanceInvalidRes.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,bank,invalid,"0,0,0","0,3,0",,TRUE
+AT-114733,Both invalid,400,getBalanceInvalidRes.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,invalid,invalid,"0,0,0","0,3,0",,TRUE

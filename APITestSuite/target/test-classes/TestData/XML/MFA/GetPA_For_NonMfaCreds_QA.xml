@@ -1,0 +1,45 @@
+<entity type="multiple">
+    <request>
+        <add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+            <siteUser>Editmfa.site16441.2</siteUser>
+            <siteUserId>65499</siteUserId>
+            <sitePwd>site16441.2</sitePwd>
+            <sitePwdId>65500</sitePwdId>
+            <siteId>16441</siteId>
+            <dataList>
+                <dataset>
+                    <name>BASIC_AGG_DATA</name>
+                    <attributeList>
+                        <attribute>
+                            <name>ACCOUNT_DETAILS</name>
+                            <container>bank</container>
+                        </attribute>
+						<attribute>
+                            <name>TRANSACTIONS</name>
+                            <container>bank</container>
+                        </attribute>
+                    </attributeList>
+                </dataset>
+            </dataList>
+            <ignoreGetProviderAccountFailure>True</ignoreGetProviderAccountFailure>
+        </add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<providerAccountsDetails-multiple>
+		<providerAccountsDetails order="1">
+            <include>credentials</include>
+        </providerAccountsDetails>
+		</providerAccountsDetails-multiple>
+    </request>
+    
+    <response>
+        <accounts-multiple>
+		<accounts order="1">
+            <row>
+                <filePath>../src/test/resources/TestData/JSONFiles/Sdg/EditMfa/</filePath>
+                <responseFile>noneWithCredetials_QA_NMFA.json</responseFile>
+            </row>
+        </accounts>
+		</accounts-multiple>
+    </response>
+</entity>

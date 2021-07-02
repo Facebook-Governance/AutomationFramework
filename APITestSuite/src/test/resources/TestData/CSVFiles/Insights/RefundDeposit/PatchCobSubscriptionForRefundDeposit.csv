@@ -1,0 +1,30 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-148613,PATCH COBRAND SUBSCRIPTION - subscribe to RefundDepositNotice isSubscribed=true,RefundDepositNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,1,AMOUNT",204,TRUE
+AT-148614,PATCH COBRAND SUBSCRIPTION - update insightName to same name,RefundDepositNotice,negTestScenario1,RefundDepositNotice,,,,,,,,,,,,,,,,,,500,TRUE
+AT-148615,PATCH COBRAND SUBSCRIPTION -  update insightName to different name,RefundDepositNotice,negTestScenario2,RefundDepositNoticeEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148616,PATCH COBRAND SUBSCRIPTION - update insightTitle chars between 3 and 100 ,RefundDepositNotice,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-148617,PATCH COBRAND SUBSCRIPTION -  update insightTitle chars are only 3,RefundDepositNotice,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-148618,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are only 100,RefundDepositNotice,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-148619,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are less than 3,RefundDepositNotice,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-148620,PATCH COBRAND SUBSCRIPTION -  update insightTitle chars are greater 100,RefundDepositNotice,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-148621,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are special characters,RefundDepositNotice,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-148622,PATCH COBRAND SUBSCRIPTION -  update container,RefundDepositNotice,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-148623,PATCH COBRAND SUBSCRIPTION -  update keys,RefundDepositNotice,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-148624,PATCH COBRAND SUBSCRIPTION -  update description,RefundDepositNotice,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-148625,PATCH COBRAND SUBSCRIPTION -  update applicableEntity,RefundDepositNotice,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-148626,PATCH COBRAND SUBSCRIPTION -  update entityParameter,RefundDepositNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,1,AMOUNT",204,TRUE
+AT-148627,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->insightType,RefundDepositNotice,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"MINIMUM,1,AMOUNT",400,TRUE
+AT-148628,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->insightType - Invalid Name,RefundDepositNotice,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"MINIMUM,1,AMOUNT",400,TRUE
+AT-148629,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->threshold[0]->name,RefundDepositNotice,negTestScenario27,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,1,AMOUNT",400,TRUE
+AT-148630,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->threshold[0]->value,RefundDepositNotice,,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,50000,AMOUNT",204,TRUE
+AT-148631,PATCH COBRAND SUBSCRIPTION -  update entityParameter->account[0]->threshold[0]->type,RefundDepositNotice,negTestScenario28,,,,,,,,,1,,account,1,,,TRUE,,,"MINIMUM,1,PERCENT",400,TRUE
+AT-148632,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->isSubscribed=false,RefundDepositNotice,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-148633,PATCH COBRAND SUBSCRIPTION -  update entityParameter-VIEW,RefundDepositNotice,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,1,AMOUNT",204,TRUE
+AT-148634,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW[0]->insightType,RefundDepositNotice,negTestScenario24,,,,,,,,,1,,view,1,,,TRUE,,OTHER,"MINIMUM,1,AMOUNT",400,TRUE
+AT-148635,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW[0]->insightType - Invalid Name,RefundDepositNotice,negTestScenario24,,,,,,,,,1,,view,1,,,TRUE,,INVALID,"MINIMUM,1,AMOUNT",400,TRUE
+AT-148636,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW->threshold[0]->name,RefundDepositNotice,negTestScenario27,,,,,,,,,1,,view,1,,,TRUE,,,"LIMIT,1.00,AMOUNT",400,TRUE
+AT-148637,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW->threshold[0]->value,RefundDepositNotice,,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,50000,AMOUNT",204,TRUE
+AT-148638,PATCH COBRAND SUBSCRIPTION -  update entityParameter->VIEW->threshold[0]->type,RefundDepositNotice,negTestScenario28,,,,,,,,,1,,view,1,,,TRUE,,,"MINIMUM,1,PERCENT",400,TRUE
+AT-148639,PATCH COBRAND SUBSCRIPTION - update entityParameter->View->isSubscribed=false,RefundDepositNotice,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-148640,PATCH COBRAND SUBSCRIPTION - update entityParameter->VIEW->threshold[0]->value- reverting to default,RefundDepositNotice,,,,,,,,,,2,,account   view,2,,,TRUE  TRUE,,,"MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT  ",204,TRUE
+AT-148641,PATCH COBRAND SUBSCRIPTION - update insightTitle to refund deposit notice,RefundDepositNotice,,,Refund Deposited,,,,,,,,,,,,,TRUE,,,,204,TRUE

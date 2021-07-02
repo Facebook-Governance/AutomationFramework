@@ -1,0 +1,12 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-142783,"Validate SalaryDeposited , check if Insight is unSubscribed to OR isSubscribed=false",,SalaryDeposited,SalaryDeposited,,,,,,,,,,,200,TRUE
+AT-142784,"Validate SalaryDeposited , Validate InsightName",,SalaryDeposited,SalaryDeposited,,,,,,,,,,,200,TRUE
+AT-142785,"Validate SalaryDeposited , Validate Supporting container",,SalaryDeposited,,,BANK,,,,,,,,,200,TRUE
+AT-142786,"Validate SalaryDeposited , Validate TriggerType",EVENT,SalaryDeposited,,,,,,,,,,,,200,TRUE
+AT-142787,"Validate SalaryDeposited , Validate applicableEntity",,SalaryDeposited,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-142788,"Validate SalaryDeposited , Validate number of levels and levelObject",,SalaryDeposited,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-142789,"Validate SalaryDeposited , Validate isSubscribed=false",,SalaryDeposited,,,,,,,account,FALSE,,,,200,TRUE
+AT-142790,"Validate SalaryDeposited , Validate insightKeys",,SalaryDeposited,,,,Account,,,,,,,,200,TRUE
+AT-142791,"Validate SalaryDeposited , Validate description",,SalaryDeposited,,,,,Generates an insight when a recurring salary is deposited.,,,,,,,200,TRUE
+AT-142792,"Validate SalaryDeposited , Validate title",,SalaryDeposited,,Salary Deposited,,,,,,,,,,200,TRUE
+AT-142793,"Validate SalaryDeposited , Validate if ruleExpression present",,SalaryDeposited,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE

@@ -1,0 +1,13 @@
+{
+    "user": {
+        "id": "${json-unit.ignore}",
+        "loginName": "${json-unit.ignore}",
+        "email": "abc@yodlee.com",
+        "roleType": "INDIVIDUAL",
+        "preferences": {
+            "currency": "USD",
+            "timeZone": "PST",
+            "dateFormat": "MM/dd/yyyy"
+        }
+    }
+}

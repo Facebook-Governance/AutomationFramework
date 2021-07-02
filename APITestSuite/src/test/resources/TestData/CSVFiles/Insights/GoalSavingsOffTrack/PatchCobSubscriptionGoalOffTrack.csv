@@ -1,0 +1,22 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-147290,subscribe to GoalOffTrack isSubscribed=true,GoalOffTrack,,,,,,,,,,1,,goal,1,,,TRUE,,,,204,TRUE
+AT-147291,update insightName to same name,GoalOffTrack,negTestScenario1,GoalOffTrack,,,,,,,,,,,,,,,,,,500,TRUE
+AT-147292, update insightName to different name,GoalOffTrack,negTestScenario2,GoalOffTrackEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-147293,update insightTitle chars between 3 and 100 ,GoalOffTrack,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-147294, update insightTitle chars are only 3,GoalOffTrack,,,Cre,,,,,,,,,,,,,,,,,204,TRUE
+AT-147295,update insightTitle chars are only 100,GoalOffTrack,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-147296,update insightTitle chars are less than 3,GoalOffTrack,negTestScenario3,,mm,,,,,,,,,,,,,,,,,400,TRUE
+AT-147297, update insightTitle chars are greater 100,GoalOffTrack,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-147298,update insightTitle chars are special characters,GoalOffTrack,negTestScenario5,,{}}#4@@,,,,,,,,,,,,,,,,,400,TRUE
+AT-147299, update container,GoalOffTrack,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-147300, update keys,GoalOffTrack,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-147301, update description,GoalOffTrack,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-147302, update applicableEntity,GoalOffTrack,negTestScenario9,,,,,,,,BANK,,,,,,,,,,,400,TRUE
+AT-147303, update entityParameter,GoalOffTrack,,,,,,,,,,1,,goal,0,,,FALSE,,,,204,TRUE
+AT-147304,update entityParameter->account[0]->frequency,GoalOffTrack,negTestScenario10,,,,,,,,,1,,goal,0,,M,TRUE,,,,400,TRUE
+AT-147305,update entityParameter->account[0]->isSubscribed=false,GoalOffTrack,,,,,,,,,,1,,goal,0,,,FALSE,,,,204,TRUE
+AT-147306,update entityParameter->account[0]->isSubscribed=true,GoalOffTrack,,,,,,,,,,1,,goal,0,,,TRUE,,,,204,TRUE
+AT-147307,update entityParameter->account[0]->duration,GoalOffTrack,negTestScenario11,,,,,,,,,1,,goal,0,,,TRUE,LASW_MONHT,,,400,TRUE
+AT-147308,update entityParameter->account[0]->insightType,GoalOffTrack,negTestScenario49,,,,,,,,,1,,goal,0,,,TRUE,,OTHER,,400,TRUE
+AT-147309,update entityParameter->account[0]->insightType - Invalid Name,GoalOffTrack,negTestScenario24,,,,,,,,,1,,goal,0,,,TRUE,,INVALID,,400,TRUE
+AT-147309,update entityParameter->account[0]->insightType - edit Threshold(Not supported for this insight),GoalOffTrack,negTestScenario29,,,,,,,,,1,,goal,1,,,TRUE,,,"LIMIT,88,PERCENT",400,TRUE

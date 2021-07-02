@@ -1,0 +1,21 @@
+{
+    "verification": [
+        {
+            "accountId": "${json-unit.ignore}",
+            "reason": "DATA_MISMATCH",
+            "verificationType": "CHALLENGE_DEPOSIT",
+            "account": {
+                "accountName": "BankAccount3",
+                "accountNumber": "${json-unit.ignore}",
+                "accountType": "SAVINGS",
+                "bankTransferCode": {
+                    "id": "031311878",
+                    "type": "ROUTING_NUMBER"
+                }
+            },
+            "verificationStatus": "FAILED",
+            "providerAccountId": "${json-unit.ignore}",
+            "verificationId": "${json-unit.ignore}"
+        }
+    ]
+}

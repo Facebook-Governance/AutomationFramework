@@ -1,0 +1,51 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>testtEbillAuto.site16441.6</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.6</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>ACCOUNT_DETAILS</name>
+							<container>bill,creditCard,bank,insurance,investment,loan
+							</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<cacheRequest-multiple>
+		<cacheRequest order="1">
+			<containers>
+				<!-- <container> <sumInfoId>20559</sumInfoId> <datasetAttributes> <datasetAttribute>8</datasetAttribute> 
+					<datasetAttribute>5</datasetAttribute> </datasetAttributes> </container> -->
+				<container>
+					<sumInfoId>20549</sumInfoId>
+					<datasetAttributes>
+						<datasetAttribute>5</datasetAttribute>
+						<datasetAttribute>8</datasetAttribute>
+					</datasetAttributes>
+				</container>
+			</containers>
+		</cacheRequest>
+		</cacheRequest-multiple>
+	</request>
+	<response>
+		<account-multiple>
+		<account order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/RTN/
+				</filePath>
+				<responseFile>rtnInvestment.json</responseFile>
+			</row>
+		</account>
+		</account-multiple>
+	</response>
+</entity>

@@ -1,0 +1,17 @@
+testCaseId,Testcase,InsightNameKey,objectId,triggerType,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-127427,patchUserSubscrionption - subscribe to ZeroCardInterestPaid,ZeroCardInterestPaid,,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-127428,patchUserSubscrionption - updateTriggerType,ZeroCardInterestPaid,negTestScenario16,SCHEDULE,,,,,,,,,,,,,,,,,,,400,TRUE
+AT-127429,patchUserSubscrionption -  update insightName by same name,ZeroCardInterestPaid,negTestScenario17,,ZeroCardInterestPaid,,,,,,,,,,,,,,,,,,400,TRUE
+AT-127430,patchUserSubscrionption -  update insightName edit InsightName,ZeroCardInterestPaid,negTestScenario2,,ZeroCardInterestPaidEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-127431,patchUserSubscrionption - update insightTitle,ZeroCardInterestPaid,negTestScenario25,,,changeTitle,,,,,,,,,,,,,,,,,400,TRUE
+AT-127432,patchUserSubscrionption - update container,ZeroCardInterestPaid,negTestScenario6,,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-127433,patchUserSubscrionption - update keys,ZeroCardInterestPaid,negTestScenario7,,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-127434,patchUserSubscrionption - update description,ZeroCardInterestPaid,negTestScenario8,,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-127435,patchUserSubscrionption - update applicableEntity,ZeroCardInterestPaid,negTestScenario9,,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-127436,patchUserSubscrionption - update entityParameter,ZeroCardInterestPaid,,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-127437,patchUserSubscrionption -  update entityParameter->account[0]->id - Valid ItemAccountId,ZeroCardInterestPaid,,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-127438,patchUserSubscrionption -  update entityParameter->account[0]->id - InValid ItemAccountId,ZeroCardInterestPaid,negTestScenario45,,,,,,,,,,1,,account,1,76823,,TRUE,,,,400,TRUE
+AT-127439,patchUserSubscrionption -  update entityParameter->account[0]->isSubscribed=false,ZeroCardInterestPaid,,,,,,,,,,,1,,account,1,,,FALSE,,,,204,TRUE
+AT-127440,patchUserSubscrionption - update insightType to AGGREGATE - entityParameter->account[0]->insightType,ZeroCardInterestPaid,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,AGGREGATE,,400,TRUE
+AT-127441,patchUserSubscrionption - update insightType to INVALID - entityParameter->account[0]->insightType,ZeroCardInterestPaid,negTestScenario24,,,,,,,,,,1,,account,1,,,TRUE,,INVALID,,400,TRUE
+AT-127442,patchUserSubscrionption - update frequency,ZeroCardInterestPaid,negTestScenario58,,,,,,,,,,1,,account,1,,DAILY,FALSE,,,,400,TRUE

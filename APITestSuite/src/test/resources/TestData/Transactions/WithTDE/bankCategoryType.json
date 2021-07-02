@@ -1,0 +1,38 @@
+{
+  "transaction": [
+    {
+      "date": "${json-unit.ignore}",
+      "amount": {
+        "amount": 340,
+        "currency": "USD"
+      },
+      "checkNumber": "DAG-333",
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "ACH Deposit - Credit 0000000000 - PPD SSA TREAS 310 XXSOC SEC",
+        "simple": "Deposits"
+      },
+      "merchant": {
+        "name": "Deposits",
+        "id": "11304",
+        "source": "YODLEE"
+      },
+      "transactionDate": "${json-unit.ignore}",
+      "baseType": "CREDIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "accountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "postDate": "${json-unit.ignore}",
+      "id": "${json-unit.ignore}",
+      "category": "Deposits",
+      "runningBalance": {
+        "amount": 59,
+        "currency": "USD"
+      },
+      "categoryId": 27,
+      "status": "POSTED"
+    }
+  ]
+}

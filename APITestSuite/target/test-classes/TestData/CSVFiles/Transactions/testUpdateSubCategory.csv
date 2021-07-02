@@ -1,0 +1,25 @@
+testCaseId,TestCase,sourceKey,sourceKeyValue,categoryNameKey,categoryNameValue,idKey,iterateCategories,getStatus,updateStatus,enabled
+AT-67115,Valid,source,USER,categoryName,Updated Sub1 - Automotive Expenses1,id,5,200,400,TRUE
+AT-67116,Null source,source,,categoryName,Updated Sub1 - Automotive Expenses,id,2,200,400,TRUE
+AT-67117,Null categoryName,source,USER,categoryName,,id,2,200,400,TRUE
+AT-67118,Null id,source,USER,categoryName,Updated Sub1 - Automotive Expenses,id,-1,200,400,TRUE
+AT-67119,Null sourceKey,,USER,categoryName,Updated Sub1 - Automotive Expenses,id,2,200,400,TRUE
+AT-67120,Null categoryNameKey,source,USER,,Updated Sub1 - Automotive Expenses,id,2,200,400,TRUE
+AT-67121,Null idKey,source,USER,categoryName,Updated Sub1 - Automotive Expenses,,2,200,400,TRUE
+AT-67122,Invalid sourceKey,sources,USER,categoryName,Updated Sub1 - Automotive Expenses,id,2,200,400,TRUE
+AT-67123,Invalid categoryNameKey,source,USER,categoryNames,Updated Sub1 - Automotive Expenses,id,2,200,400,TRUE
+AT-67124,Invalid idKey,source,USER,categoryName,Updated Sub1 - Automotive Expenses,ids,2,200,400,TRUE
+AT-67125,Invalid sourceKeyValue,source,INVALID,categoryName,Updated Sub1 - Automotive Expenses,id,2,200,400,TRUE
+AT-67126,Invalid id,source,USER,categoryName,Updated Sub1 - Automotive Expenses,id,7,200,400,TRUE
+AT-67127,Update with MLC,source,USER,categoryName,Automotive Expenses,id,2,200,400,TRUE
+AT-67128,Update with HLC,source,USER,categoryName,Compensation Income,id,2,200,400,TRUE
+AT-67129,With MLC name for diff. MLC,source,USER,categoryName,Automotive Expenses,id,8,200,400,TRUE
+AT-67130,Existing sub-category name for same MLC,source,USER,categoryName,Updated Sub1 - Automotive Expenses,id,2,200,400,TRUE
+AT-67131,Existing sub-category name for diff MLC,source,USER,categoryName,Updated Sub1 - Automotive Expenses,id,8,200,400,TRUE
+AT-67132,Update with 1 character,source,USER,categoryName,u,id,2,200,400,TRUE
+AT-67133,Update with 50 characters,source,USER,categoryName,1234567890abcdefghij1234567890abcdefghij1234567890,id,2,200,400,TRUE
+AT-67134,Update with 51 characters,source,USER,categoryName,1234567890abcdefghij1234567890abcdefghij1234567890a,id,2,200,400,TRUE
+AT-67135,Update with double-quotes,source,USER,categoryName,"double\""quotes",id,3,200,400,TRUE
+AT-67136,Opposite alphabet case,source,USER,categoryName,U,id,2,200,400,TRUE
+AT-67137,Opposite alphabet case of MLC,source,USER,categoryName,aUTOMOTIVE eXPENSES,id,2,200,400,TRUE
+AT-67138,Opposite alphabet case of HLC,source,USER,categoryName,uTILITIES,id,2,200,400,TRUE

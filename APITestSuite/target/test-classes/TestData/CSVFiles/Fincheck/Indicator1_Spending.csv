@@ -1,0 +1,12 @@
+testCaseId,testcase,container,bankAccountIdListNos,cardAccountIdListNos,accountIds,status,enabled
+AT-57376,"Test avgIncome , avgExpense and 3 months expense ,income and transfers - single bank account -ACTIVE",bank,7,,,200,TRUE
+AT-57377,"Test avgIncome , avgExpense and 3 months expense ,income and transfers - Single card account - ACTIVE",card,,0,,200,FALSE
+AT-57378,"Test avgIncome , avgExpense and 3 months expense ,income and transfers - multiple bank accounts - ACTIVE",bank,"7,6,5",,,200,FALSE
+AT-57379,"Test avgIncome , avgExpense and 3 months expense ,income and transfers - multiple card accounts - ACTIVE",card,,"0,1",,200,FALSE
+AT-57381,"Validate each month break down averageIncome,evarageExpense,Income,Expense and transfers calculation",bank,"6,0,1",,,200,FALSE
+AT-57397, Verify API passing item account Id has 1 month transaction - ACTIVE,bank,0,,200,FALSE
+AT-57398, Verify API passing item account Id has 2 month transaction - ACTIVE,bank,1,,200,FALSE
+AT-57399, Verify API passing item account Id has past 1 month transaction and the other account has past 3 months transactions - ACTIVE,bank,"0,7",,,200,FALSE
+AT-57396, Verify API passing item account Id has no transaction - just opened account - ACTIVE,card,,2,,200,FALSE
+AT-57380,"Test avgIncome , avgExpense and 3 months expense ,income and transfers - multiple bank and card accounts - ACTIVE","bank,card","6,7","0,1",,200,FALSE
+AT-57388, Verify averageIncome and averageExpense calculation for uncategorized transactions - ACTIVE,"bank,card",4,1,,200,FALSE

@@ -1,0 +1,4 @@
+testCaseId,testCaseName,CobSession,UserSession,Status,FileName,FilePath,DefectID,enabled
+1,InvalidCobsession,abcdef,correct,401,invalidCobsession.json,../src/test/resources/TestData/providers/getToken/,0,TRUE
+2,EmptyCobsession,,correct,401,invalidCobsession.json,../src/test/resources/TestData/providers/getToken/,0,TRUE
+3,NULLCobsession,NULL,correct,401,invalidCobsession.json,../src/test/resources/TestData/providers/getToken/,0,TRUE

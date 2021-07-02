@@ -1,0 +1,156 @@
+[
+    {
+        "userDefinedRuleId": "${json-unit.ignore}",
+        "memId": "${json-unit.ignore}",
+        "transactionCategorisationId": 1,
+        "rulePriority": 1,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.ignore}",
+                "userDefinedRuleId": "${json-unit.ignore}",
+                "field": "description",
+                "operation": "stringContains",
+                "fieldValue": "GIFT"
+            },
+            {
+                "ruleClauseId": "${json-unit.ignore}",
+                "userDefinedRuleId": "${json-unit.ignore}",
+                "field": "amount",
+                "operation": "numberEquals",
+                "fieldValue": "543"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.ignore}",
+        "memId": "${json-unit.ignore}",
+        "transactionCategorisationId": 1,
+        "rulePriority": 2,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.ignore}",
+                "userDefinedRuleId": "${json-unit.ignore}",
+                "field": "description",
+                "operation": "stringEquals",
+                "fieldValue": "ATM"
+            },
+            {
+                "ruleClauseId": "${json-unit.ignore}",
+                "userDefinedRuleId": "${json-unit.ignore}",
+                "field": "amount",
+                "operation": "numberEquals",
+                "fieldValue": "2000"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.ignore}",
+        "memId": "${json-unit.ignore}",
+        "transactionCategorisationId": 1,
+        "rulePriority": 3,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.ignore}",
+                "userDefinedRuleId": "${json-unit.ignore}",
+                "field": "description",
+                "operation": "stringContains",
+                "fieldValue": "Salary"
+            },
+            {
+                "ruleClauseId": "${json-unit.ignore}",
+                "userDefinedRuleId": "${json-unit.ignore}",
+                "field": "amount",
+                "operation": "numberLessThan",
+                "fieldValue": "1100"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.ignore}",
+        "memId": "${json-unit.ignore}",
+        "transactionCategorisationId": 1,
+        "rulePriority": 4,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.ignore}",
+                "userDefinedRuleId": "${json-unit.ignore}",
+                "field": "description",
+                "operation": "stringEquals",
+                "fieldValue": "Restaurant"
+            },
+            {
+                "ruleClauseId": "${json-unit.ignore}",
+                "userDefinedRuleId": "${json-unit.ignore}",
+                "field": "amount",
+                "operation": "numberLessThan",
+                "fieldValue": "2300"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.ignore}",
+        "memId": "${json-unit.ignore}",
+        "transactionCategorisationId": 1,
+        "rulePriority": 5,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.ignore}",
+                "userDefinedRuleId": "${json-unit.ignore}",
+                "field": "description",
+                "operation": "stringContains",
+                "fieldValue": "Dining"
+            },
+            {
+                "ruleClauseId": "${json-unit.ignore}",
+                "userDefinedRuleId": "${json-unit.ignore}",
+                "field": "amount",
+                "operation": "numberGreaterThan",
+                "fieldValue": "800"
+            }
+        ],
+        "categoryLevelId": 3
+    },
+    {
+        "userDefinedRuleId": "${json-unit.ignore}",
+        "memId": "${json-unit.ignore}",
+        "transactionCategorisationId": 1,
+        "rulePriority": 6,
+        "ruleClauses": [
+            {
+                "ruleClauseId": "${json-unit.ignore}",
+                "userDefinedRuleId": "${json-unit.ignore}",
+                "field": "description",
+                "operation": "stringEquals",
+                "fieldValue": "PayTM"
+            },
+            {
+                "ruleClauseId": "${json-unit.ignore}",
+                "userDefinedRuleId": "${json-unit.ignore}",
+                "field": "amount",
+                "operation": "numberGreaterThan",
+                "fieldValue": "430"
+            }
+        ],
+        "ruleClauseArray": [
+            {
+                "ruleClauseId": "${json-unit.ignore}",
+                "userDefinedRuleId": "${json-unit.ignore}",
+                "field": "description",
+                "operation": "stringEquals",
+                "fieldValue": "PayTM"
+            },
+            {
+                "ruleClauseId": "${json-unit.ignore}",
+                "userDefinedRuleId": "${json-unit.ignore}",
+                "field": "amount",
+                "operation": "numberGreaterThan",
+                "fieldValue": "430"
+            }
+        ],
+        "categoryLevelId": 3
+    }
+]

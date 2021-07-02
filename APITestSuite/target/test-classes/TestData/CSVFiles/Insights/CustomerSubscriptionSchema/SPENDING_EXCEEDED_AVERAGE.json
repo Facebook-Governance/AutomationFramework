@@ -1,0 +1,32 @@
+ {
+            "insightName": "SPENDING_EXCEEDED_AVERAGE",
+            "insightTitle": "Spending Exceeded Average",
+            "insightType": "OTHER",
+            "triggerType": "REFRESH",
+            "container": [
+                "BANK",
+                "CARD"
+            ],
+            "description": "Generates an insight when the difference, per category, between current spending and average spending over the previous three months is more than a configured threshold.",
+            "applicableEntity": [
+                "ACCOUNT"
+            ],
+            "customerConfiguration": [
+                {
+                    "entityType": "ACCOUNT",
+                    "isSubscribed": false,
+                    "threshold": [
+                        {
+                            "name": "CHANGE",
+                            "value": "50.00",
+                            "type": "AMOUNT"
+                        },
+                        {
+                            "name": "CHANGE",
+                            "value": "10.00",
+                            "type": "PERCENT"
+                        }
+                    ]
+                }
+            ]
+        }

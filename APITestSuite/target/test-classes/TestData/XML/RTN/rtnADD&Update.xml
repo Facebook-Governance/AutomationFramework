@@ -1,0 +1,63 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<siteUser>SdgAutoCatalog.site16441.5</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.5</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>ACCT_PROFILE</name>
+						<attributeList>
+							<attribute>
+								<name>BANK_TRANSFER_CODE</name>
+								<container>investment</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<update-provider-accounts-multiple>
+			<update-provider-accounts order="1">
+				<siteUser>SdgAutoCatalog.site16441.5</siteUser>
+				<siteUserId>65499</siteUserId>
+				<sitePwd>site16441.5</sitePwd>
+				<sitePwdId>65500</sitePwdId>
+				<siteId>16441</siteId>
+				<dataList>
+					<dataset>
+						<name>ACCT_PROFILE</name>
+						<attributeList>
+							<attribute>
+								<name>FULL_ACCT_NUMBER</name>
+								<container>bank</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</update-provider-accounts>
+		</update-provider-accounts-multiple>
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<status>ACTIVE</status>
+				<container></container>
+				<include>fullAccountNumber</include>
+				<accountReconType></accountReconType>
+			</get-accounts>
+		</get-accounts-multiple>
+	</request>
+	<response>
+		<get-accounts-multiple>
+			<get-accounts order="1">
+				<row>
+					<filePath>../src/test/resources/TestData/JSONFiles/Sdg/RTN/
+					</filePath>
+					<responseFile>rtnAddandUpdate.json</responseFile>
+				</row>
+			</get-accounts>
+		</get-accounts-multiple>
+	</response>
+</entity>

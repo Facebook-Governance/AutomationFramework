@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+
+	<!-- <parameter name="coBrand" value="YCOM_L1" />
+	<parameter name="loginType" value="L1NODE" />  -->
+	<parameter name="browser" value="chrome" />
+	<parameter name="runOnBrowserStack" value="false" />
+	<parameter name="bs_username" value="yodleebrowsersta1" />
+	<parameter name="bs_automate_key"
+		value="pzyoTJ6embZ48zsufsF2" />
+	<parameter name="browser_version" value="43" />
+	<parameter name="platformName" value="OS X" />
+	<parameter name="platformVersion" value="YOSEMITE" />
+	<parameter name="elpamEnabled" value="true" />
+	<parameter name="appFlag" value="false" />
+	<parameter name="healthCheckUp" value="false" />
+	<parameter name="suiteName" value="Dashboard Regression" />
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.omni.pfm.listeners.CustomListener" />
+		<listener
+			class-name="com.automation.rdashboard.ReportDashboardPlugin" />
+		<listener class-name="com.omni.pfm.listeners.ReportGenerator" />
+	</listeners>
+
+	<test name="Dashboard - Accounts">
+		<classes>
+			<class name="com.omni.pfm.Dashboard.DashBoard_Account_Test">
+				<methods>
+					<exclude name="verifyViewAllAccountsdeeplink"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+<!-- Commented the below class because scripts are written according to old budget -->
+	<!-- <test name="Dashboard - Budget">
+		<classes>
+			<class name="com.omni.pfm.Dashboard.DashBoard_Budget_Test">
+				<methods>
+					<exclude name="verifyGoToFullViewButtondeeplink"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+
+	 <test name="Dashboard - IH">
+		<classes>
+			<class
+				name="com.omni.pfm.Dashboard.DashBoard_InvestmentHolding_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Dashboard - Networth">
+		<classes>
+			<class name="com.omni.pfm.Dashboard.DashBoard_NetWorth_Test"></class>
+		</classes>
+	</test>
+
+</suite>

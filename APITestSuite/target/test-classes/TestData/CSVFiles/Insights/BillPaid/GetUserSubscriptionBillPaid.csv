@@ -1,0 +1,13 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,insightType,thresholdDetails,ruleExpression,configMetaAndentityParameter,status,enabled
+AT-BillPaid28,getUserSubscription-Bill PaidValidate InsightName,,BillPaid,BillPaid,,,,,,,,,,,,,,200,TRUE
+AT-BillPaid29,getUserSubscription-Bill PaidValidate Supporting container,,BillPaid,,,"BANK,CARD",,,,,,,,,,,,200,TRUE
+AT-BillPaid30,getUserSubscription-Bill PaidValidate TriggerType,EVENT,BillPaid,,,,,,,,,,,,,,,200,TRUE
+AT-BillPaid31,getUserSubscription-Bill PaidValidate applicableEntity,,BillPaid,,,,,,,ACCOUNT VIEW,,,,,,,,200,TRUE
+AT-BillPaid32,getUserSubscription-Bill PaidValidate number of levels and levelObject,,BillPaid,,,,,,,ACCOUNT VIEW,"account,view",,,,,,,200,TRUE
+AT-BillPaid33,getUserSubscription-Bill PaidValidate isSubscribed=false,,BillPaid,,,,,,,,"account,view",FALSE,,,,,,200,TRUE
+AT-BillPaid34,getUserSubscription-Bill PaidValidate insightKeys,,BillPaid,,,,Account,,,,,,,,,,,200,TRUE
+AT-BillPaid35,getUserSubscription-Bill PaidValidate description,,BillPaid,,,,,, Generates an insight when a recurring bill is paid.  ,,,,,,,,,200,TRUE
+AT-BillPaid36,getUserSubscription-Bill PaidValidate title,,BillPaid,,Bill Paid,,,,,,,,,,,,,200,TRUE
+AT-BillPaid37,getUserSubscription-Bill PaidValidate total number of keys,,BillPaid,,,,,17,,,,,,,,,,200,TRUE
+AT-BillPaid38,getUserSubscription-Bill PaidValidate InsightType,,BillPaid,BillPaid,,,,,,,,,,OTHER,,,,200,TRUE
+AT-BillPaid39,getUserSubscription-Bill PaidValidate insightKeys,,BillPaid,,,,View,,,,,,,,,,,200,TRUE

@@ -1,0 +1,8 @@
+tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,UsTestcaseId,priority,formType,enabled
+"AT-88967,AT-88954,AT-88975,",enroll  creditCard container,ADD_PROVIDER_ACCOUNT#UPDATE_ACCOUNT#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/Ebill/,EBILL_DEMO.xml,NO,YES,EBILL_ENROLL_1,p1,Simplified,TRUE
+"AT-88955,AT-88959,AT-88960,AT-88966,AT-88971",enroll  bill container,ADD_PROVIDER_ACCOUNT#UPDATE_ACCOUNT#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/Ebill/,enroll_bill.xml,NO,YES,EBILL_ENROLL_2,p1,Simplified,TRUE
+"AT-88937,AT-88946",enroll  insurance container,ADD_PROVIDER_ACCOUNT#UPDATE_ACCOUNT#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/Ebill/,enroll_insurance.xml,NO,YES,EBILL_ENROLL_3,p1,Simplified,FALSE
+"AT-88941,AT-88941",enroll  loan container,ADD_PROVIDER_ACCOUNT#UPDATE_ACCOUNT#GET_ACCOUNT_DETAILS,../src/test/resources/TestData/XML/Ebill/,ebill_loan.xml,NO,YES,EBILL_ENROLL_4,p1,Simplified,FALSE
+AT-88969,enroll bank container,ADD_PROVIDER_ACCOUNT#UPDATE_ACCOUNT,../src/test/resources/TestData/XML/Ebill/,enroll_bank.xml,NO,YES,EBILL_ENROLL_5,p1,Simplified,TRUE
+AT-88974,enroll with wrong input to isEbillenroll field,ADD_PROVIDER_ACCOUNT#UPDATE_ACCOUNT,../src/test/resources/TestData/XML/Ebill/,invalidValueForEnroll.xml,NO,YES,EBILL_ENROLL_6,p1,Simplified,TRUE
+"AT-88970,AT-88969,AT-88948,AT-88961",unroll an account for the without enrolling it,ADD_PROVIDER_ACCOUNT#UPDATE_ACCOUNT,../src/test/resources/TestData/XML/Ebill/,unenroll.xml,NO,YES,EBILL_ENROLL_7,p1,Simplified,TRUE

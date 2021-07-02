@@ -1,0 +1,74 @@
+{
+  "account": [
+    {
+      "CONTAINER": "insurance",
+      "providerAccountId": "${json-unit.ignore}",
+      "accountName": "DAG INSURANCE",
+      "accountStatus": "ACTIVE",
+      "aggregationSource": "USER",
+      "accountNumber": "${json-unit.ignore}",
+      "premium": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "remainingBalance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyEffectiveDate": "${json-unit.ignore}",
+      "policyFromDate": "${json-unit.ignore}",
+      "policyToDate": "${json-unit.ignore}",
+      "policyTerm": "P1Y2M3DT10H30M",
+      "isAsset": false,
+      "balance": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "id": "${json-unit.ignore}",
+      "lastUpdated": "${json-unit.ignore}",
+      "isEbillEnrolled": true,
+      "includeInNetWorth": false,
+      "providerId": "16441",
+      "providerName": "Dag Site",
+      "isManual": false,
+      "accountType": "INSURANCE",
+      "amountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "dueDate": "${json-unit.ignore}",
+      "lastPaymentDate": "${json-unit.ignore}",
+      "lastPaymentAmount": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "minimumAmountDue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "expirationDate": "${json-unit.ignore}",
+      "cashValue": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "policyStatus": "ACTIVE",
+      "faceAmount": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "displayedName": "DAG",
+      "createdDate": "${json-unit.ignore}",
+      "userClassification": "PERSONAL",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "nextUpdateScheduled": "${json-unit.ignore}"
+        }
+      ]
+    }
+  ]
+}

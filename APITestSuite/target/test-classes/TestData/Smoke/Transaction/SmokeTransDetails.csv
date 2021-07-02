@@ -1,0 +1,16 @@
+TestCaseId,TestCaseName,Parameter,Value,status,filePath,fileName,Enabled,VerifyCount
+1,Get Transaction for bank container,container,bank,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeBankContainer.json,True,6
+2,Get Transaction for loan container,container,loan,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeLoanContainer.json,True,1
+3,Get Transaction for insurance container,container,insurance,200,../src/test/resources/TestData/Transaction/Smoke/,SmokeInsuranceContainer.json,True,1
+4,Get Transaction for crediCard container,container,creditCard,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeCreditCardContainer.json,True,1
+5,Get Transaction for investment container,container,investment,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeInvestmentContainer.json,True,3
+6,Get Transaction for baseType=CREDIT,baseType,CREDIT,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeCREDITType.json,True,9
+7,Get Transaction for baseType=DEBIT,baseType,DEBIT,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeDEBITType.json,True,3
+8,Get Transaction for top=1,top,1,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeTop200.json,True,1
+9,Get Transaction for top=15,top,15,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeTop500.json,True,12
+10,Get Transaction for accountId,accountId,1111,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeAccountId.json,True,1
+11,Get Transaction for skip=1,skip,1,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeSkip1.json,True,11
+12,Get Transaction for skip=3,skip,3,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeSkip3.json,True,9
+13,Get Transaction for categoryType,categoryType,INCOME,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeCatagoryType.json,True,30
+14,Get Transaction for fromDate,,,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeAllTrans.json,True,12
+15,Get Transaction for toDate=2015-01-01,toDate,2015-01-01,200,../src/test/resources/TestData/Smoke/Transaction/,SmokeAllTransToDate.json,True,12

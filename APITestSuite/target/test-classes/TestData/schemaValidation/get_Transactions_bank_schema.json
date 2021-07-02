@@ -1,0 +1,341 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "transaction": {
+      "$id": "/properties/transaction",
+      "type": "array",
+      "items": {
+        "$id": "/properties/transaction/items",
+        "type": "object",
+        "properties": {
+          "CONTAINER": {
+            "$id": "/properties/transaction/items/properties/CONTAINER",
+            "type": "string",
+            "format": "container",
+            "title": "The Container Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "bank"
+            ]
+          },
+          "id": {
+            "$id": "/properties/transaction/items/properties/id",
+            "type": "number",
+            "minimum": -9223372036854775807,
+            "maximum": 9223372036854775807, 
+            "title": "The Id Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              36220019
+            ]
+          },
+          "amount": {
+            "$id": "/properties/transaction/items/properties/amount",
+            "type": "object",
+            "properties": {
+              "amount": {
+                "$id": "/properties/transaction/items/properties/amount/properties/amount",
+                "type": "number",
+                "multipleOf": 0.01,
+                "title": "The Amount Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  123.66999816894531
+                ]
+              },
+              "currency": {
+                "$id": "/properties/transaction/items/properties/amount/properties/currency",
+                "type": "string",
+                "format": "money",
+                "title": "The Currency Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "USD"
+                ]
+              }
+            }
+          },
+          "baseType": {
+            "$id": "/properties/transaction/items/properties/baseType",
+            "type": "string",
+             "format": "baseType",
+            "title": "The Basetype Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "CREDIT"
+            ]
+          },
+          "categoryType": {
+            "$id": "/properties/transaction/items/properties/categoryType",
+            "type": "string",
+            "title": "The Categorytype Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "UNCATEGORIZE"
+            ]
+          },
+          "categoryId": {
+            "$id": "/properties/transaction/items/properties/categoryId",
+            "type": "number",
+            "minimum": -9223372036854775807,
+            "maximum": 9223372036854775807, 
+            "title": "The Categoryid Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              1
+            ]
+          },
+          "category": {
+            "$id": "/properties/transaction/items/properties/category",
+            "type": "string",
+            "title": "The Category Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Uncategorized"
+            ]
+          },
+          "categorySource": {
+            "$id": "/properties/transaction/items/properties/categorySource",
+            "type": "string",
+            "title": "The Categorysource Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "SYSTEM"
+            ]
+          },
+          "highLevelCategoryId": {
+            "$id": "/properties/transaction/items/properties/highLevelCategoryId",
+            "type": "integer",
+            "title": "The Highlevelcategoryid Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              10000017
+            ]
+          },
+          "highLevelCategoryName": {
+            "$id": "/properties/transaction/items/properties/highLevelCategoryName",
+            "type": "string",
+            "title": "The Highlevelcategoryname Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Uncategorized"
+            ]
+          },
+          "createdDate": {
+            "$id": "/properties/transaction/items/properties/createdDate",
+            "type": "string",
+          "format": "datetime",
+            "title": "The Createddate Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-11-22T08:13:13Z"
+            ]
+          },
+          "lastUpdated": {
+            "$id": "/properties/transaction/items/properties/lastUpdated",
+            "type": "string",
+           "format": "datetime",
+            "title": "The Lastupdated Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-11-22T08:13:13Z"
+            ]
+          },
+          "description": {
+            "$id": "/properties/transaction/items/properties/description",
+            "type": "object",
+            "properties": {
+              "original": {
+                "$id": "/properties/transaction/items/properties/description/properties/original",
+                "type": "string",
+                "title": "The Original Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "Service Charges Received FROM Bank"
+                ]
+              },
+              "consumer": {
+                "$id": "/properties/transaction/items/properties/description/properties/consumer",
+                "type": "string",
+                "title": "The Consumer Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "Dining"
+                ]
+              },
+              "simple": {
+                "$id": "/properties/transaction/items/properties/description/properties/simple",
+                "type": "string",
+                "title": "The Simple Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "Service Charges FROM Bank"
+                ]
+              }
+            }
+          },
+          "date": {
+            "$id": "/properties/transaction/items/properties/date",
+            "type": "string",
+            "format": "date",
+            "title": "The Date Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-07-13"
+            ]
+          },
+          "transactionDate": {
+            "$id": "/properties/transaction/items/properties/transactionDate",
+            "type": "string",
+            "format": "date",
+            "title": "The Transactiondate Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-07-13"
+            ]
+          },
+          "isManual": {
+            "$id": "/properties/transaction/items/properties/isManual",
+            "type": "boolean",
+            "title": "The Ismanual Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "status": {
+            "$id": "/properties/transaction/items/properties/status",
+            "type": "string",
+            "format": "transactionStatus",
+            "title": "The Status Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "POSTED"
+            ]
+          },
+          "accountId": {
+            "$id": "/properties/transaction/items/properties/accountId",
+           "type": "number",
+            "minimum": -9223372036854775807,
+            "maximum": 9223372036854775807, 
+            "title": "The Accountid Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              2851417
+            ]
+          },
+          "checkNumber": {
+            "$id": "/properties/transaction/items/properties/checkNumber",
+            "type": "string",
+            "title": "The Checknumber Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "33-CCVB"
+            ]
+          },
+          "merchant": {
+            "$id": "/properties/transaction/items/properties/merchant",
+            "type": "object",
+            "properties": {
+              "id": {
+                "$id": "/properties/transaction/items/properties/merchant/properties/id",
+                "type": "string",
+                "title": "The Id Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "42591"
+                ]
+              },
+              "name": {
+                "$id": "/properties/transaction/items/properties/merchant/properties/name",
+                "type": "string",
+                "title": "The Name Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "Cash Withdrawal"
+                ]
+              },
+              "source": {
+                "$id": "/properties/transaction/items/properties/merchant/properties/source",
+                "type": "string",
+                "format":"merchantSource",
+                "title": "The Source Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "YODLEE"
+                ]
+              }
+            }
+          },
+          "postDate": {
+            "$id": "/properties/transaction/items/properties/postDate",
+            "type": "string",
+            "format": "date",
+            "title": "The Postdate Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2017-05-04"
+            ]
+          },
+          "runningBalance": {
+            "$id": "/properties/transaction/items/properties/runningBalance",
+            "type": "object",
+            "properties": {
+              "amount": {
+                "$id": "/properties/transaction/items/properties/runningBalance/properties/amount",
+                "type": "number",
+                "multipleOf": 0.01,
+                "title": "The Amount Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  1000
+                ]
+              },
+              "currency": {
+                "$id": "/properties/transaction/items/properties/runningBalance/properties/currency",
+                "type": "string",
+                "format": "money",
+                "title": "The Currency Schema.",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "USD"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

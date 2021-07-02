@@ -1,0 +1,24 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,validateKeys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-148098,patchCobrandSubscription - subscribe to IncomeExpenseOverview isSubscribed=true,IncomeExpenseOverview,,,,,,,,,,1,,view,1,,,TRUE,,,,204,TRUE
+AT-148099,patchCobrandSubscription - update insightName to same name,IncomeExpenseOverview,negTestScenario1,IncomeExpenseOverview,,,,,,,,,,,,,,,,,,500,TRUE
+AT-148100,patchCobrandSubscription -  update insightName to different name,IncomeExpenseOverview,negTestScenario2,IncomeExpenseOverviewEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-148101,patchCobrandSubscription - update insightTitle chars between 3 and 100 ,IncomeExpenseOverview,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-148102,patchCobrandSubscription -  update insightTitle chars are only 3,IncomeExpenseOverview,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-148103,patchCobrandSubscription - update insightTitle chars are only 100,IncomeExpenseOverview,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-148104,patchCobrandSubscription - update insightTitle chars are less than 3,IncomeExpenseOverview,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-148105,patchCobrandSubscription -  update insightTitle chars are greater 100,IncomeExpenseOverview,negTestScenario3,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-148106,patchCobrandSubscription - update insightTitle chars are special characters,IncomeExpenseOverview,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-148107,patchCobrandSubscription -  update container,IncomeExpenseOverview,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-148108,patchCobrandSubscription -  update keys,IncomeExpenseOverview,negTestScenario7,,,,,View,,,,,,,,,,,,,,400,TRUE
+AT-148109,patchCobrandSubscription -  update description,IncomeExpenseOverview,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-148110,patchCobrandSubscription -  update applicableEntity,IncomeExpenseOverview,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-148111,patchCobrandSubscription -  update entityParameter,IncomeExpenseOverview,,,,,,,,,,1,,view,1,,,TRUE,,,,204,TRUE
+AT-148112,patchCobrandSubscription - update entityParameter->view->frequency,IncomeExpenseOverview,negTestScenario22,,,,,,,,,1,,view,1,,M,TRUE,,,,400,TRUE
+AT-148113,patchCobrandSubscription - update entityParameter->view->isSubscribed=false,IncomeExpenseOverview,,,,,,,,,,1,,view,1,,,FALSE,,,,204,TRUE
+AT-148114,patchCobrandSubscription - update entityParameter->view->duration,IncomeExpenseOverview,negTestScenario23,,,,,,,,,1,,view,1,,,TRUE,THIS_MO,,,400,TRUE
+AT-148115,patchCobrandSubscription - update entityParameter->view->duration,IncomeExpenseOverview,,,,,,,,,,1,,view,1,,,TRUE,THIS_MONTH,,,204,TRUE
+AT-148116,patchCobrandSubscription - update entityParameter->view->duration -->LAST_THREE_MONTHS,IncomeExpenseOverview,,,,,,,,,,1,,view,1,,,TRUE,THREE_MONTHS,,,204,TRUE
+AT-148117,patchCobrandSubscription - update entityParameter->view->duration -->LAST_ONE_YEAR,IncomeExpenseOverview,,,,,,,,,,1,,view,1,,,TRUE,ONE_YEAR,,,204,TRUE
+AT-148118,patchCobrandSubscription - update entityParameter->view->insightType,IncomeExpenseOverview,negTestScenario24,,,,,,,,,1,,view,1,,,TRUE,,OTHER,,400,TRUE
+AT-148119,patchCobrandSubscription - update entityParameter->view->insightType - Invalid Name,IncomeExpenseOverview,negTestScenario24,,,,,,,,,1,,view,1,,,TRUE,,INVALID,,400,TRUE
+AT-148120,patchCobrandSubscription - update insightTitle to  default,IncomeExpenseOverview,,,Net Income Summary,,,,,,,,,,,,,,,,,204,TRUE

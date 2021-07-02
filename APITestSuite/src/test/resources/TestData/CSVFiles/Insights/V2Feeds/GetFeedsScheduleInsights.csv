@@ -1,0 +1,25 @@
+testCaseId,Testcase,InsightName,numberOfInsights,entityParameterName,validateKeys,accountEntitySchema,viewEntitySchema,status,enabled
+AT-5501,Validate UPCOMING_BILLS  Insight Generation,UPCOMING_BILLS,1,account,Account,UpcomingBillsAccountSchema.json,,201,TRUE
+AT-5502,Validate UPCOMING_SUBSCRIPTIONS  Insight Generation,UPCOMING_SUBSCRIPTIONS,1,account,Account,UpcomingSubscriptionsAccountEntity.json,,201,TRUE
+AT-5503,Validate LONG_TENURE_RECURRING_PAYMENTS Insight Generation,LONG_TENURE_RECURRING_PAYMENTS,1,account,Account,LongTenureRecurringPaymentsAccountEntitySchema.json,,201,TRUE
+AT-5504,Validate SPENDING_BY_MERCHANT_ALL_ACCOUNTS Insight Generation,SPENDING_BY_MERCHANT_ALL_ACCOUNTS,1,account,Account,SpendingByMerchant_AllAccount_LastMonth.json,,201,TRUE
+AT-5505,Validate SPENDING_BY_CATEGORY_ALL_ACCOUNTS Insight Generation,SPENDING_BY_CATEGORY_ALL_ACCOUNTS,1,account,Account,SpendingByCategory_AllAccount.json,,201,TRUE
+AT-5506,Validate SPENDING_AND_EARNING_COMPARISON Insight Generation,SPENDING_AND_EARNING_COMPARISON,1,account,Account,SpendingAndEarningComparison_AllAccount.json,,201,TRUE
+AT-5507,Validate SPENDING_BY_CATEGORY Insight Generation,SPENDING_BY_CATEGORY,19,account,Account,SpendingByCategory_Account.json,,201,TRUE
+AT-5508,Validate SPENDING_BY_MERCHANT Insight Generation,SPENDING_BY_MERCHANT,19,account,Account,SpendingByMerchant_AllAccount_LastMonth.json,,201,TRUE
+AT-5509,Validate COUNT_OF_TRANSACTIONS_BY_MERCHANT Insight Generation,COUNT_OF_TRANSACTIONS_BY_MERCHANT,19,account,Account,,,201,TRUE
+AT-5510,Validate COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS Insight Generation,COUNT_OF_TRANSACTIONS_BY_MERCHANT_ALL_ACCOUNTS,1,account,Account,,,201,TRUE
+AT-5511,Validate PROJECTED_DISCRETIONARY_FUNDS Insight Generation,SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE,1,account,Account,SavingsIncreasedComparedToHistoricalAverage.json,,201,TRUE
+AT-5512,Validate SAVINGS_INCREASED_COMPARED_TO_YOUR_AVERAGE Insight Generation,EMERGENCY_SAVINGS,1,account,Account,EmergencySavings.json,,201,TRUE
+AT-5513,Validate EMERGENCY_SAVINGS Insight Generation,FINANCIAL_FORECAST,1,account,Account,FinancialForecastMonthlyAccountEntitySchema.json,,201,TRUE
+AT-5514,Validate FINANCIAL_FORECAST Insight Generation,FINANCIAL_FEES,4,account,Account,FinancialFees_ThreeMonths.json,,201,TRUE
+AT-5515,Validate FINANCIAL_FEES Insight Generation,PROJECTED_DISCRETIONARY_FUNDS,24,account,Account,ProjectedDiscretionaryFundsAccountEntitySchema.json,,201,TRUE
+AT-5516,Validate CHANGE_IN_ASSETS Insight Generation,CHANGE_IN_ASSETS,2,account,Account,ChangeInAssets.json,,201,TRUE
+AT-5517,Validate CHANGE_IN_LIABILITIES Insight Generation,CHANGE_IN_LIABILITIES,2,account,Account,ChangeInLiabilities.json,,201,TRUE
+AT-5518,Validate CHANGE_IN_NETWORTH  Insight Generation,CHANGE_IN_NETWORTH,2,account,Account,ChangeInLiabilities.json,,201,TRUE
+AT-5519,ValidateYOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE Insight Generation,YOUR_SPENDING_LAST_MONTH_COMPARED_TO_YOUR_AVERAGE,1,account,Account,YourSpendingLastMonthComparedToYourHistoricalAverage,,201,TRUE
+AT-5520,Validate NETWORTH_SUMMARY Insight Generation,NETWORTH_SUMMARY,2,account,Account,NetworthSummary.json,,201,TRUE
+AT-5521,Validate CASH_FLOW_SUMMARY Insight Generation,CASH_FLOW_SUMMARY,21,account,Account,CashFlowSummary_ThisMonth.json,,201,TRUE
+AT-5522,Validate SUGGESTED_SAVING_OPPORTUNITY Insight Generation,SUGGESTED_SAVING_OPPORTUNITY,1,account,Account,SuggestedSavingOpportunity.json,,201,TRUE
+AT-5523,Validate HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS Insight Generation,HIGH_BILLS_AND_SUBSCRIPTIONS_COST_BASED_ON_PEERS,1,account,Account,HighBillsAndSubscriptionCost,,201,TRUE
+AT-5524,Validate PEER_SPENDING_COMPARISON_SUMMARY Insight Generation,PEER_SPENDING_COMPARISON_SUMMARY,1,account,Account,PeerSpdCompSmyOverSpd.json,,201,TRUE

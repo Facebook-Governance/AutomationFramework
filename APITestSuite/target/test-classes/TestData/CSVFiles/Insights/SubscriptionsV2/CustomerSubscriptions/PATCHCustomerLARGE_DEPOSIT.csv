@@ -1,0 +1,23 @@
+testCaseId,testCaseDescription,negativeTestScenario,insightsName,insightTitle,insightType,triggerType,containers,description,applicableEntities,entityNames,subscription,thresholdNameValueType,frequency,duration,patchEntityId,httpStatus,enabled
+AT-1001,edit InsightName,EditInsightName,LARGE_DEPOSITEDIT,,,,,,,account view,TRUE FALSE,"MINIMUM,400,AMOUNT   MINIMUM,450,AMOUNT",,,,400,TRUE
+AT-1002,edit InsightTitle minimum 3 Characters,,LARGE_DEPOSIT,abc,,,,,,account view,TRUE FALSE,"MINIMUM,400,AMOUNT   MINIMUM,450,AMOUNT",,,,204,TRUE
+AT-1003,"edit InsightTitle allowed characters between 3 and 100 chars , with emptyConfiguration",emptyCustomerConfiguration,LARGE_DEPOSIT,abc,,,,,,,,,,,,400,TRUE
+AT-1004,edit InsightTitle allowed characters between 3 and 100 chars,,LARGE_DEPOSIT,Large Deposit and Large Deposit,,,,,,account view,TRUE FALSE,"MINIMUM,400,AMOUNT   MINIMUM,450,AMOUNT",,,,204,TRUE
+AT-1005,edit InsightTitle MAX characters 100,,LARGE_DEPOSIT,abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefg100,,,,,,account view,TRUE FALSE,"MINIMUM,400,AMOUNT   MINIMUM,450,AMOUNT",,,,204,TRUE
+AT-1006,edit InsightTitle more than MAX characters 101 chars,EditTitleMinAndMaxChars,LARGE_DEPOSIT,abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghi101,,,,,,,,,,,,400,TRUE
+AT-1007,edit InsightTitle less than MIN characters 2 chars,EditTitleMinAndMaxChars,LARGE_DEPOSIT,ab,,,,,,,,,,,,400,TRUE
+AT-1008,edit InsightTitle allowed special characters,,LARGE_DEPOSIT,Large_Deposit$()*,,,,,,account,TRUE,"MINIMUM,300,AMOUNT",,,,204,TRUE
+AT-1009,edit InsightTitle NOT allowed special characters,EditTitleWithSpecialChars,LARGE_DEPOSIT,<Large_Deposit$>,,,,,,,,,,,,400,TRUE
+AT-1010,edit InsightType,EditInsightType,LARGE_DEPOSIT,,OTHER,,,,,,,,,,,400,TRUE
+AT-1011,edit TriggerType,EditTriggerType,LARGE_DEPOSIT,,,REFRESH,,,,,,,,,,400,TRUE
+AT-1012,edit Container,EditContainer,LARGE_DEPOSIT,,,,BANK,,,account view,TRUE FALSE,"MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT",,,,400,TRUE
+AT-1013,edit Description,EditDescription,LARGE_DEPOSIT,,,,,My Description,,account view,TRUE FALSE,"MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT",,,,400,TRUE
+AT-1014,edit ApplicableEntity,EditApplicableEntity,LARGE_DEPOSIT,,,,,,VIEW    ACCOUNT,,,,,,,400,TRUE
+AT-1015,"edit threshold value to MIN ""1.00""",,LARGE_DEPOSIT,Large Deposit and Large Deposit,,,,,,account view,TRUE FALSE,"MINIMUM,1,AMOUNT   MINIMUM,1,AMOUNT",,,,204,TRUE
+AT-1016,edit threshold value to MAX,,LARGE_DEPOSIT,,,,,,,account view,TRUE FALSE,"MINIMUM,1000000,AMOUNT   MINIMUM,1000000,AMOUNT",,,,204,TRUE
+AT-1017,edit threshold value to Between MIN and MAX,,LARGE_DEPOSIT,,,,,,,account view,TRUE FALSE,"MINIMUM,90000,AMOUNT   MINIMUM,90000,AMOUNT",,,,204,TRUE
+AT-1018,edit threshold value to less than MIN,EditThresholdAmountRangeMinAndMax,LARGE_DEPOSIT,,,,,,,account view,TRUE FALSE,"MINIMUM,0,AMOUNT   MINIMUM,0,AMOUNT",,,,400,TRUE
+AT-1019,edit threshold value to greater than MAX,EditThresholdAmountRangeMinAndMax,LARGE_DEPOSIT,,,,,,,account view,TRUE FALSE,"MINIMUM,1000001,AMOUNT   MINIMUM,1000001,AMOUNT",,,,400,TRUE
+AT-1020,edit Invalid threshold  name to MINIMUMEDIT,EditThresholdNameInvalidMINIMUM,LARGE_DEPOSIT,,,,,,,account view,TRUE FALSE,"MINIMUMEDIT,100,AMOUNT   MINIMUM,100,AMOUNT",,,,400,TRUE
+AT-1021,edit Invalid threshold  type to AMOUNTEDIT,EditThresholdTypeInvalidAMOUNT,LARGE_DEPOSIT,,,,,,,account view,TRUE FALSE,"MINIMUM,100,AMOUNT   MINIMUM,100,AMOUNTEDIT",,,,400,TRUE
+AT-1022,edit NOT supported entity,editNotSupportedEntity,LARGE_DEPOSIT,,,,,,,goal,TRU,"MINIMUM,100,AMOUNT",,,,400,TRUE

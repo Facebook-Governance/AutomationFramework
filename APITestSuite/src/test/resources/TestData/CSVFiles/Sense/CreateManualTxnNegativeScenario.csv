@@ -1,0 +1,18 @@
+testCaseId,TestCase,amount,currency,consumer,baseType,category,categorySource,date,memo,accountId,checkNumber,transactionType,httpStatus,ResFile,FilePath,Enabled
+AT-19031,WithInvalidBaseType,100,USD,Description,Invalid,92,SYSTEM,"0,0,1",memo,BANK,1234,DEPOSIT,400,InvalidValueForBaseType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-19021,InvalidCategory,100,USD,Description,CREDIT,2392,SYSTEM,"0,0,1",memo,BANK,1234,WITHDRAWAL,400,InvalidValueForCategoryId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-19038,InvalidCategorySource,100,USD,Description,DEBIT,92,SYSTEM1,"0,0,1",memo,BANK,1234,DEPOSIT,400,InvalidValueForCategorySource.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-18989,InvalidAccountId,100,USD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,INVALID,1234,WITHDRAWAL,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-19041,InvalidDescription,100,USD,DescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptioDescriptio1,DEBIT,92,SYSTEM,"0,0,1",memo,BANK,1234,WITHDRAWAL,400,InvalidValueForDescription.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-19041,InvalidDescription,100,USD,De,DEBIT,92,SYSTEM,"0,0,1",memo,BANK,1234,DEPOSIT,400,InvalidValueForDescription.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-19006,InvalidAmount,1.00E+12,USD,Description,DEBIT,92,SYSTEM,"0,0,1",memo,BANK,1234,DEPOSIT,400,InvalidValueForAmount.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-19009,InvalidAmount,-100,USD,Description,DEBIT,92,SYSTEM,"0,0,1",memo,BANK,1234,DEPOSIT,400,InvalidValueForAmount.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-18989,InvalidAccountId,100,USD,Description,CREDIT,92,SYSTEM,"0,0,1",memo,OTHER_USER,1234,WITHDRAWAL,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-19036,InvalidTransactionType,100,USD,Description,DEBIT,92,SYSTEM,"0,0,1",memo,BANK,1234,BUY,400,InvalidValueForTransactionType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-19036,InvalidTransactionType,100,USD,Description,DEBIT,92,SYSTEM,"0,0,1",memo,BANK,1234,SELL,400,InvalidValueForTransactionType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-19034,InvalidTransactionType,100,USD,Description,DEBIT,92,SYSTEM,"0,0,1",memo,BANK,1234,abc,400,InvalidValueForTransactionType.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-19016,InvalidCurrency,100,xyz,Description,DEBIT,92,SYSTEM,"0,0,1",memo,BANK,12345,DEPOSIT,400,InvalidValueForCurrency.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-20277,referenceTransaction id is imanual,100,USD,Description,DEBIT,92,SYSTEM,"0,0,1",memo,BANK,1234,BUY,400,InvalidValueForReferenceId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-26272,amount as a string,100,USD,Description,DEBIT,92,SYSTEM,"0,0,1",memo,BANK,1234,SELL,400,InvalidAmountAsString.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-26258,Alphabet value for categoryId,100,USD,Description,DEBIT,92,SYSTEM,"0,0,1",memo,BANK,1234,abc,400,Invalid_categoryId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE
+AT-19056,Invalid json in input,100,xyz,Description,DEBIT,92,SYSTEM,"0,0,1",memo,BANK,12345,DEPOSIT,400,InvalidValueForAccountId.json,../src/test/resources/TestData/JSONFiles/ErrorMessage/,TRUE

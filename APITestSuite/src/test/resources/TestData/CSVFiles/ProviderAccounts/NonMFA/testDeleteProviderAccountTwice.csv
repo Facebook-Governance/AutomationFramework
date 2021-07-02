@@ -1,0 +1,4 @@
+TestCaseID,testCaseName,ResFile,FileLocation,Status,ProviderId,loginFormType,dagUserName,dagPassword
+AT-66028,Test GetAccounts response for the deleted account,invalidProviderAccountId.json,../src/test/resources/TestData/JSONFiles/ProviderAccount/NonMfa/,400,16441,FieldArray,yslAutomation.site16441.4,site16441.4
+AT-66029,Test DeleteProviderAccount by deleting the accounts in error state,invalidProviderAccountId.json,../src/test/resources/TestData/JSONFiles/ProviderAccount/NonMfa/,400,16441,FieldArray,yslAutomation.site16441.2,site16441.2
+AT-66030,Positive scenario- Test DeleteProviderAccount for non-MFA account,invalidProviderAccountId.json,../src/test/resources/TestData/JSONFiles/ProviderAccount/NonMfa/,400,16441,FieldArray,yslAutomation.site16441.4,site16441.4

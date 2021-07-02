@@ -1,0 +1,63 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>RestGenDocDown.site16441.7</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.7</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>BASIC_AGG_DATA</name>
+					<attributeList>
+						<attribute>
+							<name>STATEMENTS</name>
+							<container>insurance</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		  <update-provider-accounts-multiple>
+		  <update-provider-accounts order="1">
+            <siteUser>RestGenDocDown.site16441.7</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.7</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+                <dataset>
+                    <name>BASIC_AGG_DATA</name>
+                    <attributeList>
+                        <attribute>
+                            <name>STATEMENTS</name>
+                            <container>loan</container>
+                        </attribute>
+                    </attributeList>
+                </dataset>
+            </dataList>
+        </update-provider-accounts>
+		</update-provider-accounts-multiple>
+	</request>
+	<response>
+		<get-provider-accounts-multiple>
+		<get-provider-accounts order="1">
+			<row>
+				<!--<filePath>../src/test/resources/TestData/JSONFiles/Sdg/Implicitdatasets/</filePath>
+				<responseFile>addBASIC_AGG.json</responseFile>-->
+				<datasetrequested>[{"container":"insurance","dataset":[{"attributeIds":[13,7],"datasetId":1}]}]</datasetrequested>
+			</row>
+		</get-provider-accounts>
+		</get-provider-accounts-multiple>
+		<refresh-provider-accounts-multiple>
+		<refresh-provider-accounts order="1">
+			<row>
+				<!--<responseFile>addBASIC_AGG.json</responseFile>-->
+				<datasetrequested>[{"container":"loans","dataset":[{"attributeIds":[13,7],"datasetId":1}]}]</datasetrequested>
+			</row>
+		</refresh-provider-accounts>
+		</refresh-provider-accounts-multiple>
+	</response>
+</entity>

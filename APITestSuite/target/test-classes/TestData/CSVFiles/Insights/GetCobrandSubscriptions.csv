@@ -1,0 +1,155 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-10001,"Validate LowBalanceWarning , check if Insight is unSubscribed to OR isSubscribed=false ",,LowBalanceWarning,LowBalanceWarning,,,,,,,,FALSE,,,,200,TRUE
+AT-10002,"Validate LowBalanceWarning , Validate InsightName",,LowBalanceWarning,LowBalanceWarning,,,,,,,,,,,,200,TRUE
+AT-10003,"Validate LowBalanceWarning , Validate Supporting container",,LowBalanceWarning,,,BANK,,,,,,,,,,200,TRUE
+AT-10004,"Validate LowBalanceWarning , Validate TriggerType",REFRESH,LowBalanceWarning,,,,,,,,,,,,,200,TRUE
+AT-10005,"Validate LowBalanceWarning , Validate applicableEntity",,LowBalanceWarning,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-10006,"Validate LowBalanceWarning , Validate number of levels and levelObject",,LowBalanceWarning,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-10007,"Validate LowBalanceWarning , Validate isSubscribed=false",,LowBalanceWarning,,,,,,,,,FALSE,,,,200,TRUE
+AT-10008,"Validate LowBalanceWarning , Validate threshold Name,default Value 60000 and Type",,LowBalanceWarning,,,,,,,,account,,,"BALANCE,60000,AMOUNT",,200,TRUE
+AT-10009,"Validate LowBalanceWarning , Validate insightKeys",,LowBalanceWarning,,,,"accounts,providerName,id,accountType,accountNumber,accountName,availableBalance.amount,availableBalance.currency",,,,,,,,,200,TRUE
+AT-10010,"Validate LowBalanceWarning , Validate description",,LowBalanceWarning,,,,,,"Notification generated when the Available Balance for a cash account (checking, savings) falls below a predefined (system or consumer created), threshold.",,,,,,,200,TRUE
+AT-10011,"Validate LowBalanceWarning , Validate title",,LowBalanceWarning,,Low Balance Warning,,,,,,,,,,,200,TRUE
+AT-10012,"Validate LowBalanceWarning , Validate ruleExpression",,LowBalanceWarning,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-10013,"Validate LowBalanceWarning , Validate total number of keys",,LowBalanceWarning,,,,,7,,,,,,,,200,TRUE
+AT-20001,"Validate GoalOffTrack , Validate InsightName",,GoalOffTrack,GoalOffTrack,,,,,,,,,,,,200,TRUE
+AT-20002,"Validate GoalOffTrack , Validate Supporting container",,GoalOffTrack,,,BANK,,,,,,,,,,200,TRUE
+AT-20003,"Validate GoalOffTrack , Validate TriggerType",REFRESH,GoalOffTrack,,,,,,,,,,,,,200,TRUE
+AT-20004,"Validate GoalOffTrack , Validate applicableEntity",,GoalOffTrack,,,,,,,GOAL,,,,,,200,TRUE
+AT-20005,"Validate GoalOffTrack , Validate number of levels and levelObject",,GoalOffTrack,,,,,,,GOAL,goal,,,,,200,TRUE
+AT-20006,"Validate GoalOffTrack , Validate isSubscribed=false",,GoalOffTrack,,,,,,,,,FALSE,,,,200,TRUE
+AT-20007,"Validate GoalOffTrack , Validate insightKeys",,GoalOffTrack,,,,"goals,id,name,actualSavings.amount,actualSavings.currency,expectedSavings.amount,expectedSavings.currency,targetAmount.amount,targetAmount.currency,targetDate",,,,,,,,,200,TRUE
+AT-20008,"Validate GoalOffTrack , Validate description",,GoalOffTrack,,,,,,Notification generated when the actualSavings less than expectedSavings,,,,,,,200,TRUE
+AT-20009,"Validate GoalOffTrack , Validate title",,GoalOffTrack,,Goal Off Track,,,,,,,,,,,200,TRUE
+AT-20010,"Validate GoalOffTrack , Validate ruleExpression",,GoalOffTrack,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-20011,"Validate GoalOffTrack, Validate total number of keys",,GoalOffTrack,,,,,9,,,,,,,,200,TRUE
+AT-30001,"Validate CreditLimitWarning , Validate InsightName",,CreditLimitWarning,CreditLimitWarning,,,,,,,,,,,,200,TRUE
+AT-30002,"Validate CreditLimitWarning , Validate Supporting container",,CreditLimitWarning,,,CARD,,,,,,,,,,200,TRUE
+AT-30003,"Validate CreditLimitWarning , Validate TriggerType",REFRESH,CreditLimitWarning,,,,,,,,,,,,,200,TRUE
+AT-30004,"Validate CreditLimitWarning , Validate applicableEntity",,CreditLimitWarning,,,,,,,"ACCOUNT,BOARD",,,,,,200,TRUE
+AT-30005,"Validate CreditLimitWarning , Validate number of levels and levelObject",,CreditLimitWarning,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-30006,"Validate CreditLimitWarning , Validate isSubscribed=false",,CreditLimitWarning,,,,,,,,account,FALSE,,,,200,TRUE
+AT-30007,"Validate CreditLimitWarning , Validate threshold Name,Value and Type",,CreditLimitWarning,,,,,,,,account,,,"LIMIT,25,PERCENT",,200,TRUE
+AT-30008,"Validate CreditLimitWarning , Validate insightKeys",,CreditLimitWarning,,,,"accounts,id,providerName,accountType,accountNumber,accountName,balance.amount,balance.currency,totalCreditLine.amount,totalCreditLine.currency,_creditUtilization",,,,,,,,,200,TRUE
+AT-30009,"Validate CreditLimitWarning , Validate description",,CreditLimitWarning,,,,,,Notification generated for creditLimitWarning.,,,,,,,200,TRUE
+AT-30010,"Validate CreditLimitWarning , Validate title",,CreditLimitWarning,,Credit Limit Warning,,,,,,,,,,,200,TRUE
+AT-30011,"Validate CreditLimitWarning , Validate total number of keys",,CreditLimitWarning,,,,,10,,,,,,,,200,TRUE
+AT-30011,"Validate CreditLimitWarning , Validate if ruleExpression present",,CreditLimitWarning,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-40001,"Validate CardStatementDue , Validate InsightName",,CardStatementDue,CardStatementDue,,,,,,,,,,,,200,TRUE
+AT-40002,"Validate CardStatementDue , Validate Supporting container",,CardStatementDue,,,CARD,,,,,,,,,,200,TRUE
+AT-40003,"Validate CardStatementDue , Validate TriggerType",REFRESH,CardStatementDue,,,,,,,,,,,,,200,TRUE
+AT-40004,"Validate CardStatementDue , Validate applicableEntity",,CardStatementDue,,,,,,,"ACCOUNT,BOARD",,,,,,200,TRUE
+AT-40005,"Validate CardStatementDue , Validate number of levels and levelObject",,CardStatementDue,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-40006,"Validate CardStatementDue , Validate isSubscribed=false",,CardStatementDue,,,,,,,,account,FALSE,,,,200,TRUE
+AT-40007,"Validate CardStatementDue , Validate threshold Name,Value and Type",,CardStatementDue,,,,,,,,account,,,"DAYS_BEFORE,10,DAYS",,200,TRUE
+AT-40008,"Validate CardStatementDue , Validate insightKeys for statements info",,CardStatementDue,,,,"statements,statementDate,amountDue.amount,amountDue.currency,dueDate,minimumPayment.amount,minimumPayment.currency,billingPeriodStart,billingPeriodEnd,accountId",,,,,,,,,200,TRUE
+AT-40009,"Validate CardStatementDue , Validate insightKeys for accounts info",,CardStatementDue,,,,"accounts,id,accountType,accountNumber,accountName,providerName",,,,,,,,,200,TRUE
+AT-40010,"Validate CardStatementDue , Validate description",,CardStatementDue,,,,,,Notification triggered when a the due date for a card is equal to or less than 3 days from the card due date. The notification is triggered once per billing cycle.,,,,,,,200,TRUE
+AT-40011,"Validate CardStatementDue , Validate title",,CardStatementDue,,Card Bill Due Reminder,,,,,,,,,,,200,TRUE
+AT-40012,"Validate CardStatementDue , Validate ruleExpression",,CardStatementDue,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-40013,"Validate CardStatementDue , Validate total number of keys ",,CardStatementDue,,,,,14,,,,,,,,200,TRUE
+AT-50001,"Validate NetworthChange , Validate InsightName",,NetworthChange,NetworthChange,,,,,,,,,,,,200,TRUE
+AT-50002,"Validate NetworthChange , Validate Supporting container",,NetworthChange,,,"BANK,CARD,LOAN,INVESTMENT",,,,,,,,,,200,TRUE
+AT-50003,"Validate NetworthChange , Validate TriggerType",SCHEDULE,NetworthChange,,,,,,,,,,,,,200,TRUE
+AT-50004,"Validate NetworthChange , Validate applicableEntity",,NetworthChange,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-50005,"Validate NetworthChange , Validate number of levels and levelObject",,NetworthChange,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-50006,"Validate NetworthChange , Validate isSubscribed=false",,NetworthChange,,,,,,,,account,FALSE,,,,200,TRUE
+AT-50007,"Validate NetworthChange , Validate threshold Name,Value and Type",,NetworthChange,,,,,,,,account,,,"CHANGE,10,PERCENT",,200,TRUE
+AT-50008,"Validate NetworthChange , Validate insightKeys for networths info",,NetworthChange,,,,"networths,networth.amount,networth.currency,date,_change",,,,,,,,,200,TRUE
+AT-50009,"Validate NetworthChange , Validate insightKeys for historicalBalances info",,NetworthChange,,,,"historicalBalances,balance.amount,balance.currency,asOfDate,accountId,isAsset",,,,,,,,,200,TRUE
+AT-50010,"Validate NetworthChange , Validate description",,NetworthChange,,,,,,"Notification generated when a consumer's overall net worth value has increased by a system or consumer configured threshold.  The calculation can be run weekly, monthly, and quarterly.",,,,,,,200,TRUE
+AT-50011,"Validate NetworthChange , Validate title",,NetworthChange,,Networth Change,,,,,,,,,,,200,TRUE
+AT-50012,"Validate NetworthChange , Validate ruleExpression",,NetworthChange,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-50013,"Validate NetworthChange , Validate frequency=MONTHLY",,NetworthChange,,,,,,,,account,,MONTHLY,,,200,TRUE
+AT-50014,"Validate NetworthChange , Validate total number of keys ",,NetworthChange,,,,,9,,,,,,,,200,TRUE
+AT-60001,"Validate LiabilityChange , Validate InsightName",,LiabilityChange,LiabilityChange,,,,,,,,,,,,200,TRUE
+AT-60002,"Validate LiabilityChange , Validate Supporting container",,LiabilityChange,,,"BANK,CARD,LOAN,INVESTMENT",,,,,,,,,,200,TRUE
+AT-60003,"Validate LiabilityChange , Validate TriggerType",SCHEDULE,LiabilityChange,,,,,,,,,,,,,200,TRUE
+AT-60004,"Validate LiabilityChange , Validate applicableEntity",,LiabilityChange,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-60005,"Validate LiabilityChange , Validate number of levels and levelObject",,LiabilityChange,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-60006,"Validate LiabilityChange , Validate isSubscribed=false",,LiabilityChange,,,,,,,,account,FALSE,,,,200,TRUE
+AT-60007,"Validate LiabilityChange , Validate threshold Name,Value and Type",,LiabilityChange,,,,,,,,account,,,"CHANGE,10,PERCENT",,200,TRUE
+AT-60008,"Validate LiabilityChange , Validate insightKeys for networths info",,LiabilityChange,,,,"networths,liability.amount,liability.currency,date",,,,,,,,,200,TRUE
+AT-60009,"Validate LiabilityChange , Validate insightKeys for historicalBalances info",,LiabilityChange,,,,"historicalBalances,balance.amount,balance.currency,asOfDate,_change",,,,,,,,,200,TRUE
+AT-60010,"Validate LiabilityChange , Validate description",,LiabilityChange,,,,,,"Notification generated when a consumer's overall net worth value has increased by a system or consumer configured threshold.  The calculation can be run weekly, monthly, and quarterly.",,,,,,,200,TRUE
+AT-60011,"Validate LiabilityChange , Validate title",,LiabilityChange,,Liability Change,,,,,,,,,,,200,TRUE
+AT-60012,"Validate LiabilityChange , Validate ruleExpression",,LiabilityChange,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-60013,"Validate LiabilityChange , Validate frequency=MONTHLY",,LiabilityChange,,,,,,,,account,,DAILY,,,200,TRUE
+AT-60014,"Validate LiabilityChange , Validate total number of keys ",,LiabilityChange,,,,,7,,,,,,,,200,TRUE
+AT-70001,"Validate AssetChange , Validate InsightName",,AssetChange,AssetChange,,,,,,,,,,,,200,TRUE
+AT-70002,"Validate AssetChange , Validate Supporting container",,AssetChange,,,"BANK,CARD,LOAN,INVESTMENT",,,,,,,,,,200,TRUE
+AT-70003,"Validate AssetChange , Validate TriggerType",SCHEDULE,AssetChange,,,,,,,,,,,,,200,TRUE
+AT-70004,"Validate AssetChange , Validate applicableEntity",,AssetChange,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-70005,"Validate AssetChange , Validate number of levels and levelObject",,AssetChange,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-70006,"Validate AssetChange , Validate isSubscribed=false",,AssetChange,,,,,,,,account,FALSE,,,,200,TRUE
+AT-70007,"Validate AssetChange , Validate threshold Name,Value and Type",,AssetChange,,,,,,,,account,,,"CHANGE,10,PERCENT",,200,TRUE
+AT-70008,"Validate AssetChange , Validate insightKeys for networths info",,AssetChange,,,,"networths,asset.amount,asset.currency,date,_change",,,,,,,,,200,TRUE
+AT-70009,"Validate AssetChange , Validate insightKeys for historicalBalances info",,AssetChange,,,,"historicalBalances,balance.amount,balance.currency,asOfDate,accountId",,,,,,,,,200,TRUE
+AT-70010,"Validate AssetChange , Validate description",,AssetChange,,,,,,"Notification generated when a consumer's overall net worth value has increased by a system or consumer configured threshold.  The calculation can be run weekly, monthly, and quarterly.",,,,,,,200,TRUE
+AT-70011,"Validate AssetChange , Validate title",,AssetChange,,Asset Change,,,,,,,,,,,200,TRUE
+AT-70012,"Validate AssetChange , Validate ruleExpression",,AssetChange,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-70013,"Validate AssetChange , Validate frequency=MONTHLY",,AssetChange,,,,,,,,account,,MONTHLY,,,200,TRUE
+AT-70014,"Validate AssetChange , Validate total number of keys ",,AssetChange,,,,,8,,,,,,,,200,TRUE
+AT-80001,"Validate CardStatementAvailable , Validate InsightName",,CardStatementAvailable,CardStatementAvailable,,,,,,,,,,,,200,TRUE
+AT-80002,"Validate CardStatementAvailable , Validate Supporting container",,CardStatementAvailable,,,CARD,,,,,,,,,,200,TRUE
+AT-80003,"Validate CardStatementAvailable , Validate TriggerType",REFRESH,CardStatementAvailable,,,,,,,,,,,,,200,TRUE
+AT-80004,"Validate CardStatementAvailable , Validate applicableEntity",,CardStatementAvailable,,,,,,,"ACCOUNT,BOARD",,,,,,200,TRUE
+AT-80005,"Validate CardStatementAvailable , Validate number of levels and levelObject",,CardStatementAvailable,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-80006,"Validate CardStatementAvailable , Validate isSubscribed=false",,CardStatementAvailable,,,,,,,,account,FALSE,,,,200,TRUE
+AT-80007,"Validate CardStatementAvailable , Validate threshold Name,Value and Type",,CardStatementAvailable,,,,,,,,account,,,"DAYS_BEFORE,88,DAYS",,200,TRUE
+AT-80008,"Validate CardStatementAvailable , Validate insightKeys for statements info",,CardStatementAvailable,,,,"statements,statementDate,amountDue.amount,amountDue.currency,dueDate,minimumPayment.amount,minimumPayment.currency,billingPeriodStart,billingPeriodEnd,accountId,id",,,,,,,,,200,TRUE
+AT-80009,"Validate CardStatementAvailable , Validate insightKeys for accounts info",,CardStatementAvailable,,,,"accounts,id,accountType,accountNumber,accountName,providerName,totalCreditLine.amount,totalCreditLine.currency,runningBalance.amount,runningBalance.currency",,,,,,,,,200,TRUE
+AT-80010,"Validate CardStatementAvailable , Validate description",,CardStatementAvailable,,,,,,This notification informs the user when a new credit card statement is generated for the user for a particular CC account.,,,,,,,200,TRUE
+AT-80011,"Validate CardStatementAvailable , Validate title",,CardStatementAvailable,,Card Statement Available Reminder,,,,,,,,,,,200,TRUE
+AT-80012,"Validate CardStatementAvailable , Validate ruleExpression",,CardStatementAvailable,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-80013,"Validate CardStatementAvailable , Validate total number of keys ",,CardStatementAvailable,,,,,19,,,,,,,,200,TRUE
+AT-90001,"Validate CreditUtilization , Validate InsightName",,CreditUtilization,CreditUtilization,,,,,,,,,,,,200,TRUE
+AT-90002,"Validate CreditUtilization , Validate Supporting container",,CreditUtilization,,,CARD,,,,,,,,,,200,TRUE
+AT-90003,"Validate CreditUtilization , Validate TriggerType",REFRESH,CreditUtilization,,,,,,,,,,,,,200,TRUE
+AT-90004,"Validate CreditUtilization , Validate applicableEntity",,CreditUtilization,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-90005,"Validate CreditUtilization , Validate number of levels and levelObject",,CreditUtilization,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-90006,"Validate CreditUtilization , Validate isSubscribed=false",,CreditUtilization,,,,,,,,account,FALSE,,,,200,TRUE
+AT-90007,"Validate CreditUtilization , Validate threshold Name,Value and Type",,CreditUtilization,,,,,,,,account,,,"LIMIT,88,PERCENT",,200,TRUE
+AT-90008,"Validate CreditUtilization , Validate insightKeys for accounts info",,CreditUtilization,,,,"accounts,id,providerName,accountType,accountNumber,accountName,balance.amount,balance.currency,totalCreditLine.amount,totalCreditLine.currency,_totalRunningBalance.amount,_totalCreditLine.amount,_CreditUtilizationPercent",,,,,,,,,200,TRUE
+AT-90009,"Validate CreditUtilization , Validate description",,CreditUtilization,,,,,,Notification generated for credit utilization.,,,,,,,200,TRUE
+AT-90010,"Validate CreditUtilization , Validate title",,CreditUtilization,,Credit Utilization Notification,,,,,,,,,,,200,TRUE
+AT-90011,"Validate CreditUtilization , Validate ruleExpression",,CreditUtilization,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-90012,"Validate CreditUtilization , Validate total number of keys ",,CreditUtilization,,,,,12,,,,,,,,200,TRUE
+AT-91001,"Validate LoanMaturityNotice , Validate InsightName",,LoanMaturityNotice,LoanMaturityNotice,,,,,,,,,,,,200,TRUE
+AT-91002,"Validate LoanMaturityNotice , Validate Supporting container",,LoanMaturityNotice,,,LOAN,,,,,,,,,,200,TRUE
+AT-91003,"Validate LoanMaturityNotice , Validate TriggerType",SCHEDULE,LoanMaturityNotice,,,,,,,,,,,,,200,TRUE
+AT-91004,"Validate LoanMaturityNotice , Validate applicableEntity",,LoanMaturityNotice,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-91005,"Validate LoanMaturityNotice , Validate number of levels and levelObject",,LoanMaturityNotice,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-91006,"Validate LoanMaturityNotice , Validate isSubscribed=false",,LoanMaturityNotice,,,,,,,,account,FALSE,,,,200,TRUE
+AT-91007,"Validate LoanMaturityNotice , Validate threshold Name,Value and Type",,LoanMaturityNotice,,,,,,,,account,,,"DAYS_BEFORE,88,DAYS",,200,TRUE
+AT-91008,"Validate LoanMaturityNotice , Validate insightKeys for accounts info",,LoanMaturityNotice,,,,"accounts,id,providerName,accountType,accountNumber,accountName,maturityDate",,,,,,,,,200,TRUE
+AT-91009,"Validate LoanMaturityNotice , Validate description",,LoanMaturityNotice,,,,,,This insight is generated when a loan is N days away from maturity.,,,,,,,200,TRUE
+AT-91010,"Validate LoanMaturityNotice , Validate title",,LoanMaturityNotice,,Loan Maturity Notice,,,,,,,,,,,200,TRUE
+AT-91011,"Validate LoanMaturityNotice , Validate ruleExpression",,LoanMaturityNotice,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-91012,"Validate LoanMaturityNotice , Validate total number of keys ",,LoanMaturityNotice,,,,,5,,,,,,,,200,TRUE
+AT-92001,"Validate InvestmentMaturityNotice , Validate InsightName",,InvestmentMaturityNotice,InvestmentMaturityNotice,,,,,,,,,,,,200,TRUE
+AT-92002,"Validate InvestmentMaturityNotice , Validate Supporting container",,InvestmentMaturityNotice,,,INVESTMENT,,,,,,,,,,200,TRUE
+AT-92003,"Validate InvestmentMaturityNotice , Validate TriggerType",SCHEDULE,InvestmentMaturityNotice,,,,,,,,,,,,,200,TRUE
+AT-92004,"Validate InvestmentMaturityNotice , Validate applicableEntity",,InvestmentMaturityNotice,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-92005,"Validate InvestmentMaturityNotice , Validate number of levels and levelObject",,InvestmentMaturityNotice,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-92006,"Validate InvestmentMaturityNotice , Validate isSubscribed=false",,InvestmentMaturityNotice,,,,,,,,account,FALSE,,,,200,TRUE
+AT-92007,"Validate InvestmentMaturityNotice , Validate threshold Name,Value and Type",,InvestmentMaturityNotice,,,,,,,,account,,,"DAYS_BEFORE,88,DAYS",,200,TRUE
+AT-92008,"Validate InvestmentMaturityNotice , Validate insightKeys for accounts info",,InvestmentMaturityNotice,,,,"accounts,id,providerName,accountType,accountNumber,accountName",,,,,,,,,200,TRUE
+AT-92009,"Validate InvestmentMaturityNotice , Validate insightKeys for holdings info",,InvestmentMaturityNotice,,,,"holdings,id,holdingType,couponRate,description,symbol,value.amount,value.currency,maturityDate,accountId",,,,,,,,,200,TRUE
+AT-92010,"Validate InvestmentMaturityNotice , Validate description",,InvestmentMaturityNotice,,,,,,This insight is generated when a investment is N days away from maturity.,,,,,,,200,TRUE
+AT-92011,"Validate InvestmentMaturityNotice , Validate title",,InvestmentMaturityNotice,,Investment Maturity Notice,,,,,,,,,,,200,TRUE
+AT-92012,"Validate InvestmentMaturityNotice , Validate ruleExpression",,InvestmentMaturityNotice,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-92013,"Validate InvestmentMaturityNotice , Validate total number of keys ",,InvestmentMaturityNotice,,,,,14,,,,,,,,200,TRUE
+AT-93001,"Validate LargePurchase , Validate InsightName",,LargePurchase,LargePurchase,,,,,,,,,,,,200,TRUE
+AT-93002,"Validate LargePurchase , Validate Supporting container",,LargePurchase,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-93003,"Validate LargePurchase , Validate TriggerType",SCHEDULE,LargePurchase,,,,,,,,,,,,,200,TRUE
+AT-93004,"Validate LargePurchase , Validate applicableEntity",,LargePurchase,,,,,,,ACCOUNT,,,,,,200,TRUE
+AT-93005,"Validate LargePurchase , Validate number of levels and levelObject",,LargePurchase,,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-93006,"Validate LargePurchase , Validate isSubscribed=false",,LargePurchase,,,,,,,,account,FALSE,,,,200,TRUE
+AT-93007,"Validate LargePurchase , Validate threshold Name,Value and Type",,LargePurchase,,,,,,,,account,,,"MINIMUM,88,AMOUNT",,200,TRUE
+AT-93008,"Validate LargePurchase , Validate insightKeys for transactions  info",,LargePurchase,,,,"transactions,id,description.original,description.consumer,description.simple,amount.amount,amount.currency,categoryId,category,merchant.name,accountId",,,,,,,,,200,TRUE
+AT-93009,"Validate LargePurchase , Validate insightKeys for accounts  info",,LargePurchase,,,,"accounts,id,providerName,accountType,accountNumber,accountName,availableBalance.amount,availableBalance.currency",,,,,,,,,200,TRUE
+AT-93010,"Validate LargePurchase , Validate description",,LargePurchase,,,,,,Notification generated when a transaction for given user has amount greater than configured threshold value.,,,,,,,200,TRUE
+AT-93011,"Validate LargePurchase , Validate title",,LargePurchase,,Large Purchase,,,,,,,,,,,200,TRUE
+AT-93012,"Validate LargePurchase , Validate ruleExpression",,LargePurchase,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-93013,"Validate LargePurchase , Validate total number of keys ",,LargePurchase,,,,,17,,,,,,,,200,TRUE

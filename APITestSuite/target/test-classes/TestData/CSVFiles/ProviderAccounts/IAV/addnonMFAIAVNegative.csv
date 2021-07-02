@@ -1,0 +1,10 @@
+testCaseId,testCaseName,providerId,loginFormType,dagUserName,dagPassword,includeDataSet,isincludeDataSet,status,addAccountResFile,filePath,enabled
+AT-65809,adding IAV account with different holder name,16441,loginform,iavms11.site16441.1,site16441.1,ACCT_PROFILE.HOLDER_NAME1,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65810,adding IAV account with different RTN number,16441,loginform,iavms11.site16441.1,site16441.2,ACCT_PROFILE.BANK_TRANSFER_CODE123,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65811,adding IAV account with invalid full account number,16441,loginform,iavms11.site16441.1,site16441.1,ACCT_PROFILE.FULL_ACCT_NUMBER22,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65812,adding IAV account with invalid full account number,16441,loginform,iavms11.site16441.1,site16441.1,null,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65813,adding IAV account with different holder name,16441,fieldarray,iavms11.site16441.1,site16441.1,ACCT_PROFILE.HOLDER_NAME1,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65814,adding IAV account with different RTN number,16441,fieldarray,iavms11.site16441.1,site16441.2,ACCT_PROFILE.BANK_TRANSFER_CODE123,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65815,adding IAV account with invalid full account number,16441,fieldarray,iavms11.site16441.1,site16441.1,ACCT_PROFILE.FULL_ACCT_NUMBER22,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65816,adding IAV account with invalid full account number,16441,fieldarray,iavms11.site16441.1,site16441.1,null,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE
+AT-65817,adding IAV container,8995,loginform,container66.bank2,bank2,ACCT_PROFILE.BANK_TRANSFER_CODE123,TRUE,400,iavinvalidholdername.json,../src/test/resources/TestData/ProviderAccount/IAV/,TRUE

@@ -1,0 +1,2 @@
+testCase,httpStatusCode,resFile,resFilePath,Enabled
+GetRecurringEvents-Deleted id,200,Empty.json,../src/test/resources/TestData/GetRecurringEvents/,TRUE

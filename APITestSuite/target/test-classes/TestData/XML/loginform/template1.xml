@@ -1,0 +1,27 @@
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+			<add-provider-accounts order="1">
+				<dataList>
+					<dataset>
+						<name>BASIC_AGG_DATA</name>
+						<attributeList>
+							<attribute>
+								<name>ACCOUNT_DETAILS</name>
+								<container>investment</container>
+							</attribute>
+							<attribute>
+								<name>TRANSACTIONS</name>
+								<container>investment</container>
+							</attribute>
+							<attribute>
+								<name>HOLDINGS</name>
+								<container>investment</container>
+							</attribute>
+						</attributeList>
+					</dataset>
+				</dataList>
+			</add-provider-accounts>
+		</add-provider-accounts-multiple>
+	</request>
+</entity>

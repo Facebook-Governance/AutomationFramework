@@ -1,0 +1,106 @@
+{
+  "account": [
+    {
+      "fullAccountNumber": "56789123453",
+      "CONTAINER": "reward",
+      "isManual": false,
+      "isAsset": true,
+      "lastUpdated": "${json-unit.ignore}",
+      "primaryRewardUnit": "points",
+      "id": "${json-unit.ignore}",
+      "userClassification": "PERSONAL",
+      "accountNumber": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "dataset": [
+        {
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "updateEligibility": "${json-unit.ignore}",
+          "name": "ACCT_PROFILE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}"
+        },
+        {
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "updateEligibility": "${json-unit.ignore}",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "OCBC Bank",
+      "accountStatus": "ACTIVE",
+      "accountType": "REWARD_POINTS",
+      "providerId": "16609",
+      "createdDate": "${json-unit.ignore}",
+      "providerAccountId": "${json-unit.ignore}"
+    },
+    {
+      "fullAccountNumber": "56789123452",
+      "CONTAINER": "reward",
+      "isManual": false,
+      "isAsset": true,
+      "lastUpdated": "${json-unit.ignore}",
+      "primaryRewardUnit": "points",
+      "id": "${json-unit.ignore}",
+      "userClassification": "PERSONAL",
+      "accountNumber": "${json-unit.ignore}",
+      "aggregationSource": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "updateEligibility": "${json-unit.ignore}",
+          "name": "ACCT_PROFILE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}"
+        },
+        {
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "updateEligibility": "${json-unit.ignore}",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "OCBC Bank",
+      "accountStatus": "ACTIVE",
+      "accountType": "REWARD_POINTS",
+      "providerId": "16609",
+      "createdDate": "${json-unit.ignore}",
+      "providerAccountId": "${json-unit.ignore}"
+    },
+    {
+      "fullAccountNumber": "56789123451",
+      "CONTAINER": "reward",
+      "isManual": false,
+      "isAsset": true,
+      "lastUpdated": "${json-unit.ignore}",
+      "primaryRewardUnit": "points",
+      "id": "${json-unit.ignore}",
+      "userClassification": "PERSONAL",
+      "accountNumber": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "dataset": [
+        {
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "updateEligibility": "${json-unit.ignore}",
+          "name": "ACCT_PROFILE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}"
+        },
+        {
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "updateEligibility": "${json-unit.ignore}",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "OCBC Bank",
+      "accountStatus": "ACTIVE",
+      "accountType": "REWARD_POINTS",
+      "providerId": "16609",
+      "createdDate": "${json-unit.ignore}",
+      "providerAccountId": "${json-unit.ignore}"
+    }
+  ]
+}

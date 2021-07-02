@@ -1,0 +1,204 @@
+{
+  "account": [
+    {
+      "CONTAINER": "investment",
+      "providerAccountId": "${json-unit.ignore}",
+      "accountName": "DAG INVESTMENT",
+      "accountStatus": "ACTIVE",
+      "accountNumber": "xxxx5555",
+      "isAsset": true,
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 79629,
+        "currency": "USD"
+      },
+      "holder": [
+        {
+          "address": [
+            {
+              "address1": "Address1",
+              "address2": "Address2",
+              "address3": "Address3",
+              "city": "City1",
+              "state": "state1",
+              "zip": "Zip1",
+              "type": "HOME"
+            }
+          ],
+          "name": {
+            "middle": "MiddleName1",
+            "fullName": "FullName1",
+            "first": "FirstName1",
+            "last": "LastName1"
+          },
+          "phoneNumber": [
+            {
+              "type": "HOME",
+              "value": "HomePhone1"
+            },
+            {
+              "type": "WORK",
+              "value": "WorkPhone1"
+            },
+            {
+              "type": "LANDLINE",
+              "value": "Phone"
+            },
+            {
+              "type": "MOBILE",
+              "value": "MobilePhone1"
+            }
+          ],
+          "email": [
+            {
+              "type": "PRIMARY",
+              "value": "PrimaryEmail1"
+            },
+            {
+              "type": "SECONDARY",
+              "value": "SecondaryEmail1"
+            },
+            {
+              "type": "PERSONAL",
+              "value": "PersonalEmail1"
+            },
+            {
+              "type": "WORK",
+              "value": "workEmail1"
+            },
+            {
+              "type": "OTHERS",
+              "value": "OthersEmail1"
+            },
+            {
+              "type": "OTHERS",
+              "value": "testemail1@yodlee.com"
+            }
+          ],
+          "gender": "Male",
+          "company": "Dummy Company1",
+          "dateOfBirth": "1989-10-17",
+          "ownership": "JOINT_OWNER"
+        }
+      ],
+      "profile": {
+        "address": [
+          {
+            "address1": "Address1",
+            "address2": "Address2",
+            "address3": "Address3",
+            "city": "City1",
+            "state": "state1",
+            "zip": "Zip1",
+            "type": "HOME"
+          }
+        ],
+        "phoneNumber": [
+          {
+            "type": "HOME",
+            "value": "HomePhone1"
+          },
+          {
+            "type": "WORK",
+            "value": "WorkPhone1"
+          },
+          {
+            "type": "LANDLINE",
+            "value": "Phone1"
+          },
+          {
+            "type": "MOBILE",
+            "value": "MobilePhone1"
+          }
+        ],
+        "email": [
+          {
+            "type": "PRIMARY",
+            "value": "PrimaryEmail1"
+          },
+          {
+            "type": "SECONDARY",
+            "value": "SecondaryEmail1"
+          },
+          {
+            "type": "PERSONAL",
+            "value": "PersonalEmail1"
+          },
+          {
+            "type": "WORK",
+            "value": "workEmail1"
+          },
+          {
+            "type": "OTHERS",
+            "value": "OthersEmail1"
+          },
+          {
+            "type": "OTHERS",
+            "value": "AccountEmail1"
+          }
+        ],
+        "company": "AccountCompany1"
+      },
+      "id": "${json-unit.ignore}",
+      "lastUpdated": "${json-unit.ignore}",
+      "includeInNetWorth": true,
+      "providerId": "16441",
+      "providerName": "Dag Site",
+      "isManual": false,
+      "accountType": "OTHER",
+      "availableLoan": {
+        "amount": 55000,
+        "currency": "USD"
+      },
+      "401kLoan": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "cash": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "classification": "PERSONAL",
+      "marginBalance": {
+        "amount": 2369,
+        "currency": "USD"
+      },
+      "moneyMarketBalance": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "totalUnvestedBalance": {
+        "amount": 23242,
+        "currency": "USD"
+      },
+      "totalVestedBalance": {
+        "amount": 2432,
+        "currency": "USD"
+      },
+      "shortBalance": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "displayedName": "DAG",
+      "createdDate": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "name": "ACCT_PROFILE",
+          "additionalStatus": "DATA_NOT_AVAILABLE",
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "nextUpdateScheduled": "${json-unit.ignore}"
+        },
+        {
+          "name": "BASIC_AGG_DATA",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "lastUpdateAttempt": "${json-unit.ignore}",
+          "nextUpdateScheduled": "${json-unit.ignore}"
+        }
+      ]
+    }
+  ]
+}

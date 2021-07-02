@@ -1,0 +1,26 @@
+testCaseId,Testcase,InsightNameKey,testNegativeScenarios,insightnameEdit,insightTitle,container,cobrandId,keys,ruleExpression,description,applicableEntity,entityParametersCount,configMetaEdit,entityParameterName,totalThresholds,id,frequency,issubscribed,duration,insightType,thresholdNameValueType,status,enabled
+AT-138596,PATCH COBRAND SUBSCRIPTION - subscribe to UpcomingBills isSubscribed=true,UpcomingBills,,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,DAYS",204,TRUE
+AT-138597,PATCH COBRAND SUBSCRIPTION - update insightName to same name,UpcomingBills,negTestScenario1,UpcomingBills,,,,,,,,,,,,,,,,,,500,TRUE
+AT-138598,PATCH COBRAND SUBSCRIPTION -  update insightName to different name,UpcomingBills,negTestScenario2,UpcomingBillsEdit,,,,,,,,,,,,,,,,,,400,TRUE
+AT-138599,PATCH COBRAND SUBSCRIPTION - update insightTitle chars between 3 and 100 ,UpcomingBills,,,changeTitle,,,,,,,,,,,,,,,,,204,TRUE
+AT-138600,PATCH COBRAND SUBSCRIPTION -  update insightTitle chars are only 3,UpcomingBills,,,Low,,,,,,,,,,,,,,,,,204,TRUE
+AT-138601,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are only 100,UpcomingBills,,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234,,,,,,,,,,,,,,,,,204,TRUE
+AT-138602,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are less than 3,UpcomingBills,negTestScenario3,,hi,,,,,,,,,,,,,,,,,400,TRUE
+AT-138603,PATCH COBRAND SUBSCRIPTION -  update insightTitle chars are greater 100,UpcomingBills,negTestScenario4,,insighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlenameinsighttitlename1234greaterthan100,,,,,,,,,,,,,,,,,400,TRUE
+AT-138604,PATCH COBRAND SUBSCRIPTION - update insightTitle chars are special characters,UpcomingBills,,,()&*#),,,,,,,,,,,,,,,,,204,TRUE
+AT-138605,PATCH COBRAND SUBSCRIPTION -  update container,UpcomingBills,negTestScenario6,,,INVESTMENT,,,,,,,,,,,,,,,,400,TRUE
+AT-138606,PATCH COBRAND SUBSCRIPTION -  update keys,UpcomingBills,negTestScenario7,,,,,keys,,,,,,,,,,,,,,400,TRUE
+AT-138607,PATCH COBRAND SUBSCRIPTION -  update description,UpcomingBills,negTestScenario8,,,,,,,changeDescription,,,,,,,,,,,,400,TRUE
+AT-138608,PATCH COBRAND SUBSCRIPTION -  update applicableEntity,UpcomingBills,negTestScenario9,,,,,,,,CARD,,,,,,,,,,,400,TRUE
+AT-138609,PATCH COBRAND SUBSCRIPTION -  update entityParameter,UpcomingBills,,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,DAYS",204,TRUE
+AT-138610,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->frequency,UpcomingBills,negTestScenario22,,,,,,,,,1,,account,1,,M,TRUE,,,"FUTURE,7,DAYS",400,TRUE
+AT-138611,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->isSubscribed=false,UpcomingBills,,,,,,,,,,1,,account,1,,,TRUE,,,,204,TRUE
+AT-138612,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->duration,UpcomingBills,negTestScenario11,,,,,,,,,1,,account,1,,,TRUE,LASW_MONHT,,"FUTURE,7,DAYS",400,TRUE
+AT-138613,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->insightType,UpcomingBills,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,OTHER,"FUTURE,7,DAYS",400,TRUE
+AT-138614,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->insightType - Invalid Name,UpcomingBills,negTestScenario24,,,,,,,,,1,,account,1,,,TRUE,,INVALID,"FUTURE,7,DAYS",400,TRUE
+AT-138615,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->threshold[0]->name,UpcomingBills,negTestScenario27,,,,,,,,,1,,account,1,,,TRUE,,,"LIMIT,1000,AMOUNT",400,TRUE
+AT-138616,PATCH COBRAND SUBSCRIPTION - update entityParameter->account[0]->threshold[0]->value,UpcomingBills,negTestScenario42,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,3333,DAYS",400,TRUE
+AT-138617,PATCH COBRAND SUBSCRIPTION -  update entityParameter->account[0]->threshold[0]->type,UpcomingBills,negTestScenario28,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,PERCENT",400,TRUE
+AT-138618,PATCH COBRAND SUBSCRIPTION -  update entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,UpcomingBills,negTestScenario28,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,PERCENT",400,TRUE
+AT-138619,PATCH COBRAND SUBSCRIPTION -  update same info 2 times entityParameter ->account[0]->isSubscribed=true and edit entityParameter ->account[0]->threshold[0]->value,UpcomingBills,negTestScenario30,,,,,,,,,1,,account,1,,,TRUE,,,"FUTURE,7,AMOUNT",400,TRUE
+AT-147607,PATCH COBRAND SUBSCRIPTION - update insightTitle to Upcoming Bills,UpcomingBills,,,Upcoming Bills,,,,,,,,,,,,,,,,,204,TRUE

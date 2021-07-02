@@ -1,0 +1,40 @@
+{
+	"account": [
+		{
+			"includeInNetWorth": true,
+			"holderProfile": [
+				{
+					"name": {
+						"displayed": "DAG"
+					}
+				}
+			],
+			"accountName": "rollover",
+			"isManual": false,
+			"accountType": "ROLLOVER_IRA",
+			"accountNumber": "989898139",
+			"refreshinfo": {
+				"statusMessage": "OK",
+				"statusCode": 0
+			},
+			"shortBalance": {
+				"amount": 15000,
+				"currency": "USD"
+			},
+			"accountStatus": "INACTIVE",
+			"isAsset": true,
+			"balance": {
+				"amount": 123456,
+				"currency": "USD"
+			},
+			"aggregationSource": "USER",
+			"providerId": "16441",
+			"CONTAINER": "investment",
+			"providerName": "Dag Site",
+			"marginBalance": {
+				"amount": 2369,
+				"currency": "USD"
+			}
+		}
+	]
+}

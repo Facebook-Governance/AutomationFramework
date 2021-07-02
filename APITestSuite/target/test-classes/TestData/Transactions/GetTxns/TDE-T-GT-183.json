@@ -1,0 +1,5000 @@
+{
+  "transaction": [
+    {
+      "date": "2017-05-14",
+      "amount": {
+        "amount": 11,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "yoshinoyDummy_acc_holder_XXXXXXXX chulDummy_acc_holder_XXXXXXXX vistDummy_acc_holder_XXXXXXXX",
+        "simple": "yoshinoyDummy_acc_holder_XX chulDummy_acc_holder_XX vistDummy_acc_holder_XX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-14",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-14",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "city nDummy_acc_holder_XXils"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-14",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-14",
+      "amount": {
+        "amount": 3,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "bsw 5",
+        "simple": "bsw 5"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-14",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-14",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "wm supercenter #5023",
+        "simple": "Walmart"
+      },
+      "merchant": {
+        "name": "Walmart",
+        "id": "43217",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-14",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-14",
+      "amount": {
+        "amount": 41,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pro mec opticDummy_acc_holder_XXXXXXXXl",
+        "simple": "pro mec opticDummy_acc_holder_XXl"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-14",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-14",
+      "amount": {
+        "amount": 11,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "yoshinoyDummy_acc_holder_XXXXXXXX chulDummy_acc_holder_XXXXXXXX vistDummy_acc_holder_XXXXXXXX",
+        "simple": "yoshinoyDummy_acc_holder_XX chulDummy_acc_holder_XX vistDummy_acc_holder_XX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-14",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-14",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "city nDummy_acc_holder_XXils"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-14",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-14",
+      "amount": {
+        "amount": 3,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "bsw 5",
+        "simple": "bsw 5"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-14",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-14",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "wm supercenter #5023",
+        "simple": "Walmart"
+      },
+      "merchant": {
+        "name": "Walmart",
+        "id": "43217",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-14",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-14",
+      "amount": {
+        "amount": 41,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pro mec opticDummy_acc_holder_XXXXXXXXl",
+        "simple": "pro mec opticDummy_acc_holder_XXl"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-14",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-12",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-12",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-12",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-12",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-11",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "royDummy_acc_holder_XXXXXXXXl mDummy_acc_holder_XXXXXXXXndDummy_acc_holder_XXXXXXXXrin",
+        "simple": "royDummy_acc_holder_XXl mDummy_acc_holder_XXndDummy_acc_holder_XXrin"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-11",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-11",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "royDummy_acc_holder_XXXXXXXXl mDummy_acc_holder_XXXXXXXXndDummy_acc_holder_XXXXXXXXrin",
+        "simple": "royDummy_acc_holder_XXl mDummy_acc_holder_XXndDummy_acc_holder_XXrin"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-11",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-10",
+      "amount": {
+        "amount": 12,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5023",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #5023"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-10",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-10",
+      "amount": {
+        "amount": 12,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5023",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #5023"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-10",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-07",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *kevinstewDummy_acc_holder_XXXXXXXXr",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *kevinstewDummy_acc_holder_XXr"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-07",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-07",
+      "amount": {
+        "amount": 35,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *sidroth",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *sidroth"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-07",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-07",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *kevinstewDummy_acc_holder_XXXXXXXXr",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *kevinstewDummy_acc_holder_XXr"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-07",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-07",
+      "amount": {
+        "amount": 35,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *sidroth",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *sidroth"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-07",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-04",
+      "amount": {
+        "amount": 11,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "99 cents only stores llc",
+        "simple": "99 Cents Only Stores"
+      },
+      "merchant": {
+        "name": "99 Cents Only Stores",
+        "id": "196",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-04",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-04",
+      "amount": {
+        "amount": 11,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "99 cents only stores llc",
+        "simple": "99 Cents Only Stores"
+      },
+      "merchant": {
+        "name": "99 Cents Only Stores",
+        "id": "196",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-04",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-03",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kp rxXXXXX",
+        "simple": "kp rXX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-03",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-03",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kp rxXXXXX",
+        "simple": "kp rXX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-03",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-01",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-01",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-01",
+      "amount": {
+        "amount": 8,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "northgDummy_acc_holder_XXXXXXXXte ##027",
+        "simple": "northgDummy_acc_holder_XXte ##027"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-01",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-01",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-01",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-05-01",
+      "amount": {
+        "amount": 8,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "northgDummy_acc_holder_XXXXXXXXte ##027",
+        "simple": "northgDummy_acc_holder_XXte ##027"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-05-01",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-30",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "rDummy_acc_holder_XXXXXXXXlphs #0051",
+        "simple": "rDummy_acc_holder_XXlphs #0051"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-30",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-30",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "rDummy_acc_holder_XXXXXXXXlphs #0051",
+        "simple": "rDummy_acc_holder_XXlphs #0051"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-30",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-28",
+      "amount": {
+        "amount": 22,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *nissimbDummy_acc_holder_XXXXXXXXile",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *nissimbDummy_acc_holder_XXile"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-28",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-28",
+      "amount": {
+        "amount": 22,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *nissimbDummy_acc_holder_XXXXXXXXile",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *nissimbDummy_acc_holder_XXile"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-28",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-27",
+      "amount": {
+        "amount": 23,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *untoldtrend",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *untoldtrend"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-27",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-27",
+      "amount": {
+        "amount": 11,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco whse #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-27",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-27",
+      "amount": {
+        "amount": 23,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *untoldtrend",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *untoldtrend"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-27",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-27",
+      "amount": {
+        "amount": 11,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco whse #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-27",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-26",
+      "amount": {
+        "amount": 647,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "trDummy_acc_holder_XXXXXXXXvel reservDummy_acc_holder_XXXXXXXXtions",
+        "simple": "trDummy_acc_holder_XXvel reservDummy_acc_holder_XXtions"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-26",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-26",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "sq *the spDummy_acc_holder_XXXXXXXXre room",
+        "simple": "sq *the spDummy_acc_holder_XXre room"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-26",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-26",
+      "amount": {
+        "amount": 647,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "trDummy_acc_holder_XXXXXXXXvel reservDummy_acc_holder_XXXXXXXXtions",
+        "simple": "trDummy_acc_holder_XXvel reservDummy_acc_holder_XXtions"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-26",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-26",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "sq *the spDummy_acc_holder_XXXXXXXXre room",
+        "simple": "sq *the spDummy_acc_holder_XXre room"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-26",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-24",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "99-cents-only #0101",
+        "simple": "99 Cents Only Stores"
+      },
+      "merchant": {
+        "name": "99 Cents Only Stores",
+        "id": "196",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-24",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-24",
+      "amount": {
+        "amount": 8,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "sq *the spDummy_acc_holder_XXXXXXXXre room",
+        "simple": "sq *the spDummy_acc_holder_XXre room"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-24",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-24",
+      "amount": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "sq *the spDummy_acc_holder_XXXXXXXXre room",
+        "simple": "sq *the spDummy_acc_holder_XXre room"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-24",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-24",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "99-cents-only #0101",
+        "simple": "99 Cents Only Stores"
+      },
+      "merchant": {
+        "name": "99 Cents Only Stores",
+        "id": "196",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-24",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-24",
+      "amount": {
+        "amount": 8,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "sq *the spDummy_acc_holder_XXXXXXXXre room",
+        "simple": "sq *the spDummy_acc_holder_XXre room"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-24",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-24",
+      "amount": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "sq *the spDummy_acc_holder_XXXXXXXXre room",
+        "simple": "sq *the spDummy_acc_holder_XXre room"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-24",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-23",
+      "amount": {
+        "amount": 79,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "wm supercenter #5023",
+        "simple": "Walmart"
+      },
+      "merchant": {
+        "name": "Walmart",
+        "id": "43217",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-23",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-23",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "city nDummy_acc_holder_XXils"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-23",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-23",
+      "amount": {
+        "amount": 515,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "united XXXXXXXXXXXXX",
+        "simple": "united XX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-23",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-23",
+      "amount": {
+        "amount": 515,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "united XXXXXXXXXXXXX",
+        "simple": "united XX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-23",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-23",
+      "amount": {
+        "amount": 79,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "wm supercenter #5023",
+        "simple": "Walmart"
+      },
+      "merchant": {
+        "name": "Walmart",
+        "id": "43217",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-23",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-23",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "city nDummy_acc_holder_XXils"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-23",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-23",
+      "amount": {
+        "amount": 515,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "united XXXXXXXXXXXXX",
+        "simple": "united XX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-23",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-23",
+      "amount": {
+        "amount": 515,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "united XXXXXXXXXXXXX",
+        "simple": "united XX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-23",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-18",
+      "amount": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "99 cents only stores #412",
+        "simple": "99 Cents Only Stores"
+      },
+      "merchant": {
+        "name": "99 Cents Only Stores",
+        "id": "196",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-18",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-18",
+      "amount": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "99 cents only stores #412",
+        "simple": "99 Cents Only Stores"
+      },
+      "merchant": {
+        "name": "99 Cents Only Stores",
+        "id": "196",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-18",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-16",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "cDummy_acc_holder_XXXXXXXXrninDummy_acc_holder_XXXXXXXXl supermDummy_acc_holder_XXXXXXXXrke",
+        "simple": "cDummy_acc_holder_XXrninDummy_acc_holder_XXl supermDummy_acc_holder_XXrke"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-16",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-16",
+      "amount": {
+        "amount": 17,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #2998",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #2998"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-16",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-16",
+      "amount": {
+        "amount": 4,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco whse #0478",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-16",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-16",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "cDummy_acc_holder_XXXXXXXXrninDummy_acc_holder_XXXXXXXXl supermDummy_acc_holder_XXXXXXXXrke",
+        "simple": "cDummy_acc_holder_XXrninDummy_acc_holder_XXl supermDummy_acc_holder_XXrke"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-16",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-16",
+      "amount": {
+        "amount": 17,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #2998",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #2998"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-16",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-16",
+      "amount": {
+        "amount": 4,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco whse #0478",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-16",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-14",
+      "amount": {
+        "amount": 36,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-14",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-14",
+      "amount": {
+        "amount": 36,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-14",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-13",
+      "amount": {
+        "amount": 68,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "neimDummy_acc_holder_XXXXXXXXn mDummy_acc_holder_XXXXXXXXrcus #16",
+        "simple": "neimDummy_acc_holder_XXn mDummy_acc_holder_XXrcus #16"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-13",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-13",
+      "amount": {
+        "amount": 68,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "neimDummy_acc_holder_XXXXXXXXn mDummy_acc_holder_XXXXXXXXrcus #16",
+        "simple": "neimDummy_acc_holder_XXn mDummy_acc_holder_XXrcus #16"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-13",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-12",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kp rxXXXXX",
+        "simple": "kp rXX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-12",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-12",
+      "amount": {
+        "amount": 26,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "usDummy_acc_holder_XXXXXXXX cleDummy_acc_holder_XXXXXXXXners",
+        "simple": "usDummy_acc_holder_XX cleDummy_acc_holder_XXners"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-12",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-12",
+      "amount": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #5305"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-12",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-12",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kp rxXXXXX",
+        "simple": "kp rXX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-12",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-12",
+      "amount": {
+        "amount": 26,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "usDummy_acc_holder_XXXXXXXX cleDummy_acc_holder_XXXXXXXXners",
+        "simple": "usDummy_acc_holder_XX cleDummy_acc_holder_XXners"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-12",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-12",
+      "amount": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #5305"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-12",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-11",
+      "amount": {
+        "amount": 31,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-11",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-11",
+      "amount": {
+        "amount": 31,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-11",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-09",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *furymixcom",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *furymixcom"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-09",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-09",
+      "amount": {
+        "amount": 49,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *frDummy_acc_holder_XXXXXXXXgrDummy_acc_holder_XXXXXXXXncede",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *frDummy_acc_holder_XXgrDummy_acc_holder_XXncede"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-09",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-09",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *furymixcom",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *furymixcom"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-09",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-09",
+      "amount": {
+        "amount": 49,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *frDummy_acc_holder_XXXXXXXXgrDummy_acc_holder_XXXXXXXXncede",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *frDummy_acc_holder_XXgrDummy_acc_holder_XXncede"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-09",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-07",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "rite Dummy_acc_holder_XXXXXXXXid store - 5613",
+        "simple": "rite Dummy_acc_holder_XXid store - 5613"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-07",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-07",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "rite Dummy_acc_holder_XXXXXXXXid store - 5613",
+        "simple": "rite Dummy_acc_holder_XXid store - 5613"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-07",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-06",
+      "amount": {
+        "amount": 35,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-06",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-06",
+      "amount": {
+        "amount": 9,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "bsw 7",
+        "simple": "bsw 7"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-06",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-06",
+      "amount": {
+        "amount": 35,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-06",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-06",
+      "amount": {
+        "amount": 9,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "bsw 7",
+        "simple": "bsw 7"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-06",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-04",
+      "amount": {
+        "amount": 48,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "Dummy_acc_holder_XXXXXXXXmDummy_acc_holder_XXXXXXXXzon mktplDummy_acc_holder_XXXXXXXXce pmts",
+        "simple": "Dummy_acc_holder_XXmDummy_acc_holder_XXzon mktplDummy_acc_holder_XXce pmts"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-04",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-04",
+      "amount": {
+        "amount": 48,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "Dummy_acc_holder_XXXXXXXXmDummy_acc_holder_XXXXXXXXzon mktplDummy_acc_holder_XXXXXXXXce pmts",
+        "simple": "Dummy_acc_holder_XXmDummy_acc_holder_XXzon mktplDummy_acc_holder_XXce pmts"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-04",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-02",
+      "amount": {
+        "amount": 28,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *joshuDummy_acc_holder_XXXXXXXXmlitt",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *joshuDummy_acc_holder_XXmlitt"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-02",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-04-02",
+      "amount": {
+        "amount": 28,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *joshuDummy_acc_holder_XXXXXXXXmlitt",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *joshuDummy_acc_holder_XXmlitt"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-04-02",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-31",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "bsw 7",
+        "simple": "bsw 7"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-31",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-31",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "city nDummy_acc_holder_XXils"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-31",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-31",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "bsw 7",
+        "simple": "bsw 7"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-31",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-31",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "city nDummy_acc_holder_XXils"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-31",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-30",
+      "amount": {
+        "amount": 37,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0483",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-30",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-30",
+      "amount": {
+        "amount": 37,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0483",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-30",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-28",
+      "amount": {
+        "amount": 53,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *lightninggo",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *lightninggo"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-28",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-28",
+      "amount": {
+        "amount": 53,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *lightninggo",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *lightninggo"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-28",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-27",
+      "amount": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco whse #0460",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-27",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-27",
+      "amount": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco whse #0460",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-27",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-24",
+      "amount": {
+        "amount": 47,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *lindsDummy_acc_holder_XXXXXXXXystc",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *lindsDummy_acc_holder_XXystc"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-24",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-24",
+      "amount": {
+        "amount": 47,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *lindsDummy_acc_holder_XXXXXXXXystc",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *lindsDummy_acc_holder_XXystc"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-24",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-23",
+      "amount": {
+        "amount": 43,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "inst for vibrDummy_acc_holder_XXXXXXXXnt living",
+        "simple": "inst for vibrDummy_acc_holder_XXnt living"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-23",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-23",
+      "amount": {
+        "amount": 43,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "inst for vibrDummy_acc_holder_XXXXXXXXnt living",
+        "simple": "inst for vibrDummy_acc_holder_XXnt living"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-23",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-22",
+      "amount": {
+        "amount": 9,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #5305"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-22",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-22",
+      "amount": {
+        "amount": 9,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #5305"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-22",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-21",
+      "amount": {
+        "amount": 40,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kp rxXXXXX mDummy_acc_holder_XXXXXXXXilorder8029",
+        "simple": "kp rXX mDummy_acc_holder_XXilorder8029"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-21",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-21",
+      "amount": {
+        "amount": 47,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "wm supercenter #5023",
+        "simple": "Walmart"
+      },
+      "merchant": {
+        "name": "Walmart",
+        "id": "43217",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-21",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-21",
+      "amount": {
+        "amount": 40,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kp rxXXXXX mDummy_acc_holder_XXXXXXXXilorder8029",
+        "simple": "kp rXX mDummy_acc_holder_XXilorder8029"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-21",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-21",
+      "amount": {
+        "amount": 47,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "wm supercenter #5023",
+        "simple": "Walmart"
+      },
+      "merchant": {
+        "name": "Walmart",
+        "id": "43217",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-21",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-19",
+      "amount": {
+        "amount": 33,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-19",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-19",
+      "amount": {
+        "amount": 33,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-19",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-16",
+      "amount": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "kDummy_acc_holder_XXiser XX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-16",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-16",
+      "amount": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "kDummy_acc_holder_XXiser XX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-16",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-15",
+      "amount": {
+        "amount": 40,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco whse #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-15",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-15",
+      "amount": {
+        "amount": 40,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco whse #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-15",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-13",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *jjsboutique",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *jjsboutique"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-13",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-13",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *jjsboutique",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *jjsboutique"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-13",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-12",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "city nDummy_acc_holder_XXils"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-12",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-12",
+      "amount": {
+        "amount": 54,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "wm supercenter #5023",
+        "simple": "Walmart"
+      },
+      "merchant": {
+        "name": "Walmart",
+        "id": "43217",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-12",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-12",
+      "amount": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-12",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-12",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "city nDummy_acc_holder_XXils"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-12",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-12",
+      "amount": {
+        "amount": 54,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "wm supercenter #5023",
+        "simple": "Walmart"
+      },
+      "merchant": {
+        "name": "Walmart",
+        "id": "43217",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-12",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-12",
+      "amount": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-12",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-10",
+      "amount": {
+        "amount": 13,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "usDummy_acc_holder_XXXXXXXX cleDummy_acc_holder_XXXXXXXXners",
+        "simple": "usDummy_acc_holder_XX cleDummy_acc_holder_XXners"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-10",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-10",
+      "amount": {
+        "amount": 13,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "usDummy_acc_holder_XXXXXXXX cleDummy_acc_holder_XXXXXXXXners",
+        "simple": "usDummy_acc_holder_XX cleDummy_acc_holder_XXners"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-10",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-09",
+      "amount": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "cDummy_acc_holder_XXXXXXXXrninDummy_acc_holder_XXXXXXXXl supermDummy_acc_holder_XXXXXXXXrke",
+        "simple": "cDummy_acc_holder_XXrninDummy_acc_holder_XXl supermDummy_acc_holder_XXrke"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-09",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-09",
+      "amount": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "cDummy_acc_holder_XXXXXXXXrninDummy_acc_holder_XXXXXXXXl supermDummy_acc_holder_XXXXXXXXrke",
+        "simple": "cDummy_acc_holder_XXrninDummy_acc_holder_XXl supermDummy_acc_holder_XXrke"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-09",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-08",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "wm supercenter #5938",
+        "simple": "Walmart"
+      },
+      "merchant": {
+        "name": "Walmart",
+        "id": "43217",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-08",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-08",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-08",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-08",
+      "amount": {
+        "amount": 14,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "others",
+        "simple": "others"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-08",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-08",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "wm supercenter #5938",
+        "simple": "Walmart"
+      },
+      "merchant": {
+        "name": "Walmart",
+        "id": "43217",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-08",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-08",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "wm supercenter #5938",
+        "simple": "Walmart"
+      },
+      "merchant": {
+        "name": "Walmart",
+        "id": "43217",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-08",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-08",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-08",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-08",
+      "amount": {
+        "amount": 14,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "others",
+        "simple": "others"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-08",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-08",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "wm supercenter #5938",
+        "simple": "Walmart"
+      },
+      "merchant": {
+        "name": "Walmart",
+        "id": "43217",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-08",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-05",
+      "amount": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "kDummy_acc_holder_XXiser XX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-05",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-05",
+      "amount": {
+        "amount": 25,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "kDummy_acc_holder_XXiser XX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-05",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-03",
+      "amount": {
+        "amount": 7,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "bsw 7",
+        "simple": "bsw 7"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-03",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-03",
+      "amount": {
+        "amount": 7,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "bsw 7",
+        "simple": "bsw 7"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-03",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-01",
+      "amount": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "99 cents only stores llc",
+        "simple": "99 Cents Only Stores"
+      },
+      "merchant": {
+        "name": "99 Cents Only Stores",
+        "id": "196",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-01",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-03-01",
+      "amount": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "99 cents only stores llc",
+        "simple": "99 Cents Only Stores"
+      },
+      "merchant": {
+        "name": "99 Cents Only Stores",
+        "id": "196",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-03-01",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-28",
+      "amount": {
+        "amount": 26,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-28",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-28",
+      "amount": {
+        "amount": 22,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #5305"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-28",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-28",
+      "amount": {
+        "amount": 26,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-28",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-28",
+      "amount": {
+        "amount": 22,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #5305"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-28",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-26",
+      "amount": {
+        "amount": 31,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5023",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #5023"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-26",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-26",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *vDummy_acc_holder_XXXXXXXXnessDummy_acc_holder_XXXXXXXXsgoo",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *vDummy_acc_holder_XXnessDummy_acc_holder_XXsgoo"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-26",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-26",
+      "amount": {
+        "amount": 31,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5023",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #5023"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-26",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-26",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "pDummy_acc_holder_XXXXXXXXypDummy_acc_holder_XXXXXXXXl *vDummy_acc_holder_XXXXXXXXnessDummy_acc_holder_XXXXXXXXsgoo",
+        "simple": "pDummy_acc_holder_XXypDummy_acc_holder_XXl *vDummy_acc_holder_XXnessDummy_acc_holder_XXsgoo"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-26",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-21",
+      "amount": {
+        "amount": 11,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #5305"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-21",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-21",
+      "amount": {
+        "amount": 26,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-21",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-21",
+      "amount": {
+        "amount": 11,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5305",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #5305"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-21",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-21",
+      "amount": {
+        "amount": 26,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-21",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-20",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "city nDummy_acc_holder_XXils"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-20",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-20",
+      "amount": {
+        "amount": 29,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "city nDummy_acc_holder_XXXXXXXXils",
+        "simple": "city nDummy_acc_holder_XXils"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-20",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-19",
+      "amount": {
+        "amount": 18,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kp rxXXXXX",
+        "simple": "kp rXX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-19",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-19",
+      "amount": {
+        "amount": 17,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5023",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #5023"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-19",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-19",
+      "amount": {
+        "amount": 18,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kp rxXXXXX",
+        "simple": "kp rXX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-19",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-19",
+      "amount": {
+        "amount": 17,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #5023",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #5023"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-19",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-17",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "kDummy_acc_holder_XXiser XX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-17",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-17",
+      "amount": {
+        "amount": 15,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kDummy_acc_holder_XXXXXXXXiser XXXXXXX",
+        "simple": "kDummy_acc_holder_XXiser XX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-17",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-15",
+      "amount": {
+        "amount": 19,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "Dummy_acc_holder_XXXXXXXXlbertsons #6757",
+        "simple": "Dummy_acc_holder_XXlbertsons #6757"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-15",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-15",
+      "amount": {
+        "amount": 5,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "nDummy_acc_holder_XXXXXXXXvy exchDummy_acc_holder_XXXXXXXXnge XXXXXX",
+        "simple": "nDummy_acc_holder_XXvy exchDummy_acc_holder_XXnge XX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-15",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-15",
+      "amount": {
+        "amount": 19,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "Dummy_acc_holder_XXXXXXXXlbertsons #6757",
+        "simple": "Dummy_acc_holder_XXlbertsons #6757"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-15",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-15",
+      "amount": {
+        "amount": 5,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "nDummy_acc_holder_XXXXXXXXvy exchDummy_acc_holder_XXXXXXXXnge XXXXXX",
+        "simple": "nDummy_acc_holder_XXvy exchDummy_acc_holder_XXnge XX"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-15",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-12",
+      "amount": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "99-cents-only #0101",
+        "simple": "99 Cents Only Stores"
+      },
+      "merchant": {
+        "name": "99 Cents Only Stores",
+        "id": "196",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-12",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-12",
+      "amount": {
+        "amount": 6,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "99-cents-only #0101",
+        "simple": "99 Cents Only Stores"
+      },
+      "merchant": {
+        "name": "99 Cents Only Stores",
+        "id": "196",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-12",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-09",
+      "amount": {
+        "amount": 32,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco whse #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-09",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-09",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kp rxXXXXX mDummy_acc_holder_XXXXXXXXilorder8029",
+        "simple": "kp rXX mDummy_acc_holder_XXilorder8029"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-09",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-09",
+      "amount": {
+        "amount": 32,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco whse #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-09",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-09",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kp rxXXXXX mDummy_acc_holder_XXXXXXXXilorder8029",
+        "simple": "kp rXX mDummy_acc_holder_XXilorder8029"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-09",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-08",
+      "amount": {
+        "amount": 14,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "usDummy_acc_holder_XXXXXXXX cleDummy_acc_holder_XXXXXXXXners",
+        "simple": "usDummy_acc_holder_XX cleDummy_acc_holder_XXners"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-08",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-08",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "dollDummy_acc_holder_XXXXXXXXrtree",
+        "simple": "dollDummy_acc_holder_XXrtree"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-08",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-08",
+      "amount": {
+        "amount": 80,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kp rxXXXXX mDummy_acc_holder_XXXXXXXXilorder8029",
+        "simple": "kp rXX mDummy_acc_holder_XXilorder8029"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-08",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-08",
+      "amount": {
+        "amount": 14,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "usDummy_acc_holder_XXXXXXXX cleDummy_acc_holder_XXXXXXXXners",
+        "simple": "usDummy_acc_holder_XX cleDummy_acc_holder_XXners"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-08",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-08",
+      "amount": {
+        "amount": 10,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "dollDummy_acc_holder_XXXXXXXXrtree",
+        "simple": "dollDummy_acc_holder_XXrtree"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-08",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-08",
+      "amount": {
+        "amount": 80,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "kp rxXXXXX mDummy_acc_holder_XXXXXXXXilorder8029",
+        "simple": "kp rXX mDummy_acc_holder_XXilorder8029"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-08",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-07",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-07",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-07",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0781",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-07",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-06",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0478",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-06",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-06",
+      "amount": {
+        "amount": 13,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000017,
+      "description": {
+        "original": "wDummy_acc_holder_XXXXXXXXl-mDummy_acc_holder_XXXXXXXXrt #2998",
+        "simple": "wDummy_acc_holder_XXl-mDummy_acc_holder_XXrt #2998"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "UNCATEGORIZE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-06",
+      "id": "${json-unit.any-number}",
+      "category": "Uncategorized",
+      "categoryId": 1,
+      "status": "POSTED"
+    },
+    {
+      "date": "2017-02-06",
+      "amount": {
+        "amount": 27,
+        "currency": "USD"
+      },
+      "isManual": false,
+      "highLevelCategoryId": 10000004,
+      "description": {
+        "original": "costco gDummy_acc_holder_XXXXXXXXs #0478",
+        "simple": "Costco Wholesale"
+      },
+      "merchant": {
+        "name": "Costco Wholesale",
+        "id": "10005",
+        "source": "YODLEE"
+      },
+      "baseType": "DEBIT",
+      "categoryType": "EXPENSE",
+      "categorySource": "SYSTEM",
+      "lastUpdated": "${json-unit.ignore}",
+      "accountId": "${json-unit.ignore}",
+      "createdDate": "${json-unit.ignore}",
+      "sourceType": "AGGREGATED",
+      "CONTAINER": "creditCard",
+      "postDate": "2017-02-06",
+      "id": "${json-unit.any-number}",
+      "category": "Electronics/General Merchandise",
+      "categoryId": 43,
+      "status": "POSTED"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,keys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-143194,"Validate CardStatementDue , Validate InsightName",,CardStatementDue,CardStatementDue,,,,,,,,,,,200,TRUE
+AT-143195,"Validate CardStatementDue , Validate Supporting container",,CardStatementDue,,,CARD,,,,,,,,,200,TRUE
+AT-143196,"Validate CardStatementDue , Validate TriggerType",REFRESH,CardStatementDue,,,,,,,,,,,,200,TRUE
+AT-143197,"Validate CardStatementDue , Validate applicableEntity",,CardStatementDue,,,,,,"ACCOUNT,VIEW",,,,,,200,TRUE
+AT-143198,"Validate CardStatementDue , Validate number of levels and levelObject",,CardStatementDue,,,,,,ACOCUNT,account,,,,,200,TRUE
+AT-143199,"Validate CardStatementDue , Validate isSubscribed=false",,CardStatementDue,,,,,,,account,FALSE,,,,200,TRUE
+AT-143200,"Validate CardStatementDue , Validate threshold Name,Value and Type",,CardStatementDue,,,,,,,account,,,"DAYS_BEFORE,5,DAYS",,200,TRUE
+AT-143201,"Validate CardStatementDue , Validate insightKeys for Account entity",,CardStatementDue,,,,Account,,,,,,,,200,TRUE
+AT-143202,"Validate CardStatementDue , Validate insightKeys for View entity",,CardStatementDue,,,,View,,,,,,,,200,TRUE
+AT-143203,"Validate CardStatementDue , Validate description",,CardStatementDue,,,,,Generates an insight when a credit card payment is due in the coming days based on a configured threshold.,,,,,,,200,TRUE
+AT-143204,"Validate CardStatementDue , Validate title",,CardStatementDue,,Card Payment Due Reminder,,,,,,,,,,200,TRUE
+AT-143205,"Validate CardStatementDue , Validate total number of keys",,CardStatementDue,,,,,,,,,,,,200,TRUE
+AT-143206,"Validate CardStatementDue , Validate if ruleExpression present",,CardStatementDue,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE

@@ -1,0 +1,3 @@
+Test ID,Enabled,Test Name,loginMechanism,Credentials Login ID Public,SAML Certificate Name Public,SAML Issuer ID Public,SSO Post Source Public,JWT Maximum Expiration Time Public,Enable Multiple JWT,Add Another JWT
+AT-000001,TRUE,DefaultSettings,SAML;JWT,testcredpublic,saml,testpublic,testrpublic,150,TRUE,FALSE
+AT-000002,TRUE,NothingEnabled,SAML;JWT,testcredpublic,saml,testpublic,testrpublic,150,TRUE,FALSE

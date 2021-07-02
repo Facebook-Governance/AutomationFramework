@@ -1,0 +1,15 @@
+testCaseId,Testcase,triggerType,InsightKey,insightName,title,containerSupported,validateKeys,totalNumberOfKeys,description,applicableEntity,levels,isSubscribed,frequency,thresholdDetails,ruleExpression,status,enabled
+AT-148572,"Validate getCobrandSubscription for RefundDepositNotice , check if Insight is unSubscribed to OR isSubscribed=false ",,RefundDepositNotice,RefundDepositNotice,,,,,,,,FALSE,,,,200,TRUE
+AT-148573,"Validate  getCobrandSubscription for  RefundDepositNotice , Validate InsightName",,RefundDepositNotice,RefundDepositNotice,,,,,,,,,,,,200,TRUE
+AT-148574,"Validate getCobrandSubscription for  RefundDepositNotice , Validate Supporting container",,RefundDepositNotice,,,"BANK,CARD",,,,,,,,,,200,TRUE
+AT-148575,"Validate getCobrandSubscription for  RefundDepositNotice , Validate TriggerType",REFRESH,RefundDepositNotice,,,,,,,,,,,,,200,TRUE
+AT-148576,"Validate getCobrandSubscription for  RefundDepositNotice , Validate applicableEntity",,RefundDepositNotice,,,,,,,"ACCOUNT,VIEW",,,,,,200,TRUE
+AT-148577,"Validate getCobrandSubscription for  RefundDepositNotice , Validate number of levels and levelObject",,RefundDepositNotice,,,,,,,"ACCOUNT,VIEW","account,view",,,,,200,TRUE
+AT-148578,"Validate getCobrandSubscription for  RefundDepositNotice , Validate isSubscribed=false",,RefundDepositNotice,,,,,,,,,FALSE,,,,200,TRUE
+AT-148579,"Validate getCobrandSubscription for  RefundDepositNotice , Validate threshold Name,default Value  and Type",,RefundDepositNotice,,,,,,,,"account,view",,,"MINIMUM,1,AMOUNT",,200,TRUE
+AT-148580,"Validate getCobrandSubscription for  RefundDepositNotice , Validate insightKeys for Account",,RefundDepositNotice,,,,Account,,,,,,,,,200,TRUE
+AT-148581,"Validate getCobrandSubscription for  RefundDepositNotice , Validate description",,RefundDepositNotice,,,,,,Generates an insight when a refund is posted that is more than a configured threshold.,,,,,,,200,TRUE
+AT-148582,"Validate getCobrandSubscription for  RefundDepositNotice , Validate title",,RefundDepositNotice,,Refund Deposited,,,,,,,,,,,200,TRUE
+AT-148583,"Validate getCobrandSubscription for  RefundDepositNotice , Validate ruleExpression",,RefundDepositNotice,,,,,,,,,,,,checkRuleExpressionIfPresent,200,TRUE
+AT-148584,"Validate getCobrandSubscription for  RefundDepositNotice , Validate total number of keys",,RefundDepositNotice,,,,,15,,,,,,,,200,TRUE
+AT-148585,"Validate getCobrandSubscription for  RefundDepositNotice , Validate insightKeys for View",,RefundDepositNotice,,,,View,,,,,,,,,200,TRUE

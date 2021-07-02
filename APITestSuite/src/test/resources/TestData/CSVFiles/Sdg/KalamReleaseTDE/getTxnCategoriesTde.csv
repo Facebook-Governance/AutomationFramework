@@ -1,0 +1,7 @@
+UsTestcaseId,tcId,tcName,sequence,sequenceFilePath,sequenceResFile,Subrand,Cobrand,enabled,priority,formType,granularCat,categoryMerger
+AT-75593,getTxnCategories_1,Check granular category in response with merger enabled,GET_TXN_CATEGORIES,../src/test/resources/TestData/XML/TDE/,getTxnCategories1.xml,FALSE,TRUE,TRUE,P1,Simplified,TRUE,TRUE
+AT-75594,getTxnCategories_2,Check granular category in response with merger disabled,GET_TXN_CATEGORIES,../src/test/resources/TestData/XML/TDE/,getTxnCategories2.xml,FALSE,TRUE,TRUE,P1,Simplified,TRUE,FALSE
+AT-75595,getTxnCategories_3,Check response with feature disabled,GET_TXN_CATEGORIES,../src/test/resources/TestData/XML/TDE/,getTxnCategories3.xml,FALSE,TRUE,TRUE,P1,Simplified,FALSE,FALSE
+"AT-75596,AT-75599,AT-75600",getTxnCategories_4,Check granular category in response with merger enabled for user,GET_TXN_CATEGORIES,../src/test/resources/TestData/XML/TDE/,getTxnCategories4.xml,FALSE,TRUE,TRUE,P1,Simplified,TRUE,TRUE
+AT-75597,getTxnCategories_5,Check granular category in response with merger disabled for user,GET_TXN_CATEGORIES,../src/test/resources/TestData/XML/TDE/,getTxnCategories5.xml,FALSE,TRUE,TRUE,P1,Simplified,TRUE,FALSE
+AT-75598,getTxnCategories_6,Check response with feature disabled for user,GET_TXN_CATEGORIES,../src/test/resources/TestData/XML/TDE/,getTxnCategories6.xml,FALSE,TRUE,TRUE,P1,Simplified,FALSE,FALSE

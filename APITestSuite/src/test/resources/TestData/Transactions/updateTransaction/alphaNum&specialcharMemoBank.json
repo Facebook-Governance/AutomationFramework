@@ -1,0 +1,40 @@
+{
+  "transaction": [
+    {
+      "date": "2016-06-16",
+      "amount": {
+        "amount": 400,
+        "currency": "USD"
+      },
+      "checkNumber": "DAG-333",
+      "isManual": false,
+      "highLevelCategoryId": 10000012,
+      "description": {
+        "original": "ACH Withdrawal-Debit 0000000000 - PPD  BAC HOME LOAN SE BILL PAYMT",
+        "simple": "Bank of America",
+        "consumer": "abc123!@#"
+      },
+      "memo": "abc123!@#",
+      "merchant": {
+        "name": "Bank of America",
+        "id": "4098",
+        "source": "YODLEE"
+      },
+      "transactionDate": "2016-06-16",
+      "baseType": "DEBIT",
+      "categoryType": "INCOME",
+      "categorySource": "SYSTEM",
+      "accountId": 510327,
+      "CONTAINER": "bank",
+      "postDate": "2016-06-16",
+      "id": 4275372,
+      "category": "Investment/Retirement Income",
+      "runningBalance": {
+        "amount": 59,
+        "currency": "USD"
+      },
+      "categoryId": 30,
+      "status": "POSTED"
+    }
+  ]
+}

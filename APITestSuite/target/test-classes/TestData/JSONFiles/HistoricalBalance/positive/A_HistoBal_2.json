@@ -1,0 +1,559 @@
+{
+  "account": [
+    {
+      "historicalBalances": [
+        {
+          "date": "2013-06-01",
+          "isAsset": true,
+          "balance": {
+            "amount": -343361.22,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-06-01T07:00:00Z",
+          "dataSourceType": "C"
+        },
+        {
+          "date": "2013-07-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "S"
+        },
+        {
+          "date": "2013-08-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2013-09-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2013-10-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2013-11-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2013-12-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2014-01-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2014-02-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2014-03-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2014-04-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2014-05-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2014-06-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2014-07-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2014-08-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2014-09-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2014-10-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2014-11-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2014-12-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2015-01-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2015-02-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2015-03-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2015-04-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2015-05-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2015-06-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2015-07-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2015-08-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2015-09-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2015-10-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2015-11-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2015-12-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2016-01-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2016-02-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2016-03-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2016-04-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2016-05-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2016-06-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2016-07-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2016-08-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2016-09-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2016-10-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2016-11-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2016-12-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2017-01-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2017-02-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2017-03-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2017-04-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2017-05-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2017-06-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2017-07-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2017-08-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2017-09-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2017-10-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2017-11-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2013-07-01T07:00:00Z",
+          "dataSourceType": "CF"
+        },
+        {
+          "date": "2017-12-01",
+          "isAsset": true,
+          "balance": {
+            "amount": 44.78,
+            "currency": "USD"
+          },
+          "asOfDate": "2017-12-01T07:00:00Z",
+          "dataSourceType": "S"
+        }
+      ],
+      "id": "${json-unit.ignore}"
+    }
+  ]
+}

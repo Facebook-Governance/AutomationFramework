@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sub Brand Management Portal Automation]">
+  <parameter name="environment" value="L1"/>
+  <parameter name="suiteName" value="Sub-brand Management Portal Automation"/>
+  <listeners>
+    <listener class-name="com.yodlee.customizationtool.listeners.CustomListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.automation.rdashboard.ReportDashboardPlugin"/>
+    <listener class-name="com.omni.pfm.listeners.ReportGenerator"/>
+  </listeners>
+  <test name="Sub Brand Management Tool Publish Workflows">
+    <parameter name="environment" value="L1"/>
+    <classes>
+      <class name="com.yodlee.customizationtool.Login"/>
+      <class name="com.yodlee.customizationtool.CreateSubBrand"/>
+      <class name="com.yodlee.customizationtool.EditSubBrand"/>
+      <class name="com.yodlee.customizationtool.ViewListOfSubBrands"/>
+    </classes>
+  </test> <!-- Sub Brand Management Tool Publish Workflows -->
+  <test name="Sub Brand Management Tool -Customization Workflows">
+    <parameter name="environment" value="L1"/>
+    <classes>
+      <class name="com.yodlee.customizationtool.CreateSubBrandAndCustomize"/>
+    </classes>
+  </test> <!-- Sub Brand Management Tool -Customization Workflows -->
+  <test name="Sub Brand Management Tool Publish Workflows(failed)">
+    <parameter name="environment" value="L1"/>
+    <classes>
+      <class name="com.yodlee.customizationtool.CreateSubBrandAndCustomize">
+        <methods>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.yodlee.customizationtool.CreateSubBrandAndCustomize -->
+      <class name="com.yodlee.customizationtool.CreateSubBrand">
+        <methods>
+          <include name="setup"/>
+          <include name="logout"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.yodlee.customizationtool.CreateSubBrand -->
+      <class name="com.yodlee.customizationtool.EditSubBrand">
+        <methods>
+          <include name="testCreateAndEditSubBrandAndViewSubBrandOverview" invocation-numbers="0 1"/>
+          <include name="setup"/>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.yodlee.customizationtool.EditSubBrand -->
+      <class name="com.yodlee.customizationtool.Login">
+        <methods>
+          <include name="setup"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.yodlee.customizationtool.Login -->
+      <class name="com.yodlee.customizationtool.ViewListOfSubBrands">
+        <methods>
+          <include name="setup"/>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.yodlee.customizationtool.ViewListOfSubBrands -->
+    </classes>
+  </test> <!-- Sub Brand Management Tool Publish Workflows(failed) -->
+  <test name="Sub Brand Management Tool -Customization Workflows(failed)">
+    <parameter name="environment" value="L1"/>
+    <classes>
+      <class name="com.yodlee.customizationtool.CreateSubBrandAndCustomize">
+        <methods>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="setup"/>
+          <include name="testCreateSubBrandCustomizePublishAndViewSubBrandOverview" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.yodlee.customizationtool.CreateSubBrandAndCustomize -->
+      <class name="com.yodlee.customizationtool.CreateSubBrand">
+        <methods>
+          <include name="setup"/>
+          <include name="logout"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.yodlee.customizationtool.CreateSubBrand -->
+      <class name="com.yodlee.customizationtool.EditSubBrand">
+        <methods>
+          <include name="setup"/>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.yodlee.customizationtool.EditSubBrand -->
+      <class name="com.yodlee.customizationtool.Login">
+        <methods>
+          <include name="setup"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.yodlee.customizationtool.Login -->
+      <class name="com.yodlee.customizationtool.ViewListOfSubBrands">
+        <methods>
+          <include name="setup"/>
+          <include name="init"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.yodlee.customizationtool.ViewListOfSubBrands -->
+    </classes>
+  </test> <!-- Sub Brand Management Tool -Customization Workflows(failed) -->
+</suite> <!-- Failed suite [Sub Brand Management Portal Automation] -->

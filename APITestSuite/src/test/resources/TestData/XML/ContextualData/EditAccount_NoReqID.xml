@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity type="multiple">
+	<request>
+		<add-provider-accounts-multiple>
+		<add-provider-accounts order="1">
+			<siteUser>SdgSanitySuite.site16441.1</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.1</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>ACCT_PROFILE</name>
+					<attributeList>
+						<attribute>
+							<name>FULL_ACCT_NUMBER</name>
+							<container>bank</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</add-provider-accounts>
+		</add-provider-accounts-multiple>
+		<update-provider-accounts-multiple>
+		<update-provider-accounts order="1">
+			<siteUser>SdgSanitySuite.site16441.1</siteUser>
+			<siteUserId>65499</siteUserId>
+			<sitePwd>site16441.1</sitePwd>
+			<sitePwdId>65500</sitePwdId>
+			<siteId>16441</siteId>
+			<dataList>
+				<dataset>
+					<name>ACCT_PROFILE</name>
+					<attributeList>
+						<attribute>
+							<name>HOLDER_DETAILS</name>
+							<container>bank</container>
+						</attribute>
+					</attributeList>
+				</dataset>
+			</dataList>
+		</update-provider-accounts>
+		</update-provider-accounts-multiple>
+		<get-accounts-multiple>
+		<get-accounts order="1">
+		   <status>ACTIVE</status>
+            <container>bank</container>
+            <providerAccountId></providerAccountId>
+            <isRequestID></isRequestID>
+       <accountReconType />
+
+		</get-accounts>
+		</get-accounts-multiple>
+	</request>
+	<response>
+		<get-accounts-multiple>
+		<get-accounts order="1">
+			<row>
+				<filePath>../src/test/resources/TestData/JSONFiles/Sdg/ContextualData/</filePath>
+				<responseFile>EditAccount_NoReqID.json</responseFile>
+			</row>
+		</get-accounts>
+		</get-accounts-multiple>
+	</response>
+</entity>
