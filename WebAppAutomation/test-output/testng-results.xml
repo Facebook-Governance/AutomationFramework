@@ -1,52 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+<testng-results skipped="1" failed="1" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-25T05:46:59Z" name="TestFramework" finished-at="2021-02-25T05:47:39Z" duration-ms="40491">
+  <suite name="Default suite" duration-ms="32" started-at="2021-04-16T08:00:21Z" finished-at="2021-04-16T08:00:21Z">
     <groups>
     </groups>
-    <test started-at="2021-02-25T05:46:59Z" name="Selenium Automation" finished-at="2021-02-25T05:47:39Z" duration-ms="40491">
-      <class name="com.org.WebAppAutomation.PurchaseProduct">
-        <test-method is-config="true" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:46:55Z" name="beforeSuite" finished-at="2021-02-25T05:46:59Z" duration-ms="3214" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[fasal]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="32" started-at="2021-04-16T08:00:21Z" finished-at="2021-04-16T08:00:21Z">
+      <class name="com.org.Test.MakeMyTrip">
+        <test-method status="FAIL" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:com.org.Test.MakeMyTrip@778d1062]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2021-04-16T08:00:21Z" finished-at="2021-04-16T08:00:21Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Environment' is required by BeforeSuite on method beforeSuite but has not been marked @Optional or defined
+in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1189554649\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Environment' is required by BeforeSuite on method beforeSuite but has not been marked @Optional or defined
+in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1189554649\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method signature="verifyLandingPage()[pri:1, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:46:59Z" name="verifyLandingPage" description="Load the URL with WebPage info" finished-at="2021-02-25T05:47:06Z" duration-ms="7668" status="PASS">
+        <test-method status="SKIP" signature="initializeDriver()[pri:0, instance:com.org.Test.MakeMyTrip@778d1062]" name="initializeDriver" is-config="true" duration-ms="0" started-at="2021-04-16T08:00:21Z" finished-at="2021-04-16T08:00:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLandingPage -->
-        <test-method signature="SelectCategory()[pri:2, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:07Z" name="SelectCategory" description="Go to Women Category" finished-at="2021-02-25T05:47:10Z" duration-ms="2755" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectCategory -->
-        <test-method signature="ApplyFiltersOnProducts()[pri:3, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:10Z" name="ApplyFiltersOnProducts" description="Apply Three Filters" finished-at="2021-02-25T05:47:10Z" duration-ms="4" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        </test-method> <!-- initializeDriver -->
+        <test-method status="SKIP" signature="launchMMT()[pri:0, instance:com.org.Test.MakeMyTrip@778d1062]" name="launchMMT" duration-ms="0" started-at="2021-04-16T08:00:21Z" finished-at="2021-04-16T08:00:21Z">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[Cannot invoke "com.org.pages.ApplyFiltersToSelectProducts.applyConditionFilter()" because "this.filters" is null]]>
+              <![CDATA[
+Parameter 'Environment' is required by BeforeSuite on method beforeSuite but has not been marked @Optional or defined
+in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1189554649\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.org.pages.ApplyFiltersToSelectProducts.applyConditionFilter()" because "this.filters" is null
-at com.org.WebAppAutomation.PurchaseProduct.ApplyFiltersOnProducts(PurchaseProduct.java:37)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Environment' is required by BeforeSuite on method beforeSuite but has not been marked @Optional or defined
+in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1189554649\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchMMT -->
+        <test-method status="FAIL" signature="travelPlan(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.org.Test.MakeMyTrip@778d1062]" name="travelPlan" duration-ms="0" started-at="2021-04-16T08:00:21Z" finished-at="2021-04-16T08:00:21Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [travelPlan] with [class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [travelPlan] with [class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
@@ -66,63 +116,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ApplyFiltersOnProducts -->
-        <test-method signature="selectProductWithSpecificPrice()[pri:4, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:11Z" name="selectProductWithSpecificPrice" description="Click on Add to cart for a product with 27$ value" finished-at="2021-02-25T05:47:12Z" duration-ms="801" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectProductWithSpecificPrice -->
-        <test-method signature="changeColorOfProductIfOptionsAvailable()[pri:5, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:12Z" name="changeColorOfProductIfOptionsAvailable" description="Change color if more than one color is available" finished-at="2021-02-25T05:47:14Z" duration-ms="2070" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changeColorOfProductIfOptionsAvailable -->
-        <test-method signature="changeQuantityOfProduct()[pri:6, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:14Z" name="changeQuantityOfProduct" description="Go to Product Page and change quantity" finished-at="2021-02-25T05:47:14Z" duration-ms="170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changeQuantityOfProduct -->
-        <test-method signature="selectSizeOfProduct()[pri:7, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:15Z" name="selectSizeOfProduct" description="Go to Product Page and change size" finished-at="2021-02-25T05:47:15Z" duration-ms="183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectSizeOfProduct -->
-        <test-method signature="submitTheProduct()[pri:8, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:15Z" name="submitTheProduct" description="Add to Cart" finished-at="2021-02-25T05:47:15Z" duration-ms="304" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submitTheProduct -->
-        <test-method signature="proceedToCheckOut()[pri:9, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:15Z" name="proceedToCheckOut" description="Go to Cart Page" finished-at="2021-02-25T05:47:19Z" duration-ms="3948" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- proceedToCheckOut -->
-        <test-method signature="reviewAndProceedToCheckOutProduct()[pri:10, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:19Z" name="reviewAndProceedToCheckOutProduct" description="Proceed to checkout" finished-at="2021-02-25T05:47:24Z" duration-ms="4171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reviewAndProceedToCheckOutProduct -->
-        <test-method signature="loginToPortal()[pri:11, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:24Z" name="loginToPortal" description="Enter username / password" finished-at="2021-02-25T05:47:26Z" duration-ms="2456" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToPortal -->
-        <test-method signature="updateOrAddAddress()[pri:12, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:26Z" name="updateOrAddAddress" description="Enter Address" finished-at="2021-02-25T05:47:34Z" duration-ms="7865" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateOrAddAddress -->
-        <test-method signature="shippingPageAcceptTnC()[pri:13, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:34Z" name="shippingPageAcceptTnC" description="Shipping details" finished-at="2021-02-25T05:47:36Z" duration-ms="1402" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shippingPageAcceptTnC -->
-        <test-method signature="paymentPageForOder()[pri:14, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:36Z" name="paymentPageForOder" description="On the Payment page, add incorrect data and read the error message." finished-at="2021-02-25T05:47:39Z" duration-ms="3124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paymentPageForOder -->
-        <test-method signature="orderConfirmationsPage()[pri:15, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:39Z" name="orderConfirmationsPage" description="Order Confirmation Page" finished-at="2021-02-25T05:47:39Z" duration-ms="111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orderConfirmationsPage -->
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.org.WebAppAutomation.PurchaseProduct@a3d9978]" started-at="2021-02-25T05:47:39Z" name="beforeSuite" finished-at="2021-02-25T05:47:39Z" duration-ms="1" status="PASS">
+        </test-method> <!-- travelPlan -->
+        <test-method status="SKIP" signature="beforeSuite()[pri:0, instance:com.org.Test.MakeMyTrip@778d1062]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2021-04-16T08:00:21Z" finished-at="2021-04-16T08:00:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-      </class> <!-- com.org.WebAppAutomation.PurchaseProduct -->
-    </test> <!-- Selenium Automation -->
-  </suite> <!-- TestFramework -->
+      </class> <!-- com.org.Test.MakeMyTrip -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

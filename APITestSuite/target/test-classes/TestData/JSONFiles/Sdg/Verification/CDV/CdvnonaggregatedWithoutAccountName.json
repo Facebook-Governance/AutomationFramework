@@ -1,0 +1,20 @@
+{
+    "verification": [
+        {
+            "accountId": "${json-unit.ignore}",
+            "verificationDate": "${json-unit.ignore}",
+            "verificationType": "CHALLENGE_DEPOSIT",
+            "account": {
+                "accountNumber": "${json-unit.ignore}",
+                "accountType": "SAVINGS",
+                "bankTransferCode": {
+                    "id": "031311878",
+                    "type": "ROUTING_NUMBER"
+                }
+            },
+            "verificationStatus": "SUCCESS",
+            "providerAccountId": "${json-unit.ignore}",
+            "verificationId": "${json-unit.ignore}"
+        }
+    ]
+}

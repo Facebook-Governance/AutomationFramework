@@ -1,0 +1,215 @@
+{
+  "account": [
+    {
+      "includeInNetWorth": true,
+      "accountName": "BankAccount3",
+      "profile": {
+        "address": [
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          },
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          },
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          },
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          },
+          {
+            "zip": "${json-unit.ignore}",
+            "city": "${json-unit.ignore}",
+            "address1": "${json-unit.ignore}",
+            "state": "${json-unit.ignore}",
+            "type": "${json-unit.ignore}"
+          }
+        ],
+        "email": [
+          {
+            "type": "PRIMARY",
+            "value": "primaryprofilebank@email.com"
+          },
+          {
+            "type": "SECONDARY",
+            "value": "secondaryemailprofilebank@gmail.com"
+          },
+          {
+            "type": "PERSONAL",
+            "value": "personalprofilebank@gmail.com"
+          },
+          {
+            "type": "WORK",
+            "value": "unique1profilebank@gmail.com"
+          },
+          {
+            "type": "OTHERS",
+            "value": "othersEmailprofilebank@gmail.com"
+          },
+          {
+            "type": "OTHERS",
+            "value": "accTprofilefORbank@gmail.com"
+          }
+        ]
+      },
+      "isManual": false,
+      "currentBalance": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "accountType": "OTHER",
+      "displayedName": "zulfin ara",
+      "holder": [
+        {
+          "address": [
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            },
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            },
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            },
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            },
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            },
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            },
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            },
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            },
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            },
+            {
+              "zip": "${json-unit.ignore}",
+              "city": "${json-unit.ignore}",
+              "address1": "${json-unit.ignore}",
+              "state": "${json-unit.ignore}",
+              "type": "${json-unit.ignore}"
+            }
+          ],
+          "phoneNumber": [
+            {
+              "type": "HOME",
+              "value": "111111223"
+            },
+            {
+              "type": "WORK",
+              "value": "0000123234"
+            },
+            {
+              "type": "LANDLINE",
+              "value": "996638538"
+            },
+            {
+              "type": "MOBILE",
+              "value": "91231337"
+            }
+          ],
+          "ownership": "OTHERS",
+          "name": {
+            "last": "ara",
+            "fullName": "zulfin ara",
+            "first": "zulfin"
+          },
+          "company": "fidelity_investments_9",
+          "email": [
+            {
+              "type": "OTHERS",
+              "value": "single@gmail.com"
+            }
+          ]
+        }
+      ],
+      "accountNumber": "xxxx8803",
+      "availableBalance": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "lastUpdated": "${json-unit.ignore}",
+      "isAsset": true,
+      "createdDate": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "providerId": "19705",
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "id": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "name": "ACCT_PROFILE",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "HongLeong Bank"
+    }
+  ]
+}

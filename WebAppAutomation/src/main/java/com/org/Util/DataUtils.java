@@ -9,21 +9,18 @@ public class DataUtils {
 	static String projectDir = System.getProperty("user.dir");
 	static Properties dataProperties = new Properties();
 
-	public static void LoadData(String environment){
+	public static void LoadData(String environment) {
 
-		FileInputStream fis=null;
+		FileInputStream fis = null;
 		File dataFile = new File(projectDir + "/src/main/resources/com/Data/Data_" + environment + ".properties");
 		try {
-		fis = new FileInputStream(dataFile);
+			fis = new FileInputStream(dataFile);
 			dataProperties.load(fis);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
-		
-		
+
 		finally {
 			try {
 				fis.close();
@@ -31,13 +28,13 @@ public class DataUtils {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
+
 		}
 
 	}
 
 	public static String getTestData(String key) {
-	return dataProperties.getProperty(key);
+		return dataProperties.getProperty(key);
 
 	}
 

@@ -1,0 +1,29 @@
+{
+    "verification": [
+        {
+            "accountId": "${json-unit.ignore}",
+            "verificationDate": "${json-unit.ignore}",
+            "verificationType": "CHALLENGE_DEPOSIT",
+            "account": {
+                "accountName": "Dag Saving Plus",
+                "accountNumber": "${json-unit.ignore}",
+                "accountType": "SAVINGS",
+                "bankTransferCode": {
+                    "id": "${json-unit.ignore}",
+                    "type": "ROUTING_NUMBER"
+                }
+            },
+            "verificationStatus": "SUCCESS",
+            "providerAccountId": "${json-unit.ignore}",
+            "verificationId": "${json-unit.ignore}"
+        },
+        {
+            "accountId": "${json-unit.ignore}",
+            "verificationDate": "${json-unit.ignore}",
+            "verificationType": "MATCHING",
+            "verificationStatus": "SUCCESS",
+            "providerAccountId": "${json-unit.ignore}",
+            "verificationId": "${json-unit.ignore}"
+        }
+    ]
+}

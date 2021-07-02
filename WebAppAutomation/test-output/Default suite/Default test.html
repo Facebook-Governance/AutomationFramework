@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Feb 24 08:17:45 IST 2021</td>
+<td>Started on:</td><td>Fri Apr 16 13:30:21 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (18 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (32 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,10 +75,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.org.WebAppAutomation.PurchaseProduct.beforeSuite()'><b>beforeSuite</b><br>Test class: com.org.WebAppAutomation.PurchaseProduct</td>
+<td title='com.org.Test.MakeMyTrip.beforeSuite()'><b>beforeSuite</b><br>Test class: com.org.Test.MakeMyTrip</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;Environment&apos; is required by BeforeSuite on method beforeSuite but has not been marked @Optional or defined
-in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1016808740\testng-customsuite.xml
+in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1189554649\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:290)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -96,10 +96,10 @@ in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1016808740\testng-cus
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace286649365", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace286649365'><pre>org.testng.TestNGException: 
+</pre></div><a href='#' onClick='toggleBox("stack-trace1923598304", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1923598304'><pre>org.testng.TestNGException: 
 Parameter &apos;Environment&apos; is required by BeforeSuite on method beforeSuite but has not been marked @Optional or defined
-in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1016808740\testng-customsuite.xml
+in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1189554649\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:290)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -119,7 +119,88 @@ in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1016808740\testng-cus
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.org.WebAppAutomation.PurchaseProduct@5117dd67</td></tr>
+<td>com.org.Test.MakeMyTrip@778d1062</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.org.Test.MakeMyTrip.initializeDriver()'><b>initializeDriver</b><br>Test class: com.org.Test.MakeMyTrip</td>
+<td></td>
+<td>0</td>
+<td>com.org.Test.MakeMyTrip@778d1062</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.org.Test.MakeMyTrip.travelPlan()'><b>travelPlan</b><br>Test class: com.org.Test.MakeMyTrip</td>
+<td><div><pre>org.testng.TestNGException: 
+Cannot inject @Test annotated Method [travelPlan] with [class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace944427387", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace944427387'><pre>org.testng.TestNGException: 
+Cannot inject @Test annotated Method [travelPlan] with [class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.org.Test.MakeMyTrip@778d1062</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -129,10 +210,10 @@ in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1016808740\testng-cus
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.org.WebAppAutomation.PurchaseProduct.changeColorOfProductIfOptionsAvailable()'><b>changeColorOfProductIfOptionsAvailable</b><br>Test class: com.org.WebAppAutomation.PurchaseProduct</td>
+<td title='com.org.Test.MakeMyTrip.launchMMT()'><b>launchMMT</b><br>Test class: com.org.Test.MakeMyTrip</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;Environment&apos; is required by BeforeSuite on method beforeSuite but has not been marked @Optional or defined
-in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1016808740\testng-customsuite.xml
+in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1189554649\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:290)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -150,10 +231,10 @@ in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1016808740\testng-cus
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1644236636", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1644236636'><pre>org.testng.TestNGException: 
+</pre></div><a href='#' onClick='toggleBox("stack-trace58940486", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace58940486'><pre>org.testng.TestNGException: 
 Parameter &apos;Environment&apos; is required by BeforeSuite on method beforeSuite but has not been marked @Optional or defined
-in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1016808740\testng-customsuite.xml
+in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1189554649\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:290)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -173,7 +254,7 @@ in C:\Users\rshrivastav\AppData\Local\Temp\testng-eclipse--1016808740\testng-cus
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.org.WebAppAutomation.PurchaseProduct@5117dd67</td></tr>
+<td>com.org.Test.MakeMyTrip@778d1062</td></tr>
 </table><p>
 </body>
 </html>

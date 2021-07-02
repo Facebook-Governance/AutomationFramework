@@ -1,0 +1,37 @@
+{
+    "statement": [
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "statementDate": "2013-02-17",
+            "billingPeriodStart": "2013-12-26",
+            "dueDate": "2013-02-17",
+            "lastUpdated": "${json-unit.ignore}",
+            "amountDue": {
+                "amount": 357,
+                "currency": "USD"
+            },
+            "lastPaymentAmount": {
+                "amount": 345,
+                "currency": "USD"
+            },
+            "isLatest": false
+        },
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "billingPeriodStart": "2013-12-26",
+            "dueDate": "2013-02-17",
+            "lastUpdated": "${json-unit.ignore}",
+            "amountDue": {
+                "amount": 357,
+                "currency": "USD"
+            },
+            "lastPaymentAmount": {
+                "amount": 345,
+                "currency": "USD"
+            },
+            "isLatest": false
+        }
+    ]
+}

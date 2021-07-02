@@ -1,0 +1,10 @@
+{
+	"verification": [{
+		"accountId": "${json-unit.ignore}",
+		"verificationDate": "${json-unit.ignore}",
+		"verificationType": "MATCHING",
+		"verificationStatus": "SUCCESS",
+		"providerAccountId": "${json-unit.ignore}",
+		"verificationId": "${json-unit.ignore}"
+	}]
+}

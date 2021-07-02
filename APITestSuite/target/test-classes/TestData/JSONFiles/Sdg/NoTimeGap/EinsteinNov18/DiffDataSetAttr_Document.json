@@ -1,0 +1,29 @@
+{
+  "providerAccount": [
+    {
+      "id": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "providerId": "${json-unit.ignore}",
+      "isManual": false,
+      "createdDate": "${json-unit.ignore}",
+      "status": "LOGIN_IN_PROGRESS",
+      "requestId": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "2018-10-18T19:41:04Z",
+          "lastUpdateAttempt": "2018-10-18T19:41:04Z",
+          "nextUpdateScheduled": "2018-10-19T17:02:14Z"
+        },
+        {
+          "name": "DOCUMENT",
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "2018-10-18T19:41:02Z",
+          "lastUpdateAttempt": "2018-10-18T19:41:02Z",
+          "nextUpdateScheduled": "2019-01-01T21:30:00Z"
+        }
+      ]
+    }
+  ]
+}

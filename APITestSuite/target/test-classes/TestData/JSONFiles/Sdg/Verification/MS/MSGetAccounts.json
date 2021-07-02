@@ -1,0 +1,51 @@
+{
+    "account": [
+        {
+            "CONTAINER": "bank",
+            "providerAccountId": "${json-unit.ignore}",
+            "accountName": "${json-unit.ignore}",
+            "accountStatus": "ACTIVE",
+            "accountNumber": "${json-unit.ignore}",
+            "aggregationSource": "USER",
+            "isAsset": true,
+            "balance": {
+                "amount": 20000,
+                "currency": "USD"
+            },
+            "id": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "includeInNetWorth": true,
+            "providerId": "18476",
+            "providerName": "Siam Commercial Bank",
+            "isManual": false,
+            "availableBalance": {
+                "amount": 20000,
+                "currency": "USD"
+            },
+            "currentBalance": {
+                "amount": 20000,
+                "currency": "USD"
+            },
+            "accountType": "SAVINGS",
+            "displayedName": "mutiple holder name primary1",
+            "createdDate": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "name": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "name": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ]
+        }
+    ]
+}

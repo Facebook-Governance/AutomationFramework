@@ -1,0 +1,93 @@
+{
+  "provider": [
+    {
+      "PRIORITY": "COBRAND",
+      "id": 524,
+      "name": "U.S. Bank",
+      "loginUrl": "https://onlinebankingaggregators.usbank.com/auth/login",
+      "baseUrl": "https://www.usbank.com/index.html",
+      "favicon": "http://yodlee.vo.llnwd.net/v1/FAVICON/FAV_524.PNG",
+      "logo": "http://yodlee.vo.llnwd.net/v1/LOGO/LOGO_Default.SVG",
+      "status": "Supported",
+      "languageISOCode": "EN",
+      "primaryLanguageISOCode": "EN",
+      "countryISOCode": "US",
+      "lastModified": "${json-unit.ignore}",
+      "forgetPasswordUrl": "https://onlinebanking.usbank.com/Auth/LoginAssistanceDesktop/LoadLoginAssistance?type\u003dpid",
+      "isAutoRefreshEnabled": true,
+      "dataset": [
+        {
+          "name": "ACCT_PROFILE",
+          "attribute": [
+            {
+              "name": "FULL_ACCT_NUMBER",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "BANK_TRANSFER_CODE",
+              "container": [
+                "bank"
+              ]
+            },
+            {
+              "name": "HOLDER_NAME",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DOCUMENT",
+          "attribute": [
+            {
+              "name": "STATEMENTS",
+              "container": [
+                "bank"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BASIC_AGG_DATA",
+          "attribute": [
+            {
+              "name": "ACCOUNT_DETAILS",
+              "container": [
+                "bank",
+                "loan",
+                "investment",
+                "creditCard"
+              ]
+            },
+            {
+              "name": "HOLDINGS",
+              "container": [
+                "investment"
+              ]
+            },
+            {
+              "name": "STATEMENTS",
+              "container": [
+                "loan",
+                "creditCard"
+              ]
+            },
+            {
+              "name": "TRANSACTIONS",
+              "container": [
+                "bank",
+                "loan",
+                "investment",
+                "creditCard"
+              ]
+            }
+          ]
+        }
+      ],
+      "authType": "MFA_CREDENTIALS"
+    }
+  ]
+}

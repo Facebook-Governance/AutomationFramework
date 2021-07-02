@@ -1,0 +1,114 @@
+{
+    "transaction": [
+        {
+            "CONTAINER": "investment",
+            "id": "${json-unit.ignore}",
+            "amount": {
+                "amount": 123456,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "commission": {
+                "amount": 125,
+                "currency": "USD"
+            },
+            "categoryType": "${json-unit.ignore}",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "${json-unit.ignore}"
+            },
+            "date": "2017-09-29",
+            "transactionDate": "2017-09-29",
+            "isManual": false,
+            "status": "POSTED",
+            "sourceType": "AGGREGATED",
+            "cusipNumber": "459200101",
+            "price": {
+                "amount": 158,
+                "currency": "USD"
+            },
+            "quantity": 2000,
+            "symbol": "IBM",
+            "accountId": "${json-unit.ignore}"
+        },
+        {
+            "CONTAINER": "investment",
+            "id": "${json-unit.ignore}",
+            "amount": {
+                "amount": 123456,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "commission": {
+                "amount": 125,
+                "currency": "USD"
+            },
+            "categoryType": "${json-unit.ignore}",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "${json-unit.ignore}"
+            },
+            "date": "2017-08-29",
+            "transactionDate": "2017-08-29",
+            "isManual": false,
+            "status": "POSTED",
+            "sourceType": "AGGREGATED",
+            "cusipNumber": "060505104",
+            "price": {
+                "amount": 19.02,
+                "currency": "USD"
+            },
+            "quantity": 2000,
+            "symbol": "BAC",
+            "accountId": "${json-unit.ignore}"
+        },
+        {
+            "CONTAINER": "investment",
+            "id": "${json-unit.ignore}",
+            "amount": {
+                "amount": 123456,
+                "currency": "USD"
+            },
+            "baseType": "CREDIT",
+            "type": "LOAN_PAYMENT",
+            "commission": {
+                "amount": 125,
+                "currency": "USD"
+            },
+            "categoryType": "${json-unit.ignore}",
+            "categoryId": "${json-unit.ignore}",
+            "category": "${json-unit.ignore}",
+            "categorySource": "SYSTEM",
+            "highLevelCategoryId": "${json-unit.ignore}",
+            "createdDate": "${json-unit.ignore}",
+            "lastUpdated": "${json-unit.ignore}",
+            "description": {
+                "original": "${json-unit.ignore}"
+            },
+            "date": "2017-08-29",
+            "transactionDate": "2017-08-29",
+            "settleDate": "2016-12-27",
+            "isManual": false,
+            "status": "POSTED",
+            "sourceType": "AGGREGATED",
+            "cusipNumber": "ASDFLKJGH1234",
+            "price": {
+                "amount": 123,
+                "currency": "USD"
+            },
+            "quantity": 2345,
+            "symbol": "IBM",
+            "accountId": "${json-unit.ignore}"
+        }
+    ]
+}

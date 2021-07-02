@@ -1,0 +1,145 @@
+{
+    "account": [
+        {
+            "includeInNetWorth": true,
+            "accountName": "TESTDATA1",
+            "currentBalance": {
+                "amount": 9044.78,
+                "currency": "USD"
+            },
+            "accountType": "SAVINGS",
+            "isManual": false,
+            "displayedName": "accountHolder",
+            "accountNumber": "xxxx1123",
+            "availableBalance": {
+                "amount": 65454.78,
+                "currency": "USD"
+            },
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+            "fullAccountNumber": "209754321123456789",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 9044.78,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "16441",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Dag Site"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "TESTDATA",
+            "currentBalance": {
+                "amount": 44.78,
+                "currency": "USD"
+            },
+            "accountType": "CHECKING",
+            "isManual": false,
+            "displayedName": "accountHolder",
+            "accountNumber": "xxxx5623",
+            "availableBalance": {
+                "amount": 54.78,
+                "currency": "USD"
+            },
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+            "fullAccountNumber": "12345678909754321",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 44.78,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "16441",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "bank",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Dag Site"
+        },
+        {
+            "includeInNetWorth": true,
+            "accountName": "DAG INVESTMENT",
+            "accountType": "OTHER",
+            "isManual": false,
+            "displayedName": "DAG",
+            "accountNumber": "xxxx5555",
+            "accountStatus": "ACTIVE",
+            "lastUpdated": "${json-unit.ignore}",
+            "isAsset": true,
+            "createdDate": "${json-unit.ignore}",
+            "balance": {
+                "amount": 79629,
+                "currency": "USD"
+            },
+            "aggregationSource": "USER",
+            "providerId": "16441",
+            "providerAccountId": "${json-unit.ignore}",
+            "CONTAINER": "investment",
+            "id": "${json-unit.ignore}",
+            "userClassification": "PERSONAL",
+            "dataset": [
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "ACCT_PROFILE",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "updateEligibility": "DISALLOW_UPDATE",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "name": "BASIC_AGG_DATA",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                }
+            ],
+            "providerName": "Dag Site",
+            "bankTransferCode": [
+                {
+                    "id": "1234567890123456789123456890",
+                    "type": "IFSC"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "providerAccount": [
+        {
+            "id": "${json-unit.ignore}",
+            "aggregationSource": "USER",
+            "providerId": 18476,
+            "isManual": false,
+            "createdDate": "${json-unit.ignore}",
+            "status": "SUCCESS",
+            "dataset": [
+                {
+                    "name": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "lastUpdateAttempt": "${json-unit.ignore}"
+                },
+                {
+                    "name": "${json-unit.ignore}",
+                    "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+                    "updateEligibility": "${json-unit.ignore}",
+                    "lastUpdated": "${json-unit.ignore}",
+                    "lastUpdateAttempt": "${json-unit.ignore}",
+                    "nextUpdateScheduled": "2018-10-19T18:42:28Z"
+                }
+            ]
+        }
+    ]
+}

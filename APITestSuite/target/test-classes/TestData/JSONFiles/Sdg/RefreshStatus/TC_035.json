@@ -1,0 +1,22 @@
+{
+  "providerAccount": [
+    {
+      "lastUpdated": "2017-09-03T18:30:00Z",
+      "createdDate": "2017-09-04",
+      "aggregationSource": "USER",
+      "providerId": 16609,
+      "isManual": false,
+      "id": 2201277,
+      "dataset": [
+        {
+          "updateEligibility": "ALLOW_UPDATE",
+          "lastUpdated": "2017-09-04T07:23:05Z",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdateAttempt": "2017-09-04T07:23:05Z"
+        }
+      ],
+      "status": "SUCCESS"
+    }
+  ]
+}

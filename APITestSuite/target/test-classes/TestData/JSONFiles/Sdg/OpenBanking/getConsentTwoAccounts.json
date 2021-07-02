@@ -1,0 +1,60 @@
+{
+    "consent": [
+        {
+            "consentId": "${json-unit.ignore}",
+            "title": "${json-unit.ignore}",
+            "titleBody": "${json-unit.ignore}",
+            "expirationDate": "${json-unit.ignore}",
+            "dataAccessFrequency": "RECURRING",
+            "consentStatus": "ACTIVE",
+            "providerId": 24016,
+            "providerAccountId": "${json-unit.ignore}",
+            "scope": [
+                {
+                    "scopeId": "${json-unit.ignore}",
+                    "title": "${json-unit.ignore}",
+                    "titleBody": [
+                        "${json-unit.ignore}",
+                        "${json-unit.ignore}"
+                    ]
+                },
+                {
+                    "scopeId": "${json-unit.ignore}",
+                    "title": "${json-unit.ignore}",
+                    "titleBody": [
+                        "${json-unit.ignore}",
+                        "${json-unit.ignore}"
+                    ]
+                }
+            ]
+        },
+          {
+            "consentId": "${json-unit.ignore}",
+            "title": "${json-unit.ignore}",
+            "titleBody": "${json-unit.ignore}",
+            "expirationDate": "${json-unit.ignore}",
+            "dataAccessFrequency": "RECURRING",
+            "consentStatus": "ACTIVE",
+            "providerId": 24016,
+            "providerAccountId": "${json-unit.ignore}",
+            "scope": [
+                {
+                    "scopeId": "${json-unit.ignore}",
+                    "title": "${json-unit.ignore}",
+                    "titleBody": [
+                        "${json-unit.ignore}",
+                        "${json-unit.ignore}"
+                    ]
+                },
+                {
+                    "scopeId": "${json-unit.ignore}",
+                    "title": "${json-unit.ignore}",
+                    "titleBody": [
+                        "${json-unit.ignore}",
+                        "${json-unit.ignore}"
+                    ]
+                }
+            ]
+        }
+    ]
+}

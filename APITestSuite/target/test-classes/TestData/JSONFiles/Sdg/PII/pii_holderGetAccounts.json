@@ -1,0 +1,147 @@
+{
+	"account": [{
+			"holder": [{
+				"phoneNumber": [{
+					"value": "87654321",
+					"type": "landline"
+				}],
+				"ownership": "SECONDARY",
+				"address": [{
+					"zip": "560068",
+					"state": "TestPII_Investment_Karnataka",
+					"address1": "#78,2nd Cross",
+					"type": "HOME",
+					"city": "TestPII_Investment_Bangalore"
+				}],
+				"name": {
+					"last": "Verma",
+					"fullName": "Bhawana Verma",
+					"first": "Bhawana"
+				}
+			}],
+			"CONTAINER": "investment",
+			"isManual": false,
+			"isAsset": true,
+			"lastUpdated": "${json-unit.ignore}",
+			"displayedName": "Bhawana Verma",
+			"url": "file:///opt/sdp/dap/TestSite/Generic_TestSite/InvestmentAccountDetailsPage3.html",
+			"dataSet": [{
+				"lastUpdateAttempt": "${json-unit.ignore}",
+				"updateEligibility": "DISALLOW_UPDATE",
+				"name": "ACCT_PROFILE",
+				"additionalStatus": "AVAILABLE_DATA_RETRIEVED"
+			}],
+			"id": "${json-unit.ignore}",
+			"balance": {
+				"amount": 62500,
+				"currency": "USD"
+			},
+			"accountName": "InvestmentAccount3",
+			"aggregationSource": "USER",
+			"accountNumber": "xxx7890",
+			"providerName": "HSBC",
+			"accountStatus": "ACTIVE",
+			"accountType": "OTHER",
+			"providerId": "19686",
+			"includeInNetWorth": true,
+			"createdDate": "${json-unit.ignore}",
+			"providerAccountId": "${json-unit.ignore}"
+		},
+		{
+			"holder": [{
+				"phoneNumber": [{
+					"value": "87654321",
+					"type": "landline"
+				}],
+				"ownership": "SECONDARY",
+				"address": [{
+					"zip": "560068",
+					"state": "TestPII_Investment_Karnataka",
+					"address1": "#78,2nd Cross",
+					"type": "HOME",
+					"city": "TestPII_Investment_Bangalore"
+				}],
+				"name": {
+					"last": "Verma",
+					"fullName": "Bhawana Verma",
+					"first": "Bhawana"
+				}
+			}],
+			"CONTAINER": "investment",
+			"isManual": false,
+			"isAsset": true,
+			"lastUpdated": "${json-unit.ignore}",
+			"displayedName": "Bhawana Verma",
+			"url": "file:///opt/sdp/dap/TestSite/Generic_TestSite/InvestmentAccountDetailsPage2.html",
+			"dataSet": [{
+				"lastUpdateAttempt": "${json-unit.ignore}",
+				"updateEligibility": "ALLOW_UPDATE",
+				"name": "ACCT_PROFILE",
+				"additionalStatus": "AVAILABLE_DATA_RETRIEVED"
+			}],
+			"id": "${json-unit.ignore}",
+			"balance": {
+				"amount": 62500,
+				"currency": "USD"
+			},
+			"accountName": "InvestmentAccount2",
+			"aggregationSource": "USER",
+			"accountNumber": "xxxx4562",
+			"providerName": "HSBC",
+			"accountStatus": "ACTIVE",
+			"accountType": "OTHER",
+			"providerId": "19686",
+			"includeInNetWorth": true,
+			"createdDate": "${json-unit.ignore}",
+			"providerAccountId": "${json-unit.ignore}"
+		},
+		{
+			"holder": [{
+				"phoneNumber": [{
+					"value": "87654321",
+					"type": "landline"
+				}],
+				"ownership": "SECONDARY",
+				"address": [{
+					"zip": "560068",
+					"state": "TestPII_Investment_Karnataka",
+					"address1": "#78,2nd Cross",
+					"type": "HOME",
+					"city": "TestPII_Investment_Bangalore"
+				}],
+				"name": {
+					"last": "Verma",
+					"fullName": "Bhawana Verma",
+					"first": "Bhawana"
+				}
+			}],
+			"CONTAINER": "investment",
+			"isManual": false,
+			"isAsset": true,
+			"lastUpdated": "${json-unit.ignore}",
+			"displayedName": "Bhawana Verma",
+			"url": "file:///opt/sdp/dap/TestSite/Generic_TestSite/InvestmentAccountDetailsPage1.html",
+			"dataSet": [{
+				"lastUpdateAttempt": "${json-unit.ignore}",
+				"updateEligibility": "DISALLOW_UPDATE",
+				"name": "ACCT_PROFILE",
+				"additionalStatus": "AVAILABLE_DATA_RETRIEVED"
+			}],
+			"id": "${json-unit.ignore}",
+			"balance": {
+				"amount": 62500,
+				"currency": "USD"
+			},
+			"accountName": "InvestmentAccount1",
+			"aggregationSource": "USER",
+			"accountNumber": "xxx5555",
+			"providerName": "HSBC",
+			"accountStatus": "ACTIVE",
+			"accountType": "OTHER",
+			"providerId": "19686",
+			"includeInNetWorth": true,
+			"createdDate": "${json-unit.ignore}",
+			"providerAccountId": "${json-unit.ignore}"
+		}
+	]
+}

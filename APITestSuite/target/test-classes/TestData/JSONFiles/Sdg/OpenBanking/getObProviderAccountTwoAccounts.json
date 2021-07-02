@@ -1,0 +1,42 @@
+{
+	"providerAccount": [
+		{
+			"id": "${json-unit.ignore}",
+			"aggregationSource": "USER",
+			"providerId": 24016,
+			"isManual": false,
+			"createdDate": "${json-unit.ignore}",
+			"status": "SUCCESS",
+			"consentId": "${json-unit.ignore}",
+			"dataset": [
+				{
+					"name": "BASIC_AGG_DATA",
+					"additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+					"updateEligibility": "${json-unit.ignore}",
+					"lastUpdated": "${json-unit.ignore}",
+					"lastUpdateAttempt": "${json-unit.ignore}",
+					"nextUpdateScheduled": "${json-unit.ignore}"
+				}
+			]
+		},
+		{
+			"id": "${json-unit.ignore}",
+			"aggregationSource": "USER",
+			"providerId": 24016,
+			"isManual": false,
+			"createdDate": "${json-unit.ignore}",
+			"status": "SUCCESS",
+			"consentId": "${json-unit.ignore}",
+			"dataset": [
+				{
+					"name": "BASIC_AGG_DATA",
+					"additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+					"updateEligibility": "${json-unit.ignore}",
+					"lastUpdated": "${json-unit.ignore}",
+					"lastUpdateAttempt": "${json-unit.ignore}",
+					"nextUpdateScheduled": "${json-unit.ignore}"
+				}
+			]
+		}
+	]
+}

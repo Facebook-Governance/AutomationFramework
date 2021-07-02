@@ -1,0 +1,25 @@
+{
+  "providerAccount": [
+    {
+      "id": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "providerId": "${json-unit.ignore}",
+      "isManual": false,
+      "createdDate": "${json-unit.ignore}",
+      "status": "LOGIN_IN_PROGRESS",
+      "requestId": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "name": "BASIC_AGG_DATA",
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        },
+        {
+          "name": "ACCT_PROFILE",
+          "updateEligibility": "DISALLOW_UPDATE"
+        }
+      ]
+    }
+  ]
+}

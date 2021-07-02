@@ -1,0 +1,39 @@
+{
+  "account": [
+    {
+      "CONTAINER": "loan",
+      "providerAccountId": "${json-unit.ignore}",
+      "accountName": "${json-unit.ignore}",
+      "accountStatus": "ACTIVE",
+      "aggregationSource": "USER",
+      "accountNumber": "${json-unit.ignore}",
+      "interestRateType": "${json-unit.ignore}",
+      "isAsset": false,
+      "balance": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "id": "${json-unit.ignore}",
+      "lastUpdated": "${json-unit.ignore}",
+      "includeInNetWorth": true,
+      "providerId": "5",
+      "providerName": "Wells Fargo",
+      "isManual": false,
+      "accountType": "AUTO_LOAN",
+      "principalBalance": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "createdDate": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "name": "ACCT_PROFILE",
+          "additionalStatus": "DATA_NOT_AVAILABLE",
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ]
+    }
+  ]
+}

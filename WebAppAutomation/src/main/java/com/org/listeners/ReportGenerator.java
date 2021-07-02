@@ -34,7 +34,7 @@ import com.org.Util.BaseClass;
 public class ReportGenerator implements ITestListener {
 	public final static String PROJECT_HOME = System.getProperty("user.dir");
 	private static String EXTENT_REPORT_FILE = PROJECT_HOME + File.separator + "NewExtentReports" + File.separator
-			+ "CompleteReport"+new SimpleDateFormat("dd-MM-yyyy HH-mm").format(new Date())+".html";
+			+ "CompleteReport" + new SimpleDateFormat("dd-MM-yyyy HH-mm").format(new Date()) + ".html";
 	private String EXTENT_REPORT_PATH = PROJECT_HOME + File.separator + "NewExtentReports" + File.separator
 			+ "SuiteWiseReports" + File.separator;
 	private Logger log = LoggerFactory.getLogger(this.getClass().getSimpleName());
@@ -46,12 +46,11 @@ public class ReportGenerator implements ITestListener {
 	public static ExtentTest logger;
 	public static ExtentTest moduleWiseLogger;
 	private String suiteName;
-	private String methodParameters="";
+	private String methodParameters = "";
 	public static int passed, failed, skipped;
 	Date startTime, endTime;
 	private static boolean didOnTestStartGotExecuted = false;
 
-	
 	public void onTestFailure(ITestResult result) {
 		try {
 			endTime = new Date();
@@ -63,7 +62,7 @@ public class ReportGenerator implements ITestListener {
 			 * .takeScreenshot(TestBase.getDriver()); base64OfScreenShot =
 			 * imgToBase64String(screenshot.getImage(), "png"); } catch (Exception e) { }
 			 */
-			base64OfScreenShot = ((TakesScreenshot)BaseClass.driver).getScreenshotAs(OutputType.BASE64);
+			base64OfScreenShot = ((TakesScreenshot) BaseClass.driver).getScreenshotAs(OutputType.BASE64);
 			logger.log(Status.INFO, "<img height=\"195\" width=\"195\" src='data:image/png;charset=utf-8;base64,"
 					+ base64OfScreenShot
 					+ "'  onmouseover=\"bigImg(this)\" onmouseout=\"normalImg(this)\"> Mouse Hover Here For Screenshot </img>"
@@ -115,7 +114,6 @@ public class ReportGenerator implements ITestListener {
 		log.info("****************************************************************************************\n");
 	}
 
-
 	public void onTestStart(ITestResult result) {
 		didOnTestStartGotExecuted = true;
 		String testName = result.getName();
@@ -137,7 +135,7 @@ public class ReportGenerator implements ITestListener {
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
-	
+
 		log.info("\n\n" + "<< --- TestCase START --->> " + testName + methodParameters + "\n");
 		logger = extent.createTest(testName + methodParameters);
 		logger.assignCategory(suiteName);
@@ -152,7 +150,6 @@ public class ReportGenerator implements ITestListener {
 		startTime = new Date();
 		filename = testName;
 	}
-
 
 	public void onTestSuccess(ITestResult result) {
 		passed++;
@@ -170,7 +167,6 @@ public class ReportGenerator implements ITestListener {
 		didOnTestStartGotExecuted = false;
 	}
 
-	
 	public void onTestSkipped(ITestResult result) {
 		skipped++;
 		String testName = result.getName();
@@ -194,12 +190,10 @@ public class ReportGenerator implements ITestListener {
 		didOnTestStartGotExecuted = false;
 	}
 
-	
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		log.info("\n\n TestCase: " + result.getName() + ": --->>> FAILED With percentage");
 	}
 
-	
 	public void onStart(ITestContext context) {
 		log.info("****************************************************************************************");
 		log.info("                                " + context.getName() + "       ");

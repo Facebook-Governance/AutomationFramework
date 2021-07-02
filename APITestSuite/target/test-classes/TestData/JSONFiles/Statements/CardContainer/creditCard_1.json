@@ -1,0 +1,32 @@
+{
+    "statement": [
+        {
+            "id": "${json-unit.ignore}",
+            "accountId": "${json-unit.ignore}",
+            "statementDate": "2013-12-30",
+            "billingPeriodStart": "2013-08-25",
+            "billingPeriodEnd": "2013-08-25",
+            "dueDate": "2013-02-14",
+            "lastPaymentDate": "2013-12-30",
+            "lastUpdated": "${json-unit.ignore}",
+            "minimumPayment": {
+                "amount": 200.00,
+                "currency": "USD"
+            },
+            "newCharges": {
+                "amount": 7000.00,
+                "currency": "USD"
+            },
+            "amountDue": {
+                "amount": 10000.00,
+                "currency": "USD"
+            },
+            "lastPaymentAmount": {
+                "amount": 10000.00,
+                "currency": "USD"
+            },
+            "apr": 1234.00,
+            "isLatest": true
+        }
+    ]
+}

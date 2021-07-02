@@ -1,0 +1,21 @@
+{
+  "providerAccount": [
+    {
+      "createdDate": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "providerId": "${json-unit.ignore}",
+      "isManual": false,
+      "id": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "name": "BASIC_AGG_DATA",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ],
+      "status": "SUCCESS"
+    }
+  ]
+}

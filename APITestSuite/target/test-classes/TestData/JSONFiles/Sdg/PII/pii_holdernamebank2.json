@@ -1,0 +1,60 @@
+{
+  "account": [
+    {
+      "includeInNetWorth": true,
+      "accountName": "BankAccount3",
+      "isManual": false,
+      "currentBalance": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "accountType": "OTHER",
+      "displayedName": "single holder Name",
+      "holder": [
+        {
+          "ownership": "PRIMARY",
+          "name": {
+            "middle": "holder",
+            "last": "Name",
+            "fullName": "single holder Name",
+            "first": "single"
+          },
+          "email": [
+            {
+              "type": "OTHERS",
+              "value": "single@gmail.com"
+            }
+          ]
+        }
+      ],
+      "accountNumber": "xxxx8803",
+      "availableBalance": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "accountStatus": "ACTIVE",
+      "lastUpdated": "${json-unit.ignore}",
+      "isAsset": true,
+      "createdDate": "${json-unit.ignore}",
+      "aggregationSource": "USER",
+      "balance": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "providerId": "19705",
+      "providerAccountId": "${json-unit.ignore}",
+      "CONTAINER": "bank",
+      "id": "${json-unit.ignore}",
+      "dataset": [
+        {
+          "updateEligibility": "DISALLOW_UPDATE",
+          "lastUpdated": "${json-unit.ignore}",
+          "additionalStatus": "AVAILABLE_DATA_RETRIEVED",
+          "name": "ACCT_PROFILE",
+          "lastUpdateAttempt": "${json-unit.ignore}"
+        }
+      ],
+      "providerName": "HongLeong Bank"
+    }
+  ]
+}
